@@ -5,6 +5,7 @@ import requests
 from datetime import datetime, timezone
 
 AIRNOW_KEY = os.environ.get("AIRNOW_KEY", "")
+WAQI_KEY   = os.environ.get("WAQI_KEY", "")
 
 def load_trails(path="seeds/trails.csv"):
     trails = []
@@ -44,33 +45,69 @@ def fetch_aqi(lat, lng):
         if data:
             best = sorted(data, key=lambda x: x.get("AQI", 0), reverse=True)[0]
             return {
-                "aqi": best.get("AQI"),
-                "category": best.get("Category", {}).get("Name", "Unknown"),
+                "aqi":       best.get("AQI"),
+                "category":  best.get("Category", {}).get("Name", "Unknown"),
                 "pollutant": best.get("ParameterName", "")
             }
     except Exception as e:
         print(f"  AQI error: {e}")
     return {"aqi": None, "category": "Unknown", "pollutant": ""}
 
+def fetch_river(gauge_id):
+    if not gauge_id or not gauge_id.strip():
+        return None
+    url = (
+        f"https://waterservices.usgs.gov/nwis/iv/"
+        f"?sites={gauge_id.strip()}&parameterCd=00060&format=json"
+    )
+    try:
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        series = data["value"]["timeSeries"]
+        if not series:
+            return None
+        values = series[0]["values"][0]["value"]
+        if not values:
+            return None
+        cfs = float(values[-1]["value"])
+        if cfs < 100:   stage = "low"
+        elif cfs < 500: stage = "normal"
+        elif cfs < 2000: stage = "high"
+        else:            stage = "flood"
+        return {"cfs": round(cfs), "stage": stage}
+    except Exception as e:
+        print(f"  river error ({gauge_id}): {e}")
+        return None
+
 def compute_score(weather, aqi_data):
     score = 0
+
+    # Weather — 40 pts
     if weather and "current" in weather:
-        c = weather["current"]
-        temp  = c.get("temperature_2m", 999)
-        wind  = c.get("wind_speed_10m", 999)
-        rain  = c.get("precipitation_probability", 100)
+        c    = weather["current"]
+        temp = c.get("temperature_2m", 999)
+        wind = c.get("wind_speed_10m", 999)
+        rain = c.get("precipitation_probability", 100)
         if 50 <= temp <= 75 and wind < 15 and rain < 10:
             score += 40
         elif 40 <= temp <= 85 and wind <= 25 and rain <= 30:
             score += 28
         elif 35 <= temp <= 95 and wind <= 35 and rain <= 60:
             score += 10
+
+    # AQI — 30 pts
     aqi = aqi_data.get("aqi") or 999
-    if aqi <= 50:   score += 30
+    if aqi <= 50:    score += 30
     elif aqi <= 100: score += 20
     elif aqi <= 150: score += 10
+
+    # Fire risk — 20 pts (hardcoded good until fetch_fires.py is integrated)
     score += 20
+
+    # Closure status — 10 pts (hardcoded open until USFS scraper is integrated)
     score += 10
+
     return min(score, 100)
 
 def score_label(score):
@@ -91,23 +128,32 @@ def gear_flags(weather, aqi_data):
         if c.get("precipitation_probability", 0) > 40:
             flags.append("rain gear recommended")
     aqi = aqi_data.get("aqi") or 0
-    if aqi > 100:  flags.append("N95 mask recommended")
-    elif aqi > 50: flags.append("mask for sensitive groups")
+    if aqi > 100:
+        flags.append("N95 mask recommended")
+    elif aqi > 50:
+        flags.append("mask for sensitive groups")
     return flags
 
 def process_trail(trail):
-    slug = trail.get("slug", "").strip()
-    lat  = trail.get("lat", "").strip()
-    lng  = trail.get("lng", "").strip()
+    slug      = trail.get("slug", "").strip()
+    lat       = trail.get("lat", "").strip()
+    lng       = trail.get("lng", "").strip()
+    gauge_id  = trail.get("usgs_gauge_id", "").strip()
+
     if not slug or not lat or not lng:
         print(f"  skipping {trail.get('name')} — missing slug/coords")
         return
+
     print(f"  fetching: {trail.get('name')}")
+
     weather  = fetch_weather(lat, lng)
     aqi_data = fetch_aqi(lat, lng)
+    river    = fetch_river(gauge_id)
     score    = compute_score(weather, aqi_data)
-    current = {}
+
+    current  = {}
     forecast = []
+
     if weather:
         c = weather.get("current", {})
         current = {
@@ -121,11 +167,12 @@ def process_trail(trail):
         for i, day in enumerate(daily.get("time", [])):
             forecast.append({
                 "date":     day,
-                "high_f":   round(daily.get("temperature_2m_max", [0]*10)[i]),
-                "low_f":    round(daily.get("temperature_2m_min",  [0]*10)[i]),
-                "rain_pct": round(daily.get("precipitation_probability_max", [0]*10)[i]),
-                "uv":       round(daily.get("uv_index_max", [0]*10)[i]),
+                "high_f":   round(daily.get("temperature_2m_max",          [0]*10)[i]),
+                "low_f":    round(daily.get("temperature_2m_min",           [0]*10)[i]),
+                "rain_pct": round(daily.get("precipitation_probability_max",[0]*10)[i]),
+                "uv":       round(daily.get("uv_index_max",                 [0]*10)[i]),
             })
+
     output = {
         "trail_id":    trail.get("trail_id"),
         "name":        trail.get("name"),
@@ -136,15 +183,23 @@ def process_trail(trail):
         "lng":         lng,
         "difficulty":  trail.get("difficulty"),
         "length_mi":   trail.get("length_mi"),
+        "gain_ft":     trail.get("gain_ft"),
+        "best_months": trail.get("best_months"),
+        "trail_type":  trail.get("trail_type"),
+        "park_name":   trail.get("park_name"),
+        "alerts_url":  trail.get("alerts_url"),
         "status":      trail.get("trail_status", "Unknown"),
+        "notes":       trail.get("notes"),
         "score":       score,
         "score_label": score_label(score),
         "gear_flags":  gear_flags(weather, aqi_data),
         "current":     current,
         "aqi":         aqi_data,
+        "river":       river,
         "forecast":    forecast,
         "updated_at":  datetime.now(timezone.utc).isoformat(),
     }
+
     out_path = f"data/conditions/{slug}.json"
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
@@ -156,7 +211,10 @@ def main():
     print(f"Loaded {len(trails)} trails")
     for trail in trails:
         process_trail(trail)
-    meta = {"last_run": datetime.now(timezone.utc).isoformat(), "trail_count": len(trails)}
+    meta = {
+        "last_run":    datetime.now(timezone.utc).isoformat(),
+        "trail_count": len(trails)
+    }
     with open("data/meta/last_updated.json", "w") as f:
         json.dump(meta, f, indent=2)
     print("Done.")

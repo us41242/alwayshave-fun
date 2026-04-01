@@ -13,14 +13,15 @@
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
+    "insulation layer required",
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 46,
-    "feels_like_f": 38,
-    "wind_mph": 15,
-    "gusts_mph": 26,
-    "rain_pct": 69
+    "temp_f": 44,
+    "feels_like_f": 36,
+    "wind_mph": 14,
+    "gusts_mph": 24,
+    "rain_pct": 82
   },
   "aqi": {
     "aqi": 50,
@@ -29,17 +30,10 @@
   },
   "forecast": [
     {
-      "date": "2026-03-31",
-      "high_f": 64,
-      "low_f": 48,
-      "rain_pct": 63,
-      "uv": 3
-    },
-    {
       "date": "2026-04-01",
-      "high_f": 59,
+      "high_f": 58,
       "low_f": 41,
-      "rain_pct": 79,
+      "rain_pct": 82,
       "uv": 7
     },
     {
@@ -62,7 +56,14 @@
       "low_f": 40,
       "rain_pct": 1,
       "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 69,
+      "low_f": 47,
+      "rain_pct": 6,
+      "uv": 7
     }
   ],
-  "updated_at": "2026-04-01T06:22:51.581579+00:00"
+  "updated_at": "2026-04-01T07:00:49.700913+00:00"
 }

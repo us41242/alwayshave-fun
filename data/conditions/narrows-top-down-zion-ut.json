@@ -8,32 +8,41 @@
   "lng": "-112.911",
   "difficulty": "Hard",
   "length_mi": "16",
+  "gain_ft": "1680",
+  "best_months": "Jun\u2013Sep",
+  "trail_type": "Shuttle",
+  "park_name": "Zion National Park",
+  "alerts_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
   "status": "Open",
+  "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 43,
+    "temp_f": 42,
     "feels_like_f": 35,
-    "wind_mph": 11,
-    "gusts_mph": 25,
-    "rain_pct": 85
+    "wind_mph": 9,
+    "gusts_mph": 15,
+    "rain_pct": 82
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "O3"
+  },
+  "river": {
+    "cfs": 8910,
+    "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-01",
-      "high_f": 49,
+      "high_f": 48,
       "low_f": 38,
-      "rain_pct": 90,
+      "rain_pct": 88,
       "uv": 6
     },
     {
@@ -65,5 +74,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-01T07:00:51.186695+00:00"
+  "updated_at": "2026-04-01T07:39:51.326806+00:00"
 }

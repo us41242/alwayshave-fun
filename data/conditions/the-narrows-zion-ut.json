@@ -8,31 +8,40 @@
   "lng": "-112.9477",
   "difficulty": "Moderate",
   "length_mi": "9.4",
+  "gain_ft": "334",
+  "best_months": "May\u2013Oct",
+  "trail_type": "Out & back",
+  "park_name": "Zion National Park",
+  "alerts_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
   "status": "Open",
+  "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "rain gear recommended"
   ],
   "current": {
     "temp_f": 50,
-    "feels_like_f": 43,
-    "wind_mph": 11,
-    "gusts_mph": 25,
-    "rain_pct": 84
+    "feels_like_f": 45,
+    "wind_mph": 7,
+    "gusts_mph": 20,
+    "rain_pct": 81
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "O3"
+  },
+  "river": {
+    "cfs": 8910,
+    "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-01",
-      "high_f": 57,
+      "high_f": 56,
       "low_f": 45,
-      "rain_pct": 89,
+      "rain_pct": 86,
       "uv": 5
     },
     {
@@ -64,5 +73,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-01T07:00:29.659382+00:00"
+  "updated_at": "2026-04-01T07:39:28.698641+00:00"
 }

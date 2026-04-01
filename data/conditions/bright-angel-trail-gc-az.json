@@ -8,7 +8,13 @@
   "lng": "-112.143",
   "difficulty": "Hard",
   "length_mi": "18",
+  "gain_ft": "4380",
+  "best_months": "Oct\u2013Apr",
+  "trail_type": "Out & back",
+  "park_name": "Grand Canyon NP",
+  "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
+  "notes": "Summer heat extreme \u2014 start before sunrise",
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
@@ -17,23 +23,27 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 41,
+    "temp_f": 42,
     "feels_like_f": 33,
-    "wind_mph": 13,
-    "gusts_mph": 21,
-    "rain_pct": 81
+    "wind_mph": 15,
+    "gusts_mph": 27,
+    "rain_pct": 87
   },
   "aqi": {
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "O3"
+  },
+  "river": {
+    "cfs": 7750,
+    "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-01",
       "high_f": 54,
-      "low_f": 37,
-      "rain_pct": 83,
+      "low_f": 38,
+      "rain_pct": 85,
       "uv": 7
     },
     {
@@ -65,5 +75,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-01T07:00:43.311949+00:00"
+  "updated_at": "2026-04-01T07:39:42.758521+00:00"
 }

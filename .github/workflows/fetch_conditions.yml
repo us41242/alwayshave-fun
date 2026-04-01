@@ -1,10 +1,16 @@
 name: Fetch Trail Conditions
 
 on:
+  schedule:
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: fetch-conditions
+  cancel-in-progress: true
 
 jobs:
   fetch:

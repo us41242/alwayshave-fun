@@ -1,16 +1,10 @@
 name: Fetch Trail Conditions
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: fetch-conditions
-  cancel-in-progress: true
 
 jobs:
   fetch:
@@ -19,6 +13,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,18 +25,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch and commit data
+      - name: Run fetch scripts
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --hard origin/main
           python3 scripts/fetch_conditions.py
           python3 scripts/generate_sitemap.py
-          git add data/ site/
-          git diff --staged --quiet || git commit -m "data: update trail conditions $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push --force
         env:
           AIRNOW_KEY: ${{ secrets.AIRNOW_KEY }}
           WAQI_KEY: ${{ secrets.WAQI_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: update trail conditions"
+          file_pattern: "data/ site/"
+          branch: main

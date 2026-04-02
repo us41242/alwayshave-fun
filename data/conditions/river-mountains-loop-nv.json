@@ -15,16 +15,60 @@
   "alerts_url": "https://rivermountainstrail.org/",
   "status": "Open",
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
-  "current": {},
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 56,
+    "feels_like_f": 48,
+    "wind_mph": 11,
+    "gusts_mph": 30,
+    "rain_pct": 0
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-02T11:25:47.889698+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-02",
+      "high_f": 79,
+      "low_f": 55,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 67,
+      "low_f": 47,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 77,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 82,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 80,
+      "low_f": 63,
+      "rain_pct": 0,
+      "uv": 5
+    }
+  ],
+  "updated_at": "2026-04-02T12:07:28.549848+00:00"
 }

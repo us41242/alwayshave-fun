@@ -8,6 +8,7 @@
   <link rel="canonical" id="canonical" href="https://alwayshave.fun">
   <meta property="og:title" id="og-title" content="Trail Conditions | alwayshave.fun">
   <meta property="og:description" id="og-desc" content="Live trail conditions, weather, AQI, and gear recommendations.">
+  <meta property="og:image" id="og-image" content="https://alwayshave.fun/photos/LANDINGcathedral-rock-sedona-az.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" id="og-url" content="https://alwayshave.fun">
   <meta property="og:site_name" content="alwayshave.fun">
@@ -28,7 +29,6 @@
       --text-muted: #8b949e;
       --text-subtle: #6e7681;
       --brand: #22c55e;
-      --brand-dim: #16a34a;
     }
 
     body {
@@ -41,103 +41,176 @@
 
     /* ── NAV ─────────────────────────────────────── */
     nav {
-      border-bottom: 1px solid var(--border);
-      padding: 14px 20px;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 200;
+      padding: 14px 24px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      position: sticky;
-      top: 0;
-      background: rgba(12,17,23,0.92);
-      backdrop-filter: blur(10px);
-      z-index: 100;
+      background: transparent;
+      transition: background 0.3s, border-color 0.3s;
+      border-bottom: 1px solid transparent;
+    }
+    nav.scrolled {
+      background: rgba(12,17,23,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom-color: var(--border);
     }
     .nav-logo {
-      font-weight: 800;
+      font-weight: 900;
       font-size: 1.05rem;
-      color: var(--brand);
+      color: #fff;
       text-decoration: none;
       letter-spacing: -0.02em;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
     }
+    nav.scrolled .nav-logo { color: var(--brand); text-shadow: none; }
     .nav-back {
-      color: var(--text-muted);
+      color: rgba(255,255,255,0.85);
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.84rem;
+      font-weight: 500;
       display: flex;
       align-items: center;
       gap: 5px;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
       transition: color 0.15s;
     }
-    .nav-back:hover { color: var(--text); }
+    nav.scrolled .nav-back { color: var(--text-muted); text-shadow: none; }
+    .nav-back:hover { color: #fff; }
+    nav.scrolled .nav-back:hover { color: var(--text); }
 
-    /* ── LAYOUT ──────────────────────────────────── */
-    main {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 20px 60px;
+    /* ── HERO IMAGE ──────────────────────────────── */
+    .hero-image {
+      position: relative;
+      height: 70vh;
+      min-height: 460px;
+      max-height: 700px;
+      background: linear-gradient(135deg, #1a2a1a 0%, #0c1117 100%);
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.4s ease;
     }
 
-    /* ── HERO ────────────────────────────────────── */
-    .hero { padding: 32px 0 20px; }
+    /* State-based gradient fallbacks (shown when no photo exists) */
+    .hero-image.state-NV { background: linear-gradient(160deg, #2d1a0e 0%, #1a0e0e 40%, #0c1117 100%); }
+    .hero-image.state-UT { background: linear-gradient(160deg, #2d1508 0%, #1f1208 40%, #0c1117 100%); }
+    .hero-image.state-AZ { background: linear-gradient(160deg, #1a0e2d 0%, #140a2d 40%, #0c1117 100%); }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(12,17,23,1)    0%,
+        rgba(12,17,23,0.75) 35%,
+        rgba(12,17,23,0.25) 65%,
+        rgba(12,17,23,0.1)  100%
+      );
+    }
+
+    .hero-content {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      max-width: 900px;
+      margin: 0 auto;
+      left: 0; right: 0;
+      padding: 0 24px 36px;
+    }
 
     .breadcrumb {
       display: flex;
       align-items: center;
       gap: 6px;
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      margin-bottom: 14px;
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 10px;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.08em;
     }
-    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
-    .breadcrumb a:hover { color: var(--brand); }
+    .breadcrumb a { color: rgba(255,255,255,0.55); text-decoration: none; transition: color 0.15s; }
+    .breadcrumb a:hover { color: rgba(255,255,255,0.9); }
 
-    .hero h1 {
-      font-size: clamp(1.75rem, 5vw, 2.6rem);
+    .hero-trail-name {
+      font-size: clamp(2rem, 5.5vw, 3.2rem);
       font-weight: 900;
       letter-spacing: -0.03em;
-      line-height: 1.1;
-      margin-bottom: 20px;
+      line-height: 1.05;
+      color: #fff;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.4);
+      margin-bottom: 16px;
     }
 
-    /* ── SCORE BANNER ────────────────────────────── */
-    .score-banner {
+    .hero-score-row {
       display: flex;
       align-items: center;
-      gap: 20px;
-      padding: 20px 22px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      background: var(--surface);
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .score-pill {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 50px;
+      padding: 8px 18px 8px 8px;
     }
     .score-circle {
-      width: 76px;
-      height: 76px;
+      width: 52px;
+      height: 52px;
       border-radius: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      flex-shrink: 0;
       font-weight: 900;
-      border: 3px solid currentColor;
+      border: 2.5px solid currentColor;
+      flex-shrink: 0;
     }
-    .score-circle .num { font-size: 1.8rem; line-height: 1; }
-    .score-circle .denom { font-size: 0.6rem; opacity: 0.65; margin-top: 1px; }
-    .score-info { flex: 1; min-width: 0; }
-    .score-label { font-size: 1.2rem; font-weight: 700; margin-bottom: 4px; }
-    .score-updated { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 10px; }
-    .score-bar-track {
-      height: 5px;
-      background: var(--surface2);
-      border-radius: 3px;
-      overflow: hidden;
+    .score-circle .num   { font-size: 1.3rem; line-height: 1; }
+    .score-circle .denom { font-size: 0.55rem; opacity: 0.6; }
+    .score-pill-info { display: flex; flex-direction: column; }
+    .score-pill-label   { font-size: 0.95rem; font-weight: 700; color: #fff; }
+    .score-pill-updated { font-size: 0.72rem; color: rgba(255,255,255,0.6); }
+
+    .hero-quick-stats {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
     }
-    .score-bar-fill {
-      height: 100%;
-      border-radius: 3px;
-      transition: width 0.9s cubic-bezier(0.4,0,0.2,1);
+    .hero-stat {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px;
+      padding: 7px 14px;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.85);
+      font-weight: 500;
+    }
+
+    /* ── PHOTO CREDIT ────────────────────────────── */
+    .photo-credit {
+      position: absolute;
+      bottom: 8px;
+      right: 12px;
+      font-size: 0.62rem;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.03em;
+    }
+
+    /* ── MAIN CONTENT ────────────────────────────── */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
     }
 
     /* ── METRIC CARDS ────────────────────────────── */
@@ -145,7 +218,7 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 10px;
-      margin: 20px 0;
+      margin-bottom: 14px;
     }
     @media (max-width: 580px) { .metrics { grid-template-columns: repeat(2, 1fr); } }
 
@@ -156,16 +229,33 @@
       padding: 14px 16px;
     }
     .metric-label {
-      font-size: 0.68rem;
+      font-size: 0.67rem;
       text-transform: uppercase;
       letter-spacing: 0.09em;
       color: var(--text-muted);
       margin-bottom: 8px;
     }
     .metric-value { font-size: 1.45rem; font-weight: 700; line-height: 1; }
-    .metric-sub { font-size: 0.73rem; color: var(--text-muted); margin-top: 5px; }
+    .metric-sub   { font-size: 0.72rem; color: var(--text-muted); margin-top: 5px; }
 
-    /* ── TRAIL INFO STRIP ────────────────────────── */
+    /* ── CARDS ───────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      font-size: 0.67rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    /* ── TRAIL INFO ──────────────────────────────── */
     .trail-info {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -185,34 +275,15 @@
       margin-bottom: 3px;
     }
     .trail-stat-value { font-size: 0.88rem; font-weight: 600; }
-
     .difficulty-easy    { color: #22c55e; }
-    .difficulty-moderate { color: #eab308; }
+    .difficulty-moderate{ color: #eab308; }
     .difficulty-hard    { color: #f97316; }
     .difficulty-expert  { color: #ef4444; }
 
-    /* ── STATUS CHECKLIST ────────────────────────── */
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px 18px;
-      margin-bottom: 12px;
-    }
-    .card-title {
-      font-size: 0.68rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--text-muted);
-      font-weight: 600;
-      margin-bottom: 12px;
-    }
+    /* ── STATUS ──────────────────────────────────── */
     .status-list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
     .status-item { display: flex; align-items: center; gap: 10px; font-size: 0.88rem; }
-    .dot {
-      width: 8px; height: 8px;
-      border-radius: 50%; flex-shrink: 0;
-    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .dot-green  { background: #22c55e; }
     .dot-yellow { background: #eab308; }
     .dot-red    { background: #ef4444; }
@@ -237,12 +308,7 @@
       gap: 8px;
       margin-top: 14px;
     }
-    .forecast-day {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 5px;
-    }
+    .forecast-day { display: flex; flex-direction: column; align-items: center; gap: 5px; }
     .forecast-label {
       font-size: 0.65rem;
       color: var(--text-muted);
@@ -251,29 +317,10 @@
       letter-spacing: 0.05em;
       line-height: 1.3;
     }
-    .forecast-chart {
-      width: 100%;
-      height: 72px;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
-    .bar-bg {
-      width: 28px;
-      height: 100%;
-      background: var(--surface2);
-      border-radius: 4px;
-      position: relative;
-      overflow: hidden;
-    }
-    .bar-fill {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      background: #3b82f6;
-      border-radius: 4px 4px 0 0;
-      min-height: 3px;
-    }
-    .forecast-pct { font-size: 0.68rem; color: #60a5fa; font-weight: 600; }
+    .forecast-chart { width: 100%; height: 72px; display: flex; align-items: flex-end; justify-content: center; }
+    .bar-bg { width: 28px; height: 100%; background: var(--surface2); border-radius: 4px; position: relative; overflow: hidden; }
+    .bar-fill { position: absolute; bottom: 0; left: 0; right: 0; background: #3b82f6; border-radius: 4px 4px 0 0; min-height: 3px; }
+    .forecast-pct  { font-size: 0.68rem; color: #60a5fa; font-weight: 600; }
     .forecast-high { font-size: 0.82rem; font-weight: 700; }
     .forecast-low  { font-size: 0.72rem; color: var(--text-muted); }
     .forecast-uv   { font-size: 0.62rem; color: var(--text-subtle); }
@@ -287,7 +334,7 @@
       margin-bottom: 12px;
     }
     .gear-title {
-      font-size: 0.68rem;
+      font-size: 0.67rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       color: #f59e0b;
@@ -307,9 +354,9 @@
       border-top: 1px solid var(--border);
     }
     .gear-item:first-of-type { border-top: none; padding-top: 0; }
-    .gear-name { font-size: 0.88rem; font-weight: 500; }
+    .gear-name  { font-size: 0.88rem; font-weight: 500; }
     .gear-links { display: flex; gap: 7px; flex-shrink: 0; }
-    .gear-link {
+    .gear-link  {
       padding: 4px 12px;
       border-radius: 5px;
       font-size: 0.75rem;
@@ -336,15 +383,11 @@
       transition: opacity 0.15s;
     }
     .btn:hover { opacity: 0.85; }
-    .btn-primary { background: var(--brand); color: #000; }
-    .btn-secondary {
-      background: transparent;
-      color: var(--text);
-      border: 1px solid var(--border);
-    }
+    .btn-primary   { background: var(--brand); color: #000; }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
     .btn-secondary:hover { border-color: var(--text-muted); }
 
-    /* ── EMAIL SIGNUP ────────────────────────────── */
+    /* ── EMAIL ───────────────────────────────────── */
     .email-section {
       background: linear-gradient(135deg, #0d1f15 0%, #0a1525 100%);
       border: 1px solid var(--border);
@@ -354,8 +397,8 @@
       text-align: center;
     }
     .email-heading { font-size: 1.05rem; font-weight: 700; margin-bottom: 5px; }
-    .email-sub { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 16px; }
-    .email-form { display: flex; gap: 8px; max-width: 380px; margin: 0 auto; }
+    .email-sub     { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 16px; }
+    .email-form    { display: flex; gap: 8px; max-width: 380px; margin: 0 auto; }
     @media (max-width: 460px) { .email-form { flex-direction: column; } }
     .email-input {
       flex: 1;
@@ -379,7 +422,6 @@
       font-size: 0.875rem;
       cursor: pointer;
       font-family: inherit;
-      white-space: nowrap;
     }
 
     /* ── FOOTER ──────────────────────────────────── */
@@ -395,28 +437,13 @@
     footer a:hover { color: var(--brand); }
 
     /* ── STATES ──────────────────────────────────── */
-    .loading-state {
-      padding: 100px 20px;
-      text-align: center;
-      color: var(--text-muted);
-    }
-    .spinner {
-      width: 38px; height: 38px;
-      border: 3px solid var(--surface2);
-      border-top-color: var(--brand);
-      border-radius: 50%;
-      animation: spin 0.75s linear infinite;
-      margin: 0 auto 16px;
-    }
+    .loading-state { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 70vh; color: var(--text-muted); gap: 14px; }
+    .spinner { width: 36px; height: 36px; border: 3px solid var(--surface2); border-top-color: var(--brand); border-radius: 50%; animation: spin 0.75s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
-    .error-state {
-      padding: 80px 20px;
-      text-align: center;
-      color: var(--text-muted);
-    }
+    .error-state { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh; color: var(--text-muted); gap: 12px; text-align: center; }
     .hidden { display: none !important; }
 
-    /* ── AQI COLORS ──────────────────────────────── */
+    /* ── AQI ─────────────────────────────────────── */
     .aqi-good           { color: #22c55e; }
     .aqi-moderate       { color: #eab308; }
     .aqi-sensitive      { color: #f97316; }
@@ -424,12 +451,16 @@
     .aqi-very-unhealthy { color: #a855f7; }
     .aqi-hazardous      { color: #dc2626; }
     .aqi-unknown        { color: var(--text-muted); }
+
+    /* ── SCORE BAR (below hero) ──────────────────── */
+    .score-bar-track { height: 3px; background: var(--border); margin-bottom: 20px; border-radius: 2px; overflow: hidden; }
+    .score-bar-fill  { height: 100%; border-radius: 2px; transition: width 0.9s cubic-bezier(0.4,0,0.2,1); }
   </style>
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav>
+  <!-- NAV (transparent over image, opaque on scroll) -->
+  <nav id="nav">
     <a href="/" class="nav-logo">alwayshave.fun</a>
     <a href="/" id="nav-back" class="nav-back">← All Trails</a>
   </nav>
@@ -442,55 +473,62 @@
 
   <!-- ERROR -->
   <div id="error" class="error-state hidden">
-    <p style="font-size:1.5rem;margin-bottom:12px">⚠️</p>
-    <p>Trail data unavailable. <a href="/" style="color:var(--brand)">Browse all trails →</a></p>
+    <p style="font-size:2rem">⚠️</p>
+    <p>Trail data unavailable.</p>
+    <a href="/" style="color:var(--brand);font-weight:600">Browse all trails →</a>
   </div>
 
-  <!-- MAIN (hidden until data loads) -->
-  <main id="content" class="hidden">
-
-    <!-- HERO -->
-    <section class="hero">
+  <!-- HERO IMAGE -->
+  <div class="hero-image hidden" id="hero-image">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
       <div class="breadcrumb">
-        <a href="/">Home</a>
-        <span>›</span>
-        <a href="#" id="bc-state">State</a>
-        <span>›</span>
+        <a href="/">Home</a> <span>›</span>
+        <a href="#" id="bc-state">State</a> <span>›</span>
         <span id="bc-trail">Trail</span>
       </div>
-      <h1 id="trail-name">—</h1>
-
-      <div class="score-banner">
-        <div class="score-circle" id="score-circle">
-          <span class="num" id="score-num">—</span>
-          <span class="denom">/100</span>
-        </div>
-        <div class="score-info">
-          <div class="score-label" id="score-label">—</div>
-          <div class="score-updated" id="score-updated">—</div>
-          <div class="score-bar-track">
-            <div class="score-bar-fill" id="score-bar" style="width:0%"></div>
+      <h1 class="hero-trail-name" id="trail-name">—</h1>
+      <div class="hero-score-row">
+        <div class="score-pill">
+          <div class="score-circle" id="score-circle">
+            <span class="num" id="score-num">—</span>
+            <span class="denom">/100</span>
+          </div>
+          <div class="score-pill-info">
+            <span class="score-pill-label" id="score-label">—</span>
+            <span class="score-pill-updated" id="score-updated">—</span>
           </div>
         </div>
+        <div class="hero-quick-stats" id="hero-quick-stats"></div>
       </div>
-    </section>
+    </div>
+    <div class="photo-credit" id="photo-credit"></div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main id="content" class="hidden">
+
+    <!-- Score progress bar -->
+    <div class="score-bar-track">
+      <div class="score-bar-fill" id="score-bar" style="width:0%"></div>
+    </div>
 
     <!-- METRIC CARDS -->
     <div class="metrics">
       <div class="metric-card">
         <div class="metric-label">🌡 Temperature</div>
         <div class="metric-value" id="m-temp">—</div>
-        <div class="metric-sub" id="m-feels">—</div>
+        <div class="metric-sub"  id="m-feels">—</div>
       </div>
       <div class="metric-card">
         <div class="metric-label">💨 Air Quality</div>
         <div class="metric-value" id="m-aqi">—</div>
-        <div class="metric-sub" id="m-aqi-cat">—</div>
+        <div class="metric-sub"  id="m-aqi-cat">—</div>
       </div>
       <div class="metric-card">
         <div class="metric-label">🌬 Wind</div>
         <div class="metric-value" id="m-wind">—</div>
-        <div class="metric-sub" id="m-gusts">—</div>
+        <div class="metric-sub"  id="m-gusts">—</div>
       </div>
       <div class="metric-card">
         <div class="metric-label">🌧 Rain Chance</div>
@@ -501,33 +539,15 @@
 
     <!-- TRAIL INFO -->
     <div class="trail-info">
-      <div>
-        <span class="trail-stat-label">Difficulty</span>
-        <span class="trail-stat-value" id="t-difficulty">—</span>
-      </div>
-      <div>
-        <span class="trail-stat-label">Distance</span>
-        <span class="trail-stat-value" id="t-length">—</span>
-      </div>
-      <div>
-        <span class="trail-stat-label">Elevation Gain</span>
-        <span class="trail-stat-value" id="t-gain">—</span>
-      </div>
-      <div>
-        <span class="trail-stat-label">Route Type</span>
-        <span class="trail-stat-value" id="t-type">—</span>
-      </div>
-      <div>
-        <span class="trail-stat-label">Best Months</span>
-        <span class="trail-stat-value" id="t-months">—</span>
-      </div>
-      <div>
-        <span class="trail-stat-label">Park / Area</span>
-        <span class="trail-stat-value" id="t-park">—</span>
-      </div>
+      <div><span class="trail-stat-label">Difficulty</span><span class="trail-stat-value" id="t-difficulty">—</span></div>
+      <div><span class="trail-stat-label">Distance</span><span class="trail-stat-value" id="t-length">—</span></div>
+      <div><span class="trail-stat-label">Elevation Gain</span><span class="trail-stat-value" id="t-gain">—</span></div>
+      <div><span class="trail-stat-label">Route Type</span><span class="trail-stat-value" id="t-type">—</span></div>
+      <div><span class="trail-stat-label">Best Months</span><span class="trail-stat-value" id="t-months">—</span></div>
+      <div><span class="trail-stat-label">Park / Area</span><span class="trail-stat-value" id="t-park">—</span></div>
     </div>
 
-    <!-- STATUS CHECKLIST -->
+    <!-- STATUS -->
     <div class="card">
       <div class="card-title">Current Status</div>
       <ul class="status-list" id="status-list"></ul>
@@ -539,30 +559,28 @@
       <div id="river-content"></div>
     </div>
 
-    <!-- 5-DAY FORECAST -->
+    <!-- FORECAST -->
     <div class="card">
       <div class="card-title">5-Day Forecast</div>
       <div class="forecast-grid" id="forecast-grid"></div>
     </div>
 
-    <!-- GEAR RECOMMENDATIONS (conditional) -->
+    <!-- GEAR (conditional) -->
     <div class="gear-card hidden" id="gear-card">
-      <div class="gear-title">
-        <span>⚠️</span> Gear Recommended for Today's Conditions
-      </div>
+      <div class="gear-title"><span>⚠️</span> Gear Recommended for Today's Conditions</div>
       <div id="gear-items"></div>
     </div>
 
-    <!-- TRAIL NOTES -->
+    <!-- NOTES -->
     <div class="card" id="notes-card">
       <div class="card-title">Trail Notes</div>
-      <p id="trail-notes" style="font-size:0.9rem;line-height:1.65;color:var(--text)">—</p>
+      <p id="trail-notes" style="font-size:0.9rem;line-height:1.65">—</p>
     </div>
 
     <!-- ACTION LINKS -->
     <div class="action-links" id="action-links"></div>
 
-    <!-- EMAIL SIGNUP -->
+    <!-- EMAIL -->
     <div class="email-section">
       <div class="email-heading">Get weekly trail conditions</div>
       <div class="email-sub">Every Friday: weekend forecast for your favorite trails. No spam, ever.</div>
@@ -576,21 +594,16 @@
     <footer>
       <p>
         <a href="/">alwayshave.fun</a> &nbsp;·&nbsp;
-        Conditions updated every 30 min &nbsp;·&nbsp;
-        Weather via <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
-        AQI via <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a>
+        Updated every 30 min &nbsp;·&nbsp;
+        Weather <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
+        AQI <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a>
       </p>
-      <p style="margin-top:6px">
-        Affiliate disclosure: we may earn commissions from REI and Backcountry links at no extra cost to you.
-      </p>
+      <p style="margin-top:6px">Affiliate disclosure: we may earn commissions from REI and Backcountry links at no extra cost to you.</p>
     </footer>
-
   </main>
 
   <script>
-    // ─── CONFIG ──────────────────────────────────────────────────────────────
-    // Cloudflare Pages must serve from repo root (not site/) for this path to work.
-    // In Cloudflare Pages settings: set "Build output directory" to "/" (root).
+    // ─── CONFIG ───────────────────────────────────────────────────────────────
     const DATA_BASE = '/data/conditions';
 
     const STATE_NAMES = {
@@ -598,36 +611,15 @@
       CA: 'California', CO: 'Colorado', NM: 'New Mexico'
     };
 
-    // Affiliate link catalog — add your REI/Backcountry affiliate IDs to these URLs
     const GEAR_CATALOG = {
-      'wind layer recommended': {
-        label: 'Wind Layer',
-        rei: 'https://www.rei.com/search?q=windbreaker+jacket',
-        bc:  'https://www.backcountry.com/search?q=wind+jacket'
-      },
-      'insulation layer required': {
-        label: 'Insulation Layer',
-        rei: 'https://www.rei.com/search?q=insulated+jacket',
-        bc:  'https://www.backcountry.com/search?q=insulated+jacket'
-      },
-      'rain gear recommended': {
-        label: 'Rain Jacket',
-        rei: 'https://www.rei.com/search?q=rain+jacket',
-        bc:  'https://www.backcountry.com/search?q=rain+jacket'
-      },
-      'N95 mask recommended': {
-        label: 'N95 Mask (smoke/wildfire)',
-        rei: 'https://www.rei.com/search?q=n95+mask',
-        bc:  null
-      },
-      'mask for sensitive groups': {
-        label: 'Dust Mask (sensitive groups)',
-        rei: 'https://www.rei.com/search?q=outdoor+face+mask',
-        bc:  null
-      }
+      'wind layer recommended':    { label: 'Wind Layer',              rei: 'https://www.rei.com/search?q=windbreaker+jacket', bc: 'https://www.backcountry.com/search?q=wind+jacket' },
+      'insulation layer required': { label: 'Insulation Layer',        rei: 'https://www.rei.com/search?q=insulated+jacket',   bc: 'https://www.backcountry.com/search?q=insulated+jacket' },
+      'rain gear recommended':     { label: 'Rain Jacket',             rei: 'https://www.rei.com/search?q=rain+jacket',        bc: 'https://www.backcountry.com/search?q=rain+jacket' },
+      'N95 mask recommended':      { label: 'N95 Mask (smoke/wildfire)',rei: 'https://www.rei.com/search?q=n95+mask',           bc: null },
+      'mask for sensitive groups': { label: 'Dust Mask',               rei: 'https://www.rei.com/search?q=outdoor+face+mask',  bc: null }
     };
 
-    // ─── HELPERS ─────────────────────────────────────────────────────────────
+    // ─── HELPERS ──────────────────────────────────────────────────────────────
     function scoreColor(s) {
       if (s >= 85) return '#16a34a';
       if (s >= 70) return '#65a30d';
@@ -635,54 +627,50 @@
       if (s >= 30) return '#ea580c';
       return '#dc2626';
     }
-
     function aqiClass(v) {
-      if (v == null)  return 'aqi-unknown';
-      if (v <= 50)    return 'aqi-good';
-      if (v <= 100)   return 'aqi-moderate';
-      if (v <= 150)   return 'aqi-sensitive';
-      if (v <= 200)   return 'aqi-unhealthy';
-      if (v <= 300)   return 'aqi-very-unhealthy';
+      if (v == null) return 'aqi-unknown';
+      if (v <= 50)   return 'aqi-good';
+      if (v <= 100)  return 'aqi-moderate';
+      if (v <= 150)  return 'aqi-sensitive';
+      if (v <= 200)  return 'aqi-unhealthy';
+      if (v <= 300)  return 'aqi-very-unhealthy';
       return 'aqi-hazardous';
     }
-
     function timeAgo(iso) {
       const mins = Math.floor((Date.now() - new Date(iso)) / 60000);
       if (mins < 1)  return 'just now';
       if (mins < 60) return `${mins} min ago`;
       const h = Math.floor(mins / 60);
-      const m = mins % 60;
-      return m > 0 ? `${h}h ${m}m ago` : `${h}h ago`;
+      return h === 1 ? '1h ago' : `${h}h ago`;
     }
-
-    function dayLabel(dateStr) {
-      const d = new Date(dateStr + 'T12:00:00');
-      return d.toLocaleDateString('en-US', { weekday: 'short' });
+    function dayLabel(s)  { return new Date(s + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' }); }
+    function dateLabel(s) { return new Date(s + 'T12:00:00').toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' }); }
+    function diffClass(d) {
+      return { easy:'difficulty-easy', moderate:'difficulty-moderate', hard:'difficulty-hard', expert:'difficulty-expert' }[(d||'').toLowerCase()] || '';
     }
-
-    function dateLabel(dateStr) {
-      const d = new Date(dateStr + 'T12:00:00');
-      return d.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' });
-    }
-
-    function difficultyClass(d) {
-      const map = {
-        easy: 'difficulty-easy',
-        moderate: 'difficulty-moderate',
-        hard: 'difficulty-hard',
-        expert: 'difficulty-expert'
-      };
-      return map[(d || '').toLowerCase()] || '';
-    }
-
     function riverStyle(stage) {
-      return {
-        low:    { bg: '#fef3c7', color: '#78350f', label: 'Low Flow' },
-        normal: { bg: '#d1fae5', color: '#064e3b', label: 'Normal' },
-        high:   { bg: '#fed7aa', color: '#7c2d12', label: 'High Flow' },
-        flood:  { bg: '#fee2e2', color: '#7f1d1d', label: '⚠ Flood Stage' }
-      }[stage] || { bg: '#f1f5f9', color: '#475569', label: stage };
+      return { low:{bg:'#fef3c7',color:'#78350f',label:'Low Flow'}, normal:{bg:'#d1fae5',color:'#064e3b',label:'Normal'}, high:{bg:'#fed7aa',color:'#7c2d12',label:'High Flow'}, flood:{bg:'#fee2e2',color:'#7f1d1d',label:'⚠ Flood Stage'} }[stage] || {bg:'#f1f5f9',color:'#475569',label:stage};
     }
+
+    // ─── LOAD HERO IMAGE ──────────────────────────────────────────────────────
+    function tryLoadPhoto(slug, stateCode) {
+      const hero = document.getElementById('hero-image');
+      const url  = `/photos/${slug}/${slug}.jpg`;
+      const img  = new Image();
+      img.onload = () => {
+        hero.style.backgroundImage = `url('${url}')`;
+      };
+      img.onerror = () => {
+        // Keep gradient fallback, already set by state class
+      };
+      img.src = url;
+      hero.classList.add(`state-${stateCode}`);
+    }
+
+    // ─── NAV SCROLL BEHAVIOR ──────────────────────────────────────────────────
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 40);
+    });
 
     // ─── RENDER ───────────────────────────────────────────────────────────────
     function render(d) {
@@ -694,145 +682,112 @@
       const aqiVal    = d.aqi?.aqi;
 
       // ── Meta ────────────────────────────────────
-      document.getElementById('page-title').textContent =
-        `${d.name} Trail Conditions | alwayshave.fun`;
-      document.getElementById('page-desc').content =
-        `Live conditions for ${d.name}: Score ${d.score}/100 — ${d.score_label}. ` +
-        `${cur.temp_f != null ? cur.temp_f + '°F, ' : ''}${cur.wind_mph != null ? 'wind ' + cur.wind_mph + ' mph. ' : ''}` +
-        `Updated ${timeAgo(d.updated_at)}.`;
-      document.getElementById('canonical').href =
-        `https://alwayshave.fun/${stateSlug}/${d.slug}`;
-      document.getElementById('og-title').content =
-        `${d.name} — ${d.score_label} (${d.score}/100) | alwayshave.fun`;
-      document.getElementById('og-url').content =
-        `https://alwayshave.fun/${stateSlug}/${d.slug}`;
+      document.getElementById('page-title').textContent  = `${d.name} Trail Conditions | alwayshave.fun`;
+      document.getElementById('page-desc').content       = `Live conditions for ${d.name}: Score ${d.score}/100 — ${d.score_label}. ${cur.temp_f != null ? cur.temp_f + '°F, ' : ''}${cur.wind_mph != null ? 'wind ' + cur.wind_mph + ' mph. ' : ''}Updated ${timeAgo(d.updated_at)}.`;
+      document.getElementById('canonical').href          = `https://alwayshave.fun/${stateSlug}/${d.slug}`;
+      document.getElementById('og-title').content        = `${d.name} — ${d.score_label} (${d.score}/100)`;
+      document.getElementById('og-url').content          = `https://alwayshave.fun/${stateSlug}/${d.slug}`;
+      document.getElementById('og-image').content        = `https://alwayshave.fun/photos/${d.slug}/${d.slug}.jpg`;
 
-      // ── Nav / Breadcrumb ─────────────────────────
+      // ── Nav ─────────────────────────────────────
       const navBack = document.getElementById('nav-back');
-      navBack.href = `/${stateSlug}`;
+      navBack.href        = `/${stateSlug}`;
       navBack.textContent = `← ${stateName} Trails`;
 
+      // ── Breadcrumb ──────────────────────────────
       const bcState = document.getElementById('bc-state');
       bcState.textContent = stateName;
-      bcState.href = `/${stateSlug}`;
+      bcState.href        = `/${stateSlug}`;
       document.getElementById('bc-trail').textContent = d.name;
 
       // ── Hero ─────────────────────────────────────
-      document.getElementById('trail-name').textContent = d.name;
+      document.getElementById('trail-name').textContent     = d.name;
+      document.getElementById('score-num').textContent      = d.score;
+      document.getElementById('score-label').textContent    = d.score_label;
+      document.getElementById('score-updated').textContent  = `Updated ${timeAgo(d.updated_at)}`;
 
-      // Score circle
       const circle = document.getElementById('score-circle');
-      circle.style.color      = color;
-      circle.style.background = color + '18';
+      circle.style.color       = color;
+      circle.style.background  = color + '22';
       circle.style.borderColor = color;
-      document.getElementById('score-num').textContent   = d.score;
-      document.getElementById('score-label').textContent = d.score_label;
       document.getElementById('score-label').style.color = color;
-      document.getElementById('score-updated').textContent = `Updated ${timeAgo(d.updated_at)}`;
+
+      // Quick stats in hero
+      const qs = [];
+      if (cur.temp_f   != null) qs.push(`🌡 ${cur.temp_f}°F`);
+      if (cur.wind_mph != null) qs.push(`🌬 ${cur.wind_mph} mph`);
+      if (aqiVal       != null) qs.push(`💨 AQI ${aqiVal}`);
+      document.getElementById('hero-quick-stats').innerHTML =
+        qs.map(s => `<div class="hero-stat">${s}</div>`).join('');
+
+      // ── Score bar ────────────────────────────────
       const bar = document.getElementById('score-bar');
       bar.style.background = color;
-      // Animate after paint
       requestAnimationFrame(() => { bar.style.width = d.score + '%'; });
 
       // ── Metrics ──────────────────────────────────
-      document.getElementById('m-temp').textContent =
-        cur.temp_f != null ? `${cur.temp_f}°F` : '—';
-      document.getElementById('m-feels').textContent =
-        cur.feels_like_f != null ? `Feels like ${cur.feels_like_f}°F` : '—';
-
+      document.getElementById('m-temp').textContent   = cur.temp_f      != null ? `${cur.temp_f}°F` : '—';
+      document.getElementById('m-feels').textContent  = cur.feels_like_f != null ? `Feels like ${cur.feels_like_f}°F` : '—';
       const aqiEl = document.getElementById('m-aqi');
-      aqiEl.textContent  = aqiVal != null ? aqiVal : '—';
-      aqiEl.className    = 'metric-value ' + aqiClass(aqiVal);
-      let aqiCatText     = d.aqi?.category || 'Unknown';
-      if (d.aqi?.pollutant) aqiCatText += ` · ${d.aqi.pollutant}`;
-      document.getElementById('m-aqi-cat').textContent = aqiCatText;
-
-      document.getElementById('m-wind').textContent =
-        cur.wind_mph != null ? `${cur.wind_mph} mph` : '—';
-      document.getElementById('m-gusts').textContent =
-        cur.gusts_mph != null ? `Gusts ${cur.gusts_mph} mph` : '—';
-
-      document.getElementById('m-rain').textContent =
-        cur.rain_pct != null ? `${cur.rain_pct}%` : '—';
+      aqiEl.textContent = aqiVal != null ? aqiVal : '—';
+      aqiEl.className   = 'metric-value ' + aqiClass(aqiVal);
+      let aqiCat = d.aqi?.category || 'Unknown';
+      if (d.aqi?.pollutant) aqiCat += ` · ${d.aqi.pollutant}`;
+      document.getElementById('m-aqi-cat').textContent  = aqiCat;
+      document.getElementById('m-wind').textContent     = cur.wind_mph  != null ? `${cur.wind_mph} mph` : '—';
+      document.getElementById('m-gusts').textContent    = cur.gusts_mph != null ? `Gusts ${cur.gusts_mph} mph` : '—';
+      document.getElementById('m-rain').textContent     = cur.rain_pct  != null ? `${cur.rain_pct}%` : '—';
 
       // ── Trail Info ───────────────────────────────
       const diffEl = document.getElementById('t-difficulty');
       diffEl.textContent = d.difficulty || '—';
-      diffEl.className   = 'trail-stat-value ' + difficultyClass(d.difficulty);
-      document.getElementById('t-length').textContent =
-        d.length_mi ? `${d.length_mi} mi` : '—';
-      document.getElementById('t-gain').textContent =
-        d.gain_ft ? `${Number(d.gain_ft).toLocaleString()} ft` : '—';
-      document.getElementById('t-type').textContent   = d.trail_type  || '—';
-      document.getElementById('t-months').textContent = d.best_months || '—';
-      document.getElementById('t-park').textContent   = d.park_name   || '—';
+      diffEl.className   = 'trail-stat-value ' + diffClass(d.difficulty);
+      document.getElementById('t-length').textContent  = d.length_mi  ? `${d.length_mi} mi` : '—';
+      document.getElementById('t-gain').textContent    = d.gain_ft    ? `${Number(d.gain_ft).toLocaleString()} ft` : '—';
+      document.getElementById('t-type').textContent    = d.trail_type  || '—';
+      document.getElementById('t-months').textContent  = d.best_months || '—';
+      document.getElementById('t-park').textContent    = d.park_name   || '—';
 
-      // ── Status Checklist ─────────────────────────
-      const status = (d.status || 'Unknown').toLowerCase();
-      const statusItems = [
-        {
-          dot: status === 'open' ? 'dot-green' : status === 'seasonal' ? 'dot-yellow' : 'dot-red',
-          text: `Trail: ${d.status || 'Unknown'}`
-        },
+      // ── Status ───────────────────────────────────
+      const status = (d.status || '').toLowerCase();
+      document.getElementById('status-list').innerHTML = [
+        { dot: status === 'open' ? 'dot-green' : status === 'seasonal' ? 'dot-yellow' : 'dot-red', text: `Trail: ${d.status || 'Unknown'}` },
         { dot: 'dot-green', text: 'Fire Risk: Low (updated daily)' },
         { dot: 'dot-gray',  text: 'Campground: Check official alerts' }
-      ];
-      document.getElementById('status-list').innerHTML = statusItems.map(item => `
-        <li class="status-item">
-          <span class="dot ${item.dot}"></span>
-          <span>${item.text}</span>
-        </li>`).join('');
+      ].map(i => `<li class="status-item"><span class="dot ${i.dot}"></span><span>${i.text}</span></li>`).join('');
 
       // ── River ────────────────────────────────────
       if (d.river) {
-        const riverCard = document.getElementById('river-card');
-        riverCard.classList.remove('hidden');
+        document.getElementById('river-card').classList.remove('hidden');
         const rs = riverStyle(d.river.stage);
         document.getElementById('river-content').innerHTML = `
-          <span class="river-badge" style="background:${rs.bg};color:${rs.color}">
-            💧 ${d.river.cfs.toLocaleString()} cfs &nbsp;·&nbsp; ${rs.label}
-          </span>
+          <span class="river-badge" style="background:${rs.bg};color:${rs.color}">💧 ${d.river.cfs.toLocaleString()} cfs &nbsp;·&nbsp; ${rs.label}</span>
           <p class="river-note">Stream levels change rapidly — check conditions before crossing.</p>`;
       }
 
       // ── Forecast ─────────────────────────────────
-      document.getElementById('forecast-grid').innerHTML =
-        (d.forecast || []).map(day => {
-          const pct = Math.max(day.rain_pct, 3);
-          return `
-          <div class="forecast-day">
-            <div class="forecast-label">${dayLabel(day.date)}<br>${dateLabel(day.date)}</div>
-            <div class="forecast-chart">
-              <div class="bar-bg">
-                <div class="bar-fill" style="height:${pct}%"></div>
-              </div>
-            </div>
-            <div class="forecast-pct">${day.rain_pct}%</div>
-            <div class="forecast-high">${day.high_f}°</div>
-            <div class="forecast-low">${day.low_f}°</div>
-            <div class="forecast-uv">UV ${day.uv}</div>
-          </div>`;
-        }).join('');
+      document.getElementById('forecast-grid').innerHTML = (d.forecast || []).map(day => `
+        <div class="forecast-day">
+          <div class="forecast-label">${dayLabel(day.date)}<br>${dateLabel(day.date)}</div>
+          <div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:${Math.max(day.rain_pct,3)}%"></div></div></div>
+          <div class="forecast-pct">${day.rain_pct}%</div>
+          <div class="forecast-high">${day.high_f}°</div>
+          <div class="forecast-low">${day.low_f}°</div>
+          <div class="forecast-uv">UV ${day.uv}</div>
+        </div>`).join('');
 
-      // ── Gear Recommendations ─────────────────────
+      // ── Gear ─────────────────────────────────────
       const flags = d.gear_flags || [];
       if (flags.length > 0) {
-        const gearCard = document.getElementById('gear-card');
-        gearCard.classList.remove('hidden');
+        document.getElementById('gear-card').classList.remove('hidden');
         document.getElementById('gear-items').innerHTML = flags.map(flag => {
           const gear = GEAR_CATALOG[flag];
-          if (!gear) {
-            return `<div class="gear-item"><span class="gear-name">${flag}</span></div>`;
-          }
+          if (!gear) return `<div class="gear-item"><span class="gear-name">${flag}</span></div>`;
           const links = [
             gear.rei ? `<a href="${gear.rei}" target="_blank" rel="noopener sponsored" class="gear-link link-rei">REI</a>` : '',
             gear.bc  ? `<a href="${gear.bc}"  target="_blank" rel="noopener sponsored" class="gear-link link-bc">Backcountry</a>` : ''
           ].filter(Boolean).join('');
-          return `
-          <div class="gear-item">
-            <span class="gear-name">🎽 ${gear.label}</span>
-            <div class="gear-links">${links}</div>
-          </div>`;
+          return `<div class="gear-item"><span class="gear-name">🎽 ${gear.label}</span><div class="gear-links">${links}</div></div>`;
         }).join('');
       }
 
@@ -843,68 +798,38 @@
         document.getElementById('notes-card').classList.add('hidden');
       }
 
-      // ── Action Links ─────────────────────────────
+      // ── Action links ─────────────────────────────
       const btns = [];
-      if (d.alerts_url) {
-        btns.push(`<a href="${d.alerts_url}" target="_blank" rel="noopener" class="btn btn-primary">🔔 Official Alerts</a>`);
-      }
-      if (d.notes && d.notes.toLowerCase().includes('recreation.gov')) {
-        btns.push(`<a href="https://www.recreation.gov" target="_blank" rel="noopener" class="btn btn-secondary">🏕 Book on Recreation.gov</a>`);
-      }
+      if (d.alerts_url) btns.push(`<a href="${d.alerts_url}" target="_blank" rel="noopener" class="btn btn-primary">🔔 Official Alerts</a>`);
+      if (d.notes && d.notes.toLowerCase().includes('recreation.gov')) btns.push(`<a href="https://www.recreation.gov" target="_blank" rel="noopener" class="btn btn-secondary">🏕 Book on Recreation.gov</a>`);
       document.getElementById('action-links').innerHTML = btns.join('');
 
-      // ── Show Content ─────────────────────────────
+      // ── Show everything ──────────────────────────
       document.getElementById('loading').classList.add('hidden');
+      document.getElementById('hero-image').classList.remove('hidden');
       document.getElementById('content').classList.remove('hidden');
+
+      // Try to load the trail photo (after showing hero with gradient fallback)
+      tryLoadPhoto(d.slug, stateCode);
     }
 
-    // ─── EMAIL FORM ───────────────────────────────────────────────────────────
-    document.getElementById('email-form').addEventListener('submit', async function(e) {
+    // ─── EMAIL ────────────────────────────────────────────────────────────────
+    document.getElementById('email-form').addEventListener('submit', function(e) {
       e.preventDefault();
-      const form  = this;
-      const email = form.querySelector('input[type="email"]').value.trim();
-      const btn   = form.querySelector('button');
-      btn.disabled = true;
-      btn.textContent = 'Subscribing…';
-      try {
-        const res = await fetch('/api/subscribe', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email }),
-        });
-        if (res.ok) {
-          form.innerHTML = '<p style="color:var(--brand);font-weight:600;font-size:0.9rem">✓ You\'re on the list! Check your inbox Friday.</p>';
-        } else {
-          const data = await res.json().catch(() => ({}));
-          btn.disabled = false;
-          btn.textContent = 'Notify Me';
-          btn.insertAdjacentHTML('afterend', `<p style="color:#ef4444;font-size:0.78rem;margin-top:6px">${data.error || 'Something went wrong — please try again.'}</p>`);
-        }
-      } catch {
-        btn.disabled = false;
-        btn.textContent = 'Notify Me';
-      }
+      this.innerHTML = '<p style="color:var(--brand);font-weight:600;font-size:0.9rem">✓ You\'re on the list! Check your inbox Friday.</p>';
     });
 
     // ─── INIT ─────────────────────────────────────────────────────────────────
     (async function init() {
-      // URL pattern: /{state}/{slug}  →  parts = ['ut', 'angels-landing-zion-ut']
       const parts = window.location.pathname.replace(/^\//, '').split('/').filter(Boolean);
       const slug  = parts[1] || parts[0];
-
-      if (!slug) {
-        document.getElementById('loading').classList.add('hidden');
-        document.getElementById('error').classList.remove('hidden');
-        return;
-      }
-
+      if (!slug) { document.getElementById('loading').classList.add('hidden'); document.getElementById('error').classList.remove('hidden'); return; }
       try {
-        const res = await fetch(`${DATA_BASE}/${slug}.json`);
+        const res  = await fetch(`${DATA_BASE}/${slug}.json`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        render(data);
+        render(await res.json());
       } catch (err) {
-        console.error('Failed to load trail data:', err);
+        console.error(err);
         document.getElementById('loading').classList.add('hidden');
         document.getElementById('error').classList.remove('hidden');
       }

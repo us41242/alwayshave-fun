@@ -1,6 +1,4 @@
-# Cloudflare Pages routing rules
-# These rewrite /{state}/{slug} to trail.html without changing the URL (200 = rewrite)
-
-/:state/:slug   /site/trail.html   200
-/:state         /site/index.html   200
-/               /site/index.html   200
+# Cloudflare Workers static assets routing
+# / serves index.html automatically
+# /{state}/{slug} rewrites to trail.html (200 = serve without changing URL)
+/:state/:slug   /trail.html   200

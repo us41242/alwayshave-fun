@@ -15,21 +15,23 @@
   "alerts_url": "https://www.gardenofgods.com",
   "status": "Open",
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 40,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {},
   "aqi": {
-    "aqi": 37,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 6.3,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-03T12:01:48.138383+00:00"
+  "updated_at": "2026-04-03T13:07:22.041856+00:00"
 }

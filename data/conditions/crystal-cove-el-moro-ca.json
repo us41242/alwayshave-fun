@@ -15,12 +15,18 @@
   "alerts_url": "https://www.parks.ca.gov/?page_id=644",
   "status": "Open",
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
-  "score": 16,
-  "score_label": "Stay home",
+  "score": 56,
+  "score_label": "Use caution",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
-  "current": {},
+  "current": {
+    "temp_f": 67,
+    "feels_like_f": 71,
+    "wind_mph": 6,
+    "gusts_mph": 12,
+    "rain_pct": 0
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -32,6 +38,42 @@
     "fire_count_50km": 5
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-03T20:02:14.425499+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 70,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 70,
+      "low_f": 56,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 82,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 77,
+      "low_f": 64,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 77,
+      "low_f": 63,
+      "rain_pct": 0,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-03T20:49:15.360594+00:00"
 }

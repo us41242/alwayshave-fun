@@ -15,13 +15,15 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "No water on trail \u2014 carry all water",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {},
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3"
   },
   "fire": {
@@ -31,5 +33,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-03T19:59:28.368436+00:00"
+  "updated_at": "2026-04-03T20:46:22.185037+00:00"
 }

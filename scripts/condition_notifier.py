@@ -14,7 +14,8 @@ import requests
 from datetime import datetime, timezone
 
 BREVO_KEY     = os.environ.get("BREVO_API_KEY", "")
-BREVO_LIST_ID = int(os.environ.get("BREVO_LIST_ID", "2"))
+_brevo_list_raw = os.environ.get("BREVO_LIST_ID", "2").strip()
+BREVO_LIST_ID = int(_brevo_list_raw) if _brevo_list_raw.isdigit() else 2
 DATA_DIR      = "data/conditions"
 SNAPSHOT_PATH = "data/meta/score_snapshot.json"
 BASE_URL      = "https://alwayshave.fun"

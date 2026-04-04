@@ -1,10 +1,20 @@
 const STATES = ['nv', 'ut', 'az', 'ca', 'co', 'nm'];
 
+// Articles served from /articles/{slug}.html
+// Worker maps /articles/{slug} → /articles/{slug}.html
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const parts = url.pathname.replace(/^\//, '').split('/').filter(p => p.length > 0);
     const first = (parts[0] || '').toLowerCase();
+
+    // /articles/{slug}  →  serve published article HTML
+    if (parts.length === 2 && parts[0] === 'articles') {
+      const articleUrl = new URL(`/articles/${parts[1]}.html`, url.origin);
+      const articleRes = await env.ASSETS.fetch(articleUrl);
+      if (articleRes.status === 200) return articleRes;
+    }
 
     // /{state}/{slug}  →  try pre-rendered static file first, fall back to trail.html
     if (parts.length === 2 && STATES.includes(first)) {

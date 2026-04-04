@@ -15,21 +15,23 @@
   "alerts_url": "https://www.parks.ca.gov/?page_id=644",
   "status": "Open",
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 90,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 67,
+    "temp_f": 69,
     "feels_like_f": 68,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 52,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -632,7 +634,42 @@
       "low_f": 63,
       "rain_pct": 0,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 75,
+      "low_f": 58,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 68,
+      "low_f": 54,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 75,
+      "low_f": 56,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 76,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 75,
+      "low_f": 63,
+      "rain_pct": 0,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T15:40:38.871547+00:00"
+  "updated_at": "2026-04-04T16:04:13.545189+00:00"
 }

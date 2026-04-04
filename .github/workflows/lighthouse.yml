@@ -1,0 +1,59 @@
+name: Lighthouse SEO Audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'trail.html'
+      - '_headers'
+      - 'wrangler.toml'
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday 6am UTC
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          runs: 2
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          urls: |
+            https://alwayshave.fun
+            https://alwayshave.fun/ut/angels-landing-zion-ut
+            https://alwayshave.fun/nv/calico-hills-red-rock-nv
+            https://alwayshave.fun/az/bright-angel-trail-gc-az
+          configPath: .lighthouserc.json
+
+  pytrends:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: Run trend monitor
+        run: python3 scripts/trend_monitor.py
+        continue-on-error: true   # Don't fail the build if Trends rate-limits us
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: weekly trend snapshot"
+          file_pattern: "data/trends/"
+          branch: main

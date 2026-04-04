@@ -160,7 +160,7 @@ def generate_article(prompt):
         raise ValueError("GEMINI_API_KEY not set")
 
     import time
-    models = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-2.0-flash-lite"]
+    models = ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash-latest"]
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {

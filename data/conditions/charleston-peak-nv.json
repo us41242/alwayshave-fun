@@ -17,8 +17,16 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "score": 52,
   "score_label": "Use caution",
-  "gear_flags": [],
-  "current": {},
+  "gear_flags": [
+    "insulation layer required"
+  ],
+  "current": {
+    "temp_f": 24,
+    "feels_like_f": 16,
+    "wind_mph": 4,
+    "gusts_mph": 17,
+    "rain_pct": 0
+  },
   "aqi": {
     "aqi": 7,
     "category": "Good",
@@ -30,6 +38,42 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-03T23:33:06.931619+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 31,
+      "low_f": 15,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 36,
+      "low_f": 22,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 42,
+      "low_f": 23,
+      "rain_pct": 3,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 44,
+      "low_f": 30,
+      "rain_pct": 5,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 46,
+      "low_f": 31,
+      "rain_pct": 0,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-04T02:02:18.417973+00:00"
 }

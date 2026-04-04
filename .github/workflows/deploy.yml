@@ -1,30 +1,13 @@
 name: Deploy to Cloudflare Workers
 
+# Disabled — Cloudflare Pages auto-deploys on every push to main via GitHub integration.
+# This workflow is redundant. Re-enable only if switching from Pages to Workers.
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - 'data/**'       # condition updates don't need a redeploy
-      - 'site/**'
-      - '*.md'
   workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy Worker
+    name: Deploy Worker (disabled)
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install wrangler
-        run: npm install --save-dev wrangler
-
-      - name: Deploy
-        run: npx wrangler deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: 1da68da1ac6a99bdac8aaf125fbb436b
+      - run: echo "Deploy handled by Cloudflare Pages GitHub integration. No action needed."

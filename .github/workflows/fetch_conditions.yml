@@ -39,12 +39,15 @@ jobs:
           python3 scripts/build_index.py
           python3 scripts/generate_sitemap.py
           python3 scripts/build_static.py
+          python3 scripts/build_state_pages.py
+          python3 scripts/indexnow.py
         env:
           AIRNOW_KEY: ${{ secrets.AIRNOW_KEY }}
           WAQI_KEY: ${{ secrets.WAQI_KEY }}
           NASA_FIRMS_KEY: ${{ secrets.NASA_FIRMS_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 
       - name: Commit and push data
         uses: stefanzweifel/git-auto-commit-action@v5

@@ -15,9 +15,12 @@ export default {
       return env.ASSETS.fetch(new URL('/trail.html', url.origin));
     }
 
-    // /{state}  →  redirect to homepage
+    // /{state}  →  serve pre-rendered state landing page, fall back to homepage
     if (parts.length === 1 && STATES.includes(first)) {
-      return Response.redirect(url.origin + '/', 302);
+      const statePageUrl = new URL(`/generated/${first}/index.html`, url.origin);
+      const stateRes = await env.ASSETS.fetch(statePageUrl);
+      if (stateRes.status === 200) return stateRes;
+      return env.ASSETS.fetch(new URL('/', url.origin));
     }
 
     // Everything else  →  serve static assets normally

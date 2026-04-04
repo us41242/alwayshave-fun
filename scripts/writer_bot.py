@@ -159,7 +159,8 @@ def generate_article(prompt):
     if not GEMINI_KEY:
         raise ValueError("GEMINI_API_KEY not set")
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_KEY}"
+    import time
+    models = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-2.0-flash-lite"]
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -167,10 +168,26 @@ def generate_article(prompt):
             "maxOutputTokens": 1400,
         }
     }
-    r = requests.post(url, json=body, timeout=60)
-    r.raise_for_status()
-    data = r.json()
-    return data["candidates"][0]["content"]["parts"][0]["text"]
+    last_err = None
+    for model in models:
+        for attempt in range(3):
+            try:
+                url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_KEY}"
+                r = requests.post(url, json=body, timeout=60)
+                if r.status_code == 429:
+                    wait = 30 * (attempt + 1)
+                    print(f"  Rate limited on {model} (attempt {attempt+1}), waiting {wait}s…")
+                    time.sleep(wait)
+                    continue
+                r.raise_for_status()
+                data = r.json()
+                return data["candidates"][0]["content"]["parts"][0]["text"]
+            except Exception as e:
+                last_err = e
+                if attempt < 2:
+                    time.sleep(15)
+        print(f"  {model} failed, trying next model…")
+    raise last_err or RuntimeError("All Gemini models failed")
 
 
 def save_draft(trail, content):

@@ -59,10 +59,11 @@ def build_meta(d):
     diff      = d.get("difficulty", "")
     miles     = d.get("length_mi", "")
     gain      = d.get("gain_ft", "")
-    notes     = (d.get("notes") or "").strip()
-    lat       = d.get("lat", 0)
-    lng       = d.get("lng", 0)
-    updated   = (d.get("updated_at") or "")[:10]
+    notes       = (d.get("notes") or "").strip()
+    dog         = d.get("dog_friendly", "")
+    lat         = d.get("lat", 0)
+    lng         = d.get("lng", 0)
+    updated     = (d.get("updated_at") or "")[:10]
 
     page_url  = f"{BASE_URL}/{state_lc}/{slug}"
     photo_url = f"{BASE_URL}/photos/{slug}/{slug}.jpg"
@@ -75,11 +76,15 @@ def build_meta(d):
         alerts.append(f"winds {wind} mph")
     alert_str = f"⚠️ CAUTION: {', '.join(alerts)}. " if alerts else ""
 
-    # Meta description
+    # Meta description (dog-friendly flag for Weekend Warrior queries)
     parts = [f"{name} conditions: {label} ({score}/100)."]
-    if temp:   parts.append(f"{temp}°F")
-    if wind:   parts.append(f"wind {wind} mph")
+    if temp:    parts.append(f"{temp}°F")
+    if wind:    parts.append(f"wind {wind} mph")
     if aqi_val: parts.append(f"AQI {aqi_val}")
+    if dog == "Yes":
+        parts.append("Dogs welcome.")
+    elif dog == "No":
+        parts.append("No dogs on trail.")
     meta_desc = f"{alert_str}{' '.join(parts)} Live data updated every 30 min."
 
     # Page title
@@ -105,6 +110,8 @@ def build_meta(d):
         additional.append({"@type": "PropertyValue", "name": "Current Temperature", "value": f"{temp}°F"})
     if fire.get("risk_level"):
         additional.append({"@type": "PropertyValue", "name": "Fire Risk", "value": fire["risk_level"].capitalize()})
+    if dog in ("Yes", "No"):
+        additional.append({"@type": "PropertyValue", "name": "Dog Friendly", "value": dog})
 
     schema = {
         "@context": "https://schema.org",

@@ -7,7 +7,7 @@ import json
 
 INDEX_FIELDS = [
     "trail_id", "name", "slug", "state", "region",
-    "difficulty", "length_mi", "park_name",
+    "difficulty", "length_mi", "park_name", "dog_friendly",
 ]
 
 def main():

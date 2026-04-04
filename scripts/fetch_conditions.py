@@ -21,7 +21,7 @@ def fetch_weather(lat, lng, retries=3, backoff=5):
         f"https://api.open-meteo.com/v1/forecast"
         f"?latitude={lat}&longitude={lng}"
         f"&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_gusts_10m,precipitation_probability"
-        f"&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max"
+        f"&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max,sunrise,sunset"
         f"&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto&forecast_days=5"
     )
     import time
@@ -234,6 +234,8 @@ def process_trail(trail):
                 "low_f":    round(daily.get("temperature_2m_min",           [0]*10)[i]),
                 "rain_pct": round(daily.get("precipitation_probability_max",[0]*10)[i]),
                 "uv":       round(daily.get("uv_index_max",                 [0]*10)[i]),
+                "sunrise":  (daily.get("sunrise", [""]*(i+1)) or [""]*(i+1))[i] if i < len(daily.get("sunrise", [])) else "",
+                "sunset":   (daily.get("sunset",  [""]*(i+1)) or [""]*(i+1))[i] if i < len(daily.get("sunset",  [])) else "",
             })
 
     output = {
@@ -253,6 +255,7 @@ def process_trail(trail):
         "alerts_url":  trail.get("alerts_url"),
         "status":      trail.get("trail_status", "Unknown"),
         "notes":       trail.get("notes"),
+        "dog_friendly": trail.get("dog_friendly", ""),
         "score":       score,
         "score_label": score_label(score),
         "gear_flags":  gear_flags(weather, aqi_data, fire_data),

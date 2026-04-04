@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utah Trail Conditions — Live Scores | alwayshave.fun</title>
+  <meta name="description" content="Live trail conditions for 8 Utah trails. Zion, Bryce Canyon, Snow Canyon. AQI, weather, and 1-100 scores updated every 30 minutes.">
+  <link rel="canonical" href="https://alwayshave.fun/ut">
+  <meta property="og:title" content="Utah Trail Conditions — Live Scores | alwayshave.fun">
+  <meta property="og:description" content="Live trail conditions for 8 Utah trails. Zion, Bryce Canyon, Snow Canyon. AQI, weather, and 1-100 scores updated every 30 minutes.">
+  <meta property="og:url" content="https://alwayshave.fun/ut">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="alwayshave.fun">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Utah Trail Conditions — Live Scores | alwayshave.fun">
+  <meta name="twitter:description" content="Live trail conditions for 8 Utah trails. Zion, Bryce Canyon, Snow Canyon. AQI, weather, and 1-100 scores updated every 30 minutes.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://alwayshave.fun/ut","name":"Utah Trail Conditions \u2014 Live Scores | alwayshave.fun","description":"Live trail conditions for 8 Utah trails. Zion, Bryce Canyon, Snow Canyon. AQI, weather, and 1-100 scores updated every 30 minutes.","url":"https://alwayshave.fun/ut"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://alwayshave.fun"},{"@type":"ListItem","position":2,"name":"Utah","item":"https://alwayshave.fun/ut"}]},{"@type":"ItemList","name":"Utah Trails","numberOfItems":8,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://alwayshave.fun/ut/kanarra-creek-ut","name":"Kanarra Creek Slot Canyon"},{"@type":"ListItem","position":2,"url":"https://alwayshave.fun/ut/bryce-rim-trail-ut","name":"Bryce Canyon Rim Trail"},{"@type":"ListItem","position":3,"url":"https://alwayshave.fun/ut/peek-a-boo-loop-bryce-ut","name":"Peek-A-Boo Loop Bryce"},{"@type":"ListItem","position":4,"url":"https://alwayshave.fun/ut/pine-valley-mountain-ut","name":"Pine Valley Mountain Loop"},{"@type":"ListItem","position":5,"url":"https://alwayshave.fun/ut/narrows-top-down-zion-ut","name":"Zion Narrows (Top-Down)"},{"@type":"ListItem","position":6,"url":"https://alwayshave.fun/ut/snow-canyon-rim-ut","name":"Snow Canyon State Park Rim"},{"@type":"ListItem","position":7,"url":"https://alwayshave.fun/ut/the-narrows-zion-ut","name":"The Narrows (Bottom-Up)"},{"@type":"ListItem","position":8,"url":"https://alwayshave.fun/ut/angels-landing-zion-ut","name":"Angels Landing"}]}]}</script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛰️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0c1117; color: #e6edf3; font-family: 'Inter', sans-serif; }
+    a { color: inherit; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    .nav { position: sticky; top: 0; background: rgba(12,17,23,.95); border-bottom: 1px solid #30363d; z-index: 100; padding: 14px 0; }
+    .nav-inner { display: flex; align-items: center; gap: 12px; }
+    .nav-logo { font-weight: 800; font-size: 1.1rem; text-decoration: none; color: #e6edf3; }
+    .nav-sep { color: #30363d; }
+    .nav-state { color: #8b949e; font-size: .9rem; }
+    .state-hero { padding: 48px 0 32px; border-bottom: 1px solid #30363d; }
+    .state-name { font-size: 2.4rem; font-weight: 900; line-height: 1.1; margin-bottom: 12px; }
+    .state-stats { display: flex; gap: 24px; margin: 16px 0; flex-wrap: wrap; }
+    .stat-pill { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 8px 16px; font-size: .85rem; color: #8b949e; }
+    .stat-pill strong { color: #e6edf3; font-size: 1.1rem; }
+    .state-intro { font-size: .95rem; color: #8b949e; line-height: 1.7; margin-top: 16px; }
+    .state-best { font-size: .85rem; color: #6e7681; line-height: 1.6; margin-top: 8px; padding: 10px 14px; border-left: 3px solid #30363d; }
+    .section-title { font-size: 1rem; font-weight: 700; color: #8b949e; text-transform: uppercase; letter-spacing: .08em; padding: 28px 0 8px; }
+    .trail-list { padding-bottom: 40px; }
+    footer { border-top: 1px solid #30363d; padding: 32px 0; font-size: .8rem; color: #6e7681; line-height: 2; text-align: center; }
+    footer a { color: #8b949e; text-decoration: none; }
+    footer a:hover { color: #e6edf3; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap">
+      <div class="nav-inner">
+        <a class="nav-logo" href="/">alwayshave.fun</a>
+        <span class="nav-sep">/</span>
+        <span class="nav-state">Utah</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <div class="state-hero">
+      <div class="state-name">Utah Trails</div>
+      <div class="state-stats">
+        <div class="stat-pill"><strong>8</strong> trails tracked</div>
+        <div class="stat-pill"><strong>8</strong> great conditions now</div>
+        <div class="stat-pill"><strong>2</strong> dog-friendly</div>
+      </div>
+      <p class="state-intro">Utah's canyon country hosts some of the most iconic hiking in North America — Zion's slot canyons, Bryce's hoodoos, and the otherworldly red rock of Snow Canyon.</p>
+      <p class="state-best">Spring (April–June) and fall (September–October) are ideal for most Utah trails. Summer heat at lower elevations can be extreme. Higher trails stay accessible May–October.</p>
+    </div>
+
+    <div class="section-title">All Utah Trails — Live Conditions</div>
+    <div class="trail-list">
+      
+    <a href="/ut/kanarra-creek-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">100</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Kanarra Creek Slot Canyon</div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Kanarraville Town</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#d97706">Moderate</span> · 4 mi · 57°F · AQI 32 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+
+    <a href="/ut/bryce-rim-trail-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">100</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Bryce Canyon Rim Trail</div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Bryce Canyon NP</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#16a34a">Easy</span> · 11 mi · 51°F · AQI 32 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+
+    <a href="/ut/peek-a-boo-loop-bryce-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">100</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Peek-A-Boo Loop Bryce</div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Bryce Canyon NP</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#d97706">Moderate</span> · 4.9 mi · 50°F · AQI 32 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+
+    <a href="/ut/pine-valley-mountain-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">100</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Pine Valley Mountain Loop <span style="font-size:.75rem;color:#16a34a">🐾 Dogs OK</span></div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Dixie NF</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#ea580c">Hard</span> · 35 mi · 58°F · AQI 36 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+
+    <a href="/ut/narrows-top-down-zion-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">100</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Zion Narrows (Top-Down)</div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Zion National Park</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#ea580c">Hard</span> · 16 mi · 60°F · AQI 36 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+
+    <a href="/ut/snow-canyon-rim-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">100</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Snow Canyon State Park Rim <span style="font-size:.75rem;color:#16a34a">🐾 Dogs OK</span></div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Snow Canyon SP</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#d97706">Moderate</span> · 3.8 mi · 72°F · AQI 36 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+
+    <a href="/ut/the-narrows-zion-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">100</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">The Narrows (Bottom-Up)</div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Zion National Park</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#d97706">Moderate</span> · 9.4 mi · 65°F · AQI 36 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+
+    <a href="/ut/angels-landing-zion-ut" style="display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #30363d;text-decoration:none;color:inherit">
+      <div style="min-width:54px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:#16a34a;line-height:1">88</div>
+        <div style="font-size:.65rem;color:#8b949e">/100</div>
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="font-weight:600;font-size:.95rem;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Angels Landing</div>
+        <div style="font-size:.75rem;color:#8b949e;margin-top:2px">Zion National Park</div>
+        <div style="font-size:.72rem;color:#8b949e;margin-top:2px">
+          <span style="color:#ea580c">Hard</span> · 5.4 mi · 64°F · AQI 36 · <span style="color:#16a34a">Great day to go</span>
+        </div>
+      </div>
+      <div style="font-size:.8rem;color:#8b949e;white-space:nowrap">View →</div>
+    </a>
+    </div>
+
+    <footer>
+      <a href="/">← All Trails</a> &nbsp;·&nbsp;
+      <a href="/nv">Nevada</a> &nbsp;·&nbsp;
+      <a href="/ut">Utah</a> &nbsp;·&nbsp;
+      <a href="/az">Arizona</a> &nbsp;·&nbsp;
+      <a href="/co">Colorado</a> &nbsp;·&nbsp;
+      <a href="/ca">California</a><br>
+      Weather via <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
+      AQI via <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a><br>
+      Conditions updated every 30 minutes &nbsp;·&nbsp; <a href="/">alwayshave.fun</a>
+    </footer>
+  </div>
+</body>
+</html>

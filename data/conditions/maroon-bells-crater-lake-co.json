@@ -17,16 +17,18 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 1,
+    "temp_f": 0,
     "feels_like_f": -10,
-    "wind_mph": 9,
-    "gusts_mph": 13,
+    "wind_mph": 8,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 28,
+    "aqi": 27,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -387,7 +389,42 @@
       "low_f": 21,
       "rain_pct": 27,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 23,
+      "low_f": 1,
+      "rain_pct": 0,
+      "uv": 9
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 31,
+      "low_f": 9,
+      "rain_pct": 1,
+      "uv": 9
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 34,
+      "low_f": 19,
+      "rain_pct": 29,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 35,
+      "low_f": 22,
+      "rain_pct": 71,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 36,
+      "low_f": 21,
+      "rain_pct": 27,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T10:07:47.736946+00:00"
+  "updated_at": "2026-04-04T10:38:54.243353+00:00"
 }

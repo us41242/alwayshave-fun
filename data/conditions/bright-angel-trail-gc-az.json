@@ -15,20 +15,22 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Summer heat extreme \u2014 start before sunrise",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 38,
-    "feels_like_f": 22,
-    "wind_mph": 20,
-    "gusts_mph": 31,
+    "temp_f": 37,
+    "feels_like_f": 21,
+    "wind_mph": 22,
+    "gusts_mph": 34,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 54,
+    "aqi": 51,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8130,
+    "cfs": 8150,
     "stage": "flood"
   },
   "forecast": [
@@ -322,7 +324,42 @@
       "low_f": 47,
       "rain_pct": 1,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 58,
+      "low_f": 35,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 66,
+      "low_f": 45,
+      "rain_pct": 5,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 65,
+      "low_f": 47,
+      "rain_pct": 36,
+      "uv": 6
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 68,
+      "low_f": 45,
+      "rain_pct": 5,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 68,
+      "low_f": 47,
+      "rain_pct": 1,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T10:04:32.956233+00:00"
+  "updated_at": "2026-04-04T10:34:38.706503+00:00"
 }

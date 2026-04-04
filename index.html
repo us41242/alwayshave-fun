@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://alwayshave.fun">
   <meta property="og:title" content="alwayshave.fun — Real-Time Outdoor Trail Conditions">
   <meta property="og:description" content="Live weather, AQI, and trail scores for hikers, campers, and overlanders across the Southwest.">
-  <meta property="og:image" content="https://alwayshave.fun/photos/LANDINGcathedral-rock-sedona-az.jpg">
+  <meta property="og:image" content="https://alwayshave.fun/photos/LANDINGcathedral-rock-sedona-az.webp">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://alwayshave.fun">
   <meta property="og:site_name" content="alwayshave.fun">
@@ -87,9 +87,9 @@
       background: linear-gradient(
         to top,
         rgba(12,17,23,1)    0%,
-        rgba(12,17,23,0.65) 40%,
-        rgba(12,17,23,0.2)  75%,
-        rgba(12,17,23,0.05) 100%
+        rgba(12,17,23,0.8)  15%,
+        rgba(12,17,23,0.3)  35%,
+        rgba(12,17,23,0)    55%
       );
     }
     .site-hero-content {
@@ -232,7 +232,7 @@
 
     /* Photo thumbnail area */
     .card-photo {
-      height: 160px;
+      height: 240px;
       background: linear-gradient(135deg, #1a2a1a, #0c1117);
       background-size: cover;
       background-position: center;
@@ -242,7 +242,29 @@
     .card-photo-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(to top, rgba(22,27,34,1) 0%, rgba(22,27,34,0.2) 60%, transparent 100%);
+      background: linear-gradient(to top, rgba(12,17,23,0.65) 0%, transparent 55%);
+    }
+    /* Trail name pinned to bottom of photo — no bg, gradient does the work */
+    .card-photo-label {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 0 12px 10px;
+      background: none;
+    }
+    .card-photo-label .card-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #fff;
+      margin: 0;
+    }
+    .card-photo-label .card-park {
+      font-size: 0.68rem;
+      color: rgba(255,255,255,0.55);
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     /* Score badge overlaid on photo */
@@ -279,13 +301,21 @@
     .card-photo.state-UT { background: linear-gradient(135deg, #2d1508, #1a1008); }
     .card-photo.state-AZ { background: linear-gradient(135deg, #1a0e2d, #0e0a1a); }
 
-    .card-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
-    .card-name { font-size: 0.97rem; font-weight: 700; line-height: 1.25; }
-    .card-park { font-size: 0.72rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .card-meta { display: flex; align-items: center; gap: 8px; font-size: 0.72rem; color: var(--text-muted); }
-    .card-conditions { display: flex; align-items: center; justify-content: space-between; font-size: 0.75rem; margin-top: auto; }
-    .score-label-text { font-weight: 600; font-size: 0.78rem; }
-    .card-conditions-loading { height: 14px; background: var(--surface2); border-radius: 4px; width: 55%; animation: pulse 1.5s ease-in-out infinite; }
+    .card-body {
+      padding: 8px 12px 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .card-meta { display: contents; }
+    .card-conditions { display: contents; }
+    .score-label-text { font-weight: 600; font-size: 0.72rem; }
+    .card-sep { opacity: 0.35; }
+    .card-conditions-loading { height: 12px; background: var(--surface2); border-radius: 4px; width: 60px; animation: pulse 1.5s ease-in-out infinite; }
 
     .diff-easy     { color: #22c55e; }
     .diff-moderate { color: #eab308; }
@@ -403,9 +433,9 @@
     // ── Hero image ───────────────────────────────
     const heroImg = new Image();
     heroImg.onload = () => {
-      document.getElementById('site-hero').style.backgroundImage = `url('/photos/LANDINGcathedral-rock-sedona-az.jpg')`;
+      document.getElementById('site-hero').style.backgroundImage = `url('/photos/LANDINGcathedral-rock-sedona-az.webp')`;
     };
-    heroImg.src = '/photos/LANDINGcathedral-rock-sedona-az.jpg';
+    heroImg.src = '/photos/LANDINGcathedral-rock-sedona-az.webp';
 
     // ── Nav scroll ───────────────────────────────
     window.addEventListener('scroll', () => {
@@ -485,7 +515,7 @@
         : `<div class="card-score-loading"></div>`;
 
       const condLine = cond
-        ? `<span class="score-label-text" style="color:${color}">${cond.score_label}</span><span style="color:var(--text-muted)">${cond.current?.temp_f != null ? cond.current.temp_f + '°F' : ''}</span>`
+        ? `<span class="score-label-text" style="color:${color}">${cond.score_label}</span>`
         : `<div class="card-conditions-loading"></div>`;
 
       // Color stripe at top of card matching score
@@ -496,27 +526,49 @@
           <div class="card-photo state-${t.state}" id="photo-${t.slug}">
             <div class="card-photo-overlay"></div>
             ${badge}
+            <div class="card-photo-label">
+              <div class="card-name">${t.name}</div>
+              ${t.park_name ? `<div class="card-park">${t.park_name}</div>` : ''}
+            </div>
           </div>
           <div class="card-body">
-            <div class="card-name">${t.name}</div>
-            <div class="card-park">${t.park_name || ''}</div>
-            <div class="card-meta">
-              <span class="${diffClass(t.difficulty)}">${t.difficulty}</span>
-              <span>· ${t.length_mi} mi</span>
-              <span>· ${t.state}</span>
-            </div>
+            <span class="${diffClass(t.difficulty)}">${t.difficulty}</span>
+            <span class="card-sep">·</span>
+            <span>${t.length_mi} mi</span>
+            <span class="card-sep">·</span>
+            <span>${t.state}</span>
+            <span class="card-sep">·</span>
             <div class="card-conditions">${condLine}</div>
           </div>
         </a>`;
     }
 
+    // Control which part of each card photo is visible.
+    // Format: "X% Y%" — e.g. "50% 20%" keeps upper-center in frame.
+    const CARD_FOCUS = {
+      'toroweap-overlook-az':              '50% 40%',
+      'wire-pass-buckskin-az':             '50% 60%',
+      'kanab-creek-wilderness-az':         '50% 30%',
+      'south-kaibab-gc-az':               '50% 40%',
+      'angels-landing-zion-ut':            '50% 35%',
+      'the-narrows-zion-ut':              '50% 50%',
+      'narrows-top-down-zion-ut':         '50% 40%',
+      'wave-rock-valley-of-fire-nv':      '50% 50%',
+      'calico-hills-red-rock-nv':         '50% 60%',
+      'havasu-falls-az':                  '50% 40%',
+      'west-fork-oak-creek-az':           '50% 50%',
+      'bright-angel-trail-gc-az':         '50% 40%',
+    };
+
     function tryLoadCardPhoto(slug, state) {
-      const el = document.getElementById(`photo-${slug}`);
+      const el  = document.getElementById(`photo-${slug}`);
       if (!el) return;
-      const url = `/photos/${slug}/${slug}.jpg`;
+      const url      = `/photos/${slug}/${slug}-card.webp`;
+      const position = CARD_FOCUS[slug] || '50% 50%';
       const img = new Image();
       img.onload = () => {
-        el.style.backgroundImage = `url('${url}')`;
+        el.style.backgroundImage    = `url('${url}')`;
+        el.style.backgroundPosition = position;
       };
       img.src = url;
     }

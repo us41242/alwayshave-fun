@@ -217,3 +217,9 @@ photos/.DS_Store
 node_modules/
 .wrangler/
 package-lock.json
+# Generated output — never commit these
+contact-sheet.html
+contact-sheet.pdf
+*.pdf
+photos/**/*.html
+photos/**/*_files/

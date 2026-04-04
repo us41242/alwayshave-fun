@@ -653,12 +653,31 @@
     }
 
     // ─── LOAD HERO IMAGE ──────────────────────────────────────────────────────
+    // background-position controls which part of the photo stays visible on
+    // mobile. Format is "X% Y%" — e.g. "50% 30%" keeps the upper-center in
+    // frame. Defaults to "center center" for unlisted trails.
+    const PHOTO_FOCUS = {
+      'angels-landing-zion-ut':       '50% 40%',
+      'the-wave-vermilion-cliffs-az': '50% 50%',
+      'bryce-canyon-fairyland-ut':    '50% 35%',
+      'valley-of-fire-nv':            '50% 60%',
+      'red-rock-calico-hills-nv':     '50% 50%',
+      'zion-narrows-ut':              '50% 50%',
+      'antelope-canyon-az':           '50% 50%',
+      'horseshoe-bend-az':            '50% 30%',
+      'cathedral-rock-sedona-az':     '50% 50%',
+      'delicate-arch-arches-ut':      '50% 40%',
+      'corona-arch-ut':               '50% 50%',
+    };
+
     function tryLoadPhoto(slug, stateCode) {
-      const hero = document.getElementById('hero-image');
-      const url  = `/photos/${slug}/${slug}.jpg`;
-      const img  = new Image();
+      const hero     = document.getElementById('hero-image');
+      const url      = `/photos/${slug}/${slug}.webp`;
+      const position = PHOTO_FOCUS[slug] || 'center center';
+      const img      = new Image();
       img.onload = () => {
-        hero.style.backgroundImage = `url('${url}')`;
+        hero.style.backgroundImage    = `url('${url}')`;
+        hero.style.backgroundPosition = position;
       };
       img.onerror = () => {
         // Keep gradient fallback, already set by state class

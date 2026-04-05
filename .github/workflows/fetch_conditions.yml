@@ -63,3 +63,11 @@ jobs:
           git commit -m "data: update trail conditions $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase origin main
           git push origin main
+
+      - name: Purge Cloudflare cache
+        if: ${{ secrets.CF_CACHE_PURGE_TOKEN != '' }}
+        run: |
+          curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache" \
+            -H "Authorization: Bearer ${{ secrets.CF_CACHE_PURGE_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}' | python3 -c "import json,sys; d=json.load(sys.stdin); print('Cache purge:', 'success' if d.get('success') else d.get('errors'))"

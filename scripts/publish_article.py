@@ -360,12 +360,18 @@ def main():
     # Find and copy photo
     photo_src  = find_photo(slug, DRAFTS_DIR)
     os.makedirs(PHOTOS_DIR, exist_ok=True)
-    if photo_src:
+    if photo_src and photo_src.startswith(DRAFTS_DIR):
         ext       = os.path.splitext(photo_src)[1]
         photo_dst = os.path.join(PHOTOS_DIR, f"{slug}{ext}")
-        shutil.copy2(photo_src, photo_dst)
+        shutil.move(photo_src, photo_dst)   # move, not copy — cleans up drafts automatically
         photo_url = f"{BASE_URL}/photos/articles/{slug}{ext}"
-        print(f"  Photo: {photo_src} → {photo_dst}")
+        print(f"  Photo: {photo_src} → {photo_dst} (moved)")
+    elif photo_src:
+        ext       = os.path.splitext(photo_src)[1]
+        photo_dst = os.path.join(PHOTOS_DIR, f"{slug}{ext}")
+        shutil.copy2(photo_src, photo_dst)  # trail hero photos stay in place
+        photo_url = f"{BASE_URL}/photos/articles/{slug}{ext}"
+        print(f"  Photo: {photo_src} → {photo_dst} (copied from trail)")
     else:
         photo_url = f"{BASE_URL}/photos/{slug}/{slug}.jpg"
         print(f"  Photo: not found in drafts — using trail photo at {photo_url}")

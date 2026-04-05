@@ -141,11 +141,12 @@ def find_photo(slug, drafts_dir):
         exact = os.path.join(drafts_dir, f"{slug}.{ext}")
         if os.path.exists(exact):
             return exact
-        # Loose match — any file in drafts containing slug words
-        slug_words = slug.replace("-", " ").split()[:3]
+        # Loose match — require at least 2 slug words to match to avoid false positives
+        slug_words = [w for w in slug.replace("-", " ").split() if len(w) > 3][:4]
         for path in glob.glob(os.path.join(drafts_dir, f"*.{ext}")):
             name_lc = os.path.basename(path).lower()
-            if any(w in name_lc for w in slug_words):
+            matches = sum(1 for w in slug_words if w in name_lc)
+            if matches >= 2:
                 return path
     # Fall back to the trail's hero photo
     trail_hero = f"photos/{slug}/{slug}.jpg"

@@ -158,7 +158,7 @@ def inject_head(html, m):
     # Use lambda replacements so re.sub does not interpret backslashes in JSON schema.
     subs = [
         (r'<title[^>]*>.*?</title>',
-         f'<title>{m["title"]}</title>'),
+         f'<title id="page-title">{m["title"]}</title>'),
         (r'<meta name="description"[^>]*>',
          f'<meta name="description" id="page-desc" content="{m["meta_desc"]}">'),
         (r'<link rel="canonical"[^>]*>',

@@ -16,24 +16,23 @@
   "status": "Open",
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 12,
-    "feels_like_f": 1,
+    "temp_f": 8,
+    "feels_like_f": -4,
     "wind_mph": 10,
-    "gusts_mph": 12,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 60,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 16,
+    "category": "Good",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -41,7 +40,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 131,
+    "cfs": 122,
     "stage": "normal"
   },
   "forecast": [
@@ -57,7 +56,7 @@
     {
       "date": "2026-04-05",
       "high_f": 23,
-      "low_f": 6,
+      "low_f": 5,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-05T06:32",
@@ -85,11 +84,11 @@
       "date": "2026-04-08",
       "high_f": 33,
       "low_f": 18,
-      "rain_pct": 5,
+      "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-04-08T06:28",
       "sunset": "2026-04-08T19:21"
     }
   ],
-  "updated_at": "2026-04-05T03:02:29.091320+00:00"
+  "updated_at": "2026-04-05T05:18:01.397002+00:00"
 }

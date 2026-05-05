@@ -17,30 +17,31 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 73,
-    "feels_like_f": 65,
-    "wind_mph": 12,
+    "feels_like_f": 64,
+    "wind_mph": 10,
     "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-05-05T06:15",
   "sunset": "2026-05-05T20:13",
   "aqi": {
-    "aqi": 74,
+    "aqi": 77,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 286.3,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 42.8,
+    "fire_count_50km": 2
   },
   "river": null,
   "forecast": [
@@ -52,19 +53,19 @@
       "uv": 8,
       "sunrise": "2026-05-05T06:15",
       "sunset": "2026-05-05T20:13",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-06",
       "high_f": 61,
-      "low_f": 46,
+      "low_f": 47,
       "rain_pct": 45,
       "uv": 7,
       "sunrise": "2026-05-06T06:14",
       "sunset": "2026-05-06T20:14",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-07",
@@ -74,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-05-07T06:13",
       "sunset": "2026-05-07T20:15",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-08",
@@ -85,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-08T06:12",
       "sunset": "2026-05-08T20:16",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-09",
@@ -96,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-09T06:11",
       "sunset": "2026-05-09T20:17",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-05T22:12:32.478404+00:00"
+  "updated_at": "2026-05-05T22:37:38.463904+00:00"
 }

@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 52,
@@ -27,10 +27,10 @@
     "gusts_mph": 9,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-05T06:31",
-  "sunset": "2026-05-05T20:24",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 47,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7470,
+    "cfs": 7840,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-05-05",
-      "high_f": 58,
-      "low_f": 33,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-05-05T06:31",
-      "sunset": "2026-05-05T20:24",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-06",
-      "high_f": 59,
-      "low_f": 40,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-05-06T06:30",
-      "sunset": "2026-05-06T20:25",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-07",
-      "high_f": 70,
-      "low_f": 41,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-07T06:29",
-      "sunset": "2026-05-07T20:26",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-08",
-      "high_f": 75,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-08T06:28",
-      "sunset": "2026-05-08T20:27",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-09",
-      "high_f": 72,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-09T06:27",
-      "sunset": "2026-05-09T20:28",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-05-05T18:06:00.758555+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-05T18:26:04.222905+00:00"
 }

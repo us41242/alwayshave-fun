@@ -17,21 +17,23 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 55,
     "feels_like_f": 51,
     "wind_mph": 8,
-    "gusts_mph": 8,
+    "gusts_mph": 9,
     "rain_pct": 1
   },
   "sunrise": "2026-05-05T06:31",
   "sunset": "2026-05-05T20:24",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -41,7 +43,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7840,
+    "cfs": 8000,
     "stage": "flood"
   },
   "forecast": [
@@ -53,7 +55,7 @@
       "uv": 8,
       "sunrise": "2026-05-05T06:31",
       "sunset": "2026-05-05T20:24",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -64,7 +66,7 @@
       "uv": 8,
       "sunrise": "2026-05-06T06:30",
       "sunset": "2026-05-06T20:25",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -75,7 +77,7 @@
       "uv": 8,
       "sunrise": "2026-05-07T06:29",
       "sunset": "2026-05-07T20:26",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -86,7 +88,7 @@
       "uv": 8,
       "sunrise": "2026-05-08T06:28",
       "sunset": "2026-05-08T20:27",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -97,9 +99,9 @@
       "uv": 8,
       "sunrise": "2026-05-09T06:27",
       "sunset": "2026-05-09T20:28",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-05T19:04:14.717314+00:00"
+  "updated_at": "2026-05-05T19:26:34.416706+00:00"
 }

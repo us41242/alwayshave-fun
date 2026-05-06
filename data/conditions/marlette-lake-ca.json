@@ -17,18 +17,20 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 42,
-    "feels_like_f": 35,
-    "wind_mph": 6,
-    "gusts_mph": 8,
+    "feels_like_f": 34,
+    "wind_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-06T05:55",
+  "sunset": "2026-05-06T19:57",
   "aqi": {
     "aqi": 19,
     "category": "Good",
@@ -37,10 +39,66 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 538.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-06T12:34:32.186352+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-06",
+      "high_f": 60,
+      "low_f": 41,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-06T05:55",
+      "sunset": "2026-05-06T19:57",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-07",
+      "high_f": 61,
+      "low_f": 47,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-07T05:54",
+      "sunset": "2026-05-07T19:58",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-08",
+      "high_f": 65,
+      "low_f": 42,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-08T05:52",
+      "sunset": "2026-05-08T19:59",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-09",
+      "high_f": 69,
+      "low_f": 47,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-09T05:51",
+      "sunset": "2026-05-09T20:00",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-10",
+      "high_f": 74,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-10T05:50",
+      "sunset": "2026-05-10T20:01",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-05-06T12:53:29.569966+00:00"
 }

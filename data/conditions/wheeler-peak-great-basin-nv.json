@@ -17,14 +17,14 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 20,
+    "temp_f": 21,
     "feels_like_f": 6,
     "wind_mph": 21,
     "gusts_mph": 34,
@@ -33,10 +33,10 @@
   "sunrise": "2026-05-06T05:33",
   "sunset": "2026-05-06T19:34",
   "aqi": {
-    "aqi": 36,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -53,8 +53,8 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:33",
       "sunset": "2026-05-06T19:34",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-07",
@@ -64,8 +64,8 @@
       "uv": 8,
       "sunrise": "2026-05-07T05:32",
       "sunset": "2026-05-07T19:35",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-08",
@@ -75,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-05-08T05:30",
       "sunset": "2026-05-08T19:36",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-09",
@@ -86,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-09T05:29",
       "sunset": "2026-05-09T19:37",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-10",
@@ -97,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-05-10T05:28",
       "sunset": "2026-05-10T19:38",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-06T14:41:38.578420+00:00"
+  "updated_at": "2026-05-06T15:04:26.767222+00:00"
 }

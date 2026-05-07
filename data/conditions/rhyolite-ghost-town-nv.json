@@ -17,23 +17,25 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 70,
     "feels_like_f": 62,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-05-06T05:47",
   "sunset": "2026-05-06T19:40",
   "aqi": {
-    "aqi": 45,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 52,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:47",
       "sunset": "2026-05-06T19:40",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-07",
@@ -61,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-05-07T05:46",
       "sunset": "2026-05-07T19:41",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-08",
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-05-08T05:45",
       "sunset": "2026-05-08T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-09",
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-05-09T05:44",
       "sunset": "2026-05-09T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-10",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-05-10T05:43",
       "sunset": "2026-05-10T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-07T05:05:53.739096+00:00"
+  "updated_at": "2026-05-07T05:30:19.573448+00:00"
 }

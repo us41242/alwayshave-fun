@@ -17,13 +17,9 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required",
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 25,
     "feels_like_f": 15,
@@ -31,13 +27,13 @@
     "gusts_mph": 20,
     "rain_pct": 7
   },
-  "sunrise": "2026-05-08T06:01",
-  "sunset": "2026-05-08T20:07",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 76,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 29,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -45,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-08",
-      "high_f": 35,
-      "low_f": 22,
-      "rain_pct": 10,
-      "uv": 9,
-      "sunrise": "2026-05-08T06:01",
-      "sunset": "2026-05-08T20:07",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-09",
-      "high_f": 42,
-      "low_f": 23,
-      "rain_pct": 17,
-      "uv": 9,
-      "sunrise": "2026-05-09T06:00",
-      "sunset": "2026-05-09T20:08",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-10",
-      "high_f": 47,
-      "low_f": 24,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-05-10T05:59",
-      "sunset": "2026-05-10T20:09",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-11",
-      "high_f": 52,
-      "low_f": 29,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-05-11T05:58",
-      "sunset": "2026-05-11T20:10",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-12",
-      "high_f": 55,
-      "low_f": 35,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-05-12T05:57",
-      "sunset": "2026-05-12T20:11",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-05-08T06:32:37.287726+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-08T06:52:09.944267+00:00"
 }

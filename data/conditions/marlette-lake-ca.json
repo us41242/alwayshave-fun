@@ -20,23 +20,22 @@
   "score": 74,
   "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 35,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "temp_f": 45,
+    "feels_like_f": 37,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-05-08T05:52",
   "sunset": "2026-05-08T19:59",
   "aqi": {
-    "aqi": 25,
+    "aqi": 43,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -101,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-08T13:09:39.633877+00:00"
+  "updated_at": "2026-05-08T13:31:17.253460+00:00"
 }

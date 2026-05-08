@@ -25,8 +25,8 @@
   "current": {
     "temp_f": 19,
     "feels_like_f": 10,
-    "wind_mph": 6,
-    "gusts_mph": 11,
+    "wind_mph": 5,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-05-08T05:51",
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 1451.3,
     "fire_count_50km": 0
   },
   "river": {
@@ -49,7 +49,7 @@
   "forecast": [
     {
       "date": "2026-05-08",
-      "high_f": 31,
+      "high_f": 32,
       "low_f": 16,
       "rain_pct": 2,
       "uv": 9,
@@ -60,14 +60,14 @@
     },
     {
       "date": "2026-05-09",
-      "high_f": 40,
+      "high_f": 33,
       "low_f": 18,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-05-09T05:51",
       "sunset": "2026-05-09T19:48",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-10",
@@ -103,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-08T07:48:44.352597+00:00"
+  "updated_at": "2026-05-08T08:10:30.791045+00:00"
 }

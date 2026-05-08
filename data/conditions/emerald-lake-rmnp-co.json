@@ -20,17 +20,19 @@
   "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 34,
-    "feels_like_f": 22,
-    "wind_mph": 17,
-    "gusts_mph": 28,
-    "rain_pct": 15
+    "feels_like_f": 23,
+    "wind_mph": 14,
+    "gusts_mph": 25,
+    "rain_pct": 12
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-07T05:54",
+  "sunset": "2026-05-07T20:03",
   "aqi": {
     "aqi": 69,
     "category": "Moderate",
@@ -43,6 +45,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-08T04:05:39.829102+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-07",
+      "high_f": 41,
+      "low_f": 20,
+      "rain_pct": 23,
+      "uv": 9,
+      "sunrise": "2026-05-07T05:54",
+      "sunset": "2026-05-07T20:03",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-08",
+      "high_f": 47,
+      "low_f": 30,
+      "rain_pct": 10,
+      "uv": 8,
+      "sunrise": "2026-05-08T05:53",
+      "sunset": "2026-05-08T20:04",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-09",
+      "high_f": 51,
+      "low_f": 30,
+      "rain_pct": 25,
+      "uv": 9,
+      "sunrise": "2026-05-09T05:52",
+      "sunset": "2026-05-09T20:05",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-10",
+      "high_f": 54,
+      "low_f": 28,
+      "rain_pct": 25,
+      "uv": 9,
+      "sunrise": "2026-05-10T05:51",
+      "sunset": "2026-05-10T20:06",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-11",
+      "high_f": 61,
+      "low_f": 34,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-05-11T05:50",
+      "sunset": "2026-05-11T20:07",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-05-08T04:31:58.546748+00:00"
 }

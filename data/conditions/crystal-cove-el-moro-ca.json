@@ -17,14 +17,16 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 60,
     "feels_like_f": 61,
-    "wind_mph": 5,
-    "gusts_mph": 7,
+    "wind_mph": 4,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-05-09T05:55",
@@ -36,9 +38,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 866.7,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 41.9,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -50,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-05-09T05:55",
       "sunset": "2026-05-09T19:40",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-05-10T05:54",
       "sunset": "2026-05-10T19:41",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-05-11T05:53",
       "sunset": "2026-05-11T19:42",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-12",
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-05-12T05:52",
       "sunset": "2026-05-12T19:42",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-13",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-13T05:51",
       "sunset": "2026-05-13T19:43",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-09T09:36:11.945261+00:00"
+  "updated_at": "2026-05-09T09:53:57.458610+00:00"
 }

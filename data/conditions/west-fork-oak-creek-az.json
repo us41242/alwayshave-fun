@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 67,
-    "feels_like_f": 58,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "feels_like_f": 57,
+    "wind_mph": 11,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-05-09T05:28",
@@ -40,13 +40,16 @@
     "nearest_fire_km": 57.6,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 26,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-05-09",
       "high_f": 84,
-      "low_f": 56,
-      "rain_pct": 2,
+      "low_f": 55,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-09T05:28",
       "sunset": "2026-05-09T19:18",
@@ -98,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-09T14:23:23.839268+00:00"
+  "updated_at": "2026-05-09T14:43:09.957693+00:00"
 }

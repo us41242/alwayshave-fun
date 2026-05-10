@@ -23,10 +23,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 21,
-    "feels_like_f": 11,
-    "wind_mph": 7,
-    "gusts_mph": 14,
+    "temp_f": 20,
+    "feels_like_f": 10,
+    "wind_mph": 8,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-05-10T05:50",
@@ -42,11 +42,14 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 175,
+    "stage": "normal"
+  },
   "forecast": [
     {
       "date": "2026-05-10",
-      "high_f": 33,
+      "high_f": 34,
       "low_f": 20,
       "rain_pct": 2,
       "uv": 10,
@@ -57,14 +60,14 @@
     },
     {
       "date": "2026-05-11",
-      "high_f": 42,
-      "low_f": 20,
+      "high_f": 33,
+      "low_f": 21,
       "rain_pct": 2,
       "uv": 10,
       "sunrise": "2026-05-11T05:49",
       "sunset": "2026-05-11T19:49",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-12",
@@ -100,5 +103,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-10T07:52:00.501228+00:00"
+  "updated_at": "2026-05-10T08:11:41.285293+00:00"
 }

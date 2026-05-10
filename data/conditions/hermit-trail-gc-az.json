@@ -17,20 +17,20 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 68,
+  "score_label": "Use caution",
   "gear_flags": [
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 67,
+    "temp_f": 77,
+    "feels_like_f": 70,
     "wind_mph": 11,
-    "gusts_mph": 12,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-10T05:26",
+  "sunset": "2026-05-10T19:23",
   "aqi": {
     "aqi": 105,
     "category": "Unhealthy for Sensitive Groups",
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-10T18:46:54.342243+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-10",
+      "high_f": 80,
+      "low_f": 54,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-10T05:26",
+      "sunset": "2026-05-10T19:23",
+      "predicted_score": 68,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-11",
+      "high_f": 86,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-11T05:26",
+      "sunset": "2026-05-11T19:24",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-12",
+      "high_f": 87,
+      "low_f": 61,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-05-12T05:25",
+      "sunset": "2026-05-12T19:25",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-13",
+      "high_f": 77,
+      "low_f": 56,
+      "rain_pct": 10,
+      "uv": 8,
+      "sunrise": "2026-05-13T05:24",
+      "sunset": "2026-05-13T19:26",
+      "predicted_score": 68,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-14",
+      "high_f": 76,
+      "low_f": 50,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-14T05:23",
+      "sunset": "2026-05-14T19:27",
+      "predicted_score": 68,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-05-10T19:06:01.287741+00:00"
 }

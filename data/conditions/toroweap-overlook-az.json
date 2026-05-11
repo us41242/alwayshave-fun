@@ -17,10 +17,10 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 82,
+  "score": 72,
   "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended"
   ],
   "current": {
     "temp_f": 61,
@@ -32,10 +32,10 @@
   "sunrise": "2026-05-11T05:27",
   "sunset": "2026-05-11T19:26",
   "aqi": {
-    "aqi": 71,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 105,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -52,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-05-11T05:27",
       "sunset": "2026-05-11T19:26",
-      "predicted_score": 42,
+      "predicted_score": 32,
       "score_label": "Conditions poor"
     },
     {
@@ -63,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-05-12T05:26",
       "sunset": "2026-05-12T19:27",
-      "predicted_score": 42,
+      "predicted_score": 32,
       "score_label": "Conditions poor"
     },
     {
@@ -74,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-05-13T05:25",
       "sunset": "2026-05-13T19:28",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-14",
@@ -85,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-05-14T05:24",
       "sunset": "2026-05-14T19:29",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-15",
@@ -96,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-15T05:24",
       "sunset": "2026-05-15T19:30",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-11T10:30:27.204163+00:00"
+  "updated_at": "2026-05-11T10:45:59.286766+00:00"
 }

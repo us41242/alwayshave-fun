@@ -17,14 +17,15 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 58,
+  "score": 68,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 39,
+    "temp_f": 49,
+    "feels_like_f": 38,
     "wind_mph": 12,
     "gusts_mph": 20,
     "rain_pct": 0
@@ -32,10 +33,10 @@
   "sunrise": "2026-05-11T05:50",
   "sunset": "2026-05-11T20:07",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 126,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -52,7 +53,7 @@
       "uv": 9,
       "sunrise": "2026-05-11T05:50",
       "sunset": "2026-05-11T20:07",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -63,7 +64,7 @@
       "uv": 9,
       "sunrise": "2026-05-12T05:49",
       "sunset": "2026-05-12T20:08",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -74,7 +75,7 @@
       "uv": 8,
       "sunrise": "2026-05-13T05:48",
       "sunset": "2026-05-13T20:09",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     },
     {
@@ -85,7 +86,7 @@
       "uv": 9,
       "sunrise": "2026-05-14T05:47",
       "sunset": "2026-05-14T20:10",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     },
     {
@@ -96,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-05-15T05:46",
       "sunset": "2026-05-15T20:11",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-12T02:11:49.460538+00:00"
+  "updated_at": "2026-05-12T02:29:06.471000+00:00"
 }

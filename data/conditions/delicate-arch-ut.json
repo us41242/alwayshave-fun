@@ -17,20 +17,20 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 94,
-    "feels_like_f": 90,
-    "wind_mph": 3,
+    "feels_like_f": 87,
+    "wind_mph": 5,
     "gusts_mph": 11,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-12T06:08",
+  "sunset": "2026-05-12T20:20",
   "aqi": {
     "aqi": 74,
     "category": "Moderate",
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-12T22:36:12.699133+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-12",
+      "high_f": 94,
+      "low_f": 56,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-12T06:08",
+      "sunset": "2026-05-12T20:20",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-13",
+      "high_f": 93,
+      "low_f": 67,
+      "rain_pct": 4,
+      "uv": 6,
+      "sunrise": "2026-05-13T06:07",
+      "sunset": "2026-05-13T20:21",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-14",
+      "high_f": 85,
+      "low_f": 61,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-14T06:06",
+      "sunset": "2026-05-14T20:22",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-15",
+      "high_f": 84,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-15T06:05",
+      "sunset": "2026-05-15T20:23",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-16",
+      "high_f": 87,
+      "low_f": 60,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-16T06:04",
+      "sunset": "2026-05-16T20:24",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-05-12T22:52:26.013121+00:00"
 }

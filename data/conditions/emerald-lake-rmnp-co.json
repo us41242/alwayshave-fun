@@ -17,26 +17,25 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
-    "N95 mask recommended"
+    "wind layer recommended"
   ],
   "current": {
-    "temp_f": 51,
+    "temp_f": 50,
     "feels_like_f": 39,
     "wind_mph": 12,
-    "gusts_mph": 25,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-05-11T05:50",
   "sunset": "2026-05-11T20:07",
   "aqi": {
-    "aqi": 129,
-    "category": "Unhealthy for Sensitive Groups",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -53,29 +52,29 @@
       "uv": 9,
       "sunrise": "2026-05-11T05:50",
       "sunset": "2026-05-11T20:07",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-05-12",
-      "high_f": 64,
+      "high_f": 63,
       "low_f": 42,
       "rain_pct": 5,
       "uv": 9,
       "sunrise": "2026-05-12T05:49",
       "sunset": "2026-05-12T20:08",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-05-13",
-      "high_f": 67,
+      "high_f": 66,
       "low_f": 44,
       "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-05-13T05:48",
       "sunset": "2026-05-13T20:09",
-      "predicted_score": 68,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -86,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-05-14T05:47",
       "sunset": "2026-05-14T20:10",
-      "predicted_score": 68,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-05-15T05:46",
       "sunset": "2026-05-15T20:11",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-12T01:49:33.673739+00:00"
+  "updated_at": "2026-05-12T02:11:49.460538+00:00"
 }

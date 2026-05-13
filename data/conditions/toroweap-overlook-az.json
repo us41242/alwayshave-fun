@@ -17,23 +17,25 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 62,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 77,
-    "wind_mph": 10,
-    "gusts_mph": 18,
+    "temp_f": 86,
+    "feels_like_f": 78,
+    "wind_mph": 13,
+    "gusts_mph": 23,
     "rain_pct": 0
   },
   "sunrise": "2026-05-13T05:25",
   "sunset": "2026-05-13T19:28",
   "aqi": {
-    "aqi": 48,
+    "aqi": 32,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
@@ -98,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-13T15:50:40.737669+00:00"
+  "updated_at": "2026-05-13T16:20:32.009630+00:00"
 }

@@ -17,20 +17,22 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 36,
     "feels_like_f": 25,
-    "wind_mph": 15,
+    "wind_mph": 16,
     "gusts_mph": 26,
     "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-16T05:23",
+  "sunset": "2026-05-16T19:44",
   "aqi": {
     "aqi": 61,
     "category": "Moderate",
@@ -43,6 +45,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-16T22:23:28.379581+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-16",
+      "high_f": 36,
+      "low_f": 22,
+      "rain_pct": 2,
+      "uv": 7,
+      "sunrise": "2026-05-16T05:23",
+      "sunset": "2026-05-16T19:44",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-17",
+      "high_f": 25,
+      "low_f": 6,
+      "rain_pct": 63,
+      "uv": 5,
+      "sunrise": "2026-05-17T05:22",
+      "sunset": "2026-05-17T19:45",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-18",
+      "high_f": 23,
+      "low_f": 3,
+      "rain_pct": 26,
+      "uv": 7,
+      "sunrise": "2026-05-18T05:21",
+      "sunset": "2026-05-18T19:45",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-19",
+      "high_f": 33,
+      "low_f": 13,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-19T05:20",
+      "sunset": "2026-05-19T19:46",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-20",
+      "high_f": 43,
+      "low_f": 22,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-20T05:20",
+      "sunset": "2026-05-20T19:47",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-16T22:41:38.936464+00:00"
 }

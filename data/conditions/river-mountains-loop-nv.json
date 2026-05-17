@@ -17,23 +17,25 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
+  "score": 68,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended"
+  ],
   "current": {
-    "temp_f": 82,
+    "temp_f": 79,
     "feels_like_f": 70,
-    "wind_mph": 13,
-    "gusts_mph": 17,
+    "wind_mph": 9,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-05-16T05:32",
   "sunset": "2026-05-16T19:39",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 105,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-05-16T05:32",
       "sunset": "2026-05-16T19:39",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-17",
@@ -61,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-05-17T05:31",
       "sunset": "2026-05-17T19:40",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-18",
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-05-18T05:31",
       "sunset": "2026-05-18T19:41",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-05-19T05:30",
       "sunset": "2026-05-19T19:41",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-20T05:29",
       "sunset": "2026-05-20T19:42",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-17T03:12:54.340323+00:00"
+  "updated_at": "2026-05-17T03:35:06.630574+00:00"
 }

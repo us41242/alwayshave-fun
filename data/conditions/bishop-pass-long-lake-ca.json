@@ -17,20 +17,22 @@
   "notes": "South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June \u2014 Long Lake turnaround is the right call early season",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "N95 mask recommended"
   ],
   "current": {
     "temp_f": 40,
-    "feels_like_f": 23,
-    "wind_mph": 35,
-    "gusts_mph": 59,
-    "rain_pct": 1
+    "feels_like_f": 30,
+    "wind_mph": 20,
+    "gusts_mph": 39,
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-17T05:43",
+  "sunset": "2026-05-17T19:57",
   "aqi": {
     "aqi": 660,
     "category": "Hazardous",
@@ -43,6 +45,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-17T22:52:26.239513+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-17",
+      "high_f": 43,
+      "low_f": 22,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-05-17T05:43",
+      "sunset": "2026-05-17T19:57",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-18",
+      "high_f": 40,
+      "low_f": 17,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-05-18T05:43",
+      "sunset": "2026-05-18T19:58",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-19",
+      "high_f": 45,
+      "low_f": 26,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-05-19T05:42",
+      "sunset": "2026-05-19T19:59",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-20",
+      "high_f": 50,
+      "low_f": 34,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-20T05:41",
+      "sunset": "2026-05-20T20:00",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-21",
+      "high_f": 57,
+      "low_f": 37,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-05-21T05:41",
+      "sunset": "2026-05-21T20:00",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-17T23:12:41.462832+00:00"
 }

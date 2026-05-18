@@ -19,18 +19,20 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 45,
     "feels_like_f": 41,
-    "wind_mph": 4,
-    "gusts_mph": 5,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 2
   },
   "sunrise": "2026-05-17T05:45",
   "sunset": "2026-05-17T19:56",
   "aqi": {
-    "aqi": 45,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -56,7 +58,7 @@
     {
       "date": "2026-05-18",
       "high_f": 51,
-      "low_f": 35,
+      "low_f": 36,
       "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-05-18T05:45",
@@ -98,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-18T02:11:20.239945+00:00"
+  "updated_at": "2026-05-18T02:31:48.201317+00:00"
 }

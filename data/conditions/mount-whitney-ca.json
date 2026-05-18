@@ -19,16 +19,19 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 10,
-    "feels_like_f": 3,
-    "wind_mph": 14,
+    "temp_f": 11,
+    "feels_like_f": 4,
+    "wind_mph": 13,
     "gusts_mph": 21,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-18T05:43",
+  "sunset": "2026-05-18T19:55",
   "aqi": {
     "aqi": 7,
     "category": "Good",
@@ -44,6 +47,62 @@
     "cfs": 213,
     "stage": "normal"
   },
-  "forecast": [],
-  "updated_at": "2026-05-18T20:13:17.222116+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-18",
+      "high_f": 16,
+      "low_f": -1,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-05-18T05:43",
+      "sunset": "2026-05-18T19:55",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-19",
+      "high_f": 20,
+      "low_f": 1,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-05-19T05:42",
+      "sunset": "2026-05-19T19:56",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-20",
+      "high_f": 34,
+      "low_f": 6,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-20T05:42",
+      "sunset": "2026-05-20T19:57",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-21",
+      "high_f": 39,
+      "low_f": 21,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-05-21T05:41",
+      "sunset": "2026-05-21T19:58",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-22",
+      "high_f": 38,
+      "low_f": 24,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-05-22T05:40",
+      "sunset": "2026-05-22T19:58",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-18T20:29:35.240725+00:00"
 }

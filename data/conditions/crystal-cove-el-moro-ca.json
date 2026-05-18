@@ -17,27 +17,29 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 82,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 59,
-    "feels_like_f": 57,
+    "feels_like_f": 56,
     "wind_mph": 9,
-    "gusts_mph": 12,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-05-18T05:48",
   "sunset": "2026-05-18T19:47",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 57,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 102.2,
+    "risk_level": "moderate",
+    "nearest_fire_km": 55.6,
     "fire_count_50km": 0
   },
   "river": null,
@@ -50,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-05-18T05:48",
       "sunset": "2026-05-18T19:47",
-      "predicted_score": 70,
+      "predicted_score": 82,
       "score_label": "Good conditions"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-05-19T05:47",
       "sunset": "2026-05-19T19:47",
-      "predicted_score": 70,
+      "predicted_score": 82,
       "score_label": "Good conditions"
     },
     {
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-05-20T05:47",
       "sunset": "2026-05-20T19:48",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-21",
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-05-21T05:46",
       "sunset": "2026-05-21T19:49",
-      "predicted_score": 70,
+      "predicted_score": 82,
       "score_label": "Good conditions"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-22T05:46",
       "sunset": "2026-05-22T19:49",
-      "predicted_score": 70,
+      "predicted_score": 82,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-18T12:53:33.918339+00:00"
+  "updated_at": "2026-05-18T13:06:24.833026+00:00"
 }

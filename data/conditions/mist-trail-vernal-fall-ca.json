@@ -17,16 +17,18 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "insulation layer required",
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 45,
+    "temp_f": 44,
     "feels_like_f": 36,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-05-18T05:45",
@@ -38,9 +40,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 1102.0,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 19.0,
+    "fire_count_50km": 2
   },
   "river": null,
   "forecast": [
@@ -52,8 +54,8 @@
       "uv": 8,
       "sunrise": "2026-05-18T05:45",
       "sunset": "2026-05-18T20:03",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-19",
@@ -63,8 +65,8 @@
       "uv": 8,
       "sunrise": "2026-05-19T05:45",
       "sunset": "2026-05-19T20:04",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-20",
@@ -74,8 +76,8 @@
       "uv": 8,
       "sunrise": "2026-05-20T05:44",
       "sunset": "2026-05-20T20:05",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-21",
@@ -85,8 +87,8 @@
       "uv": 8,
       "sunrise": "2026-05-21T05:43",
       "sunset": "2026-05-21T20:06",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-22",
@@ -96,9 +98,9 @@
       "uv": 8,
       "sunrise": "2026-05-22T05:43",
       "sunset": "2026-05-22T20:07",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-18T09:50:26.890173+00:00"
+  "updated_at": "2026-05-18T10:13:36.479313+00:00"
 }

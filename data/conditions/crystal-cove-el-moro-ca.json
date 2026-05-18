@@ -17,18 +17,18 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
     "temp_f": 61,
-    "feels_like_f": 59,
-    "wind_mph": 10,
-    "gusts_mph": 13,
-    "rain_pct": 3
+    "feels_like_f": 60,
+    "wind_mph": 8,
+    "gusts_mph": 12,
+    "rain_pct": 4
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-18T05:48",
+  "sunset": "2026-05-18T19:47",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -37,10 +37,66 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 855.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-18T09:12:37.115678+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-18",
+      "high_f": 68,
+      "low_f": 56,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-05-18T05:48",
+      "sunset": "2026-05-18T19:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-19",
+      "high_f": 68,
+      "low_f": 54,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-05-19T05:47",
+      "sunset": "2026-05-19T19:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-20",
+      "high_f": 77,
+      "low_f": 63,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-20T05:47",
+      "sunset": "2026-05-20T19:48",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-21",
+      "high_f": 76,
+      "low_f": 64,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-21T05:46",
+      "sunset": "2026-05-21T19:49",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-22",
+      "high_f": 74,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-22T05:46",
+      "sunset": "2026-05-22T19:49",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-18T09:32:34.808844+00:00"
 }

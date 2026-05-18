@@ -21,22 +21,23 @@
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "rain gear recommended"
   ],
   "current": {
-    "temp_f": 26,
-    "feels_like_f": 9,
-    "wind_mph": 27,
-    "gusts_mph": 43,
-    "rain_pct": 35
+    "temp_f": 25,
+    "feels_like_f": 8,
+    "wind_mph": 29,
+    "gusts_mph": 49,
+    "rain_pct": 51
   },
   "sunrise": "2026-05-18T05:58",
   "sunset": "2026-05-18T20:16",
   "aqi": {
-    "aqi": 24,
+    "aqi": 50,
     "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -48,7 +49,7 @@
     {
       "date": "2026-05-18",
       "high_f": 32,
-      "low_f": 21,
+      "low_f": 22,
       "rain_pct": 75,
       "uv": 9,
       "sunrise": "2026-05-18T05:58",
@@ -101,5 +102,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-18T13:06:21.412534+00:00"
+  "updated_at": "2026-05-18T13:30:43.060134+00:00"
 }

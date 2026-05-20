@@ -17,24 +17,22 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 40,
-    "feels_like_f": 29,
-    "wind_mph": 12,
-    "gusts_mph": 19,
+    "temp_f": 58,
+    "feels_like_f": 46,
+    "wind_mph": 17,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-18T06:20",
-  "sunset": "2026-05-18T20:37",
+  "sunrise": "2026-05-19T06:19",
+  "sunset": "2026-05-19T20:38",
   "aqi": {
-    "aqi": 42,
+    "aqi": 45,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
@@ -45,21 +43,10 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-05-18",
-      "high_f": 47,
-      "low_f": 31,
-      "rain_pct": 96,
-      "uv": 9,
-      "sunrise": "2026-05-18T06:20",
-      "sunset": "2026-05-18T20:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-05-19",
-      "high_f": 60,
-      "low_f": 34,
-      "rain_pct": 1,
+      "high_f": 59,
+      "low_f": 32,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-05-19T06:19",
       "sunset": "2026-05-19T20:38",
@@ -70,7 +57,7 @@
       "date": "2026-05-20",
       "high_f": 68,
       "low_f": 40,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-20T06:19",
       "sunset": "2026-05-20T20:39",
@@ -80,8 +67,8 @@
     {
       "date": "2026-05-21",
       "high_f": 73,
-      "low_f": 46,
-      "rain_pct": 0,
+      "low_f": 49,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-21T06:18",
       "sunset": "2026-05-21T20:40",
@@ -90,15 +77,26 @@
     },
     {
       "date": "2026-05-22",
-      "high_f": 74,
-      "low_f": 50,
+      "high_f": 73,
+      "low_f": 51,
       "rain_pct": 0,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-05-22T06:17",
       "sunset": "2026-05-22T20:40",
       "predicted_score": 100,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-23",
+      "high_f": 76,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-23T06:17",
+      "sunset": "2026-05-23T20:41",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-19T05:49:13.086221+00:00"
+  "updated_at": "2026-05-20T00:09:33.651853+00:00"
 }

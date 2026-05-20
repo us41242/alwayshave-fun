@@ -17,14 +17,16 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 80,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 60,
     "feels_like_f": 59,
-    "wind_mph": 3,
-    "gusts_mph": 5,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 1
   },
   "sunrise": "2026-05-20T05:41",
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 163.5,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 14.6,
+    "fire_count_50km": 4
   },
   "river": null,
   "forecast": [
@@ -50,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-05-20T05:41",
       "sunset": "2026-05-20T20:02",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-21",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-05-21T05:41",
       "sunset": "2026-05-21T20:02",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-22",
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-05-22T05:40",
       "sunset": "2026-05-22T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-23",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-05-23T05:39",
       "sunset": "2026-05-23T20:04",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-24",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-05-24T05:39",
       "sunset": "2026-05-24T20:05",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-20T20:32:05.479716+00:00"
+  "updated_at": "2026-05-20T20:51:31.629088+00:00"
 }

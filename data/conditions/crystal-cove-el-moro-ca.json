@@ -17,25 +17,26 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 63,
-    "wind_mph": 6,
-    "gusts_mph": 9,
+    "temp_f": 63,
+    "feels_like_f": 65,
+    "wind_mph": 5,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-05-20T05:47",
   "sunset": "2026-05-20T19:48",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 74,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "high",
@@ -52,30 +53,30 @@
       "uv": 8,
       "sunrise": "2026-05-20T05:47",
       "sunset": "2026-05-20T19:48",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-21",
       "high_f": 66,
-      "low_f": 59,
+      "low_f": 60,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-05-21T05:46",
       "sunset": "2026-05-21T19:49",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-22",
       "high_f": 77,
-      "low_f": 64,
+      "low_f": 58,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-22T05:46",
       "sunset": "2026-05-22T19:49",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-23",
@@ -85,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-23T05:45",
       "sunset": "2026-05-23T19:50",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-24",
@@ -96,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-24T05:45",
       "sunset": "2026-05-24T19:51",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-20T13:51:38.816854+00:00"
+  "updated_at": "2026-05-20T14:12:43.570025+00:00"
 }

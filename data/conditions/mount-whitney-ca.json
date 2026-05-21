@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 22,
-    "feels_like_f": 14,
+    "temp_f": 21,
+    "feels_like_f": 12,
     "wind_mph": 4,
-    "gusts_mph": 7,
-    "rain_pct": 2
+    "gusts_mph": 6,
+    "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-20T05:42",
+  "sunset": "2026-05-20T19:57",
   "aqi": {
     "aqi": 15,
     "category": "Good",
@@ -41,9 +43,65 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 137,
+    "cfs": 140,
     "stage": "normal"
   },
-  "forecast": [],
-  "updated_at": "2026-05-21T01:51:01.558311+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-20",
+      "high_f": 25,
+      "low_f": 5,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-05-20T05:42",
+      "sunset": "2026-05-20T19:57",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-21",
+      "high_f": 29,
+      "low_f": 12,
+      "rain_pct": 6,
+      "uv": 10,
+      "sunrise": "2026-05-21T05:41",
+      "sunset": "2026-05-21T19:58",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-22",
+      "high_f": 35,
+      "low_f": 17,
+      "rain_pct": 18,
+      "uv": 8,
+      "sunrise": "2026-05-22T05:40",
+      "sunset": "2026-05-22T19:58",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-23",
+      "high_f": 40,
+      "low_f": 23,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-05-23T05:40",
+      "sunset": "2026-05-23T19:59",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-24",
+      "high_f": 39,
+      "low_f": 24,
+      "rain_pct": 7,
+      "uv": 9,
+      "sunrise": "2026-05-24T05:39",
+      "sunset": "2026-05-24T20:00",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-21T02:08:53.359429+00:00"
 }

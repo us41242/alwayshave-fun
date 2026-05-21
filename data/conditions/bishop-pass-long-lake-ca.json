@@ -17,28 +17,30 @@
   "notes": "South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June \u2014 Long Lake turnaround is the right call early season",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 46,
-    "feels_like_f": 47,
+    "temp_f": 47,
+    "feels_like_f": 48,
     "wind_mph": 2,
-    "gusts_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 1
   },
   "sunrise": "2026-05-21T05:41",
   "sunset": "2026-05-21T20:00",
   "aqi": {
-    "aqi": 38,
+    "aqi": 47,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 145.9,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.4,
+    "fire_count_50km": 3
   },
   "river": null,
   "forecast": [
@@ -50,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-05-21T05:41",
       "sunset": "2026-05-21T20:00",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-22",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-05-22T05:40",
       "sunset": "2026-05-22T20:01",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-23",
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-05-23T05:39",
       "sunset": "2026-05-23T20:02",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-05-24T05:39",
       "sunset": "2026-05-24T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-25",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-05-25T05:38",
       "sunset": "2026-05-25T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-21T20:11:49.337964+00:00"
+  "updated_at": "2026-05-21T20:31:03.677275+00:00"
 }

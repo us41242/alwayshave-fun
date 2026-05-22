@@ -17,18 +17,18 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 22,
-  "score_label": "Stay home",
+  "score": 62,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 52,
-    "feels_like_f": 40,
-    "wind_mph": 12,
-    "gusts_mph": 18,
+    "feels_like_f": 41,
+    "wind_mph": 10,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-22T05:23",
+  "sunset": "2026-05-22T19:42",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-22T11:43:48.694607+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-22",
+      "high_f": 67,
+      "low_f": 52,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-22T05:23",
+      "sunset": "2026-05-22T19:42",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-23",
+      "high_f": 67,
+      "low_f": 52,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-23T05:23",
+      "sunset": "2026-05-23T19:42",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-24",
+      "high_f": 73,
+      "low_f": 48,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-24T05:22",
+      "sunset": "2026-05-24T19:43",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-25",
+      "high_f": 72,
+      "low_f": 48,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-25T05:22",
+      "sunset": "2026-05-25T19:44",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-26",
+      "high_f": 69,
+      "low_f": 48,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-26T05:21",
+      "sunset": "2026-05-26T19:45",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-05-22T12:02:07.239866+00:00"
 }

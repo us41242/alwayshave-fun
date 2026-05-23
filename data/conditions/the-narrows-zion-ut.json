@@ -17,25 +17,23 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 68,
     "feels_like_f": 61,
-    "wind_mph": 6,
-    "gusts_mph": 12,
+    "wind_mph": 5,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-05-22T06:17",
   "sunset": "2026-05-22T20:39",
   "aqi": {
-    "aqi": 63,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 49,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -43,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8110,
+    "cfs": 8140,
     "stage": "flood"
   },
   "forecast": [
@@ -55,19 +53,19 @@
       "uv": 8,
       "sunrise": "2026-05-22T06:17",
       "sunset": "2026-05-22T20:39",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-23",
       "high_f": 82,
-      "low_f": 57,
+      "low_f": 60,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-23T06:16",
       "sunset": "2026-05-23T20:40",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-24",
@@ -77,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-05-24T06:16",
       "sunset": "2026-05-24T20:40",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-25",
@@ -88,8 +86,8 @@
       "uv": 7,
       "sunrise": "2026-05-25T06:15",
       "sunset": "2026-05-25T20:41",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-26",
@@ -99,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-26T06:15",
       "sunset": "2026-05-26T20:42",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-23T03:01:21.509518+00:00"
+  "updated_at": "2026-05-23T03:28:37.577315+00:00"
 }

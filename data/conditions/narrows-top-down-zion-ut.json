@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 57,
@@ -27,10 +27,10 @@
     "gusts_mph": 4,
     "rain_pct": 1
   },
-  "sunrise": "2026-05-22T06:17",
-  "sunset": "2026-05-22T20:39",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 47,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8350,
+    "cfs": 8630,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-05-22",
-      "high_f": 70,
-      "low_f": 50,
-      "rain_pct": 13,
-      "uv": 8,
-      "sunrise": "2026-05-22T06:17",
-      "sunset": "2026-05-22T20:39",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-23",
-      "high_f": 74,
-      "low_f": 53,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-05-23T06:16",
-      "sunset": "2026-05-23T20:40",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-24",
-      "high_f": 76,
-      "low_f": 51,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-24T06:16",
-      "sunset": "2026-05-24T20:41",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-25",
-      "high_f": 71,
-      "low_f": 50,
-      "rain_pct": 10,
-      "uv": 7,
-      "sunrise": "2026-05-25T06:15",
-      "sunset": "2026-05-25T20:41",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-26",
-      "high_f": 69,
-      "low_f": 51,
-      "rain_pct": 15,
-      "uv": 8,
-      "sunrise": "2026-05-26T06:14",
-      "sunset": "2026-05-26T20:42",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-05-23T05:06:11.228118+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-23T05:25:34.663861+00:00"
 }

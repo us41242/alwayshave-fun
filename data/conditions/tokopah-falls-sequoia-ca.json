@@ -17,9 +17,11 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 49,
     "feels_like_f": 44,
@@ -30,10 +32,10 @@
   "sunrise": "2026-05-24T05:41",
   "sunset": "2026-05-24T20:02",
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 59,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-05-24T05:41",
       "sunset": "2026-05-24T20:02",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 9,
       "sunrise": "2026-05-25T05:40",
       "sunset": "2026-05-25T20:03",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-05-26T05:40",
       "sunset": "2026-05-26T20:03",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-27",
@@ -83,7 +85,7 @@
       "uv": 7,
       "sunrise": "2026-05-27T05:39",
       "sunset": "2026-05-27T20:04",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-28T05:39",
       "sunset": "2026-05-28T20:05",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-24T10:33:34.219594+00:00"
+  "updated_at": "2026-05-24T10:52:50.905963+00:00"
 }

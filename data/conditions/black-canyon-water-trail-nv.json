@@ -17,30 +17,30 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 74,
+  "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 74,
-    "wind_mph": 2,
-    "gusts_mph": 7,
+    "temp_f": 80,
+    "feels_like_f": 76,
+    "wind_mph": 3,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-05-25T05:26",
   "sunset": "2026-05-25T19:45",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 45.9,
-    "fire_count_50km": 4
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -52,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-05-25T05:26",
       "sunset": "2026-05-25T19:45",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-26",
@@ -63,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-05-26T05:25",
       "sunset": "2026-05-26T19:46",
-      "predicted_score": 56,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -74,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-05-27T05:25",
       "sunset": "2026-05-27T19:46",
-      "predicted_score": 74,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -85,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-05-28T05:24",
       "sunset": "2026-05-28T19:47",
-      "predicted_score": 74,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -96,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-29T05:24",
       "sunset": "2026-05-29T19:48",
-      "predicted_score": 56,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-25T14:06:40.094269+00:00"
+  "updated_at": "2026-05-25T14:26:48.986740+00:00"
 }

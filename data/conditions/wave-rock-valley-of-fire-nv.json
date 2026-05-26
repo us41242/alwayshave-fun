@@ -17,10 +17,11 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 74,
@@ -38,9 +39,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 36.5,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -52,8 +53,8 @@
       "uv": 8,
       "sunrise": "2026-05-26T05:23",
       "sunset": "2026-05-26T19:46",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-27",
@@ -63,8 +64,8 @@
       "uv": 8,
       "sunrise": "2026-05-27T05:23",
       "sunset": "2026-05-27T19:47",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-28",
@@ -74,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-05-28T05:22",
       "sunset": "2026-05-28T19:48",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-29",
@@ -85,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-29T05:22",
       "sunset": "2026-05-29T19:48",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-30",
@@ -96,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-30T05:22",
       "sunset": "2026-05-30T19:49",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-26T10:04:07.740270+00:00"
+  "updated_at": "2026-05-26T10:21:47.340576+00:00"
 }

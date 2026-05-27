@@ -17,18 +17,18 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 53,
-    "wind_mph": 11,
-    "gusts_mph": 20,
+    "temp_f": 60,
+    "feels_like_f": 51,
+    "wind_mph": 10,
+    "gusts_mph": 11,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-26T05:31",
+  "sunset": "2026-05-26T19:56",
   "aqi": {
     "aqi": 50,
     "category": "Good",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-27T03:49:11.713997+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-26",
+      "high_f": 79,
+      "low_f": 56,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-26T05:31",
+      "sunset": "2026-05-26T19:56",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-27",
+      "high_f": 66,
+      "low_f": 48,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-05-27T05:31",
+      "sunset": "2026-05-27T19:57",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-28",
+      "high_f": 65,
+      "low_f": 44,
+      "rain_pct": 8,
+      "uv": 7,
+      "sunrise": "2026-05-28T05:30",
+      "sunset": "2026-05-28T19:58",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-29",
+      "high_f": 72,
+      "low_f": 53,
+      "rain_pct": 31,
+      "uv": 8,
+      "sunrise": "2026-05-29T05:30",
+      "sunset": "2026-05-29T19:59",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-30",
+      "high_f": 79,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-05-30T05:30",
+      "sunset": "2026-05-30T19:59",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-05-27T04:04:19.972265+00:00"
 }

@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 6,
-    "feels_like_f": 2,
-    "wind_mph": 6,
+    "temp_f": 9,
+    "feels_like_f": -1,
+    "wind_mph": 9,
     "gusts_mph": 13,
-    "rain_pct": 1
+    "rain_pct": 5
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-27T05:38",
+  "sunset": "2026-05-27T20:02",
   "aqi": {
     "aqi": 14,
     "category": "Good",
@@ -44,6 +46,62 @@
     "cfs": 171,
     "stage": "normal"
   },
-  "forecast": [],
-  "updated_at": "2026-05-27T18:13:57.868064+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-27",
+      "high_f": 11,
+      "low_f": -2,
+      "rain_pct": 49,
+      "uv": 8,
+      "sunrise": "2026-05-27T05:38",
+      "sunset": "2026-05-27T20:02",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-28",
+      "high_f": 14,
+      "low_f": 1,
+      "rain_pct": 89,
+      "uv": 6,
+      "sunrise": "2026-05-28T05:37",
+      "sunset": "2026-05-28T20:03",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-29",
+      "high_f": 22,
+      "low_f": 4,
+      "rain_pct": 22,
+      "uv": 9,
+      "sunrise": "2026-05-29T05:37",
+      "sunset": "2026-05-29T20:04",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-30",
+      "high_f": 30,
+      "low_f": 12,
+      "rain_pct": 1,
+      "uv": 10,
+      "sunrise": "2026-05-30T05:36",
+      "sunset": "2026-05-30T20:04",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-31",
+      "high_f": 36,
+      "low_f": 18,
+      "rain_pct": 4,
+      "uv": 10,
+      "sunrise": "2026-05-31T05:36",
+      "sunset": "2026-05-31T20:05",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-27T18:31:40.392349+00:00"
 }

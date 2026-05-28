@@ -17,11 +17,9 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 7,
     "feels_like_f": -3,
@@ -29,13 +27,13 @@
     "gusts_mph": 13,
     "rain_pct": 36
   },
-  "sunrise": "2026-05-27T05:38",
-  "sunset": "2026-05-27T20:02",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 18,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -46,62 +44,6 @@
     "cfs": 205,
     "stage": "normal"
   },
-  "forecast": [
-    {
-      "date": "2026-05-27",
-      "high_f": 11,
-      "low_f": -2,
-      "rain_pct": 57,
-      "uv": 8,
-      "sunrise": "2026-05-27T05:38",
-      "sunset": "2026-05-27T20:02",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-28",
-      "high_f": 15,
-      "low_f": -3,
-      "rain_pct": 55,
-      "uv": 8,
-      "sunrise": "2026-05-28T05:37",
-      "sunset": "2026-05-28T20:03",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-29",
-      "high_f": 21,
-      "low_f": 2,
-      "rain_pct": 17,
-      "uv": 10,
-      "sunrise": "2026-05-29T05:37",
-      "sunset": "2026-05-29T20:04",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-30",
-      "high_f": 26,
-      "low_f": 12,
-      "rain_pct": 2,
-      "uv": 10,
-      "sunrise": "2026-05-30T05:36",
-      "sunset": "2026-05-30T20:04",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-31",
-      "high_f": 36,
-      "low_f": 16,
-      "rain_pct": 4,
-      "uv": 10,
-      "sunrise": "2026-05-31T05:36",
-      "sunset": "2026-05-31T20:05",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-05-28T03:23:50.477345+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-28T03:38:48.289886+00:00"
 }

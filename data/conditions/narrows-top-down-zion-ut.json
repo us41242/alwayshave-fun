@@ -17,11 +17,9 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 43,
     "feels_like_f": 36,
@@ -29,10 +27,10 @@
     "gusts_mph": 7,
     "rain_pct": 1
   },
-  "sunrise": "2026-05-29T06:13",
-  "sunset": "2026-05-29T20:44",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -43,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 6870,
+    "cfs": 6500,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-05-29",
-      "high_f": 56,
-      "low_f": 43,
-      "rain_pct": 35,
-      "uv": 8,
-      "sunrise": "2026-05-29T06:13",
-      "sunset": "2026-05-29T20:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-30",
-      "high_f": 68,
-      "low_f": 42,
-      "rain_pct": 3,
-      "uv": 9,
-      "sunrise": "2026-05-30T06:13",
-      "sunset": "2026-05-30T20:45",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-31",
-      "high_f": 72,
-      "low_f": 49,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-05-31T06:12",
-      "sunset": "2026-05-31T20:46",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-06-01",
-      "high_f": 77,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-01T06:12",
-      "sunset": "2026-06-01T20:46",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-06-02",
-      "high_f": 80,
-      "low_f": 58,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-02T06:12",
-      "sunset": "2026-06-02T20:47",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-05-29T11:04:02.392363+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-29T11:26:10.623506+00:00"
 }

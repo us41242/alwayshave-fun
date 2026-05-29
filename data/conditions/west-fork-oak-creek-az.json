@@ -17,9 +17,11 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 66,
     "feels_like_f": 54,
@@ -30,10 +32,10 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 61,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -41,9 +43,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 25,
+    "cfs": 26,
     "stage": "low"
   },
   "forecast": [],
-  "updated_at": "2026-05-29T02:05:46.034542+00:00"
+  "updated_at": "2026-05-29T02:25:15.626172+00:00"
 }

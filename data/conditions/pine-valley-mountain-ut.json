@@ -17,25 +17,25 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "mask for sensitive groups"
+    "wind layer recommended"
   ],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 48,
-    "wind_mph": 13,
-    "gusts_mph": 23,
+    "temp_f": 54,
+    "feels_like_f": 46,
+    "wind_mph": 10,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-28T06:16",
+  "sunset": "2026-05-28T20:46",
   "aqi": {
-    "aqi": 52,
-    "category": "Moderate",
+    "aqi": 26,
+    "category": "Good",
     "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-29T02:29:41.422755+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-28",
+      "high_f": 65,
+      "low_f": 44,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-05-28T06:16",
+      "sunset": "2026-05-28T20:46",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-29",
+      "high_f": 54,
+      "low_f": 41,
+      "rain_pct": 10,
+      "uv": 8,
+      "sunrise": "2026-05-29T06:15",
+      "sunset": "2026-05-29T20:47",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-30",
+      "high_f": 66,
+      "low_f": 42,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-30T06:15",
+      "sunset": "2026-05-30T20:47",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-31",
+      "high_f": 72,
+      "low_f": 46,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-05-31T06:15",
+      "sunset": "2026-05-31T20:48",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-01",
+      "high_f": 76,
+      "low_f": 53,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-01T06:14",
+      "sunset": "2026-06-01T20:49",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-05-29T02:50:38.161299+00:00"
 }

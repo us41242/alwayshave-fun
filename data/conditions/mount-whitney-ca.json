@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 10,
-    "feels_like_f": 0,
-    "wind_mph": 7,
-    "gusts_mph": 14,
+    "feels_like_f": -1,
+    "wind_mph": 9,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-30T05:36",
+  "sunset": "2026-05-30T20:04",
   "aqi": {
     "aqi": 21,
     "category": "Good",
@@ -41,9 +43,65 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 252,
+    "cfs": 247,
     "stage": "normal"
   },
-  "forecast": [],
-  "updated_at": "2026-05-30T10:54:34.379990+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-30",
+      "high_f": 26,
+      "low_f": 9,
+      "rain_pct": 4,
+      "uv": 10,
+      "sunrise": "2026-05-30T05:36",
+      "sunset": "2026-05-30T20:04",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-31",
+      "high_f": 30,
+      "low_f": 11,
+      "rain_pct": 7,
+      "uv": 10,
+      "sunrise": "2026-05-31T05:36",
+      "sunset": "2026-05-31T20:05",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-01",
+      "high_f": 43,
+      "low_f": 23,
+      "rain_pct": 5,
+      "uv": 10,
+      "sunrise": "2026-06-01T05:36",
+      "sunset": "2026-06-01T20:06",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-02",
+      "high_f": 43,
+      "low_f": 27,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-06-02T05:35",
+      "sunset": "2026-06-02T20:06",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-03",
+      "high_f": 46,
+      "low_f": 28,
+      "rain_pct": 0,
+      "uv": 10,
+      "sunrise": "2026-06-03T05:35",
+      "sunset": "2026-06-03T20:07",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-05-30T11:08:52.791765+00:00"
 }

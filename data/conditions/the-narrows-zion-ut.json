@@ -17,21 +17,23 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 73,
     "feels_like_f": 68,
-    "wind_mph": 12,
+    "wind_mph": 11,
     "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-05-30T06:13",
   "sunset": "2026-05-30T20:45",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -41,7 +43,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7770,
+    "cfs": 7940,
     "stage": "flood"
   },
   "forecast": [
@@ -53,7 +55,7 @@
       "uv": 8,
       "sunrise": "2026-05-30T06:13",
       "sunset": "2026-05-30T20:45",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -64,8 +66,8 @@
       "uv": 9,
       "sunrise": "2026-05-31T06:13",
       "sunset": "2026-05-31T20:45",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-01",
@@ -75,8 +77,8 @@
       "uv": 9,
       "sunrise": "2026-06-01T06:12",
       "sunset": "2026-06-01T20:46",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-02",
@@ -86,8 +88,8 @@
       "uv": 8,
       "sunrise": "2026-06-02T06:12",
       "sunset": "2026-06-02T20:47",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-03",
@@ -97,9 +99,9 @@
       "uv": 9,
       "sunrise": "2026-06-03T06:12",
       "sunset": "2026-06-03T20:47",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-30T21:01:26.512959+00:00"
+  "updated_at": "2026-05-30T21:21:28.973755+00:00"
 }

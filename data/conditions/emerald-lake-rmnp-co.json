@@ -17,20 +17,22 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 56,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 38,
-    "feels_like_f": 22,
-    "wind_mph": 29,
-    "gusts_mph": 45,
-    "rain_pct": 2
+    "temp_f": 42,
+    "feels_like_f": 24,
+    "wind_mph": 34,
+    "gusts_mph": 52,
+    "rain_pct": 3
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-31T05:35",
+  "sunset": "2026-05-31T20:25",
   "aqi": {
     "aqi": 38,
     "category": "Good",
@@ -43,6 +45,62 @@
     "fire_count_50km": 1
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-31T15:33:06.505056+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-31",
+      "high_f": 54,
+      "low_f": 32,
+      "rain_pct": 4,
+      "uv": 9,
+      "sunrise": "2026-05-31T05:35",
+      "sunset": "2026-05-31T20:25",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-01",
+      "high_f": 62,
+      "low_f": 38,
+      "rain_pct": 7,
+      "uv": 9,
+      "sunrise": "2026-06-01T05:34",
+      "sunset": "2026-06-01T20:26",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-02",
+      "high_f": 65,
+      "low_f": 40,
+      "rain_pct": 32,
+      "uv": 9,
+      "sunrise": "2026-06-02T05:34",
+      "sunset": "2026-06-02T20:26",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-03",
+      "high_f": 65,
+      "low_f": 42,
+      "rain_pct": 58,
+      "uv": 7,
+      "sunrise": "2026-06-03T05:34",
+      "sunset": "2026-06-03T20:27",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-04",
+      "high_f": 66,
+      "low_f": 41,
+      "rain_pct": 49,
+      "uv": 8,
+      "sunrise": "2026-06-04T05:33",
+      "sunset": "2026-06-04T20:28",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-05-31T15:51:44.268344+00:00"
 }

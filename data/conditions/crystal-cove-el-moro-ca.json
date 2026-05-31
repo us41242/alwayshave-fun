@@ -17,14 +17,12 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
     "temp_f": 68,
-    "feels_like_f": 73,
+    "feels_like_f": 72,
     "wind_mph": 8,
     "gusts_mph": 8,
     "rain_pct": 0
@@ -32,15 +30,15 @@
   "sunrise": "2026-05-31T05:42",
   "sunset": "2026-05-31T19:55",
   "aqi": {
-    "aqi": 39,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 20.0,
-    "fire_count_50km": 4
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -52,19 +50,19 @@
       "uv": 8,
       "sunrise": "2026-05-31T05:42",
       "sunset": "2026-05-31T19:55",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-01",
       "high_f": 65,
-      "low_f": 56,
+      "low_f": 55,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-06-01T05:42",
       "sunset": "2026-06-01T19:56",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-02",
@@ -74,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-06-02T05:41",
       "sunset": "2026-06-02T19:57",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-03",
@@ -85,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-06-03T05:41",
       "sunset": "2026-06-03T19:57",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-04",
@@ -96,9 +94,9 @@
       "uv": 9,
       "sunrise": "2026-06-04T05:41",
       "sunset": "2026-06-04T19:58",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-31T21:34:08.278941+00:00"
+  "updated_at": "2026-05-31T21:51:21.770029+00:00"
 }

@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 14,
-    "feels_like_f": 4,
+    "temp_f": 16,
+    "feels_like_f": 5,
     "wind_mph": 8,
-    "gusts_mph": 10,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-01T05:36",
+  "sunset": "2026-06-01T20:06",
   "aqi": {
     "aqi": 24,
     "category": "Good",
@@ -44,6 +46,62 @@
     "cfs": 213,
     "stage": "normal"
   },
-  "forecast": [],
-  "updated_at": "2026-06-01T14:31:03.886557+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-01",
+      "high_f": 31,
+      "low_f": 14,
+      "rain_pct": 5,
+      "uv": 10,
+      "sunrise": "2026-06-01T05:36",
+      "sunset": "2026-06-01T20:06",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-02",
+      "high_f": 32,
+      "low_f": 18,
+      "rain_pct": 10,
+      "uv": 10,
+      "sunrise": "2026-06-02T05:35",
+      "sunset": "2026-06-02T20:06",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-03",
+      "high_f": 47,
+      "low_f": 23,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-03T05:35",
+      "sunset": "2026-06-03T20:07",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-04",
+      "high_f": 50,
+      "low_f": 30,
+      "rain_pct": 0,
+      "uv": 10,
+      "sunrise": "2026-06-04T05:35",
+      "sunset": "2026-06-04T20:07",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-05",
+      "high_f": 51,
+      "low_f": 33,
+      "rain_pct": 0,
+      "uv": 10,
+      "sunrise": "2026-06-05T05:35",
+      "sunset": "2026-06-05T20:08",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-01T14:49:02.738844+00:00"
 }

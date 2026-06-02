@@ -17,23 +17,25 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended"
+  ],
   "current": {
-    "temp_f": 61,
+    "temp_f": 60,
     "feels_like_f": 59,
-    "wind_mph": 6,
-    "gusts_mph": 7,
+    "wind_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 4
   },
   "sunrise": "2026-06-01T05:37",
   "sunset": "2026-06-01T20:07",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 101,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-06-01T05:37",
       "sunset": "2026-06-01T20:07",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 9,
       "sunrise": "2026-06-02T05:37",
       "sunset": "2026-06-02T20:08",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-06-03T05:37",
       "sunset": "2026-06-03T20:09",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-06-04T05:37",
       "sunset": "2026-06-04T20:09",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-05T05:36",
       "sunset": "2026-06-05T20:10",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-02T01:31:27.568509+00:00"
+  "updated_at": "2026-06-02T01:54:08.085065+00:00"
 }

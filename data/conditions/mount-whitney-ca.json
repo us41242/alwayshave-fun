@@ -17,25 +17,26 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 30,
-    "feels_like_f": 20,
-    "wind_mph": 8,
+    "temp_f": 29,
+    "feels_like_f": 21,
+    "wind_mph": 6,
     "gusts_mph": 7,
-    "rain_pct": 2
+    "rain_pct": 3
   },
   "sunrise": "2026-06-01T05:36",
   "sunset": "2026-06-01T20:06",
   "aqi": {
-    "aqi": 23,
-    "category": "Good",
+    "aqi": 75,
+    "category": "Moderate",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -55,7 +56,7 @@
       "uv": 10,
       "sunrise": "2026-06-01T05:36",
       "sunset": "2026-06-01T20:06",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -66,7 +67,7 @@
       "uv": 10,
       "sunrise": "2026-06-02T05:35",
       "sunset": "2026-06-02T20:06",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -77,8 +78,8 @@
       "uv": 9,
       "sunrise": "2026-06-03T05:35",
       "sunset": "2026-06-03T20:07",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-04",
@@ -88,7 +89,7 @@
       "uv": 10,
       "sunrise": "2026-06-04T05:35",
       "sunset": "2026-06-04T20:07",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -99,9 +100,9 @@
       "uv": 9,
       "sunrise": "2026-06-05T05:35",
       "sunset": "2026-06-05T20:08",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-02T00:33:31.120610+00:00"
+  "updated_at": "2026-06-02T00:54:17.989600+00:00"
 }

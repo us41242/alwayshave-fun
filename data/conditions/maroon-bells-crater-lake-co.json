@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 34,
+    "temp_f": 35,
     "feels_like_f": 24,
     "wind_mph": 10,
     "gusts_mph": 11,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-02T05:43",
+  "sunset": "2026-06-02T20:28",
   "aqi": {
     "aqi": 37,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-02T11:07:55.375684+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-02",
+      "high_f": 54,
+      "low_f": 34,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-02T05:43",
+      "sunset": "2026-06-02T20:28",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-03",
+      "high_f": 55,
+      "low_f": 36,
+      "rain_pct": 5,
+      "uv": 9,
+      "sunrise": "2026-06-03T05:43",
+      "sunset": "2026-06-03T20:29",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-04",
+      "high_f": 54,
+      "low_f": 34,
+      "rain_pct": 9,
+      "uv": 9,
+      "sunrise": "2026-06-04T05:42",
+      "sunset": "2026-06-04T20:29",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-05",
+      "high_f": 57,
+      "low_f": 34,
+      "rain_pct": 7,
+      "uv": 9,
+      "sunrise": "2026-06-05T05:42",
+      "sunset": "2026-06-05T20:30",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-06",
+      "high_f": 61,
+      "low_f": 36,
+      "rain_pct": 12,
+      "uv": 9,
+      "sunrise": "2026-06-06T05:42",
+      "sunset": "2026-06-06T20:30",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-02T11:29:39.734661+00:00"
 }

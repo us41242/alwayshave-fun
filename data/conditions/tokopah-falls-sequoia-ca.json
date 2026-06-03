@@ -17,20 +17,20 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 80,
+  "score_label": "Good conditions",
   "gear_flags": [
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 67,
-    "feels_like_f": 69,
-    "wind_mph": 6,
+    "temp_f": 66,
+    "feels_like_f": 66,
+    "wind_mph": 5,
     "gusts_mph": 6,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-03T05:37",
+  "sunset": "2026-06-03T20:09",
   "aqi": {
     "aqi": 112,
     "category": "Unhealthy for Sensitive Groups",
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-03T23:33:26.286760+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-03",
+      "high_f": 68,
+      "low_f": 52,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-06-03T05:37",
+      "sunset": "2026-06-03T20:09",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-04",
+      "high_f": 70,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-04T05:37",
+      "sunset": "2026-06-04T20:09",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-05",
+      "high_f": 76,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-05T05:36",
+      "sunset": "2026-06-05T20:10",
+      "predicted_score": 68,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-06",
+      "high_f": 68,
+      "low_f": 52,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-06-06T05:36",
+      "sunset": "2026-06-06T20:10",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-07",
+      "high_f": 65,
+      "low_f": 49,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-07T05:36",
+      "sunset": "2026-06-07T20:11",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-06-03T23:52:06.994497+00:00"
 }

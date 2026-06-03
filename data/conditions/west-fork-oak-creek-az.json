@@ -17,7 +17,7 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 36,
+  "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups",
@@ -26,12 +26,12 @@
   "current": {
     "temp_f": 86,
     "feels_like_f": 81,
-    "wind_mph": 13,
-    "gusts_mph": 14,
-    "rain_pct": 0
+    "wind_mph": 12,
+    "gusts_mph": 12,
+    "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-03T05:13",
+  "sunset": "2026-06-03T19:36",
   "aqi": {
     "aqi": 61,
     "category": "Moderate",
@@ -47,6 +47,62 @@
     "cfs": 24,
     "stage": "low"
   },
-  "forecast": [],
-  "updated_at": "2026-06-03T20:26:08.038459+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-03",
+      "high_f": 87,
+      "low_f": 60,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-03T05:13",
+      "sunset": "2026-06-03T19:36",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-04",
+      "high_f": 89,
+      "low_f": 63,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-04T05:13",
+      "sunset": "2026-06-04T19:37",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-05",
+      "high_f": 91,
+      "low_f": 66,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-05T05:13",
+      "sunset": "2026-06-05T19:37",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-06",
+      "high_f": 89,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-06T05:13",
+      "sunset": "2026-06-06T19:38",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-07",
+      "high_f": 83,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-07T05:12",
+      "sunset": "2026-06-07T19:39",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-06-03T20:45:42.667808+00:00"
 }

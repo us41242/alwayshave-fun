@@ -17,8 +17,8 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 58,
@@ -30,14 +30,14 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 39,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 171.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
@@ -45,5 +45,5 @@
     "stage": "low"
   },
   "forecast": [],
-  "updated_at": "2026-06-04T12:48:47.810284+00:00"
+  "updated_at": "2026-06-04T13:34:29.555026+00:00"
 }

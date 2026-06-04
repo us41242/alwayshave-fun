@@ -17,8 +17,8 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
@@ -32,10 +32,10 @@
   "sunrise": "2026-06-03T05:35",
   "sunset": "2026-06-03T20:07",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 26,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -55,8 +55,8 @@
       "uv": 9,
       "sunrise": "2026-06-03T05:35",
       "sunset": "2026-06-03T20:07",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-04",
@@ -66,8 +66,8 @@
       "uv": 10,
       "sunrise": "2026-06-04T05:35",
       "sunset": "2026-06-04T20:07",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-05",
@@ -77,8 +77,8 @@
       "uv": 10,
       "sunrise": "2026-06-05T05:35",
       "sunset": "2026-06-05T20:08",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-06",
@@ -88,8 +88,8 @@
       "uv": 9,
       "sunrise": "2026-06-06T05:34",
       "sunset": "2026-06-06T20:09",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-07",
@@ -99,9 +99,9 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:34",
       "sunset": "2026-06-07T20:09",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-04T00:36:35.852703+00:00"
+  "updated_at": "2026-06-04T00:53:09.176818+00:00"
 }

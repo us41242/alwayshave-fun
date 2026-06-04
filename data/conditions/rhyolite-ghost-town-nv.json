@@ -17,25 +17,23 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
-    "temp_f": 92,
-    "feels_like_f": 85,
-    "wind_mph": 14,
-    "gusts_mph": 16,
+    "temp_f": 93,
+    "feels_like_f": 87,
+    "wind_mph": 12,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-04T05:28",
+  "sunset": "2026-06-04T20:03",
   "aqi": {
-    "aqi": 97,
-    "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -43,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-04T21:27:35.159796+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-04",
+      "high_f": 93,
+      "low_f": 73,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-04T05:28",
+      "sunset": "2026-06-04T20:03",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-05",
+      "high_f": 93,
+      "low_f": 70,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-05T05:28",
+      "sunset": "2026-06-05T20:03",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-06",
+      "high_f": 89,
+      "low_f": 64,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-06T05:28",
+      "sunset": "2026-06-06T20:04",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-07",
+      "high_f": 85,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-07T05:27",
+      "sunset": "2026-06-07T20:04",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-08",
+      "high_f": 84,
+      "low_f": 58,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-08T05:27",
+      "sunset": "2026-06-08T20:05",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-04T21:47:48.066820+00:00"
 }

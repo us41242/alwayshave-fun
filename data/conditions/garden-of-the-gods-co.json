@@ -17,21 +17,23 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 83,
     "feels_like_f": 76,
-    "wind_mph": 13,
-    "gusts_mph": 19,
-    "rain_pct": 2
+    "wind_mph": 15,
+    "gusts_mph": 17,
+    "rain_pct": 3
   },
   "sunrise": "2026-06-04T05:34",
   "sunset": "2026-06-04T20:20",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,29 +52,29 @@
       "uv": 8,
       "sunrise": "2026-06-04T05:34",
       "sunset": "2026-06-04T20:20",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-06-05",
-      "high_f": 87,
-      "low_f": 61,
+      "high_f": 89,
+      "low_f": 60,
       "rain_pct": 16,
       "uv": 9,
       "sunrise": "2026-06-05T05:34",
       "sunset": "2026-06-05T20:21",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
       "date": "2026-06-06",
       "high_f": 83,
-      "low_f": 60,
+      "low_f": 58,
       "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-06-06T05:34",
       "sunset": "2026-06-06T20:22",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:34",
       "sunset": "2026-06-07T20:22",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-08T05:34",
       "sunset": "2026-06-08T20:23",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-04T19:50:50.211928+00:00"
+  "updated_at": "2026-06-04T20:10:58.649156+00:00"
 }

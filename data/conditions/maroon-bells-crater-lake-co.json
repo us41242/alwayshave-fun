@@ -17,23 +17,25 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 41,
-    "wind_mph": 9,
+    "temp_f": 49,
+    "feels_like_f": 40,
+    "wind_mph": 11,
     "gusts_mph": 13,
-    "rain_pct": 6
+    "rain_pct": 4
   },
   "sunrise": "2026-06-03T05:43",
   "sunset": "2026-06-03T20:29",
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 79,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-06-03T05:43",
       "sunset": "2026-06-03T20:29",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 9,
       "sunrise": "2026-06-04T05:42",
       "sunset": "2026-06-04T20:29",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -72,31 +74,31 @@
       "uv": 9,
       "sunrise": "2026-06-05T05:42",
       "sunset": "2026-06-05T20:30",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-06-06",
-      "high_f": 58,
+      "high_f": 59,
       "low_f": 37,
       "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-06-06T05:42",
       "sunset": "2026-06-06T20:30",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-07",
-      "high_f": 56,
+      "high_f": 55,
       "low_f": 37,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-06-07T05:42",
       "sunset": "2026-06-07T20:31",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-04T00:05:51.522653+00:00"
+  "updated_at": "2026-06-04T00:34:01.785125+00:00"
 }

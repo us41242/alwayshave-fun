@@ -17,10 +17,10 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 32,
-  "score_label": "Conditions poor",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [
-    "N95 mask recommended"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 93,
@@ -32,10 +32,10 @@
   "sunrise": "2026-06-05T05:24",
   "sunset": "2026-06-05T19:55",
   "aqi": {
-    "aqi": 166,
-    "category": "Unhealthy",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "aqi": 79,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
@@ -52,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-06-05T05:24",
       "sunset": "2026-06-05T19:55",
-      "predicted_score": 32,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-06",
@@ -63,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-06-06T05:24",
       "sunset": "2026-06-06T19:56",
-      "predicted_score": 32,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-07",
@@ -74,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:24",
       "sunset": "2026-06-07T19:57",
-      "predicted_score": 32,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-08",
@@ -85,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-08T05:24",
       "sunset": "2026-06-08T19:57",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-09",
@@ -96,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-09T05:24",
       "sunset": "2026-06-09T19:58",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-05T20:41:42.967334+00:00"
+  "updated_at": "2026-06-05T21:01:08.030997+00:00"
 }

@@ -17,23 +17,25 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 90,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 72,
-    "wind_mph": 3,
-    "gusts_mph": 10,
-    "rain_pct": 3
+    "temp_f": 75,
+    "feels_like_f": 68,
+    "wind_mph": 7,
+    "gusts_mph": 14,
+    "rain_pct": 2
   },
   "sunrise": "2026-06-04T05:34",
   "sunset": "2026-06-04T20:20",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,29 +52,29 @@
       "uv": 8,
       "sunrise": "2026-06-04T05:34",
       "sunset": "2026-06-04T20:20",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-05",
-      "high_f": 89,
+      "high_f": 90,
       "low_f": 58,
       "rain_pct": 16,
       "uv": 9,
       "sunrise": "2026-06-05T05:34",
       "sunset": "2026-06-05T20:21",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-06",
-      "high_f": 83,
-      "low_f": 58,
+      "high_f": 86,
+      "low_f": 61,
       "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-06-06T05:34",
       "sunset": "2026-06-06T20:22",
-      "predicted_score": 58,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:34",
       "sunset": "2026-06-07T20:22",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-08",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-08T05:34",
       "sunset": "2026-06-08T20:23",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-05T01:49:35.974168+00:00"
+  "updated_at": "2026-06-05T02:10:12.318217+00:00"
 }

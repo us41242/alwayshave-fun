@@ -20,12 +20,11 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 71,
+    "temp_f": 83,
+    "feels_like_f": 70,
     "wind_mph": 15,
     "gusts_mph": 20,
     "rain_pct": 0
@@ -35,8 +34,8 @@
   "aqi": {
     "aqi": 71,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -101,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-05T07:01:34.793769+00:00"
+  "updated_at": "2026-06-05T07:25:32.411098+00:00"
 }

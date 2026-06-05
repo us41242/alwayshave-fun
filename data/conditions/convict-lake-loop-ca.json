@@ -23,17 +23,17 @@
   "current": {
     "temp_f": 60,
     "feels_like_f": 55,
-    "wind_mph": 0,
-    "gusts_mph": 0,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "sunrise": "2026-06-05T05:34",
   "sunset": "2026-06-05T20:13",
   "aqi": {
-    "aqi": 19,
+    "aqi": 46,
     "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-05T07:06:03.649839+00:00"
+  "updated_at": "2026-06-05T07:32:24.942387+00:00"
 }

@@ -17,9 +17,11 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 90,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 54,
     "feels_like_f": 48,
@@ -30,14 +32,14 @@
   "sunrise": "2026-06-06T05:36",
   "sunset": "2026-06-06T20:10",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 64,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 118.1,
     "fire_count_50km": 0
   },
   "river": null,
@@ -46,12 +48,12 @@
       "date": "2026-06-06",
       "high_f": 63,
       "low_f": 52,
-      "rain_pct": 3,
+      "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-06-06T05:36",
       "sunset": "2026-06-06T20:10",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-07",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:36",
       "sunset": "2026-06-07T20:11",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-08",
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-06-08T05:36",
       "sunset": "2026-06-08T20:12",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-09",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-09T05:36",
       "sunset": "2026-06-09T20:12",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-10",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-10T05:36",
       "sunset": "2026-06-10T20:12",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-06T09:01:51.975289+00:00"
+  "updated_at": "2026-06-06T09:14:35.682125+00:00"
 }

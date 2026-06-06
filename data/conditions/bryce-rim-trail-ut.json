@@ -24,19 +24,19 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 64,
+    "temp_f": 63,
     "feels_like_f": 50,
-    "wind_mph": 18,
+    "wind_mph": 17,
     "gusts_mph": 26,
     "rain_pct": 0
   },
   "sunrise": "2026-06-05T06:07",
   "sunset": "2026-06-05T20:47",
   "aqi": {
-    "aqi": 74,
+    "aqi": 82,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -72,7 +72,7 @@
       "high_f": 72,
       "low_f": 50,
       "rain_pct": 1,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-06-07T06:07",
       "sunset": "2026-06-07T20:48",
       "predicted_score": 90,
@@ -80,7 +80,7 @@
     },
     {
       "date": "2026-06-08",
-      "high_f": 73,
+      "high_f": 72,
       "low_f": 46,
       "rain_pct": 0,
       "uv": 8,
@@ -92,7 +92,7 @@
     {
       "date": "2026-06-09",
       "high_f": 72,
-      "low_f": 48,
+      "low_f": 46,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-06-09T06:06",
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-06T05:21:08.852205+00:00"
+  "updated_at": "2026-06-06T05:41:02.644603+00:00"
 }

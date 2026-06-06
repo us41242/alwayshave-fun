@@ -32,10 +32,10 @@
   "sunrise": "2026-06-05T05:36",
   "sunset": "2026-06-05T20:16",
   "aqi": {
-    "aqi": 87,
+    "aqi": 85,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -71,7 +71,7 @@
       "high_f": 58,
       "low_f": 40,
       "rain_pct": 0,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-06-07T05:36",
       "sunset": "2026-06-07T20:17",
       "predicted_score": 90,
@@ -90,8 +90,8 @@
     },
     {
       "date": "2026-06-09",
-      "high_f": 60,
-      "low_f": 43,
+      "high_f": 62,
+      "low_f": 45,
       "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-06-09T05:35",
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-06T05:33:45.378737+00:00"
+  "updated_at": "2026-06-06T05:50:23.615805+00:00"
 }

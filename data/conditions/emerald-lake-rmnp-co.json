@@ -17,23 +17,25 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 90,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 49,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "feels_like_f": 50,
+    "wind_mph": 4,
+    "gusts_mph": 8,
     "rain_pct": 4
   },
   "sunrise": "2026-06-06T05:33",
   "sunset": "2026-06-06T20:29",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 72,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-06-06T05:33",
       "sunset": "2026-06-06T20:29",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-07",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:32",
       "sunset": "2026-06-07T20:30",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-08",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-08T05:32",
       "sunset": "2026-06-08T20:30",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-09",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-09T05:32",
       "sunset": "2026-06-09T20:31",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-10",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-06-10T05:32",
       "sunset": "2026-06-10T20:31",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-07T03:20:12.795577+00:00"
+  "updated_at": "2026-06-07T03:35:37.293459+00:00"
 }

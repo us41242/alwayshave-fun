@@ -19,25 +19,27 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 68,
-    "wind_mph": 14,
-    "gusts_mph": 18,
+    "temp_f": 78,
+    "feels_like_f": 69,
+    "wind_mph": 17,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "sunrise": "2026-06-07T05:15",
   "sunset": "2026-06-07T19:57",
   "aqi": {
-    "aqi": 46,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 167.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-07T16:43:35.865032+00:00"
+  "updated_at": "2026-06-07T17:01:36.472717+00:00"
 }

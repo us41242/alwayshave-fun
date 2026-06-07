@@ -17,28 +17,30 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 51,
+    "feels_like_f": 52,
     "wind_mph": 5,
-    "gusts_mph": 10,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-06-07T05:33",
   "sunset": "2026-06-07T20:23",
   "aqi": {
-    "aqi": 44,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.2,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:33",
       "sunset": "2026-06-07T20:23",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 7,
       "sunrise": "2026-06-08T05:33",
       "sunset": "2026-06-08T20:24",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-06-09T05:33",
       "sunset": "2026-06-09T20:24",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-10T05:33",
       "sunset": "2026-06-10T20:25",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-11",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-11T05:33",
       "sunset": "2026-06-11T20:25",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-07T17:08:49.234246+00:00"
+  "updated_at": "2026-06-07T17:29:57.670743+00:00"
 }

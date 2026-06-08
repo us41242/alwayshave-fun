@@ -17,23 +17,25 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 79,
     "feels_like_f": 69,
     "wind_mph": 9,
-    "gusts_mph": 12,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-06-07T05:27",
   "sunset": "2026-06-07T20:04",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 54,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,19 +52,19 @@
       "uv": 9,
       "sunrise": "2026-06-07T05:27",
       "sunset": "2026-06-07T20:04",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-08",
       "high_f": 85,
-      "low_f": 61,
+      "low_f": 62,
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-06-08T05:27",
       "sunset": "2026-06-08T20:05",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-09",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-09T05:27",
       "sunset": "2026-06-09T20:05",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-10",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-10T05:27",
       "sunset": "2026-06-10T20:06",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-11",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-11T05:27",
       "sunset": "2026-06-11T20:06",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-08T03:18:26.219508+00:00"
+  "updated_at": "2026-06-08T03:37:46.385970+00:00"
 }

@@ -17,15 +17,16 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 56,
-  "score_label": "Use caution",
+  "score": 46,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 91,
-    "feels_like_f": 79,
+    "temp_f": 92,
+    "feels_like_f": 82,
     "wind_mph": 20,
     "gusts_mph": 25,
     "rain_pct": 0
@@ -33,10 +34,10 @@
   "sunrise": "2026-06-09T05:21",
   "sunset": "2026-06-09T19:54",
   "aqi": {
-    "aqi": 32,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "elevated",
@@ -47,13 +48,13 @@
   "forecast": [
     {
       "date": "2026-06-09",
-      "high_f": 105,
+      "high_f": 104,
       "low_f": 78,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-06-09T05:21",
       "sunset": "2026-06-09T19:54",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     },
     {
@@ -64,7 +65,7 @@
       "uv": 8,
       "sunrise": "2026-06-10T05:21",
       "sunset": "2026-06-10T19:55",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     },
     {
@@ -75,7 +76,7 @@
       "uv": 8,
       "sunrise": "2026-06-11T05:21",
       "sunset": "2026-06-11T19:55",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     },
     {
@@ -86,7 +87,7 @@
       "uv": 8,
       "sunrise": "2026-06-12T05:21",
       "sunset": "2026-06-12T19:56",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     },
     {
@@ -97,9 +98,9 @@
       "uv": 8,
       "sunrise": "2026-06-13T05:21",
       "sunset": "2026-06-13T19:56",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-06-09T16:29:32.682258+00:00"
+  "updated_at": "2026-06-09T16:51:13.909769+00:00"
 }

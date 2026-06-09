@@ -20,17 +20,19 @@
   "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 33,
+    "temp_f": 32,
     "feels_like_f": 16,
-    "wind_mph": 24,
-    "gusts_mph": 36,
+    "wind_mph": 22,
+    "gusts_mph": 35,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-09T05:11",
+  "sunset": "2026-06-09T20:01",
   "aqi": {
     "aqi": 51,
     "category": "Moderate",
@@ -43,6 +45,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-09T06:42:50.230953+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-09",
+      "high_f": 47,
+      "low_f": 30,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-09T05:11",
+      "sunset": "2026-06-09T20:01",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-10",
+      "high_f": 55,
+      "low_f": 26,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-10T05:11",
+      "sunset": "2026-06-10T20:02",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-11",
+      "high_f": 49,
+      "low_f": 20,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-11T05:11",
+      "sunset": "2026-06-11T20:02",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-12",
+      "high_f": 62,
+      "low_f": 32,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-12T05:11",
+      "sunset": "2026-06-12T20:03",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-13",
+      "high_f": 63,
+      "low_f": 40,
+      "rain_pct": 4,
+      "uv": 9,
+      "sunrise": "2026-06-13T05:11",
+      "sunset": "2026-06-13T20:03",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-09T07:02:10.329848+00:00"
 }

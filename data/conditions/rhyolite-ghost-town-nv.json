@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 181.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -57,14 +57,14 @@
     },
     {
       "date": "2026-06-11",
-      "high_f": 95,
-      "low_f": 71,
+      "high_f": 96,
+      "low_f": 72,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-06-11T05:27",
       "sunset": "2026-06-11T20:06",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-12",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-10T13:48:42.871758+00:00"
+  "updated_at": "2026-06-10T14:12:58.361956+00:00"
 }

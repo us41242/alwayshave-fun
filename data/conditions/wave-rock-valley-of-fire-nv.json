@@ -17,28 +17,30 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 16,
+  "score_label": "Stay home",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 100,
-    "feels_like_f": 98,
-    "wind_mph": 2,
-    "gusts_mph": 7,
+    "feels_like_f": 97,
+    "wind_mph": 1,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-06-11T05:19",
   "sunset": "2026-06-11T19:56",
   "aqi": {
-    "aqi": 45,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 36.6,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -50,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-06-11T05:19",
       "sunset": "2026-06-11T19:56",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-12",
@@ -61,42 +63,42 @@
       "uv": 8,
       "sunrise": "2026-06-12T05:19",
       "sunset": "2026-06-12T19:56",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-13",
-      "high_f": 106,
+      "high_f": 108,
       "low_f": 80,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-06-13T05:19",
       "sunset": "2026-06-13T19:57",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-14",
-      "high_f": 106,
-      "low_f": 78,
+      "high_f": 107,
+      "low_f": 76,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-06-14T05:19",
       "sunset": "2026-06-14T19:57",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-15",
-      "high_f": 105,
+      "high_f": 106,
       "low_f": 75,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-06-15T05:19",
       "sunset": "2026-06-15T19:57",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-06-11T22:41:48.451243+00:00"
+  "updated_at": "2026-06-11T23:04:07.071903+00:00"
 }

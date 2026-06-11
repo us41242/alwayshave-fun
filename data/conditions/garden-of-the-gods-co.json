@@ -17,9 +17,11 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 46,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 64,
     "feels_like_f": 51,
@@ -36,11 +38,11 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 43.9,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-06-11T09:11:53.632767+00:00"
+  "updated_at": "2026-06-11T09:39:03.598308+00:00"
 }

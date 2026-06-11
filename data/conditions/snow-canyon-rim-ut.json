@@ -17,9 +17,11 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 96,
     "feels_like_f": 90,
@@ -30,10 +32,10 @@
   "sunrise": "2026-06-11T06:13",
   "sunset": "2026-06-11T20:54",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 58,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,19 +52,19 @@
       "uv": 8,
       "sunrise": "2026-06-11T06:13",
       "sunset": "2026-06-11T20:54",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-12",
       "high_f": 100,
       "low_f": 74,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-06-12T06:13",
       "sunset": "2026-06-12T20:55",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-13",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-13T06:13",
       "sunset": "2026-06-13T20:55",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-14",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-14T06:13",
       "sunset": "2026-06-14T20:55",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-15",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-06-15T06:13",
       "sunset": "2026-06-15T20:56",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-11T23:11:41.166773+00:00"
+  "updated_at": "2026-06-11T23:26:54.314550+00:00"
 }

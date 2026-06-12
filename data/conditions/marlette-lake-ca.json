@@ -17,20 +17,20 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 67,
-    "wind_mph": 7,
-    "gusts_mph": 11,
+    "temp_f": 72,
+    "feels_like_f": 66,
+    "wind_mph": 8,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-11T05:33",
+  "sunset": "2026-06-11T20:25",
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-12T00:50:36.542281+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-11",
+      "high_f": 75,
+      "low_f": 51,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-11T05:33",
+      "sunset": "2026-06-11T20:25",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-12",
+      "high_f": 73,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-12T05:32",
+      "sunset": "2026-06-12T20:26",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-13",
+      "high_f": 80,
+      "low_f": 56,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-13T05:32",
+      "sunset": "2026-06-13T20:26",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-14",
+      "high_f": 79,
+      "low_f": 53,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-14T05:32",
+      "sunset": "2026-06-14T20:27",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-15",
+      "high_f": 82,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-15T05:32",
+      "sunset": "2026-06-15T20:27",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-12T01:13:35.372304+00:00"
 }

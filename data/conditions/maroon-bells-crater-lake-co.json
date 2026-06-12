@@ -17,10 +17,11 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 34,
@@ -32,10 +33,10 @@
   "sunrise": "2026-06-12T05:41",
   "sunset": "2026-06-12T20:34",
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 99,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -52,7 +53,7 @@
       "uv": 9,
       "sunrise": "2026-06-12T05:41",
       "sunset": "2026-06-12T20:34",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -63,7 +64,7 @@
       "uv": 8,
       "sunrise": "2026-06-13T05:41",
       "sunset": "2026-06-13T20:34",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -74,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-06-14T05:41",
       "sunset": "2026-06-14T20:34",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-15",
@@ -85,8 +86,8 @@
       "uv": 9,
       "sunrise": "2026-06-15T05:41",
       "sunset": "2026-06-15T20:35",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-16",
@@ -96,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-06-16T05:41",
       "sunset": "2026-06-16T20:35",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-12T10:32:31.621564+00:00"
+  "updated_at": "2026-06-12T10:49:15.544786+00:00"
 }

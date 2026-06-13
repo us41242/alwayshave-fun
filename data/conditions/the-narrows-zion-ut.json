@@ -17,21 +17,23 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 93,
-    "feels_like_f": 88,
-    "wind_mph": 13,
-    "gusts_mph": 15,
+    "feels_like_f": 89,
+    "wind_mph": 10,
+    "gusts_mph": 12,
     "rain_pct": 4
   },
   "sunrise": "2026-06-13T06:10",
   "sunset": "2026-06-13T20:52",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 52,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -49,12 +51,12 @@
       "date": "2026-06-13",
       "high_f": 93,
       "low_f": 65,
-      "rain_pct": 6,
+      "rain_pct": 10,
       "uv": 9,
       "sunrise": "2026-06-13T06:10",
       "sunset": "2026-06-13T20:52",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-14",
@@ -64,19 +66,19 @@
       "uv": 9,
       "sunrise": "2026-06-14T06:10",
       "sunset": "2026-06-14T20:53",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-15",
       "high_f": 92,
       "low_f": 67,
-      "rain_pct": 5,
+      "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-06-15T06:10",
       "sunset": "2026-06-15T20:53",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-16",
@@ -86,8 +88,8 @@
       "uv": 9,
       "sunrise": "2026-06-16T06:10",
       "sunset": "2026-06-16T20:54",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-17",
@@ -97,9 +99,9 @@
       "uv": 9,
       "sunrise": "2026-06-17T06:10",
       "sunset": "2026-06-17T20:54",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-13T21:41:55.968710+00:00"
+  "updated_at": "2026-06-13T22:01:56.419810+00:00"
 }

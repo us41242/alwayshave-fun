@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 32,
     "feels_like_f": 24,
-    "wind_mph": 6,
+    "wind_mph": 5,
     "gusts_mph": 9,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-13T05:34",
+  "sunset": "2026-06-13T20:12",
   "aqi": {
     "aqi": 32,
     "category": "Good",
@@ -41,9 +43,65 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 157,
+    "cfs": 154,
     "stage": "normal"
   },
-  "forecast": [],
-  "updated_at": "2026-06-13T11:51:49.217592+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-13",
+      "high_f": 45,
+      "low_f": 32,
+      "rain_pct": 29,
+      "uv": 9,
+      "sunrise": "2026-06-13T05:34",
+      "sunset": "2026-06-13T20:12",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-14",
+      "high_f": 45,
+      "low_f": 31,
+      "rain_pct": 14,
+      "uv": 8,
+      "sunrise": "2026-06-14T05:34",
+      "sunset": "2026-06-14T20:12",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-15",
+      "high_f": 48,
+      "low_f": 34,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-06-15T05:34",
+      "sunset": "2026-06-15T20:13",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-16",
+      "high_f": 52,
+      "low_f": 35,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-16T05:34",
+      "sunset": "2026-06-16T20:13",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-17",
+      "high_f": 52,
+      "low_f": 36,
+      "rain_pct": 9,
+      "uv": 10,
+      "sunrise": "2026-06-17T05:34",
+      "sunset": "2026-06-17T20:13",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-13T12:09:21.932393+00:00"
 }

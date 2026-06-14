@@ -24,29 +24,26 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 89,
-    "feels_like_f": 77,
-    "wind_mph": 24,
-    "gusts_mph": 31,
-    "rain_pct": 4
+    "temp_f": 88,
+    "feels_like_f": 78,
+    "wind_mph": 20,
+    "gusts_mph": 26,
+    "rain_pct": 5
   },
   "sunrise": "2026-06-13T05:10",
   "sunset": "2026-06-13T19:50",
   "aqi": {
-    "aqi": 54,
+    "aqi": 60,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 217.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": -999999,
-    "stage": "low"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-06-13",
@@ -83,8 +80,8 @@
     },
     {
       "date": "2026-06-16",
-      "high_f": 97,
-      "low_f": 66,
+      "high_f": 96,
+      "low_f": 64,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-06-16T05:10",
@@ -94,8 +91,8 @@
     },
     {
       "date": "2026-06-17",
-      "high_f": 97,
-      "low_f": 68,
+      "high_f": 98,
+      "low_f": 67,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-06-17T05:10",
@@ -104,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-13T23:42:00.759376+00:00"
+  "updated_at": "2026-06-14T00:02:21.132981+00:00"
 }

@@ -20,20 +20,19 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 75,
-    "feels_like_f": 68,
-    "wind_mph": 11,
-    "gusts_mph": 22,
-    "rain_pct": 18
+    "feels_like_f": 71,
+    "wind_mph": 5,
+    "gusts_mph": 10,
+    "rain_pct": 15
   },
-  "sunrise": "2026-06-13T06:10",
-  "sunset": "2026-06-13T20:53",
+  "sunrise": "2026-06-14T06:10",
+  "sunset": "2026-06-14T20:53",
   "aqi": {
-    "aqi": 61,
+    "aqi": 57,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -45,17 +44,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-06-13",
-      "high_f": 93,
-      "low_f": 68,
-      "rain_pct": 19,
-      "uv": 9,
-      "sunrise": "2026-06-13T06:10",
-      "sunset": "2026-06-13T20:53",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
     {
       "date": "2026-06-14",
       "high_f": 91,
@@ -99,7 +87,18 @@
       "sunset": "2026-06-17T20:54",
       "predicted_score": 60,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-18",
+      "high_f": 91,
+      "low_f": 65,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-18T06:11",
+      "sunset": "2026-06-18T20:54",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-14T05:42:22.205403+00:00"
+  "updated_at": "2026-06-14T06:00:58.325448+00:00"
 }

@@ -17,8 +17,8 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 22,
+  "score_label": "Stay home",
   "gear_flags": [],
   "current": {
     "temp_f": 78,
@@ -27,79 +27,23 @@
     "gusts_mph": 7,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-14T05:12",
-  "sunset": "2026-06-14T19:42",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 38,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 61.0,
     "fire_count_50km": 0
   },
   "river": {
     "cfs": 23,
     "stage": "low"
   },
-  "forecast": [
-    {
-      "date": "2026-06-14",
-      "high_f": 86,
-      "low_f": 64,
-      "rain_pct": 28,
-      "uv": 9,
-      "sunrise": "2026-06-14T05:12",
-      "sunset": "2026-06-14T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-15",
-      "high_f": 89,
-      "low_f": 66,
-      "rain_pct": 12,
-      "uv": 9,
-      "sunrise": "2026-06-15T05:12",
-      "sunset": "2026-06-15T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-16",
-      "high_f": 93,
-      "low_f": 63,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-06-16T05:12",
-      "sunset": "2026-06-16T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-17",
-      "high_f": 92,
-      "low_f": 64,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-06-17T05:12",
-      "sunset": "2026-06-17T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-18",
-      "high_f": 92,
-      "low_f": 64,
-      "rain_pct": 9,
-      "uv": 9,
-      "sunrise": "2026-06-18T05:13",
-      "sunset": "2026-06-18T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-06-14T15:24:45.778478+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-14T15:46:16.117654+00:00"
 }

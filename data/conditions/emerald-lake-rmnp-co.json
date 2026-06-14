@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 32,
+    "temp_f": 31,
     "feels_like_f": 26,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-14T05:32",
+  "sunset": "2026-06-14T20:33",
   "aqi": {
     "aqi": 42,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-14T11:32:47.171611+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-14",
+      "high_f": 59,
+      "low_f": 32,
+      "rain_pct": 11,
+      "uv": 8,
+      "sunrise": "2026-06-14T05:32",
+      "sunset": "2026-06-14T20:33",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-15",
+      "high_f": 62,
+      "low_f": 36,
+      "rain_pct": 10,
+      "uv": 9,
+      "sunrise": "2026-06-15T05:32",
+      "sunset": "2026-06-15T20:34",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-16",
+      "high_f": 67,
+      "low_f": 40,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-06-16T05:32",
+      "sunset": "2026-06-16T20:34",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-17",
+      "high_f": 72,
+      "low_f": 44,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-17T05:32",
+      "sunset": "2026-06-17T20:34",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-18",
+      "high_f": 68,
+      "low_f": 38,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-18T05:32",
+      "sunset": "2026-06-18T20:35",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-14T11:49:28.780522+00:00"
 }

@@ -17,25 +17,25 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 16,
-  "score_label": "Stay home",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 84,
+    "temp_f": 83,
     "feels_like_f": 79,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-14T05:19",
+  "sunset": "2026-06-14T19:57",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -43,6 +43,62 @@
     "fire_count_50km": 2
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-14T12:04:05.150643+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-14",
+      "high_f": 106,
+      "low_f": 83,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-06-14T05:19",
+      "sunset": "2026-06-14T19:57",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-15",
+      "high_f": 107,
+      "low_f": 79,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-15T05:19",
+      "sunset": "2026-06-15T19:57",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-16",
+      "high_f": 109,
+      "low_f": 77,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-16T05:19",
+      "sunset": "2026-06-16T19:58",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-17",
+      "high_f": 110,
+      "low_f": 78,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-17T05:19",
+      "sunset": "2026-06-17T19:58",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-18",
+      "high_f": 109,
+      "low_f": 79,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-18T05:19",
+      "sunset": "2026-06-18T19:58",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-06-14T12:24:22.974791+00:00"
 }

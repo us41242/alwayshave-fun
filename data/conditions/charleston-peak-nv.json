@@ -17,8 +17,8 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 56,
@@ -30,10 +30,10 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 23,
+    "category": "Good",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -42,5 +42,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-06-15T00:03:46.954280+00:00"
+  "updated_at": "2026-06-15T00:24:24.856657+00:00"
 }

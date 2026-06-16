@@ -19,12 +19,14 @@
   "vehicle_req": "Any",
   "score": 62,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 87,
-    "feels_like_f": 78,
-    "wind_mph": 13,
-    "gusts_mph": 18,
+    "feels_like_f": 75,
+    "wind_mph": 16,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "sunrise": "2026-06-16T05:11",
@@ -32,8 +34,8 @@
   "aqi": {
     "aqi": 47,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -41,7 +43,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 9850,
+    "cfs": 10100,
     "stage": "flood"
   },
   "forecast": [
@@ -59,7 +61,7 @@
     {
       "date": "2026-06-17",
       "high_f": 86,
-      "low_f": 63,
+      "low_f": 66,
       "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-06-17T05:11",
@@ -101,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-16T23:24:00.470399+00:00"
+  "updated_at": "2026-06-16T23:44:03.553525+00:00"
 }

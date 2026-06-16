@@ -17,16 +17,18 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required"
+    "wind layer recommended",
+    "insulation layer required",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 44,
+    "temp_f": 45,
     "feels_like_f": 33,
-    "wind_mph": 12,
-    "gusts_mph": 17,
+    "wind_mph": 15,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "sunrise": "2026-06-16T05:32",
@@ -38,9 +40,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 37.5,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -52,7 +54,7 @@
       "uv": 9,
       "sunrise": "2026-06-16T05:32",
       "sunset": "2026-06-16T20:34",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -63,7 +65,7 @@
       "uv": 9,
       "sunrise": "2026-06-17T05:32",
       "sunset": "2026-06-17T20:34",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -74,7 +76,7 @@
       "uv": 9,
       "sunrise": "2026-06-18T05:32",
       "sunset": "2026-06-18T20:35",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -85,7 +87,7 @@
       "uv": 9,
       "sunrise": "2026-06-19T05:32",
       "sunset": "2026-06-19T20:35",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -96,9 +98,9 @@
       "uv": 9,
       "sunrise": "2026-06-20T05:32",
       "sunset": "2026-06-20T20:35",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-16T09:13:36.947334+00:00"
+  "updated_at": "2026-06-16T09:35:24.773239+00:00"
 }

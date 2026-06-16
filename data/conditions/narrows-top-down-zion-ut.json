@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
     "temp_f": 71,
@@ -30,10 +30,10 @@
   "sunrise": "2026-06-15T06:10",
   "sunset": "2026-06-15T20:54",
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 10300,
+    "cfs": 10400,
     "stage": "flood"
   },
   "forecast": [
@@ -53,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-06-15T06:10",
       "sunset": "2026-06-15T20:54",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-16",
@@ -64,8 +64,8 @@
       "uv": 9,
       "sunrise": "2026-06-16T06:10",
       "sunset": "2026-06-16T20:54",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-17",
@@ -75,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-06-17T06:10",
       "sunset": "2026-06-17T20:54",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-18",
@@ -86,8 +86,8 @@
       "uv": 9,
       "sunrise": "2026-06-18T06:10",
       "sunset": "2026-06-18T20:55",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-19",
@@ -97,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-06-19T06:10",
       "sunset": "2026-06-19T20:55",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-16T05:01:56.930148+00:00"
+  "updated_at": "2026-06-16T05:19:03.944600+00:00"
 }

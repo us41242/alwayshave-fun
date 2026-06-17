@@ -19,13 +19,15 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 36,
+    "temp_f": 44,
+    "feels_like_f": 35,
     "wind_mph": 9,
     "gusts_mph": 10,
-    "rain_pct": 1
+    "rain_pct": 0
   },
   "sunrise": "2026-06-16T05:34",
   "sunset": "2026-06-16T20:13",
@@ -60,7 +62,7 @@
       "date": "2026-06-17",
       "high_f": 48,
       "low_f": 30,
-      "rain_pct": 5,
+      "rain_pct": 4,
       "uv": 10,
       "sunrise": "2026-06-17T05:34",
       "sunset": "2026-06-17T20:13",
@@ -101,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-17T01:14:42.831204+00:00"
+  "updated_at": "2026-06-17T01:34:05.004302+00:00"
 }

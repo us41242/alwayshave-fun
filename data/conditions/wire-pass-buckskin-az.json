@@ -17,9 +17,11 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 40,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 76,
     "feels_like_f": 71,
@@ -36,11 +38,11 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 19.8,
+    "fire_count_50km": 33
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-06-17T14:06:23.864396+00:00"
+  "updated_at": "2026-06-17T14:25:16.058882+00:00"
 }

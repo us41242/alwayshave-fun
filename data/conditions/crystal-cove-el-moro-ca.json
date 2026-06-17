@@ -17,12 +17,14 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 64,
+    "feels_like_f": 65,
     "wind_mph": 2,
     "gusts_mph": 3,
     "rain_pct": 0
@@ -36,9 +38,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 42.0,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-06-17T05:41",
       "sunset": "2026-06-17T20:03",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -61,18 +63,18 @@
       "uv": 9,
       "sunrise": "2026-06-18T05:41",
       "sunset": "2026-06-18T20:03",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-06-19",
       "high_f": 73,
-      "low_f": 64,
+      "low_f": 62,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-06-19T05:41",
       "sunset": "2026-06-19T20:04",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-06-20T05:41",
       "sunset": "2026-06-20T20:04",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-21T05:41",
       "sunset": "2026-06-21T20:04",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-17T14:12:02.998157+00:00"
+  "updated_at": "2026-06-17T14:31:15.848777+00:00"
 }

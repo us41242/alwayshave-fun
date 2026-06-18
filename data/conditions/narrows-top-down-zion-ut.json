@@ -17,7 +17,7 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 62,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
@@ -27,13 +27,13 @@
     "gusts_mph": 7,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-18T06:10",
-  "sunset": "2026-06-18T20:55",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 41,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -44,62 +44,6 @@
     "cfs": 7570,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-06-18",
-      "high_f": 87,
-      "low_f": 65,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-06-18T06:10",
-      "sunset": "2026-06-18T20:55",
-      "predicted_score": 32,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-06-19",
-      "high_f": 85,
-      "low_f": 62,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-06-19T06:10",
-      "sunset": "2026-06-19T20:55",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-20",
-      "high_f": 79,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-20T06:11",
-      "sunset": "2026-06-20T20:55",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-21",
-      "high_f": 82,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-21T06:11",
-      "sunset": "2026-06-21T20:55",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-22",
-      "high_f": 84,
-      "low_f": 57,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-22T06:11",
-      "sunset": "2026-06-22T20:56",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-06-18T11:47:34.215659+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-18T12:05:39.618728+00:00"
 }

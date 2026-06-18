@@ -17,33 +17,30 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 86,
+    "temp_f": 84,
     "feels_like_f": 76,
-    "wind_mph": 12,
-    "gusts_mph": 20,
+    "wind_mph": 11,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "sunrise": "2026-06-17T06:10",
   "sunset": "2026-06-17T20:54",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": 9620,
-    "stage": "flood"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-06-17",
@@ -53,8 +50,8 @@
       "uv": 9,
       "sunrise": "2026-06-17T06:10",
       "sunset": "2026-06-17T20:54",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-18",
@@ -64,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-06-18T06:11",
       "sunset": "2026-06-18T20:54",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-19",
@@ -75,8 +72,8 @@
       "uv": 9,
       "sunrise": "2026-06-19T06:11",
       "sunset": "2026-06-19T20:55",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-20",
@@ -86,8 +83,8 @@
       "uv": 9,
       "sunrise": "2026-06-20T06:11",
       "sunset": "2026-06-20T20:55",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-21",
@@ -97,9 +94,9 @@
       "uv": 9,
       "sunrise": "2026-06-21T06:11",
       "sunset": "2026-06-21T20:55",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-18T03:03:06.230266+00:00"
+  "updated_at": "2026-06-18T03:36:09.288703+00:00"
 }

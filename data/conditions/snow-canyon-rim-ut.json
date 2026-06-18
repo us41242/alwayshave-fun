@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 89,
+    "temp_f": 99,
+    "feels_like_f": 88,
     "wind_mph": 16,
-    "gusts_mph": 19,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-17T06:14",
+  "sunset": "2026-06-17T20:56",
   "aqi": {
     "aqi": 48,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-18T01:28:15.710497+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-17",
+      "high_f": 104,
+      "low_f": 74,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-17T06:14",
+      "sunset": "2026-06-17T20:56",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-18",
+      "high_f": 100,
+      "low_f": 78,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-18T06:14",
+      "sunset": "2026-06-18T20:57",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-19",
+      "high_f": 97,
+      "low_f": 75,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-19T06:14",
+      "sunset": "2026-06-19T20:57",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-20",
+      "high_f": 94,
+      "low_f": 69,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-20T06:14",
+      "sunset": "2026-06-20T20:57",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-21",
+      "high_f": 96,
+      "low_f": 67,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-21T06:14",
+      "sunset": "2026-06-21T20:58",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-06-18T01:50:40.591158+00:00"
 }

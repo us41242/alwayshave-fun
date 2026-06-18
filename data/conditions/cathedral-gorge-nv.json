@@ -24,13 +24,13 @@
   ],
   "current": {
     "temp_f": 96,
-    "feels_like_f": 90,
-    "wind_mph": 13,
-    "gusts_mph": 14,
+    "feels_like_f": 88,
+    "wind_mph": 15,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-18T05:15",
+  "sunset": "2026-06-18T20:02",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -43,6 +43,62 @@
     "fire_count_50km": 106
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-18T22:04:08.438769+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-18",
+      "high_f": 96,
+      "low_f": 68,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-06-18T05:15",
+      "sunset": "2026-06-18T20:02",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-19",
+      "high_f": 89,
+      "low_f": 68,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-19T05:15",
+      "sunset": "2026-06-19T20:02",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-20",
+      "high_f": 87,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-20T05:15",
+      "sunset": "2026-06-20T20:02",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-21",
+      "high_f": 90,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-21T05:15",
+      "sunset": "2026-06-21T20:02",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-22",
+      "high_f": 91,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-22T05:16",
+      "sunset": "2026-06-22T20:03",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    }
+  ],
+  "updated_at": "2026-06-18T22:24:47.424467+00:00"
 }

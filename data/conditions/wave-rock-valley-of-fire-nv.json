@@ -17,23 +17,21 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 52,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 104,
-    "feels_like_f": 98,
-    "wind_mph": 14,
-    "gusts_mph": 16,
+    "feels_like_f": 97,
+    "wind_mph": 15,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-18T05:19",
+  "sunset": "2026-06-18T19:58",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -43,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-18T22:23:49.696395+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-18",
+      "high_f": 104,
+      "low_f": 85,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-18T05:19",
+      "sunset": "2026-06-18T19:58",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-19",
+      "high_f": 100,
+      "low_f": 78,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-19T05:20",
+      "sunset": "2026-06-19T19:59",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-20",
+      "high_f": 102,
+      "low_f": 74,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-20T05:20",
+      "sunset": "2026-06-20T19:59",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-21",
+      "high_f": 102,
+      "low_f": 70,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-21T05:20",
+      "sunset": "2026-06-21T19:59",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-22",
+      "high_f": 104,
+      "low_f": 71,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-22T05:20",
+      "sunset": "2026-06-22T19:59",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-06-18T22:41:58.697033+00:00"
 }

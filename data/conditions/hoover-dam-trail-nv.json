@@ -23,16 +23,16 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 113,
-    "feels_like_f": 104,
-    "wind_mph": 15,
-    "gusts_mph": 17,
+    "temp_f": 112,
+    "feels_like_f": 107,
+    "wind_mph": 8,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-17T05:21",
+  "sunset": "2026-06-17T19:57",
   "aqi": {
-    "aqi": 74,
+    "aqi": 71,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-18T00:08:18.548158+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-17",
+      "high_f": 112,
+      "low_f": 92,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-17T05:21",
+      "sunset": "2026-06-17T19:57",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-18",
+      "high_f": 109,
+      "low_f": 88,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-06-18T05:22",
+      "sunset": "2026-06-18T19:58",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-19",
+      "high_f": 105,
+      "low_f": 80,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-19T05:22",
+      "sunset": "2026-06-19T19:58",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-20",
+      "high_f": 106,
+      "low_f": 75,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-20T05:22",
+      "sunset": "2026-06-20T19:58",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-21",
+      "high_f": 105,
+      "low_f": 75,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-21T05:22",
+      "sunset": "2026-06-21T19:58",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-06-18T00:27:52.285796+00:00"
 }

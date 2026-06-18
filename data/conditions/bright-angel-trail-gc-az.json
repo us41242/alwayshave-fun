@@ -21,7 +21,7 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 84,
+    "temp_f": 85,
     "feels_like_f": 80,
     "wind_mph": 11,
     "gusts_mph": 12,
@@ -30,17 +30,20 @@
   "sunrise": "2026-06-18T05:11",
   "sunset": "2026-06-18T19:47",
   "aqi": {
-    "aqi": 38,
+    "aqi": 48,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 94.9,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 8860,
+    "stage": "flood"
+  },
   "forecast": [
     {
       "date": "2026-06-18",
@@ -98,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-18T19:43:42.399790+00:00"
+  "updated_at": "2026-06-18T20:05:26.971595+00:00"
 }

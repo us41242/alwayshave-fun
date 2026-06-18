@@ -17,11 +17,13 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 84,
+    "temp_f": 85,
     "feels_like_f": 79,
     "wind_mph": 13,
     "gusts_mph": 14,
@@ -30,10 +32,10 @@
   "sunrise": "2026-06-18T06:10",
   "sunset": "2026-06-18T20:55",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -53,7 +55,7 @@
       "uv": 9,
       "sunrise": "2026-06-18T06:10",
       "sunset": "2026-06-18T20:55",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -64,7 +66,7 @@
       "uv": 9,
       "sunrise": "2026-06-19T06:10",
       "sunset": "2026-06-19T20:55",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -75,7 +77,7 @@
       "uv": 9,
       "sunrise": "2026-06-20T06:11",
       "sunset": "2026-06-20T20:55",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -86,7 +88,7 @@
       "uv": 9,
       "sunrise": "2026-06-21T06:11",
       "sunset": "2026-06-21T20:55",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -97,9 +99,9 @@
       "uv": 9,
       "sunrise": "2026-06-22T06:11",
       "sunset": "2026-06-22T20:56",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-18T18:45:50.840550+00:00"
+  "updated_at": "2026-06-18T19:03:44.861302+00:00"
 }

@@ -17,8 +17,8 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 80,
@@ -27,13 +27,13 @@
     "gusts_mph": 1,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-18T06:14",
-  "sunset": "2026-06-18T20:57",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 34,
+    "aqi": 46,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
@@ -41,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-06-18",
-      "high_f": 101,
-      "low_f": 80,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-06-18T06:14",
-      "sunset": "2026-06-18T20:57",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-19",
-      "high_f": 97,
-      "low_f": 78,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-06-19T06:14",
-      "sunset": "2026-06-19T20:57",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-20",
-      "high_f": 94,
-      "low_f": 68,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-20T06:14",
-      "sunset": "2026-06-20T20:57",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-21",
-      "high_f": 96,
-      "low_f": 68,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-21T06:14",
-      "sunset": "2026-06-21T20:58",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-22",
-      "high_f": 97,
-      "low_f": 68,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-22T06:15",
-      "sunset": "2026-06-22T20:58",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-06-18T12:06:21.644571+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-18T12:30:45.443853+00:00"
 }

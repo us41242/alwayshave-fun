@@ -17,14 +17,12 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 44,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 77,
+    "temp_f": 86,
+    "feels_like_f": 80,
     "wind_mph": 10,
     "gusts_mph": 12,
     "rain_pct": 0
@@ -32,15 +30,15 @@
   "sunrise": "2026-06-19T05:15",
   "sunset": "2026-06-19T20:02",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 40,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 42.7,
-    "fire_count_50km": 10
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -52,8 +50,8 @@
       "uv": 9,
       "sunrise": "2026-06-19T05:15",
       "sunset": "2026-06-19T20:02",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-20",
@@ -63,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-06-20T05:15",
       "sunset": "2026-06-20T20:02",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-21",
@@ -74,8 +72,8 @@
       "uv": 9,
       "sunrise": "2026-06-21T05:15",
       "sunset": "2026-06-21T20:02",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-22",
@@ -85,8 +83,8 @@
       "uv": 9,
       "sunrise": "2026-06-22T05:16",
       "sunset": "2026-06-22T20:03",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-23",
@@ -96,9 +94,9 @@
       "uv": 9,
       "sunrise": "2026-06-23T05:16",
       "sunset": "2026-06-23T20:03",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-19T17:04:03.632371+00:00"
+  "updated_at": "2026-06-19T17:24:07.659088+00:00"
 }

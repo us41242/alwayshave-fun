@@ -19,10 +19,12 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 87,
-    "feels_like_f": 81,
+    "temp_f": 86,
+    "feels_like_f": 80,
     "wind_mph": 6,
     "gusts_mph": 20,
     "rain_pct": 0
@@ -57,7 +59,7 @@
       "date": "2026-06-19",
       "high_f": 97,
       "low_f": 79,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-06-19T06:14",
       "sunset": "2026-06-19T20:57",
@@ -98,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-19T03:55:25.243114+00:00"
+  "updated_at": "2026-06-19T04:10:50.503049+00:00"
 }

@@ -17,23 +17,25 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 43,
-    "wind_mph": 6,
-    "gusts_mph": 17,
+    "temp_f": 51,
+    "feels_like_f": 41,
+    "wind_mph": 7,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-06-18T05:48",
   "sunset": "2026-06-18T20:35",
   "aqi": {
-    "aqi": 17,
-    "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "aqi": 85,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-06-18T05:48",
       "sunset": "2026-06-18T20:35",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-06-19T05:49",
       "sunset": "2026-06-19T20:35",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-06-20T05:49",
       "sunset": "2026-06-20T20:36",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-06-21T05:49",
       "sunset": "2026-06-21T20:36",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-06-22T05:49",
       "sunset": "2026-06-22T20:36",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-19T02:52:55.288756+00:00"
+  "updated_at": "2026-06-19T03:24:52.825208+00:00"
 }

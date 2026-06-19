@@ -17,23 +17,25 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 65,
-    "wind_mph": 7,
+    "temp_f": 71,
+    "feels_like_f": 62,
+    "wind_mph": 9,
     "gusts_mph": 12,
-    "rain_pct": 1
+    "rain_pct": 0
   },
   "sunrise": "2026-06-18T06:07",
   "sunset": "2026-06-18T20:52",
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 65,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,19 +52,19 @@
       "uv": 9,
       "sunrise": "2026-06-18T06:07",
       "sunset": "2026-06-18T20:52",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-19",
       "high_f": 78,
       "low_f": 60,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-06-19T06:07",
       "sunset": "2026-06-19T20:52",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-20",
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-06-20T06:07",
       "sunset": "2026-06-20T20:53",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-21T06:07",
       "sunset": "2026-06-21T20:53",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-22",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-22T06:07",
       "sunset": "2026-06-22T20:53",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-19T02:47:07.545811+00:00"
+  "updated_at": "2026-06-19T03:12:13.846587+00:00"
 }

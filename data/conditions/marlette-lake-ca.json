@@ -17,9 +17,11 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 45,
     "feels_like_f": 38,
@@ -30,15 +32,15 @@
   "sunrise": "2026-06-20T05:33",
   "sunset": "2026-06-20T20:28",
   "aqi": {
-    "aqi": 30,
+    "aqi": 34,
     "category": "Good",
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.5,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-06-20T05:33",
       "sunset": "2026-06-20T20:28",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 9,
       "sunrise": "2026-06-21T05:33",
       "sunset": "2026-06-21T20:29",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-22T05:34",
       "sunset": "2026-06-22T20:29",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-23",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-23T05:34",
       "sunset": "2026-06-23T20:29",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-24",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-24T05:34",
       "sunset": "2026-06-24T20:29",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-20T11:51:28.461376+00:00"
+  "updated_at": "2026-06-20T12:13:49.527853+00:00"
 }

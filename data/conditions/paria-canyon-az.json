@@ -17,12 +17,14 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 91,
-    "feels_like_f": 88,
+    "feels_like_f": 89,
     "wind_mph": 5,
     "gusts_mph": 6,
     "rain_pct": 0
@@ -30,8 +32,8 @@
   "sunrise": "2026-06-21T06:08",
   "sunset": "2026-06-21T20:51",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
+    "aqi": 58,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-06-21T06:08",
       "sunset": "2026-06-21T20:51",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-22",
@@ -61,7 +63,7 @@
       "uv": 9,
       "sunrise": "2026-06-22T06:08",
       "sunset": "2026-06-22T20:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-06-23T06:08",
       "sunset": "2026-06-23T20:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-06-24T06:09",
       "sunset": "2026-06-24T20:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-06-25T06:09",
       "sunset": "2026-06-25T20:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-21T19:06:13.209066+00:00"
+  "updated_at": "2026-06-21T19:26:41.232301+00:00"
 }

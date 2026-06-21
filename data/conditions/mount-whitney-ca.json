@@ -25,27 +25,24 @@
   "current": {
     "temp_f": 45,
     "feels_like_f": 40,
-    "wind_mph": 9,
-    "gusts_mph": 18,
+    "wind_mph": 10,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-06-21T05:35",
   "sunset": "2026-06-21T20:14",
   "aqi": {
-    "aqi": 21,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 95.3,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": 80,
-    "stage": "low"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-06-21",
@@ -103,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-21T21:14:25.860743+00:00"
+  "updated_at": "2026-06-21T21:31:22.573504+00:00"
 }

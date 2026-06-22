@@ -17,20 +17,20 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 62,
-    "wind_mph": 7,
+    "temp_f": 72,
+    "feels_like_f": 65,
+    "wind_mph": 8,
     "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-22T05:12",
+  "sunset": "2026-06-22T19:48",
   "aqi": {
     "aqi": 64,
     "category": "Moderate",
@@ -46,6 +46,62 @@
     "cfs": 8040,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-06-22T15:45:24.795820+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-22",
+      "high_f": 87,
+      "low_f": 58,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-22T05:12",
+      "sunset": "2026-06-22T19:48",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-23",
+      "high_f": 89,
+      "low_f": 64,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-23T05:12",
+      "sunset": "2026-06-23T19:49",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-24",
+      "high_f": 88,
+      "low_f": 63,
+      "rain_pct": 41,
+      "uv": 7,
+      "sunrise": "2026-06-24T05:12",
+      "sunset": "2026-06-24T19:49",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-25",
+      "high_f": 86,
+      "low_f": 61,
+      "rain_pct": 41,
+      "uv": 8,
+      "sunrise": "2026-06-25T05:13",
+      "sunset": "2026-06-25T19:49",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-26",
+      "high_f": 86,
+      "low_f": 60,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-06-26T05:13",
+      "sunset": "2026-06-26T19:49",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-06-22T16:05:17.133741+00:00"
 }

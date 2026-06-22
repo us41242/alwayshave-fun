@@ -17,20 +17,20 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 16,
-  "score_label": "Stay home",
+  "score": 56,
+  "score_label": "Use caution",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 54,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 66,
+    "feels_like_f": 59,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-22T05:16",
+  "sunset": "2026-06-22T20:03",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -43,6 +43,62 @@
     "fire_count_50km": 52
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-22T13:43:47.677562+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-22",
+      "high_f": 92,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-22T05:16",
+      "sunset": "2026-06-22T20:03",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-23",
+      "high_f": 96,
+      "low_f": 64,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-23T05:16",
+      "sunset": "2026-06-23T20:03",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-24",
+      "high_f": 92,
+      "low_f": 66,
+      "rain_pct": 8,
+      "uv": 9,
+      "sunrise": "2026-06-24T05:16",
+      "sunset": "2026-06-24T20:03",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-25",
+      "high_f": 94,
+      "low_f": 63,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-06-25T05:17",
+      "sunset": "2026-06-25T20:03",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-06-26",
+      "high_f": 91,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-26T05:17",
+      "sunset": "2026-06-26T20:03",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    }
+  ],
+  "updated_at": "2026-06-22T14:04:29.409044+00:00"
 }

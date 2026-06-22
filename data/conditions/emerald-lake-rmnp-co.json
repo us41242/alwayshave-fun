@@ -17,23 +17,25 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 78,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 46,
-    "wind_mph": 8,
-    "gusts_mph": 11,
+    "temp_f": 50,
+    "feels_like_f": 48,
+    "wind_mph": 1,
+    "gusts_mph": 4,
     "rain_pct": 4
   },
   "sunrise": "2026-06-21T05:33",
   "sunset": "2026-06-21T20:35",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 58,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,19 +52,19 @@
       "uv": 9,
       "sunrise": "2026-06-21T05:33",
       "sunset": "2026-06-21T20:35",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-22",
       "high_f": 68,
-      "low_f": 43,
+      "low_f": 42,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-06-22T05:33",
       "sunset": "2026-06-22T20:36",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-23",
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-06-23T05:33",
       "sunset": "2026-06-23T20:36",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-24",
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-06-24T05:33",
       "sunset": "2026-06-24T20:36",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-25",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-25T05:34",
       "sunset": "2026-06-25T20:36",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-22T04:31:32.025694+00:00"
+  "updated_at": "2026-06-22T04:50:21.498665+00:00"
 }

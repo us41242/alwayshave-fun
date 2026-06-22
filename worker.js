@@ -27,6 +27,14 @@ export default {
     const parts = url.pathname.replace(/^\//, '').split('/').filter(p => p.length > 0);
     const first = (parts[0] || '').toLowerCase();
 
+    // /api/geo — privacy-first visitor location beacon. Reads Cloudflare's edge
+    // geo (request.cf) and logs it to Supabase. No IP stored. NOTE: this lives
+    // here in the Worker (not functions/) because the site deploys as a Worker
+    // with static assets — Pages Functions are NOT invoked in this model.
+    if (first === 'api' && (parts[1] || '').toLowerCase() === 'geo') {
+      return handleGeoBeacon(request, env);
+    }
+
     // Legacy /trail.html?slug=foo-bar-ut → 301 to /{state}/{slug}
     // (slug embeds the state suffix, so we map the suffix back to the state path)
     if (url.pathname === '/trail.html' || url.pathname === '/trail') {
@@ -102,3 +110,95 @@ export default {
     return env.ASSETS.fetch(request);
   }
 };
+
+// ── Visitor location beacon ────────────────────────────────────────────────
+// Reads the visitor's coarse location from Cloudflare's edge (request.cf) —
+// no IP is ever read or stored — and writes one row to the shared Supabase
+// `site_visits` table using the SERVICE key. The browser beacon (geo-beacon.js)
+// sends only { path }; everything about *where* comes from Cloudflare here.
+//
+// Env (set as Worker secrets/vars):
+//   SUPABASE_URL          https://cuzyicjsyoddbeiosuxn.supabase.co
+//   SUPABASE_SERVICE_KEY  sb_secret_...  (secret — server-side only)
+async function handleGeoBeacon(request, env) {
+  const origin = request.headers.get('Origin') || '';
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: geoCors(origin) });
+  }
+  if (request.method !== 'POST') {
+    return geoJson({ error: 'Method not allowed' }, 405, geoCors(origin));
+  }
+
+  const cf = request.cf || {};
+  const lat = geoNum(cf.latitude);
+  const lon = geoNum(cf.longitude);
+  if (lat === null || lon === null) {
+    return geoJson({ ok: true, skipped: 'no-geo' }, 200, geoCors(origin));
+  }
+
+  let path = '/';
+  try {
+    const body = await request.json();
+    if (body && typeof body.path === 'string') path = body.path.slice(0, 300);
+  } catch { /* empty/invalid body is fine */ }
+
+  const supaUrl = env.SUPABASE_URL;
+  const key = env.SUPABASE_SERVICE_KEY;
+  if (!supaUrl || !key) {
+    console.warn('geo: SUPABASE_URL / SUPABASE_SERVICE_KEY not set — skipping');
+    return geoJson({ ok: true, skipped: 'unconfigured' }, 200, geoCors(origin));
+  }
+
+  const row = {
+    site: 'ahf',
+    lat,
+    lon,
+    city: geoStr(cf.city),
+    region: geoStr(cf.region),
+    postal: geoStr(cf.postalCode),
+    country: geoStr(cf.country),
+    path,
+  };
+
+  try {
+    const res = await fetch(`${supaUrl}/rest/v1/site_visits`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        apikey: key,
+        Authorization: `Bearer ${key}`,
+        Prefer: 'return=minimal',
+      },
+      body: JSON.stringify(row),
+    });
+    if (!res.ok) {
+      console.error('geo: supabase insert failed', res.status, await res.text().catch(() => ''));
+      return geoJson({ error: 'log failed' }, 502, geoCors(origin));
+    }
+    return geoJson({ ok: true }, 200, geoCors(origin));
+  } catch (err) {
+    console.error('geo: fetch error', err);
+    return geoJson({ error: 'network' }, 502, geoCors(origin));
+  }
+}
+
+function geoCors(origin) {
+  return {
+    'Access-Control-Allow-Origin': origin || 'https://alwayshave.fun',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+  };
+}
+function geoJson(body, status, extraHeaders = {}) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { 'Content-Type': 'application/json', ...extraHeaders },
+  });
+}
+function geoNum(v) {
+  const n = typeof v === 'string' ? parseFloat(v) : v;
+  return Number.isFinite(n) ? n : null;
+}
+function geoStr(v) {
+  return v && typeof v === 'string' ? v.slice(0, 120) : null;
+}

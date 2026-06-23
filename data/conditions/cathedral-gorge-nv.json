@@ -17,9 +17,11 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 90,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 70,
     "feels_like_f": 62,
@@ -30,10 +32,10 @@
   "sunrise": "2026-06-23T05:16",
   "sunset": "2026-06-23T20:03",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 89,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,19 +52,19 @@
       "uv": 9,
       "sunrise": "2026-06-23T05:16",
       "sunset": "2026-06-23T20:03",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-24",
-      "high_f": 88,
+      "high_f": 87,
       "low_f": 67,
       "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-06-24T05:16",
       "sunset": "2026-06-24T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-25",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-25T05:17",
       "sunset": "2026-06-25T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-26",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-26T05:17",
       "sunset": "2026-06-26T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-27",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-27T05:17",
       "sunset": "2026-06-27T20:03",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-23T07:44:12.281793+00:00"
+  "updated_at": "2026-06-23T08:04:33.412360+00:00"
 }

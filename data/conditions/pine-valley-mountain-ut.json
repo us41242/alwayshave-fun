@@ -19,12 +19,14 @@
   "vehicle_req": "AWD",
   "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 82,
-    "feels_like_f": 76,
+    "feels_like_f": 77,
     "wind_mph": 11,
-    "gusts_mph": 18,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "sunrise": "2026-06-23T06:14",
@@ -44,14 +46,14 @@
   "forecast": [
     {
       "date": "2026-06-23",
-      "high_f": 85,
+      "high_f": 86,
       "low_f": 60,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-06-23T06:14",
       "sunset": "2026-06-23T20:58",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-24",
@@ -98,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-23T18:29:10.048952+00:00"
+  "updated_at": "2026-06-23T18:49:31.160677+00:00"
 }

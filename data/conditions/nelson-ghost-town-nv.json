@@ -17,9 +17,11 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
+  "score": 42,
   "score_label": "Conditions poor",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 99,
     "feels_like_f": 92,
@@ -30,14 +32,14 @@
   "sunrise": "2026-06-23T05:24",
   "sunset": "2026-06-23T19:58",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 58,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 72.7,
     "fire_count_50km": 0
   },
   "river": null,
@@ -46,11 +48,11 @@
       "date": "2026-06-23",
       "high_f": 99,
       "low_f": 78,
-      "rain_pct": 5,
+      "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-06-23T05:24",
       "sunset": "2026-06-23T19:58",
-      "predicted_score": 30,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-06-24T05:24",
       "sunset": "2026-06-24T19:59",
-      "predicted_score": 30,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-06-25T05:25",
       "sunset": "2026-06-25T19:59",
-      "predicted_score": 30,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-06-26T05:25",
       "sunset": "2026-06-26T19:59",
-      "predicted_score": 30,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-06-27T05:25",
       "sunset": "2026-06-27T19:59",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-23T22:48:24.695397+00:00"
+  "updated_at": "2026-06-23T23:06:49.449229+00:00"
 }

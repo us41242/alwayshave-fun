@@ -17,18 +17,18 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 75,
-    "wind_mph": 12,
-    "gusts_mph": 19,
+    "temp_f": 83,
+    "feels_like_f": 73,
+    "wind_mph": 10,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-22T05:16",
+  "sunset": "2026-06-22T20:03",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-23T02:23:14.840987+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-22",
+      "high_f": 93,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-22T05:16",
+      "sunset": "2026-06-22T20:03",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-23",
+      "high_f": 96,
+      "low_f": 64,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-23T05:16",
+      "sunset": "2026-06-23T20:03",
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-24",
+      "high_f": 88,
+      "low_f": 67,
+      "rain_pct": 12,
+      "uv": 9,
+      "sunrise": "2026-06-24T05:16",
+      "sunset": "2026-06-24T20:03",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-25",
+      "high_f": 93,
+      "low_f": 63,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-06-25T05:17",
+      "sunset": "2026-06-25T20:03",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-26",
+      "high_f": 89,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-26T05:17",
+      "sunset": "2026-06-26T20:03",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-06-23T02:43:59.990584+00:00"
 }

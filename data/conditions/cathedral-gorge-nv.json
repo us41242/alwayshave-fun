@@ -17,9 +17,11 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 56,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 70,
     "feels_like_f": 62,
@@ -36,9 +38,9 @@
     "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 38.8,
+    "fire_count_50km": 73
   },
   "river": null,
   "forecast": [
@@ -50,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-06-23T05:16",
       "sunset": "2026-06-23T20:03",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-24",
@@ -61,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-06-24T05:16",
       "sunset": "2026-06-24T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-25",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-25T05:17",
       "sunset": "2026-06-25T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-26",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-06-26T05:17",
       "sunset": "2026-06-26T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-06-27",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-06-27T05:17",
       "sunset": "2026-06-27T20:03",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-06-23T08:24:55.947647+00:00"
+  "updated_at": "2026-06-23T08:44:48.766577+00:00"
 }

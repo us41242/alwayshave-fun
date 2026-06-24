@@ -24,7 +24,7 @@
     "temp_f": 80,
     "feels_like_f": 74,
     "wind_mph": 8,
-    "gusts_mph": 17,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "sunrise": "2026-06-23T06:12",
@@ -40,7 +40,10 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 10300,
+    "stage": "flood"
+  },
   "forecast": [
     {
       "date": "2026-06-23",
@@ -55,7 +58,7 @@
     },
     {
       "date": "2026-06-24",
-      "high_f": 83,
+      "high_f": 84,
       "low_f": 67,
       "rain_pct": 35,
       "uv": 5,
@@ -98,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-24T04:22:03.205360+00:00"
+  "updated_at": "2026-06-24T04:42:24.300998+00:00"
 }

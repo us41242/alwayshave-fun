@@ -17,30 +17,31 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 54,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 49,
-    "feels_like_f": 39,
-    "wind_mph": 9,
+    "feels_like_f": 40,
+    "wind_mph": 10,
     "gusts_mph": 18,
     "rain_pct": 0
   },
   "sunrise": "2026-06-24T05:43",
   "sunset": "2026-06-24T20:37",
   "aqi": {
-    "aqi": 97,
-    "category": "Moderate",
+    "aqi": 103,
+    "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.6,
+    "fire_count_50km": 3
   },
   "river": null,
   "forecast": [
@@ -48,45 +49,45 @@
       "date": "2026-06-24",
       "high_f": 59,
       "low_f": 39,
-      "rain_pct": 34,
+      "rain_pct": 46,
       "uv": 9,
       "sunrise": "2026-06-24T05:43",
       "sunset": "2026-06-24T20:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-25",
       "high_f": 49,
       "low_f": 34,
-      "rain_pct": 54,
+      "rain_pct": 53,
       "uv": 9,
       "sunrise": "2026-06-25T05:43",
       "sunset": "2026-06-25T20:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-26",
       "high_f": 58,
       "low_f": 35,
-      "rain_pct": 54,
+      "rain_pct": 52,
       "uv": 9,
       "sunrise": "2026-06-26T05:43",
       "sunset": "2026-06-26T20:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-27",
       "high_f": 56,
       "low_f": 34,
-      "rain_pct": 7,
+      "rain_pct": 12,
       "uv": 9,
       "sunrise": "2026-06-27T05:44",
       "sunset": "2026-06-27T20:37",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 54,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-28",
@@ -96,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-06-28T05:44",
       "sunset": "2026-06-28T20:37",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-24T14:51:23.029419+00:00"
+  "updated_at": "2026-06-24T15:11:35.827038+00:00"
 }

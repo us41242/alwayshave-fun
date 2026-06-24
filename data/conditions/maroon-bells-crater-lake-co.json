@@ -17,10 +17,11 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 57,
@@ -38,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.6,
+    "fire_count_50km": 3
   },
   "river": null,
   "forecast": [
@@ -52,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-06-24T05:43",
       "sunset": "2026-06-24T20:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-25",
@@ -63,8 +64,8 @@
       "uv": 9,
       "sunrise": "2026-06-25T05:43",
       "sunset": "2026-06-25T20:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-26",
@@ -74,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-06-26T05:43",
       "sunset": "2026-06-26T20:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-27",
@@ -85,8 +86,8 @@
       "uv": 9,
       "sunrise": "2026-06-27T05:44",
       "sunset": "2026-06-27T20:37",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-28",
@@ -96,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-06-28T05:44",
       "sunset": "2026-06-28T20:37",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-24T18:35:17.260480+00:00"
+  "updated_at": "2026-06-24T18:52:49.651091+00:00"
 }

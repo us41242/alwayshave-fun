@@ -17,15 +17,17 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 68,
+  "score": 54,
   "score_label": "Use caution",
   "gear_flags": [
-    "N95 mask recommended"
+    "wind layer recommended",
+    "N95 mask recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 56,
     "feels_like_f": 46,
-    "wind_mph": 16,
+    "wind_mph": 18,
     "gusts_mph": 20,
     "rain_pct": 0
   },
@@ -38,9 +40,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.6,
+    "fire_count_50km": 3
   },
   "river": null,
   "forecast": [
@@ -52,8 +54,8 @@
       "uv": 9,
       "sunrise": "2026-06-24T05:43",
       "sunset": "2026-06-24T20:37",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-25",
@@ -63,8 +65,8 @@
       "uv": 9,
       "sunrise": "2026-06-25T05:43",
       "sunset": "2026-06-25T20:37",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-26",
@@ -74,8 +76,8 @@
       "uv": 9,
       "sunrise": "2026-06-26T05:43",
       "sunset": "2026-06-26T20:37",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-06-27",
@@ -85,7 +87,7 @@
       "uv": 9,
       "sunrise": "2026-06-27T05:44",
       "sunset": "2026-06-27T20:37",
-      "predicted_score": 68,
+      "predicted_score": 54,
       "score_label": "Use caution"
     },
     {
@@ -96,9 +98,9 @@
       "uv": 9,
       "sunrise": "2026-06-28T05:44",
       "sunset": "2026-06-28T20:37",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-24T17:29:51.112232+00:00"
+  "updated_at": "2026-06-24T17:50:46.379821+00:00"
 }

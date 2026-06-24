@@ -19,13 +19,15 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 82,
-    "feels_like_f": 77,
-    "wind_mph": 16,
-    "gusts_mph": 20,
-    "rain_pct": 16
+    "feels_like_f": 78,
+    "wind_mph": 18,
+    "gusts_mph": 22,
+    "rain_pct": 14
   },
   "sunrise": "2026-06-24T06:12",
   "sunset": "2026-06-24T20:56",
@@ -37,21 +39,21 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 109.7,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-06-24",
-      "high_f": 85,
+      "high_f": 86,
       "low_f": 71,
       "rain_pct": 25,
       "uv": 6,
       "sunrise": "2026-06-24T06:12",
       "sunset": "2026-06-24T20:56",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-25",
@@ -98,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-24T17:22:03.069396+00:00"
+  "updated_at": "2026-06-24T17:41:33.975825+00:00"
 }

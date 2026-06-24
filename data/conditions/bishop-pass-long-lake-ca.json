@@ -17,18 +17,20 @@
   "notes": "South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June \u2014 Long Lake turnaround is the right call early season",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 51,
-    "feels_like_f": 43,
-    "wind_mph": 12,
-    "gusts_mph": 23,
+    "feels_like_f": 42,
+    "wind_mph": 15,
+    "gusts_mph": 26,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-23T05:35",
+  "sunset": "2026-06-23T20:18",
   "aqi": {
     "aqi": 42,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-24T05:35:53.541342+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-23",
+      "high_f": 68,
+      "low_f": 46,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-23T05:35",
+      "sunset": "2026-06-23T20:18",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-24",
+      "high_f": 66,
+      "low_f": 47,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-06-24T05:35",
+      "sunset": "2026-06-24T20:18",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-25",
+      "high_f": 66,
+      "low_f": 46,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-06-25T05:35",
+      "sunset": "2026-06-25T20:18",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-26",
+      "high_f": 58,
+      "low_f": 44,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-26T05:36",
+      "sunset": "2026-06-26T20:18",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-27",
+      "high_f": 55,
+      "low_f": 36,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-27T05:36",
+      "sunset": "2026-06-27T20:18",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-24T05:56:11.536531+00:00"
 }

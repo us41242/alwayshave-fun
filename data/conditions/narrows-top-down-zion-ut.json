@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 77,
@@ -27,10 +27,10 @@
     "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-25T06:12",
-  "sunset": "2026-06-25T20:56",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 32,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7640,
+    "cfs": 8000,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-06-25",
-      "high_f": 85,
-      "low_f": 58,
-      "rain_pct": 4,
-      "uv": 9,
-      "sunrise": "2026-06-25T06:12",
-      "sunset": "2026-06-25T20:56",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-26",
-      "high_f": 82,
-      "low_f": 59,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-26T06:12",
-      "sunset": "2026-06-26T20:56",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-27",
-      "high_f": 76,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-27T06:13",
-      "sunset": "2026-06-27T20:56",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-28",
-      "high_f": 68,
-      "low_f": 50,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-28T06:13",
-      "sunset": "2026-06-28T20:56",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-06-29",
-      "high_f": 75,
-      "low_f": 47,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-29T06:13",
-      "sunset": "2026-06-29T20:56",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-06-25T17:06:05.053608+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-25T17:26:50.076858+00:00"
 }

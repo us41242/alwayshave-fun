@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 35,
-    "feels_like_f": 27,
+    "feels_like_f": 26,
     "wind_mph": 5,
-    "gusts_mph": 6,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-25T05:36",
+  "sunset": "2026-06-25T20:15",
   "aqi": {
     "aqi": 15,
     "category": "Good",
@@ -44,6 +46,62 @@
     "cfs": 65,
     "stage": "low"
   },
-  "forecast": [],
-  "updated_at": "2026-06-25T07:37:33.335424+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-25",
+      "high_f": 49,
+      "low_f": 32,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-25T05:36",
+      "sunset": "2026-06-25T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-26",
+      "high_f": 40,
+      "low_f": 27,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-26T05:36",
+      "sunset": "2026-06-26T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-27",
+      "high_f": 38,
+      "low_f": 20,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-27T05:37",
+      "sunset": "2026-06-27T20:15",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-28",
+      "high_f": 36,
+      "low_f": 17,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-28T05:37",
+      "sunset": "2026-06-28T20:15",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-29",
+      "high_f": 41,
+      "low_f": 21,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-29T05:37",
+      "sunset": "2026-06-29T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-25T07:51:59.943147+00:00"
 }

@@ -17,17 +17,15 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 100,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
     "temp_f": 66,
     "feels_like_f": 60,
     "wind_mph": 8,
     "gusts_mph": 8,
-    "rain_pct": 1
+    "rain_pct": 2
   },
   "sunrise": "2026-06-25T05:14",
   "sunset": "2026-06-25T19:44",
@@ -38,9 +36,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "high",
-    "nearest_fire_km": 5.1,
-    "fire_count_50km": 8
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": {
     "cfs": 31,
@@ -49,14 +47,14 @@
   "forecast": [
     {
       "date": "2026-06-25",
-      "high_f": 85,
+      "high_f": 86,
       "low_f": 65,
       "rain_pct": 35,
       "uv": 9,
       "sunrise": "2026-06-25T05:14",
       "sunset": "2026-06-25T19:44",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-26",
@@ -66,8 +64,8 @@
       "uv": 9,
       "sunrise": "2026-06-26T05:15",
       "sunset": "2026-06-26T19:44",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-27",
@@ -77,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-06-27T05:15",
       "sunset": "2026-06-27T19:44",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-28",
@@ -88,8 +86,8 @@
       "uv": 9,
       "sunrise": "2026-06-28T05:15",
       "sunset": "2026-06-28T19:44",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-29",
@@ -99,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-06-29T05:16",
       "sunset": "2026-06-29T19:44",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-25T12:24:17.589945+00:00"
+  "updated_at": "2026-06-25T12:44:43.626392+00:00"
 }

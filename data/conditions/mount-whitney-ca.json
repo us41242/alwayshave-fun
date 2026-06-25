@@ -19,9 +19,7 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 34,
     "feels_like_f": 27,
@@ -29,13 +27,13 @@
     "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-25T05:36",
-  "sunset": "2026-06-25T20:15",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 14,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -46,62 +44,6 @@
     "cfs": 70,
     "stage": "low"
   },
-  "forecast": [
-    {
-      "date": "2026-06-25",
-      "high_f": 49,
-      "low_f": 32,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-25T05:36",
-      "sunset": "2026-06-25T20:15",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-06-26",
-      "high_f": 40,
-      "low_f": 27,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-06-26T05:36",
-      "sunset": "2026-06-26T20:15",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-06-27",
-      "high_f": 38,
-      "low_f": 20,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-27T05:37",
-      "sunset": "2026-06-27T20:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-28",
-      "high_f": 36,
-      "low_f": 17,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-06-28T05:37",
-      "sunset": "2026-06-28T20:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-29",
-      "high_f": 41,
-      "low_f": 21,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-29T05:37",
-      "sunset": "2026-06-29T20:15",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-06-25T10:12:10.030536+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-25T10:31:24.463508+00:00"
 }

@@ -17,23 +17,23 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "N95 mask recommended"
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 63,
-    "wind_mph": 4,
-    "gusts_mph": 5,
+    "temp_f": 61,
+    "feels_like_f": 60,
+    "wind_mph": 2,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-24T05:37",
+  "sunset": "2026-06-24T20:17",
   "aqi": {
-    "aqi": 105,
-    "category": "Unhealthy for Sensitive Groups",
+    "aqi": 100,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-25T02:54:19.020471+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-24",
+      "high_f": 72,
+      "low_f": 58,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-24T05:37",
+      "sunset": "2026-06-24T20:17",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-25",
+      "high_f": 69,
+      "low_f": 55,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-25T05:38",
+      "sunset": "2026-06-25T20:17",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-26",
+      "high_f": 64,
+      "low_f": 49,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-06-26T05:38",
+      "sunset": "2026-06-26T20:17",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-27",
+      "high_f": 62,
+      "low_f": 43,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-27T05:38",
+      "sunset": "2026-06-27T20:17",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-28",
+      "high_f": 60,
+      "low_f": 40,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-28T05:39",
+      "sunset": "2026-06-28T20:17",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-25T03:34:23.964289+00:00"
 }

@@ -17,22 +17,23 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 40,
-    "wind_mph": 17,
-    "gusts_mph": 23,
-    "rain_pct": 19
+    "temp_f": 47,
+    "feels_like_f": 41,
+    "wind_mph": 16,
+    "gusts_mph": 22,
+    "rain_pct": 17
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-25T05:43",
+  "sunset": "2026-06-25T20:37",
   "aqi": {
-    "aqi": 55,
+    "aqi": 52,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -43,6 +44,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-25T19:53:52.699604+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-25",
+      "high_f": 51,
+      "low_f": 35,
+      "rain_pct": 56,
+      "uv": 9,
+      "sunrise": "2026-06-25T05:43",
+      "sunset": "2026-06-25T20:37",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-26",
+      "high_f": 55,
+      "low_f": 36,
+      "rain_pct": 39,
+      "uv": 9,
+      "sunrise": "2026-06-26T05:43",
+      "sunset": "2026-06-26T20:37",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-27",
+      "high_f": 57,
+      "low_f": 34,
+      "rain_pct": 31,
+      "uv": 9,
+      "sunrise": "2026-06-27T05:44",
+      "sunset": "2026-06-27T20:37",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-06-28",
+      "high_f": 57,
+      "low_f": 32,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-28T05:44",
+      "sunset": "2026-06-28T20:37",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-29",
+      "high_f": 52,
+      "low_f": 31,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-29T05:45",
+      "sunset": "2026-06-29T20:37",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-25T20:11:34.747028+00:00"
 }

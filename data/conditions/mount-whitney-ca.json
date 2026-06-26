@@ -19,16 +19,19 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 29,
-    "feels_like_f": 18,
-    "wind_mph": 11,
-    "gusts_mph": 17,
+    "temp_f": 31,
+    "feels_like_f": 19,
+    "wind_mph": 13,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-26T05:36",
+  "sunset": "2026-06-26T20:15",
   "aqi": {
     "aqi": 28,
     "category": "Good",
@@ -44,6 +47,62 @@
     "cfs": 73,
     "stage": "low"
   },
-  "forecast": [],
-  "updated_at": "2026-06-26T14:15:07.455209+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-26",
+      "high_f": 43,
+      "low_f": 26,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-26T05:36",
+      "sunset": "2026-06-26T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-27",
+      "high_f": 36,
+      "low_f": 25,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-27T05:37",
+      "sunset": "2026-06-27T20:15",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-28",
+      "high_f": 37,
+      "low_f": 20,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-28T05:37",
+      "sunset": "2026-06-28T20:15",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-29",
+      "high_f": 40,
+      "low_f": 21,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-29T05:37",
+      "sunset": "2026-06-29T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-30",
+      "high_f": 40,
+      "low_f": 24,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-30T05:38",
+      "sunset": "2026-06-30T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-26T14:35:43.662507+00:00"
 }

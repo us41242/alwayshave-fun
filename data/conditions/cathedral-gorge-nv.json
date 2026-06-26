@@ -17,23 +17,23 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 73,
-    "feels_like_f": 67,
+    "feels_like_f": 66,
     "wind_mph": 3,
     "gusts_mph": 3,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-25T05:17",
-  "sunset": "2026-06-25T20:03",
+  "sunrise": "2026-06-26T05:17",
+  "sunset": "2026-06-26T20:03",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 50,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -43,17 +43,6 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-06-25",
-      "high_f": 92,
-      "low_f": 62,
-      "rain_pct": 6,
-      "uv": 9,
-      "sunrise": "2026-06-25T05:17",
-      "sunset": "2026-06-25T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
       "date": "2026-06-26",
       "high_f": 91,
       "low_f": 65,
@@ -61,8 +50,8 @@
       "uv": 9,
       "sunrise": "2026-06-26T05:17",
       "sunset": "2026-06-26T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-27",
@@ -72,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-06-27T05:17",
       "sunset": "2026-06-27T20:03",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-28",
@@ -83,8 +72,8 @@
       "uv": 9,
       "sunrise": "2026-06-28T05:18",
       "sunset": "2026-06-28T20:03",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-06-29",
@@ -94,9 +83,20 @@
       "uv": 8,
       "sunrise": "2026-06-29T05:18",
       "sunset": "2026-06-29T20:03",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-30",
+      "high_f": 82,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-30T05:19",
+      "sunset": "2026-06-30T20:03",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-26T06:44:44.854038+00:00"
+  "updated_at": "2026-06-26T07:03:43.153502+00:00"
 }

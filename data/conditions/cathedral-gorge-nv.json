@@ -17,11 +17,9 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 16,
+  "score_label": "Stay home",
   "gear_flags": [
-    "wind layer recommended",
-    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
@@ -31,13 +29,13 @@
     "gusts_mph": 38,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-26T05:17",
-  "sunset": "2026-06-26T20:03",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 87,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "elevated",
@@ -45,62 +43,6 @@
     "fire_count_50km": 25
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-06-26",
-      "high_f": 90,
-      "low_f": 64,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-06-26T05:17",
-      "sunset": "2026-06-26T20:03",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-06-27",
-      "high_f": 86,
-      "low_f": 57,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-06-27T05:17",
-      "sunset": "2026-06-27T20:03",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-06-28",
-      "high_f": 75,
-      "low_f": 56,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-06-28T05:18",
-      "sunset": "2026-06-28T20:03",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-29",
-      "high_f": 80,
-      "low_f": 49,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-06-29T05:18",
-      "sunset": "2026-06-29T20:03",
-      "predicted_score": 64,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-30",
-      "high_f": 80,
-      "low_f": 57,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-06-30T05:19",
-      "sunset": "2026-06-30T20:03",
-      "predicted_score": 64,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-06-26T23:23:36.401447+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-26T23:43:22.297900+00:00"
 }

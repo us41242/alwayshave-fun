@@ -17,27 +17,30 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 82,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended",
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 57,
     "feels_like_f": 50,
-    "wind_mph": 3,
-    "gusts_mph": 20,
+    "wind_mph": 4,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
   "sunrise": "2026-06-27T06:15",
   "sunset": "2026-06-27T20:58",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 65,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 60.6,
     "fire_count_50km": 0
   },
   "river": null,
@@ -50,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-06-27T06:15",
       "sunset": "2026-06-27T20:58",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-28",
@@ -61,8 +64,8 @@
       "uv": 8,
       "sunrise": "2026-06-28T06:15",
       "sunset": "2026-06-28T20:58",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-29",
@@ -72,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-06-29T06:16",
       "sunset": "2026-06-29T20:58",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-06-30",
@@ -83,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-06-30T06:16",
       "sunset": "2026-06-30T20:58",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-01",
@@ -94,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-07-01T06:17",
       "sunset": "2026-07-01T20:58",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-27T09:10:53.356997+00:00"
+  "updated_at": "2026-06-27T09:30:25.800184+00:00"
 }

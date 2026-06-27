@@ -20,18 +20,19 @@
   "score": 36,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 92,
-    "wind_mph": 18,
-    "gusts_mph": 23,
+    "temp_f": 102,
+    "feels_like_f": 94,
+    "wind_mph": 20,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-27T05:24",
+  "sunset": "2026-06-27T19:59",
   "aqi": {
     "aqi": 71,
     "category": "Moderate",
@@ -44,6 +45,62 @@
     "fire_count_50km": 1
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-27T19:33:43.653510+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-27",
+      "high_f": 104,
+      "low_f": 84,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-27T05:24",
+      "sunset": "2026-06-27T19:59",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-28",
+      "high_f": 100,
+      "low_f": 77,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-06-28T05:24",
+      "sunset": "2026-06-28T19:59",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-29",
+      "high_f": 97,
+      "low_f": 73,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-29T05:25",
+      "sunset": "2026-06-29T19:59",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-06-30",
+      "high_f": 102,
+      "low_f": 74,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-06-30T05:25",
+      "sunset": "2026-06-30T19:59",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-01",
+      "high_f": 102,
+      "low_f": 75,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-01T05:26",
+      "sunset": "2026-07-01T19:59",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-06-27T19:49:24.757786+00:00"
 }

@@ -25,9 +25,9 @@
   ],
   "current": {
     "temp_f": 85,
-    "feels_like_f": 70,
+    "feels_like_f": 71,
     "wind_mph": 30,
-    "gusts_mph": 40,
+    "gusts_mph": 38,
     "rain_pct": 0
   },
   "sunrise": "2026-06-27T05:12",
@@ -43,7 +43,10 @@
     "nearest_fire_km": 141.3,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": -999999,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-06-27",
@@ -69,10 +72,10 @@
     },
     {
       "date": "2026-06-29",
-      "high_f": 83,
+      "high_f": 84,
       "low_f": 50,
       "rain_pct": 0,
-      "uv": 8,
+      "uv": 9,
       "sunrise": "2026-06-29T05:13",
       "sunset": "2026-06-29T19:53",
       "predicted_score": 78,
@@ -80,14 +83,14 @@
     },
     {
       "date": "2026-06-30",
-      "high_f": 86,
-      "low_f": 54,
+      "high_f": 85,
+      "low_f": 55,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-06-30T05:14",
       "sunset": "2026-06-30T19:53",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-01",
@@ -101,5 +104,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-27T18:21:12.507729+00:00"
+  "updated_at": "2026-06-27T18:41:08.689803+00:00"
 }

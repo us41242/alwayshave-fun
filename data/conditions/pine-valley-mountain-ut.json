@@ -17,10 +17,9 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -30,76 +29,20 @@
     "gusts_mph": 26,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-27T06:15",
-  "sunset": "2026-06-27T20:58",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 62,
+    "aqi": 57,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 60.6,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-06-27",
-      "high_f": 76,
-      "low_f": 56,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-06-27T06:15",
-      "sunset": "2026-06-27T20:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-28",
-      "high_f": 70,
-      "low_f": 47,
-      "rain_pct": 3,
-      "uv": 9,
-      "sunrise": "2026-06-28T06:15",
-      "sunset": "2026-06-28T20:58",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-29",
-      "high_f": 71,
-      "low_f": 43,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-06-29T06:16",
-      "sunset": "2026-06-29T20:58",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-06-30",
-      "high_f": 74,
-      "low_f": 52,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-06-30T06:16",
-      "sunset": "2026-06-30T20:58",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-01",
-      "high_f": 76,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-01T06:17",
-      "sunset": "2026-07-01T20:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-06-27T17:09:14.256830+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-27T17:29:35.683766+00:00"
 }

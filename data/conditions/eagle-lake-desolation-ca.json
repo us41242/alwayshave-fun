@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 33,
-    "feels_like_f": 28,
-    "wind_mph": 1,
-    "gusts_mph": 6,
-    "rain_pct": 1
+    "temp_f": 35,
+    "feels_like_f": 30,
+    "wind_mph": 3,
+    "gusts_mph": 5,
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-28T05:37",
+  "sunset": "2026-06-28T20:30",
   "aqi": {
     "aqi": 6,
     "category": "Good",
@@ -37,10 +39,66 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 514.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-28T13:18:52.884571+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-28",
+      "high_f": 56,
+      "low_f": 32,
+      "rain_pct": 6,
+      "uv": 9,
+      "sunrise": "2026-06-28T05:37",
+      "sunset": "2026-06-28T20:30",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-29",
+      "high_f": 60,
+      "low_f": 38,
+      "rain_pct": 7,
+      "uv": 8,
+      "sunrise": "2026-06-29T05:37",
+      "sunset": "2026-06-29T20:30",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-30",
+      "high_f": 64,
+      "low_f": 42,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-06-30T05:38",
+      "sunset": "2026-06-30T20:30",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-01",
+      "high_f": 65,
+      "low_f": 42,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-01T05:38",
+      "sunset": "2026-07-01T20:29",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-02",
+      "high_f": 63,
+      "low_f": 42,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-02T05:39",
+      "sunset": "2026-07-02T20:29",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-28T13:35:21.678061+00:00"
 }

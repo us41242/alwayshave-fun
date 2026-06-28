@@ -17,9 +17,11 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 90,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 72,
     "feels_like_f": 64,
@@ -30,10 +32,10 @@
   "sunrise": "2026-06-28T06:10",
   "sunset": "2026-06-28T20:51",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 56,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-06-28T06:10",
       "sunset": "2026-06-28T20:51",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-29",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-06-29T06:10",
       "sunset": "2026-06-29T20:51",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-06-30",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-06-30T06:11",
       "sunset": "2026-06-30T20:51",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-01",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-07-01T06:11",
       "sunset": "2026-07-01T20:51",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-02",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-02T06:12",
       "sunset": "2026-07-02T20:51",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-28T08:07:50.011563+00:00"
+  "updated_at": "2026-06-28T08:28:50.822344+00:00"
 }

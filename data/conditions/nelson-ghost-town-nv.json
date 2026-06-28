@@ -17,8 +17,8 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,8 +29,8 @@
     "gusts_mph": 15,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-28T05:26",
-  "sunset": "2026-06-28T19:59",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 58,
     "category": "Moderate",
@@ -38,67 +38,11 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 72.7,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-06-28",
-      "high_f": 90,
-      "low_f": 68,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-06-28T05:26",
-      "sunset": "2026-06-28T19:59",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-29",
-      "high_f": 89,
-      "low_f": 64,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-06-29T05:26",
-      "sunset": "2026-06-29T19:59",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-06-30",
-      "high_f": 87,
-      "low_f": 66,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-06-30T05:26",
-      "sunset": "2026-06-30T19:59",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-01",
-      "high_f": 89,
-      "low_f": 70,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-01T05:27",
-      "sunset": "2026-07-01T19:59",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-02",
-      "high_f": 91,
-      "low_f": 71,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-02T05:27",
-      "sunset": "2026-07-02T19:59",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-06-28T17:46:30.255474+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-28T18:06:37.412767+00:00"
 }

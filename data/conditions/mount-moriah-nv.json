@@ -23,7 +23,7 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 21,
+    "temp_f": 22,
     "feels_like_f": 10,
     "wind_mph": 11,
     "gusts_mph": 16,
@@ -32,14 +32,14 @@
   "sunrise": "2026-06-29T05:13",
   "sunset": "2026-06-29T20:07",
   "aqi": {
-    "aqi": 43,
+    "aqi": 34,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 181.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-29T12:06:58.697519+00:00"
+  "updated_at": "2026-06-29T12:31:19.095353+00:00"
 }

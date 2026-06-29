@@ -17,9 +17,11 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 16,
+  "score_label": "Stay home",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 78,
     "feels_like_f": 75,
@@ -27,76 +29,20 @@
     "gusts_mph": 9,
     "rain_pct": 0
   },
-  "sunrise": "2026-06-29T05:18",
-  "sunset": "2026-06-29T20:03",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 34.7,
+    "fire_count_50km": 1
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-06-29",
-      "high_f": 81,
-      "low_f": 47,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-06-29T05:18",
-      "sunset": "2026-06-29T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-06-30",
-      "high_f": 83,
-      "low_f": 57,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-06-30T05:19",
-      "sunset": "2026-06-30T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-01",
-      "high_f": 83,
-      "low_f": 58,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-01T05:19",
-      "sunset": "2026-07-01T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-02",
-      "high_f": 84,
-      "low_f": 60,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-02T05:19",
-      "sunset": "2026-07-02T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-03",
-      "high_f": 86,
-      "low_f": 61,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-03T05:20",
-      "sunset": "2026-07-03T20:03",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-06-29T21:04:14.680087+00:00"
+  "forecast": [],
+  "updated_at": "2026-06-29T21:23:26.596863+00:00"
 }

@@ -17,18 +17,20 @@
   "notes": "No permit required to the lake (only for full Whitney summit); snow patches above 9500 ft until mid-June; dogs legal in Inyo NF section",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 46,
-    "feels_like_f": 40,
-    "wind_mph": 2,
-    "gusts_mph": 12,
+    "temp_f": 44,
+    "feels_like_f": 35,
+    "wind_mph": 9,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-28T05:37",
+  "sunset": "2026-06-28T20:15",
   "aqi": {
     "aqi": 23,
     "category": "Good",
@@ -44,6 +46,62 @@
     "cfs": 57,
     "stage": "low"
   },
-  "forecast": [],
-  "updated_at": "2026-06-29T06:33:28.803322+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-28",
+      "high_f": 60,
+      "low_f": 46,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-28T05:37",
+      "sunset": "2026-06-28T20:15",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-29",
+      "high_f": 62,
+      "low_f": 40,
+      "rain_pct": 12,
+      "uv": 9,
+      "sunrise": "2026-06-29T05:37",
+      "sunset": "2026-06-29T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-06-30",
+      "high_f": 65,
+      "low_f": 44,
+      "rain_pct": 5,
+      "uv": 9,
+      "sunrise": "2026-06-30T05:37",
+      "sunset": "2026-06-30T20:15",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-01",
+      "high_f": 66,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-01T05:38",
+      "sunset": "2026-07-01T20:15",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-02",
+      "high_f": 69,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-02T05:38",
+      "sunset": "2026-07-02T20:15",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-06-29T06:54:35.948567+00:00"
 }

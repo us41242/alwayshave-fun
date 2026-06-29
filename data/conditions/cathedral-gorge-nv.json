@@ -17,23 +17,26 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended",
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 52,
-    "wind_mph": 21,
+    "temp_f": 64,
+    "feels_like_f": 50,
+    "wind_mph": 22,
     "gusts_mph": 34,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-06-28T05:18",
+  "sunset": "2026-06-28T20:03",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 57,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -41,6 +44,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-06-29T04:06:19.237232+00:00"
+  "forecast": [
+    {
+      "date": "2026-06-28",
+      "high_f": 78,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-06-28T05:18",
+      "sunset": "2026-06-28T20:03",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-29",
+      "high_f": 81,
+      "low_f": 47,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-06-29T05:18",
+      "sunset": "2026-06-29T20:03",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-06-30",
+      "high_f": 81,
+      "low_f": 58,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-06-30T05:19",
+      "sunset": "2026-06-30T20:03",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-01",
+      "high_f": 83,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-01T05:19",
+      "sunset": "2026-07-01T20:03",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-02",
+      "high_f": 84,
+      "low_f": 58,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-02T05:19",
+      "sunset": "2026-07-02T20:03",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-06-29T04:21:57.123128+00:00"
 }

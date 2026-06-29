@@ -17,14 +17,15 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 56,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 36,
+    "temp_f": 37,
     "feels_like_f": 21,
     "wind_mph": 23,
     "gusts_mph": 43,
@@ -39,9 +40,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 32.2,
+    "fire_count_50km": 244
   },
   "river": null,
   "forecast": [
@@ -53,7 +54,7 @@
       "uv": 9,
       "sunrise": "2026-06-29T05:52",
       "sunset": "2026-06-29T20:37",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -64,7 +65,7 @@
       "uv": 9,
       "sunrise": "2026-06-30T05:52",
       "sunset": "2026-06-30T20:37",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -75,7 +76,7 @@
       "uv": 9,
       "sunrise": "2026-07-01T05:53",
       "sunset": "2026-07-01T20:36",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -86,7 +87,7 @@
       "uv": 9,
       "sunrise": "2026-07-02T05:53",
       "sunset": "2026-07-02T20:36",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -97,9 +98,9 @@
       "uv": 9,
       "sunrise": "2026-07-03T05:54",
       "sunset": "2026-07-03T20:36",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-29T13:33:20.863084+00:00"
+  "updated_at": "2026-06-29T13:53:32.957297+00:00"
 }

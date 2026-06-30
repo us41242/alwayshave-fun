@@ -17,30 +17,31 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 66,
+  "score_label": "Use caution",
   "gear_flags": [
-    "N95 mask recommended"
+    "N95 mask recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 64,
-    "feels_like_f": 56,
-    "wind_mph": 5,
-    "gusts_mph": 14,
+    "feels_like_f": 54,
+    "wind_mph": 11,
+    "gusts_mph": 19,
     "rain_pct": 4
   },
   "sunrise": "2026-06-30T05:36",
   "sunset": "2026-06-30T20:36",
   "aqi": {
-    "aqi": 108,
+    "aqi": 107,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 37.5,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -52,8 +53,8 @@
       "uv": 8,
       "sunrise": "2026-06-30T05:36",
       "sunset": "2026-06-30T20:36",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-01",
@@ -63,8 +64,8 @@
       "uv": 9,
       "sunrise": "2026-07-01T05:36",
       "sunset": "2026-07-01T20:36",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-02",
@@ -74,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-07-02T05:37",
       "sunset": "2026-07-02T20:36",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-03",
@@ -85,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-07-03T05:37",
       "sunset": "2026-07-03T20:35",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-04",
@@ -96,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-07-04T05:38",
       "sunset": "2026-07-04T20:35",
-      "predicted_score": 68,
+      "predicted_score": 54,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-06-30T22:52:48.895156+00:00"
+  "updated_at": "2026-06-30T23:14:01.135878+00:00"
 }

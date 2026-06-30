@@ -37,13 +37,10 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 381.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": 10000,
-    "stage": "flood"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-06-30",
@@ -101,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-06-30T08:41:41.103734+00:00"
+  "updated_at": "2026-06-30T09:02:28.799043+00:00"
 }

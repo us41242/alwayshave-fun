@@ -17,32 +17,31 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 36,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 34,
     "feels_like_f": 22,
-    "wind_mph": 13,
+    "wind_mph": 12,
     "gusts_mph": 18,
     "rain_pct": 0
   },
   "sunrise": "2026-06-30T05:45",
   "sunset": "2026-06-30T20:37",
   "aqi": {
-    "aqi": 63,
+    "aqi": 64,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 48.1,
-    "fire_count_50km": 3
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -54,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-06-30T05:45",
       "sunset": "2026-06-30T20:37",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-01",
@@ -65,8 +64,8 @@
       "uv": 9,
       "sunrise": "2026-07-01T05:46",
       "sunset": "2026-07-01T20:37",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-02",
@@ -76,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-07-02T05:46",
       "sunset": "2026-07-02T20:37",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-03",
@@ -87,20 +86,20 @@
       "uv": 9,
       "sunrise": "2026-07-03T05:47",
       "sunset": "2026-07-03T20:37",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-04",
       "high_f": 63,
       "low_f": 36,
-      "rain_pct": 3,
+      "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-07-04T05:47",
       "sunset": "2026-07-04T20:37",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-06-30T08:49:17.135609+00:00"
+  "updated_at": "2026-06-30T09:11:05.491624+00:00"
 }

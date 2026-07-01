@@ -17,11 +17,9 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 22,
+  "score_label": "Stay home",
+  "gear_flags": [],
   "current": {
     "temp_f": 57,
     "feels_like_f": 49,
@@ -29,79 +27,23 @@
     "gusts_mph": 5,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-01T06:14",
-  "sunset": "2026-07-01T20:56",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 71,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 958.6,
+    "risk_level": "moderate",
+    "nearest_fire_km": 95.4,
     "fire_count_50km": 0
   },
   "river": {
     "cfs": 9320,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-07-01",
-      "high_f": 78,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-01T06:14",
-      "sunset": "2026-07-01T20:56",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-02",
-      "high_f": 80,
-      "low_f": 56,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-02T06:15",
-      "sunset": "2026-07-02T20:56",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-03",
-      "high_f": 80,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-03T06:15",
-      "sunset": "2026-07-03T20:56",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-04",
-      "high_f": 83,
-      "low_f": 56,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-04T06:16",
-      "sunset": "2026-07-04T20:56",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-05",
-      "high_f": 88,
-      "low_f": 61,
-      "rain_pct": 4,
-      "uv": 9,
-      "sunrise": "2026-07-05T06:16",
-      "sunset": "2026-07-05T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-01T09:23:39.393441+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-01T09:45:43.756294+00:00"
 }

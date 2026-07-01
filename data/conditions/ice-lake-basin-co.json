@@ -20,23 +20,22 @@
   "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 33,
-    "wind_mph": 12,
-    "gusts_mph": 24,
+    "temp_f": 42,
+    "feels_like_f": 32,
+    "wind_mph": 10,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-06-30T05:52",
   "sunset": "2026-06-30T20:37",
   "aqi": {
-    "aqi": 12,
+    "aqi": 47,
     "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -59,7 +58,7 @@
     {
       "date": "2026-07-01",
       "high_f": 54,
-      "low_f": 35,
+      "low_f": 36,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-07-01T05:53",
@@ -101,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-01T02:54:08.524652+00:00"
+  "updated_at": "2026-07-01T03:22:30.565488+00:00"
 }

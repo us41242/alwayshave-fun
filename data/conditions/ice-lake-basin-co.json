@@ -17,16 +17,17 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 88,
+  "score": 86,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 41,
+    "temp_f": 51,
+    "feels_like_f": 42,
     "wind_mph": 14,
-    "gusts_mph": 23,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "sunrise": "2026-07-02T05:53",
@@ -38,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 33.6,
+    "fire_count_50km": 181
   },
   "river": null,
   "forecast": [
@@ -52,7 +53,7 @@
       "uv": 9,
       "sunrise": "2026-07-02T05:53",
       "sunset": "2026-07-02T20:36",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -60,45 +61,45 @@
       "high_f": 60,
       "low_f": 39,
       "rain_pct": 0,
-      "uv": 8,
+      "uv": 9,
       "sunrise": "2026-07-03T05:54",
       "sunset": "2026-07-03T20:36",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-07-04",
       "high_f": 66,
-      "low_f": 35,
+      "low_f": 36,
       "rain_pct": 6,
       "uv": 9,
       "sunrise": "2026-07-04T05:54",
       "sunset": "2026-07-04T20:36",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-07-05",
-      "high_f": 64,
-      "low_f": 38,
+      "high_f": 62,
+      "low_f": 41,
       "rain_pct": 11,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-07-05T05:55",
       "sunset": "2026-07-05T20:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-06",
-      "high_f": 58,
-      "low_f": 40,
+      "high_f": 64,
+      "low_f": 38,
       "rain_pct": 63,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-07-06T05:55",
       "sunset": "2026-07-06T20:36",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-02T17:28:48.485442+00:00"
+  "updated_at": "2026-07-02T17:51:58.376171+00:00"
 }

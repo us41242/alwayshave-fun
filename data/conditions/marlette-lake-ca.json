@@ -17,9 +17,11 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 72,
     "feels_like_f": 69,
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.3,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -50,7 +52,7 @@
       "uv": 9,
       "sunrise": "2026-07-03T05:38",
       "sunset": "2026-07-03T20:29",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-07-04T05:39",
       "sunset": "2026-07-04T20:29",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-05",
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-07-05T05:39",
       "sunset": "2026-07-05T20:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-06",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-07-06T05:40",
       "sunset": "2026-07-06T20:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-07",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-07T05:40",
       "sunset": "2026-07-07T20:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-03T21:42:42.527281+00:00"
+  "updated_at": "2026-07-03T21:54:23.744776+00:00"
 }

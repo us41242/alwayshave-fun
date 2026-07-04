@@ -17,11 +17,9 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 88,
     "feels_like_f": 80,
@@ -29,79 +27,23 @@
     "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-03T06:16",
-  "sunset": "2026-07-03T20:55",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 54,
-    "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 110.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8070,
+    "cfs": 8040,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-07-03",
-      "high_f": 88,
-      "low_f": 59,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-03T06:16",
-      "sunset": "2026-07-03T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-04",
-      "high_f": 92,
-      "low_f": 64,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-04T06:16",
-      "sunset": "2026-07-04T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-05",
-      "high_f": 93,
-      "low_f": 66,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-05T06:17",
-      "sunset": "2026-07-05T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-06",
-      "high_f": 95,
-      "low_f": 67,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-06T06:17",
-      "sunset": "2026-07-06T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-07",
-      "high_f": 96,
-      "low_f": 70,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-07T06:18",
-      "sunset": "2026-07-07T20:55",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-03T23:21:31.237360+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-04T00:32:38.864941+00:00"
 }

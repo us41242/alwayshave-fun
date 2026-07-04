@@ -17,14 +17,16 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 80,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 62,
     "feels_like_f": 52,
-    "wind_mph": 10,
-    "gusts_mph": 11,
+    "wind_mph": 11,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-07-04T05:18",
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 4.9,
+    "fire_count_50km": 35
   },
   "river": {
     "cfs": 31,
@@ -47,14 +49,14 @@
   "forecast": [
     {
       "date": "2026-07-04",
-      "high_f": 89,
+      "high_f": 88,
       "low_f": 60,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-04T05:18",
       "sunset": "2026-07-04T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-05",
@@ -64,8 +66,8 @@
       "uv": 8,
       "sunrise": "2026-07-05T05:18",
       "sunset": "2026-07-05T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-06",
@@ -75,8 +77,8 @@
       "uv": 9,
       "sunrise": "2026-07-06T05:19",
       "sunset": "2026-07-06T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-07",
@@ -86,8 +88,8 @@
       "uv": 9,
       "sunrise": "2026-07-07T05:20",
       "sunset": "2026-07-07T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-08",
@@ -97,9 +99,9 @@
       "uv": 9,
       "sunrise": "2026-07-08T05:20",
       "sunset": "2026-07-08T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-04T12:24:53.769812+00:00"
+  "updated_at": "2026-07-04T12:45:39.699864+00:00"
 }

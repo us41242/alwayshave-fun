@@ -17,13 +17,15 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 81,
-    "feels_like_f": 74,
-    "wind_mph": 5,
+    "temp_f": 82,
+    "feels_like_f": 75,
+    "wind_mph": 4,
     "gusts_mph": 6,
     "rain_pct": 0
   },
@@ -36,22 +38,22 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.2,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-04",
-      "high_f": 109,
+      "high_f": 110,
       "low_f": 80,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-04T05:27",
       "sunset": "2026-07-04T19:59",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-05",
@@ -61,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-07-05T05:28",
       "sunset": "2026-07-05T19:59",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-06",
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-07-06T05:28",
       "sunset": "2026-07-06T19:58",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-07",
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-07-07T05:29",
       "sunset": "2026-07-07T19:58",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-08",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-08T05:29",
       "sunset": "2026-07-08T19:58",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-04T13:30:22.289143+00:00"
+  "updated_at": "2026-07-04T13:46:04.640369+00:00"
 }

@@ -17,13 +17,15 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 60,
-    "wind_mph": 6,
+    "temp_f": 61,
+    "feels_like_f": 62,
+    "wind_mph": 5,
     "gusts_mph": 7,
     "rain_pct": 0
   },
@@ -36,9 +38,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 20.0,
+    "fire_count_50km": 2
   },
   "river": null,
   "forecast": [
@@ -50,7 +52,7 @@
       "uv": 6,
       "sunrise": "2026-07-04T05:46",
       "sunset": "2026-07-04T20:05",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 9,
       "sunrise": "2026-07-05T05:46",
       "sunset": "2026-07-05T20:05",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-07-06T05:47",
       "sunset": "2026-07-06T20:04",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-07",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-07-07T05:47",
       "sunset": "2026-07-07T20:04",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-08",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-08T05:48",
       "sunset": "2026-07-08T20:04",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-04T13:36:59.507252+00:00"
+  "updated_at": "2026-07-04T13:48:45.900950+00:00"
 }

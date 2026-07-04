@@ -35,6 +35,11 @@ export default {
       return handleGeoBeacon(request, env);
     }
 
+    // /j → short link to the Jones gate unlocker (302, repointable). ponytail: one gate = one line.
+    if (url.pathname === '/j') {
+      return Response.redirect('https://gates.alwayshave.fun/j', 302);
+    }
+
     // Legacy /trail.html?slug=foo-bar-ut → 301 to /{state}/{slug}
     // (slug embeds the state suffix, so we map the suffix back to the state path)
     if (url.pathname === '/trail.html' || url.pathname === '/trail') {

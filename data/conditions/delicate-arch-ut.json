@@ -17,21 +17,23 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 42,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 97,
-    "feels_like_f": 88,
-    "wind_mph": 11,
-    "gusts_mph": 12,
+    "temp_f": 98,
+    "feels_like_f": 92,
+    "wind_mph": 3,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-04T05:58",
+  "sunset": "2026-07-04T20:46",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-04T23:13:17.271357+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-04",
+      "high_f": 98,
+      "low_f": 65,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-04T05:58",
+      "sunset": "2026-07-04T20:46",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-05",
+      "high_f": 101,
+      "low_f": 70,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-05T05:59",
+      "sunset": "2026-07-05T20:46",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-06",
+      "high_f": 101,
+      "low_f": 74,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-06T05:59",
+      "sunset": "2026-07-06T20:45",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-07",
+      "high_f": 102,
+      "low_f": 70,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-07T06:00",
+      "sunset": "2026-07-07T20:45",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-08",
+      "high_f": 103,
+      "low_f": 75,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-07-08T06:01",
+      "sunset": "2026-07-08T20:45",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-07-04T23:35:02.754217+00:00"
 }

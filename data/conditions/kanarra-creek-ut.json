@@ -17,9 +17,11 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 62,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 42,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 86,
     "feels_like_f": 80,
@@ -27,11 +29,11 @@
     "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-04T06:16",
-  "sunset": "2026-07-04T20:57",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 67,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -41,62 +43,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-04",
-      "high_f": 88,
-      "low_f": 61,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-04T06:16",
-      "sunset": "2026-07-04T20:57",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-05",
-      "high_f": 87,
-      "low_f": 70,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-07-05T06:17",
-      "sunset": "2026-07-05T20:57",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-06",
-      "high_f": 89,
-      "low_f": 64,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-06T06:17",
-      "sunset": "2026-07-06T20:57",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-07",
-      "high_f": 91,
-      "low_f": 62,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-07T06:18",
-      "sunset": "2026-07-07T20:56",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-08",
-      "high_f": 93,
-      "low_f": 65,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-07-08T06:19",
-      "sunset": "2026-07-08T20:56",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-04T19:10:44.773284+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-04T19:27:53.298066+00:00"
 }

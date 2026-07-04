@@ -17,9 +17,11 @@
   "notes": "South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June \u2014 Long Lake turnaround is the right call early season",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 64,
     "feels_like_f": 57,
@@ -30,10 +32,10 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 67,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -42,5 +44,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-07-04T01:44:21.894503+00:00"
+  "updated_at": "2026-07-04T03:08:23.157787+00:00"
 }

@@ -17,9 +17,11 @@
   "notes": "No permit required to the lake (only for full Whitney summit); snow patches above 9500 ft until mid-June; dogs legal in Inyo NF section",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 68,
     "feels_like_f": 60,
@@ -30,10 +32,10 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 18,
-    "category": "Good",
+    "aqi": 58,
+    "category": "Moderate",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -41,9 +43,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 37,
+    "cfs": 36,
     "stage": "low"
   },
   "forecast": [],
-  "updated_at": "2026-07-04T01:47:54.621116+00:00"
+  "updated_at": "2026-07-04T03:12:36.006525+00:00"
 }

@@ -17,18 +17,18 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 60,
+    "temp_f": 67,
+    "feels_like_f": 58,
     "wind_mph": 5,
     "gusts_mph": 5,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-05T06:16",
+  "sunset": "2026-07-05T20:55",
   "aqi": {
     "aqi": 44,
     "category": "Good",
@@ -44,6 +44,62 @@
     "cfs": 8990,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-07-05T06:46:26.563150+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-05",
+      "high_f": 86,
+      "low_f": 61,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-07-05T06:16",
+      "sunset": "2026-07-05T20:55",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-06",
+      "high_f": 87,
+      "low_f": 64,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-06T06:17",
+      "sunset": "2026-07-06T20:55",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-07",
+      "high_f": 87,
+      "low_f": 64,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-07T06:17",
+      "sunset": "2026-07-07T20:55",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-08",
+      "high_f": 88,
+      "low_f": 64,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-08T06:18",
+      "sunset": "2026-07-08T20:55",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-09",
+      "high_f": 88,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-09T06:19",
+      "sunset": "2026-07-09T20:54",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-07-05T07:06:40.197636+00:00"
 }

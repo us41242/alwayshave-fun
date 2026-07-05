@@ -17,9 +17,11 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 80,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 72,
     "feels_like_f": 78,
@@ -36,9 +38,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 5.0,
+    "fire_count_50km": 5
   },
   "river": null,
   "forecast": [
@@ -50,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-07-05T05:46",
       "sunset": "2026-07-05T20:05",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-06",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-07-06T05:47",
       "sunset": "2026-07-06T20:04",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-07",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-07-07T05:47",
       "sunset": "2026-07-07T20:04",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-08",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-07-08T05:48",
       "sunset": "2026-07-08T20:04",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-09",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-09T05:48",
       "sunset": "2026-07-09T20:04",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-05T21:33:32.689338+00:00"
+  "updated_at": "2026-07-05T21:53:00.150340+00:00"
 }

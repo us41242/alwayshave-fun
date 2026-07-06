@@ -19,12 +19,14 @@
   "vehicle_req": "4WD",
   "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 68,
-    "feels_like_f": 61,
-    "wind_mph": 10,
-    "gusts_mph": 17,
+    "feels_like_f": 60,
+    "wind_mph": 13,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "sunrise": "2026-07-05T05:23",
@@ -56,7 +58,7 @@
     {
       "date": "2026-07-06",
       "high_f": 80,
-      "low_f": 62,
+      "low_f": 63,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-07-06T05:24",
@@ -98,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-06T04:25:37.230511+00:00"
+  "updated_at": "2026-07-06T04:44:08.593448+00:00"
 }

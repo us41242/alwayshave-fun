@@ -17,9 +17,11 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 70,
     "feels_like_f": 64,
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 684.3,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 38.7,
+    "fire_count_50km": 1
   },
   "river": {
     "cfs": 29,
@@ -53,8 +55,8 @@
       "uv": 9,
       "sunrise": "2026-07-06T05:19",
       "sunset": "2026-07-06T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-07",
@@ -64,8 +66,8 @@
       "uv": 9,
       "sunrise": "2026-07-07T05:20",
       "sunset": "2026-07-07T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-08",
@@ -75,8 +77,8 @@
       "uv": 9,
       "sunrise": "2026-07-08T05:20",
       "sunset": "2026-07-08T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-09",
@@ -86,8 +88,8 @@
       "uv": 9,
       "sunrise": "2026-07-09T05:21",
       "sunset": "2026-07-09T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-10",
@@ -97,9 +99,9 @@
       "uv": 9,
       "sunrise": "2026-07-10T05:21",
       "sunset": "2026-07-10T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-06T09:23:52.953020+00:00"
+  "updated_at": "2026-07-06T09:45:43.768747+00:00"
 }

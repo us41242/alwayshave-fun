@@ -17,14 +17,14 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 82,
+  "score": 80,
   "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended"
   ],
   "current": {
     "temp_f": 72,
-    "feels_like_f": 67,
+    "feels_like_f": 66,
     "wind_mph": 7,
     "gusts_mph": 10,
     "rain_pct": 3
@@ -32,14 +32,14 @@
   "sunrise": "2026-07-06T05:39",
   "sunset": "2026-07-06T20:35",
   "aqi": {
-    "aqi": 84,
-    "category": "Moderate",
+    "aqi": 101,
+    "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 63.2,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -52,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-07-06T05:39",
       "sunset": "2026-07-06T20:35",
-      "predicted_score": 82,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -63,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-07-07T05:40",
       "sunset": "2026-07-07T20:34",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-08",
@@ -74,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-07-08T05:40",
       "sunset": "2026-07-08T20:34",
-      "predicted_score": 42,
+      "predicted_score": 40,
       "score_label": "Conditions poor"
     },
     {
@@ -85,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-09T05:41",
       "sunset": "2026-07-09T20:34",
-      "predicted_score": 42,
+      "predicted_score": 40,
       "score_label": "Conditions poor"
     },
     {
@@ -96,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-10T05:42",
       "sunset": "2026-07-10T20:33",
-      "predicted_score": 52,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-06T18:48:24.913579+00:00"
+  "updated_at": "2026-07-06T19:09:32.007898+00:00"
 }

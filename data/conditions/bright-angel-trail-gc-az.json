@@ -19,13 +19,15 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 87,
+    "temp_f": 88,
     "feels_like_f": 82,
-    "wind_mph": 15,
-    "gusts_mph": 18,
-    "rain_pct": 0
+    "wind_mph": 17,
+    "gusts_mph": 21,
+    "rain_pct": 1
   },
   "sunrise": "2026-07-07T05:18",
   "sunset": "2026-07-07T19:48",
@@ -101,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-07T19:44:04.973426+00:00"
+  "updated_at": "2026-07-07T20:04:16.760974+00:00"
 }

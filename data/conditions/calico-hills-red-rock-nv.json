@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 81,
-    "feels_like_f": 76,
-    "wind_mph": 6,
-    "gusts_mph": 12,
+    "feels_like_f": 73,
+    "wind_mph": 11,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-06T05:30",
-  "sunset": "2026-07-06T20:02",
+  "sunrise": "2026-07-07T05:31",
+  "sunset": "2026-07-07T20:01",
   "aqi": {
     "aqi": 41,
     "category": "Good",
@@ -42,17 +44,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-07-06",
-      "high_f": 95,
-      "low_f": 75,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-07-06T05:30",
-      "sunset": "2026-07-06T20:02",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
     {
       "date": "2026-07-07",
       "high_f": 97,
@@ -96,7 +87,18 @@
       "sunset": "2026-07-10T20:01",
       "predicted_score": 60,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-11",
+      "high_f": 98,
+      "low_f": 77,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-11T05:33",
+      "sunset": "2026-07-11T20:00",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-07T06:41:05.454988+00:00"
+  "updated_at": "2026-07-07T07:01:09.377765+00:00"
 }

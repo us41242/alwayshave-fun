@@ -17,18 +17,18 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 64,
+    "temp_f": 68,
+    "feels_like_f": 61,
     "wind_mph": 7,
-    "gusts_mph": 9,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-07T05:18",
+  "sunset": "2026-07-07T19:48",
   "aqi": {
     "aqi": 44,
     "category": "Good",
@@ -44,6 +44,62 @@
     "cfs": 7730,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-07-07T08:45:48.405909+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-07",
+      "high_f": 90,
+      "low_f": 66,
+      "rain_pct": 7,
+      "uv": 9,
+      "sunrise": "2026-07-07T05:18",
+      "sunset": "2026-07-07T19:48",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-08",
+      "high_f": 90,
+      "low_f": 65,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-08T05:19",
+      "sunset": "2026-07-08T19:48",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-09",
+      "high_f": 92,
+      "low_f": 63,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-09T05:19",
+      "sunset": "2026-07-09T19:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-10",
+      "high_f": 91,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-10T05:20",
+      "sunset": "2026-07-10T19:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-11",
+      "high_f": 92,
+      "low_f": 62,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-07-11T05:20",
+      "sunset": "2026-07-11T19:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-07-07T09:03:59.101936+00:00"
 }

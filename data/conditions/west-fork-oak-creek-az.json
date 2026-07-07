@@ -17,26 +17,25 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 20,
+  "score_label": "Stay home",
   "gear_flags": [
-    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 94,
-    "feels_like_f": 90,
-    "wind_mph": 12,
-    "gusts_mph": 13,
+    "feels_like_f": 93,
+    "wind_mph": 6,
+    "gusts_mph": 11,
     "rain_pct": 1
   },
   "sunrise": "2026-07-07T05:20",
   "sunset": "2026-07-07T19:43",
   "aqi": {
-    "aqi": 91,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "high",
@@ -56,19 +55,19 @@
       "uv": 9,
       "sunrise": "2026-07-07T05:20",
       "sunset": "2026-07-07T19:43",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-07-08",
       "high_f": 94,
       "low_f": 68,
-      "rain_pct": 3,
+      "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-07-08T05:20",
       "sunset": "2026-07-08T19:43",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-07-09",
@@ -78,8 +77,8 @@
       "uv": 9,
       "sunrise": "2026-07-09T05:21",
       "sunset": "2026-07-09T19:43",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 10,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-07-10",
@@ -89,8 +88,8 @@
       "uv": 9,
       "sunrise": "2026-07-10T05:21",
       "sunset": "2026-07-10T19:43",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-07-11",
@@ -100,9 +99,9 @@
       "uv": 9,
       "sunrise": "2026-07-11T05:22",
       "sunset": "2026-07-11T19:42",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 10,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-07-07T21:43:53.939970+00:00"
+  "updated_at": "2026-07-07T22:06:45.304676+00:00"
 }

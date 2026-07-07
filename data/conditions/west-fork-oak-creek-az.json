@@ -42,7 +42,10 @@
     "nearest_fire_km": 4.3,
     "fire_count_50km": 26
   },
-  "river": null,
+  "river": {
+    "cfs": 29,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-07-07",
@@ -100,5 +103,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-07T10:05:57.404750+00:00"
+  "updated_at": "2026-07-07T10:23:19.679863+00:00"
 }

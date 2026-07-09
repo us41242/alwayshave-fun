@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 105,
-    "feels_like_f": 92,
-    "wind_mph": 17,
-    "gusts_mph": 20,
+    "temp_f": 103,
+    "feels_like_f": 90,
+    "wind_mph": 16,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-08T05:30",
+  "sunset": "2026-07-08T19:59",
   "aqi": {
     "aqi": 49,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-09T01:12:31.783313+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-08",
+      "high_f": 107,
+      "low_f": 85,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-08T05:30",
+      "sunset": "2026-07-08T19:59",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-09",
+      "high_f": 110,
+      "low_f": 85,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-09T05:30",
+      "sunset": "2026-07-09T19:58",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-10",
+      "high_f": 108,
+      "low_f": 81,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-10T05:31",
+      "sunset": "2026-07-10T19:58",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-11",
+      "high_f": 107,
+      "low_f": 76,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-11T05:32",
+      "sunset": "2026-07-11T19:58",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-12",
+      "high_f": 108,
+      "low_f": 79,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-07-12T05:32",
+      "sunset": "2026-07-12T19:57",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-09T01:27:28.901732+00:00"
 }

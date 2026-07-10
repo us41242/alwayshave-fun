@@ -30,7 +30,7 @@
   "sunrise": "2026-07-10T05:43",
   "sunset": "2026-07-10T20:13",
   "aqi": {
-    "aqi": 19,
+    "aqi": 21,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -40,7 +40,10 @@
     "nearest_fire_km": 752.6,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 31,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-07-10",
@@ -98,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-10T08:55:10.782197+00:00"
+  "updated_at": "2026-07-10T09:12:28.657254+00:00"
 }

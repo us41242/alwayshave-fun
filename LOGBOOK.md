@@ -140,3 +140,34 @@ Wire up dog-friendly flags, state landing pages, and IndexNow submission.
 - Weekly roundup articles ("Best 5 hikes this weekend in Utah") — Thu/Fri schedule
 - Remaining 23 trails without articles — bot generating 4/day, ~6 days to full coverage
 - HowTo schema for difficulty ratings
+
+---
+
+## 2026-07-10 — Session 6 (first autonomous session under AUTONOMY.md)
+
+### Diagnosed
+- **GSC: 0 clicks, 7 impressions in 180 days.** URL Inspection API showed: homepage indexed; /az/south-kaibab-gc-az "Crawled — currently not indexed" (last crawl 2026-05-01); every other sampled URL (trails, articles, state pages) "URL is unknown to Google".
+- **Root cause:** generated trail pages had unique meta but an EMPTY body — Google received "Loading trail conditions…" and em-dash placeholders (734 chars of boilerplate). It rejected the one page it crawled as thin and never came back. FAQPage schema also existed with no visible FAQ (guideline violation risk).
+
+### Fixed
+- **build_static.py now server-renders the full trail page body** at build time (runs every 30 min in the pipeline): hero (name/score/label/timestamp), quick stats, metric cards, trail info, status list with honest fire risk from FIRMS data (the JS hardcodes "Fire Risk: Low" — static render uses real data), 5-day forecast, notes, a **visible FAQ section** matching the FAQPage schema, and a **"More {State} Trails" card** with 6 same-state links by current score (internal crawl mesh). Visible text: 734 → ~2,345 chars, all unique per trail. JS hydration unchanged and verified (render() overwrites the same nodes).
+- **"Trail Trail" title dup** — "South Kaibab Trail Trail Conditions" → "South Kaibab Trail Conditions" (build_static.py + trail.html JS).
+- **Homepage footer** — added /ca, /co, /dog-friendly static links (were missing; only nv/ut/az present).
+
+### Verified
+- 46 pages regenerated, 0 errors, 0 missing anchors; sweep of all generated pages: no thin bodies, no dup titles, FAQ present, content unhidden.
+- Live after push (~105s deploy): faq-card + related-card serving on /az/south-kaibab-gc-az and /ut/the-narrows-zion-ut; spot-checked 3 trail URLs = 200; sitemap valid XML, 96 URLs.
+- Headless Chromium on the live page: JS hydrates cleanly ("Updated 33 min ago"), 5 forecast days, zero console errors.
+- IndexNow → 200 (53 URLs; key from repo root key file — INDEXNOW_KEY is not in the local env file, only GH secrets). Sitemap resubmitted via GSC API (submit accepted, still "pending").
+
+### Learned
+- The local env file breaks shell `source` (multi-line service-account JSON) — parse with Python regex instead.
+- CLOUDFLARE_API_TOKEN only sees the `gates` Pages project (not touched — hard rule 2). The main site's deploy quota couldn't be verified with it; deploys have run ~48/day since April without failure, so not urgent. Check Workers Builds quota next session.
+- GSC's only 2 impressions ever were "is south kaibab trail open" / "south kaibab trail weather" — the target query shape is validated, the site just wasn't indexable.
+
+### Expect
+- Google re-crawls over 2–6 weeks; watch weekly for "Crawled — not indexed" → "Indexed" and first impressions. Kill-or-revise review 2026-08-01 (per docs/STRATEGY.md).
+
+### Upcoming
+- Weekly: re-inspect sample URLs, GSC WoW compare (first weekly report due next Monday session).
+- Verify Cloudflare build quota; confirm articles are fully static + linked from trail pages; Phase 3 (distribution) groundwork.

@@ -16,6 +16,7 @@ import os
 import json
 import glob
 import re
+import html as html_lib
 from datetime import datetime, timezone
 
 BASE_URL  = "https://alwayshave.fun"
@@ -94,8 +95,11 @@ def build_meta(d):
         parts.append(f"Sunrise {sunrise_hm}, sunset {sunset_hm}.")
     meta_desc = f"{alert_str}{' '.join(parts)} Live data updated every 30 min."
 
-    # Page title
-    title = f"{name} Trail Conditions — {label} | alwayshave.fun"
+    # Page title ("South Kaibab Trail" must not become "... Trail Trail Conditions")
+    if name.lower().endswith(" trail"):
+        title = f"{name} Conditions — {label} | alwayshave.fun"
+    else:
+        title = f"{name} Trail Conditions — {label} | alwayshave.fun"
 
     # Schema
     description = f"{name} in {park}."
@@ -126,11 +130,15 @@ def build_meta(d):
 
     # FAQPage — answers high-intent "is X trail safe/open/dog-friendly?" queries
     faq_pairs = []
+    cond_bits = []
+    if temp is not None: cond_bits.append(f"Temperature: {temp}°F")
+    if wind is not None: cond_bits.append(f"wind: {wind} mph")
+    if rain is not None: cond_bits.append(f"rain chance: {rain}%")
     faq_pairs.append({
         "q": f"What are the current conditions at {name}?",
         "a": f"As of the latest update, {name} is scoring {score}/100 ({label}). "
-             f"Temperature: {temp}°F, wind: {wind} mph, rain chance: {rain}%. "
-             f"Data is refreshed every 30 minutes."
+             + (", ".join(cond_bits) + ". " if cond_bits else "")
+             + "Data is refreshed every 30 minutes."
     })
     faq_pairs.append({
         "q": f"Is {name} dog-friendly?",
@@ -225,6 +233,7 @@ def build_meta(d):
         "state_lc":   state_lc,
         "state_name": state_name,
         "schema":     json.dumps(schema, indent=2),
+        "faq_pairs":  faq_pairs,
     }
 
 
@@ -264,6 +273,203 @@ def inject_head(html, m):
     return html
 
 
+def esc(v):
+    return html_lib.escape(str(v), quote=True)
+
+
+def replace_once(html, old, new, slug, anchor):
+    """Exact-string replacement; warn loudly if the template anchor is missing
+    so a template refactor can't silently regress the static render."""
+    if old not in html:
+        print(f"  ! anchor missing for {slug}: {anchor}")
+        return html
+    return html.replace(old, new, 1)
+
+
+def inject_body(html, d, m, siblings):
+    """Render the trail's real content into the HTML body at build time.
+
+    Google previously received this page as an empty JS shell ('Loading trail
+    conditions…') and refused to index it. Every value below is also
+    re-rendered client-side by trail.html's render() — the JS overwrites these
+    nodes with fresher data on load, so hydration stays consistent.
+    """
+    cur      = d.get("current") or {}
+    aqi_data = d.get("aqi") or {}
+    fire     = d.get("fire") or {}
+    slug     = d.get("slug", "")
+    name     = esc(d.get("name", ""))
+    score    = d.get("score", 0)
+    label    = esc(d.get("score_label", ""))
+    state_lc = m["state_lc"]
+    state_nm = esc(m["state_name"])
+    updated  = (d.get("updated_at") or "")[:16].replace("T", " ")
+
+    def rep(old, new, anchor):
+        nonlocal html
+        html = replace_once(html, old, new, slug, anchor)
+
+    # ── Nav / breadcrumb / hero ──
+    rep('<a href="/" id="nav-back" class="nav-back">← All Trails</a>',
+        f'<a href="/{state_lc}" id="nav-back" class="nav-back">← {state_nm} Trails</a>', 'nav-back')
+    rep('<a href="#" id="bc-state">State</a>',
+        f'<a href="/{state_lc}" id="bc-state">{state_nm}</a>', 'bc-state')
+    rep('<span id="bc-trail">Trail</span>',
+        f'<span id="bc-trail">{name}</span>', 'bc-trail')
+    rep('<h1 class="hero-trail-name" id="trail-name">—</h1>',
+        f'<h1 class="hero-trail-name" id="trail-name">{name}</h1>', 'trail-name')
+    rep('<span class="num" id="score-num">—</span>',
+        f'<span class="num" id="score-num">{score}</span>', 'score-num')
+    rep('<span class="score-pill-label" id="score-label">—</span>',
+        f'<span class="score-pill-label" id="score-label">{label}</span>', 'score-label')
+    rep('<span class="score-pill-updated" id="score-updated">—</span>',
+        f'<span class="score-pill-updated" id="score-updated">Updated {updated} UTC</span>', 'score-updated')
+
+    qs = []
+    if cur.get("temp_f")   is not None: qs.append(f'🌡 {cur["temp_f"]}°F')
+    if cur.get("wind_mph") is not None: qs.append(f'🌬 {cur["wind_mph"]} mph')
+    if aqi_data.get("aqi") is not None: qs.append(f'💨 AQI {aqi_data["aqi"]}')
+    rep('<div class="hero-quick-stats" id="hero-quick-stats"></div>',
+        '<div class="hero-quick-stats" id="hero-quick-stats">'
+        + ''.join(f'<div class="hero-stat">{s}</div>' for s in qs)
+        + '</div>', 'hero-quick-stats')
+
+    rep('<div class="score-bar-fill" id="score-bar" style="width:0%"></div>',
+        f'<div class="score-bar-fill" id="score-bar" style="width:{score}%"></div>', 'score-bar')
+
+    # ── Metric cards ──
+    def metric(el_id, cls, value, anchor):
+        rep(f'<div class="{cls}" id="{el_id}">—</div>',
+            f'<div class="{cls}" id="{el_id}">{value}</div>', anchor)
+
+    if cur.get("temp_f") is not None:
+        metric('m-temp', 'metric-value', f'{cur["temp_f"]}°F', 'm-temp')
+    if cur.get("feels_like_f") is not None:
+        rep('<div class="metric-sub"  id="m-feels">—</div>',
+            f'<div class="metric-sub"  id="m-feels">Feels like {cur["feels_like_f"]}°F</div>', 'm-feels')
+    if aqi_data.get("aqi") is not None:
+        metric('m-aqi', 'metric-value', aqi_data["aqi"], 'm-aqi')
+        cat = esc(aqi_data.get("category") or aqi_category(aqi_data["aqi"]))
+        if aqi_data.get("pollutant"):
+            cat += f' · {esc(aqi_data["pollutant"])}'
+        rep('<div class="metric-sub"  id="m-aqi-cat">—</div>',
+            f'<div class="metric-sub"  id="m-aqi-cat">{cat}</div>', 'm-aqi-cat')
+    if cur.get("wind_mph") is not None:
+        metric('m-wind', 'metric-value', f'{cur["wind_mph"]} mph', 'm-wind')
+    if cur.get("gusts_mph") is not None:
+        rep('<div class="metric-sub"  id="m-gusts">—</div>',
+            f'<div class="metric-sub"  id="m-gusts">Gusts {cur["gusts_mph"]} mph</div>', 'm-gusts')
+    if cur.get("rain_pct") is not None:
+        metric('m-rain', 'metric-value', f'{cur["rain_pct"]}%', 'm-rain')
+
+    # ── Trail info ──
+    stats = [
+        ('t-difficulty', esc(d.get("difficulty") or "—")),
+        ('t-length',     f'{d.get("length_mi")} mi' if d.get("length_mi") else '—'),
+        ('t-gain',       f'{int(float(d["gain_ft"])):,} ft' if d.get("gain_ft") else '—'),
+        ('t-type',       esc(d.get("trail_type") or "—")),
+        ('t-months',     esc(d.get("best_months") or "—")),
+        ('t-park',       esc(d.get("park_name") or "—")),
+    ]
+    for el_id, val in stats:
+        rep(f'<span class="trail-stat-value" id="{el_id}">—</span>',
+            f'<span class="trail-stat-value" id="{el_id}">{val}</span>', el_id)
+
+    # ── Status list (honest fire risk from FIRMS data, not a hardcoded 'Low') ──
+    status = (d.get("status") or "Unknown")
+    dot = 'dot-green' if status.lower() == 'open' else 'dot-yellow' if status.lower() == 'seasonal' else 'dot-red'
+    items = [f'<li class="status-item"><span class="dot {dot}"></span><span>Trail: {esc(status)}</span></li>']
+    risk = (fire.get("risk_level") or "").lower()
+    if risk:
+        fdot = 'dot-green' if risk == 'low' else 'dot-yellow' if risk in ('moderate', 'medium') else 'dot-red'
+        items.append(f'<li class="status-item"><span class="dot {fdot}"></span><span>Fire Risk: {esc(risk.capitalize())} (NASA FIRMS)</span></li>')
+    items.append('<li class="status-item"><span class="dot dot-gray"></span><span>Campground: Check official alerts</span></li>')
+    rep('<ul class="status-list" id="status-list"></ul>',
+        f'<ul class="status-list" id="status-list">{"".join(items)}</ul>', 'status-list')
+
+    # ── 5-day forecast (same markup render() produces) ──
+    cards = []
+    for day in (d.get("forecast") or []):
+        try:
+            dt = datetime.strptime(day["date"], "%Y-%m-%d")
+        except (KeyError, ValueError):
+            continue
+        sr = (day.get("sunrise") or "")[11:16]
+        ss = (day.get("sunset") or "")[11:16]
+        sun = f'<div class="forecast-sun" title="Sunrise / Sunset">☀️ {sr}–{ss}</div>' if sr else ''
+        cards.append(
+            f'<div class="forecast-day">'
+            f'<div class="forecast-label">{dt.strftime("%a")}<br>{dt.month}/{dt.day}</div>'
+            f'<div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:{max(day.get("rain_pct", 0), 3)}%"></div></div></div>'
+            f'<div class="forecast-pct">{day.get("rain_pct", "—")}%</div>'
+            f'<div class="forecast-high">{day.get("high_f", "—")}°</div>'
+            f'<div class="forecast-low">{day.get("low_f", "—")}°</div>'
+            f'<div class="forecast-uv">UV {day.get("uv", "—")}</div>'
+            f'{sun}</div>'
+        )
+    if cards:
+        rep('<div class="forecast-grid" id="forecast-grid"></div>',
+            f'<div class="forecast-grid" id="forecast-grid">{"".join(cards)}</div>', 'forecast-grid')
+
+    # ── Notes ──
+    notes = (d.get("notes") or "").strip()
+    if notes:
+        rep('<p id="trail-notes" style="font-size:0.9rem;line-height:1.65">—</p>',
+            f'<p id="trail-notes" style="font-size:0.9rem;line-height:1.65">{esc(notes)}</p>', 'trail-notes')
+
+    # ── FAQ (visible copy of the FAQPage schema — schema without visible
+    #     content violates Google's structured-data guidelines) ──
+    faq_html = ''.join(
+        f'<div class="faq-item" style="margin-bottom:0.9rem">'
+        f'<h3 style="font-size:0.95rem;margin-bottom:0.25rem">{esc(p["q"])}</h3>'
+        f'<p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">{esc(p["a"])}</p></div>'
+        for p in m["faq_pairs"]
+    )
+    faq_card = (f'<div class="card" id="faq-card">'
+                f'<div class="card-title">Frequently Asked Questions</div>{faq_html}</div>\n\n    ')
+
+    # ── Related trails (crawlable internal links, freshest scores first) ──
+    related_card = ''
+    if siblings:
+        lis = ''.join(
+            f'<li class="status-item" style="margin-bottom:0.4rem">'
+            f'<a href="/{state_lc}/{s["slug"]}" style="color:var(--brand);font-weight:600">{esc(s["name"])}</a>'
+            f'&nbsp;— {s["score"]}/100 {esc(s["score_label"])}</li>'
+            for s in siblings
+        )
+        related_card = (f'<div class="card" id="related-card">'
+                        f'<div class="card-title">More {state_nm} Trails</div>'
+                        f'<ul class="status-list">{lis}</ul>'
+                        f'<p style="margin-top:0.6rem;font-size:0.9rem">'
+                        f'<a href="/{state_lc}" style="color:var(--brand);font-weight:600">All {state_nm} trail conditions →</a></p>'
+                        f'</div>\n\n    ')
+
+    rep('<!-- ACTION LINKS -->', faq_card + related_card + '<!-- ACTION LINKS -->', 'faq/related insert')
+
+    # ── Content visible without JS; render() re-applies these classes on load ──
+    rep('<div id="loading" class="loading-state" role="status" aria-live="polite">',
+        '<div id="loading" class="loading-state hidden" role="status" aria-live="polite">', 'loading hide')
+    rep('<div class="hero-image hidden" id="hero-image">',
+        '<div class="hero-image" id="hero-image">', 'hero unhide')
+    rep('<main id="content" class="hidden">',
+        '<main id="content">', 'content unhide')
+
+    return html
+
+
+def pick_siblings(d, conditions, limit=6):
+    """Same-state trails, best current score first."""
+    state = (d.get("state") or "").upper()
+    sibs = [
+        {"slug": s.get("slug"), "name": s.get("name"), "score": s.get("score", 0),
+         "score_label": s.get("score_label", "")}
+        for s in conditions.values()
+        if (s.get("state") or "").upper() == state and s.get("slug") != d.get("slug")
+    ]
+    sibs.sort(key=lambda s: s["score"], reverse=True)
+    return sibs[:limit]
+
+
 def load_all_conditions():
     results = {}
     for path in glob.glob(f"{DATA_DIR}/*.json"):
@@ -293,6 +499,7 @@ def main():
         try:
             m    = build_meta(d)
             html = inject_head(template, m)
+            html = inject_body(html, d, m, pick_siblings(d, conditions))
 
             out_dir  = os.path.join(OUT_DIR, state)
             os.makedirs(out_dir, exist_ok=True)

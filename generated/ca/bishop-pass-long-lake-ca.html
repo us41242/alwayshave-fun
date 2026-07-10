@@ -663,11 +663,11 @@
   <!-- NAV (transparent over image, opaque on scroll) -->
   <nav id="nav">
     <a href="/" class="nav-logo">alwayshave.fun</a>
-    <a href="/" id="nav-back" class="nav-back">← All Trails</a>
+    <a href="/ca" id="nav-back" class="nav-back">← California Trails</a>
   </nav>
 
   <!-- LOADING -->
-  <div id="loading" class="loading-state" role="status" aria-live="polite">
+  <div id="loading" class="loading-state hidden" role="status" aria-live="polite">
     <div class="spinner" aria-hidden="true"></div>
     <p>Loading trail conditions…</p>
   </div>
@@ -683,78 +683,78 @@
   <div class="hero-bg-fixed" id="hero-bg-fixed"></div>
 
   <!-- HERO IMAGE -->
-  <div class="hero-image hidden" id="hero-image">
+  <div class="hero-image" id="hero-image">
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="breadcrumb">
         <a href="/">Home</a> <span>›</span>
-        <a href="#" id="bc-state">State</a> <span>›</span>
-        <span id="bc-trail">Trail</span>
+        <a href="/ca" id="bc-state">California</a> <span>›</span>
+        <span id="bc-trail">Bishop Pass Trail to Long Lake</span>
       </div>
-      <h1 class="hero-trail-name" id="trail-name">—</h1>
+      <h1 class="hero-trail-name" id="trail-name">Bishop Pass Trail to Long Lake</h1>
       <div class="hero-score-row">
         <div class="score-pill">
           <div class="score-circle" id="score-circle">
-            <span class="num" id="score-num">—</span>
+            <span class="num" id="score-num">100</span>
             <span class="denom">/100</span>
           </div>
           <div class="score-pill-info">
-            <span class="score-pill-label" id="score-label">—</span>
-            <span class="score-pill-updated" id="score-updated">—</span>
+            <span class="score-pill-label" id="score-label">Great day to go</span>
+            <span class="score-pill-updated" id="score-updated">Updated 2026-07-10 19:15 UTC</span>
           </div>
         </div>
-        <div class="hero-quick-stats" id="hero-quick-stats"></div>
+        <div class="hero-quick-stats" id="hero-quick-stats"><div class="hero-stat">🌡 70°F</div><div class="hero-stat">🌬 6 mph</div><div class="hero-stat">💨 AQI 35</div></div>
       </div>
     </div>
     <div class="photo-credit" id="photo-credit"></div>
   </div>
 
   <!-- MAIN CONTENT -->
-  <main id="content" class="hidden">
+  <main id="content">
 
     <!-- Score progress bar -->
     <div class="score-bar-track" role="progressbar" aria-label="Trail score" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="score-bar-track">
-      <div class="score-bar-fill" id="score-bar" style="width:0%"></div>
+      <div class="score-bar-fill" id="score-bar" style="width:100%"></div>
     </div>
 
     <!-- METRIC CARDS -->
     <div class="metrics">
       <div class="metric-card">
         <div class="metric-label">🌡 Temperature</div>
-        <div class="metric-value" id="m-temp">—</div>
-        <div class="metric-sub"  id="m-feels">—</div>
+        <div class="metric-value" id="m-temp">70°F</div>
+        <div class="metric-sub"  id="m-feels">Feels like 67°F</div>
       </div>
       <div class="metric-card">
         <div class="metric-label">💨 Air Quality</div>
-        <div class="metric-value" id="m-aqi">—</div>
-        <div class="metric-sub"  id="m-aqi-cat">—</div>
+        <div class="metric-value" id="m-aqi">35</div>
+        <div class="metric-sub"  id="m-aqi-cat">Good · O3</div>
       </div>
       <div class="metric-card">
         <div class="metric-label">🌬 Wind</div>
-        <div class="metric-value" id="m-wind">—</div>
-        <div class="metric-sub"  id="m-gusts">—</div>
+        <div class="metric-value" id="m-wind">6 mph</div>
+        <div class="metric-sub"  id="m-gusts">Gusts 9 mph</div>
       </div>
       <div class="metric-card">
         <div class="metric-label">🌧 Rain Chance</div>
-        <div class="metric-value" id="m-rain">—</div>
+        <div class="metric-value" id="m-rain">0%</div>
         <div class="metric-sub">Current conditions</div>
       </div>
     </div>
 
     <!-- TRAIL INFO -->
     <div class="trail-info">
-      <div><span class="trail-stat-label">Difficulty</span><span class="trail-stat-value" id="t-difficulty">—</span></div>
-      <div><span class="trail-stat-label">Distance</span><span class="trail-stat-value" id="t-length">—</span></div>
-      <div><span class="trail-stat-label">Elevation Gain</span><span class="trail-stat-value" id="t-gain">—</span></div>
-      <div><span class="trail-stat-label">Route Type</span><span class="trail-stat-value" id="t-type">—</span></div>
-      <div><span class="trail-stat-label">Best Months</span><span class="trail-stat-value" id="t-months">—</span></div>
-      <div><span class="trail-stat-label">Park / Area</span><span class="trail-stat-value" id="t-park">—</span></div>
+      <div><span class="trail-stat-label">Difficulty</span><span class="trail-stat-value" id="t-difficulty">Moderate</span></div>
+      <div><span class="trail-stat-label">Distance</span><span class="trail-stat-value" id="t-length">5.0 mi</span></div>
+      <div><span class="trail-stat-label">Elevation Gain</span><span class="trail-stat-value" id="t-gain">1,000 ft</span></div>
+      <div><span class="trail-stat-label">Route Type</span><span class="trail-stat-value" id="t-type">Out &amp; back</span></div>
+      <div><span class="trail-stat-label">Best Months</span><span class="trail-stat-value" id="t-months">Jun–Sep</span></div>
+      <div><span class="trail-stat-label">Park / Area</span><span class="trail-stat-value" id="t-park">Inyo National Forest</span></div>
     </div>
 
     <!-- STATUS -->
     <div class="card">
       <div class="card-title">Current Status</div>
-      <ul class="status-list" id="status-list"></ul>
+      <ul class="status-list" id="status-list"><li class="status-item"><span class="dot dot-green"></span><span>Trail: Open</span></li><li class="status-item"><span class="dot dot-green"></span><span>Fire Risk: Low (NASA FIRMS)</span></li><li class="status-item"><span class="dot dot-gray"></span><span>Campground: Check official alerts</span></li></ul>
     </div>
 
     <!-- RIVER (conditional) -->
@@ -773,7 +773,7 @@
     <!-- FORECAST -->
     <div class="card">
       <div class="card-title">5-Day Forecast</div>
-      <div class="forecast-grid" id="forecast-grid"></div>
+      <div class="forecast-grid" id="forecast-grid"><div class="forecast-day"><div class="forecast-label">Fri<br>7/10</div><div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:3%"></div></div></div><div class="forecast-pct">0%</div><div class="forecast-high">72°</div><div class="forecast-low">46°</div><div class="forecast-uv">UV 9</div><div class="forecast-sun" title="Sunrise / Sunset">☀️ 05:43–20:16</div></div><div class="forecast-day"><div class="forecast-label">Sat<br>7/11</div><div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:3%"></div></div></div><div class="forecast-pct">1%</div><div class="forecast-high">73°</div><div class="forecast-low">53°</div><div class="forecast-uv">UV 9</div><div class="forecast-sun" title="Sunrise / Sunset">☀️ 05:43–20:16</div></div><div class="forecast-day"><div class="forecast-label">Sun<br>7/12</div><div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:25%"></div></div></div><div class="forecast-pct">25%</div><div class="forecast-high">67°</div><div class="forecast-low">53°</div><div class="forecast-uv">UV 7</div><div class="forecast-sun" title="Sunrise / Sunset">☀️ 05:44–20:15</div></div><div class="forecast-day"><div class="forecast-label">Mon<br>7/13</div><div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:75%"></div></div></div><div class="forecast-pct">75%</div><div class="forecast-high">60°</div><div class="forecast-low">51°</div><div class="forecast-uv">UV 8</div><div class="forecast-sun" title="Sunrise / Sunset">☀️ 05:45–20:15</div></div><div class="forecast-day"><div class="forecast-label">Tue<br>7/14</div><div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:58%"></div></div></div><div class="forecast-pct">58%</div><div class="forecast-high">61°</div><div class="forecast-low">50°</div><div class="forecast-uv">UV 8</div><div class="forecast-sun" title="Sunrise / Sunset">☀️ 05:45–20:14</div></div></div>
     </div>
 
     <!-- GEAR (conditional) -->
@@ -785,8 +785,12 @@
     <!-- NOTES -->
     <div class="card" id="notes-card">
       <div class="card-title">Trail Notes</div>
-      <p id="trail-notes" style="font-size:0.9rem;line-height:1.65">—</p>
+      <p id="trail-notes" style="font-size:0.9rem;line-height:1.65">South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June — Long Lake turnaround is the right call early season</p>
     </div>
+
+    <div class="card" id="faq-card"><div class="card-title">Frequently Asked Questions</div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">What are the current conditions at Bishop Pass Trail to Long Lake?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">As of the latest update, Bishop Pass Trail to Long Lake is scoring 100/100 (Great day to go). Temperature: 70°F, wind: 6 mph, rain chance: 0%. Data is refreshed every 30 minutes.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">Is Bishop Pass Trail to Long Lake dog-friendly?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Yes, dogs are welcome on Bishop Pass Trail to Long Lake. Leash required.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">How difficult is Bishop Pass Trail to Long Lake?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Bishop Pass Trail to Long Lake is rated Moderate. The trail is 5.0 miles with 1000 ft of elevation gain.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">What is the air quality (AQI) at Bishop Pass Trail to Long Lake today?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Current AQI at Bishop Pass Trail to Long Lake is 35 — Good. AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">When is the best time to visit Bishop Pass Trail to Long Lake?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">The best months to hike Bishop Pass Trail to Long Lake are Jun–Sep.</p></div></div>
+
+    <div class="card" id="related-card"><div class="card-title">More California Trails</div><ul class="status-list"><li class="status-item" style="margin-bottom:0.4rem"><a href="/ca/lone-pine-lake-ca" style="color:var(--brand);font-weight:600">Lone Pine Lake</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/ca/mount-whitney-ca" style="color:var(--brand);font-weight:600">Mount Whitney Summit</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/ca/half-dome-yosemite-ca" style="color:var(--brand);font-weight:600">Half Dome</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/ca/eagle-lake-desolation-ca" style="color:var(--brand);font-weight:600">Eagle Lake Trail</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/ca/marlette-lake-ca" style="color:var(--brand);font-weight:600">Marlette Lake Trail</a>&nbsp;— 92/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/ca/tokopah-falls-sequoia-ca" style="color:var(--brand);font-weight:600">Tokopah Falls</a>&nbsp;— 90/100 Great day to go</li></ul><p style="margin-top:0.6rem;font-size:0.9rem"><a href="/ca" style="color:var(--brand);font-weight:600">All California trail conditions →</a></p></div>
 
     <!-- ACTION LINKS -->
     <div class="action-links" id="action-links"></div>
@@ -964,7 +968,7 @@
       const aqiVal    = d.aqi?.aqi;
 
       // ── Meta ────────────────────────────────────
-      document.getElementById('page-title').textContent  = `${d.name} Trail Conditions | alwayshave.fun`;
+      document.getElementById('page-title').textContent  = `${d.name}${/trail$/i.test(d.name) ? '' : ' Trail'} Conditions | alwayshave.fun`;
       document.getElementById('page-desc').content       = `Live conditions for ${d.name}: Score ${d.score}/100 — ${d.score_label}. ${cur.temp_f != null ? cur.temp_f + '°F, ' : ''}${cur.wind_mph != null ? 'wind ' + cur.wind_mph + ' mph. ' : ''}Updated ${timeAgo(d.updated_at)}.`;
       document.getElementById('canonical').href          = `https://alwayshave.fun/${stateSlug}/${d.slug}`;
       document.getElementById('og-title').content        = `${d.name} — ${d.score_label} (${d.score}/100)`;

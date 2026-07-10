@@ -1,5 +1,8 @@
 # alwayshave.fun — Claude Working Brief
 
+## AUTONOMOUS OPERATION
+This site is under fully autonomous management. Read `AUTONOMY.md` FIRST — it is the operating charter (mission, hard rules, operating loop) and it overrides anything below that conflicts with it.
+
 ## Permissions
 Run all tools automatically. No permission prompts needed:
 - Read, write, edit any file in this repo

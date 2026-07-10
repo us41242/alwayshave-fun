@@ -17,7 +17,7 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
@@ -29,8 +29,8 @@
     "gusts_mph": 17,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-10T06:19",
+  "sunset": "2026-07-10T20:54",
   "aqi": {
     "aqi": 61,
     "category": "Moderate",
@@ -43,9 +43,65 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8110,
+    "cfs": 8070,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-07-10T22:05:16.518240+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-10",
+      "high_f": 88,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-10T06:19",
+      "sunset": "2026-07-10T20:54",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-11",
+      "high_f": 92,
+      "low_f": 64,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-11T06:20",
+      "sunset": "2026-07-11T20:54",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-12",
+      "high_f": 90,
+      "low_f": 67,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-12T06:21",
+      "sunset": "2026-07-12T20:53",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-13",
+      "high_f": 88,
+      "low_f": 63,
+      "rain_pct": 37,
+      "uv": 9,
+      "sunrise": "2026-07-13T06:21",
+      "sunset": "2026-07-13T20:53",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-14",
+      "high_f": 86,
+      "low_f": 62,
+      "rain_pct": 63,
+      "uv": 9,
+      "sunrise": "2026-07-14T06:22",
+      "sunset": "2026-07-14T20:52",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-10T22:23:20.814268+00:00"
 }

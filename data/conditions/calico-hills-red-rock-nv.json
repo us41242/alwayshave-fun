@@ -17,8 +17,8 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 42,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,76 +29,20 @@
     "gusts_mph": 17,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-10T05:33",
-  "sunset": "2026-07-10T20:01",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 54,
+    "aqi": 61,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 51.6,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-10",
-      "high_f": 101,
-      "low_f": 77,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-10T05:33",
-      "sunset": "2026-07-10T20:01",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-11",
-      "high_f": 101,
-      "low_f": 78,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-11T05:33",
-      "sunset": "2026-07-11T20:00",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-12",
-      "high_f": 98,
-      "low_f": 80,
-      "rain_pct": 9,
-      "uv": 9,
-      "sunrise": "2026-07-12T05:34",
-      "sunset": "2026-07-12T20:00",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-13",
-      "high_f": 94,
-      "low_f": 77,
-      "rain_pct": 46,
-      "uv": 9,
-      "sunrise": "2026-07-13T05:35",
-      "sunset": "2026-07-13T19:59",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-14",
-      "high_f": 94,
-      "low_f": 73,
-      "rain_pct": 20,
-      "uv": 8,
-      "sunrise": "2026-07-14T05:35",
-      "sunset": "2026-07-14T19:59",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-10T10:02:31.596941+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-10T10:24:00.806474+00:00"
 }

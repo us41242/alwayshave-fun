@@ -30,18 +30,18 @@
   "sunrise": "2026-07-10T06:20",
   "sunset": "2026-07-10T20:54",
   "aqi": {
-    "aqi": 42,
+    "aqi": 48,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 127.2,
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8110,
+    "cfs": 7440,
     "stage": "flood"
   },
   "forecast": [
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-10T10:02:29.691409+00:00"
+  "updated_at": "2026-07-10T10:22:11.470271+00:00"
 }

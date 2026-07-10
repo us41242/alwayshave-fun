@@ -17,14 +17,15 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 56,
-  "score_label": "Use caution",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 63,
-    "feels_like_f": 64,
+    "feels_like_f": 65,
     "wind_mph": 7,
     "gusts_mph": 10,
     "rain_pct": 0
@@ -32,10 +33,10 @@
   "sunrise": "2026-07-10T05:49",
   "sunset": "2026-07-10T20:03",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -52,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-07-10T05:49",
       "sunset": "2026-07-10T20:03",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-11",
@@ -63,8 +64,8 @@
       "uv": 8,
       "sunrise": "2026-07-11T05:50",
       "sunset": "2026-07-11T20:03",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-12",
@@ -74,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-07-12T05:50",
       "sunset": "2026-07-12T20:03",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-13",
@@ -85,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-07-13T05:51",
       "sunset": "2026-07-13T20:02",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-14",
@@ -96,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-07-14T05:51",
       "sunset": "2026-07-14T20:02",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-10T11:50:25.708939+00:00"
+  "updated_at": "2026-07-10T12:10:05.738371+00:00"
 }

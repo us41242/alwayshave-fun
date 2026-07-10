@@ -17,27 +17,29 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
+  "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 85,
-    "feels_like_f": 78,
-    "wind_mph": 8,
-    "gusts_mph": 8,
+    "feels_like_f": 79,
+    "wind_mph": 9,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-07-10T05:36",
   "sunset": "2026-07-10T20:08",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 181.5,
     "fire_count_50km": 0
   },
   "river": null,
@@ -50,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-07-10T05:36",
       "sunset": "2026-07-10T20:08",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-11",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-07-11T05:37",
       "sunset": "2026-07-11T20:08",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-12",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-07-12T05:38",
       "sunset": "2026-07-12T20:07",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-13",
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-07-13T05:38",
       "sunset": "2026-07-13T20:07",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-14",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-14T05:39",
       "sunset": "2026-07-14T20:07",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-10T16:32:17.305235+00:00"
+  "updated_at": "2026-07-10T16:47:02.556229+00:00"
 }

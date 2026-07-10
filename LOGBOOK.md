@@ -171,3 +171,7 @@ Wire up dog-friendly flags, state landing pages, and IndexNow submission.
 ### Upcoming
 - Weekly: re-inspect sample URLs, GSC WoW compare (first weekly report due next Monday session).
 - Verify Cloudflare build quota; confirm articles are fully static + linked from trail pages; Phase 3 (distribution) groundwork.
+
+### Post-session addendum (2026-07-10, supervising session)
+- **Pipeline race found + self-healed.** The 19:35Z SEO push raced a scheduled pipeline run that had checked out the pre-fix tree; its `-X theirs` rebase produced Frankenstein generated pages (new FAQ sections kept, but "Trail Trail" titles reverted). The NEXT scheduled run regenerated everything from the fixed build_static.py — verified on origin: title correct, FAQ present. **Lesson: generated/ pages are build artifacts — after any push that changes scripts/, either confirm no pipeline run was mid-flight or wait one 30-min cycle before verifying titles/content on live.** Never hand-edit generated/ files.
+- **Runner heartbeat bug fixed.** bash under launchd can't write ~/Documents (TCC) — the heartbeat line now goes through `python3 heartbeat.py ahf_operator` (proven pattern). Today's line was backfilled manually; session exit was a genuine 0.

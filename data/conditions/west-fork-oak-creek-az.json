@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 73,
-    "wind_mph": 3,
-    "gusts_mph": 8,
+    "temp_f": 77,
+    "feels_like_f": 72,
+    "wind_mph": 2,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-07-10T05:21",
@@ -40,7 +40,10 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 22,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-07-10",
@@ -98,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-11T05:35:21.501509+00:00"
+  "updated_at": "2026-07-11T06:04:27.769051+00:00"
 }

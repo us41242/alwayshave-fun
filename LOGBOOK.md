@@ -175,3 +175,38 @@ Wire up dog-friendly flags, state landing pages, and IndexNow submission.
 ### Post-session addendum (2026-07-10, supervising session)
 - **Pipeline race found + self-healed.** The 19:35Z SEO push raced a scheduled pipeline run that had checked out the pre-fix tree; its `-X theirs` rebase produced Frankenstein generated pages (new FAQ sections kept, but "Trail Trail" titles reverted). The NEXT scheduled run regenerated everything from the fixed build_static.py — verified on origin: title correct, FAQ present. **Lesson: generated/ pages are build artifacts — after any push that changes scripts/, either confirm no pipeline run was mid-flight or wait one 30-min cycle before verifying titles/content on live.** Never hand-edit generated/ files.
 - **Runner heartbeat bug fixed.** bash under launchd can't write ~/Documents (TCC) — the heartbeat line now goes through `python3 heartbeat.py ahf_operator` (proven pattern). Today's line was backfilled manually; session exit was a genuine 0.
+
+---
+
+## 2026-07-11 — Session 7 (first unattended nightly session)
+
+### Diagnosed
+- **Cloudflare quota ⚠️ from last session resolved.** The site is NOT on Cloudflare Pages — it's a git-connected **Worker with static assets** (`alwayshave-fun`, wrangler.toml `[assets]`), so the feared 500-builds/mo Pages cap never applied. Real constraint: Workers Builds 3,000 build-min/mo. Empirical: May 2,159 and June 2,151 builds completed with zero deploy failures ⇒ avg build <1.4 min, but headroom was thin (~28%). CF API token can't read it directly (scoped to `gates` project only — untouched per hard rule 2); asked Josh non-blocking to widen scope (`daily-in-box/ahf-question-2026-07-11.md`).
+- **GitHub Actions minutes: non-issue.** Repo is PUBLIC → unlimited free minutes.
+- **Pipeline cadence crept to every 20 min** (worker cron `*/20`) — 72 runs/day vs the documented "updated every 30 min" promise. Pure quota burn, no user-visible gain.
+- **Trail→article links were JS-only** (HEAD-request insert) — invisible to Google's first-pass crawl. 57 published articles were reachable only via sitemap + article↔article links; trail pages passed them zero link equity. Article coverage is now 46/46 trails.
+
+### Fixed
+- **Static persona article links** — build_static.py now renders `<a id="jakes-take">` on every trail page whose slug has an article (46/46), with the correct persona per state (Jake AZ/UT/NV, Olivia CA, John CO — the old JS said "Jake" even on CA/CO pages). trail.html hydration now skips insertion when the static link exists (no duplicates) and uses the same persona map.
+- **Worker cron `*/20` → `*/30`** — ~2,150 → ~1,440 builds/mo, ~2× Workers Builds headroom, matches the site's documented cadence.
+
+### Verified
+- Local: 46 pages regenerated, 0 errors; HTML-parsed all 52 generated pages — exactly 1 article link on each trail page, 0 on index pages.
+- Waited out an in-flight 04:20Z pipeline run before pushing (lesson from Session 6 addendum — no race this time). Pushed a425e1c8ff.
+- Live after deploy: static link serving on /az/wire-pass-buckskin-az, /ca/bishop-pass (Olivia), /co/garden-of-the-gods (John); article target 200; sitemap valid (96 URLs, 44 articles + /articles index).
+- Headless Chrome on live page: exactly 1 `#jakes-take` after hydration, "Updated 14 min ago" renders, no duplicate.
+- Cron change: no run fired at 04:40Z (old */20 slot) after the ~04:37Z deploy — trigger applied. Final confirmation pending the 05:00Z run (see below).
+- GSC pulse: 0 clicks / 0 impressions last 7 days, sitemap "pending" — expected this early; baseline logged for Monday's first weekly report.
+
+### Learned
+- launchd session PATH lacks /opt/homebrew/bin — `gh` needs an explicit PATH export.
+- `git pull --rebase` autostash can report "changes safe in the stash" yet leave a redundant entry even when everything applied; verify with `git diff stash@{0} HEAD` before dropping.
+- Watch for pipeline runs in flight (`gh run list -w fetch_conditions.yml`) before any push touching scripts/ or generated/ — worked cleanly tonight.
+
+### Expect
+- Articles start getting crawled via trail pages within days of Google's re-crawl; article impressions become measurable in GSC 2–4 weeks out. Tracked as an experiment row in docs/STRATEGY.md.
+
+### Upcoming
+- Monday (2026-07-13): first weekly report — GSC WoW, URL re-inspection sample.
+- Confirm pipeline runs land at :00/:30 (if still :20/:40, cron didn't apply — investigate).
+- Phase 3 groundwork: pick 1–2 hiking communities, read norms before participating.

@@ -25,6 +25,7 @@ The site is functionally excellent and completely invisible. GSC shows **0 click
 |---|---|---|---|
 | Server-rendered trail bodies + FAQ + internal links | 2026-07-10 | trail pages move to "Indexed"; impressions > 0 | weekly; kill-or-revise by 2026-08-01 |
 | Homepage footer → /ca /co /dog-friendly static links | 2026-07-10 | state pages discovered | same |
+| Static trail→article links (46/46, persona-correct) | 2026-07-11 | articles discovered & indexed via trail pages; article impressions | same |
 
 Target query shapes (all served by trail pages already): "is {trail} open", "{trail} weather", "{trail} conditions", "{trail} AQI/air quality", "are dogs allowed {trail}", "best time to hike {trail}".
 
@@ -36,8 +37,8 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 
 | Service | What for | Free-tier ceiling | Current usage |
 |---|---|---|---|
-| Cloudflare Pages | hosting + deploys | 500 builds/mo ⚠️ | ~48 data commits/day = ~1,440 deploys/mo — NEEDS VERIFICATION next session; if over, batch commits or skip CI deploys on data-only pushes |
-| GitHub Actions | data pipeline cron | 2,000 min/mo (private repo) | fetch_conditions every 30 min |
+| Cloudflare Workers Builds | hosting + deploys (git-connected Worker `alwayshave-fun` with static assets — NOT Pages, so the 500-builds/mo Pages cap never applied) | 3,000 build-min/mo | was ~2,150 builds/mo (May 2,159, June 2,151 — both completed with no deploy failure ⇒ avg build <1.4 min); cron cut */20→*/30 on 2026-07-11 → ~1,440/mo, ~2× headroom. Direct quota read blocked: CF API token is scoped to the `gates` project only (question filed to Josh 2026-07-11) |
+| GitHub Actions | data pipeline cron | repo is PUBLIC → minutes unlimited/free | fetch_conditions every 30 min |
 | Open-Meteo | weather + AQI fallback | non-commercial free | every 30 min |
 | AirNow | AQI | free API key | every 30 min |
 | NASA FIRMS | fire data | free | every 30 min |
@@ -47,7 +48,7 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 
 ## Open questions / next session
 
-1. **Verify Cloudflare Pages build quota** (see ⚠️ above) — if the repo is git-connected and every data commit triggers a build, 48/day may exceed the free 500/mo. Check the Pages dashboard via API token in the env file.
-2. Weekly GSC check: re-inspect the sampled URLs, watch for first impressions.
-3. Articles (/articles/*.html): confirm they're fully static (they should be) and internally linked from trail pages.
-4. Phase 3 groundwork: pick 1–2 communities, read norms first, participate before ever linking.
+1. Weekly GSC check (first weekly report due Monday 2026-07-13 session): re-inspect the sampled URLs via URL Inspection API, watch for first impressions. GSC baseline as of 2026-07-11: 0 clicks / 0 impressions last 7 days; sitemap status "pending".
+2. Confirm the worker cron actually fires at :00/:30 now (watch Actions run timestamps; deployed 2026-07-11 ~04:40Z). If runs still land at :20/:40, the trigger didn't apply — investigate.
+3. Phase 3 groundwork: pick 1–2 communities, read norms first, participate before ever linking.
+4. Asked Josh (non-blocking, 2026-07-11): widen CF API token to read Workers Builds for the main account so build-minute usage can be verified directly.

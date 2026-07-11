@@ -790,10 +790,11 @@
 
     <div class="card" id="faq-card"><div class="card-title">Frequently Asked Questions</div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">What are the current conditions at Emerald Lake via Bear Lake?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">As of the latest update, Emerald Lake via Bear Lake is scoring 90/100 (Great day to go). Temperature: 52°F, wind: 2 mph, rain chance: 1%. Data is refreshed every 30 minutes.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">Is Emerald Lake via Bear Lake dog-friendly?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">No, dogs are not permitted on Emerald Lake via Bear Lake.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">How difficult is Emerald Lake via Bear Lake?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Emerald Lake via Bear Lake is rated Moderate. The trail is 3.6 miles with 655 ft of elevation gain.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">What is the air quality (AQI) at Emerald Lake via Bear Lake today?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Current AQI at Emerald Lake via Bear Lake is 73 — Moderate. AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">When is the best time to visit Emerald Lake via Bear Lake?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">The best months to hike Emerald Lake via Bear Lake are Jun–Oct.</p></div></div>
 
-    <div class="card" id="related-card"><div class="card-title">More Colorado Trails</div><ul class="status-list"><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/hanging-lake-co" style="color:var(--brand);font-weight:600">Hanging Lake</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/garden-of-the-gods-co" style="color:var(--brand);font-weight:600">Garden of the Gods Main Loop</a>&nbsp;— 90/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/ice-lake-basin-co" style="color:var(--brand);font-weight:600">Ice Lake Basin</a>&nbsp;— 90/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/maroon-bells-crater-lake-co" style="color:var(--brand);font-weight:600">Maroon Bells Crater Lake</a>&nbsp;— 88/100 Great day to go</li></ul><p style="margin-top:0.6rem;font-size:0.9rem"><a href="/co" style="color:var(--brand);font-weight:600">All Colorado trail conditions →</a></p></div>
+    <div class="card" id="related-card"><div class="card-title">More Colorado Trails</div><ul class="status-list"><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/hanging-lake-co" style="color:var(--brand);font-weight:600">Hanging Lake</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/ice-lake-basin-co" style="color:var(--brand);font-weight:600">Ice Lake Basin</a>&nbsp;— 90/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/garden-of-the-gods-co" style="color:var(--brand);font-weight:600">Garden of the Gods Main Loop</a>&nbsp;— 90/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/co/maroon-bells-crater-lake-co" style="color:var(--brand);font-weight:600">Maroon Bells Crater Lake</a>&nbsp;— 88/100 Great day to go</li></ul><p style="margin-top:0.6rem;font-size:0.9rem"><a href="/co" style="color:var(--brand);font-weight:600">All Colorado trail conditions →</a></p></div>
 
     <!-- ACTION LINKS -->
     <div class="action-links" id="action-links"></div>
+    <a id="jakes-take" class="jakes-take-link" href="/articles/emerald-lake-rmnp-co">📝 John&#8217;s Take on Emerald Lake via Bear Lake — full conditions report →</a>
 
     <!-- CONDITIONS ALERT OPT-IN -->
     <div class="alert-box" id="alert-box" style="display:none">
@@ -1118,13 +1119,15 @@
       if (d.notes && d.notes.toLowerCase().includes('recreation.gov')) btns.push(`<a href="https://www.recreation.gov" target="_blank" rel="noopener" class="btn btn-secondary">🏕 Book on Recreation.gov</a>`);
       document.getElementById('action-links').innerHTML = btns.join('');
 
-      // ── Jake's Take article link (if exists) ─────
+      // ── Persona article link (if exists; static build may have rendered it already) ─────
       fetch(`/articles/${d.slug}`, { method: 'HEAD' }).then(r => {
-        if (r.ok) {
+        if (r.ok && !document.getElementById('jakes-take')) {
+          const persona = { CA: 'Olivia', CO: 'John' }[stateCode] || 'Jake';
           const link = document.createElement('a');
+          link.id = 'jakes-take';
           link.href = `/articles/${d.slug}`;
           link.className = 'jakes-take-link';
-          link.innerHTML = '📝 Jake\'s Take — read the full conditions report →';
+          link.textContent = `📝 ${persona}'s Take — read the full conditions report →`;
           document.getElementById('action-links').after(link);
         }
       }).catch(() => {});

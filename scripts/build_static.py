@@ -23,11 +23,15 @@ BASE_URL  = "https://alwayshave.fun"
 DATA_DIR  = "data/conditions"
 TMPL_PATH = "trail.html"
 OUT_DIR   = "generated"
+ARTICLES_DIR = "articles"
 
 STATE_NAMES = {
     "NV": "Nevada", "UT": "Utah", "AZ": "Arizona",
     "CO": "Colorado", "CA": "California", "NM": "New Mexico"
 }
+
+# Authorial persona per state (see AUTONOMY.md "Personas")
+PERSONAS = {"CA": "Olivia", "CO": "John"}  # default: Jake
 
 
 def aqi_category(aqi):
@@ -445,6 +449,15 @@ def inject_body(html, d, m, siblings):
                         f'</div>\n\n    ')
 
     rep('<!-- ACTION LINKS -->', faq_card + related_card + '<!-- ACTION LINKS -->', 'faq/related insert')
+
+    # ── Persona article link (crawlable; JS skips insertion when #jakes-take exists) ──
+    if os.path.exists(os.path.join(ARTICLES_DIR, f"{slug}.html")):
+        persona = PERSONAS.get((d.get("state") or "").upper(), "Jake")
+        rep('<div class="action-links" id="action-links"></div>',
+            '<div class="action-links" id="action-links"></div>\n    '
+            f'<a id="jakes-take" class="jakes-take-link" href="/articles/{slug}">'
+            f'📝 {persona}&#8217;s Take on {name} — full conditions report →</a>',
+            'article link')
 
     # ── Content visible without JS; render() re-applies these classes on load ──
     rep('<div id="loading" class="loading-state" role="status" aria-live="polite">',

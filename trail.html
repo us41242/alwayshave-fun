@@ -958,13 +958,15 @@
       if (d.notes && d.notes.toLowerCase().includes('recreation.gov')) btns.push(`<a href="https://www.recreation.gov" target="_blank" rel="noopener" class="btn btn-secondary">🏕 Book on Recreation.gov</a>`);
       document.getElementById('action-links').innerHTML = btns.join('');
 
-      // ── Jake's Take article link (if exists) ─────
+      // ── Persona article link (if exists; static build may have rendered it already) ─────
       fetch(`/articles/${d.slug}`, { method: 'HEAD' }).then(r => {
-        if (r.ok) {
+        if (r.ok && !document.getElementById('jakes-take')) {
+          const persona = { CA: 'Olivia', CO: 'John' }[stateCode] || 'Jake';
           const link = document.createElement('a');
+          link.id = 'jakes-take';
           link.href = `/articles/${d.slug}`;
           link.className = 'jakes-take-link';
-          link.innerHTML = '📝 Jake\'s Take — read the full conditions report →';
+          link.textContent = `📝 ${persona}'s Take — read the full conditions report →`;
           document.getElementById('action-links').after(link);
         }
       }).catch(() => {});

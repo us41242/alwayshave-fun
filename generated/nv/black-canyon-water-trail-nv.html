@@ -790,10 +790,11 @@
 
     <div class="card" id="faq-card"><div class="card-title">Frequently Asked Questions</div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">What are the current conditions at Black Canyon Water Trail?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">As of the latest update, Black Canyon Water Trail is scoring 50/100 (Use caution). Temperature: 98°F, wind: 9 mph, rain chance: 0%. Data is refreshed every 30 minutes.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">Is Black Canyon Water Trail dog-friendly?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Yes, dogs are welcome on Black Canyon Water Trail. Leash required.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">How difficult is Black Canyon Water Trail?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Black Canyon Water Trail is rated Easy. The trail is 12 miles with 50 ft of elevation gain.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">What is the air quality (AQI) at Black Canyon Water Trail today?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Current AQI at Black Canyon Water Trail is 86 — Moderate. AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask.</p></div><div class="faq-item" style="margin-bottom:0.9rem"><h3 style="font-size:0.95rem;margin-bottom:0.25rem">When is the best time to visit Black Canyon Water Trail?</h3><p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">The best months to hike Black Canyon Water Trail are Oct–Apr.</p></div></div>
 
-    <div class="card" id="related-card"><div class="card-title">More Nevada Trails</div><ul class="status-list"><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/mount-moriah-nv" style="color:var(--brand);font-weight:600">Mount Moriah Wilderness</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/charleston-peak-nv" style="color:var(--brand);font-weight:600">Charleston Peak (USFS)</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/mary-jane-falls-nv" style="color:var(--brand);font-weight:600">Mt Charleston Trail (Mary Jane Falls)</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/wheeler-peak-great-basin-nv" style="color:var(--brand);font-weight:600">Wheeler Peak (NPS)</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/cathedral-gorge-nv" style="color:var(--brand);font-weight:600">Cathedral Gorge Slot Canyons</a>&nbsp;— 78/100 Good conditions</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/rhyolite-ghost-town-nv" style="color:var(--brand);font-weight:600">Rhyolite Ghost Town Loop</a>&nbsp;— 60/100 Use caution</li></ul><p style="margin-top:0.6rem;font-size:0.9rem"><a href="/nv" style="color:var(--brand);font-weight:600">All Nevada trail conditions →</a></p></div>
+    <div class="card" id="related-card"><div class="card-title">More Nevada Trails</div><ul class="status-list"><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/mount-moriah-nv" style="color:var(--brand);font-weight:600">Mount Moriah Wilderness</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/mary-jane-falls-nv" style="color:var(--brand);font-weight:600">Mt Charleston Trail (Mary Jane Falls)</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/wheeler-peak-great-basin-nv" style="color:var(--brand);font-weight:600">Wheeler Peak (NPS)</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/charleston-peak-nv" style="color:var(--brand);font-weight:600">Charleston Peak (USFS)</a>&nbsp;— 100/100 Great day to go</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/cathedral-gorge-nv" style="color:var(--brand);font-weight:600">Cathedral Gorge Slot Canyons</a>&nbsp;— 78/100 Good conditions</li><li class="status-item" style="margin-bottom:0.4rem"><a href="/nv/wave-rock-valley-of-fire-nv" style="color:var(--brand);font-weight:600">Valley of Fire Wave Rock</a>&nbsp;— 60/100 Use caution</li></ul><p style="margin-top:0.6rem;font-size:0.9rem"><a href="/nv" style="color:var(--brand);font-weight:600">All Nevada trail conditions →</a></p></div>
 
     <!-- ACTION LINKS -->
     <div class="action-links" id="action-links"></div>
+    <a id="jakes-take" class="jakes-take-link" href="/articles/black-canyon-water-trail-nv">📝 Jake&#8217;s Take on Black Canyon Water Trail — full conditions report →</a>
 
     <!-- CONDITIONS ALERT OPT-IN -->
     <div class="alert-box" id="alert-box" style="display:none">
@@ -1118,13 +1119,15 @@
       if (d.notes && d.notes.toLowerCase().includes('recreation.gov')) btns.push(`<a href="https://www.recreation.gov" target="_blank" rel="noopener" class="btn btn-secondary">🏕 Book on Recreation.gov</a>`);
       document.getElementById('action-links').innerHTML = btns.join('');
 
-      // ── Jake's Take article link (if exists) ─────
+      // ── Persona article link (if exists; static build may have rendered it already) ─────
       fetch(`/articles/${d.slug}`, { method: 'HEAD' }).then(r => {
-        if (r.ok) {
+        if (r.ok && !document.getElementById('jakes-take')) {
+          const persona = { CA: 'Olivia', CO: 'John' }[stateCode] || 'Jake';
           const link = document.createElement('a');
+          link.id = 'jakes-take';
           link.href = `/articles/${d.slug}`;
           link.className = 'jakes-take-link';
-          link.innerHTML = '📝 Jake\'s Take — read the full conditions report →';
+          link.textContent = `📝 ${persona}'s Take — read the full conditions report →`;
           document.getElementById('action-links').after(link);
         }
       }).catch(() => {});

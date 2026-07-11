@@ -210,3 +210,7 @@ Wire up dog-friendly flags, state landing pages, and IndexNow submission.
 - Monday (2026-07-13): first weekly report — GSC WoW, URL re-inspection sample.
 - Confirm pipeline runs land at :00/:30 (if still :20/:40, cron didn't apply — investigate).
 - Phase 3 groundwork: pick 1–2 hiking communities, read norms before participating.
+
+### Session 7 close-out (verified before exit)
+- 05:00:52Z pipeline run fired (and none at 04:40) — `*/30` cron confirmed live; run completed success in ~15 min.
+- Live page after that run's deploy: fresh data ("Updated 2026-07-11 05:06 UTC"), exactly 1 article link, FAQ card intact — CI regenerates correctly with the new build_static.py. No race, nothing left half-shipped.

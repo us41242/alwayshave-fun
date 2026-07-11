@@ -17,23 +17,25 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 76,
-    "wind_mph": 11,
-    "gusts_mph": 18,
+    "temp_f": 84,
+    "feels_like_f": 75,
+    "wind_mph": 9,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-07-10T06:16",
   "sunset": "2026-07-10T20:49",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +52,8 @@
       "uv": 9,
       "sunrise": "2026-07-10T06:16",
       "sunset": "2026-07-10T20:49",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-11",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-07-11T06:17",
       "sunset": "2026-07-11T20:49",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-12",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-07-12T06:18",
       "sunset": "2026-07-12T20:48",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-13",
@@ -83,8 +85,8 @@
       "uv": 9,
       "sunrise": "2026-07-13T06:18",
       "sunset": "2026-07-13T20:48",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-14",
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-14T06:19",
       "sunset": "2026-07-14T20:47",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-11T03:14:08.975969+00:00"
+  "updated_at": "2026-07-11T03:40:45.400411+00:00"
 }

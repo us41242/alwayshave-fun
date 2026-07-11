@@ -17,23 +17,25 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
+  "score": 40,
   "score_label": "Conditions poor",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended"
+  ],
   "current": {
-    "temp_f": 101,
-    "feels_like_f": 92,
-    "wind_mph": 10,
-    "gusts_mph": 12,
+    "temp_f": 99,
+    "feels_like_f": 88,
+    "wind_mph": 15,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "sunrise": "2026-07-10T05:32",
   "sunset": "2026-07-10T19:57",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 135,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,18 +52,18 @@
       "uv": 9,
       "sunrise": "2026-07-10T05:32",
       "sunset": "2026-07-10T19:57",
-      "predicted_score": 30,
+      "predicted_score": 40,
       "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-11",
       "high_f": 101,
-      "low_f": 78,
+      "low_f": 79,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-11T05:32",
       "sunset": "2026-07-11T19:57",
-      "predicted_score": 30,
+      "predicted_score": 40,
       "score_label": "Conditions poor"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-07-12T05:33",
       "sunset": "2026-07-12T19:56",
-      "predicted_score": 30,
+      "predicted_score": 40,
       "score_label": "Conditions poor"
     },
     {
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-07-13T05:33",
       "sunset": "2026-07-13T19:56",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-14",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-14T05:34",
       "sunset": "2026-07-14T19:55",
-      "predicted_score": 30,
+      "predicted_score": 40,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-11T01:06:41.167660+00:00"
+  "updated_at": "2026-07-11T01:27:12.486247+00:00"
 }

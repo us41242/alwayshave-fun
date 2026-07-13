@@ -17,12 +17,14 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 53,
+    "temp_f": 63,
+    "feels_like_f": 58,
     "wind_mph": 8,
     "gusts_mph": 11,
     "rain_pct": 0
@@ -30,8 +32,8 @@
   "sunrise": "2026-07-13T06:18",
   "sunset": "2026-07-13T20:50",
   "aqi": {
-    "aqi": 39,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
@@ -44,24 +46,24 @@
   "forecast": [
     {
       "date": "2026-07-13",
-      "high_f": 85,
+      "high_f": 84,
       "low_f": 59,
       "rain_pct": 7,
       "uv": 9,
       "sunrise": "2026-07-13T06:18",
       "sunset": "2026-07-13T20:50",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-14",
       "high_f": 82,
       "low_f": 61,
-      "rain_pct": 37,
+      "rain_pct": 20,
       "uv": 9,
       "sunrise": "2026-07-14T06:18",
       "sunset": "2026-07-14T20:50",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 7,
       "sunrise": "2026-07-15T06:19",
       "sunset": "2026-07-15T20:49",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-16T06:20",
       "sunset": "2026-07-16T20:49",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-17T06:21",
       "sunset": "2026-07-17T20:48",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-13T13:01:04.876812+00:00"
+  "updated_at": "2026-07-13T13:34:07.493685+00:00"
 }

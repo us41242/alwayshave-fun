@@ -19,18 +19,20 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 72,
-    "wind_mph": 7,
-    "gusts_mph": 14,
-    "rain_pct": 20
+    "temp_f": 69,
+    "feels_like_f": 59,
+    "wind_mph": 21,
+    "gusts_mph": 24,
+    "rain_pct": 27
   },
   "sunrise": "2026-07-13T05:44",
   "sunset": "2026-07-13T20:17",
   "aqi": {
-    "aqi": 33,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -55,8 +57,8 @@
     },
     {
       "date": "2026-07-14",
-      "high_f": 67,
-      "low_f": 53,
+      "high_f": 69,
+      "low_f": 57,
       "rain_pct": 33,
       "uv": 7,
       "sunrise": "2026-07-14T05:45",
@@ -67,7 +69,7 @@
     {
       "date": "2026-07-15",
       "high_f": 78,
-      "low_f": 56,
+      "low_f": 57,
       "rain_pct": 18,
       "uv": 9,
       "sunrise": "2026-07-15T05:46",
@@ -98,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-13T19:42:19.553851+00:00"
+  "updated_at": "2026-07-13T20:11:21.867475+00:00"
 }

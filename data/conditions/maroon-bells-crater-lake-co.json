@@ -17,18 +17,18 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 54,
-    "wind_mph": 10,
-    "gusts_mph": 10,
-    "rain_pct": 1
+    "temp_f": 63,
+    "feels_like_f": 55,
+    "wind_mph": 7,
+    "gusts_mph": 7,
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-12T05:52",
+  "sunset": "2026-07-12T20:34",
   "aqi": {
     "aqi": 48,
     "category": "Good",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-13T00:13:13.345111+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-12",
+      "high_f": 66,
+      "low_f": 44,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-07-12T05:52",
+      "sunset": "2026-07-12T20:34",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-13",
+      "high_f": 66,
+      "low_f": 46,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-07-13T05:53",
+      "sunset": "2026-07-13T20:33",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-14",
+      "high_f": 65,
+      "low_f": 48,
+      "rain_pct": 26,
+      "uv": 8,
+      "sunrise": "2026-07-14T05:54",
+      "sunset": "2026-07-14T20:33",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-15",
+      "high_f": 62,
+      "low_f": 39,
+      "rain_pct": 26,
+      "uv": 9,
+      "sunrise": "2026-07-15T05:54",
+      "sunset": "2026-07-15T20:32",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-16",
+      "high_f": 57,
+      "low_f": 39,
+      "rain_pct": 46,
+      "uv": 8,
+      "sunrise": "2026-07-16T05:55",
+      "sunset": "2026-07-16T20:32",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-07-13T00:43:14.218493+00:00"
 }

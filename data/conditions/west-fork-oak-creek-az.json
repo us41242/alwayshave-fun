@@ -17,21 +17,24 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 88,
     "feels_like_f": 85,
-    "wind_mph": 10,
-    "gusts_mph": 15,
-    "rain_pct": 12
+    "wind_mph": 18,
+    "gusts_mph": 25,
+    "rain_pct": 14
   },
   "sunrise": "2026-07-13T05:23",
   "sunset": "2026-07-13T19:42",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -53,19 +56,19 @@
       "uv": 8,
       "sunrise": "2026-07-13T05:23",
       "sunset": "2026-07-13T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-14",
       "high_f": 88,
-      "low_f": 70,
+      "low_f": 69,
       "rain_pct": 22,
       "uv": 8,
       "sunrise": "2026-07-14T05:24",
       "sunset": "2026-07-14T19:41",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-15",
@@ -75,7 +78,7 @@
       "uv": 6,
       "sunrise": "2026-07-15T05:24",
       "sunset": "2026-07-15T19:41",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -86,7 +89,7 @@
       "uv": 7,
       "sunrise": "2026-07-16T05:25",
       "sunset": "2026-07-16T19:40",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +100,9 @@
       "uv": 8,
       "sunrise": "2026-07-17T05:26",
       "sunset": "2026-07-17T19:40",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-13T20:03:55.451161+00:00"
+  "updated_at": "2026-07-13T20:36:51.867834+00:00"
 }

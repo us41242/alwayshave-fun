@@ -17,23 +17,25 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 97,
-    "feels_like_f": 92,
+    "temp_f": 95,
+    "feels_like_f": 89,
     "wind_mph": 9,
-    "gusts_mph": 18,
-    "rain_pct": 1
+    "gusts_mph": 23,
+    "rain_pct": 5
   },
   "sunrise": "2026-07-12T06:24",
   "sunset": "2026-07-12T20:55",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -46,57 +48,57 @@
       "date": "2026-07-12",
       "high_f": 104,
       "low_f": 78,
-      "rain_pct": 5,
+      "rain_pct": 10,
       "uv": 9,
       "sunrise": "2026-07-12T06:24",
       "sunset": "2026-07-12T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-13",
       "high_f": 104,
       "low_f": 80,
-      "rain_pct": 7,
+      "rain_pct": 8,
       "uv": 8,
       "sunrise": "2026-07-13T06:25",
       "sunset": "2026-07-13T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-14",
       "high_f": 103,
       "low_f": 80,
-      "rain_pct": 12,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-07-14T06:25",
       "sunset": "2026-07-14T20:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-15",
       "high_f": 101,
       "low_f": 77,
-      "rain_pct": 30,
+      "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-07-15T06:26",
       "sunset": "2026-07-15T20:54",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-16",
       "high_f": 97,
       "low_f": 77,
-      "rain_pct": 30,
+      "rain_pct": 29,
       "uv": 9,
       "sunrise": "2026-07-16T06:27",
       "sunset": "2026-07-16T20:54",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-13T02:39:29.586706+00:00"
+  "updated_at": "2026-07-13T03:15:25.306066+00:00"
 }

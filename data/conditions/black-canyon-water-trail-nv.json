@@ -17,23 +17,25 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 98,
     "feels_like_f": 97,
     "wind_mph": 9,
-    "gusts_mph": 17,
+    "gusts_mph": 14,
     "rain_pct": 1
   },
   "sunrise": "2026-07-13T05:32",
   "sunset": "2026-07-13T19:56",
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-07-13T05:32",
       "sunset": "2026-07-13T19:56",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 7,
       "sunrise": "2026-07-14T05:33",
       "sunset": "2026-07-14T19:56",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-07-15T05:34",
       "sunset": "2026-07-15T19:55",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-16T05:34",
       "sunset": "2026-07-16T19:55",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 7,
       "sunrise": "2026-07-17T05:35",
       "sunset": "2026-07-17T19:54",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-14T03:21:05.353887+00:00"
+  "updated_at": "2026-07-14T03:43:50.096303+00:00"
 }

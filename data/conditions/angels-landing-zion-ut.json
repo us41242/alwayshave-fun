@@ -17,21 +17,23 @@
   "notes": "Chain section requires permit \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 92,
-    "feels_like_f": 93,
+    "temp_f": 93,
+    "feels_like_f": 94,
     "wind_mph": 10,
     "gusts_mph": 11,
-    "rain_pct": 5
+    "rain_pct": 7
   },
   "sunrise": "2026-07-14T06:23",
   "sunset": "2026-07-14T20:52",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,13 +52,13 @@
       "uv": 9,
       "sunrise": "2026-07-14T06:23",
       "sunset": "2026-07-14T20:52",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-15",
-      "high_f": 96,
-      "low_f": 72,
+      "high_f": 95,
+      "low_f": 75,
       "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-07-15T06:23",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-07-16T06:24",
       "sunset": "2026-07-16T20:51",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-17",
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-17T06:25",
       "sunset": "2026-07-17T20:50",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-18T06:25",
       "sunset": "2026-07-18T20:50",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-14T20:01:26.780094+00:00"
+  "updated_at": "2026-07-14T20:31:17.509273+00:00"
 }

@@ -60,7 +60,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ site/ generated/ articles/index.html
+          git add data/ site/ generated/ articles/index.html index.html
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "data: update trail conditions $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase -X theirs origin main

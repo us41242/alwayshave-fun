@@ -4,6 +4,34 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-14 — Session 8 (nightly)
+
+### Diagnosed
+- **Nothing indexed since the 2026-07-10 fix.** URL Inspection on a page-type sample (homepage, trail, state, article): homepage still the ONLY indexed URL. /az/south-kaibab-gc-az still "Crawled — currently not indexed" with last crawl **2026-05-01** (Google has NOT recrawled it since the 07-10 body fix). Every other sampled URL — trails, state pages, /articles, articles — "URL is unknown to Google," never discovered. GSC still 0 clicks / 0 impressions (28-day, through 07-11).
+- **Root cause of the discovery stall: the homepage trail grid is JS-only.** Homepage is the one page Google reliably crawls (last 2026-06-20). Raw Googlebot HTML had the 5 state footer links but **zero trail links** — the 40+ trail cards are injected by `renderListing()` at runtime. So each homepage crawl discovered only 5 state pages (2+ hops to trails, all still uncrawled), and the deep pages sat undiscovered. Same class of bug as the 07-10 trail-body fix, but on the homepage itself.
+
+### Fixed
+- **Server-rendered the homepage trail grid** (`scripts/build_index_html.py`, added to the 30-min pipeline after build_static.py). Bakes 46 real `<a href="/{state}/{slug}">` cards — grouped by state, sorted by score, same markup + CSS classes the JS produces — between new `<!-- GRID:START/END -->` markers in `index.html`. Scores refresh every 30 min (hard rule 4: no stale baked numbers). JS `renderListing()` still overwrites `#trail-listing` on load, so hydration is unchanged. One homepage crawl now exposes all 46 trail links directly (1 hop).
+
+### Verified
+- Local: script idempotent (re-run → same 46 links); exactly 1 GRID marker block.
+- Live after deploy (~60s): Googlebot view = 46 unique trail links + 5 real region headings + markers intact for the next pipeline build; 6 sampled trail targets across AZ/CA/NV/UT → all 200.
+- Headless Chrome hydration: 46 links post-JS, GRID markers gone (JS replaced the block, no duplication), no stuck "Loading…" spinner.
+- Sitemap still valid XML, 96 URLs. No 404s introduced.
+
+### Learned
+- A JS-rendered homepage grid quietly starves the whole site of crawl discovery on a zero-authority domain: Google crawls only the homepage, sees no deep links, and never reaches anything. Static internal links on the highest-crawled page are the cheapest discovery lever available.
+- URL Inspection `last_crawl_time` is the real Phase-1 dashboard right now — GSC clicks/impressions lag indexation by weeks and stay flat until pages actually get crawled+indexed. Track crawl dates, not impressions, week to week for now.
+
+### Expect
+- Next time Google crawls the homepage (roughly monthly cadence observed: 06-20, before that ~05-01), it should discover all 46 trail links in one pass and begin crawling trail pages. Watch `/az/south-kaibab-gc-az` for a last-crawl date newer than 2026-05-01, and sampled trails moving off "URL is unknown to Google." Kill-or-revise still 2026-08-01.
+
+### Upcoming
+- If the homepage crawl still doesn't propagate by next week, the binding constraint is crawl budget itself (zero backlinks) → Phase 3 distribution becomes the priority, not more on-site linking.
+- Weekly report written this session (2026-07-14, first on/after Monday 07-13).
+
+---
+
 ## 2026-04-04 — Session 1
 
 ### Added

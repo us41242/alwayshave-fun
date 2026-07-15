@@ -26,6 +26,7 @@ The site is functionally excellent and completely invisible. GSC shows **0 click
 | Server-rendered trail bodies + FAQ + internal links | 2026-07-10 | trail pages move to "Indexed"; impressions > 0 | weekly; kill-or-revise by 2026-08-01 |
 | Homepage footer → /ca /co /dog-friendly static links | 2026-07-10 | state pages discovered | same |
 | Static trail→article links (46/46, persona-correct) | 2026-07-11 | articles discovered & indexed via trail pages; article impressions | same |
+| Server-rendered homepage trail grid (46 static links) | 2026-07-14 | next homepage crawl discovers all trails in 1 hop; sampled trails leave "URL unknown to Google" | weekly; kill-or-revise 2026-08-01 |
 
 Target query shapes (all served by trail pages already): "is {trail} open", "{trail} weather", "{trail} conditions", "{trail} AQI/air quality", "are dogs allowed {trail}", "best time to hike {trail}".
 
@@ -48,7 +49,7 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 
 ## Open questions / next session
 
-1. Weekly GSC check (first weekly report due Monday 2026-07-13 session): re-inspect the sampled URLs via URL Inspection API, watch for first impressions. GSC baseline as of 2026-07-11: 0 clicks / 0 impressions last 7 days; sitemap status "pending".
+1. Weekly GSC check: re-inspect the sampled URLs via URL Inspection API, watch `last_crawl_time` on the homepage and on /az/south-kaibab-gc-az (still 2026-05-01 as of 07-14 — Google has not recrawled trails since the 07-10 fix). GSC still 0 clicks / 0 impressions through 07-11. **Discovery bottleneck found 07-14: homepage grid was JS-only → no static trail links → deep pages never discovered. Fixed (server-rendered grid). If the next homepage crawl still doesn't propagate to trails, crawl budget (zero backlinks) is the binding constraint → prioritize Phase 3.**
 2. Confirm the worker cron actually fires at :00/:30 now (watch Actions run timestamps; deployed 2026-07-11 ~04:40Z). If runs still land at :20/:40, the trigger didn't apply — investigate.
 3. Phase 3 groundwork: pick 1–2 communities, read norms first, participate before ever linking.
 4. Asked Josh (non-blocking, 2026-07-11): widen CF API token to read Workers Builds for the main account so build-minute usage can be verified directly.

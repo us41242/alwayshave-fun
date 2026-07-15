@@ -21,16 +21,16 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 109,
-    "feels_like_f": 107,
-    "wind_mph": 12,
-    "gusts_mph": 12,
-    "rain_pct": 1
+    "temp_f": 108,
+    "feels_like_f": 109,
+    "wind_mph": 4,
+    "gusts_mph": 7,
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-14T05:33",
+  "sunset": "2026-07-14T19:56",
   "aqi": {
-    "aqi": 23,
+    "aqi": 22,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-15T00:38:31.909755+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-14",
+      "high_f": 109,
+      "low_f": 91,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-07-14T05:33",
+      "sunset": "2026-07-14T19:56",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-15",
+      "high_f": 115,
+      "low_f": 88,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-07-15T05:34",
+      "sunset": "2026-07-15T19:55",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-16",
+      "high_f": 112,
+      "low_f": 89,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-07-16T05:34",
+      "sunset": "2026-07-16T19:55",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-17",
+      "high_f": 102,
+      "low_f": 83,
+      "rain_pct": 21,
+      "uv": 6,
+      "sunrise": "2026-07-17T05:35",
+      "sunset": "2026-07-17T19:54",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-18",
+      "high_f": 105,
+      "low_f": 86,
+      "rain_pct": 19,
+      "uv": 8,
+      "sunrise": "2026-07-18T05:36",
+      "sunset": "2026-07-18T19:54",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-15T01:11:13.275550+00:00"
 }

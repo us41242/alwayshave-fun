@@ -23,8 +23,8 @@
   "current": {
     "temp_f": 64,
     "feels_like_f": 60,
-    "wind_mph": 1,
-    "gusts_mph": 6,
+    "wind_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-07-16T05:47",
@@ -40,7 +40,10 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 53,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-07-16",
@@ -98,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-16T15:16:45.601163+00:00"
+  "updated_at": "2026-07-16T15:46:14.090830+00:00"
 }

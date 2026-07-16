@@ -4,6 +4,39 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-15 — Session 9 (nightly)
+
+### Oriented
+- GSC still **0 clicks / 0 impressions** (7-day 07-08→07-12; 28-day 26 query-rows, all 0). Sitemap still `pending`. Expected this early.
+- **Homepage `last_crawl_time` = 2026-06-20** (URL Inspection API) — Google has NOT recrawled the homepage since the 07-14 static-grid fix shipped. So the grid fix cannot be evaluated yet; it only takes effect on the next homepage crawl (cadence ~monthly: 05-01 → 06-20 → next expected ~mid/late July). `/az/south-kaibab-gc-az` still "Crawled — not indexed"; sampled trails (Narrows, Calico Hills) still "URL unknown to Google." No propagation yet — because no recrawl yet, not because the fix is wrong.
+- **Homepage's only external referrer in GSC is a spam domain** (`uplinke-seo-enhancement.za.com`). Zero legitimate authority → ~monthly crawl cadence. This confirms the binding constraint is authority/crawl-budget, exactly as Session 8 predicted.
+
+### Decided
+On-site Phase-1 work is complete and correct; the site is fully healthy (homepage/trail/sitemap all 200, sitemap 96 URLs). Nothing on-site moves the needle while we wait on a homepage recrawl we can't force. So tonight's highest-leverage action = attack the root constraint (authority) via **Phase 3 distribution groundwork** + try to **unblock a crawl-nudge lever**. No code changed this session (docs/planning only).
+
+### Did
+- **Tried the Google Indexing API** (owner-authenticated, legit, free) to nudge the stalled homepage recrawl → `Permission denied`: the service account isn't a GSC Owner and/or the Indexing API isn't enabled in the GCP project. Genuine permission wall (Josh console access) — filed a non-blocking question to unblock it (`daily-in-box/ahf-question-2026-07-15.md`, with the exact service-account email + the 2 steps). Logged the blocker in docs/STRATEGY.md open-questions §0.
+- **Wrote a concrete, norm-respecting Phase 3 plan** into docs/STRATEGY.md: confirmed the timely hook (active July-2026 Western wildfire-smoke event across all 5 states — "is it too smoky to hike X this weekend" is exactly what the site answers with live cited AQI + go/no-go score); picked first 2 target communities (r/arizona, r/Utah — strongest coverage + active smoke); defined the durable, hard-rule-5-safe approach (lead with data + source, ≤10% self-reference, never link-drop); and set the next-session first steps (create ONE site-owned Reddit account per hard rule 7, read each sub's sidebar from inside, answer real conditions/smoke threads with timestamped data before ever referencing the site).
+
+### Verified
+- Live health (real UA curl): homepage 200, `/az/south-kaibab-gc-az` 200, `sitemap.xml` 200 with 96 `<loc>` entries. No 404s, nothing broken. No code changes to verify — this was a docs/planning session.
+- Indexing API failure re-confirmed (single homepage call returns the permission error) — the blocker is real, not a transient.
+- Reddit blocks automated fetches from this environment (curl JSON endpoint, WebFetch both blocked) — recorded so next session reads sub rules from inside the account rather than scripting it.
+
+### Learned
+- URL Inspection `last_crawl_time` on the homepage is THE gating metric right now: no homepage recrawl → no discovery of the 46 grid links → no downstream indexation, no matter how correct the on-site fixes are. Track this date weekly; it's the leading indicator ahead of impressions by weeks.
+- The Indexing-API shortcut needs the service account added as a GSC **Owner** + the API enabled in GCP — neither is grantable without Josh's console access.
+
+### Expect
+- Homepage recrawl in the next ~1–2 weeks (per cadence) → discovers all 46 static trail links in one pass → trails begin leaving "URL unknown to Google." Watch homepage `last_crawl_time` moving off 2026-06-20 and `/az/south-kaibab-gc-az` off its 05-01 crawl. Kill-or-revise on the grid fix still 2026-08-01.
+- If Josh enables the Indexing API, next session pings the homepage + key pages to accelerate that recrawl.
+
+### Upcoming
+- Next session: begin Phase 3 execution — create the site Reddit account, read r/arizona + r/Utah rules, make first genuine data-based contributions (no links). Log the account in docs/STRATEGY.md Distribution table.
+- Weekly report already written this week (Session 8, 2026-07-14). Next weekly due Mon 2026-07-20.
+
+---
+
 ## 2026-07-14 — Session 8 (nightly)
 
 ### Diagnosed

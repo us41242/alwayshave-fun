@@ -17,7 +17,29 @@ The site is functionally excellent and completely invisible. GSC shows **0 click
 
 **Phase 2 (once pages index): win long-tail conditions queries.** The moat is freshness + honesty: live "is X open / X weather / X AQI / can I bring my dog to X" queries where AllTrails serves stale static content. GSC's two only-ever impressions were exactly this shape ("is south kaibab trail open", "south kaibab trail weather") — the demand is real.
 
-**Phase 3 (needs authority): distribution.** Zero backlinks is the binding constraint after indexation. Genuine participation in hiking communities (per charter distribution rules), useful free tools/data others want to cite. Not started.
+**Phase 3 (needs authority): distribution.** Zero backlinks is the binding constraint after indexation. Genuine participation in hiking communities (per charter distribution rules), useful free tools/data others want to cite. Groundwork started 2026-07-15 (plan below).
+
+### Phase 3 plan — genuine community participation (2026-07-15)
+
+Confirmed binding constraint: the homepage is Google's only reliably-crawled page and its last crawl is **2026-06-20** (cadence ~monthly, e.g. 05-01 → 06-20). The 07-14 static grid fix can't propagate until Google recrawls the homepage, and recrawl frequency on a zero-authority domain is itself gated by having ~no backlinks — the only external referrer GSC shows for the homepage is a spam domain (`uplinke-seo-enhancement.za.com`). So authority/distribution is now the real lever, not more on-site work.
+
+**Timely hook (act while it lasts):** July 2026 is an active Western wildfire-smoke event — moderate AQI across all 5 of our states (CO/UT/AZ/NV/CA), some areas unhealthy-for-sensitive-groups (confirmed via news, 2026-07-15). "Is it too smoky to hike {trail} this weekend?" is exactly the question the site answers with live AirNow/Open-Meteo AQI + a go/no-go score + timestamped source. This is a genuine, time-sensitive reason to participate — not a link-drop pretext.
+
+**Approach (durable, per hard rule 5 — genuine participation, never link drops):**
+- Lead with the *answer and the data*, cited to the source (AirNow / Open-Meteo), in the community's own thread. Mention the site only when it genuinely adds value or someone asks "where do you check that." 90/10 rule (≤10% self-referential). One ban ends the channel — durable beats fast.
+- Reddit blocks automated fetches (verified: curl, WebFetch, and JSON endpoint all blocked 2026-07-15), so each target sub's sidebar rules must be read from inside the account before posting there — that IS step 1, not an afterthought.
+
+**Target communities (start with 2, expand only after building a genuine history):**
+1. **r/arizona** — strongest state coverage (Grand Canyon: South Kaibab/Bright Angel/Hermit, Sedona, Paria). High volume, AZ smoke active now.
+2. **r/Utah** — Zion/Bryce/Narrows coverage; high volume; UT smoke active now.
+3. Later: r/Nevada, r/ColoradoHiking / r/hikingcolorado, r/CaliforniaHiking, r/hiking (~2M, strict self-promo — comment participation only), r/overlanding (overlander persona), niche r/AZhiking / r/utahhiking.
+
+**Next-session first steps:**
+1. Create ONE site-owned Reddit account (not Josh's — hard rule 7). Log platform/handle/credential-location in the Distribution accounts table below.
+2. Read the sidebar rules of r/arizona + r/Utah from inside the account.
+3. Find 2–3 current threads genuinely asking about conditions/smoke/"is X open"; answer with real timestamped data, no link. Build history before ever referencing the site.
+
+**Candidate durable asset (future, not built — YAGNI until participation proves demand):** a shareable per-trail "smoke check" view someone would naturally cite. Note only; do not build speculatively.
 
 ## Target queries / experiments in flight
 
@@ -48,6 +70,8 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 | IndexNow (Bing/Yandex) | index pings | free, no known cap | 53 URLs per data update |
 
 ## Open questions / next session
+
+0. **Indexing-API crawl-nudge is blocked (2026-07-15).** Google Indexing API v3 returns `Permission denied` — the service account (`~/.config/claude-seo/service-account.json`) is not a GSC Owner for `sc-domain:alwayshave.fun` and/or the Indexing API isn't enabled in the GCP project. This would be a legitimate owner-authenticated lever to nudge the stalled homepage recrawl. Asked Josh (non-blocking) to (a) enable the Indexing API in the GCP project and (b) add that service-account email as an **Owner** in Search Console — see `daily-in-box/ahf-question-2026-07-15.md`. Until then this lever is unavailable.
 
 1. Weekly GSC check: re-inspect the sampled URLs via URL Inspection API, watch `last_crawl_time` on the homepage and on /az/south-kaibab-gc-az (still 2026-05-01 as of 07-14 — Google has not recrawled trails since the 07-10 fix). GSC still 0 clicks / 0 impressions through 07-11. **Discovery bottleneck found 07-14: homepage grid was JS-only → no static trail links → deep pages never discovered. Fixed (server-rendered grid). If the next homepage crawl still doesn't propagate to trails, crawl budget (zero backlinks) is the binding constraint → prioritize Phase 3.**
 2. Confirm the worker cron actually fires at :00/:30 now (watch Actions run timestamps; deployed 2026-07-11 ~04:40Z). If runs still land at :20/:40, the trigger didn't apply — investigate.

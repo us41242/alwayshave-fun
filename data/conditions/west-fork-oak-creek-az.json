@@ -19,9 +19,7 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "rain gear recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 69,
     "feels_like_f": 73,
@@ -29,8 +27,8 @@
     "gusts_mph": 3,
     "rain_pct": 67
   },
-  "sunrise": "2026-07-17T05:26",
-  "sunset": "2026-07-17T19:40",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 42,
     "category": "Good",
@@ -39,69 +37,10 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 490.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": 244,
-    "stage": "normal"
-  },
-  "forecast": [
-    {
-      "date": "2026-07-17",
-      "high_f": 70,
-      "low_f": 63,
-      "rain_pct": 65,
-      "uv": 9,
-      "sunrise": "2026-07-17T05:26",
-      "sunset": "2026-07-17T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-18",
-      "high_f": 79,
-      "low_f": 60,
-      "rain_pct": 34,
-      "uv": 7,
-      "sunrise": "2026-07-18T05:26",
-      "sunset": "2026-07-18T19:39",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-19",
-      "high_f": 82,
-      "low_f": 63,
-      "rain_pct": 69,
-      "uv": 8,
-      "sunrise": "2026-07-19T05:27",
-      "sunset": "2026-07-19T19:39",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-20",
-      "high_f": 84,
-      "low_f": 63,
-      "rain_pct": 74,
-      "uv": 9,
-      "sunrise": "2026-07-20T05:28",
-      "sunset": "2026-07-20T19:38",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-21",
-      "high_f": 85,
-      "low_f": 64,
-      "rain_pct": 68,
-      "uv": 9,
-      "sunrise": "2026-07-21T05:28",
-      "sunset": "2026-07-21T19:38",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-17T22:37:00.174477+00:00"
+  "river": null,
+  "forecast": [],
+  "updated_at": "2026-07-17T23:06:38.038844+00:00"
 }

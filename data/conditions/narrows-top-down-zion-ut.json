@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 67,
@@ -27,10 +27,10 @@
     "gusts_mph": 10,
     "rain_pct": 7
   },
-  "sunrise": "2026-07-17T06:24",
-  "sunset": "2026-07-17T20:51",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 39,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 9020,
+    "cfs": 8990,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-07-17",
-      "high_f": 82,
-      "low_f": 64,
-      "rain_pct": 32,
-      "uv": 8,
-      "sunrise": "2026-07-17T06:24",
-      "sunset": "2026-07-17T20:51",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-18",
-      "high_f": 79,
-      "low_f": 61,
-      "rain_pct": 81,
-      "uv": 8,
-      "sunrise": "2026-07-18T06:25",
-      "sunset": "2026-07-18T20:50",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-19",
-      "high_f": 82,
-      "low_f": 64,
-      "rain_pct": 86,
-      "uv": 8,
-      "sunrise": "2026-07-19T06:26",
-      "sunset": "2026-07-19T20:50",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-20",
-      "high_f": 85,
-      "low_f": 65,
-      "rain_pct": 71,
-      "uv": 9,
-      "sunrise": "2026-07-20T06:26",
-      "sunset": "2026-07-20T20:49",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-21",
-      "high_f": 84,
-      "low_f": 64,
-      "rain_pct": 75,
-      "uv": 9,
-      "sunrise": "2026-07-21T06:27",
-      "sunset": "2026-07-21T20:48",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-17T06:04:38.316252+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-17T06:36:22.559451+00:00"
 }

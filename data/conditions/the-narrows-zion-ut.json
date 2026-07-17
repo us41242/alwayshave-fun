@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 88,
-    "feels_like_f": 85,
+    "temp_f": 89,
+    "feels_like_f": 88,
     "wind_mph": 10,
-    "gusts_mph": 12,
-    "rain_pct": 21
+    "gusts_mph": 11,
+    "rain_pct": 20
   },
   "sunrise": "2026-07-17T06:25",
   "sunset": "2026-07-17T20:50",
@@ -42,13 +42,16 @@
     "nearest_fire_km": 477.2,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 8110,
+    "stage": "flood"
+  },
   "forecast": [
     {
       "date": "2026-07-17",
       "high_f": 89,
       "low_f": 68,
-      "rain_pct": 24,
+      "rain_pct": 25,
       "uv": 9,
       "sunrise": "2026-07-17T06:25",
       "sunset": "2026-07-17T20:50",
@@ -58,8 +61,8 @@
     {
       "date": "2026-07-18",
       "high_f": 90,
-      "low_f": 68,
-      "rain_pct": 21,
+      "low_f": 67,
+      "rain_pct": 18,
       "uv": 9,
       "sunrise": "2026-07-18T06:25",
       "sunset": "2026-07-18T20:50",
@@ -100,5 +103,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-17T21:32:53.873072+00:00"
+  "updated_at": "2026-07-17T22:01:58.998676+00:00"
 }

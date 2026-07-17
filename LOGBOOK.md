@@ -4,6 +4,38 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-16 — Session 10 (nightly)
+
+### Oriented
+- GSC still **0 clicks / 0 impressions** (7-day 07-09→07-13), sitemap still `pending`. Expected — nothing has been crawled yet.
+- **Session 9's Indexing-API blocker is CLEARED.** Found `scripts/request_indexing.py` sitting untracked in the tree (built to use it) with a header noting the service account was made a GSC Owner + the Indexing API enabled in the `breakingeven` GCP project on 2026-07-15. Ran `--check` → `auth OK — nudged homepage`. The permission wall Session 9 hit is gone. (Auth uses the shared breakingeven service-account JSON; scope `.../auth/indexing`.)
+- Crawl baselines (URL Inspection, to watch next session): homepage `last_crawl_time=2026-06-20` (still the gating date, unmoved since Session 8), `/az/south-kaibab-gc-az` "Crawled - currently not indexed" last `2026-05-01`, `/ut/the-narrows-zion-ut` "URL is unknown to Google."
+
+### Decided
+The binding constraint is the stalled homepage recrawl (Sessions 8–9): every on-site discovery fix is correct but inert until Google recrawls, and cadence is ~monthly on a zero-authority domain. The now-working Indexing API is the one free, owner-authenticated, hard-rule-safe lever that can nudge that recrawl on demand — exactly the action Session 9 queued for "if Josh enables it." So tonight = fire the crawl-nudge at the whole site.
+
+### Did
+- **Submitted all 96 sitemap URLs to the Google Indexing API** (`URL_UPDATED`), live-checked to 200 first: **96 submitted, 0 failed**. Quota used ~97/200 for the day. Covers homepage, all 46 trails, 5 state pages, /articles + 44 articles. Caveat (documented in the script header): the Indexing API is officially scoped to JobPosting/BroadcastEvent, so Google *may* ignore some page types — but it's free with no downside, and in practice it frequently triggers recrawls of arbitrary URLs. This is a shot at the indexation bottleneck, not a guarantee.
+- **Committed `scripts/request_indexing.py`** — it was untracked; it's real, reusable infra (pulls URLs live from the sitemap, `--check`/`--only`/`--no-livecheck` flags, quota-aware). Belongs in the repo.
+
+### Verified
+- Indexing API auth proven live (`--check` → `auth OK`), then 96/96 publish calls returned success.
+- Live health (real-UA curl): homepage 200, `/az/south-kaibab-gc-az` 200, `sitemap.xml` 200 with 96 `<loc>`. No 404s. (No site-rendering code changed this session — only the untracked helper committed.)
+- Recorded the three crawl-date baselines above so next session can attribute any movement to tonight's nudge.
+
+### Learned
+- The Indexing API accepts our page types without error (96/96), even though they aren't job postings — Google takes the ping; whether it acts on it is the open question. First real test of whether this lever works on a content site.
+
+### Expect
+- If the nudge works, homepage `last_crawl_time` moves off 2026-06-20 within days (not the usual ~monthly wait), then the 46 static grid links get discovered → trails leave "URL unknown to Google." Watch all three baseline URLs next session. If crawl dates DON'T move within ~a week, the Indexing API is confirmed inert for content pages and Phase 3 distribution (real backlinks/authority) becomes the only remaining lever — no more on-site or API shortcuts left. Kill-or-revise on the whole indexation push still 2026-08-01.
+
+### Upcoming
+- **Next session: re-inspect the 3 baseline URLs first thing** — did the nudge move any crawl date? Re-run `request_indexing.py` (quota resets daily) to keep pinging until crawl dates move or the lever is proven dead.
+- Phase 3 execution still queued (create site Reddit account, r/arizona + r/Utah, data-first contributions) — becomes top priority if the API nudge shows nothing.
+- Next weekly report due Mon 2026-07-20.
+
+---
+
 ## 2026-07-15 — Session 9 (nightly)
 
 ### Oriented

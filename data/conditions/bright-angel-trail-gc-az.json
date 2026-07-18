@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 60,
-    "wind_mph": 9,
+    "temp_f": 62,
+    "feels_like_f": 62,
+    "wind_mph": 10,
     "gusts_mph": 10,
     "rain_pct": 7
   },
   "sunrise": "2026-07-18T05:25",
   "sunset": "2026-07-18T19:44",
   "aqi": {
-    "aqi": 35,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -40,16 +40,13 @@
     "nearest_fire_km": 250.7,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": 7350,
-    "stage": "flood"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-07-18",
       "high_f": 77,
       "low_f": 60,
-      "rain_pct": 25,
+      "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-07-18T05:25",
       "sunset": "2026-07-18T19:44",
@@ -60,12 +57,12 @@
       "date": "2026-07-19",
       "high_f": 81,
       "low_f": 61,
-      "rain_pct": 62,
+      "rain_pct": 46,
       "uv": 8,
       "sunrise": "2026-07-19T05:26",
       "sunset": "2026-07-19T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-20",
@@ -101,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-18T13:04:08.504144+00:00"
+  "updated_at": "2026-07-18T13:35:21.024190+00:00"
 }

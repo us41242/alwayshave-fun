@@ -17,21 +17,23 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 52,
-    "wind_mph": 10,
-    "gusts_mph": 12,
+    "temp_f": 58,
+    "feels_like_f": 53,
+    "wind_mph": 9,
+    "gusts_mph": 11,
     "rain_pct": 1
   },
   "sunrise": "2026-07-18T06:21",
   "sunset": "2026-07-18T20:48",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
+    "aqi": 52,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
@@ -44,20 +46,20 @@
   "forecast": [
     {
       "date": "2026-07-18",
-      "high_f": 77,
+      "high_f": 78,
       "low_f": 56,
-      "rain_pct": 40,
+      "rain_pct": 34,
       "uv": 7,
       "sunrise": "2026-07-18T06:21",
       "sunset": "2026-07-18T20:48",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-19",
       "high_f": 78,
       "low_f": 60,
-      "rain_pct": 62,
+      "rain_pct": 33,
       "uv": 8,
       "sunrise": "2026-07-19T06:22",
       "sunset": "2026-07-19T20:47",
@@ -72,8 +74,8 @@
       "uv": 9,
       "sunrise": "2026-07-20T06:23",
       "sunset": "2026-07-20T20:46",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-21",
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-21T06:24",
       "sunset": "2026-07-21T20:46",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-22T06:24",
       "sunset": "2026-07-22T20:45",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-18T13:04:12.925971+00:00"
+  "updated_at": "2026-07-18T13:37:13.859021+00:00"
 }

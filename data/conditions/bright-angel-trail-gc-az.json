@@ -17,8 +17,8 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 62,
@@ -27,8 +27,8 @@
     "gusts_mph": 10,
     "rain_pct": 7
   },
-  "sunrise": "2026-07-18T05:25",
-  "sunset": "2026-07-18T19:44",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 36,
     "category": "Good",
@@ -40,63 +40,10 @@
     "nearest_fire_km": 250.7,
     "fire_count_50km": 0
   },
-  "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-18",
-      "high_f": 77,
-      "low_f": 60,
-      "rain_pct": 24,
-      "uv": 8,
-      "sunrise": "2026-07-18T05:25",
-      "sunset": "2026-07-18T19:44",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-19",
-      "high_f": 81,
-      "low_f": 61,
-      "rain_pct": 46,
-      "uv": 8,
-      "sunrise": "2026-07-19T05:26",
-      "sunset": "2026-07-19T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-20",
-      "high_f": 82,
-      "low_f": 62,
-      "rain_pct": 58,
-      "uv": 9,
-      "sunrise": "2026-07-20T05:27",
-      "sunset": "2026-07-20T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-21",
-      "high_f": 85,
-      "low_f": 60,
-      "rain_pct": 71,
-      "uv": 9,
-      "sunrise": "2026-07-21T05:27",
-      "sunset": "2026-07-21T19:42",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-22",
-      "high_f": 81,
-      "low_f": 64,
-      "rain_pct": 68,
-      "uv": 8,
-      "sunrise": "2026-07-22T05:28",
-      "sunset": "2026-07-22T19:41",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-18T13:35:21.024190+00:00"
+  "river": {
+    "cfs": 7510,
+    "stage": "flood"
+  },
+  "forecast": [],
+  "updated_at": "2026-07-18T14:05:45.132949+00:00"
 }

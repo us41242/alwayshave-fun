@@ -17,18 +17,20 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 70,
-    "wind_mph": 15,
-    "gusts_mph": 18,
+    "temp_f": 78,
+    "feels_like_f": 67,
+    "wind_mph": 18,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-17T05:47",
+  "sunset": "2026-07-17T20:15",
   "aqi": {
     "aqi": 46,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-18T00:17:17.333510+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-17",
+      "high_f": 80,
+      "low_f": 55,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-17T05:47",
+      "sunset": "2026-07-17T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-18",
+      "high_f": 81,
+      "low_f": 60,
+      "rain_pct": 4,
+      "uv": 9,
+      "sunrise": "2026-07-18T05:48",
+      "sunset": "2026-07-18T20:14",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-19",
+      "high_f": 79,
+      "low_f": 61,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-07-19T05:49",
+      "sunset": "2026-07-19T20:14",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-20",
+      "high_f": 78,
+      "low_f": 59,
+      "rain_pct": 46,
+      "uv": 8,
+      "sunrise": "2026-07-20T05:50",
+      "sunset": "2026-07-20T20:13",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-21",
+      "high_f": 74,
+      "low_f": 56,
+      "rain_pct": 65,
+      "uv": 5,
+      "sunrise": "2026-07-21T05:50",
+      "sunset": "2026-07-21T20:12",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-18T00:44:25.360054+00:00"
 }

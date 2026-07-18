@@ -19,6 +19,10 @@ The site is functionally excellent and completely invisible. GSC shows **0 click
 
 **Phase 3 (needs authority): distribution.** Zero backlinks is the binding constraint after indexation. Genuine participation in hiking communities (per charter distribution rules), useful free tools/data others want to cite. Groundwork started 2026-07-15 (plan below).
 
+### Bing baseline (discovered 2026-07-17)
+
+The site is already verified in Bing Webmaster Tools (shared API key in `~/.config/claude-seo/`, same account as breakingeven/findingit). **Bing has 92/96 pages in its index**, crawls ~5–13 pages/day, sitemap known (96 URLs, last fetched 07-15), zero crawl errors. But traffic is ~zero: 7 impressions / 0 clicks in 84 days (long-tail queries like "april wether for havasu falls" at avg position ~9–10). Two conclusions: (1) the content is indexable and clean — Google's refusal is a crawl-budget/authority problem, not a quality rejection; (2) indexation alone earns nothing at zero authority — ranking is the constraint on both engines, which is exactly what Phase 3 attacks. All 96 URLs submitted via the BWT URL Submission API 2026-07-17 (quota 100/day, 1,400/mo — do not burn this nightly; it's for new/changed pages).
+
 ### Phase 3 plan — genuine community participation (2026-07-15)
 
 Confirmed binding constraint: the homepage is Google's only reliably-crawled page and its last crawl is **2026-06-20** (cadence ~monthly, e.g. 05-01 → 06-20). The 07-14 static grid fix can't propagate until Google recrawls the homepage, and recrawl frequency on a zero-authority domain is itself gated by having ~no backlinks — the only external referrer GSC shows for the homepage is a spam domain (`uplinke-seo-enhancement.za.com`). So authority/distribution is now the real lever, not more on-site work.
@@ -35,7 +39,7 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 3. Later: r/Nevada, r/ColoradoHiking / r/hikingcolorado, r/CaliforniaHiking, r/hiking (~2M, strict self-promo — comment participation only), r/overlanding (overlander persona), niche r/AZhiking / r/utahhiking.
 
 **Next-session first steps:**
-1. Create ONE site-owned Reddit account (not Josh's — hard rule 7). Log platform/handle/credential-location in the Distribution accounts table below.
+1. ~~Create ONE site-owned Reddit account~~ **Blocked on Josh (2026-07-17):** Reddit signup = email verification + CAPTCHA, a human gate that must not be automated past (ban risk, hard rule 5). Asked Josh for the 5-minute manual creation (`daily-in-box/ahf-question-2026-07-17.md`, exact steps + credential drop location `~/Documents/Environmental Variables/reddit.env.local`). Once credentials appear: read sub rules from inside, participate data-first, log the account in the Distribution table below.
 2. Read the sidebar rules of r/arizona + r/Utah from inside the account.
 3. Find 2–3 current threads genuinely asking about conditions/smoke/"is X open"; answer with real timestamped data, no link. Build history before ever referencing the site.
 
@@ -71,7 +75,7 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 
 ## Open questions / next session
 
-0. **Indexing-API crawl-nudge is blocked (2026-07-15).** Google Indexing API v3 returns `Permission denied` — the service account (`~/.config/claude-seo/service-account.json`) is not a GSC Owner for `sc-domain:alwayshave.fun` and/or the Indexing API isn't enabled in the GCP project. This would be a legitimate owner-authenticated lever to nudge the stalled homepage recrawl. Asked Josh (non-blocking) to (a) enable the Indexing API in the GCP project and (b) add that service-account email as an **Owner** in Search Console — see `daily-in-box/ahf-question-2026-07-15.md`. Until then this lever is unavailable.
+0. **Indexing-API crawl-nudge: unblocked 2026-07-15 (Josh), fired 07-16 and 07-17** — all 96 URLs both nights via `scripts/request_indexing.py` (quota 200/day). As of 07-17 no crawl-date movement yet (homepage 06-20, South Kaibab 05-01, Narrows unknown). Keep re-firing nightly through ~07-23; if no crawl date moves by then, declare the lever inert for content pages and stop.
 
 1. Weekly GSC check: re-inspect the sampled URLs via URL Inspection API, watch `last_crawl_time` on the homepage and on /az/south-kaibab-gc-az (still 2026-05-01 as of 07-14 — Google has not recrawled trails since the 07-10 fix). GSC still 0 clicks / 0 impressions through 07-11. **Discovery bottleneck found 07-14: homepage grid was JS-only → no static trail links → deep pages never discovered. Fixed (server-rendered grid). If the next homepage crawl still doesn't propagate to trails, crawl budget (zero backlinks) is the binding constraint → prioritize Phase 3.**
 2. Confirm the worker cron actually fires at :00/:30 now (watch Actions run timestamps; deployed 2026-07-11 ~04:40Z). If runs still land at :20/:40, the trigger didn't apply — investigate.

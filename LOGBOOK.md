@@ -4,6 +4,43 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-17 — Session 11 (nightly)
+
+### Oriented
+- **Session 10's nudge: no movement yet (~24h in).** URL Inspection re-run on all 3 baselines: homepage `last_crawl_time` still 2026-06-20, `/az/south-kaibab-gc-az` still "Crawled — not indexed" @ 2026-05-01, `/ut/the-narrows-zion-ut` still "URL is unknown to Google." Too early to call the Indexing API dead — keep firing through ~07-23 (deadline set in STRATEGY §0).
+- GSC 7-day (07-10→07-14): 0 clicks / 0 impressions / 0 rows. Sitemap still `pending`. Expected.
+- Weekly report: written Session 8 (Mon 07-14); next due Mon 07-20 — none needed tonight.
+
+### Decided
+Re-fire the crawl nudge (planned, cheap), then before starting the queued Reddit work, audit the one never-checked free channel: **Bing**. Finding changed the picture (below), so tonight = Bing diagnosis + URL submission + unblocking Phase 3 via a Josh ask, rather than attempting automated Reddit signup (CAPTCHA + email verification is a deliberate human gate; automating past it risks an instant ban — hard rule 5).
+
+### Did
+- **Re-fired Google Indexing API at all 96 URLs** — 96 submitted, 0 failed (second consecutive night; quota ~97/200).
+- **Discovered the site is already verified in Bing Webmaster Tools** (shared BWT API key in `~/.config/claude-seo/`, same account as breakingeven). Pulled the full baseline: **92/96 pages IN Bing's index**, crawling ~5–13 pages/day, sitemap known (96 URLs, fetched 07-15), zero crawl errors, `InIndex` climbing daily (88→92 over the last week). Traffic: 7 impressions / 0 clicks in 84 days, long-tail queries at avg position ~9–10. Meaning: content quality passes a real engine's indexer — Google's stall is authority/crawl-budget, not quality rejection; and indexation without authority earns ~nothing. Phase 3 confirmed as the only lever. Logged as a new "Bing baseline" section in docs/STRATEGY.md.
+- **Submitted all 96 URLs via the BWT URL Submission API** (quota 100/day, 1,400/mo) to catch the 4 unindexed stragglers → HTTP 200 accepted. One-shot, not a nightly habit (monthly quota is small).
+- **Filed the Reddit unblock ask to Josh** (`daily-in-box/ahf-question-2026-07-17.md`): 5-minute manual account creation with exact steps — site-owned email, non-branded handle suggestions, credential drop at `~/Documents/Environmental Variables/reddit.env.local`. Non-blocking; participation starts the session credentials appear. STRATEGY Phase 3 step 1 updated to reflect the block.
+
+### Verified
+- Indexing API: 96/96 success responses (both the re-fire and `--check` auth).
+- BWT SubmitUrlBatch: HTTP 200, `{"d":null}` (API success shape).
+- Live health (real-UA curl): homepage, /az/south-kaibab-gc-az, sitemap.xml all 200; sitemap 96 URLs. No site code changed tonight (docs only), no 404s.
+
+### Learned
+- Bing's `site:alwayshave.fun` operator shows 0 results even with 92 pages verified in the index via the BWT API — never diagnose Bing indexation from the `site:` operator.
+- The BWT API key covers all sites on the account (`GetUserSites` → findingit.online, alwayshave.fun, breakingeven) — free diagnostics + URL submission with no new signup.
+- Local env file has no Brevo key (Cloudflare-only secret) — subscriber count unreadable from here; moot while traffic is zero.
+
+### Expect
+- Google: if either 07-16/07-17 nudge works, crawl dates move within days; hard deadline ~07-23 to declare the lever inert.
+- Bing: the 4 stragglers index within days of the batch submission; impressions stay ~zero until authority exists (watch monthly, not nightly).
+- Reddit: blocked on Josh's 5 minutes; no response = continue on other angles per charter.
+
+### Upcoming
+- Next session: re-inspect the 3 Google baselines; re-fire request_indexing.py; check `~/Documents/Environmental Variables/reddit.env.local` — if credentials exist, start Phase 3 participation (rules first, data-first, no links).
+- Mon 07-20: weekly report #2 (GSC WoW + Bing baseline now available as a second data series).
+
+---
+
 ## 2026-07-16 — Session 10 (nightly)
 
 ### Oriented

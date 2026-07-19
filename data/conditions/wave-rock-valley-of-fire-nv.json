@@ -17,25 +17,25 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 26,
+  "score_label": "Stay home",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 90,
-    "feels_like_f": 90,
-    "wind_mph": 8,
-    "gusts_mph": 16,
-    "rain_pct": 2
+    "temp_f": 93,
+    "feels_like_f": 93,
+    "wind_mph": 10,
+    "gusts_mph": 12,
+    "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-19T05:34",
+  "sunset": "2026-07-19T19:54",
   "aqi": {
-    "aqi": 39,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "elevated",
@@ -43,6 +43,62 @@
     "fire_count_50km": 2
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-19T15:03:24.725113+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-19",
+      "high_f": 106,
+      "low_f": 86,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-07-19T05:34",
+      "sunset": "2026-07-19T19:54",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-07-20",
+      "high_f": 106,
+      "low_f": 83,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-07-20T05:35",
+      "sunset": "2026-07-20T19:53",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-07-21",
+      "high_f": 104,
+      "low_f": 85,
+      "rain_pct": 10,
+      "uv": 8,
+      "sunrise": "2026-07-21T05:36",
+      "sunset": "2026-07-21T19:52",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-07-22",
+      "high_f": 108,
+      "low_f": 86,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-07-22T05:37",
+      "sunset": "2026-07-22T19:52",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-07-23",
+      "high_f": 110,
+      "low_f": 90,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-07-23T05:37",
+      "sunset": "2026-07-23T19:51",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    }
+  ],
+  "updated_at": "2026-07-19T15:34:17.869028+00:00"
 }

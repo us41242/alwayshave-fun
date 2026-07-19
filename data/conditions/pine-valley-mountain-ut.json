@@ -17,21 +17,23 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 81,
-    "feels_like_f": 82,
-    "wind_mph": 8,
-    "gusts_mph": 11,
-    "rain_pct": 9
+    "temp_f": 82,
+    "feels_like_f": 84,
+    "wind_mph": 6,
+    "gusts_mph": 7,
+    "rain_pct": 11
   },
   "sunrise": "2026-07-19T06:28",
   "sunset": "2026-07-19T20:52",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 58,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -44,13 +46,13 @@
   "forecast": [
     {
       "date": "2026-07-19",
-      "high_f": 81,
+      "high_f": 82,
       "low_f": 64,
       "rain_pct": 33,
       "uv": 9,
       "sunrise": "2026-07-19T06:28",
       "sunset": "2026-07-19T20:52",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-07-20T06:29",
       "sunset": "2026-07-20T20:51",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -72,8 +74,8 @@
       "uv": 6,
       "sunrise": "2026-07-21T06:29",
       "sunset": "2026-07-21T20:51",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-22",
@@ -83,7 +85,7 @@
       "uv": 7,
       "sunrise": "2026-07-22T06:30",
       "sunset": "2026-07-22T20:50",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-23T06:31",
       "sunset": "2026-07-23T20:49",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-19T20:09:54.475144+00:00"
+  "updated_at": "2026-07-19T20:39:46.876004+00:00"
 }

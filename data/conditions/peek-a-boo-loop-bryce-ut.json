@@ -17,21 +17,23 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 79,
-    "feels_like_f": 77,
-    "wind_mph": 10,
+    "feels_like_f": 78,
+    "wind_mph": 9,
     "gusts_mph": 10,
-    "rain_pct": 12
+    "rain_pct": 17
   },
   "sunrise": "2026-07-19T06:22",
   "sunset": "2026-07-19T20:47",
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
+    "aqi": 58,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -44,14 +46,14 @@
   "forecast": [
     {
       "date": "2026-07-19",
-      "high_f": 80,
+      "high_f": 79,
       "low_f": 56,
       "rain_pct": 23,
       "uv": 9,
       "sunrise": "2026-07-19T06:22",
       "sunset": "2026-07-19T20:47",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-20",
@@ -61,8 +63,8 @@
       "uv": 9,
       "sunrise": "2026-07-20T06:23",
       "sunset": "2026-07-20T20:46",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-21",
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-07-21T06:24",
       "sunset": "2026-07-21T20:46",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-22T06:24",
       "sunset": "2026-07-22T20:45",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-23T06:25",
       "sunset": "2026-07-23T20:44",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-19T21:03:48.686601+00:00"
+  "updated_at": "2026-07-19T21:37:42.291416+00:00"
 }

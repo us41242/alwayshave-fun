@@ -17,28 +17,30 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 56,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 92,
-    "feels_like_f": 97,
+    "feels_like_f": 98,
     "wind_mph": 4,
-    "gusts_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 1
   },
   "sunrise": "2026-07-19T06:29",
   "sunset": "2026-07-19T20:52",
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 25.2,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -50,19 +52,19 @@
       "uv": 8,
       "sunrise": "2026-07-19T06:29",
       "sunset": "2026-07-19T20:52",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-20",
       "high_f": 101,
-      "low_f": 74,
+      "low_f": 75,
       "rain_pct": 8,
       "uv": 8,
       "sunrise": "2026-07-20T06:30",
       "sunset": "2026-07-20T20:51",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-21",
@@ -72,8 +74,8 @@
       "uv": 7,
       "sunrise": "2026-07-21T06:30",
       "sunset": "2026-07-21T20:51",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-22",
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-07-22T06:31",
       "sunset": "2026-07-22T20:50",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-23",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-23T06:32",
       "sunset": "2026-07-23T20:49",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-19T18:09:54.131446+00:00"
+  "updated_at": "2026-07-19T18:38:55.311875+00:00"
 }

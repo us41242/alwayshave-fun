@@ -17,23 +17,25 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 105,
     "feels_like_f": 103,
     "wind_mph": 15,
-    "gusts_mph": 18,
-    "rain_pct": 2
+    "gusts_mph": 19,
+    "rain_pct": 1
   },
   "sunrise": "2026-07-18T05:36",
   "sunset": "2026-07-18T19:54",
   "aqi": {
-    "aqi": 42,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 71,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,18 +52,18 @@
       "uv": 8,
       "sunrise": "2026-07-18T05:36",
       "sunset": "2026-07-18T19:54",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-19",
       "high_f": 111,
-      "low_f": 89,
-      "rain_pct": 4,
+      "low_f": 88,
+      "rain_pct": 7,
       "uv": 7,
       "sunrise": "2026-07-19T05:36",
       "sunset": "2026-07-19T19:53",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 6,
       "sunrise": "2026-07-20T05:37",
       "sunset": "2026-07-20T19:53",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-21T05:38",
       "sunset": "2026-07-21T19:52",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-22T05:38",
       "sunset": "2026-07-22T19:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-19T01:09:16.561038+00:00"
+  "updated_at": "2026-07-19T01:38:04.776663+00:00"
 }

@@ -17,20 +17,20 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 80,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 69,
-    "wind_mph": 6,
-    "gusts_mph": 7,
-    "rain_pct": 0
+    "temp_f": 76,
+    "feels_like_f": 77,
+    "wind_mph": 5,
+    "gusts_mph": 6,
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-19T06:28",
+  "sunset": "2026-07-19T20:52",
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-19T16:10:27.008630+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-19",
+      "high_f": 84,
+      "low_f": 64,
+      "rain_pct": 35,
+      "uv": 8,
+      "sunrise": "2026-07-19T06:28",
+      "sunset": "2026-07-19T20:52",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-20",
+      "high_f": 85,
+      "low_f": 64,
+      "rain_pct": 34,
+      "uv": 8,
+      "sunrise": "2026-07-20T06:29",
+      "sunset": "2026-07-20T20:51",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-21",
+      "high_f": 84,
+      "low_f": 64,
+      "rain_pct": 62,
+      "uv": 8,
+      "sunrise": "2026-07-21T06:29",
+      "sunset": "2026-07-21T20:51",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-22",
+      "high_f": 82,
+      "low_f": 63,
+      "rain_pct": 60,
+      "uv": 8,
+      "sunrise": "2026-07-22T06:30",
+      "sunset": "2026-07-22T20:50",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-23",
+      "high_f": 86,
+      "low_f": 69,
+      "rain_pct": 41,
+      "uv": 8,
+      "sunrise": "2026-07-23T06:31",
+      "sunset": "2026-07-23T20:49",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-19T16:38:52.701069+00:00"
 }

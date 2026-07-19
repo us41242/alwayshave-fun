@@ -21,19 +21,19 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 73,
-    "wind_mph": 4,
-    "gusts_mph": 10,
-    "rain_pct": 27
+    "temp_f": 67,
+    "feels_like_f": 64,
+    "wind_mph": 11,
+    "gusts_mph": 19,
+    "rain_pct": 14
   },
   "sunrise": "2026-07-18T06:25",
   "sunset": "2026-07-18T20:50",
   "aqi": {
-    "aqi": 46,
+    "aqi": 45,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8110,
+    "cfs": 8350,
     "stage": "flood"
   },
   "forecast": [
@@ -49,7 +49,7 @@
       "date": "2026-07-18",
       "high_f": 87,
       "low_f": 62,
-      "rain_pct": 42,
+      "rain_pct": 44,
       "uv": 7,
       "sunrise": "2026-07-18T06:25",
       "sunset": "2026-07-18T20:50",
@@ -58,9 +58,9 @@
     },
     {
       "date": "2026-07-19",
-      "high_f": 85,
+      "high_f": 83,
       "low_f": 64,
-      "rain_pct": 31,
+      "rain_pct": 33,
       "uv": 8,
       "sunrise": "2026-07-19T06:26",
       "sunset": "2026-07-19T20:50",
@@ -71,7 +71,7 @@
       "date": "2026-07-20",
       "high_f": 86,
       "low_f": 61,
-      "rain_pct": 59,
+      "rain_pct": 58,
       "uv": 9,
       "sunrise": "2026-07-20T06:26",
       "sunset": "2026-07-20T20:49",
@@ -82,7 +82,7 @@
       "date": "2026-07-21",
       "high_f": 82,
       "low_f": 67,
-      "rain_pct": 73,
+      "rain_pct": 74,
       "uv": 8,
       "sunrise": "2026-07-21T06:27",
       "sunset": "2026-07-21T20:48",
@@ -93,7 +93,7 @@
       "date": "2026-07-22",
       "high_f": 79,
       "low_f": 65,
-      "rain_pct": 68,
+      "rain_pct": 77,
       "uv": 8,
       "sunrise": "2026-07-22T06:28",
       "sunset": "2026-07-22T20:48",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-19T02:33:52.178510+00:00"
+  "updated_at": "2026-07-19T03:15:28.056975+00:00"
 }

@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 69,
-    "feels_like_f": 69,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "temp_f": 71,
+    "feels_like_f": 72,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 3
   },
   "sunrise": "2026-07-20T06:26",
@@ -40,7 +40,10 @@
     "nearest_fire_km": 168.4,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 6210,
+    "stage": "flood"
+  },
   "forecast": [
     {
       "date": "2026-07-20",
@@ -57,7 +60,7 @@
       "date": "2026-07-21",
       "high_f": 87,
       "low_f": 64,
-      "rain_pct": 42,
+      "rain_pct": 38,
       "uv": 7,
       "sunrise": "2026-07-21T06:27",
       "sunset": "2026-07-21T20:48",
@@ -68,7 +71,7 @@
       "date": "2026-07-22",
       "high_f": 85,
       "low_f": 64,
-      "rain_pct": 80,
+      "rain_pct": 86,
       "uv": 8,
       "sunrise": "2026-07-22T06:28",
       "sunset": "2026-07-22T20:48",
@@ -79,7 +82,7 @@
       "date": "2026-07-23",
       "high_f": 88,
       "low_f": 70,
-      "rain_pct": 48,
+      "rain_pct": 33,
       "uv": 9,
       "sunrise": "2026-07-23T06:29",
       "sunset": "2026-07-23T20:47",
@@ -90,7 +93,7 @@
       "date": "2026-07-24",
       "high_f": 90,
       "low_f": 71,
-      "rain_pct": 47,
+      "rain_pct": 28,
       "uv": 9,
       "sunrise": "2026-07-24T06:29",
       "sunset": "2026-07-24T20:46",
@@ -98,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-20T14:38:29.272567+00:00"
+  "updated_at": "2026-07-20T15:05:23.575462+00:00"
 }

@@ -17,15 +17,15 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
     "temp_f": 40,
     "feels_like_f": 32,
-    "wind_mph": 10,
+    "wind_mph": 11,
     "gusts_mph": 16,
     "rain_pct": 1
   },
@@ -42,7 +42,10 @@
     "nearest_fire_km": 241.2,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 34,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-07-20",
@@ -70,7 +73,7 @@
       "date": "2026-07-22",
       "high_f": 49,
       "low_f": 31,
-      "rain_pct": 73,
+      "rain_pct": 66,
       "uv": 7,
       "sunrise": "2026-07-22T05:51",
       "sunset": "2026-07-22T20:07",
@@ -81,7 +84,7 @@
       "date": "2026-07-23",
       "high_f": 56,
       "low_f": 35,
-      "rain_pct": 17,
+      "rain_pct": 13,
       "uv": 9,
       "sunrise": "2026-07-23T05:52",
       "sunset": "2026-07-23T20:06",
@@ -92,7 +95,7 @@
       "date": "2026-07-24",
       "high_f": 58,
       "low_f": 39,
-      "rain_pct": 27,
+      "rain_pct": 20,
       "uv": 9,
       "sunrise": "2026-07-24T05:53",
       "sunset": "2026-07-24T20:06",
@@ -100,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-20T14:46:15.815590+00:00"
+  "updated_at": "2026-07-20T15:11:05.064917+00:00"
 }

@@ -21,6 +21,7 @@ from datetime import datetime, timezone
 
 BASE_URL  = "https://alwayshave.fun"
 DATA_DIR  = "data/conditions"
+CLIMATE_DIR = "data/climate"
 TMPL_PATH = "trail.html"
 OUT_DIR   = "generated"
 ARTICLES_DIR = "articles"
@@ -448,7 +449,40 @@ def inject_body(html, d, m, siblings):
                         f'<a href="/{state_lc}" style="color:var(--brand);font-weight:600">All {state_nm} trail conditions →</a></p>'
                         f'</div>\n\n    ')
 
-    rep('<!-- ACTION LINKS -->', faq_card + related_card + '<!-- ACTION LINKS -->', 'faq/related insert')
+    # ── Typical weather by month (10-yr normals; targets "{trail} weather in
+    #     {month}" / "best time to hike {trail}" queries) ──
+    climate_card = ''
+    cpath = os.path.join(CLIMATE_DIR, f"{slug}.json")
+    if os.path.exists(cpath):
+        with open(cpath) as cf:
+            clim = json.load(cf)
+        month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+                       'August', 'September', 'October', 'November', 'December']
+        rows = ''.join(
+            f'<tr><td style="padding:0.3rem 0.5rem">{month_names[r["month"] - 1]}</td>'
+            f'<td style="padding:0.3rem 0.5rem;text-align:right">{r["avg_high_f"]}°F</td>'
+            f'<td style="padding:0.3rem 0.5rem;text-align:right">{r["avg_low_f"]}°F</td>'
+            f'<td style="padding:0.3rem 0.5rem;text-align:right">{r["wet_days"]}</td></tr>'
+            for r in clim.get("months", [])
+        )
+        best = (f'<p style="font-size:0.9rem;line-height:1.6;margin-bottom:0.6rem">'
+                f'Best months to hike {name}: <strong>{esc(d["best_months"])}</strong>.</p>'
+                if d.get("best_months") else '')
+        climate_card = (
+            f'<div class="card" id="climate-card">'
+            f'<div class="card-title">Typical Weather by Month at {name}</div>{best}'
+            f'<table style="width:100%;border-collapse:collapse;font-size:0.9rem">'
+            f'<thead><tr style="color:var(--text-muted);text-align:right">'
+            f'<th style="padding:0.3rem 0.5rem;text-align:left">Month</th>'
+            f'<th style="padding:0.3rem 0.5rem">Avg High</th>'
+            f'<th style="padding:0.3rem 0.5rem">Avg Low</th>'
+            f'<th style="padding:0.3rem 0.5rem">Wet Days</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table>'
+            f'<p style="margin-top:0.6rem;font-size:0.8rem;color:var(--text-muted)">'
+            f'{esc(clim.get("source", ""))}. Historical averages — check the live '
+            f'forecast above before you go.</p></div>\n\n    ')
+
+    rep('<!-- ACTION LINKS -->', faq_card + climate_card + related_card + '<!-- ACTION LINKS -->', 'faq/related insert')
 
     # ── Persona article link (crawlable; JS skips insertion when #jakes-take exists) ──
     if os.path.exists(os.path.join(ARTICLES_DIR, f"{slug}.html")):

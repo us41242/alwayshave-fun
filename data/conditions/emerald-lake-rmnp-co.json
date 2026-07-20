@@ -17,20 +17,20 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 59,
-    "feels_like_f": 52,
-    "wind_mph": 7,
-    "gusts_mph": 6,
+    "temp_f": 58,
+    "feels_like_f": 50,
+    "wind_mph": 12,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-20T05:49",
+  "sunset": "2026-07-20T20:28",
   "aqi": {
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-20T08:42:41.568312+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-20",
+      "high_f": 74,
+      "low_f": 58,
+      "rain_pct": 24,
+      "uv": 6,
+      "sunrise": "2026-07-20T05:49",
+      "sunset": "2026-07-20T20:28",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-21",
+      "high_f": 70,
+      "low_f": 55,
+      "rain_pct": 45,
+      "uv": 8,
+      "sunrise": "2026-07-21T05:50",
+      "sunset": "2026-07-21T20:27",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-22",
+      "high_f": 73,
+      "low_f": 50,
+      "rain_pct": 94,
+      "uv": 6,
+      "sunrise": "2026-07-22T05:51",
+      "sunset": "2026-07-22T20:26",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-23",
+      "high_f": 67,
+      "low_f": 48,
+      "rain_pct": 92,
+      "uv": 7,
+      "sunrise": "2026-07-23T05:52",
+      "sunset": "2026-07-23T20:25",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-24",
+      "high_f": 80,
+      "low_f": 50,
+      "rain_pct": 69,
+      "uv": 9,
+      "sunrise": "2026-07-24T05:53",
+      "sunset": "2026-07-24T20:24",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-20T09:14:40.563635+00:00"
 }

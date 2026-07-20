@@ -32,8 +32,8 @@
   "aqi": {
     "aqi": 33,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -58,7 +58,7 @@
       "high_f": 88,
       "low_f": 70,
       "rain_pct": 33,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-07-21T06:28",
       "sunset": "2026-07-21T20:48",
       "predicted_score": 70,
@@ -66,8 +66,8 @@
     },
     {
       "date": "2026-07-22",
-      "high_f": 88,
-      "low_f": 72,
+      "high_f": 90,
+      "low_f": 71,
       "rain_pct": 58,
       "uv": 8,
       "sunrise": "2026-07-22T06:28",
@@ -88,7 +88,7 @@
     },
     {
       "date": "2026-07-24",
-      "high_f": 96,
+      "high_f": 97,
       "low_f": 77,
       "rain_pct": 31,
       "uv": 9,
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-20T11:32:06.175065+00:00"
+  "updated_at": "2026-07-20T12:01:26.306174+00:00"
 }

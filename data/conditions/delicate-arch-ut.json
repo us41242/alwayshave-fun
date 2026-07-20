@@ -23,26 +23,82 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 98,
+    "temp_f": 100,
     "feels_like_f": 102,
-    "wind_mph": 4,
-    "gusts_mph": 5,
-    "rain_pct": 1
+    "wind_mph": 5,
+    "gusts_mph": 6,
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-20T06:09",
+  "sunset": "2026-07-20T20:39",
   "aqi": {
-    "aqi": 74,
+    "aqi": 87,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 176.8,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-20T20:15:55.279141+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-20",
+      "high_f": 102,
+      "low_f": 75,
+      "rain_pct": 17,
+      "uv": 9,
+      "sunrise": "2026-07-20T06:09",
+      "sunset": "2026-07-20T20:39",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-21",
+      "high_f": 104,
+      "low_f": 72,
+      "rain_pct": 20,
+      "uv": 9,
+      "sunrise": "2026-07-21T06:10",
+      "sunset": "2026-07-21T20:38",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-22",
+      "high_f": 93,
+      "low_f": 72,
+      "rain_pct": 51,
+      "uv": 8,
+      "sunrise": "2026-07-22T06:11",
+      "sunset": "2026-07-22T20:37",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-23",
+      "high_f": 98,
+      "low_f": 72,
+      "rain_pct": 51,
+      "uv": 9,
+      "sunrise": "2026-07-23T06:12",
+      "sunset": "2026-07-23T20:36",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-24",
+      "high_f": 103,
+      "low_f": 77,
+      "rain_pct": 10,
+      "uv": 9,
+      "sunrise": "2026-07-24T06:12",
+      "sunset": "2026-07-24T20:36",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-20T20:46:19.332012+00:00"
 }

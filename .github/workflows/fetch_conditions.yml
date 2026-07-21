@@ -58,8 +58,8 @@ jobs:
 
       - name: Commit and push data
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Joshua Drake"
+          git config user.email "us41242@gmail.com"
           git add data/ site/ generated/ articles/index.html index.html
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "data: update trail conditions $(date -u +%Y-%m-%dT%H:%M:%SZ)"

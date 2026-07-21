@@ -17,43 +17,47 @@
   "notes": "No permit required to the lake (only for full Whitney summit); snow patches above 9500 ft until mid-June; dogs legal in Inyo NF section",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 66,
+  "score_label": "Use caution",
   "gear_flags": [
-    "N95 mask recommended"
+    "N95 mask recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 58,
     "feels_like_f": 55,
     "wind_mph": 4,
-    "gusts_mph": 6,
+    "gusts_mph": 7,
     "rain_pct": 1
   },
   "sunrise": "2026-07-21T05:50",
   "sunset": "2026-07-21T20:07",
   "aqi": {
-    "aqi": 118,
+    "aqi": 108,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 1168.3,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 38.7,
+    "fire_count_50km": 17
   },
-  "river": null,
+  "river": {
+    "cfs": 34,
+    "stage": "low"
+  },
   "forecast": [
     {
       "date": "2026-07-21",
       "high_f": 70,
       "low_f": 57,
-      "rain_pct": 43,
+      "rain_pct": 41,
       "uv": 7,
       "sunrise": "2026-07-21T05:50",
       "sunset": "2026-07-21T20:07",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-22",
@@ -63,8 +67,8 @@
       "uv": 8,
       "sunrise": "2026-07-22T05:51",
       "sunset": "2026-07-22T20:07",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-23",
@@ -74,7 +78,7 @@
       "uv": 9,
       "sunrise": "2026-07-23T05:52",
       "sunset": "2026-07-23T20:06",
-      "predicted_score": 68,
+      "predicted_score": 54,
       "score_label": "Use caution"
     },
     {
@@ -85,8 +89,8 @@
       "uv": 8,
       "sunrise": "2026-07-24T05:53",
       "sunset": "2026-07-24T20:05",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-25",
@@ -96,9 +100,9 @@
       "uv": 9,
       "sunrise": "2026-07-25T05:53",
       "sunset": "2026-07-25T20:05",
-      "predicted_score": 68,
+      "predicted_score": 54,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-21T09:47:15.445307+00:00"
+  "updated_at": "2026-07-21T10:13:06.450685+00:00"
 }

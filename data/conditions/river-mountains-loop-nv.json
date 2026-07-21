@@ -21,16 +21,16 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 104,
-    "feels_like_f": 99,
-    "wind_mph": 16,
-    "gusts_mph": 18,
-    "rain_pct": 4
+    "temp_f": 102,
+    "feels_like_f": 98,
+    "wind_mph": 12,
+    "gusts_mph": 13,
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-20T05:38",
+  "sunset": "2026-07-20T19:53",
   "aqi": {
-    "aqi": 49,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-21T00:05:55.586706+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-20",
+      "high_f": 104,
+      "low_f": 84,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-07-20T05:38",
+      "sunset": "2026-07-20T19:53",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-21",
+      "high_f": 99,
+      "low_f": 82,
+      "rain_pct": 8,
+      "uv": 6,
+      "sunrise": "2026-07-21T05:38",
+      "sunset": "2026-07-21T19:53",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-22",
+      "high_f": 104,
+      "low_f": 78,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-07-22T05:39",
+      "sunset": "2026-07-22T19:52",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-23",
+      "high_f": 108,
+      "low_f": 87,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-07-23T05:40",
+      "sunset": "2026-07-23T19:51",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-24",
+      "high_f": 110,
+      "low_f": 90,
+      "rain_pct": 13,
+      "uv": 8,
+      "sunrise": "2026-07-24T05:41",
+      "sunset": "2026-07-24T19:51",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-21T00:38:09.019629+00:00"
 }

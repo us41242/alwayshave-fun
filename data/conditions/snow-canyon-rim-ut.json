@@ -17,21 +17,23 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 95,
-    "feels_like_f": 97,
+    "temp_f": 93,
+    "feels_like_f": 93,
     "wind_mph": 5,
-    "gusts_mph": 6,
-    "rain_pct": 5
+    "gusts_mph": 7,
+    "rain_pct": 4
   },
   "sunrise": "2026-07-21T06:30",
   "sunset": "2026-07-21T20:51",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -44,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-07-21",
-      "high_f": 96,
+      "high_f": 94,
       "low_f": 79,
       "rain_pct": 26,
       "uv": 8,
@@ -56,12 +58,12 @@
     {
       "date": "2026-07-22",
       "high_f": 99,
-      "low_f": 78,
+      "low_f": 76,
       "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-07-22T06:31",
       "sunset": "2026-07-22T20:50",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,18 +74,18 @@
       "uv": 8,
       "sunrise": "2026-07-23T06:32",
       "sunset": "2026-07-23T20:49",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-24",
-      "high_f": 105,
-      "low_f": 85,
+      "high_f": 106,
+      "low_f": 86,
       "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-07-24T06:33",
       "sunset": "2026-07-24T20:48",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-25T06:34",
       "sunset": "2026-07-25T20:48",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-21T23:08:03.470282+00:00"
+  "updated_at": "2026-07-21T23:39:36.367216+00:00"
 }

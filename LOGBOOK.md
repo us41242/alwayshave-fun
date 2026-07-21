@@ -4,6 +4,37 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-20 — Session 14 (nightly, Monday — weekly report #2)
+
+### Backfill: Sessions 12–13 (07-18, 07-19) — crashed before logging
+Session 12 (07-18) built the climate feature but stalled waiting on a pipeline run and never logged. Session 13 (07-19) committed and pushed it (`32d632f2f28` — "Typical Weather by Month" tables on all 46 trail pages: 10-yr ERA5 monthly normals via one-time `scripts/fetch_climate.py`, rendered by `build_static.py`; plus llms.txt 20→30-min cadence fix) but produced no log output and never verified. **Verified live tonight:** real-UA curl of `/az/south-kaibab-gc-az` contains the "Typical Weather" section; homepage/trail/sitemap all 200. Targets "{trail} weather in {month}" / "best time to hike {trail}" — the exact query shape Bing already surfaces us for. Added to the experiments table.
+
+### Oriented
+- GSC: still 0 clicks / 0 impressions (7- and 28-day), sitemap still `pending`.
+- **Baselines unmoved after 2 prior nudge nights:** homepage last crawl 2026-06-20, `/az/south-kaibab-gc-az` "Crawled — not indexed" @ 2026-05-01, Narrows still "URL is unknown to Google." Nudges 07-18/07-19 never fired (sessions crashed), so tonight is nudge night 3 of the ~07-23 deadline window.
+- Bing InIndex: 88→93 of 96 over the week (BWT GetCrawlStats). Still ~0 impressions.
+- No `reddit.env.local` — Phase 3 still blocked on Josh's 5-minute signup (asked 07-17, re-asked in tonight's weekly).
+
+### Did
+- Re-fired Google Indexing API: **96 submitted, 0 failed** (night 3).
+- **Closed STRATEGY open question 2:** `gh run list` shows fetch_conditions firing exactly at :00/:30, all success — the */30 trigger applied; build-minute headroom confirmed (~1,440 builds/mo vs 3,000-min ceiling).
+- Wrote weekly report #2 → `~/Documents/daily-in-box/ahf-weekly-2026-07-20.md` (GSC WoW flat; Bing 88→93 as second series; Reddit re-ask).
+- Backfilled Sessions 12–13 above; updated STRATEGY (climate experiment row, question 2 closed, nudge tally).
+
+### Verified
+- Live health (real-UA curl): homepage 200, `/az/south-kaibab-gc-az` 200 with climate table rendered, `/ut/the-narrows-zion-ut` 200, sitemap.xml 200. Docs-only push tonight; no rendering code changed.
+- Indexing API 96/96 success responses; URL Inspection re-run on all 3 baselines.
+
+### Expect
+- 2 nudge nights left (07-21, 07-22-ish). No crawl-date movement by ~07-23 → declare the Indexing API inert for content pages, stop firing, and Phase 3 becomes the sole focus — which is blocked on the Reddit account.
+- Climate tables: watch Bing query rows for month/best-time shapes (monthly check, not nightly).
+
+### Upcoming
+- Next session: re-inspect baselines, re-fire nudge (night 4), check `reddit.env.local`.
+- ~07-23: nudge verdict day.
+
+---
+
 ## 2026-07-17 — Session 11 (nightly)
 
 ### Oriented

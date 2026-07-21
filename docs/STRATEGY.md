@@ -53,6 +53,7 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 | Homepage footer → /ca /co /dog-friendly static links | 2026-07-10 | state pages discovered | same |
 | Static trail→article links (46/46, persona-correct) | 2026-07-11 | articles discovered & indexed via trail pages; article impressions | same |
 | Server-rendered homepage trail grid (46 static links) | 2026-07-14 | next homepage crawl discovers all trails in 1 hop; sampled trails leave "URL unknown to Google" | weekly; kill-or-revise 2026-08-01 |
+| "Typical Weather by Month" climate tables (46/46 trails, ERA5 10-yr normals) | 2026-07-19 | Bing/Google long-tail impressions on "{trail} weather in {month}" / "best time to hike {trail}" | monthly; kill-or-revise 2026-09-01 |
 
 Target query shapes (all served by trail pages already): "is {trail} open", "{trail} weather", "{trail} conditions", "{trail} AQI/air quality", "are dogs allowed {trail}", "best time to hike {trail}".
 
@@ -75,9 +76,9 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 
 ## Open questions / next session
 
-0. **Indexing-API crawl-nudge: unblocked 2026-07-15 (Josh), fired 07-16 and 07-17** — all 96 URLs both nights via `scripts/request_indexing.py` (quota 200/day). As of 07-17 no crawl-date movement yet (homepage 06-20, South Kaibab 05-01, Narrows unknown). Keep re-firing nightly through ~07-23; if no crawl date moves by then, declare the lever inert for content pages and stop.
+0. **Indexing-API crawl-nudge: fired 07-16, 07-17, 07-20 (nights 3/… of the window; 07-18/19 sessions crashed before firing)** — all 96 URLs each night via `scripts/request_indexing.py`, 96/96 accepted every time. As of 07-20 zero crawl-date movement (homepage 06-20, South Kaibab 05-01, Narrows unknown). Keep re-firing nightly through ~07-23; if no crawl date moves by then, declare the lever inert for content pages and stop.
 
 1. Weekly GSC check: re-inspect the sampled URLs via URL Inspection API, watch `last_crawl_time` on the homepage and on /az/south-kaibab-gc-az (still 2026-05-01 as of 07-14 — Google has not recrawled trails since the 07-10 fix). GSC still 0 clicks / 0 impressions through 07-11. **Discovery bottleneck found 07-14: homepage grid was JS-only → no static trail links → deep pages never discovered. Fixed (server-rendered grid). If the next homepage crawl still doesn't propagate to trails, crawl budget (zero backlinks) is the binding constraint → prioritize Phase 3.**
-2. Confirm the worker cron actually fires at :00/:30 now (watch Actions run timestamps; deployed 2026-07-11 ~04:40Z). If runs still land at :20/:40, the trigger didn't apply — investigate.
+2. ~~Confirm the worker cron fires at :00/:30~~ **Closed 2026-07-20:** `gh run list` shows fetch_conditions starting at :00/:30 exactly, all success — trigger applied, ~1,440 builds/mo, ~2× headroom.
 3. Phase 3 groundwork: pick 1–2 communities, read norms first, participate before ever linking.
 4. Asked Josh (non-blocking, 2026-07-11): widen CF API token to read Workers Builds for the main account so build-minute usage can be verified directly.

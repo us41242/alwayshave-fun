@@ -17,27 +17,27 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 66,
+    "temp_f": 67,
     "feels_like_f": 66,
-    "wind_mph": 3,
-    "gusts_mph": 3,
-    "rain_pct": 11
+    "wind_mph": 6,
+    "gusts_mph": 6,
+    "rain_pct": 4
   },
   "sunrise": "2026-07-22T06:24",
   "sunset": "2026-07-22T20:45",
   "aqi": {
-    "aqi": 31,
+    "aqi": 33,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 282.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -46,7 +46,7 @@
       "date": "2026-07-22",
       "high_f": 74,
       "low_f": 56,
-      "rain_pct": 34,
+      "rain_pct": 40,
       "uv": 8,
       "sunrise": "2026-07-22T06:24",
       "sunset": "2026-07-22T20:45",
@@ -57,7 +57,7 @@
       "date": "2026-07-23",
       "high_f": 82,
       "low_f": 56,
-      "rain_pct": 18,
+      "rain_pct": 17,
       "uv": 9,
       "sunrise": "2026-07-23T06:25",
       "sunset": "2026-07-23T20:44",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-22T16:02:34.391895+00:00"
+  "updated_at": "2026-07-22T16:33:26.846329+00:00"
 }

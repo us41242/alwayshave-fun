@@ -17,34 +17,35 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 26,
+  "score_label": "Stay home",
   "gear_flags": [
     "insulation layer required",
-    "mask for sensitive groups"
+    "N95 mask recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 34,
+    "temp_f": 33,
     "feels_like_f": 26,
     "wind_mph": 6,
     "gusts_mph": 8,
-    "rain_pct": 1
+    "rain_pct": 0
   },
   "sunrise": "2026-07-22T05:51",
   "sunset": "2026-07-22T20:07",
   "aqi": {
-    "aqi": 67,
-    "category": "Moderate",
+    "aqi": 105,
+    "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 41.0,
+    "fire_count_50km": 22
   },
   "river": {
-    "cfs": 35,
+    "cfs": 38,
     "stage": "low"
   },
   "forecast": [
@@ -52,12 +53,12 @@
       "date": "2026-07-22",
       "high_f": 47,
       "low_f": 32,
-      "rain_pct": 30,
+      "rain_pct": 29,
       "uv": 7,
       "sunrise": "2026-07-22T05:51",
       "sunset": "2026-07-22T20:07",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 54,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-23",
@@ -67,8 +68,8 @@
       "uv": 9,
       "sunrise": "2026-07-23T05:52",
       "sunset": "2026-07-23T20:06",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 54,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-24",
@@ -78,8 +79,8 @@
       "uv": 6,
       "sunrise": "2026-07-24T05:53",
       "sunset": "2026-07-24T20:06",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-25",
@@ -89,8 +90,8 @@
       "uv": 9,
       "sunrise": "2026-07-25T05:54",
       "sunset": "2026-07-25T20:05",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-26",
@@ -100,9 +101,9 @@
       "uv": 9,
       "sunrise": "2026-07-26T05:54",
       "sunset": "2026-07-26T20:04",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 66,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-22T10:43:46.529019+00:00"
+  "updated_at": "2026-07-22T11:12:45.178837+00:00"
 }

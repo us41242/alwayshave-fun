@@ -17,23 +17,23 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 88,
-    "wind_mph": 2,
+    "temp_f": 85,
+    "feels_like_f": 90,
+    "wind_mph": 3,
     "gusts_mph": 7,
-    "rain_pct": 11
+    "rain_pct": 7
   },
   "sunrise": "2026-07-22T06:28",
   "sunset": "2026-07-22T20:47",
   "aqi": {
     "aqi": 39,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7250,
+    "cfs": 7700,
     "stage": "flood"
   },
   "forecast": [
@@ -49,7 +49,7 @@
       "date": "2026-07-22",
       "high_f": 87,
       "low_f": 70,
-      "rain_pct": 33,
+      "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-07-22T06:28",
       "sunset": "2026-07-22T20:47",
@@ -60,7 +60,7 @@
       "date": "2026-07-23",
       "high_f": 96,
       "low_f": 70,
-      "rain_pct": 9,
+      "rain_pct": 8,
       "uv": 9,
       "sunrise": "2026-07-23T06:29",
       "sunset": "2026-07-23T20:47",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-22T17:01:51.258621+00:00"
+  "updated_at": "2026-07-22T17:32:46.664047+00:00"
 }

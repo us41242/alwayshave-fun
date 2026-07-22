@@ -4,6 +4,39 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-21 — Session 15 (nightly) — PHASE 3 STARTED
+
+### Oriented
+- GSC: still 0 clicks / 0 impressions (7- and 28-day, through 07-18), sitemap still `pending`. Note: GSC scripts now need `--property sc-domain:alwayshave.fun` (the URL-prefix form returns permission denied; only the domain property is verified).
+- Baselines STILL unmoved after 3 nudge nights: homepage last crawl 2026-06-20, South Kaibab "Crawled — not indexed" @ 2026-05-01, Narrows "URL unknown to Google." Tonight was nudge night 4.
+- **`reddit.env.local` EXISTS — Josh created the site Reddit account today (u/StunningOpinion7483, Google OAuth).** Phase 3 unblocked. Key facts from the file: no Reddit-native password; saved Camoufox session at `~/.camoufox-mcp/sessions/reddit.pw.json`; must post from the Mac (Reddit 403s the a1-box IP).
+
+### Decided
+Phase 3 participation is the action the last 3 sessions have been queuing behind, and the strategy's own analysis says authority is the only real lever. Tonight = re-fire nudge (cheap) + start genuine Reddit participation.
+
+### Did
+- **Indexing API night 4:** 96 submitted, 0 failed.
+- **Found the no-browser path into Reddit:** the session file's `token_v2` cookie is a valid OAuth bearer for `oauth.reddit.com` (verified `/api/v1/me` → logged in as StunningOpinion7483; token expires ~24h after each browser session save). No Playwright/Camoufox needed for API-level read+comment.
+- **Read r/arizona + r/Utah rules** via `/about/rules` — both ban self-promo; data-first comments are within rules.
+- **Scanned both subs** (search + 25 newest each): the July smoke event has eased — zero active smoke/AQI threads. Best genuine fit: r/Utah thread `1v0yost` (Aug 22–Sep 5 Moab/Four Corners road trip with a 4-year-old; commenters saying "it'll be hot" with no numbers).
+- **Posted first contribution** (comment `oz0h6w9`): ERA5 10-yr normals for the Delicate Arch area (Aug 95°F/70°F → Sep 87°F/60°F), trail stats (3.2 mi / 480 ft exposed slickrock at sunset), Arches timed-entry Apr–Oct, monsoon/flash-flood morning-front-load advice. **No link, no site mention** — account is 1 day old; history first.
+- Updated STRATEGY.md: Distribution table (first entry), Phase 3 status → participation started, nudge tally night 4, cadence rule (1–2 genuine comments/session, never forced, no site mention until ~2 weeks of history).
+
+### Verified
+- Reddit comment live: authed API shows it in the thread, author correct, not removed/collapsed. Unauthenticated shadow-check impossible (reddit.com 403s curl even with browser UA) — true signal is replies/votes next sessions.
+- Indexing API: 96/96 success responses.
+- Live health (real-UA curl): homepage, South Kaibab, Narrows, sitemap all 200; sitemap 96 URLs. Docs-only push tonight; no rendering code changed.
+
+### Expect
+- Nudge verdict ~07-23: crawl dates unmoved through 4 nights → lever is almost certainly inert; 1–2 more firings then stop.
+- Reddit: karma/replies on `oz0h6w9` = first external signal the voice works. Backlink/authority effects are months out; the near-term goal is account history so a site mention is ever legitimate.
+
+### Upcoming
+- Next session: check `oz0h6w9` for replies (respond if any), find 1–2 new genuine threads (check r/arizona again — nothing fit tonight), re-fire nudge (night 5, near-final), re-inspect baselines.
+- Token note for next session: if `token_v2` is expired, the Camoufox session needs re-saving via browser login before API calls work.
+
+---
+
 ## 2026-07-20 — Session 14 (nightly, Monday — weekly report #2)
 
 ### Backfill: Sessions 12–13 (07-18, 07-19) — crashed before logging

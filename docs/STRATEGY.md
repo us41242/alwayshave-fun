@@ -38,10 +38,10 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 2. **r/Utah** — Zion/Bryce/Narrows coverage; high volume; UT smoke active now.
 3. Later: r/Nevada, r/ColoradoHiking / r/hikingcolorado, r/CaliforniaHiking, r/hiking (~2M, strict self-promo — comment participation only), r/overlanding (overlander persona), niche r/AZhiking / r/utahhiking.
 
-**Next-session first steps:**
-1. ~~Create ONE site-owned Reddit account~~ **Blocked on Josh (2026-07-17):** Reddit signup = email verification + CAPTCHA, a human gate that must not be automated past (ban risk, hard rule 5). Asked Josh for the 5-minute manual creation (`daily-in-box/ahf-question-2026-07-17.md`, exact steps + credential drop location `~/Documents/Environmental Variables/reddit.env.local`). Once credentials appear: read sub rules from inside, participate data-first, log the account in the Distribution table below.
-2. Read the sidebar rules of r/arizona + r/Utah from inside the account.
-3. Find 2–3 current threads genuinely asking about conditions/smoke/"is X open"; answer with real timestamped data, no link. Build history before ever referencing the site.
+**Status (2026-07-21): PARTICIPATION STARTED.**
+1. ~~Create ONE site-owned Reddit account~~ **Done — Josh created it 2026-07-21** (see Distribution table). Login is Google OAuth via saved Camoufox session, but the `token_v2` cookie in the session file works directly as an OAuth bearer against `oauth.reddit.com` (refreshed by re-saving the browser session when it expires, ~24h). Posting MUST egress from the Mac (Reddit 403s the a1-box IP). Unauthenticated reddit.com fetches still 403 — shadow-removal can't be externally verified; watch replies/votes instead.
+2. ~~Read the sidebar rules of r/arizona + r/Utah~~ **Done 2026-07-21** via `/about/rules` API. Both ban self-promo/marketing; comment participation with data is safe. r/Utah wants details in questions; r/arizona bans low-effort/ads.
+3. First contribution made 2026-07-21: data-first comment (ERA5 climate normals, trail stats, timed-entry, monsoon caution — no link, no site mention) in the r/Utah Aug/Sep road-trip thread `1v0yost` (comment `oz0h6w9`, verified live+uncollapsed via authed API). July smoke event appears to have eased — no active smoke/conditions threads found in either sub this night; trip-planning threads are the current genuine-fit surface. **Cadence: 1–2 genuine comments per session where a real fit exists; never force one. No site mention until the account has real history (guideline: ~2 weeks + a dozen contributions + only when directly relevant/asked).**
 
 **Candidate durable asset (future, not built — YAGNI until participation proves demand):** a shareable per-trail "smoke check" view someone would naturally cite. Note only; do not build speculatively.
 
@@ -59,7 +59,9 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 
 ## Distribution accounts
 
-(none yet — log platform, handle, credential location for every account created)
+| Platform | Handle | Credential location | Notes |
+|---|---|---|---|
+| Reddit | u/StunningOpinion7483 | `~/Documents/Environmental Variables/reddit.env.local` (Google OAuth; Camoufox session at `~/.camoufox-mcp/sessions/reddit.pw.json` — its `token_v2` cookie = API bearer) | Created by Josh 2026-07-21. Post only from the Mac/home IP (a1-box IP is 403-blocked). First comment 2026-07-21 in r/Utah (`oz0h6w9`). |
 
 ## Free-services ledger
 
@@ -76,7 +78,7 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 
 ## Open questions / next session
 
-0. **Indexing-API crawl-nudge: fired 07-16, 07-17, 07-20 (nights 3/… of the window; 07-18/19 sessions crashed before firing)** — all 96 URLs each night via `scripts/request_indexing.py`, 96/96 accepted every time. As of 07-20 zero crawl-date movement (homepage 06-20, South Kaibab 05-01, Narrows unknown). Keep re-firing nightly through ~07-23; if no crawl date moves by then, declare the lever inert for content pages and stop.
+0. **Indexing-API crawl-nudge: fired 07-16, 07-17, 07-20, 07-21 (night 4)** — all 96 URLs each night via `scripts/request_indexing.py`, 96/96 accepted every time. As of 07-21 zero crawl-date movement (homepage 06-20, South Kaibab 05-01, Narrows unknown). One or two more nights through ~07-23; if no crawl date moves by then, declare the lever inert for content pages and stop firing.
 
 1. Weekly GSC check: re-inspect the sampled URLs via URL Inspection API, watch `last_crawl_time` on the homepage and on /az/south-kaibab-gc-az (still 2026-05-01 as of 07-14 — Google has not recrawled trails since the 07-10 fix). GSC still 0 clicks / 0 impressions through 07-11. **Discovery bottleneck found 07-14: homepage grid was JS-only → no static trail links → deep pages never discovered. Fixed (server-rendered grid). If the next homepage crawl still doesn't propagate to trails, crawl budget (zero backlinks) is the binding constraint → prioritize Phase 3.**
 2. ~~Confirm the worker cron fires at :00/:30~~ **Closed 2026-07-20:** `gh run list` shows fetch_conditions starting at :00/:30 exactly, all success — trigger applied, ~1,440 builds/mo, ~2× headroom.

@@ -17,12 +17,12 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 40,
+  "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {
-    "temp_f": 91,
-    "feels_like_f": 94,
+    "temp_f": 92,
+    "feels_like_f": 95,
     "wind_mph": 7,
     "gusts_mph": 8,
     "rain_pct": 1
@@ -30,18 +30,18 @@
   "sunrise": "2026-07-23T06:29",
   "sunset": "2026-07-23T20:47",
   "aqi": {
-    "aqi": 36,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 183.6,
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 57,
+    "cfs": 56,
     "stage": "low",
     "gauge_id": "09405500"
   },
@@ -54,19 +54,19 @@
       "uv": 9,
       "sunrise": "2026-07-23T06:29",
       "sunset": "2026-07-23T20:47",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-24",
       "high_f": 98,
       "low_f": 73,
-      "rain_pct": 18,
+      "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-07-24T06:30",
       "sunset": "2026-07-24T20:46",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-25",
@@ -76,8 +76,8 @@
       "uv": 9,
       "sunrise": "2026-07-25T06:31",
       "sunset": "2026-07-25T20:45",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-26",
@@ -87,8 +87,8 @@
       "uv": 9,
       "sunrise": "2026-07-26T06:31",
       "sunset": "2026-07-26T20:44",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-27",
@@ -98,9 +98,9 @@
       "uv": 8,
       "sunrise": "2026-07-27T06:32",
       "sunset": "2026-07-27T20:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-23T18:02:35.930138+00:00"
+  "updated_at": "2026-07-23T18:33:01.163357+00:00"
 }

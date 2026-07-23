@@ -17,18 +17,18 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 70,
-    "feels_like_f": 70,
-    "wind_mph": 1,
-    "gusts_mph": 2,
-    "rain_pct": 9
+    "feels_like_f": 67,
+    "wind_mph": 6,
+    "gusts_mph": 9,
+    "rain_pct": 12
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-22T06:30",
+  "sunset": "2026-07-22T20:50",
   "aqi": {
     "aqi": 43,
     "category": "Good",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-23T05:03:01.701696+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-22",
+      "high_f": 83,
+      "low_f": 64,
+      "rain_pct": 26,
+      "uv": 8,
+      "sunrise": "2026-07-22T06:30",
+      "sunset": "2026-07-22T20:50",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-23",
+      "high_f": 88,
+      "low_f": 66,
+      "rain_pct": 16,
+      "uv": 7,
+      "sunrise": "2026-07-23T06:31",
+      "sunset": "2026-07-23T20:49",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-24",
+      "high_f": 89,
+      "low_f": 70,
+      "rain_pct": 22,
+      "uv": 8,
+      "sunrise": "2026-07-24T06:32",
+      "sunset": "2026-07-24T20:48",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-25",
+      "high_f": 90,
+      "low_f": 71,
+      "rain_pct": 8,
+      "uv": 9,
+      "sunrise": "2026-07-25T06:33",
+      "sunset": "2026-07-25T20:48",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-26",
+      "high_f": 90,
+      "low_f": 73,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-07-26T06:33",
+      "sunset": "2026-07-26T20:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-07-23T05:18:26.024523+00:00"
 }

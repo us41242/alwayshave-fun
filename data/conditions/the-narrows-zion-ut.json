@@ -14,26 +14,26 @@
   "park_name": "Zion National Park",
   "alerts_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
   "status": "Open",
-  "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
+  "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 75,
+    "temp_f": 74,
     "feels_like_f": 76,
     "wind_mph": 4,
-    "gusts_mph": 4,
+    "gusts_mph": 3,
     "rain_pct": 12
   },
   "sunrise": "2026-07-22T06:28",
   "sunset": "2026-07-22T20:47",
   "aqi": {
-    "aqi": 44,
+    "aqi": 43,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -41,8 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8840,
-    "stage": "flood"
+    "cfs": 39,
+    "stage": "low",
+    "gauge_id": "09405500"
   },
   "forecast": [
     {
@@ -58,7 +59,7 @@
     },
     {
       "date": "2026-07-23",
-      "high_f": 97,
+      "high_f": 96,
       "low_f": 71,
       "rain_pct": 16,
       "uv": 8,
@@ -101,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-23T04:32:17.686017+00:00"
+  "updated_at": "2026-07-23T04:48:06.017800+00:00"
 }

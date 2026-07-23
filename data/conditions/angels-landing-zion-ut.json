@@ -23,35 +23,35 @@
   "current": {
     "temp_f": 73,
     "feels_like_f": 69,
-    "wind_mph": 9,
+    "wind_mph": 10,
     "gusts_mph": 11,
-    "rain_pct": 2
+    "rain_pct": 1
   },
   "sunrise": "2026-07-23T06:29",
   "sunset": "2026-07-23T20:47",
   "aqi": {
-    "aqi": 31,
+    "aqi": 37,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 186.1,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-23",
-      "high_f": 96,
+      "high_f": 95,
       "low_f": 72,
-      "rain_pct": 11,
+      "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-07-23T06:29",
       "sunset": "2026-07-23T20:47",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-24",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-23T09:01:29.024742+00:00"
+  "updated_at": "2026-07-23T09:31:21.641967+00:00"
 }

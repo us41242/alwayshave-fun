@@ -17,25 +17,25 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 46,
+  "score": 44,
   "score_label": "Conditions poor",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 75,
-    "feels_like_f": 82,
-    "wind_mph": 7,
+    "feels_like_f": 81,
+    "wind_mph": 8,
     "gusts_mph": 8,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-23T05:57",
+  "sunset": "2026-07-23T19:58",
   "aqi": {
-    "aqi": 35,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "elevated",
@@ -43,6 +43,62 @@
     "fire_count_50km": 2
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-23T23:14:26.407528+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-23",
+      "high_f": 77,
+      "low_f": 64,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-23T05:57",
+      "sunset": "2026-07-23T19:58",
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-24",
+      "high_f": 76,
+      "low_f": 66,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-24T05:58",
+      "sunset": "2026-07-24T19:57",
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-25",
+      "high_f": 89,
+      "low_f": 67,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-25T05:59",
+      "sunset": "2026-07-25T19:56",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-07-26",
+      "high_f": 85,
+      "low_f": 74,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-07-26T05:59",
+      "sunset": "2026-07-26T19:56",
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-27",
+      "high_f": 86,
+      "low_f": 73,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-27T06:00",
+      "sunset": "2026-07-27T19:55",
+      "predicted_score": 26,
+      "score_label": "Stay home"
+    }
+  ],
+  "updated_at": "2026-07-23T23:43:16.854805+00:00"
 }

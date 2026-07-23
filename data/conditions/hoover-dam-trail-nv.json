@@ -17,23 +17,25 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 104,
-    "feels_like_f": 101,
+    "feels_like_f": 100,
     "wind_mph": 8,
-    "gusts_mph": 16,
+    "gusts_mph": 15,
     "rain_pct": 1
   },
   "sunrise": "2026-07-22T05:38",
   "sunset": "2026-07-22T19:51",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-07-22T05:38",
       "sunset": "2026-07-22T19:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-07-23T05:39",
       "sunset": "2026-07-23T19:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-07-24T05:40",
       "sunset": "2026-07-24T19:50",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-07-25T05:41",
       "sunset": "2026-07-25T19:49",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 6,
       "sunrise": "2026-07-26T05:41",
       "sunset": "2026-07-26T19:48",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-23T03:16:45.213830+00:00"
+  "updated_at": "2026-07-23T03:44:35.557308+00:00"
 }

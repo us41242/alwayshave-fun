@@ -388,6 +388,13 @@ def inject_body(html, d, m, siblings):
     if risk:
         fdot = 'dot-green' if risk == 'low' else 'dot-yellow' if risk in ('moderate', 'medium') else 'dot-red'
         items.append(f'<li class="status-item"><span class="dot {fdot}"></span><span>Fire Risk: {esc(risk.capitalize())} (NASA FIRMS)</span></li>')
+    river = d.get("river") or {}
+    if river.get("cfs") is not None:
+        rstage = (river.get("stage") or "").lower()
+        rdot = 'dot-green' if rstage in ('low', 'normal') else 'dot-yellow' if rstage == 'high' else 'dot-red'
+        rlabel = {'low': 'Low', 'normal': 'Normal', 'high': 'High — use caution', 'flood': 'FLOOD — do not enter'}.get(rstage, rstage.capitalize())
+        items.append(f'<li class="status-item"><span class="dot {rdot}"></span>'
+                     f'<span>Water level: {river["cfs"]:,} cfs — {esc(rlabel)} (USGS {esc(river.get("gauge_id") or "gauge")})</span></li>')
     items.append('<li class="status-item"><span class="dot dot-gray"></span><span>Campground: Check official alerts</span></li>')
     rep('<ul class="status-list" id="status-list"></ul>',
         f'<ul class="status-list" id="status-list">{"".join(items)}</ul>', 'status-list')

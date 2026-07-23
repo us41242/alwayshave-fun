@@ -102,7 +102,21 @@ def fetch_aqi(lat, lng):
 
     return {"aqi": None, "category": "Unknown", "pollutant": "", "source": "none"}
 
-def fetch_river(gauge_id):
+def river_stage(cfs, caution_cfs):
+    """Stage relative to the trail's own unsafe-flow threshold."""
+    if cfs < 0.4 * caution_cfs: return "low"
+    if cfs < 0.8 * caution_cfs: return "normal"
+    if cfs < caution_cfs:       return "high"
+    return "flood"
+
+def fetch_river(gauge_id, caution_cfs=None):
+    """Latest discharge for a USGS gauge.
+
+    caution_cfs is the flow at which this specific trail becomes unsafe (e.g. the
+    NPS closes The Narrows at 150 cfs). Generic cfs thresholds are meaningless
+    across rivers — 150 cfs is a flood on the North Fork Virgin and a trickle on
+    the Colorado — so when a trail declares its own number, scale to it.
+    """
     if not gauge_id or not gauge_id.strip():
         return None
     url = (
@@ -120,11 +134,15 @@ def fetch_river(gauge_id):
         if not values:
             return None
         cfs = float(values[-1]["value"])
-        if cfs < 100:   stage = "low"
-        elif cfs < 500: stage = "normal"
-        elif cfs < 2000: stage = "high"
-        else:            stage = "flood"
-        return {"cfs": round(cfs), "stage": stage}
+        if cfs < 0:
+            return None  # USGS sends -999999 for missing/ice-affected readings
+        if caution_cfs:
+            stage = river_stage(cfs, caution_cfs)
+        elif cfs < 100:   stage = "low"
+        elif cfs < 500:   stage = "normal"
+        elif cfs < 2000:  stage = "high"
+        else:             stage = "flood"
+        return {"cfs": round(cfs), "stage": stage, "gauge_id": gauge_id.strip()}
     except Exception as e:
         print(f"  river error ({gauge_id}): {e}")
         return None
@@ -139,7 +157,7 @@ def load_fire_data(slug):
         return {"score_pts": 20, "risk_level": "unknown"}
 
 
-def compute_score(weather, aqi_data, fire_data=None):
+def compute_score(weather, aqi_data, fire_data=None, river=None):
     score = 0
 
     # Weather — 40 pts
@@ -167,7 +185,15 @@ def compute_score(weather, aqi_data, fire_data=None):
     # Closure status — 10 pts (hardcoded open until USFS scraper is integrated)
     score += 10
 
-    return min(score, 100)
+    score = min(score, 100)
+
+    # Water level caps the score outright — a river-route trail in flood is not a
+    # "great day to go" no matter how nice the air and sky are.
+    stage = (river or {}).get("stage")
+    if stage == "flood": score = min(score, 25)   # "Stay home" / "Conditions poor"
+    elif stage == "high": score = min(score, 55)  # "Use caution"
+
+    return score
 
 def _forecast_score(high_f, rain_pct, current_aqi=999, current_fire_pts=20):
     """Simplified daily score from forecast data — no per-day wind or AQI."""
@@ -190,7 +216,7 @@ def score_label(score):
     if score >= 30: return "Conditions poor"
     return "Stay home"
 
-def gear_flags(weather, aqi_data, fire_data=None):
+def gear_flags(weather, aqi_data, fire_data=None, river=None):
     flags = []
     if weather and "current" in weather:
         c = weather["current"]
@@ -207,6 +233,11 @@ def gear_flags(weather, aqi_data, fire_data=None):
         flags.append("mask for sensitive groups")
     if fire_data and fire_data.get("risk_level") in ("elevated", "high"):
         flags.append("N95 mask recommended for wildfire smoke")
+    stage = (river or {}).get("stage")
+    if stage == "flood":
+        flags.append("high water — do not enter the river; check with rangers")
+    elif stage == "high":
+        flags.append("elevated water level — check with rangers before crossing")
     return list(dict.fromkeys(flags))  # deduplicate, preserve order
 
 def process_trail(trail):
@@ -214,6 +245,8 @@ def process_trail(trail):
     lat       = trail.get("lat", "").strip()
     lng       = trail.get("lng", "").strip()
     gauge_id  = trail.get("usgs_gauge_id", "").strip()
+    caution   = (trail.get("river_caution_cfs") or "").strip()
+    caution_cfs = float(caution) if caution else None
 
     if not slug or not lat or not lng:
         print(f"  skipping {trail.get('name')} — missing slug/coords")
@@ -232,9 +265,9 @@ def process_trail(trail):
 
     weather   = fetch_weather(lat, lng)
     aqi_data  = fetch_aqi(lat, lng)
-    river     = fetch_river(gauge_id)
+    river     = fetch_river(gauge_id, caution_cfs)
     fire_data = load_fire_data(slug)
-    score     = compute_score(weather, aqi_data, fire_data)
+    score     = compute_score(weather, aqi_data, fire_data, river)
 
     current  = existing.get("current", {})  # preserve last-known data on failure
     forecast = []  # always rebuild forecast fresh — never accumulate across runs
@@ -292,7 +325,7 @@ def process_trail(trail):
         "vehicle_req":  trail.get("vehicle_req", "Any"),
         "score":       score,
         "score_label": score_label(score),
-        "gear_flags":  gear_flags(weather, aqi_data, fire_data),
+        "gear_flags":  gear_flags(weather, aqi_data, fire_data, river),
         "current":     current,
         "sunrise":     (sunrise[0] if sunrise else ""),
         "sunset":      (sunset[0]  if sunset  else ""),

@@ -17,21 +17,23 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 52,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 86,
+    "temp_f": 86,
+    "feels_like_f": 90,
     "wind_mph": 3,
-    "gusts_mph": 10,
-    "rain_pct": 16
+    "gusts_mph": 7,
+    "rain_pct": 22
   },
   "sunrise": "2026-07-23T05:53",
   "sunset": "2026-07-23T20:18",
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-07-23T05:53",
       "sunset": "2026-07-23T20:18",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-07-24T05:53",
       "sunset": "2026-07-24T20:17",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-07-25T05:54",
       "sunset": "2026-07-25T20:17",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -83,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-07-26T05:55",
       "sunset": "2026-07-26T20:16",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-27",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-27T05:56",
       "sunset": "2026-07-27T20:15",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-23T18:44:52.184294+00:00"
+  "updated_at": "2026-07-23T19:09:32.302959+00:00"
 }

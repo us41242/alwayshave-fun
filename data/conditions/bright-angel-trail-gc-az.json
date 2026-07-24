@@ -17,9 +17,12 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 25,
+  "score_label": "Stay home",
+  "gear_flags": [
+    "mask for sensitive groups",
+    "high water \u2014 do not enter the river; check with rangers"
+  ],
   "current": {
     "temp_f": 70,
     "feels_like_f": 67,
@@ -27,11 +30,11 @@
     "gusts_mph": 8,
     "rain_pct": 5
   },
-  "sunrise": "2026-07-23T05:29",
-  "sunset": "2026-07-23T19:40",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -40,63 +43,11 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-23",
-      "high_f": 85,
-      "low_f": 62,
-      "rain_pct": 33,
-      "uv": 8,
-      "sunrise": "2026-07-23T05:29",
-      "sunset": "2026-07-23T19:40",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-24",
-      "high_f": 91,
-      "low_f": 67,
-      "rain_pct": 19,
-      "uv": 9,
-      "sunrise": "2026-07-24T05:29",
-      "sunset": "2026-07-24T19:40",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-25",
-      "high_f": 93,
-      "low_f": 69,
-      "rain_pct": 6,
-      "uv": 9,
-      "sunrise": "2026-07-25T05:30",
-      "sunset": "2026-07-25T19:39",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-26",
-      "high_f": 81,
-      "low_f": 69,
-      "rain_pct": 20,
-      "uv": 5,
-      "sunrise": "2026-07-26T05:31",
-      "sunset": "2026-07-26T19:38",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-27",
-      "high_f": 88,
-      "low_f": 69,
-      "rain_pct": 24,
-      "uv": 7,
-      "sunrise": "2026-07-27T05:32",
-      "sunset": "2026-07-27T19:37",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-07-24T05:04:54.541165+00:00"
+  "river": {
+    "cfs": 9670,
+    "stage": "flood",
+    "gauge_id": "09402500"
+  },
+  "forecast": [],
+  "updated_at": "2026-07-24T05:35:14.349410+00:00"
 }

@@ -17,23 +17,25 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 93,
-    "feels_like_f": 87,
-    "wind_mph": 11,
-    "gusts_mph": 16,
+    "feels_like_f": 85,
+    "wind_mph": 13,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-07-23T05:42",
   "sunset": "2026-07-23T19:54",
   "aqi": {
-    "aqi": 45,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 58,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,18 +52,18 @@
       "uv": 9,
       "sunrise": "2026-07-23T05:42",
       "sunset": "2026-07-23T19:54",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-24",
       "high_f": 100,
-      "low_f": 83,
+      "low_f": 77,
       "rain_pct": 15,
       "uv": 9,
       "sunrise": "2026-07-24T05:42",
       "sunset": "2026-07-24T19:53",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-07-25T05:43",
       "sunset": "2026-07-25T19:52",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-07-26T05:44",
       "sunset": "2026-07-26T19:52",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-27T05:45",
       "sunset": "2026-07-27T19:51",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-24T03:05:45.104345+00:00"
+  "updated_at": "2026-07-24T03:36:07.487498+00:00"
 }

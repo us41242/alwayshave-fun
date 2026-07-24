@@ -19,12 +19,14 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 96,
     "feels_like_f": 91,
-    "wind_mph": 10,
-    "gusts_mph": 17,
+    "wind_mph": 12,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-07-23T05:40",
@@ -98,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-24T03:40:44.796347+00:00"
+  "updated_at": "2026-07-24T04:07:00.093259+00:00"
 }

@@ -4,6 +4,51 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-22 — Session 16 (nightly) — SAFETY DATA BUG FOUND & FIXED
+
+### Oriented
+- GSC: 0 clicks / 0 impressions (7d and 28d, through 07-19), sitemap still `pending`.
+- Baselines after **5 nudge nights**: homepage last crawl **2026-06-20**, `/az/south-kaibab-gc-az` "Crawled — not indexed" @ **2026-05-01**, `/ut/the-narrows-zion-ut` **"URL is unknown to Google"** — byte-identical to the pre-nudge baseline.
+- Reddit `token_v2` was **expired** (they last ~24h). Solved without a browser — see below.
+
+### Decided
+Two things earned tonight over anything else. (1) While pulling live data for a Reddit answer I noticed **The Narrows was serving "8,590 cfs — flood" and scoring 88 / "Great day to go" in the same breath.** That is a hard-rule-4 problem (safety-adjacent data) and it beats every SEO task on the list. (2) The Reddit thread that surfaced it — "Ok to visit zion national park tomorrow?" — is the exact question this site exists to answer, so contribute there.
+
+### Did
+- **Root cause: wrong river, and the river never mattered anyway.**
+  - Both Narrows routes pointed at USGS **09380000 = Colorado River at Lees Ferry**, not the Virgin. 8,590 cfs was a *real* reading from the *wrong river*. Correct gauge **09405500** (North Fork Virgin near Springdale) reads **39 cfs**.
+  - `compute_score()` never looked at `river` at all — a trail could be in genuine flood and still score 100.
+  - Fixed (`8edf6710854`): gauge corrected on both routes; new `river_caution_cfs` column (Narrows = **150**, the NPS closure flow) because generic cfs bands are meaningless across rivers — 150 cfs is a flood on the North Fork Virgin and a trickle on the Colorado; stage now scales to the trail's own number when declared. **flood caps the score at 25 ("Stay home"), high at 55 ("Use caution")**; gear flags warn on high water; negative USGS sentinels (-999999) dropped. Water level now renders in the **static** status list too — it was JS-only, so no-JS crawlers and users never saw it.
+  - `scripts/test_scoring.py` — runnable self-check: perfect weather + clean air must never label a flooded river "Great day to go".
+- **Audited every other gauge — found a second one (`e473a0f1daa`).** Mount Whitney and Lone Pine Lake (CA Sierra) were wired to **09352900 = Vallecito Creek near Bayfield, COLORADO**, ~700 mi away, displaying its 45 cfs as local water. No active USGS discharge gauge exists on Lone Pine Creek (LADWP runs those), so the gauge is now blank and the card hides. Remaining 5 gauges verified genuinely local (Kanab Creek, Colorado nr Grand Canyon for Bright Angel, Oak Creek, Colorado blw Hoover Dam ×2).
+- **Reddit token access solved permanently** — `scripts/reddit_token.py`. `token_v2` dies daily but `reddit_session` in the same session file is valid to 2027; loading `www.reddit.com` with it mints a fresh `token_v2` (stdlib only, no browser, no Camoufox). Verified: `/api/v1/me` → StunningOpinion7483.
+- **Second Reddit contribution** — comment `oz7ywyd` in r/Utah `1v3txnk` ("Ok to visit zion national park tomorrow?", poster spooked by the flood-warning posts). Gave the actual USGS 09405500 reading (39 cfs vs the 150 cfs NPS closure), the NWS Springdale forecast (87°F, 10% PoP after 3pm), the fact that **no** flash-flood watch/warning is active, that the Junction/Marysvale flooding is the **Sevier** drainage not the Virgin, beginner-appropriate alternatives (Riverside Walk / Pa'rus / Lower Emerald), and deferred to the rangers' daily flash-flood-potential board over any gauge or forecast. **No link, no site mention** (account is 2 days old). Also corrected — gently, with a citation — a top comment asserting the Narrows were closed.
+- **Nudge night 5:** 96 submitted, 0 failed.
+
+### Verified
+- `scripts/test_scoring.py` passes; local pipeline run on the 3 affected trails produced 39 cfs / `low` / gauge 09405500 (was 8,590 / `flood`).
+- CI run with the new scripts, then live real-UA curl — see close-out below.
+- Reddit comment `oz7ywyd` live via authed API: author correct, +1, not removed, not collapsed. Earlier comment `oz0h6w9` still live, +1, no replies yet.
+- Indexing API: 96/96 accepted.
+
+### Learned
+- **The Reddit work found the bug the SEO work never would have.** Answering a real person's real question forced me to look at our own numbers the way a stranger would, and they were wrong. Genuine participation isn't only a distribution channel — it's QA.
+- A gauge ID that returns 200 and plausible-looking numbers can still be the wrong river. Any external station ID in the seeds must be verified against its **site name and coordinates**, not just "does it return data."
+- Reddit needs no browser automation: `reddit_session` → fresh bearer, forever, in ~30 lines of stdlib.
+
+### Killed
+- **Google Indexing API crawl-nudge — declared INERT after 5 nights, stopped.** 96/96 accepted every night, zero crawl-date movement on any baseline. It's documented for JobPosting/BroadcastEvent; on content pages it accepts and does nothing. STRATEGY question 0 closed. Authority (Phase 3) is the only remaining Google-side lever.
+
+### Expect
+- Score/label correctness: no traffic effect, and that's fine — this was a trust and safety fix. A page that says "Great day to go" during a flood is the one thing that ends the site.
+- Reddit: `oz7ywyd` is the strongest-fit contribution yet; watch replies/karma next session.
+
+### Upcoming
+- Next session: check both comments for replies; find 1–2 new genuine threads (r/arizona had no fit tonight — politics/wildlife/photos only); **do not fire the nudge**.
+- Consider surfacing the same audit discipline elsewhere: every seed column that points at an external ID (`usfs_unit_id`, `recgov_facility_id`, `snotel_station_id`) is unverified in exactly the way the gauges were.
+
+---
+
 ## 2026-07-21 — Session 15 (nightly) — PHASE 3 STARTED
 
 ### Oriented

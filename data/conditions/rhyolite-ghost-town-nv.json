@@ -17,21 +17,23 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 101,
-    "feels_like_f": 99,
-    "wind_mph": 16,
-    "gusts_mph": 19,
-    "rain_pct": 0
+    "feels_like_f": 98,
+    "wind_mph": 17,
+    "gusts_mph": 20,
+    "rain_pct": 1
   },
   "sunrise": "2026-07-24T05:46",
   "sunset": "2026-07-24T20:01",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -44,13 +46,13 @@
   "forecast": [
     {
       "date": "2026-07-24",
-      "high_f": 102,
+      "high_f": 101,
       "low_f": 82,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-07-24T05:46",
       "sunset": "2026-07-24T20:01",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 9,
       "sunrise": "2026-07-25T05:47",
       "sunset": "2026-07-25T20:00",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 9,
       "sunrise": "2026-07-26T05:48",
       "sunset": "2026-07-26T19:59",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 9,
       "sunrise": "2026-07-27T05:49",
       "sunset": "2026-07-27T19:58",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-07-28T05:49",
       "sunset": "2026-07-28T19:57",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-24T21:10:50.158733+00:00"
+  "updated_at": "2026-07-24T21:40:29.816602+00:00"
 }

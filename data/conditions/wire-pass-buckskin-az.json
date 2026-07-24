@@ -21,16 +21,16 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 94,
-    "feels_like_f": 96,
-    "wind_mph": 6,
-    "gusts_mph": 7,
-    "rain_pct": 1
+    "temp_f": 96,
+    "feels_like_f": 99,
+    "wind_mph": 3,
+    "gusts_mph": 6,
+    "rain_pct": 3
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-24T06:26",
+  "sunset": "2026-07-24T20:41",
   "aqi": {
-    "aqi": 45,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-24T19:08:16.378484+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-24",
+      "high_f": 97,
+      "low_f": 71,
+      "rain_pct": 16,
+      "uv": 9,
+      "sunrise": "2026-07-24T06:26",
+      "sunset": "2026-07-24T20:41",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-25",
+      "high_f": 100,
+      "low_f": 74,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-07-25T06:27",
+      "sunset": "2026-07-25T20:41",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-26",
+      "high_f": 100,
+      "low_f": 79,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-07-26T06:28",
+      "sunset": "2026-07-26T20:40",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-27",
+      "high_f": 98,
+      "low_f": 81,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-07-27T06:29",
+      "sunset": "2026-07-27T20:39",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 98,
+      "low_f": 72,
+      "rain_pct": 22,
+      "uv": 9,
+      "sunrise": "2026-07-28T06:30",
+      "sunset": "2026-07-28T20:38",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-24T19:39:13.630891+00:00"
 }

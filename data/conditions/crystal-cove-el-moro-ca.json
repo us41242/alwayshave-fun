@@ -17,25 +17,25 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 56,
-  "score_label": "Use caution",
+  "score": 86,
+  "score_label": "Great day to go",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 73,
-    "feels_like_f": 78,
-    "wind_mph": 7,
+    "feels_like_f": 77,
+    "wind_mph": 10,
     "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-07-24T05:58",
   "sunset": "2026-07-24T19:57",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 41,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -46,14 +46,14 @@
   "forecast": [
     {
       "date": "2026-07-24",
-      "high_f": 76,
+      "high_f": 75,
       "low_f": 67,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-24T05:58",
       "sunset": "2026-07-24T19:57",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-25",
@@ -63,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-07-25T05:59",
       "sunset": "2026-07-25T19:56",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-26",
@@ -74,19 +74,19 @@
       "uv": 8,
       "sunrise": "2026-07-26T05:59",
       "sunset": "2026-07-26T19:56",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-27",
-      "high_f": 86,
-      "low_f": 73,
+      "high_f": 85,
+      "low_f": 74,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-27T06:00",
       "sunset": "2026-07-27T19:55",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-28",
@@ -96,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-07-28T06:01",
       "sunset": "2026-07-28T19:54",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-24T17:14:22.340840+00:00"
+  "updated_at": "2026-07-24T17:45:30.373947+00:00"
 }

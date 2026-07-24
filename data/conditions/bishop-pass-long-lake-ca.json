@@ -17,14 +17,17 @@
   "notes": "South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June \u2014 Long Lake turnaround is the right call early season",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 47,
+    "temp_f": 58,
+    "feels_like_f": 51,
     "wind_mph": 10,
-    "gusts_mph": 19,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "sunrise": "2026-07-24T05:53",
@@ -36,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 28.6,
+    "fire_count_50km": 13
   },
   "river": null,
   "forecast": [
@@ -50,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-07-24T05:53",
       "sunset": "2026-07-24T20:08",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-25",
@@ -61,42 +64,42 @@
       "uv": 9,
       "sunrise": "2026-07-25T05:53",
       "sunset": "2026-07-25T20:07",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-07-26",
       "high_f": 70,
       "low_f": 54,
-      "rain_pct": 4,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-07-26T05:54",
       "sunset": "2026-07-26T20:07",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-07-27",
       "high_f": 72,
       "low_f": 54,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-07-27T05:55",
       "sunset": "2026-07-27T20:06",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-07-28",
       "high_f": 74,
       "low_f": 54,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-07-28T05:56",
       "sunset": "2026-07-28T20:05",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-24T14:43:41.330806+00:00"
+  "updated_at": "2026-07-24T15:11:35.373848+00:00"
 }

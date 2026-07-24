@@ -20,20 +20,21 @@
   "score": 25,
   "score_label": "Stay home",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "high water \u2014 do not enter the river; check with rangers"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 83,
-    "wind_mph": 5,
-    "gusts_mph": 5,
+    "temp_f": 79,
+    "feels_like_f": 72,
+    "wind_mph": 17,
+    "gusts_mph": 23,
     "rain_pct": 14
   },
   "sunrise": "2026-07-23T05:29",
   "sunset": "2026-07-23T19:40",
   "aqi": {
-    "aqi": 64,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -44,26 +45,26 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 10700,
+    "cfs": 10500,
     "stage": "flood",
     "gauge_id": "09402500"
   },
   "forecast": [
     {
       "date": "2026-07-23",
-      "high_f": 86,
+      "high_f": 85,
       "low_f": 62,
       "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-07-23T05:29",
       "sunset": "2026-07-23T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-24",
       "high_f": 91,
-      "low_f": 68,
+      "low_f": 67,
       "rain_pct": 18,
       "uv": 9,
       "sunrise": "2026-07-24T05:29",
@@ -105,5 +106,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-24T00:04:49.455258+00:00"
+  "updated_at": "2026-07-24T00:36:30.785393+00:00"
 }

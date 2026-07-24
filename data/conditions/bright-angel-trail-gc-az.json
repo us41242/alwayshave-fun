@@ -17,10 +17,11 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 25,
+  "score_label": "Stay home",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "high water \u2014 do not enter the river; check with rangers"
   ],
   "current": {
     "temp_f": 83,
@@ -29,8 +30,8 @@
     "gusts_mph": 9,
     "rain_pct": 1
   },
-  "sunrise": "2026-07-24T05:29",
-  "sunset": "2026-07-24T19:40",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 93,
     "category": "Moderate",
@@ -42,63 +43,11 @@
     "nearest_fire_km": 203.2,
     "fire_count_50km": 0
   },
-  "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-24",
-      "high_f": 91,
-      "low_f": 65,
-      "rain_pct": 11,
-      "uv": 8,
-      "sunrise": "2026-07-24T05:29",
-      "sunset": "2026-07-24T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-25",
-      "high_f": 93,
-      "low_f": 70,
-      "rain_pct": 5,
-      "uv": 9,
-      "sunrise": "2026-07-25T05:30",
-      "sunset": "2026-07-25T19:39",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-26",
-      "high_f": 90,
-      "low_f": 70,
-      "rain_pct": 15,
-      "uv": 7,
-      "sunrise": "2026-07-26T05:31",
-      "sunset": "2026-07-26T19:38",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-27",
-      "high_f": 88,
-      "low_f": 70,
-      "rain_pct": 21,
-      "uv": 9,
-      "sunrise": "2026-07-27T05:32",
-      "sunset": "2026-07-27T19:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-28",
-      "high_f": 88,
-      "low_f": 61,
-      "rain_pct": 49,
-      "uv": 8,
-      "sunrise": "2026-07-28T05:33",
-      "sunset": "2026-07-28T19:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-24T17:36:32.165782+00:00"
+  "river": {
+    "cfs": 9540,
+    "stage": "flood",
+    "gauge_id": "09402500"
+  },
+  "forecast": [],
+  "updated_at": "2026-07-24T18:05:56.263372+00:00"
 }

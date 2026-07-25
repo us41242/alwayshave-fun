@@ -19,9 +19,7 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 117,
     "feels_like_f": 112,
@@ -29,8 +27,8 @@
     "gusts_mph": 20,
     "rain_pct": 1
   },
-  "sunrise": "2026-07-24T05:40",
-  "sunset": "2026-07-24T19:50",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 46,
     "category": "Good",
@@ -39,66 +37,10 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 113.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-24",
-      "high_f": 117,
-      "low_f": 95,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-07-24T05:40",
-      "sunset": "2026-07-24T19:50",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-25",
-      "high_f": 119,
-      "low_f": 92,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-25T05:41",
-      "sunset": "2026-07-25T19:49",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-26",
-      "high_f": 117,
-      "low_f": 92,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-26T05:41",
-      "sunset": "2026-07-26T19:48",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-27",
-      "high_f": 114,
-      "low_f": 94,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-27T05:42",
-      "sunset": "2026-07-27T19:48",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-28",
-      "high_f": 109,
-      "low_f": 93,
-      "rain_pct": 3,
-      "uv": 7,
-      "sunrise": "2026-07-28T05:43",
-      "sunset": "2026-07-28T19:47",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-24T23:39:27.641022+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-25T00:09:33.102822+00:00"
 }

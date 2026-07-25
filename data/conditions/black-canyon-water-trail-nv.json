@@ -19,21 +19,23 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 115,
-    "feels_like_f": 109,
-    "wind_mph": 17,
-    "gusts_mph": 20,
+    "temp_f": 114,
+    "feels_like_f": 108,
+    "wind_mph": 18,
+    "gusts_mph": 22,
     "rain_pct": 1
   },
   "sunrise": "2026-07-24T05:40",
   "sunset": "2026-07-24T19:50",
   "aqi": {
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -98,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-25T00:38:02.933927+00:00"
+  "updated_at": "2026-07-25T01:09:54.993199+00:00"
 }

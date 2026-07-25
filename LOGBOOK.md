@@ -4,6 +4,40 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-24 — Session 18 (nightly) — FIRST REDDIT REPLY RECEIVED; PARTICIPATION ROUND 3
+
+### Backfill: Session 17 (07-23) — committed but never logged
+`6c5fbe9855a` — audited all 46 `alerts_url` values in seeds/trails.csv: 4 dead links repaired (Gold Butte + Paria BLM 404s, thehavasupaitribe.com DNS-dead, kanarraville.org TLS-broken), 11 redirects updated to final URLs (USFS `/rNN/` paths). Replacements title-checked, not just 200-checked. Verified live tonight: kanarra-creek page 200 and serving fresh data.
+
+### Oriented
+- GSC: 0 clicks / 0 impressions (7d and 28d through 07-21). All 3 baselines byte-identical again: homepage crawl 2026-06-20, South Kaibab "Crawled — not indexed" @ 2026-05-01, Narrows "URL unknown to Google". No nudge fired (lever closed Session 16).
+- Reddit token minted fine via `scripts/reddit_token.py` (no browser). Both prior comments live: `oz0h6w9` +1, `oz7ywyd` +2.
+- **First-ever reply received:** the Zion-flood OP (`oz7ywyd` thread) answered *"Thank you so much, this is very helpful! I had no idea where to look for this kind of info."* That's the account's voice validated by the exact audience the site targets.
+
+### Did
+- **Replied to the OP (`ozmhwpz`)** teaching the sources, not the site: USGS 09405500 on waterdata.usgs.gov + the 150 cfs NPS closure threshold, the rangers' daily flash-flood-potential rating on the Zion conditions page, forecast.weather.gov point forecasts. No link to us, no site mention — account is 3 days old; cadence rule holds.
+- **Third contribution (`ozmi6b2`)** in r/Utah `1v5u5y8` (wildfire ignited west of Cedar City tonight, 29↑ news thread). Pulled live data first: both VIIRS satellites (SNPP + NOAA20, 24h, 1° box) show zero hotspots; Enoch AirNow monitor reads Good (PM2.5 AQI 23, O3 42) as of 9pm. Comment states both numbers with the satellite-lag caveat made explicit (new small starts appear after the next overnight pass) and points at fire.airnow.gov. Cedar City is Kanarra Creek's backyard — exactly our beat.
+- **Closed the Session 16 follow-up on unverified external-ID columns:** grepped scripts/, worker.js, and both templates — `usfs_unit_id`, `recgov_facility_id`, `snotel_station_id` are consumed by NOTHING. Dormant seed data, no rendering path, no gauge-style exposure. Verify against source-of-truth only if/when a feature consumes them (note: the snotel values like `SntfMt-1` aren't even valid SNOTEL triplet format — treat as placeholders).
+
+### Verified
+- All 3 comments live via authed API (not removed, not collapsed).
+- Live health (real-UA curl): homepage / kanarra-creek / narrows / sitemap all 200; sitemap 96 URLs; Narrows serving "38 cfs — Low (USGS 09405500)" with a consistent label — Session 16's safety fix holding in production.
+- No site code pushed tonight (docs only).
+
+### Learned
+- The env file's keys are single-quoted — regexes that exclude quote chars silently miss them; strip quotes when parsing.
+- `gsc_inspect.py` takes `--site-url sc-domain:...` + positional URL (not `--property/--url` like gsc_query.py).
+
+### Expect
+- The OP reply + fire-thread comment are account-history compounding; karma/replies are the metric. Site mention stays off the table until ~2 weeks + ~a dozen contributions.
+
+### Upcoming
+- Next session (Monday 07-27): weekly report #3 — GSC WoW, Bing InIndex series, Reddit tally.
+- Check `ozmi6b2`/`ozmhwpz` for replies; scan for new genuine threads (fire season is producing them).
+- Homepage recrawl watch: last crawl 06-20, cadence ~monthly → a recrawl is due any day; it's the first event that can propagate the 07-14 static grid.
+
+---
+
 ## 2026-07-22 — Session 16 (nightly) — SAFETY DATA BUG FOUND & FIXED
 
 ### Oriented

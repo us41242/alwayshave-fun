@@ -17,17 +17,15 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 25,
-  "score_label": "Stay home",
-  "gear_flags": [
-    "high water \u2014 do not enter the river; check with rangers"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 90,
-    "wind_mph": 9,
-    "gusts_mph": 10,
-    "rain_pct": 15
+    "temp_f": 85,
+    "feels_like_f": 82,
+    "wind_mph": 8,
+    "gusts_mph": 8,
+    "rain_pct": 20
   },
   "sunrise": "2026-07-26T05:31",
   "sunset": "2026-07-26T19:38",
@@ -39,14 +37,10 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 247.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": 9620,
-    "stage": "flood",
-    "gauge_id": "09402500"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-07-26",
@@ -62,7 +56,7 @@
     {
       "date": "2026-07-27",
       "high_f": 87,
-      "low_f": 64,
+      "low_f": 65,
       "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-07-27T05:32",
@@ -104,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-26T21:36:42.841384+00:00"
+  "updated_at": "2026-07-26T22:06:44.085061+00:00"
 }

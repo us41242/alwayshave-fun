@@ -4,6 +4,48 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-25 — Session 19 (nightly) — HARDCODED "FIRE RISK: LOW" SHOWN TO EVERY VISITOR; SOFT-404 SPACE CLOSED
+
+### Oriented
+- GSC: 0 clicks / 0 impressions (7d through 07-22 and 28d). All 3 baselines byte-identical for the sixth session running: homepage last crawl **2026-06-20** (now 35 days — past its ~monthly cadence), `/az/south-kaibab-gc-az` "Crawled — not indexed" @ 2026-05-01, `/ut/the-narrows-zion-ut` "URL is unknown to Google."
+- **Two new Reddit replies**, both on the Cedar City fire thread `1v5u5y8`, both to our comment `ozmi6b2` (now +3): *"Thanks for the website. That'll be useful"* (they meant fire.airnow.gov — we pointed at it, never at us) and *"Thank you I'm worried about my sister and appreciate it."* All 4 prior comments live, none removed or collapsed.
+
+### Did
+**1. Answered the worried replier with a 24-hour update (`ozt1k8i`, r/Utah).** Pulled everything fresh first:
+- **NIFC/WFIGS incident feed** (free ArcGIS endpoint, no key) names two lightning-caused Iron County fires, not one: **Mound** (52.5 ac, 37.652/-113.273, ~11 mi WSW of Cedar City, record last touched 07-24 18:09 MDT — flagged as stale in the comment) and **Swett** (44.4 ac, 37.713/-113.213, ~9 mi WNW, updated 19:32 MDT tonight). Neither has a containment figure yet.
+- **Last night's caveat played out exactly.** Session 18 said the satellites hadn't caught the start yet and that new starts show after the next overnight pass. Tonight VIIRS (SNPP + NOAA20 + NOAA21) has heat on the Mound footprint across every pass from 03:47Z through 21:40Z. Said so in the comment — being visibly right about a stated uncertainty is worth more than being right quietly.
+- **AirNow Enoch:** PM2.5 AQI 33 / ozone 37 at 9pm, still Good but PM2.5 up from 23 at the same hour last night. Forecast Moderate Sun + Mon. **NWS:** zero active alerts for the point; wind SSE 5 mph tonight, **SW 3–9 Sunday — which puts Cedar City downwind of both fires**.
+- Included one honest negative: a single MODIS Aqua pass at 16:03 MDT flagged a hotspot ~15 mi NNE (west of Parowan) that no VIIRS pass corroborates and that is on no incident list — stated as unconfirmed, might be a false positive. Also explicitly declined to speak for evacuations (Iron County SO, not a satellite). No link, no site mention — day 5, 5 comments.
+
+**2. Fixed a live safety bug the Reddit work surfaced.** Reading `fetch_fires.py` to see whether the site could name incidents, I found `trail.html`'s `render()` hardcoded **`Fire Risk: Low (updated daily)` with a green dot**, unconditionally, and it *overwrites* the server-rendered status list. Google saw the honest FIRMS value; **every real JS visitor saw "Low" no matter what** — including on a trail with fire inside 20 km. Same class as the Narrows flood bug (Session 16) and squarely hard rule 4. The JS was also silently dropping the water-level row that `build_static.py` renders. Both now mirror the static build (`721623b17b5`).
+
+**3. Closed an unbounded soft-404 space (`11b3723196b`).** `worker.js` fell back to the trail.html shell for **any** `/{state}/{anything}`, so `/ut/not-a-real-trail-xyz` returned **200** with a "Loading trail conditions…" page. Infinite 200s on a site whose binding constraint is crawl budget. The shell now serves only when `data/conditions/{slug}.json` exists; everything else returns the asset 404. Added `404.html` — **there was none** — linking the 5 state pages, dog-friendly, and articles, per the brand rule about always giving a plan.
+
+### Verified
+- `scripts/test_status_list.py` — new runnable check: renders the page in headless Chrome against a high-fire/flood fixture and asserts the hydrated DOM says High + FLOOD with red dots. **Confirmed non-vacuous** by running it against `git show HEAD:trail.html` — it fails there, passes on the fix.
+- No pipeline race: the 04:30Z run picked up `721623b17b5` (checked `gh run list` headSha), completed success 04:47Z, regenerated all pages.
+- Live, real-UA: **all 96 sitemap URLs return 200**; **zero** pages still carry `Fire Risk: Low (updated daily)`; every trail page carries the static `Fire Risk: … (NASA FIRMS)` line and the new data-driven JS; `/ut/not-a-real-trail-xyz` and `/nv/no-such-thing` → **404**; `/ut`, `/dog-friendly`, `/articles` → 200; sitemap valid XML, 96 URLs.
+- Reddit `ozt1k8i` live via authed API: author correct, not removed, not collapsed.
+
+### Learned
+- **A JS hydration that overwrites a server-rendered node is a place bugs hide from every SEO check you run.** Curl and the URL Inspection API both showed the honest value; only a real browser showed the lie. Anything `render()` writes must be asserted against the data, not eyeballed — hence the headless-Chrome self-check, which is now the pattern for this file.
+- Session 6 *documented* this exact hardcode ("the JS hardcodes Fire Risk: Low — static render uses real data") and moved on. A known-wrong value that only affects humans is still a bug; noting it in a logbook is not fixing it.
+- **WFIGS/NIFC publishes current wildfire incidents free, no key** — name, acres, containment, cause, lat/lng, per state. `services3.arcgis.com/T4QMspbfLg3qTGWY/…/WFIGS_Incident_Locations_Current/FeatureServer/0/query`. Our fire card currently says "nearest fire 12 km" from anonymous VIIRS pixels; it could say "Mound Fire, 52 acres, 11 mi WSW." That is the single biggest content upgrade available to the site's differentiating asset.
+- `fetch_fires.py` queries **VIIRS_SNPP only**. Tonight NOAA20 and NOAA21 each caught detections on passes SNPP missed. Single-satellite coverage understates fire proximity.
+- `not_found_handling = "404-page"` means a failed `env.ASSETS.fetch` is *already* a correct 404 response — no need to construct one.
+
+### Expect
+- No traffic effect from either fix; both are trust/correctness. The soft-404 close is a small crawl-budget return whenever Google next crawls.
+- Reddit: 5 comments, 3 replies received, all live. Site mention still off the table (guideline: ~2 weeks + ~a dozen contributions).
+
+### Upcoming
+- **Monday 2026-07-27: weekly report #3** — GSC WoW, Bing InIndex series, Reddit tally.
+- **Build the WFIGS named-incident feature** — nearest active incident (name, acres, containment, distance) into `data/fires/{slug}.json` → `fetch_conditions.py` → the status list and fire card, both static and JS. Add NOAA20/NOAA21 to the FIRMS pull at the same time. This is the next session's main action.
+- Check `ozt1k8i` for replies; the unconfirmed Parowan hotspot resolves on tonight's overnight pass — worth a follow-up only if it turns into a real start.
+- Homepage recrawl watch: 35 days since 2026-06-20 and counting.
+
+---
+
 ## 2026-07-24 — Session 18 (nightly) — FIRST REDDIT REPLY RECEIVED; PARTICIPATION ROUND 3
 
 ### Backfill: Session 17 (07-23) — committed but never logged

@@ -45,9 +45,11 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 
 4. **Token access solved 2026-07-22 — no browser needed, ever.** `token_v2` expires ~24h and was expired on arrival tonight, but `reddit_session` in the same session file is valid to 2027, and loading `www.reddit.com` with it mints a fresh `token_v2`. `scripts/reddit_token.py` does exactly that with stdlib only; `TOK=$(python3 scripts/reddit_token.py)` is the start of every Reddit session. Only fails if `reddit_session` itself dies — then Josh must re-login in the browser and re-save.
 5. Second contribution 2026-07-22, comment `oz7ywyd` in r/Utah `1v3txnk` ("Ok to visit zion national park tomorrow?" — flood-warning worry). Answered with the actual USGS 09405500 reading (39 cfs vs the 150 cfs NPS Narrows closure), NWS Springdale forecast, no active flash-flood alert, the fact that the Junction/Marysvale flooding is the Sevier drainage not the Virgin, and beginner-appropriate alternatives. No link, no site mention. **This is the ideal shape of contribution for this account: the question the site exists to answer, answered with cited public data.** First comment `oz0h6w9` still live, +1, no replies.
+7. **Round 4, 2026-07-25** — replied (`ozt1k8i`) to the two people who answered our Cedar City fire comment, one of whom was worried about family in town. 24-hour update built from the **NIFC/WFIGS incident feed** (two named lightning fires — Mound 52 ac, Swett 44 ac, both Iron County), VIIRS across three satellites, AirNow Enoch (PM2.5 33, up from 23), NWS wind (SW Sunday = Cedar City downwind), plus an explicitly-unconfirmed MODIS hotspot near Parowan and a refusal to speak for evacuations. No link, no site mention. **Tally: 5 comments, 3 replies received, all live.** The pattern is now clear: the fire/AQI/incident questions are where this account is genuinely useful, and answering them keeps surfacing bugs in our own data (Session 16's flood reading, Session 19's hardcoded fire risk).
+
 6. **First reply received 2026-07-23** — the `1v3txnk` OP: "Thank you so much, this is very helpful! I had no idea where to look for this kind of info." Answered 07-24 (`ozmhwpz`) by teaching the public sources (USGS gauge page, ranger flash-flood board, forecast.weather.gov) — still no site mention. Fourth contribution 07-24 (`ozmi6b2`): Cedar City wildfire news thread, live VIIRS (zero hotspots yet, lag caveat stated) + Enoch AirNow (Good, PM2.5 23) with fire.airnow.gov pointer. **Tally: 4 comments, 1 OP reply, all live. `oz7ywyd` +2.**
 
-**Candidate durable asset (future, not built — YAGNI until participation proves demand):** a shareable per-trail "smoke check" view someone would naturally cite. Note only; do not build speculatively.
+**Candidate durable asset — demand now observed, BUILD IT (2026-07-25):** the fire card is the site's most-asked-about data and it currently shows anonymous satellite pixels ("nearest fire 12 km"). **WFIGS/NIFC publishes current incidents free with no API key** — name, acres, containment, cause, coordinates — so the card can say *"Mound Fire · 52 acres · 11 mi WSW · lightning"* with a timestamp and a source. That is the difference between a number and something a person would cite or share. Endpoint: `https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query` (filter `POOState='US-XX'`, verified working 2026-07-25). Ship alongside adding VIIRS **NOAA20 + NOAA21** to `fetch_fires.py` — it queries SNPP alone today and demonstrably misses detections the other two catch.
 
 ## Target queries / experiments in flight
 
@@ -58,6 +60,7 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 | Static trail→article links (46/46, persona-correct) | 2026-07-11 | articles discovered & indexed via trail pages; article impressions | same |
 | Server-rendered homepage trail grid (46 static links) | 2026-07-14 | next homepage crawl discovers all trails in 1 hop; sampled trails leave "URL unknown to Google" | weekly; kill-or-revise 2026-08-01 |
 | "Typical Weather by Month" climate tables (46/46 trails, ERA5 10-yr normals) | 2026-07-19 | Bing/Google long-tail impressions on "{trail} weather in {month}" / "best time to hike {trail}" | monthly; kill-or-revise 2026-09-01 |
+| Soft-404 close: `/{state}/{unknown}` now 404s instead of 200 + JS shell; real `404.html` added | 2026-07-25 | no measurable traffic gain — recovers crawl budget and removes a soft-404 class from GSC | weekly (watch GSC "Soft 404" / "Not found" counts) |
 
 Target query shapes (all served by trail pages already): "is {trail} open", "{trail} weather", "{trail} conditions", "{trail} AQI/air quality", "are dogs allowed {trail}", "best time to hike {trail}".
 
@@ -79,6 +82,7 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 | Gemini (writer bot) | drafts | free tier | 1/day |
 | Brevo | subscriber email | 300 emails/day | idle |
 | IndexNow (Bing/Yandex) | index pings | free, no known cap | 53 URLs per data update |
+| NIFC/WFIGS incident feed (ArcGIS) | named wildfire incidents (name, acres, containment) | public ArcGIS FeatureServer, **no key**, no published cap | ad-hoc only (verified 2026-07-25); will become 1 query/30 min if the fire-card feature ships |
 
 ## Open questions / next session
 
@@ -87,4 +91,6 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 1. Weekly GSC check: re-inspect the sampled URLs via URL Inspection API, watch `last_crawl_time` on the homepage and on /az/south-kaibab-gc-az (still 2026-05-01 as of 07-14 — Google has not recrawled trails since the 07-10 fix). GSC still 0 clicks / 0 impressions through 07-11. **Discovery bottleneck found 07-14: homepage grid was JS-only → no static trail links → deep pages never discovered. Fixed (server-rendered grid). If the next homepage crawl still doesn't propagate to trails, crawl budget (zero backlinks) is the binding constraint → prioritize Phase 3.**
 2. ~~Confirm the worker cron fires at :00/:30~~ **Closed 2026-07-20:** `gh run list` shows fetch_conditions starting at :00/:30 exactly, all success — trigger applied, ~1,440 builds/mo, ~2× headroom.
 3. Phase 3 groundwork: pick 1–2 communities, read norms first, participate before ever linking.
+
+5. **Audit every JS path that overwrites server-rendered content (opened 2026-07-25).** `trail.html`'s `render()` hardcoded "Fire Risk: Low" for months while curl and the URL Inspection API both showed the honest static value — the bug was invisible to every SEO check because only a real browser triggered it. `scripts/test_status_list.py` (headless Chrome + fixture) now guards the status list. The remaining question: what *else* does `render()` write that isn't asserted against the data? Extend the same check rather than eyeballing it.
 4. Asked Josh (non-blocking, 2026-07-11): widen CF API token to read Workers Builds for the main account so build-minute usage can be verified directly.

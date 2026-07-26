@@ -100,7 +100,12 @@ export default {
       const staticUrl = new URL(`/generated/${state}/${slug}.html`, url.origin);
       const staticRes = await env.ASSETS.fetch(staticUrl);
       if (staticRes.status === 200) return staticRes;
-      return env.ASSETS.fetch(new URL('/trail.html', url.origin));
+      // No pre-rendered page. Only fall back to the JS shell for a slug that is
+      // actually a trail — otherwise /{state}/{anything} is an unbounded space of
+      // soft-404s, and crawl budget is the thing we have least of.
+      const dataRes = await env.ASSETS.fetch(new URL(`/data/conditions/${slug}.json`, url.origin));
+      if (dataRes.status === 200) return env.ASSETS.fetch(new URL('/trail.html', url.origin));
+      return staticRes;  // already a 404 carrying /404.html (not_found_handling = "404-page")
     }
 
     // /{state}  →  serve pre-rendered state landing page, fall back to homepage

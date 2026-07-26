@@ -17,18 +17,18 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
     "temp_f": 88,
-    "feels_like_f": 83,
-    "wind_mph": 8,
-    "gusts_mph": 16,
+    "feels_like_f": 82,
+    "wind_mph": 7,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-25T05:47",
+  "sunset": "2026-07-25T20:00",
   "aqi": {
     "aqi": 48,
     "category": "Good",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-26T05:38:57.736485+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-25",
+      "high_f": 103,
+      "low_f": 80,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-25T05:47",
+      "sunset": "2026-07-25T20:00",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-26",
+      "high_f": 101,
+      "low_f": 77,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-07-26T05:48",
+      "sunset": "2026-07-26T19:59",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-27",
+      "high_f": 100,
+      "low_f": 76,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-27T05:49",
+      "sunset": "2026-07-27T19:58",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 99,
+      "low_f": 80,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-28T05:49",
+      "sunset": "2026-07-28T19:57",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 98,
+      "low_f": 77,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-29T05:50",
+      "sunset": "2026-07-29T19:56",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-26T06:08:15.512081+00:00"
 }

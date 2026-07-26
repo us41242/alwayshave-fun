@@ -17,9 +17,11 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 88,
     "feels_like_f": 78,
@@ -30,17 +32,17 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "O3",
+    "aqi": 53,
+    "category": "Moderate",
+    "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 557.1,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-07-26T08:03:42.924494+00:00"
+  "updated_at": "2026-07-26T08:34:29.219701+00:00"
 }

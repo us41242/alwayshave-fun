@@ -29,13 +29,13 @@
     "gusts_mph": 12,
     "rain_pct": 3
   },
-  "sunrise": "2026-07-25T05:30",
-  "sunset": "2026-07-25T19:39",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 49,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -43,66 +43,10 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 10200,
+    "cfs": 10100,
     "stage": "flood",
     "gauge_id": "09402500"
   },
-  "forecast": [
-    {
-      "date": "2026-07-25",
-      "high_f": 88,
-      "low_f": 66,
-      "rain_pct": 7,
-      "uv": 9,
-      "sunrise": "2026-07-25T05:30",
-      "sunset": "2026-07-25T19:39",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-07-26",
-      "high_f": 84,
-      "low_f": 69,
-      "rain_pct": 18,
-      "uv": 8,
-      "sunrise": "2026-07-26T05:31",
-      "sunset": "2026-07-26T19:38",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-27",
-      "high_f": 87,
-      "low_f": 68,
-      "rain_pct": 14,
-      "uv": 8,
-      "sunrise": "2026-07-27T05:32",
-      "sunset": "2026-07-27T19:37",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-07-28",
-      "high_f": 89,
-      "low_f": 68,
-      "rain_pct": 32,
-      "uv": 8,
-      "sunrise": "2026-07-28T05:33",
-      "sunset": "2026-07-28T19:37",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-07-29",
-      "high_f": 89,
-      "low_f": 66,
-      "rain_pct": 13,
-      "uv": 8,
-      "sunrise": "2026-07-29T05:33",
-      "sunset": "2026-07-29T19:36",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-07-26T03:11:13.165178+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-26T03:43:09.166691+00:00"
 }

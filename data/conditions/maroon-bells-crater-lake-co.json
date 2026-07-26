@@ -17,20 +17,20 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 86,
+  "score_label": "Great day to go",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 52,
-    "wind_mph": 9,
-    "gusts_mph": 9,
+    "temp_f": 60,
+    "feels_like_f": 55,
+    "wind_mph": 10,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-26T06:03",
+  "sunset": "2026-07-26T20:25",
   "aqi": {
     "aqi": 34,
     "category": "Good",
@@ -43,6 +43,62 @@
     "fire_count_50km": 1
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-26T16:12:41.400741+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-26",
+      "high_f": 65,
+      "low_f": 48,
+      "rain_pct": 59,
+      "uv": 7,
+      "sunrise": "2026-07-26T06:03",
+      "sunset": "2026-07-26T20:25",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-27",
+      "high_f": 65,
+      "low_f": 47,
+      "rain_pct": 33,
+      "uv": 8,
+      "sunrise": "2026-07-27T06:04",
+      "sunset": "2026-07-27T20:24",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 66,
+      "low_f": 45,
+      "rain_pct": 71,
+      "uv": 8,
+      "sunrise": "2026-07-28T06:05",
+      "sunset": "2026-07-28T20:23",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 64,
+      "low_f": 44,
+      "rain_pct": 67,
+      "uv": 8,
+      "sunrise": "2026-07-29T06:06",
+      "sunset": "2026-07-29T20:22",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 66,
+      "low_f": 43,
+      "rain_pct": 61,
+      "uv": 9,
+      "sunrise": "2026-07-30T06:07",
+      "sunset": "2026-07-30T20:21",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-07-26T16:41:05.753990+00:00"
 }

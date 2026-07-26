@@ -19,12 +19,14 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 118,
-    "feels_like_f": 115,
-    "wind_mph": 10,
-    "gusts_mph": 12,
+    "temp_f": 114,
+    "feels_like_f": 105,
+    "wind_mph": 23,
+    "gusts_mph": 32,
     "rain_pct": 0
   },
   "sunrise": "2026-07-25T05:41",
@@ -44,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-07-25",
-      "high_f": 119,
+      "high_f": 118,
       "low_f": 94,
       "rain_pct": 1,
       "uv": 8,
@@ -56,7 +58,7 @@
     {
       "date": "2026-07-26",
       "high_f": 113,
-      "low_f": 93,
+      "low_f": 92,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-07-26T05:41",
@@ -98,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-26T00:06:38.274741+00:00"
+  "updated_at": "2026-07-26T00:38:56.408077+00:00"
 }

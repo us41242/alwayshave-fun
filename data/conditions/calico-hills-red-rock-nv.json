@@ -17,39 +17,31 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 90,
-    "feels_like_f": 84,
-    "wind_mph": 13,
-    "gusts_mph": 16,
-    "rain_pct": 1
+    "temp_f": 92,
+    "feels_like_f": 87,
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 0
   },
   "sunrise": "2026-07-27T05:45",
   "sunset": "2026-07-27T19:51",
   "aqi": {
-    "aqi": 55,
+    "aqi": 57,
     "category": "Moderate",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 51.8,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Francis",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-24T15:07:47.850000+00:00",
-      "distance_km": 96.7,
-      "direction": "SSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -61,19 +53,19 @@
       "uv": 9,
       "sunrise": "2026-07-27T05:45",
       "sunset": "2026-07-27T19:51",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-28",
       "high_f": 99,
       "low_f": 83,
-      "rain_pct": 2,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-28T05:46",
       "sunset": "2026-07-28T19:50",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-29",
@@ -83,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-07-29T05:46",
       "sunset": "2026-07-29T19:49",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-30",
@@ -94,8 +86,8 @@
       "uv": 9,
       "sunrise": "2026-07-30T05:47",
       "sunset": "2026-07-30T19:48",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-31",
@@ -105,9 +97,9 @@
       "uv": 9,
       "sunrise": "2026-07-31T05:48",
       "sunset": "2026-07-31T19:47",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T16:02:16.928066+00:00"
+  "updated_at": "2026-07-27T16:33:47.655500+00:00"
 }

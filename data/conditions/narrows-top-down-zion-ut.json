@@ -17,34 +17,99 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 77,
-    "feels_like_f": 74,
+    "temp_f": 74,
+    "feels_like_f": 70,
     "wind_mph": 5,
-    "gusts_mph": 6,
-    "rain_pct": 2
+    "gusts_mph": 5,
+    "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-26T06:31",
+  "sunset": "2026-07-26T20:45",
   "aqi": {
-    "aqi": 43,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "nearest_fire_km": 167.9,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Cowboy Ridge",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-25T23:50:12.100000+00:00",
+      "distance_km": 28.8,
+      "direction": "SSW"
+    }
   },
   "river": {
     "cfs": 37,
     "stage": "low",
     "gauge_id": "09405500"
   },
-  "forecast": [],
-  "updated_at": "2026-07-27T04:07:22.754200+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-26",
+      "high_f": 87,
+      "low_f": 68,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-07-26T06:31",
+      "sunset": "2026-07-26T20:45",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-27",
+      "high_f": 89,
+      "low_f": 67,
+      "rain_pct": 5,
+      "uv": 9,
+      "sunrise": "2026-07-27T06:32",
+      "sunset": "2026-07-27T20:44",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 90,
+      "low_f": 68,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-07-28T06:33",
+      "sunset": "2026-07-28T20:43",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 86,
+      "low_f": 67,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-07-29T06:33",
+      "sunset": "2026-07-29T20:42",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 90,
+      "low_f": 68,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-30T06:34",
+      "sunset": "2026-07-30T20:41",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-07-27T04:38:41.734624+00:00"
 }

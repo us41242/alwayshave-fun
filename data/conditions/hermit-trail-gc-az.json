@@ -21,9 +21,9 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 74,
-    "wind_mph": 7,
+    "temp_f": 79,
+    "feels_like_f": 76,
+    "wind_mph": 6,
     "gusts_mph": 10,
     "rain_pct": 1
   },
@@ -37,8 +37,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "nearest_fire_km": 211.0,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Wild Bill",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-26T00:20:04.683000+00:00",
+      "distance_km": 88.5,
+      "direction": "SSE"
+    }
   },
   "river": null,
   "forecast": [
@@ -98,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-27T04:05:36.248502+00:00"
+  "updated_at": "2026-07-27T04:38:40.116885+00:00"
 }

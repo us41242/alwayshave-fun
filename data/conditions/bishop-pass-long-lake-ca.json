@@ -22,8 +22,8 @@
   "gear_flags": [],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 48,
-    "wind_mph": 12,
+    "feels_like_f": 47,
+    "wind_mph": 11,
     "gusts_mph": 18,
     "rain_pct": 0
   },
@@ -37,8 +37,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "nearest_fire_km": 187.9,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Round",
+      "acres": 0.7,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-25T00:17:13.593000+00:00",
+      "distance_km": 28.0,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -98,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-27T04:13:13.209344+00:00"
+  "updated_at": "2026-07-27T04:46:37.070615+00:00"
 }

@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 81,
+    "temp_f": 80,
     "feels_like_f": 78,
-    "wind_mph": 4,
-    "gusts_mph": 4,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 1
   },
   "sunrise": "2026-07-26T06:31",
@@ -32,13 +32,22 @@
   "aqi": {
     "aqi": 43,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "nearest_fire_km": 185.7,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Cowboy Ridge",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-25T23:50:12.100000+00:00",
+      "distance_km": 11.6,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -98,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-27T04:02:38.696467+00:00"
+  "updated_at": "2026-07-27T04:32:00.252719+00:00"
 }

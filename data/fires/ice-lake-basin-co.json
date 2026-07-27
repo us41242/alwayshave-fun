@@ -1,11 +1,20 @@
 {
   "slug": "ice-lake-basin-co",
   "name": "Ice Lake Basin",
-  "updated_at": "2026-07-27T04:02:37.486203+00:00",
+  "updated_at": "2026-07-27T04:31:57.373242+00:00",
   "risk_level": "low",
   "score_pts": 20,
-  "nearest_fire_km": null,
+  "nearest_fire_km": 134.0,
   "fire_count_20km": 0,
   "fire_count_50km": 0,
-  "fire_count_100km": 0
+  "fire_count_100km": 0,
+  "nearest_incident": {
+    "name": "Gold Mountain",
+    "acres": 38063,
+    "containment_pct": 37,
+    "cause": "Undetermined",
+    "updated": "2026-07-26T22:56:14.430000+00:00",
+    "distance_km": 32.6,
+    "direction": "NNE"
+  }
 }

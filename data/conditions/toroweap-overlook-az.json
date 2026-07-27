@@ -17,18 +17,18 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 83,
-    "wind_mph": 4,
-    "gusts_mph": 4,
+    "temp_f": 83,
+    "feels_like_f": 81,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-27T05:34",
+  "sunset": "2026-07-27T19:40",
   "aqi": {
     "aqi": 48,
     "category": "Good",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-27T06:42:11.955479+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-27",
+      "high_f": 102,
+      "low_f": 77,
+      "rain_pct": 15,
+      "uv": 8,
+      "sunrise": "2026-07-27T05:34",
+      "sunset": "2026-07-27T19:40",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 101,
+      "low_f": 76,
+      "rain_pct": 17,
+      "uv": 7,
+      "sunrise": "2026-07-28T05:34",
+      "sunset": "2026-07-28T19:39",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 94,
+      "low_f": 76,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-07-29T05:35",
+      "sunset": "2026-07-29T19:38",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 100,
+      "low_f": 82,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-30T05:36",
+      "sunset": "2026-07-30T19:37",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 104,
+      "low_f": 85,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-07-31T05:37",
+      "sunset": "2026-07-31T19:36",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-27T07:08:25.617909+00:00"
 }

@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 70,
-    "feels_like_f": 67,
+    "feels_like_f": 66,
     "wind_mph": 10,
     "gusts_mph": 12,
     "rain_pct": 0
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 79.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Grouse",
+      "acres": 5.35,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-25T15:58:23.417000+00:00",
+      "distance_km": 60.1,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-27T20:45:33.988428+00:00"
+  "updated_at": "2026-07-27T21:09:44.484590+00:00"
 }

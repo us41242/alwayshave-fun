@@ -21,7 +21,7 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 73,
+    "temp_f": 74,
     "feels_like_f": 70,
     "wind_mph": 8,
     "gusts_mph": 13,
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 57.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Junction 2",
+      "acres": 270,
+      "containment_pct": null,
+      "cause": "Human",
+      "updated": "2026-07-27T20:16:36.587000+00:00",
+      "distance_km": 61.5,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T20:45:58.569117+00:00"
+  "updated_at": "2026-07-27T21:11:33.332582+00:00"
 }

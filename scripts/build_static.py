@@ -388,6 +388,23 @@ def inject_body(html, d, m, siblings):
     if risk:
         fdot = 'dot-green' if risk == 'low' else 'dot-yellow' if risk in ('moderate', 'medium') else 'dot-red'
         items.append(f'<li class="status-item"><span class="dot {fdot}"></span><span>Fire Risk: {esc(risk.capitalize())} (NASA FIRMS)</span></li>')
+    # Nearest named incident (NIFC/WFIGS) — must mirror trail.html's render() exactly
+    inc = fire.get("nearest_incident") or {}
+    if inc.get("name") and inc.get("distance_km") is not None:
+        nm = inc["name"] if ("fire" in inc["name"].lower() or "complex" in inc["name"].lower()) else f'{inc["name"]} Fire'
+        parts = []
+        if inc.get("acres") is not None:
+            acres = f'{inc["acres"]:,.2f}'.rstrip('0').rstrip('.') if inc["acres"] < 10 else f'{inc["acres"]:,.0f}'
+            parts.append(f'{acres} acres')
+        if inc.get("containment_pct") is not None:
+            parts.append(f'{round(inc["containment_pct"])}% contained')
+        parts.append(f'{round(inc["distance_km"] * 0.621371)} mi {inc["direction"]}')
+        if inc.get("cause"):
+            parts.append(str(inc["cause"]).lower())
+        mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        idate = f', {mon[int(inc["updated"][5:7]) - 1]} {int(inc["updated"][8:10])}' if inc.get("updated") else ''
+        # dot-gray: informational — the FIRMS risk line above is the risk signal
+        items.append(f'<li class="status-item"><span class="dot dot-gray"></span><span>Nearest fire: {esc(nm)} — {esc(", ".join(parts))} (NIFC{idate})</span></li>')
     river = d.get("river") or {}
     if river.get("cfs") is not None:
         rstage = (river.get("stage") or "").lower()

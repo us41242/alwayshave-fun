@@ -889,6 +889,20 @@
           text: `Fire Risk: ${risk.charAt(0).toUpperCase() + risk.slice(1)} (NASA FIRMS)`
         });
       }
+      // Nearest named incident (NIFC/WFIGS) — must mirror build_static.py exactly
+      const inc = (d.fire || {}).nearest_incident;
+      if (inc && inc.name && inc.distance_km != null) {
+        const nm = /fire|complex/i.test(inc.name) ? inc.name : `${inc.name} Fire`;
+        const parts = [];
+        if (inc.acres != null) parts.push(`${inc.acres.toLocaleString('en-US', { maximumFractionDigits: inc.acres < 10 ? 2 : 0 })} acres`);
+        if (inc.containment_pct != null) parts.push(`${Math.round(inc.containment_pct)}% contained`);
+        parts.push(`${Math.round(inc.distance_km * 0.621371)} mi ${inc.direction}`);
+        if (inc.cause) parts.push(String(inc.cause).toLowerCase());
+        const mon = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        const idate = inc.updated ? `, ${mon[+inc.updated.slice(5, 7) - 1]} ${+inc.updated.slice(8, 10)}` : '';
+        // dot-gray: informational — the FIRMS risk line above is the risk signal
+        items.push({ dot: 'dot-gray', text: `Nearest fire: ${nm} — ${parts.join(', ')} (NIFC${idate})` });
+      }
       if (d.river && d.river.cfs != null) {
         const rstage = (d.river.stage || '').toLowerCase();
         const rlabel = { low: 'Low', normal: 'Normal', high: 'High — use caution', flood: 'FLOOD — do not enter' }[rstage]

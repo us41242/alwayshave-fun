@@ -17,18 +17,29 @@ import csv
 import json
 import math
 import requests
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 NASA_FIRMS_KEY = os.environ.get("NASA_FIRMS_KEY", "")
 
 # Bounding box covering NV, UT, AZ, CO, CA, NM (west, south, east, north)
 BBOX = "-124,32,-102,42"
 
-# Days of data to pull (1 = past 24 hours; max 10 for NRT)
-LOOK_BACK_DAYS = 1
+# FIRMS day_range counts UTC *calendar days* (1 = today only), so a run just
+# after 00:00Z would see an almost-empty dataset. Pull 2 days and filter to a
+# true trailing-24h window in fetch_firms_csv().
+LOOK_BACK_DAYS = 2
 
-# Dataset: VIIRS_SNPP_NRT or MODIS_NRT
-DATASET = "VIIRS_SNPP_NRT"
+# All three VIIRS satellites — SNPP alone demonstrably misses passes the
+# NOAA birds catch (verified 2026-07-25/26).
+DATASETS = ["VIIRS_SNPP_NRT", "VIIRS_NOAA20_NRT", "VIIRS_NOAA21_NRT"]
+
+# NIFC/WFIGS current wildfire incidents (public ArcGIS, no key). Gives the
+# nearest fire a name, size, and containment instead of an anonymous pixel.
+WFIGS_URL = ("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/"
+             "WFIGS_Incident_Locations_Current/FeatureServer/0/query")
+
+COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE",
+           "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
 
 
 def load_trails(path="seeds/trails.csv"):
@@ -42,42 +53,116 @@ def load_trails(path="seeds/trails.csv"):
 
 
 def fetch_firms_csv():
-    """Download FIRMS hotspot CSV for the bounding box."""
+    """Download FIRMS hotspot CSVs (all VIIRS satellites), trailing 24h only."""
     if not NASA_FIRMS_KEY:
         print("  WARNING: NASA_FIRMS_KEY not set — skipping live fire fetch")
         return []
 
-    url = (
-        f"https://firms.modaps.eosdis.nasa.gov/api/area/csv"
-        f"/{NASA_FIRMS_KEY}/{DATASET}/{BBOX}/{LOOK_BACK_DAYS}"
-    )
-    try:
-        r = requests.get(url, timeout=30)
-        r.raise_for_status()
-        text = r.text.strip()
-        if not text or text.startswith("Error") or text.startswith("You"):
-            print(f"  FIRMS returned non-data response: {text[:120]}")
-            return []
-        lines = text.splitlines()
-        if len(lines) < 2:
-            return []
-        reader = csv.DictReader(lines)
-        hotspots = []
-        for row in reader:
-            try:
-                hotspots.append({
-                    "lat": float(row.get("latitude", 0)),
-                    "lng": float(row.get("longitude", 0)),
-                    "frp": float(row.get("frp", 0)),      # fire radiative power (MW)
-                    "confidence": row.get("confidence", ""),
-                })
-            except (ValueError, KeyError):
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    hotspots = []
+    for dataset in DATASETS:
+        url = (
+            f"https://firms.modaps.eosdis.nasa.gov/api/area/csv"
+            f"/{NASA_FIRMS_KEY}/{dataset}/{BBOX}/{LOOK_BACK_DAYS}"
+        )
+        try:
+            r = requests.get(url, timeout=30)
+            r.raise_for_status()
+            text = r.text.strip()
+            if not text or text.startswith("Error") or text.startswith("You"):
+                print(f"  FIRMS {dataset} returned non-data response: {text[:120]}")
                 continue
-        print(f"  FIRMS: {len(hotspots)} hotspots fetched")
-        return hotspots
+            lines = text.splitlines()
+            if len(lines) < 2:
+                continue
+            count = 0
+            for row in csv.DictReader(lines):
+                try:
+                    acq = datetime.strptime(
+                        f"{row['acq_date']} {int(row['acq_time']):04d}",
+                        "%Y-%m-%d %H%M").replace(tzinfo=timezone.utc)
+                    if acq < cutoff:
+                        continue
+                    hotspots.append({
+                        "lat": float(row.get("latitude", 0)),
+                        "lng": float(row.get("longitude", 0)),
+                        "frp": float(row.get("frp", 0)),      # fire radiative power (MW)
+                        "confidence": row.get("confidence", ""),
+                    })
+                    count += 1
+                except (ValueError, KeyError):
+                    continue
+            print(f"  FIRMS {dataset}: {count} hotspots in last 24h")
+        except Exception as e:
+            print(f"  FIRMS {dataset} fetch error: {e}")
+    print(f"  FIRMS total: {len(hotspots)} hotspots")
+    return hotspots
+
+
+def fetch_wfigs_incidents():
+    """Named active wildfire incidents from NIFC/WFIGS inside the bounding box."""
+    west, south, east, north = BBOX.split(",")
+    params = {
+        "where": "IncidentTypeCategory IN ('WF','CX') AND FireOutDateTime IS NULL",
+        "geometry": f"{west},{south},{east},{north}",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326", "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "IncidentName,IncidentSize,DiscoveryAcres,PercentContained,"
+                     "FireCause,FireCauseGeneral,ModifiedOnDateTime_dt",
+        "returnGeometry": "true",
+        "f": "json",
+    }
+    try:
+        r = requests.get(WFIGS_URL, params=params, timeout=30)
+        r.raise_for_status()
+        d = r.json()
+        if "error" in d:
+            print(f"  WFIGS error response: {d['error'].get('message')}")
+            return []
+        incidents = []
+        for feat in d.get("features", []):
+            a = feat.get("attributes") or {}
+            g = feat.get("geometry") or {}
+            if g.get("y") is None or not a.get("IncidentName"):
+                continue
+            mod = a.get("ModifiedOnDateTime_dt")
+            name = str(a["IncidentName"]).strip()
+            if name.isupper():  # some dispatch systems shout ("MATEO" → "Mateo")
+                name = name.title()
+            incidents.append({
+                "name": name,
+                "acres": a.get("IncidentSize") if a.get("IncidentSize") is not None else a.get("DiscoveryAcres"),
+                "containment_pct": a.get("PercentContained"),
+                "cause": a.get("FireCauseGeneral") or a.get("FireCause") or None,
+                "lat": g["y"],
+                "lng": g["x"],
+                "updated": datetime.fromtimestamp(mod / 1000, timezone.utc).isoformat() if mod else None,
+            })
+        print(f"  WFIGS: {len(incidents)} active incidents in region")
+        return incidents
     except Exception as e:
-        print(f"  FIRMS fetch error: {e}")
+        print(f"  WFIGS fetch error: {e}")
         return []
+
+
+def nearest_incident(incidents, trail_lat, trail_lng, max_km=100):
+    """Nearest named incident within max_km (matches the risk-band radius), or None."""
+    best, best_d = None, max_km
+    for inc in incidents:
+        d = haversine_km(trail_lat, trail_lng, inc["lat"], inc["lng"])
+        if d <= best_d:
+            best, best_d = inc, d
+    if not best:
+        return None
+    bearing = math.degrees(math.atan2(
+        math.sin(math.radians(best["lng"] - trail_lng)) * math.cos(math.radians(best["lat"])),
+        math.cos(math.radians(trail_lat)) * math.sin(math.radians(best["lat"]))
+        - math.sin(math.radians(trail_lat)) * math.cos(math.radians(best["lat"]))
+        * math.cos(math.radians(best["lng"] - trail_lng))))
+    direction = COMPASS[round(bearing % 360 / 22.5) % 16]
+    return {**{k: best[k] for k in ("name", "acres", "containment_pct", "cause", "updated")},
+            "distance_km": round(best_d, 1), "direction": direction}
 
 
 def haversine_km(lat1, lng1, lat2, lng2):
@@ -142,7 +227,7 @@ def classify_risk(hotspots, trail_lat, trail_lng):
     }
 
 
-def process_trail(trail, hotspots):
+def process_trail(trail, hotspots, incidents):
     slug = trail.get("slug", "").strip()
     lat  = trail.get("lat", "").strip()
     lng  = trail.get("lng", "").strip()
@@ -160,6 +245,7 @@ def process_trail(trail, hotspots):
         "name":       trail.get("name", ""),
         "updated_at": datetime.now(timezone.utc).isoformat(),
         **risk_data,
+        "nearest_incident": nearest_incident(incidents, trail_lat, trail_lng),
     }
 
     out_path = f"data/fires/{slug}.json"
@@ -209,12 +295,13 @@ def write_summary(trails, hotspots):
 
 def main():
     print(f"fetch_fires.py — {datetime.now(timezone.utc).isoformat()}")
-    trails   = load_trails()
-    hotspots = fetch_firms_csv()
+    trails    = load_trails()
+    hotspots  = fetch_firms_csv()
+    incidents = fetch_wfigs_incidents()
 
     print(f"  Processing {len(trails)} trails against {len(hotspots)} hotspots…")
     for trail in trails:
-        process_trail(trail, hotspots)
+        process_trail(trail, hotspots, incidents)
 
     write_summary(trails, hotspots)
     print("Done.")

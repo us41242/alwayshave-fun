@@ -17,27 +17,27 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
     "temp_f": 95,
     "feels_like_f": 89,
-    "wind_mph": 16,
-    "gusts_mph": 19,
-    "rain_pct": 2
+    "wind_mph": 15,
+    "gusts_mph": 17,
+    "rain_pct": 1
   },
   "sunrise": "2026-07-27T05:37",
   "sunset": "2026-07-27T19:51",
   "aqi": {
-    "aqi": 43,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 120.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Grapevine",
@@ -53,20 +53,20 @@
   "forecast": [
     {
       "date": "2026-07-27",
-      "high_f": 96,
+      "high_f": 95,
       "low_f": 73,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-07-27T05:37",
       "sunset": "2026-07-27T19:51",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-28",
       "high_f": 97,
-      "low_f": 72,
-      "rain_pct": 2,
+      "low_f": 71,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-28T05:38",
       "sunset": "2026-07-28T19:50",
@@ -107,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T22:35:05.241978+00:00"
+  "updated_at": "2026-07-27T23:04:15.756125+00:00"
 }

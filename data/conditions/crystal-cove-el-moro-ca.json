@@ -19,13 +19,10 @@
   "vehicle_req": "Any",
   "score": 58,
   "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 77,
-    "feels_like_f": 83,
+    "temp_f": 76,
+    "feels_like_f": 82,
     "wind_mph": 6,
     "gusts_mph": 6,
     "rain_pct": 0
@@ -33,15 +30,15 @@
   "sunrise": "2026-07-26T05:59",
   "sunset": "2026-07-26T19:56",
   "aqi": {
-    "aqi": 54,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "high",
-    "nearest_fire_km": 5.0,
-    "fire_count_50km": 6
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -101,5 +98,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-26T23:45:23.693608+00:00"
+  "updated_at": "2026-07-27T00:14:49.304103+00:00"
 }

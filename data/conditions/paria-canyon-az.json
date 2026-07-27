@@ -27,10 +27,10 @@
     "gusts_mph": 15,
     "rain_pct": 2
   },
-  "sunrise": "2026-07-27T06:29",
-  "sunset": "2026-07-27T20:39",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,73 +39,9 @@
     "risk_level": "low",
     "nearest_fire_km": 215.5,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Rock Canyon",
-      "acres": 4823,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "updated": "2026-07-22T15:03:51.140000+00:00",
-      "distance_km": 32.1,
-      "direction": "SW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-27",
-      "high_f": 100,
-      "low_f": 76,
-      "rain_pct": 4,
-      "uv": 9,
-      "sunrise": "2026-07-27T06:29",
-      "sunset": "2026-07-27T20:39",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-28",
-      "high_f": 101,
-      "low_f": 73,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-07-28T06:29",
-      "sunset": "2026-07-28T20:38",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-29",
-      "high_f": 94,
-      "low_f": 75,
-      "rain_pct": 10,
-      "uv": 9,
-      "sunrise": "2026-07-29T06:30",
-      "sunset": "2026-07-29T20:37",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 99,
-      "low_f": 78,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-07-30T06:31",
-      "sunset": "2026-07-30T20:36",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 103,
-      "low_f": 82,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-31T06:32",
-      "sunset": "2026-07-31T20:35",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-27T21:06:34.776651+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-27T21:37:30.676312+00:00"
 }

@@ -17,29 +17,37 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 84,
-    "wind_mph": 3,
-    "gusts_mph": 9,
+    "temp_f": 86,
+    "feels_like_f": 85,
+    "wind_mph": 6,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-07-27T06:32",
   "sunset": "2026-07-27T20:43",
   "aqi": {
-    "aqi": 37,
+    "aqi": 30,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 183.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cowboy Ridge",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-25T23:50:12.100000+00:00",
+      "distance_km": 13.7,
+      "direction": "SSW"
+    }
   },
   "river": {
     "cfs": 36,
@@ -103,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T15:33:12.616299+00:00"
+  "updated_at": "2026-07-27T16:02:14.452729+00:00"
 }

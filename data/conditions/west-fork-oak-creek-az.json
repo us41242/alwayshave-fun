@@ -23,10 +23,10 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 77,
-    "feels_like_f": 80,
+    "temp_f": 79,
+    "feels_like_f": 82,
     "wind_mph": 2,
-    "gusts_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-07-27T05:33",
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 38.4,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Pocket",
+      "acres": 27393,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-07-26T23:04:33.457000+00:00",
+      "distance_km": 4.5,
+      "direction": "WSW"
+    }
   },
   "river": {
     "cfs": 23,
@@ -53,7 +61,7 @@
       "date": "2026-07-27",
       "high_f": 91,
       "low_f": 66,
-      "rain_pct": 9,
+      "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-07-27T05:33",
       "sunset": "2026-07-27T19:33",
@@ -105,5 +113,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-27T15:37:18.688090+00:00"
+  "updated_at": "2026-07-27T16:04:45.266888+00:00"
 }

@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 89,
+    "temp_f": 90,
     "feels_like_f": 84,
-    "wind_mph": 12,
-    "gusts_mph": 14,
+    "wind_mph": 13,
+    "gusts_mph": 16,
     "rain_pct": 1
   },
   "sunrise": "2026-07-27T05:45",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 51.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Francis",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-24T15:07:47.850000+00:00",
+      "distance_km": 96.7,
+      "direction": "SSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-27T15:35:01.465223+00:00"
+  "updated_at": "2026-07-27T16:02:16.928066+00:00"
 }

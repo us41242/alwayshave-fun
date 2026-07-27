@@ -17,22 +17,22 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 92,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 66,
+    "temp_f": 74,
+    "feels_like_f": 68,
     "wind_mph": 15,
     "gusts_mph": 21,
-    "rain_pct": 1
+    "rain_pct": 2
   },
   "sunrise": "2026-07-27T05:38",
   "sunset": "2026-07-27T19:46",
   "aqi": {
-    "aqi": 30,
+    "aqi": 31,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 78.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Grapevine",
+      "acres": 26464,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-17T22:03:33.430000+00:00",
+      "distance_km": 87.8,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -49,7 +57,7 @@
       "date": "2026-07-27",
       "high_f": 82,
       "low_f": 66,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-07-27T05:38",
       "sunset": "2026-07-27T19:46",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T15:37:13.819028+00:00"
+  "updated_at": "2026-07-27T16:04:42.204405+00:00"
 }

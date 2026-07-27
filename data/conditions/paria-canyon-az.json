@@ -23,10 +23,10 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 79,
-    "wind_mph": 21,
-    "gusts_mph": 28,
+    "temp_f": 88,
+    "feels_like_f": 81,
+    "wind_mph": 20,
+    "gusts_mph": 27,
     "rain_pct": 0
   },
   "sunrise": "2026-07-27T06:29",
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 215.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 32.1,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -49,7 +57,7 @@
       "date": "2026-07-27",
       "high_f": 100,
       "low_f": 76,
-      "rain_pct": 5,
+      "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-07-27T06:29",
       "sunset": "2026-07-27T20:39",
@@ -60,7 +68,7 @@
       "date": "2026-07-28",
       "high_f": 102,
       "low_f": 73,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-07-28T06:29",
       "sunset": "2026-07-28T20:38",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T15:40:29.873489+00:00"
+  "updated_at": "2026-07-27T16:07:14.578292+00:00"
 }

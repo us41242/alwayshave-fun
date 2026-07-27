@@ -23,14 +23,14 @@
   "current": {
     "temp_f": 63,
     "feels_like_f": 58,
-    "wind_mph": 2,
-    "gusts_mph": 9,
+    "wind_mph": 3,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-07-27T05:56",
   "sunset": "2026-07-27T20:16",
   "aqi": {
-    "aqi": 34,
+    "aqi": 33,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 57.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Bam Bam",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Human",
+      "updated": "2026-07-27T05:11:38.187000+00:00",
+      "distance_km": 54.4,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T15:48:18.587666+00:00"
+  "updated_at": "2026-07-27T16:13:53.863340+00:00"
 }

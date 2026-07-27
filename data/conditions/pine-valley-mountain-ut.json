@@ -25,12 +25,12 @@
     "feels_like_f": 84,
     "wind_mph": 12,
     "gusts_mph": 15,
-    "rain_pct": 1
+    "rain_pct": 0
   },
   "sunrise": "2026-07-27T06:34",
   "sunset": "2026-07-27T20:46",
   "aqi": {
-    "aqi": 40,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 170.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cowboy Ridge",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-25T23:50:12.100000+00:00",
+      "distance_km": 45.3,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-27T19:09:40.596081+00:00"
+  "updated_at": "2026-07-27T19:41:41.821849+00:00"
 }

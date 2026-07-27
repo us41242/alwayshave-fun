@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 92,
+    "temp_f": 93,
     "feels_like_f": 93,
-    "wind_mph": 6,
-    "gusts_mph": 7,
-    "rain_pct": 7
+    "wind_mph": 4,
+    "gusts_mph": 6,
+    "rain_pct": 10
   },
   "sunrise": "2026-07-27T05:56",
   "sunset": "2026-07-27T20:15",
@@ -41,14 +41,22 @@
     "risk_level": "low",
     "nearest_fire_km": 221.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Trail Creek",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Human",
+      "updated": "2026-07-26T22:14:05.907000+00:00",
+      "distance_km": 38.1,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-27",
-      "high_f": 93,
-      "low_f": 70,
+      "high_f": 95,
+      "low_f": 74,
       "rain_pct": 34,
       "uv": 8,
       "sunrise": "2026-07-27T05:56",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T19:09:43.596431+00:00"
+  "updated_at": "2026-07-27T19:41:46.133567+00:00"
 }

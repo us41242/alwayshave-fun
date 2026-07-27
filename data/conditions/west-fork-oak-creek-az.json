@@ -23,16 +23,16 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 88,
-    "feels_like_f": 88,
-    "wind_mph": 12,
-    "gusts_mph": 13,
+    "temp_f": 89,
+    "feels_like_f": 90,
+    "wind_mph": 11,
+    "gusts_mph": 12,
     "rain_pct": 2
   },
   "sunrise": "2026-07-27T05:33",
   "sunset": "2026-07-27T19:33",
   "aqi": {
-    "aqi": 42,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 38.4,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Pocket",
+      "acres": 27393,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-07-26T23:04:33.457000+00:00",
+      "distance_km": 4.5,
+      "direction": "WSW"
+    }
   },
   "river": {
     "cfs": 23,
@@ -51,7 +59,7 @@
   "forecast": [
     {
       "date": "2026-07-27",
-      "high_f": 92,
+      "high_f": 91,
       "low_f": 66,
       "rain_pct": 8,
       "uv": 9,
@@ -64,7 +72,7 @@
       "date": "2026-07-28",
       "high_f": 92,
       "low_f": 70,
-      "rain_pct": 22,
+      "rain_pct": 21,
       "uv": 8,
       "sunrise": "2026-07-28T05:33",
       "sunset": "2026-07-28T19:33",
@@ -105,5 +113,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-27T19:04:43.440567+00:00"
+  "updated_at": "2026-07-27T19:36:04.101933+00:00"
 }

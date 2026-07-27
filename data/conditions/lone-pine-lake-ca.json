@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 69,
-    "wind_mph": 9,
-    "gusts_mph": 13,
+    "temp_f": 74,
+    "feels_like_f": 70,
+    "wind_mph": 10,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-07-27T05:55",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 169.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 52,
+      "cause": "Undetermined",
+      "updated": "2026-07-27T18:17:42.573000+00:00",
+      "distance_km": 36.7,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-27T19:12:38.588471+00:00"
+  "updated_at": "2026-07-27T19:47:02.708650+00:00"
 }

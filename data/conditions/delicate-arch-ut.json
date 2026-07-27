@@ -22,15 +22,15 @@
   "gear_flags": [],
   "current": {
     "temp_f": 98,
-    "feels_like_f": 101,
-    "wind_mph": 4,
-    "gusts_mph": 4,
+    "feels_like_f": 102,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 1
   },
   "sunrise": "2026-07-27T06:15",
   "sunset": "2026-07-27T20:33",
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,13 +39,21 @@
     "risk_level": "low",
     "nearest_fire_km": 286.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sego",
+      "acres": 0.2,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-26T23:04:52.267000+00:00",
+      "distance_km": 41.7,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-27",
-      "high_f": 102,
+      "high_f": 101,
       "low_f": 77,
       "rain_pct": 13,
       "uv": 9,
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T19:12:35.583966+00:00"
+  "updated_at": "2026-07-27T19:44:27.649440+00:00"
 }

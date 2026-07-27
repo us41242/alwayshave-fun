@@ -21,16 +21,16 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 91,
-    "feels_like_f": 93,
-    "wind_mph": 4,
-    "gusts_mph": 5,
-    "rain_pct": 0
+    "temp_f": 95,
+    "feels_like_f": 99,
+    "wind_mph": 3,
+    "gusts_mph": 3,
+    "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-27T06:15",
+  "sunset": "2026-07-27T20:33",
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,17 +39,65 @@
     "risk_level": "low",
     "nearest_fire_km": 286.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Sego",
-      "acres": 0.2,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-07-26T23:04:52.267000+00:00",
-      "distance_km": 41.7,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-27T17:15:25.740869+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-27",
+      "high_f": 102,
+      "low_f": 77,
+      "rain_pct": 13,
+      "uv": 9,
+      "sunrise": "2026-07-27T06:15",
+      "sunset": "2026-07-27T20:33",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 103,
+      "low_f": 76,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-07-28T06:16",
+      "sunset": "2026-07-28T20:32",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 101,
+      "low_f": 80,
+      "rain_pct": 8,
+      "uv": 9,
+      "sunrise": "2026-07-29T06:17",
+      "sunset": "2026-07-29T20:31",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 99,
+      "low_f": 74,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-07-30T06:18",
+      "sunset": "2026-07-30T20:30",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 105,
+      "low_f": 82,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-31T06:18",
+      "sunset": "2026-07-31T20:29",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-27T18:02:48.001828+00:00"
 }

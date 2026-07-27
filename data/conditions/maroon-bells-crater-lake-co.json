@@ -17,8 +17,8 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 58,
@@ -27,85 +27,21 @@
     "gusts_mph": 7,
     "rain_pct": 6
   },
-  "sunrise": "2026-07-27T06:04",
-  "sunset": "2026-07-27T20:24",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 47,
+    "aqi": 35,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 258.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Tepee",
-      "acres": 5.57,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-27T00:31:54.563000+00:00",
-      "distance_km": 46.2,
-      "direction": "SSE"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-27",
-      "high_f": 63,
-      "low_f": 44,
-      "rain_pct": 32,
-      "uv": 8,
-      "sunrise": "2026-07-27T06:04",
-      "sunset": "2026-07-27T20:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-28",
-      "high_f": 64,
-      "low_f": 47,
-      "rain_pct": 32,
-      "uv": 7,
-      "sunrise": "2026-07-28T06:05",
-      "sunset": "2026-07-28T20:23",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-29",
-      "high_f": 63,
-      "low_f": 42,
-      "rain_pct": 68,
-      "uv": 6,
-      "sunrise": "2026-07-29T06:06",
-      "sunset": "2026-07-29T20:22",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 61,
-      "low_f": 43,
-      "rain_pct": 40,
-      "uv": 8,
-      "sunrise": "2026-07-30T06:07",
-      "sunset": "2026-07-30T20:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 68,
-      "low_f": 45,
-      "rain_pct": 14,
-      "uv": 9,
-      "sunrise": "2026-07-31T06:08",
-      "sunset": "2026-07-31T20:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-07-27T17:11:25.440579+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-27T18:00:35.357888+00:00"
 }

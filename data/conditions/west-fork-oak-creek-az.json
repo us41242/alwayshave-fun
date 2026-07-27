@@ -26,7 +26,7 @@
     "temp_f": 66,
     "feels_like_f": 63,
     "wind_mph": 10,
-    "gusts_mph": 11,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-07-27T05:33",
@@ -51,7 +51,11 @@
       "direction": "WSW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 23,
+    "stage": "low",
+    "gauge_id": "09504500"
+  },
   "forecast": [
     {
       "date": "2026-07-27",
@@ -109,5 +113,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-07-27T12:07:26.950949+00:00"
+  "updated_at": "2026-07-27T12:36:05.857383+00:00"
 }

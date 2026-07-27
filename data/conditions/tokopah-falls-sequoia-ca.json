@@ -24,8 +24,8 @@
   ],
   "current": {
     "temp_f": 73,
-    "feels_like_f": 74,
-    "wind_mph": 6,
+    "feels_like_f": 73,
+    "wind_mph": 7,
     "gusts_mph": 7,
     "rain_pct": 0
   },
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 143.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Pt 31 Unattended Camp Fire",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-26T22:10:02.643000+00:00",
+      "distance_km": 21.9,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T21:41:18.800574+00:00"
+  "updated_at": "2026-07-27T22:15:22.162239+00:00"
 }

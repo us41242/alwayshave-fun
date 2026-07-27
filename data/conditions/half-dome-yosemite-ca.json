@@ -17,7 +17,7 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 92,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
@@ -36,10 +36,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 79.2,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Grouse",
+      "acres": 5.35,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-25T15:58:23.417000+00:00",
+      "distance_km": 60.1,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,7 +59,7 @@
       "uv": 9,
       "sunrise": "2026-07-27T05:57",
       "sunset": "2026-07-27T20:11",
-      "predicted_score": 92,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -62,7 +70,7 @@
       "uv": 9,
       "sunrise": "2026-07-28T05:58",
       "sunset": "2026-07-28T20:10",
-      "predicted_score": 92,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -73,8 +81,8 @@
       "uv": 9,
       "sunrise": "2026-07-29T05:59",
       "sunset": "2026-07-29T20:09",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-30",
@@ -84,8 +92,8 @@
       "uv": 9,
       "sunrise": "2026-07-30T06:00",
       "sunset": "2026-07-30T20:08",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-31",
@@ -95,9 +103,9 @@
       "uv": 9,
       "sunrise": "2026-07-31T06:01",
       "sunset": "2026-07-31T20:07",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-27T21:38:50.204625+00:00"
+  "updated_at": "2026-07-27T22:12:07.897421+00:00"
 }

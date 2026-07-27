@@ -17,20 +17,20 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 92,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 54,
-    "feels_like_f": 48,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "feels_like_f": 47,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-27T05:57",
+  "sunset": "2026-07-27T20:11",
   "aqi": {
-    "aqi": 36,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,17 +39,65 @@
     "risk_level": "moderate",
     "nearest_fire_km": 79.0,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Grouse",
-      "acres": 5.35,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-25T15:58:23.417000+00:00",
-      "distance_km": 60.1,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-27T13:44:24.078315+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-27",
+      "high_f": 70,
+      "low_f": 53,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-27T05:57",
+      "sunset": "2026-07-27T20:11",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 69,
+      "low_f": 52,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-28T05:58",
+      "sunset": "2026-07-28T20:10",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 78,
+      "low_f": 48,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-29T05:59",
+      "sunset": "2026-07-29T20:09",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 80,
+      "low_f": 52,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-30T06:00",
+      "sunset": "2026-07-30T20:08",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 84,
+      "low_f": 54,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-31T06:01",
+      "sunset": "2026-07-31T20:07",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-07-27T14:11:05.292341+00:00"
 }

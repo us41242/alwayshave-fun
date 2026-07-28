@@ -17,13 +17,13 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 102,
-    "wind_mph": 7,
+    "temp_f": 101,
+    "feels_like_f": 101,
+    "wind_mph": 8,
     "gusts_mph": 10,
     "rain_pct": 2
   },
@@ -36,10 +36,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 85.8,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Bootlegger",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-28T16:21:23.483000+00:00",
+      "distance_km": 36.3,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,29 +59,29 @@
       "uv": 9,
       "sunrise": "2026-07-28T06:16",
       "sunset": "2026-07-28T20:32",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-29",
       "high_f": 101,
       "low_f": 75,
-      "rain_pct": 20,
+      "rain_pct": 22,
       "uv": 8,
       "sunrise": "2026-07-29T06:17",
       "sunset": "2026-07-29T20:31",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-30",
       "high_f": 98,
       "low_f": 69,
-      "rain_pct": 11,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-07-30T06:18",
       "sunset": "2026-07-30T20:30",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +92,7 @@
       "uv": 9,
       "sunrise": "2026-07-31T06:18",
       "sunset": "2026-07-31T20:29",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +103,9 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:19",
       "sunset": "2026-08-01T20:28",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-28T20:47:06.148241+00:00"
+  "updated_at": "2026-07-28T21:16:30.068140+00:00"
 }

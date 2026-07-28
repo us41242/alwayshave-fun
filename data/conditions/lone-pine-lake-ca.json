@@ -17,31 +17,37 @@
   "notes": "No permit required to the lake (only for full Whitney summit); snow patches above 9500 ft until mid-June; dogs legal in Inyo NF section",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 74,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 68,
-    "wind_mph": 14,
-    "gusts_mph": 18,
+    "temp_f": 76,
+    "feels_like_f": 67,
+    "wind_mph": 16,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "sunrise": "2026-07-28T05:56",
   "sunset": "2026-07-28T20:02",
   "aqi": {
-    "aqi": 32,
+    "aqi": 30,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 41.0,
-    "fire_count_50km": 1,
-    "nearest_incident": null
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Hwy 395 Hwy / Fort Independence Rd",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-28T20:13:05.060000+00:00",
+      "distance_km": 29.1,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,8 +59,8 @@
       "uv": 9,
       "sunrise": "2026-07-28T05:56",
       "sunset": "2026-07-28T20:02",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-29",
@@ -64,8 +70,8 @@
       "uv": 9,
       "sunrise": "2026-07-29T05:56",
       "sunset": "2026-07-29T20:01",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-30",
@@ -75,8 +81,8 @@
       "uv": 9,
       "sunrise": "2026-07-30T05:57",
       "sunset": "2026-07-30T20:00",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-31",
@@ -86,8 +92,8 @@
       "uv": 9,
       "sunrise": "2026-07-31T05:58",
       "sunset": "2026-07-31T20:00",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-01",
@@ -97,9 +103,9 @@
       "uv": 9,
       "sunrise": "2026-08-01T05:59",
       "sunset": "2026-08-01T19:59",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-28T20:48:03.536964+00:00"
+  "updated_at": "2026-07-28T21:18:38.428670+00:00"
 }

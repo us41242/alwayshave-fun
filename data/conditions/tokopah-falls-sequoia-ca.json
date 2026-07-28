@@ -17,20 +17,20 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 82,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 66,
-    "wind_mph": 6,
+    "temp_f": 69,
+    "feels_like_f": 65,
+    "wind_mph": 5,
     "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-27T05:57",
+  "sunset": "2026-07-27T20:05",
   "aqi": {
     "aqi": 97,
     "category": "Moderate",
@@ -41,17 +41,65 @@
     "risk_level": "moderate",
     "nearest_fire_km": 50.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Pt 31 Unattended Camp Fire",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-26T22:10:02.643000+00:00",
-      "distance_km": 21.9,
-      "direction": "NW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-28T01:44:35.325374+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-27",
+      "high_f": 74,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-27T05:57",
+      "sunset": "2026-07-27T20:05",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-28",
+      "high_f": 74,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-28T05:58",
+      "sunset": "2026-07-28T20:04",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 78,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-29T05:59",
+      "sunset": "2026-07-29T20:03",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 84,
+      "low_f": 60,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-30T05:59",
+      "sunset": "2026-07-30T20:02",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 87,
+      "low_f": 64,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-31T06:00",
+      "sunset": "2026-07-31T20:02",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-28T02:14:39.135795+00:00"
 }

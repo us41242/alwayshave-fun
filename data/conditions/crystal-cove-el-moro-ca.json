@@ -23,8 +23,8 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 77,
+    "temp_f": 71,
+    "feels_like_f": 75,
     "wind_mph": 7,
     "gusts_mph": 7,
     "rain_pct": 0
@@ -32,7 +32,7 @@
   "sunrise": "2026-07-27T06:00",
   "sunset": "2026-07-27T19:55",
   "aqi": {
-    "aqi": 48,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,15 +41,7 @@
     "risk_level": "high",
     "nearest_fire_km": 5.0,
     "fire_count_50km": 9,
-    "nearest_incident": {
-      "name": "Olive",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-27T18:24:55.063000+00:00",
-      "distance_km": 25.2,
-      "direction": "NE"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -67,7 +59,7 @@
     {
       "date": "2026-07-28",
       "high_f": 74,
-      "low_f": 65,
+      "low_f": 66,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-28T06:01",
@@ -77,8 +69,8 @@
     },
     {
       "date": "2026-07-29",
-      "high_f": 84,
-      "low_f": 64,
+      "high_f": 80,
+      "low_f": 66,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-29T06:01",
@@ -109,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-28T01:42:44.819674+00:00"
+  "updated_at": "2026-07-28T02:13:14.989264+00:00"
 }

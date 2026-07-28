@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 76,
-    "wind_mph": 13,
-    "gusts_mph": 14,
-    "rain_pct": 8
+    "temp_f": 81,
+    "feels_like_f": 74,
+    "wind_mph": 14,
+    "gusts_mph": 16,
+    "rain_pct": 7
   },
   "sunrise": "2026-07-27T06:28",
   "sunset": "2026-07-27T20:41",
@@ -39,17 +39,9 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 155.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Cottonwood",
-      "acres": 97464,
-      "containment_pct": 90,
-      "cause": "Undetermined",
-      "updated": "2026-07-27T22:19:55.810000+00:00",
-      "distance_km": 77.6,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -77,10 +69,10 @@
     },
     {
       "date": "2026-07-29",
-      "high_f": 79,
-      "low_f": 62,
+      "high_f": 78,
+      "low_f": 59,
       "rain_pct": 16,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-07-29T06:30",
       "sunset": "2026-07-29T20:39",
       "predicted_score": 78,
@@ -88,19 +80,19 @@
     },
     {
       "date": "2026-07-30",
-      "high_f": 86,
+      "high_f": 84,
       "low_f": 62,
       "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-07-30T06:31",
       "sunset": "2026-07-30T20:38",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-31",
-      "high_f": 90,
-      "low_f": 66,
+      "high_f": 89,
+      "low_f": 65,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-07-31T06:32",
@@ -109,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-27T23:32:39.526296+00:00"
+  "updated_at": "2026-07-28T00:03:16.002634+00:00"
 }

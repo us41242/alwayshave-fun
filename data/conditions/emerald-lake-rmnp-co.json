@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 61,
+    "temp_f": 61,
+    "feels_like_f": 62,
     "wind_mph": 2,
-    "gusts_mph": 5,
-    "rain_pct": 23
+    "gusts_mph": 2,
+    "rain_pct": 25
   },
   "sunrise": "2026-07-27T05:56",
   "sunset": "2026-07-27T20:22",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 81.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Huron",
+      "acres": 7,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-25T22:40:47.117000+00:00",
+      "distance_km": 75.9,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-28T02:11:17.881839+00:00"
+  "updated_at": "2026-07-28T02:43:06.589500+00:00"
 }

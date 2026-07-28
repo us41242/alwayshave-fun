@@ -17,31 +17,39 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 75,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 70,
+    "feels_like_f": 76,
+    "wind_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-07-27T06:00",
   "sunset": "2026-07-27T19:55",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "high",
     "nearest_fire_km": 5.0,
     "fire_count_50km": 9,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Olive",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-27T18:24:55.063000+00:00",
+      "distance_km": 25.2,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,19 +61,19 @@
       "uv": 8,
       "sunrise": "2026-07-27T06:00",
       "sunset": "2026-07-27T19:55",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-28",
       "high_f": 74,
-      "low_f": 66,
+      "low_f": 65,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-28T06:01",
       "sunset": "2026-07-28T19:54",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-29",
@@ -75,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-07-29T06:01",
       "sunset": "2026-07-29T19:53",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-07-30",
@@ -86,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-07-30T06:02",
       "sunset": "2026-07-30T19:52",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-07-31",
@@ -97,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-07-31T06:03",
       "sunset": "2026-07-31T19:52",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-07-28T02:13:14.989264+00:00"
+  "updated_at": "2026-07-28T02:45:23.248148+00:00"
 }

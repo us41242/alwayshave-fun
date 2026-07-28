@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 53,
-    "feels_like_f": 47,
-    "wind_mph": 6,
-    "gusts_mph": 15,
-    "rain_pct": 17
+    "temp_f": 52,
+    "feels_like_f": 43,
+    "wind_mph": 13,
+    "gusts_mph": 16,
+    "rain_pct": 14
   },
   "sunrise": "2026-07-27T05:34",
   "sunset": "2026-07-27T19:53",
   "aqi": {
-    "aqi": 49,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 129.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Nat Out Twelve",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-27T16:25:30.800000+00:00",
+      "distance_km": 85.1,
+      "direction": "SSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-28T02:04:14.254776+00:00"
+  "updated_at": "2026-07-28T02:34:25.031844+00:00"
 }

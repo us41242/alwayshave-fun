@@ -17,20 +17,20 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 69,
-    "wind_mph": 13,
+    "temp_f": 74,
+    "feels_like_f": 68,
+    "wind_mph": 10,
     "gusts_mph": 19,
-    "rain_pct": 5
+    "rain_pct": 4
   },
   "sunrise": "2026-07-27T06:28",
   "sunset": "2026-07-27T20:41",
   "aqi": {
-    "aqi": 46,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 158.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 77.1,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
@@ -57,7 +65,7 @@
     {
       "date": "2026-07-28",
       "high_f": 84,
-      "low_f": 63,
+      "low_f": 64,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-07-28T06:29",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-28T02:05:02.094505+00:00"
+  "updated_at": "2026-07-28T02:37:56.478578+00:00"
 }

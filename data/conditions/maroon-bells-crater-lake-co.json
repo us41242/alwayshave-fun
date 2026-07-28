@@ -21,11 +21,11 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 52,
-    "wind_mph": 5,
-    "gusts_mph": 11,
-    "rain_pct": 12
+    "temp_f": 54,
+    "feels_like_f": 51,
+    "wind_mph": 6,
+    "gusts_mph": 10,
+    "rain_pct": 10
   },
   "sunrise": "2026-07-27T06:04",
   "sunset": "2026-07-27T20:24",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 150.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Willow",
+      "acres": 7196,
+      "containment_pct": 62,
+      "cause": "Human",
+      "updated": "2026-07-27T23:12:19.420000+00:00",
+      "distance_km": 48.0,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -56,7 +64,7 @@
     },
     {
       "date": "2026-07-28",
-      "high_f": 62,
+      "high_f": 64,
       "low_f": 46,
       "rain_pct": 23,
       "uv": 7,
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-28T02:09:59.563382+00:00"
+  "updated_at": "2026-07-28T02:43:03.955126+00:00"
 }

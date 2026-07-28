@@ -4,6 +4,39 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-27 — Session 20 (nightly, Monday) — WEEKLY REPORT #3; WFIGS FEATURE VERIFIED LIVE; GITHUB UNREACHABLE
+
+### Backfill: the WFIGS named-incident feature shipped 07-26 but was never logged
+Commit `57fbd69018c` (Sun 07-26 21:28) — the Session 19 "next main action" got built and pushed by an unlogged session:
+- `fetch_fires.py`: FIRMS `day_range=1` meant *current UTC day*, not last 24h — overnight runs scored fire risk on a near-empty dataset (0 hotspots vs 1,410 real). Now pulls 2 days from SNPP+NOAA20+NOAA21 and filters to a true trailing-24h window.
+- Nearest **named** incident per trail from the free NIFC/WFIGS ArcGIS feed (name, acres, containment, cause, distance/bearing, record date). Status list now renders e.g. *"Nearest fire: Cliff Spring Fire — 170 acres, 10 mi ENE, undetermined (NIFC, Jul 27)"*, static + JS mirrored, `test_status_list.py` extended.
+
+### Oriented
+- GSC: **0 clicks / 0 impressions**, 7d (through 07-24) and 28d. Flat WoW, as every week. Homepage URL Inspection now reads **"Submitted and indexed," verdict PASS** — but **last crawl still 2026-06-20** (37 days, past the old ~monthly cadence). `/az/south-kaibab-gc-az` still "Crawled – not indexed" @ 2026-05-01.
+- **GitHub unreachable tonight:** github.com:443 connections time out (DNS resolves — `140.82.112.4` — but the port hangs ~90s), while Google APIs and the live Cloudflare site respond fine. `git pull --rebase` failed on every retry. Reddit (www.reddit.com) also DNS-failed, so no fresh token/karma. Looks like a local network/routing issue, not a site or credential problem.
+
+### Did
+- **Wrote weekly report #3** → `~/Documents/daily-in-box/ahf-weekly-2026-07-27.md`. GSC flat 0/0; recapped the week's safety-and-differentiation work (Sessions 16–20: two gauge/score safety bugs, the hardcoded-"Fire Risk: Low" bug, the soft-404 close, the WFIGS named-fire feature); Reddit tally reported as last-confirmed (5 comments, 3 replies, all live — couldn't refresh tonight). Re-raised the 3-weeks-open Reddit-account question as the single highest-leverage ask.
+- **No code pushed** — GitHub is down and there was no code change to make anyway; the highest-leverage completable action tonight was the mandated Monday weekly report plus verifying the unlogged feature actually deployed.
+
+### Verified (live, real-UA curl — Cloudflare reachable)
+- Homepage 200; sitemap valid, **96 `<loc>`**.
+- WFIGS feature **live and correct**: `/az/south-kaibab-gc-az` static HTML carries `Nearest fire: Cliff Spring Fire — 170 acres, 10 mi ENE, undetermined (NIFC, Jul 27)`; the JS template mirror (`Nearest fire: ${nm} …`) is present; `Fire Risk: … (NASA FIRMS)` static line intact. Session 19's data-driven fire render is holding in production.
+
+### Learned
+- **A session can ship without logging.** The WFIGS work — Session 19's headline "next action" — was committed 07-26 with a real, verified commit message but left no LOGBOOK entry. The commit log is the backstop when the journal has a gap; check `git log` against the last logged commit every orient.
+- Tonight's env failed selectively: Google + Cloudflare fine, GitHub + Reddit dead. When one host times out, test others before assuming the network is down — and DNS-resolves ≠ port-reachable (github resolved but :443 hung).
+
+### Expect
+- No traffic effect. Still 0/0 until Google recrawls the homepage; that single event will propagate the whole backlog of fixes at once.
+
+### Upcoming
+- **Push the local LOGBOOK commit** the moment GitHub connectivity returns (nothing else is queued to push).
+- Reddit account remains the Phase-3 blocker; check `ozt1k8i`/`ozmi6b2` for replies once reddit.com resolves again.
+- Homepage recrawl watch: 37 days and counting since 2026-06-20.
+
+---
+
 ## 2026-07-25 — Session 19 (nightly) — HARDCODED "FIRE RISK: LOW" SHOWN TO EVERY VISITOR; SOFT-404 SPACE CLOSED
 
 ### Oriented

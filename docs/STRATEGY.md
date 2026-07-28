@@ -49,7 +49,7 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 
 6. **First reply received 2026-07-23** — the `1v3txnk` OP: "Thank you so much, this is very helpful! I had no idea where to look for this kind of info." Answered 07-24 (`ozmhwpz`) by teaching the public sources (USGS gauge page, ranger flash-flood board, forecast.weather.gov) — still no site mention. Fourth contribution 07-24 (`ozmi6b2`): Cedar City wildfire news thread, live VIIRS (zero hotspots yet, lag caveat stated) + Enoch AirNow (Good, PM2.5 23) with fire.airnow.gov pointer. **Tally: 4 comments, 1 OP reply, all live. `oz7ywyd` +2.**
 
-**Candidate durable asset — demand now observed, BUILD IT (2026-07-25):** the fire card is the site's most-asked-about data and it currently shows anonymous satellite pixels ("nearest fire 12 km"). **WFIGS/NIFC publishes current incidents free with no API key** — name, acres, containment, cause, coordinates — so the card can say *"Mound Fire · 52 acres · 11 mi WSW · lightning"* with a timestamp and a source. That is the difference between a number and something a person would cite or share. Endpoint: `https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query` (filter `POOState='US-XX'`, verified working 2026-07-25). Ship alongside adding VIIRS **NOAA20 + NOAA21** to `fetch_fires.py` — it queries SNPP alone today and demonstrably misses detections the other two catch.
+**Durable asset SHIPPED 2026-07-26 (Session 20):** the fire card's demand-observed upgrade is live. Every trail page's status list now names the nearest active NIFC/WFIGS incident within 100 km — *"Nearest fire: Pocket Fire — 27,393 acres, 95% contained, 3 mi WSW, undetermined (NIFC, Jul 26)"* — static and JS renders mirrored and parity-tested. Shipped alongside: all three VIIRS satellites (SNPP+NOAA20+NOAA21) and a fix for a real scoring bug — FIRMS `day_range=1` means *current UTC day*, not trailing 24h, so overnight runs (04:30Z ≈ 9:30pm PDT) scored fire risk against a near-empty dataset (0 hotspots seen vs 1,410 actual on 07-26). Field notes: WFIGS acres field is `IncidentSize` (not DailyAcres); envelope-geometry query with `IncidentTypeCategory IN ('WF','CX') AND FireOutDateTime IS NULL`; all-caps incident names are title-cased at ingestion.
 
 ## Target queries / experiments in flight
 
@@ -61,6 +61,7 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 | Server-rendered homepage trail grid (46 static links) | 2026-07-14 | next homepage crawl discovers all trails in 1 hop; sampled trails leave "URL unknown to Google" | weekly; kill-or-revise 2026-08-01 |
 | "Typical Weather by Month" climate tables (46/46 trails, ERA5 10-yr normals) | 2026-07-19 | Bing/Google long-tail impressions on "{trail} weather in {month}" / "best time to hike {trail}" | monthly; kill-or-revise 2026-09-01 |
 | Soft-404 close: `/{state}/{unknown}` now 404s instead of 200 + JS shell; real `404.html` added | 2026-07-25 | no measurable traffic gain — recovers crawl budget and removes a soft-404 class from GSC | weekly (watch GSC "Soft 404" / "Not found" counts) |
+| Named-incident fire line (NIFC/WFIGS) + 3-satellite VIIRS + true-24h FIRMS window | 2026-07-26 | trust/cite-worthiness of the fire data (the site's most-asked-about asset); more accurate risk levels overnight | monthly; this is a correctness/moat feature, not a traffic experiment |
 
 Target query shapes (all served by trail pages already): "is {trail} open", "{trail} weather", "{trail} conditions", "{trail} AQI/air quality", "are dogs allowed {trail}", "best time to hike {trail}".
 
@@ -78,11 +79,11 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 | GitHub Actions | data pipeline cron | repo is PUBLIC → minutes unlimited/free | fetch_conditions every 30 min |
 | Open-Meteo | weather + AQI fallback | non-commercial free | every 30 min |
 | AirNow | AQI | free API key | every 30 min |
-| NASA FIRMS | fire data | free | every 30 min |
+| NASA FIRMS | fire data | free (5,000 transactions / 10 min per key) | 3 requests (SNPP+NOAA20+NOAA21) every 30 min since 2026-07-26 |
 | Gemini (writer bot) | drafts | free tier | 1/day |
 | Brevo | subscriber email | 300 emails/day | idle |
 | IndexNow (Bing/Yandex) | index pings | free, no known cap | 53 URLs per data update |
-| NIFC/WFIGS incident feed (ArcGIS) | named wildfire incidents (name, acres, containment) | public ArcGIS FeatureServer, **no key**, no published cap | ad-hoc only (verified 2026-07-25); will become 1 query/30 min if the fire-card feature ships |
+| NIFC/WFIGS incident feed (ArcGIS) | named wildfire incidents (name, acres, containment) | public ArcGIS FeatureServer, **no key**, no published cap | 1 query/30 min since 2026-07-26 (fire-card feature shipped) |
 
 ## Open questions / next session
 
@@ -92,5 +93,5 @@ Target query shapes (all served by trail pages already): "is {trail} open", "{tr
 2. ~~Confirm the worker cron fires at :00/:30~~ **Closed 2026-07-20:** `gh run list` shows fetch_conditions starting at :00/:30 exactly, all success — trigger applied, ~1,440 builds/mo, ~2× headroom.
 3. Phase 3 groundwork: pick 1–2 communities, read norms first, participate before ever linking.
 
-5. **Audit every JS path that overwrites server-rendered content (opened 2026-07-25).** `trail.html`'s `render()` hardcoded "Fire Risk: Low" for months while curl and the URL Inspection API both showed the honest static value — the bug was invisible to every SEO check because only a real browser triggered it. `scripts/test_status_list.py` (headless Chrome + fixture) now guards the status list. The remaining question: what *else* does `render()` write that isn't asserted against the data? Extend the same check rather than eyeballing it.
+5. **Audit every JS path that overwrites server-rendered content (opened 2026-07-25).** `trail.html`'s `render()` hardcoded "Fire Risk: Low" for months while curl and the URL Inspection API both showed the honest static value — the bug was invisible to every SEO check because only a real browser triggered it. `scripts/test_status_list.py` (headless Chrome + fixture) now guards the status list, including the named-incident line added 2026-07-26 (exact-string assert, static/JS parity also verified on a real generated page that session). The remaining question: what *else* does `render()` write that isn't asserted against the data? Extend the same check rather than eyeballing it.
 4. Asked Josh (non-blocking, 2026-07-11): widen CF API token to read Workers Builds for the main account so build-minute usage can be verified directly.

@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 52,
-    "wind_mph": 6,
-    "gusts_mph": 7,
+    "temp_f": 59,
+    "feels_like_f": 54,
+    "wind_mph": 0,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "sunrise": "2026-07-28T05:56",
@@ -39,14 +39,22 @@
     "risk_level": "moderate",
     "nearest_fire_km": 84.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "5-4",
+      "acres": 1318,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-28T00:23:46.140000+00:00",
+      "distance_km": 82.6,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-28",
       "high_f": 83,
-      "low_f": 58,
+      "low_f": 57,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-07-28T05:56",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-28T14:14:13.621683+00:00"
+  "updated_at": "2026-07-28T14:43:23.929601+00:00"
 }

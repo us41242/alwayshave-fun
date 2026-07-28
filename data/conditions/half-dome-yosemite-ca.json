@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 55,
+    "temp_f": 56,
     "feels_like_f": 48,
-    "wind_mph": 1,
-    "gusts_mph": 1,
+    "wind_mph": 3,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "sunrise": "2026-07-28T05:58",
   "sunset": "2026-07-28T20:10",
   "aqi": {
-    "aqi": 35,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 76.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Grouse",
+      "acres": 5.35,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-25T15:58:23.417000+00:00",
+      "distance_km": 60.1,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-28T14:11:45.917086+00:00"
+  "updated_at": "2026-07-28T14:40:47.104851+00:00"
 }

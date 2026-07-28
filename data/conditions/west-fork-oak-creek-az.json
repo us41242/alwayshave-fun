@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 85,
-    "wind_mph": 4,
-    "gusts_mph": 10,
-    "rain_pct": 18
+    "temp_f": 81,
+    "feels_like_f": 79,
+    "wind_mph": 6,
+    "gusts_mph": 7,
+    "rain_pct": 23
   },
   "sunrise": "2026-07-28T05:33",
   "sunset": "2026-07-28T19:33",
   "aqi": {
-    "aqi": 32,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 127.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Pocket",
+      "acres": 27393,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-07-27T23:28:43.477000+00:00",
+      "distance_km": 4.5,
+      "direction": "WSW"
+    }
   },
   "river": {
     "cfs": 23,
@@ -49,9 +57,9 @@
   "forecast": [
     {
       "date": "2026-07-28",
-      "high_f": 90,
+      "high_f": 89,
       "low_f": 71,
-      "rain_pct": 18,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-07-28T05:33",
       "sunset": "2026-07-28T19:33",
@@ -61,7 +69,7 @@
     {
       "date": "2026-07-29",
       "high_f": 92,
-      "low_f": 69,
+      "low_f": 70,
       "rain_pct": 6,
       "uv": 9,
       "sunrise": "2026-07-29T05:34",
@@ -103,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-28T19:04:33.031018+00:00"
+  "updated_at": "2026-07-28T19:37:47.341750+00:00"
 }

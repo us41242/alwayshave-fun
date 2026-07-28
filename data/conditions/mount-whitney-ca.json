@@ -20,14 +20,13 @@
   "score": 74,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 41,
-    "wind_mph": 17,
-    "gusts_mph": 20,
+    "temp_f": 51,
+    "feels_like_f": 43,
+    "wind_mph": 15,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "sunrise": "2026-07-28T05:56",
@@ -42,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 41.0,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 62,
+      "cause": "Undetermined",
+      "updated": "2026-07-28T00:21:17.343000+00:00",
+      "distance_km": 37.9,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -102,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-28T19:12:40.227312+00:00"
+  "updated_at": "2026-07-28T19:44:53.047560+00:00"
 }

@@ -17,24 +17,24 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "rain gear recommended",
-    "mask for sensitive groups"
+    "wind layer recommended",
+    "rain gear recommended"
   ],
   "current": {
-    "temp_f": 69,
-    "feels_like_f": 68,
-    "wind_mph": 10,
-    "gusts_mph": 13,
-    "rain_pct": 66
+    "temp_f": 67,
+    "feels_like_f": 61,
+    "wind_mph": 19,
+    "gusts_mph": 29,
+    "rain_pct": 75
   },
   "sunrise": "2026-07-28T05:57",
   "sunset": "2026-07-28T20:14",
   "aqi": {
-    "aqi": 74,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -42,15 +42,7 @@
     "risk_level": "low",
     "nearest_fire_km": 221.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Penley",
-      "acres": 3,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-07-27T23:11:28.670000+00:00",
-      "distance_km": 59.6,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -58,18 +50,18 @@
       "date": "2026-07-28",
       "high_f": 90,
       "low_f": 66,
-      "rain_pct": 77,
+      "rain_pct": 75,
       "uv": 8,
       "sunrise": "2026-07-28T05:57",
       "sunset": "2026-07-28T20:14",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-29",
       "high_f": 84,
       "low_f": 62,
-      "rain_pct": 59,
+      "rain_pct": 64,
       "uv": 8,
       "sunrise": "2026-07-29T05:58",
       "sunset": "2026-07-29T20:13",
@@ -84,8 +76,8 @@
       "uv": 9,
       "sunrise": "2026-07-30T05:59",
       "sunset": "2026-07-30T20:12",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-31",
@@ -95,8 +87,8 @@
       "uv": 8,
       "sunrise": "2026-07-31T06:00",
       "sunset": "2026-07-31T20:11",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-01",
@@ -106,9 +98,9 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:00",
       "sunset": "2026-08-01T20:10",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-28T22:41:40.163990+00:00"
+  "updated_at": "2026-07-28T23:12:22.551779+00:00"
 }

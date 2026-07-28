@@ -17,8 +17,8 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 84,
@@ -27,10 +27,10 @@
     "gusts_mph": 10,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-28T05:38",
-  "sunset": "2026-07-28T19:50",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 27,
+    "aqi": 29,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -39,73 +39,9 @@
     "risk_level": "low",
     "nearest_fire_km": 120.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Grapevine",
-      "acres": 26464,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "updated": "2026-07-17T22:03:33.430000+00:00",
-      "distance_km": 48.4,
-      "direction": "S"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-28",
-      "high_f": 96,
-      "low_f": 69,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-28T05:38",
-      "sunset": "2026-07-28T19:50",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-29",
-      "high_f": 96,
-      "low_f": 71,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-07-29T05:38",
-      "sunset": "2026-07-29T19:49",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 96,
-      "low_f": 71,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-30T05:39",
-      "sunset": "2026-07-30T19:48",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 100,
-      "low_f": 73,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-31T05:40",
-      "sunset": "2026-07-31T19:47",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 102,
-      "low_f": 75,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-01T05:41",
-      "sunset": "2026-08-01T19:46",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-28T15:35:02.511483+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-28T16:04:44.661150+00:00"
 }

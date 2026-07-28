@@ -19,18 +19,20 @@
   "vehicle_req": "High-Clearance",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 97,
-    "wind_mph": 12,
-    "gusts_mph": 14,
-    "rain_pct": 10
+    "temp_f": 98,
+    "feels_like_f": 92,
+    "wind_mph": 21,
+    "gusts_mph": 25,
+    "rain_pct": 13
   },
   "sunrise": "2026-07-28T06:29",
   "sunset": "2026-07-28T20:38",
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -65,7 +67,7 @@
     {
       "date": "2026-07-29",
       "high_f": 95,
-      "low_f": 70,
+      "low_f": 71,
       "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-07-29T06:30",
@@ -107,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-28T22:08:11.314827+00:00"
+  "updated_at": "2026-07-28T22:39:08.950966+00:00"
 }

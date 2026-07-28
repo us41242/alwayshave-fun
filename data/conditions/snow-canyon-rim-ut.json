@@ -21,23 +21,23 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 103,
-    "feels_like_f": 103,
-    "wind_mph": 12,
+    "temp_f": 102,
+    "feels_like_f": 100,
+    "wind_mph": 13,
     "gusts_mph": 15,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-28T06:36",
+  "sunset": "2026-07-28T20:45",
   "aqi": {
-    "aqi": 45,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 141.3,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cowboy Ridge",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-28T21:12:00.962630+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-28",
+      "high_f": 103,
+      "low_f": 80,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-07-28T06:36",
+      "sunset": "2026-07-28T20:45",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 99,
+      "low_f": 79,
+      "rain_pct": 14,
+      "uv": 8,
+      "sunrise": "2026-07-29T06:37",
+      "sunset": "2026-07-29T20:44",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 103,
+      "low_f": 80,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-07-30T06:38",
+      "sunset": "2026-07-30T20:43",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 105,
+      "low_f": 83,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-31T06:38",
+      "sunset": "2026-07-31T20:42",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 108,
+      "low_f": 86,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-01T06:39",
+      "sunset": "2026-08-01T20:41",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-28T21:39:16.182025+00:00"
 }

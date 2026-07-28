@@ -22,22 +22,22 @@
   "gear_flags": [],
   "current": {
     "temp_f": 96,
-    "feels_like_f": 94,
-    "wind_mph": 13,
-    "gusts_mph": 14,
-    "rain_pct": 3
+    "feels_like_f": 91,
+    "wind_mph": 16,
+    "gusts_mph": 17,
+    "rain_pct": 9
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-28T06:30",
+  "sunset": "2026-07-28T20:38",
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 192.5,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock Canyon",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-28T21:09:32.513522+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-28",
+      "high_f": 96,
+      "low_f": 70,
+      "rain_pct": 31,
+      "uv": 8,
+      "sunrise": "2026-07-28T06:30",
+      "sunset": "2026-07-28T20:38",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-29",
+      "high_f": 92,
+      "low_f": 69,
+      "rain_pct": 25,
+      "uv": 8,
+      "sunrise": "2026-07-29T06:30",
+      "sunset": "2026-07-29T20:37",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 97,
+      "low_f": 69,
+      "rain_pct": 3,
+      "uv": 9,
+      "sunrise": "2026-07-30T06:31",
+      "sunset": "2026-07-30T20:36",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 101,
+      "low_f": 78,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-31T06:32",
+      "sunset": "2026-07-31T20:35",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 102,
+      "low_f": 80,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-01T06:33",
+      "sunset": "2026-08-01T20:34",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-28T21:35:24.091827+00:00"
 }

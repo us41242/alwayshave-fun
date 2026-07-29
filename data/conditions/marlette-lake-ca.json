@@ -21,9 +21,9 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 63,
-    "wind_mph": 9,
+    "temp_f": 70,
+    "feels_like_f": 62,
+    "wind_mph": 8,
     "gusts_mph": 13,
     "rain_pct": 0
   },
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 57.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Elephant",
+      "acres": 13930,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-07-27T16:25:04.127000+00:00",
+      "distance_km": 66.7,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -67,7 +75,7 @@
     },
     {
       "date": "2026-07-30",
-      "high_f": 83,
+      "high_f": 79,
       "low_f": 54,
       "rain_pct": 0,
       "uv": 8,
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T01:46:41.584721+00:00"
+  "updated_at": "2026-07-29T02:11:07.900119+00:00"
 }

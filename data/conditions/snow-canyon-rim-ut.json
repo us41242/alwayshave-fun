@@ -24,11 +24,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 88,
-    "feels_like_f": 81,
-    "wind_mph": 15,
-    "gusts_mph": 21,
-    "rain_pct": 1
+    "temp_f": 87,
+    "feels_like_f": 84,
+    "wind_mph": 18,
+    "gusts_mph": 26,
+    "rain_pct": 2
   },
   "sunrise": "2026-07-28T06:36",
   "sunset": "2026-07-28T20:45",
@@ -42,7 +42,15 @@
     "risk_level": "low",
     "nearest_fire_km": 141.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Grapevine",
+      "acres": 26464,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-17T22:03:33.430000+00:00",
+      "distance_km": 61.8,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
     },
     {
       "date": "2026-07-29",
-      "high_f": 99,
+      "high_f": 100,
       "low_f": 78,
       "rain_pct": 19,
       "uv": 8,
@@ -70,8 +78,8 @@
     },
     {
       "date": "2026-07-30",
-      "high_f": 102,
-      "low_f": 80,
+      "high_f": 104,
+      "low_f": 78,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-30T06:38",
@@ -102,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T01:40:22.882550+00:00"
+  "updated_at": "2026-07-29T02:06:41.803060+00:00"
 }

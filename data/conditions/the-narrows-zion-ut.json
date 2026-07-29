@@ -17,32 +17,37 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended",
-    "mask for sensitive groups"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
     "temp_f": 76,
-    "feels_like_f": 72,
-    "wind_mph": 18,
-    "gusts_mph": 25,
-    "rain_pct": 17
+    "feels_like_f": 76,
+    "wind_mph": 11,
+    "gusts_mph": 15,
+    "rain_pct": 15
   },
   "sunrise": "2026-07-28T06:33",
   "sunset": "2026-07-28T20:43",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 46,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 162.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 78.1,
+      "direction": "ESE"
+    }
   },
   "river": {
     "cfs": 32,
@@ -58,23 +63,23 @@
       "uv": 8,
       "sunrise": "2026-07-28T06:33",
       "sunset": "2026-07-28T20:43",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-29",
-      "high_f": 90,
+      "high_f": 91,
       "low_f": 71,
       "rain_pct": 26,
       "uv": 8,
       "sunrise": "2026-07-29T06:34",
       "sunset": "2026-07-29T20:42",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-30",
-      "high_f": 94,
+      "high_f": 97,
       "low_f": 70,
       "rain_pct": 1,
       "uv": 8,
@@ -91,7 +96,7 @@
       "uv": 8,
       "sunrise": "2026-07-31T06:35",
       "sunset": "2026-07-31T20:40",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -102,9 +107,9 @@
       "uv": 8,
       "sunrise": "2026-08-01T06:36",
       "sunset": "2026-08-01T20:39",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T01:33:08.873314+00:00"
+  "updated_at": "2026-07-29T02:01:58.580099+00:00"
 }

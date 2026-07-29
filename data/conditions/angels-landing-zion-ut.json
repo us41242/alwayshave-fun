@@ -21,25 +21,33 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 91,
-    "feels_like_f": 83,
-    "wind_mph": 15,
+    "temp_f": 92,
+    "feels_like_f": 85,
+    "wind_mph": 14,
     "gusts_mph": 18,
-    "rain_pct": 4
+    "rain_pct": 3
   },
   "sunrise": "2026-07-28T06:33",
   "sunset": "2026-07-28T20:43",
   "aqi": {
-    "aqi": 49,
+    "aqi": 47,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 165.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cowboy Ridge",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-25T23:50:12.100000+00:00",
+      "distance_km": 11.6,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,7 +55,7 @@
       "date": "2026-07-28",
       "high_f": 95,
       "low_f": 73,
-      "rain_pct": 12,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-07-28T06:33",
       "sunset": "2026-07-28T20:43",
@@ -58,7 +66,7 @@
       "date": "2026-07-29",
       "high_f": 88,
       "low_f": 72,
-      "rain_pct": 24,
+      "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-07-29T06:34",
       "sunset": "2026-07-29T20:42",
@@ -67,7 +75,7 @@
     },
     {
       "date": "2026-07-30",
-      "high_f": 94,
+      "high_f": 93,
       "low_f": 72,
       "rain_pct": 1,
       "uv": 8,
@@ -78,8 +86,8 @@
     },
     {
       "date": "2026-07-31",
-      "high_f": 98,
-      "low_f": 75,
+      "high_f": 97,
+      "low_f": 76,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-31T06:36",
@@ -89,8 +97,8 @@
     },
     {
       "date": "2026-08-01",
-      "high_f": 100,
-      "low_f": 78,
+      "high_f": 99,
+      "low_f": 77,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-01T06:36",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-28T23:31:57.470478+00:00"
+  "updated_at": "2026-07-29T00:01:59.040045+00:00"
 }

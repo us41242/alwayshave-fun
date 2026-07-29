@@ -17,17 +17,17 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 70,
-    "wind_mph": 30,
-    "gusts_mph": 46,
-    "rain_pct": 12
+    "temp_f": 74,
+    "feels_like_f": 69,
+    "wind_mph": 24,
+    "gusts_mph": 29,
+    "rain_pct": 28
   },
   "sunrise": "2026-07-28T05:32",
   "sunset": "2026-07-28T19:40",
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 171.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 29.5,
+      "direction": "E"
+    }
   },
   "river": {
     "cfs": 3,
@@ -53,7 +61,7 @@
       "date": "2026-07-28",
       "high_f": 98,
       "low_f": 69,
-      "rain_pct": 33,
+      "rain_pct": 32,
       "uv": 8,
       "sunrise": "2026-07-28T05:32",
       "sunset": "2026-07-28T19:40",
@@ -64,7 +72,7 @@
       "date": "2026-07-29",
       "high_f": 93,
       "low_f": 67,
-      "rain_pct": 16,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-07-29T05:33",
       "sunset": "2026-07-29T19:39",
@@ -73,7 +81,7 @@
     },
     {
       "date": "2026-07-30",
-      "high_f": 99,
+      "high_f": 97,
       "low_f": 68,
       "rain_pct": 1,
       "uv": 8,
@@ -84,8 +92,8 @@
     },
     {
       "date": "2026-07-31",
-      "high_f": 102,
-      "low_f": 76,
+      "high_f": 101,
+      "low_f": 75,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-31T05:35",
@@ -95,8 +103,8 @@
     },
     {
       "date": "2026-08-01",
-      "high_f": 104,
-      "low_f": 78,
+      "high_f": 103,
+      "low_f": 77,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-01T05:35",
@@ -105,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-28T23:34:08.633243+00:00"
+  "updated_at": "2026-07-29T00:02:03.207043+00:00"
 }

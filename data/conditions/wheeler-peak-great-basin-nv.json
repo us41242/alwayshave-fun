@@ -17,17 +17,15 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 59,
-    "feels_like_f": 49,
-    "wind_mph": 15,
+    "feels_like_f": 48,
+    "wind_mph": 14,
     "gusts_mph": 20,
-    "rain_pct": 1
+    "rain_pct": 0
   },
   "sunrise": "2026-07-28T05:34",
   "sunset": "2026-07-28T19:52",
@@ -41,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 129.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Burnout Canyon",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-28T23:15:21.970000+00:00",
+      "distance_km": 68.6,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
@@ -50,7 +56,7 @@
       "high_f": 61,
       "low_f": 43,
       "rain_pct": 1,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-07-28T05:34",
       "sunset": "2026-07-28T19:52",
       "predicted_score": 100,
@@ -69,7 +75,7 @@
     },
     {
       "date": "2026-07-30",
-      "high_f": 65,
+      "high_f": 64,
       "low_f": 43,
       "rain_pct": 0,
       "uv": 9,
@@ -80,7 +86,7 @@
     },
     {
       "date": "2026-07-31",
-      "high_f": 68,
+      "high_f": 67,
       "low_f": 48,
       "rain_pct": 0,
       "uv": 9,
@@ -91,8 +97,8 @@
     },
     {
       "date": "2026-08-01",
-      "high_f": 70,
-      "low_f": 50,
+      "high_f": 69,
+      "low_f": 49,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-01T05:38",
@@ -101,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-28T23:34:13.898913+00:00"
+  "updated_at": "2026-07-29T00:04:27.774432+00:00"
 }

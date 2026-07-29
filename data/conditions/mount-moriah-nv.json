@@ -23,10 +23,10 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 67,
+    "temp_f": 66,
     "feels_like_f": 56,
     "wind_mph": 14,
-    "gusts_mph": 21,
+    "gusts_mph": 23,
     "rain_pct": 1
   },
   "sunrise": "2026-07-28T05:33",
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 123.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Burnout Canyon",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-28T23:15:21.970000+00:00",
+      "distance_km": 67.6,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-28T23:41:22.923645+00:00"
+  "updated_at": "2026-07-29T00:11:11.657494+00:00"
 }

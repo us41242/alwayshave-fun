@@ -22,24 +22,32 @@
   "gear_flags": [],
   "current": {
     "temp_f": 76,
-    "feels_like_f": 71,
-    "wind_mph": 11,
-    "gusts_mph": 13,
-    "rain_pct": 16
+    "feels_like_f": 75,
+    "wind_mph": 10,
+    "gusts_mph": 14,
+    "rain_pct": 21
   },
   "sunrise": "2026-07-29T06:30",
   "sunset": "2026-07-29T20:39",
   "aqi": {
-    "aqi": 35,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 126.9,
+    "nearest_fire_km": 127.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 77.1,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T19:04:35.175876+00:00"
+  "updated_at": "2026-07-29T19:34:58.771129+00:00"
 }

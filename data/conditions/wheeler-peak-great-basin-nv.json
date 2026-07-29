@@ -27,12 +27,12 @@
     "feels_like_f": 48,
     "wind_mph": 18,
     "gusts_mph": 21,
-    "rain_pct": 1
+    "rain_pct": 2
   },
   "sunrise": "2026-07-29T05:35",
   "sunset": "2026-07-29T19:51",
   "aqi": {
-    "aqi": 46,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,13 +41,21 @@
     "risk_level": "moderate",
     "nearest_fire_km": 76.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "White River",
+      "acres": 85,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T03:01:55.217000+00:00",
+      "distance_km": 78.0,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-29",
-      "high_f": 58,
+      "high_f": 57,
       "low_f": 40,
       "rain_pct": 22,
       "uv": 8,
@@ -59,7 +67,7 @@
     {
       "date": "2026-07-30",
       "high_f": 60,
-      "low_f": 42,
+      "low_f": 41,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-30T05:36",
@@ -101,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-29T19:02:22.681186+00:00"
+  "updated_at": "2026-07-29T19:33:03.559524+00:00"
 }

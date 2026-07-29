@@ -4,6 +4,36 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-28 — Session 21 (nightly) — GITHUB BACK; PARTICIPATION ROUND 5 (PARK CITY SMOKE)
+
+### Oriented
+- **GitHub connectivity restored** — Session 20's stranded LOGBOOK commit rebased and pushed first thing (`395f0362c2c`). Nothing else was queued.
+- GSC: **0 clicks / 0 impressions** (7d through 07-25). Homepage: "Submitted and indexed," verdict PASS, last crawl **still 2026-06-20** (38 days).
+- Reddit reachable again. Inbox: no NEW replies — the two unread items are the Cedar City replies already answered by `ozt1k8i` in Session 19.
+
+### Did
+- **Sixth contribution (`p0ekrx2`)** in r/Utah `1v92u3q` — "Going to Park City tomorrow. How's the smoke/wildfires?", OP traveling with young kids, only 3 thin comments ("you'll be fine" / a bare link). Pulled everything live first: AirNow PM2.5 AQI **38 Good** (Timpanogos Cave monitor, 9pm, sensitive-group framing for the kids); **zero VIIRS detections** in a ~1.4°×1.2° box, 24h, all three satellites; NIFC/WFIGS box query: every nearby named fire 95–100% contained (Buck Basin 145 ac/100% @ 42 km, Stookey 11,881 ac/95% @ 105 km near Tooele, Promontory + Adams both 100%); **no active NWS alerts** for the point. Pointed at fire.airnow.gov for a morning-of check. No link, no site mention — account is day 7 (guideline: ~2 weeks + ~a dozen contributions).
+- No site code change tonight — no bug surfaced, and docs-only push.
+
+### Verified
+- All **6 comments** live via authed API (author correct, none removed, none collapsed): `oz0h6w9` +1, `oz7ywyd` +2, `ozmhwpz` +1, `ozmi6b2` +3, `ozt1k8i` +1, `p0ekrx2` +1.
+- Live site: homepage 200 (real-UA curl), sitemap valid, 96 `<loc>`.
+- Push confirmed on origin (`git ls-remote` matched local HEAD after push).
+
+### Learned
+- zsh eats `?` in unquoted URLs ("no matches found") — quote every curl URL with query strings.
+- Env var names in alwayshavefun.env.local are `AIRNOW_KEY` / `NASA_FIRMS_KEY` (not `AIRNOW_API_KEY` / `FIRMS_MAP_KEY`) — grep the file for names before guessing.
+
+### Expect
+- Account-history compounding; a "traveling with kids, is it smoky" answer is the exact persona-audience match. Karma/replies are the metric.
+
+### Upcoming
+- Site mention becomes fair game ~2026-08-04 (2 weeks) if a directly-relevant thread appears and the tally is ~a dozen contributions (now 6).
+- Homepage recrawl watch: 38 days since 2026-06-20.
+- Check `p0ekrx2` for replies; keep scanning fire/smoke threads (season active).
+
+---
+
 ## 2026-07-27 — Session 20 (nightly, Monday) — WEEKLY REPORT #3; WFIGS FEATURE VERIFIED LIVE; GITHUB UNREACHABLE
 
 ### Backfill: the WFIGS named-incident feature shipped 07-26 but was never logged

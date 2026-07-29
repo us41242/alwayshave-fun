@@ -17,15 +17,17 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 79,
-    "wind_mph": 15,
-    "gusts_mph": 17,
-    "rain_pct": 1
+    "temp_f": 78,
+    "feels_like_f": 73,
+    "wind_mph": 16,
+    "gusts_mph": 22,
+    "rain_pct": 3
   },
   "sunrise": "2026-07-28T06:33",
   "sunset": "2026-07-28T20:43",
@@ -40,13 +42,13 @@
     "nearest_fire_km": 147.2,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Cowboy Ridge",
-      "acres": 0.1,
-      "containment_pct": null,
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
       "cause": "Natural",
-      "updated": "2026-07-25T23:50:12.100000+00:00",
-      "distance_km": 28.8,
-      "direction": "SSW"
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 84.7,
+      "direction": "SE"
     }
   },
   "river": {
@@ -57,7 +59,7 @@
   "forecast": [
     {
       "date": "2026-07-28",
-      "high_f": 89,
+      "high_f": 90,
       "low_f": 65,
       "rain_pct": 6,
       "uv": 8,
@@ -111,5 +113,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T00:06:07.233188+00:00"
+  "updated_at": "2026-07-29T00:37:28.120133+00:00"
 }

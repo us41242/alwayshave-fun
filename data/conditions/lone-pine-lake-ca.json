@@ -19,12 +19,14 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 69,
-    "wind_mph": 9,
-    "gusts_mph": 15,
+    "temp_f": 77,
+    "feels_like_f": 64,
+    "wind_mph": 14,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-07-28T05:56",
@@ -42,9 +44,9 @@
     "nearest_incident": {
       "name": "Rock",
       "acres": 12008,
-      "containment_pct": 62,
+      "containment_pct": 71,
       "cause": "Undetermined",
-      "updated": "2026-07-28T00:21:17.343000+00:00",
+      "updated": "2026-07-29T00:19:54.287000+00:00",
       "distance_km": 36.7,
       "direction": "N"
     }
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-29T00:14:30.442975+00:00"
+  "updated_at": "2026-07-29T00:45:26.384935+00:00"
 }

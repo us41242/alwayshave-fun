@@ -17,22 +17,24 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 79,
-    "wind_mph": 11,
-    "gusts_mph": 14,
+    "temp_f": 84,
+    "feels_like_f": 81,
+    "wind_mph": 12,
+    "gusts_mph": 15,
     "rain_pct": 1
   },
   "sunrise": "2026-07-28T06:35",
   "sunset": "2026-07-28T20:45",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
-    "pollutant": "O3",
+    "aqi": 64,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
@@ -40,13 +42,13 @@
     "nearest_fire_km": 166.6,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Cowboy Ridge",
-      "acres": 0.1,
-      "containment_pct": null,
+      "name": "Grapevine",
+      "acres": 26464,
+      "containment_pct": 100,
       "cause": "Natural",
-      "updated": "2026-07-25T23:50:12.100000+00:00",
-      "distance_km": 45.3,
-      "direction": "ESE"
+      "updated": "2026-07-17T22:03:33.430000+00:00",
+      "distance_km": 73.0,
+      "direction": "W"
     }
   },
   "river": null,
@@ -59,19 +61,19 @@
       "uv": 8,
       "sunrise": "2026-07-28T06:35",
       "sunset": "2026-07-28T20:45",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-29",
       "high_f": 84,
-      "low_f": 66,
+      "low_f": 65,
       "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-07-29T06:36",
       "sunset": "2026-07-29T20:44",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-30",
@@ -81,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-07-30T06:37",
       "sunset": "2026-07-30T20:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-31",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-07-31T06:37",
       "sunset": "2026-07-31T20:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-01",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-01T06:38",
       "sunset": "2026-08-01T20:41",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T00:11:12.486012+00:00"
+  "updated_at": "2026-07-29T00:41:49.471350+00:00"
 }

@@ -17,11 +17,9 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 22,
+  "score_label": "Stay home",
+  "gear_flags": [],
   "current": {
     "temp_f": 69,
     "feels_like_f": 63,
@@ -29,17 +27,17 @@
     "gusts_mph": 22,
     "rain_pct": 1
   },
-  "sunrise": "2026-07-28T05:39",
-  "sunset": "2026-07-28T19:46",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 74.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Grapevine",
@@ -52,62 +50,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-28",
-      "high_f": 82,
-      "low_f": 66,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-07-28T05:39",
-      "sunset": "2026-07-28T19:46",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-29",
-      "high_f": 80,
-      "low_f": 63,
-      "rain_pct": 8,
-      "uv": 8,
-      "sunrise": "2026-07-29T05:40",
-      "sunset": "2026-07-29T19:45",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 86,
-      "low_f": 67,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-30T05:41",
-      "sunset": "2026-07-30T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 89,
-      "low_f": 69,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-31T05:41",
-      "sunset": "2026-07-31T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 92,
-      "low_f": 70,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-01T05:42",
-      "sunset": "2026-08-01T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-07-29T05:36:26.553976+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-29T06:05:01.122846+00:00"
 }

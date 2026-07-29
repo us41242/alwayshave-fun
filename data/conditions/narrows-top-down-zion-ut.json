@@ -17,18 +17,18 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 72,
+    "temp_f": 73,
     "feels_like_f": 71,
-    "wind_mph": 3,
-    "gusts_mph": 4,
-    "rain_pct": 10
+    "wind_mph": 2,
+    "gusts_mph": 3,
+    "rain_pct": 5
   },
-  "sunrise": "2026-07-28T06:33",
-  "sunset": "2026-07-28T20:43",
+  "sunrise": "2026-07-29T06:33",
+  "sunset": "2026-07-29T20:42",
   "aqi": {
     "aqi": 43,
     "category": "Good",
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 147.2,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock Canyon",
@@ -56,21 +56,10 @@
   },
   "forecast": [
     {
-      "date": "2026-07-28",
-      "high_f": 90,
-      "low_f": 65,
-      "rain_pct": 15,
-      "uv": 8,
-      "sunrise": "2026-07-28T06:33",
-      "sunset": "2026-07-28T20:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
       "date": "2026-07-29",
       "high_f": 84,
       "low_f": 64,
-      "rain_pct": 18,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-07-29T06:33",
       "sunset": "2026-07-29T20:42",
@@ -109,7 +98,18 @@
       "sunset": "2026-08-01T20:39",
       "predicted_score": 70,
       "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 93,
+      "low_f": 71,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-02T06:37",
+      "sunset": "2026-08-02T20:38",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T05:36:30.980959+00:00"
+  "updated_at": "2026-07-29T06:05:08.760097+00:00"
 }

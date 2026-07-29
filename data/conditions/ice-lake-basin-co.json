@@ -21,23 +21,23 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
+    "temp_f": 46,
     "feels_like_f": 41,
     "wind_mph": 11,
-    "gusts_mph": 15,
-    "rain_pct": 16
+    "gusts_mph": 13,
+    "rain_pct": 30
   },
-  "sunrise": "2026-07-28T06:11",
-  "sunset": "2026-07-28T20:23",
+  "sunrise": "2026-07-29T06:12",
+  "sunset": "2026-07-29T20:22",
   "aqi": {
-    "aqi": 21,
+    "aqi": 19,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 100.1,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Animas Forks",
@@ -51,17 +51,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-07-28",
-      "high_f": 60,
-      "low_f": 46,
-      "rain_pct": 54,
-      "uv": 6,
-      "sunrise": "2026-07-28T06:11",
-      "sunset": "2026-07-28T20:23",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
     {
       "date": "2026-07-29",
       "high_f": 60,
@@ -105,7 +94,18 @@
       "sunset": "2026-08-01T20:19",
       "predicted_score": 100,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 72,
+      "low_f": 41,
+      "rain_pct": 19,
+      "uv": 9,
+      "sunrise": "2026-08-02T06:15",
+      "sunset": "2026-08-02T20:18",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-29T05:42:07.880181+00:00"
+  "updated_at": "2026-07-29T06:12:37.383042+00:00"
 }

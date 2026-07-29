@@ -17,18 +17,20 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 40,
-    "feels_like_f": 30,
-    "wind_mph": 12,
-    "gusts_mph": 20,
+    "temp_f": 43,
+    "feels_like_f": 34,
+    "wind_mph": 14,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-29T05:57",
+  "sunset": "2026-07-29T20:01",
   "aqi": {
     "aqi": 36,
     "category": "Good",
@@ -42,6 +44,62 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-29T17:12:10.393549+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-29",
+      "high_f": 51,
+      "low_f": 34,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-29T05:57",
+      "sunset": "2026-07-29T20:01",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 56,
+      "low_f": 36,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-30T05:58",
+      "sunset": "2026-07-30T20:01",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 58,
+      "low_f": 36,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-31T05:58",
+      "sunset": "2026-07-31T20:00",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 60,
+      "low_f": 38,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-01T05:59",
+      "sunset": "2026-08-01T19:59",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 60,
+      "low_f": 41,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-02T06:00",
+      "sunset": "2026-08-02T19:58",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-07-29T17:44:16.689389+00:00"
 }

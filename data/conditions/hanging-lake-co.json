@@ -17,36 +17,38 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 71,
-    "wind_mph": 7,
-    "gusts_mph": 10,
-    "rain_pct": 11
+    "temp_f": 73,
+    "feels_like_f": 68,
+    "wind_mph": 6,
+    "gusts_mph": 7,
+    "rain_pct": 9
   },
   "sunrise": "2026-07-28T06:05",
   "sunset": "2026-07-28T20:25",
   "aqi": {
-    "aqi": 40,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 59,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 136.1,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Willow",
-      "acres": 7196,
-      "containment_pct": 64,
-      "cause": "Human",
-      "updated": "2026-07-28T23:20:23.427000+00:00",
-      "distance_km": 76.0,
-      "direction": "ESE"
+      "name": "Webster",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-29T02:45:18.643000+00:00",
+      "distance_km": 63.9,
+      "direction": "W"
     }
   },
   "river": null,
@@ -59,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-07-28T06:05",
       "sunset": "2026-07-28T20:25",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-29",
@@ -70,19 +72,19 @@
       "uv": 8,
       "sunrise": "2026-07-29T06:05",
       "sunset": "2026-07-29T20:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-30",
       "high_f": 81,
       "low_f": 55,
-      "rain_pct": 17,
+      "rain_pct": 21,
       "uv": 8,
       "sunrise": "2026-07-30T06:06",
       "sunset": "2026-07-30T20:23",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-31",
@@ -92,20 +94,20 @@
       "uv": 9,
       "sunrise": "2026-07-31T06:07",
       "sunset": "2026-07-31T20:22",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-01",
       "high_f": 89,
       "low_f": 52,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-08-01T06:08",
       "sunset": "2026-08-01T20:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T02:42:06.766711+00:00"
+  "updated_at": "2026-07-29T03:17:02.564587+00:00"
 }

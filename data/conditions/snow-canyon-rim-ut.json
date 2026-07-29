@@ -17,45 +17,38 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 98,
-    "wind_mph": 6,
-    "gusts_mph": 8,
+    "temp_f": 88,
+    "feels_like_f": 81,
+    "wind_mph": 15,
+    "gusts_mph": 21,
     "rain_pct": 1
   },
   "sunrise": "2026-07-28T06:36",
   "sunset": "2026-07-28T20:45",
   "aqi": {
-    "aqi": 64,
+    "aqi": 59,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 141.3,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Grapevine",
-      "acres": 26464,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "updated": "2026-07-17T22:03:33.430000+00:00",
-      "distance_km": 61.8,
-      "direction": "WNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-28",
-      "high_f": 103,
+      "high_f": 113,
       "low_f": 80,
       "rain_pct": 4,
       "uv": 8,
@@ -67,8 +60,8 @@
     {
       "date": "2026-07-29",
       "high_f": 99,
-      "low_f": 73,
-      "rain_pct": 20,
+      "low_f": 78,
+      "rain_pct": 19,
       "uv": 8,
       "sunrise": "2026-07-29T06:37",
       "sunset": "2026-07-29T20:44",
@@ -109,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T01:11:10.480328+00:00"
+  "updated_at": "2026-07-29T01:40:22.882550+00:00"
 }

@@ -17,11 +17,9 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 71,
     "feels_like_f": 65,
@@ -29,85 +27,21 @@
     "gusts_mph": 24,
     "rain_pct": 26
   },
-  "sunrise": "2026-07-28T06:30",
-  "sunset": "2026-07-28T20:38",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 47,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 192.5,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Rock Canyon",
-      "acres": 4823,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "updated": "2026-07-22T15:03:51.140000+00:00",
-      "distance_km": 27.2,
-      "direction": "WSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-28",
-      "high_f": 96,
-      "low_f": 70,
-      "rain_pct": 42,
-      "uv": 8,
-      "sunrise": "2026-07-28T06:30",
-      "sunset": "2026-07-28T20:38",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-29",
-      "high_f": 92,
-      "low_f": 68,
-      "rain_pct": 24,
-      "uv": 8,
-      "sunrise": "2026-07-29T06:30",
-      "sunset": "2026-07-29T20:37",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 96,
-      "low_f": 69,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-07-30T06:31",
-      "sunset": "2026-07-30T20:36",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 100,
-      "low_f": 77,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-31T06:32",
-      "sunset": "2026-07-31T20:35",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 102,
-      "low_f": 79,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-01T06:33",
-      "sunset": "2026-08-01T20:34",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-29T01:10:29.352856+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-29T01:39:04.592530+00:00"
 }

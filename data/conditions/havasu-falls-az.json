@@ -17,73 +17,63 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
+  "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 87,
-    "wind_mph": 6,
-    "gusts_mph": 14,
-    "rain_pct": 23
+    "temp_f": 80,
+    "feels_like_f": 86,
+    "wind_mph": 2,
+    "gusts_mph": 2,
+    "rain_pct": 20
   },
   "sunrise": "2026-07-28T05:34",
   "sunset": "2026-07-28T19:39",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 99.0,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Cliff Spring",
-      "acres": 170,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-27T19:57:45.080000+00:00",
-      "distance_km": 71.3,
-      "direction": "ESE"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-28",
       "high_f": 102,
-      "low_f": 78,
+      "low_f": 77,
       "rain_pct": 45,
       "uv": 8,
       "sunrise": "2026-07-28T05:34",
       "sunset": "2026-07-28T19:39",
-      "predicted_score": 50,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-29",
       "high_f": 100,
       "low_f": 74,
-      "rain_pct": 25,
+      "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-07-29T05:35",
       "sunset": "2026-07-29T19:39",
-      "predicted_score": 50,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
       "date": "2026-07-30",
       "high_f": 103,
       "low_f": 79,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-30T05:36",
       "sunset": "2026-07-30T19:38",
-      "predicted_score": 50,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -94,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-07-31T05:37",
       "sunset": "2026-07-31T19:37",
-      "predicted_score": 50,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -105,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-08-01T05:38",
       "sunset": "2026-08-01T19:36",
-      "predicted_score": 50,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T01:08:03.375949+00:00"
+  "updated_at": "2026-07-29T01:37:14.047946+00:00"
 }

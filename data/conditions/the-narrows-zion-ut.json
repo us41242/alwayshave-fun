@@ -20,39 +20,32 @@
   "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "rain gear recommended"
   ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 71,
-    "wind_mph": 25,
-    "gusts_mph": 32,
-    "rain_pct": 24
+    "temp_f": 79,
+    "feels_like_f": 75,
+    "wind_mph": 19,
+    "gusts_mph": 25,
+    "rain_pct": 52
   },
   "sunrise": "2026-07-29T06:34",
   "sunset": "2026-07-29T20:42",
   "aqi": {
-    "aqi": 40,
+    "aqi": 29,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 162.7,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Rock Canyon",
-      "acres": 4823,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "updated": "2026-07-22T15:03:51.140000+00:00",
-      "distance_km": 78.1,
-      "direction": "ESE"
-    }
+    "nearest_incident": null
   },
   "river": {
-    "cfs": 34,
+    "cfs": 40,
     "stage": "low",
     "gauge_id": "09405500"
   },
@@ -61,7 +54,7 @@
       "date": "2026-07-29",
       "high_f": 89,
       "low_f": 70,
-      "rain_pct": 25,
+      "rain_pct": 52,
       "uv": 8,
       "sunrise": "2026-07-29T06:34",
       "sunset": "2026-07-29T20:42",
@@ -113,5 +106,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T18:33:03.262482+00:00"
+  "updated_at": "2026-07-29T19:02:18.247004+00:00"
 }

@@ -17,15 +17,18 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended",
+    "rain gear recommended"
+  ],
   "current": {
     "temp_f": 72,
     "feels_like_f": 66,
     "wind_mph": 14,
-    "gusts_mph": 18,
-    "rain_pct": 30
+    "gusts_mph": 28,
+    "rain_pct": 46
   },
   "sunrise": "2026-07-29T06:36",
   "sunset": "2026-07-29T20:44",
@@ -39,15 +42,7 @@
     "risk_level": "low",
     "nearest_fire_km": 166.7,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Grapevine",
-      "acres": 26464,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "updated": "2026-07-17T22:03:33.430000+00:00",
-      "distance_km": 73.0,
-      "direction": "W"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -55,7 +50,7 @@
       "date": "2026-07-29",
       "high_f": 82,
       "low_f": 66,
-      "rain_pct": 45,
+      "rain_pct": 46,
       "uv": 8,
       "sunrise": "2026-07-29T06:36",
       "sunset": "2026-07-29T20:44",
@@ -107,5 +102,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T18:40:24.367418+00:00"
+  "updated_at": "2026-07-29T19:09:25.035554+00:00"
 }

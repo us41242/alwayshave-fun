@@ -17,23 +17,25 @@
   "notes": "Chain section requires permit \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 82,
-    "wind_mph": 12,
-    "gusts_mph": 16,
+    "temp_f": 77,
+    "feels_like_f": 70,
+    "wind_mph": 16,
+    "gusts_mph": 26,
     "rain_pct": 25
   },
   "sunrise": "2026-07-29T06:34",
   "sunset": "2026-07-29T20:42",
   "aqi": {
-    "aqi": 37,
+    "aqi": 40,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -107,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T18:02:01.060712+00:00"
+  "updated_at": "2026-07-29T18:32:16.817782+00:00"
 }

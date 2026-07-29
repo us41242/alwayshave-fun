@@ -17,50 +17,42 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 65,
-    "wind_mph": 5,
-    "gusts_mph": 6,
+    "temp_f": 68,
+    "feels_like_f": 68,
+    "wind_mph": 3,
+    "gusts_mph": 3,
     "rain_pct": 1
   },
   "sunrise": "2026-07-29T06:05",
   "sunset": "2026-07-29T20:24",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 25,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 136.1,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Webster",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-29T02:45:18.643000+00:00",
-      "distance_km": 63.9,
-      "direction": "W"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-29",
-      "high_f": 83,
+      "high_f": 84,
       "low_f": 60,
       "rain_pct": 32,
       "uv": 8,
       "sunrise": "2026-07-29T06:05",
       "sunset": "2026-07-29T20:24",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-30",
@@ -70,8 +62,8 @@
       "uv": 9,
       "sunrise": "2026-07-30T06:06",
       "sunset": "2026-07-30T20:23",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-31",
@@ -81,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-07-31T06:07",
       "sunset": "2026-07-31T20:22",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-01",
@@ -92,8 +84,8 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:08",
       "sunset": "2026-08-01T20:21",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-02",
@@ -103,9 +95,9 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:09",
       "sunset": "2026-08-02T20:20",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T14:13:28.120150+00:00"
+  "updated_at": "2026-07-29T14:41:21.015705+00:00"
 }

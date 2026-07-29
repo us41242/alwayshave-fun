@@ -17,8 +17,8 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {
     "temp_f": 59,
@@ -27,85 +27,29 @@
     "gusts_mph": 20,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-28T05:34",
-  "sunset": "2026-07-28T19:52",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 129.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Shotgun Knoll",
-      "acres": 0.1,
+      "name": "White River",
+      "acres": 35,
       "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-07-29T00:12:53.303000+00:00",
-      "distance_km": 58.9,
-      "direction": "E"
+      "cause": "Undetermined",
+      "updated": "2026-07-29T00:36:15.100000+00:00",
+      "distance_km": 78.0,
+      "direction": "W"
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-28",
-      "high_f": 61,
-      "low_f": 43,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-28T05:34",
-      "sunset": "2026-07-28T19:52",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-29",
-      "high_f": 58,
-      "low_f": 41,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-07-29T05:35",
-      "sunset": "2026-07-29T19:51",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 64,
-      "low_f": 43,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-30T05:36",
-      "sunset": "2026-07-30T19:50",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 67,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-31T05:37",
-      "sunset": "2026-07-31T19:49",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 69,
-      "low_f": 49,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-01T05:38",
-      "sunset": "2026-08-01T19:48",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-07-29T00:34:57.201237+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-29T01:05:56.030525+00:00"
 }

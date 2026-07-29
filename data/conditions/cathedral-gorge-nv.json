@@ -17,27 +17,29 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 95,
-    "feels_like_f": 88,
-    "wind_mph": 13,
-    "gusts_mph": 16,
+    "temp_f": 94,
+    "feels_like_f": 87,
+    "wind_mph": 14,
+    "gusts_mph": 17,
     "rain_pct": 1
   },
   "sunrise": "2026-07-28T05:38",
   "sunset": "2026-07-28T19:50",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 56,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 120.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Grapevine",
@@ -59,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-07-28T05:38",
       "sunset": "2026-07-28T19:50",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -70,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-07-29T05:38",
       "sunset": "2026-07-29T19:49",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-30",
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-07-30T05:39",
       "sunset": "2026-07-30T19:48",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-07-31T05:40",
       "sunset": "2026-07-31T19:47",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-01T05:41",
       "sunset": "2026-08-01T19:46",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T00:34:58.858375+00:00"
+  "updated_at": "2026-07-29T01:05:58.135127+00:00"
 }

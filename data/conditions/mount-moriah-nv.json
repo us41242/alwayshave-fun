@@ -19,14 +19,12 @@
   "vehicle_req": "High-Clearance",
   "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 67,
+    "temp_f": 66,
     "feels_like_f": 57,
-    "wind_mph": 13,
-    "gusts_mph": 22,
+    "wind_mph": 11,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-07-28T05:33",
@@ -39,16 +37,16 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 123.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Shotgun Knoll",
-      "acres": 0.1,
+      "name": "White River",
+      "acres": 35,
       "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-07-29T00:12:53.303000+00:00",
-      "distance_km": 62.3,
-      "direction": "SE"
+      "cause": "Undetermined",
+      "updated": "2026-07-29T00:36:15.100000+00:00",
+      "distance_km": 98.5,
+      "direction": "WSW"
     }
   },
   "river": null,
@@ -109,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-29T00:41:13.138900+00:00"
+  "updated_at": "2026-07-29T01:13:03.496734+00:00"
 }

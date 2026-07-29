@@ -23,8 +23,8 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 69,
-    "feels_like_f": 64,
+    "temp_f": 70,
+    "feels_like_f": 66,
     "wind_mph": 5,
     "gusts_mph": 5,
     "rain_pct": 0
@@ -32,7 +32,7 @@
   "sunrise": "2026-07-29T05:57",
   "sunset": "2026-07-29T20:14",
   "aqi": {
-    "aqi": 33,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 46.4,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Elephant",
+      "acres": 0.1,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-07-29T17:46:35.177000+00:00",
+      "distance_km": 66.7,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T17:45:54.327745+00:00"
+  "updated_at": "2026-07-29T18:13:28.936798+00:00"
 }

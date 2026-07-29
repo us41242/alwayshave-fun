@@ -22,15 +22,15 @@
   "gear_flags": [],
   "current": {
     "temp_f": 78,
-    "feels_like_f": 73,
-    "wind_mph": 11,
-    "gusts_mph": 13,
-    "rain_pct": 4
+    "feels_like_f": 70,
+    "wind_mph": 14,
+    "gusts_mph": 17,
+    "rain_pct": 5
   },
   "sunrise": "2026-07-29T06:05",
   "sunset": "2026-07-29T20:24",
   "aqi": {
-    "aqi": 38,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 136.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Webster",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T15:40:53.797000+00:00",
+      "distance_km": 63.9,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -58,7 +66,7 @@
       "date": "2026-07-30",
       "high_f": 82,
       "low_f": 58,
-      "rain_pct": 14,
+      "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-07-30T06:06",
       "sunset": "2026-07-30T20:23",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T17:42:54.843170+00:00"
+  "updated_at": "2026-07-29T18:09:38.071249+00:00"
 }

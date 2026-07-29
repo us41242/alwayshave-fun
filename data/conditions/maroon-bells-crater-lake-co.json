@@ -17,20 +17,20 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 59,
-    "feels_like_f": 56,
-    "wind_mph": 7,
-    "gusts_mph": 8,
-    "rain_pct": 8
+    "temp_f": 58,
+    "feels_like_f": 50,
+    "wind_mph": 10,
+    "gusts_mph": 11,
+    "rain_pct": 10
   },
   "sunrise": "2026-07-29T06:06",
   "sunset": "2026-07-29T20:22",
   "aqi": {
-    "aqi": 38,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 158.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Granite Basin",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-29T14:34:09.353000+00:00",
+      "distance_km": 32.8,
+      "direction": "SSE"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,7 +55,7 @@
       "date": "2026-07-29",
       "high_f": 60,
       "low_f": 43,
-      "rain_pct": 32,
+      "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-07-29T06:06",
       "sunset": "2026-07-29T20:22",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-29T17:42:55.613187+00:00"
+  "updated_at": "2026-07-29T18:09:38.909515+00:00"
 }

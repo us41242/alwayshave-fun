@@ -17,15 +17,17 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 62,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 80,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 89,
-    "wind_mph": 10,
-    "gusts_mph": 11,
-    "rain_pct": 13
+    "temp_f": 76,
+    "feels_like_f": 66,
+    "wind_mph": 24,
+    "gusts_mph": 25,
+    "rain_pct": 11
   },
   "sunrise": "2026-07-29T05:35",
   "sunset": "2026-07-29T19:38",
@@ -39,13 +41,21 @@
     "risk_level": "moderate",
     "nearest_fire_km": 95.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Chiefs Tank",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:18:17.120000+00:00",
+      "distance_km": 15.9,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-29",
-      "high_f": 94,
+      "high_f": 93,
       "low_f": 64,
       "rain_pct": 22,
       "uv": 8,
@@ -57,7 +67,7 @@
     {
       "date": "2026-07-30",
       "high_f": 102,
-      "low_f": 75,
+      "low_f": 72,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-07-30T05:36",
@@ -99,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T22:09:45.240802+00:00"
+  "updated_at": "2026-07-29T22:39:01.346725+00:00"
 }

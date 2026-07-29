@@ -20,16 +20,15 @@
   "score": 42,
   "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended",
     "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 63,
-    "wind_mph": 17,
-    "gusts_mph": 30,
-    "rain_pct": 68
+    "temp_f": 76,
+    "feels_like_f": 78,
+    "wind_mph": 4,
+    "gusts_mph": 5,
+    "rain_pct": 62
   },
   "sunrise": "2026-07-29T05:58",
   "sunset": "2026-07-29T20:13",
@@ -43,7 +42,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 87.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Penley",
+      "acres": 3,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-27T23:11:28.670000+00:00",
+      "distance_km": 59.6,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -61,7 +68,7 @@
     {
       "date": "2026-07-30",
       "high_f": 94,
-      "low_f": 59,
+      "low_f": 60,
       "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-07-30T05:59",
@@ -103,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T22:11:02.180732+00:00"
+  "updated_at": "2026-07-29T22:40:24.051897+00:00"
 }

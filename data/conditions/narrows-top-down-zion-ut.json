@@ -17,22 +17,20 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 55,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "elevated water level \u2014 check with rangers before crossing"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 71,
+    "temp_f": 75,
+    "feels_like_f": 78,
     "wind_mph": 4,
-    "gusts_mph": 13,
-    "rain_pct": 29
+    "gusts_mph": 10,
+    "rain_pct": 18
   },
   "sunrise": "2026-07-29T06:33",
   "sunset": "2026-07-29T20:42",
   "aqi": {
-    "aqi": 38,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,11 +39,19 @@
     "risk_level": "low",
     "nearest_fire_km": 197.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "1200 N",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:03:05.200000+00:00",
+      "distance_km": 30.1,
+      "direction": "WNW"
+    }
   },
   "river": {
-    "cfs": 127,
-    "stage": "high",
+    "cfs": 98,
+    "stage": "normal",
     "gauge_id": "09405500"
   },
   "forecast": [
@@ -63,7 +69,7 @@
     {
       "date": "2026-07-30",
       "high_f": 89,
-      "low_f": 65,
+      "low_f": 64,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-30T06:34",
@@ -105,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T22:05:17.298466+00:00"
+  "updated_at": "2026-07-29T22:37:43.623872+00:00"
 }

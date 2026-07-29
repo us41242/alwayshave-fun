@@ -23,14 +23,14 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 98,
+    "temp_f": 100,
     "feels_like_f": 104,
-    "wind_mph": 9,
-    "gusts_mph": 14,
-    "rain_pct": 0
+    "wind_mph": 8,
+    "gusts_mph": 13,
+    "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-29T05:42",
+  "sunset": "2026-07-29T19:46",
   "aqi": {
     "aqi": 37,
     "category": "Good",
@@ -44,6 +44,62 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-29T20:03:48.602236+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-29",
+      "high_f": 106,
+      "low_f": 90,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-07-29T05:42",
+      "sunset": "2026-07-29T19:46",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 110,
+      "low_f": 82,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-30T05:43",
+      "sunset": "2026-07-30T19:45",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 111,
+      "low_f": 85,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-31T05:44",
+      "sunset": "2026-07-31T19:44",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 114,
+      "low_f": 89,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-01T05:44",
+      "sunset": "2026-08-01T19:44",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 114,
+      "low_f": 89,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-02T05:45",
+      "sunset": "2026-08-02T19:43",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-07-29T20:34:34.709059+00:00"
 }

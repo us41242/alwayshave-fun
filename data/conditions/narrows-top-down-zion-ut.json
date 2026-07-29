@@ -22,10 +22,10 @@
   "gear_flags": [],
   "current": {
     "temp_f": 72,
-    "feels_like_f": 70,
-    "wind_mph": 3,
-    "gusts_mph": 3,
-    "rain_pct": 5
+    "feels_like_f": 71,
+    "wind_mph": 2,
+    "gusts_mph": 2,
+    "rain_pct": 2
   },
   "sunrise": "2026-07-29T06:33",
   "sunset": "2026-07-29T20:42",
@@ -49,13 +49,17 @@
       "direction": "SE"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 33,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-07-29",
       "high_f": 84,
       "low_f": 66,
-      "rain_pct": 17,
+      "rain_pct": 19,
       "uv": 8,
       "sunrise": "2026-07-29T06:33",
       "sunset": "2026-07-29T20:42",
@@ -107,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T06:38:21.526930+00:00"
+  "updated_at": "2026-07-29T07:07:00.717378+00:00"
 }

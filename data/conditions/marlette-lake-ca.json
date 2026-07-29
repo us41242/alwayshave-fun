@@ -17,13 +17,15 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 92,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 49,
-    "wind_mph": 2,
+    "temp_f": 54,
+    "feels_like_f": 48,
+    "wind_mph": 1,
     "gusts_mph": 3,
     "rain_pct": 0
   },
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 63.7,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.4,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Elephant",
       "acres": 13930,
@@ -53,14 +55,14 @@
   "forecast": [
     {
       "date": "2026-07-29",
-      "high_f": 76,
-      "low_f": 54,
+      "high_f": 75,
+      "low_f": 53,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-29T05:57",
       "sunset": "2026-07-29T20:14",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-07-30",
@@ -70,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-07-30T05:58",
       "sunset": "2026-07-30T20:13",
-      "predicted_score": 80,
+      "predicted_score": 74,
       "score_label": "Good conditions"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-07-31T05:59",
       "sunset": "2026-07-31T20:12",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-01T06:00",
       "sunset": "2026-08-01T20:11",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-02T06:01",
       "sunset": "2026-08-02T20:10",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T10:13:53.993289+00:00"
+  "updated_at": "2026-07-29T10:43:18.345093+00:00"
 }

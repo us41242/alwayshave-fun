@@ -17,8 +17,8 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,77 +29,21 @@
     "gusts_mph": 3,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-29T05:50",
-  "sunset": "2026-07-29T19:56",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 61,
+    "aqi": 58,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 71.1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-29",
-      "high_f": 98,
-      "low_f": 76,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-29T05:50",
-      "sunset": "2026-07-29T19:56",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 99,
-      "low_f": 74,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-30T05:51",
-      "sunset": "2026-07-30T19:55",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 101,
-      "low_f": 76,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-31T05:52",
-      "sunset": "2026-07-31T19:55",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 104,
-      "low_f": 78,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-01T05:53",
-      "sunset": "2026-08-01T19:54",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 104,
-      "low_f": 82,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-02T05:53",
-      "sunset": "2026-08-02T19:53",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-07-29T13:40:34.451311+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-29T14:12:24.582054+00:00"
 }

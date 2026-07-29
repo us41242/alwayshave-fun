@@ -19,13 +19,15 @@
   "vehicle_req": "4WD",
   "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 69,
-    "feels_like_f": 64,
-    "wind_mph": 14,
-    "gusts_mph": 19,
-    "rain_pct": 13
+    "temp_f": 63,
+    "feels_like_f": 54,
+    "wind_mph": 17,
+    "gusts_mph": 24,
+    "rain_pct": 10
   },
   "sunrise": "2026-07-29T05:40",
   "sunset": "2026-07-29T19:45",
@@ -39,14 +41,22 @@
     "risk_level": "moderate",
     "nearest_fire_km": 74.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Grapevine",
+      "acres": 26464,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-17T22:03:33.430000+00:00",
+      "distance_km": 87.8,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-29",
       "high_f": 80,
-      "low_f": 64,
+      "low_f": 61,
       "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-07-29T05:40",
@@ -99,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-29T16:04:58.058317+00:00"
+  "updated_at": "2026-07-29T16:36:37.766931+00:00"
 }

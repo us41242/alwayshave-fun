@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 73,
-    "wind_mph": 3,
-    "gusts_mph": 4,
+    "temp_f": 75,
+    "feels_like_f": 75,
+    "wind_mph": 4,
+    "gusts_mph": 7,
     "rain_pct": 2
   },
   "sunrise": "2026-07-29T06:05",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 136.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Webster",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T15:40:53.797000+00:00",
+      "distance_km": 63.9,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T16:10:08.273621+00:00"
+  "updated_at": "2026-07-29T16:41:09.709909+00:00"
 }

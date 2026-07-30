@@ -17,42 +17,50 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 84,
-    "wind_mph": 5,
+    "temp_f": 88,
+    "feels_like_f": 87,
+    "wind_mph": 6,
     "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-07-30T05:39",
   "sunset": "2026-07-30T19:48",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 33,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 122.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Grapevine",
+      "acres": 26464,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-17T22:03:33.430000+00:00",
+      "distance_km": 48.4,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-30",
-      "high_f": 97,
+      "high_f": 98,
       "low_f": 68,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-30T05:39",
       "sunset": "2026-07-30T19:48",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-31",
@@ -62,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-07-31T05:40",
       "sunset": "2026-07-31T19:47",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-01",
@@ -73,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-08-01T05:41",
       "sunset": "2026-08-01T19:46",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-02",
@@ -84,8 +92,8 @@
       "uv": 8,
       "sunrise": "2026-08-02T05:42",
       "sunset": "2026-08-02T19:45",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-03",
@@ -95,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-03T05:43",
       "sunset": "2026-08-03T19:44",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-30T16:36:16.424886+00:00"
+  "updated_at": "2026-07-30T17:06:04.100830+00:00"
 }

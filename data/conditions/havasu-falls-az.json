@@ -17,16 +17,16 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 90,
-    "feels_like_f": 93,
-    "wind_mph": 7,
-    "gusts_mph": 8,
+    "temp_f": 92,
+    "feels_like_f": 96,
+    "wind_mph": 6,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-07-30T05:36",
@@ -38,23 +38,31 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 98.9,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Chiefs Tank",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:27:26.427000+00:00",
+      "distance_km": 18.0,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-30",
-      "high_f": 105,
+      "high_f": 106,
       "low_f": 73,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-07-30T05:36",
       "sunset": "2026-07-30T19:38",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-07-31",
@@ -64,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-07-31T05:37",
       "sunset": "2026-07-31T19:37",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-01",
@@ -75,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-01T05:38",
       "sunset": "2026-08-01T19:36",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-02",
@@ -86,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-02T05:38",
       "sunset": "2026-08-02T19:35",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-03",
@@ -97,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-03T05:39",
       "sunset": "2026-08-03T19:34",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-30T16:36:54.943321+00:00"
+  "updated_at": "2026-07-30T17:06:09.337557+00:00"
 }

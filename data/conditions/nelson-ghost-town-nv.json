@@ -17,20 +17,20 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 62,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 92,
-    "feels_like_f": 83,
-    "wind_mph": 15,
-    "gusts_mph": 21,
+    "feels_like_f": 82,
+    "wind_mph": 12,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-29T05:45",
+  "sunset": "2026-07-29T19:46",
   "aqi": {
-    "aqi": 44,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,6 +42,62 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-30T05:08:51.676443+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-29",
+      "high_f": 101,
+      "low_f": 86,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-07-29T05:45",
+      "sunset": "2026-07-29T19:46",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 104,
+      "low_f": 83,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-30T05:46",
+      "sunset": "2026-07-30T19:45",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 106,
+      "low_f": 85,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-31T05:46",
+      "sunset": "2026-07-31T19:44",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 110,
+      "low_f": 84,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-01T05:47",
+      "sunset": "2026-08-01T19:43",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 107,
+      "low_f": 86,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-02T05:48",
+      "sunset": "2026-08-02T19:42",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-30T05:37:50.138102+00:00"
 }

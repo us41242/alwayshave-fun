@@ -23,14 +23,14 @@
   "current": {
     "temp_f": 100,
     "feels_like_f": 106,
-    "wind_mph": 3,
-    "gusts_mph": 5,
+    "wind_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 2
   },
   "sunrise": "2026-07-30T05:36",
   "sunset": "2026-07-30T19:38",
   "aqi": {
-    "aqi": 48,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,13 +39,21 @@
     "risk_level": "moderate",
     "nearest_fire_km": 98.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Chiefs Tank",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:27:26.427000+00:00",
+      "distance_km": 18.0,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-30",
-      "high_f": 105,
+      "high_f": 104,
       "low_f": 73,
       "rain_pct": 3,
       "uv": 8,
@@ -57,7 +65,7 @@
     {
       "date": "2026-07-31",
       "high_f": 110,
-      "low_f": 82,
+      "low_f": 83,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-07-31T05:37",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-30T19:05:22.368627+00:00"
+  "updated_at": "2026-07-30T19:37:10.060400+00:00"
 }

@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 78,
@@ -27,8 +27,8 @@
     "gusts_mph": 13,
     "rain_pct": 1
   },
-  "sunrise": "2026-07-29T06:33",
-  "sunset": "2026-07-29T20:42",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 45,
     "category": "Good",
@@ -39,69 +39,21 @@
     "risk_level": "low",
     "nearest_fire_km": 197.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "1200 N",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:03:05.200000+00:00",
+      "distance_km": 30.1,
+      "direction": "WNW"
+    }
   },
   "river": {
-    "cfs": 62,
+    "cfs": 84,
     "stage": "normal",
     "gauge_id": "09405500"
   },
-  "forecast": [
-    {
-      "date": "2026-07-29",
-      "high_f": 78,
-      "low_f": 64,
-      "rain_pct": 52,
-      "uv": 8,
-      "sunrise": "2026-07-29T06:33",
-      "sunset": "2026-07-29T20:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 89,
-      "low_f": 64,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-07-30T06:34",
-      "sunset": "2026-07-30T20:41",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 90,
-      "low_f": 67,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-31T06:35",
-      "sunset": "2026-07-31T20:40",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 93,
-      "low_f": 72,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-01T06:36",
-      "sunset": "2026-08-01T20:39",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 92,
-      "low_f": 72,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-02T06:37",
-      "sunset": "2026-08-02T20:38",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-07-30T00:07:28.531156+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-30T00:37:38.986741+00:00"
 }

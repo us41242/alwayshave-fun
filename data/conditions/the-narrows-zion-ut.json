@@ -17,14 +17,14 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
     "temp_f": 85,
     "feels_like_f": 86,
-    "wind_mph": 5,
-    "gusts_mph": 12,
+    "wind_mph": 6,
+    "gusts_mph": 13,
     "rain_pct": 1
   },
   "sunrise": "2026-07-29T06:34",
@@ -39,10 +39,18 @@
     "risk_level": "low",
     "nearest_fire_km": 187.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Falls",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:02:45.807000+00:00",
+      "distance_km": 28.8,
+      "direction": "W"
+    }
   },
   "river": {
-    "cfs": 62,
+    "cfs": 84,
     "stage": "normal",
     "gauge_id": "09405500"
   },
@@ -103,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-30T00:01:46.684963+00:00"
+  "updated_at": "2026-07-30T00:32:47.252275+00:00"
 }

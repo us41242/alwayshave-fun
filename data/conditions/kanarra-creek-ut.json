@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 76,
-    "wind_mph": 12,
-    "gusts_mph": 15,
+    "temp_f": 80,
+    "feels_like_f": 75,
+    "wind_mph": 13,
+    "gusts_mph": 16,
     "rain_pct": 2
   },
   "sunrise": "2026-07-29T06:34",
   "sunset": "2026-07-29T20:43",
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,13 +39,21 @@
     "risk_level": "low",
     "nearest_fire_km": 185.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "1200 N",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:03:05.200000+00:00",
+      "distance_km": 4.9,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-07-29",
-      "high_f": 79,
+      "high_f": 80,
       "low_f": 64,
       "rain_pct": 61,
       "uv": 7,
@@ -57,7 +65,7 @@
     {
       "date": "2026-07-30",
       "high_f": 91,
-      "low_f": 71,
+      "low_f": 70,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-07-30T06:35",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-30T00:12:44.638596+00:00"
+  "updated_at": "2026-07-30T00:41:25.516545+00:00"
 }

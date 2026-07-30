@@ -19,20 +19,18 @@
   "vehicle_req": "Any",
   "score": 92,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 70,
     "feels_like_f": 60,
-    "wind_mph": 14,
-    "gusts_mph": 22,
+    "wind_mph": 13,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-07-29T05:59",
   "sunset": "2026-07-29T20:14",
   "aqi": {
-    "aqi": 6,
+    "aqi": 7,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -41,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 73.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wells",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T00:24:17.653000+00:00",
+      "distance_km": 83.8,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-30T00:16:39.451210+00:00"
+  "updated_at": "2026-07-30T00:44:02.988093+00:00"
 }

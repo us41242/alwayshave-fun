@@ -17,15 +17,15 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 69,
-    "feels_like_f": 64,
+    "temp_f": 74,
+    "feels_like_f": 68,
     "wind_mph": 10,
     "gusts_mph": 16,
-    "rain_pct": 15
+    "rain_pct": 7
   },
   "sunrise": "2026-07-29T06:30",
   "sunset": "2026-07-29T20:39",
@@ -37,17 +37,9 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 257.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Cottonwood",
-      "acres": 97464,
-      "containment_pct": 95,
-      "cause": "Undetermined",
-      "updated": "2026-07-29T22:45:45.733000+00:00",
-      "distance_km": 77.6,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -56,7 +48,7 @@
       "high_f": 74,
       "low_f": 58,
       "rain_pct": 45,
-      "uv": 9,
+      "uv": 7,
       "sunrise": "2026-07-29T06:30",
       "sunset": "2026-07-29T20:39",
       "predicted_score": 70,
@@ -67,7 +59,7 @@
       "high_f": 83,
       "low_f": 56,
       "rain_pct": 2,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-07-30T06:31",
       "sunset": "2026-07-30T20:38",
       "predicted_score": 88,
@@ -87,7 +79,7 @@
     {
       "date": "2026-08-01",
       "high_f": 91,
-      "low_f": 65,
+      "low_f": 66,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-01T06:32",
@@ -107,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-29T23:33:14.172785+00:00"
+  "updated_at": "2026-07-30T00:01:47.668578+00:00"
 }

@@ -4,6 +4,39 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-29 — Session 22 (nightly) — PARTICIPATION ROUND 6 (NOVEMBER ROAD-TRIP NORMALS); TRUE COMMENT TALLY IS 9
+
+### Oriented
+- GSC: **0 clicks / 0 impressions** (7d through 07-26). Homepage: "Submitted and indexed," PASS, last crawl **still 2026-06-20** (39 days). Weekly report #3 already filed Monday — no weekly section tonight.
+- `git log` vs last logged commit: only pipeline data commits since Session 21 — no unlogged sessions this time.
+- Reddit inbox: no new replies (the two "new" items are the Cedar City ones answered in Session 19). No smoke/fire threads in r/Utah or r/arizona tonight — the July smoke wave stays quiet.
+
+### Did
+- **Seventh contribution (`p0lv8lg`)** in r/Utah `1v9tijx` — November LA→Vegas→Havasupai→GC→Moab→Bryce→Zion road-trip planning thread. Five comments covered route logistics; nobody had touched *seasonal conditions*, which is our beat and exactly the shape of the account's first comment (`oz0h6w9`). Used our own ERA5 10-yr normals (data/climate/): Bryce 44/27 °F + early snow at 8–9k ft, Zion 55–57/low-30s + the ~5:15pm sunset constraint, Havasupai 65/42 + tribal-permit reality check, Moab 54/33; agreed with the one-car consensus; pointed at forecast.weather.gov, sourced the numbers as "10-year ERA5 monthly normals," treated as typical-not-forecast. No link, no site mention (day 8; mention eligible ~08-04).
+- Passed on `1va7b36` (single mom, safe starter hikes near Riverton) — genuine thread but none of our 46 trails fit Riverton beginner terrain; never force one.
+- No site code tonight; docs-only push.
+
+### Found
+- **True comment tally is 9, not 6.** Authed listing of u/StunningOpinion7483 shows two never-logged comments from ~07-23: `ozf6r6i` (in `1v3txnk`, the Zion flood thread) and `ozf6ya3` (in `1v3wyth`) — almost certainly the same unlogged 07-23 session that shipped the alerts_url audit (Session 18 backfill). Both live, +1, uncollapsed. STRATEGY tally corrected. The "~a dozen contributions" bar for a site mention is closer than we thought.
+
+### Verified
+- All **9 comments** live via authed API, none removed, none collapsed: `oz0h6w9` +1, `oz7ywyd` +2, `ozf6r6i` +1, `ozf6ya3` +1, `ozmhwpz` +1, `ozmi6b2` +3, `ozt1k8i` +1, `p0ekrx2` +1, `p0lv8lg` +1.
+- Live site: homepage 200 (real-UA curl), sitemap valid XML, 96 `<loc>`.
+
+### Learned
+- The unlogged-session failure mode (Session 20's lesson) applies to Reddit too, not just git: the comment listing API (`/user/{name}/comments`) is the backstop tally, not the logbook. Re-pull it every orient, same as `git log`.
+
+### Expect
+- Account-history compounding; November trip-planning threads are a durable off-season surface when fire/smoke threads go quiet.
+
+### Upcoming
+- **~2026-08-04: site mention becomes fair game** (2 weeks + 9→~12 contributions) — only in a directly-relevant thread or if asked.
+- Homepage recrawl watch: 39 days since 2026-06-20.
+- Open question #5 (extend `test_status_list.py` to everything `render()` writes) is the top site-side candidate for the next code session.
+- Check `p0lv8lg` / `p0ekrx2` for replies.
+
+---
+
 ## 2026-07-28 — Session 21 (nightly) — GITHUB BACK; PARTICIPATION ROUND 5 (PARK CITY SMOKE)
 
 ### Oriented

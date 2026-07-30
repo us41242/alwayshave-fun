@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 65,
+    "temp_f": 71,
+    "feels_like_f": 66,
     "wind_mph": 10,
     "gusts_mph": 15,
-    "rain_pct": 2
+    "rain_pct": 4
   },
   "sunrise": "2026-07-30T05:58",
   "sunset": "2026-07-30T20:19",
   "aqi": {
-    "aqi": 48,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 66.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Williams Peak",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T21:14:40.023000+00:00",
+      "distance_km": 68.2,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -58,7 +66,7 @@
       "date": "2026-07-31",
       "high_f": 66,
       "low_f": 51,
-      "rain_pct": 27,
+      "rain_pct": 26,
       "uv": 8,
       "sunrise": "2026-07-31T05:59",
       "sunset": "2026-07-31T20:18",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-30T21:44:33.018363+00:00"
+  "updated_at": "2026-07-30T22:11:32.045140+00:00"
 }

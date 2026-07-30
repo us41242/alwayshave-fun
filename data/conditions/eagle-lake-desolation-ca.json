@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 76,
-    "feels_like_f": 73,
-    "wind_mph": 9,
-    "gusts_mph": 13,
+    "feels_like_f": 72,
+    "wind_mph": 10,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-07-30T05:59",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 73.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Applegate",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T21:35:09.467000+00:00",
+      "distance_km": 77.9,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-30T21:47:28.435792+00:00"
+  "updated_at": "2026-07-30T22:14:12.013340+00:00"
 }

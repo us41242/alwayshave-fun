@@ -19,14 +19,12 @@
   "vehicle_req": "High-Clearance",
   "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 68,
-    "feels_like_f": 61,
-    "wind_mph": 11,
-    "gusts_mph": 22,
+    "feels_like_f": 62,
+    "wind_mph": 9,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-07-30T05:35",
@@ -41,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 123.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "White River",
+      "acres": 85,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T03:01:55.217000+00:00",
+      "distance_km": 98.5,
+      "direction": "WSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-30T21:41:51.706606+00:00"
+  "updated_at": "2026-07-30T22:08:26.011663+00:00"
 }

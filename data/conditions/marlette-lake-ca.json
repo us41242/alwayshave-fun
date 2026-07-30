@@ -17,11 +17,9 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 86,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 58,
     "feels_like_f": 50,
@@ -29,18 +27,18 @@
     "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-29T05:57",
-  "sunset": "2026-07-29T20:14",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 50,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 46.4,
-    "fire_count_50km": 1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Elephant",
       "acres": 0.1,
@@ -52,62 +50,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-29",
-      "high_f": 77,
-      "low_f": 52,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-29T05:57",
-      "sunset": "2026-07-29T20:14",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-30",
-      "high_f": 78,
-      "low_f": 57,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-30T05:58",
-      "sunset": "2026-07-30T20:13",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-07-31",
-      "high_f": 83,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-31T05:59",
-      "sunset": "2026-07-31T20:12",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 87,
-      "low_f": 52,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-01T06:00",
-      "sunset": "2026-08-01T20:11",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 87,
-      "low_f": 50,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-02T06:01",
-      "sunset": "2026-08-02T20:10",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-30T05:42:57.660489+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-30T06:16:26.892533+00:00"
 }

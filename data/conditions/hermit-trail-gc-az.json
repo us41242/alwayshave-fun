@@ -17,9 +17,11 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 42,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 80,
     "feels_like_f": 76,
@@ -30,8 +32,8 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,5 +53,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-07-30T01:09:25.648985+00:00"
+  "updated_at": "2026-07-30T01:38:01.489696+00:00"
 }

@@ -23,16 +23,16 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 97,
-    "feels_like_f": 88,
-    "wind_mph": 13,
-    "gusts_mph": 15,
+    "temp_f": 95,
+    "feels_like_f": 84,
+    "wind_mph": 14,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-29T05:46",
+  "sunset": "2026-07-29T19:49",
   "aqi": {
-    "aqi": 61,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -44,6 +44,62 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-30T01:03:36.712237+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-29",
+      "high_f": 99,
+      "low_f": 82,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-07-29T05:46",
+      "sunset": "2026-07-29T19:49",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-30",
+      "high_f": 101,
+      "low_f": 78,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-30T05:47",
+      "sunset": "2026-07-30T19:48",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 101,
+      "low_f": 83,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-31T05:48",
+      "sunset": "2026-07-31T19:47",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 103,
+      "low_f": 85,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-01T05:49",
+      "sunset": "2026-08-01T19:46",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 102,
+      "low_f": 87,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-02T05:49",
+      "sunset": "2026-08-02T19:46",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-07-30T01:33:59.669344+00:00"
 }

@@ -17,18 +17,20 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 80,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 42,
-    "feels_like_f": 34,
-    "wind_mph": 5,
-    "gusts_mph": 9,
+    "feels_like_f": 33,
+    "wind_mph": 4,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-30T05:36",
+  "sunset": "2026-07-30T19:50",
   "aqi": {
     "aqi": 48,
     "category": "Good",
@@ -37,7 +39,7 @@
   },
   "fire": {
     "risk_level": "moderate",
-    "nearest_fire_km": 76.5,
+    "nearest_fire_km": 76.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "White River",
@@ -50,6 +52,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-30T10:03:24.012527+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-30",
+      "high_f": 60,
+      "low_f": 41,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-30T05:36",
+      "sunset": "2026-07-30T19:50",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 63,
+      "low_f": 43,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-07-31T05:37",
+      "sunset": "2026-07-31T19:49",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 70,
+      "low_f": 49,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-01T05:38",
+      "sunset": "2026-08-01T19:48",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 71,
+      "low_f": 51,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-02T05:39",
+      "sunset": "2026-08-02T19:47",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-03",
+      "high_f": 70,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-03T05:40",
+      "sunset": "2026-08-03T19:46",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-07-30T10:34:17.715288+00:00"
 }

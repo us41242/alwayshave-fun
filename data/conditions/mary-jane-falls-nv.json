@@ -21,8 +21,8 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 70,
+    "temp_f": 76,
+    "feels_like_f": 71,
     "wind_mph": 11,
     "gusts_mph": 12,
     "rain_pct": 0
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 67.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cactus",
+      "acres": 2,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T19:44:21.370000+00:00",
+      "distance_km": 46.8,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -68,7 +76,7 @@
     {
       "date": "2026-08-01",
       "high_f": 82,
-      "low_f": 63,
+      "low_f": 62,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-01T05:49",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-30T19:39:47.738145+00:00"
+  "updated_at": "2026-07-30T20:06:52.391152+00:00"
 }

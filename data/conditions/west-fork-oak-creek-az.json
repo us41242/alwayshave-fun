@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 67,
+    "feels_like_f": 68,
     "wind_mph": 10,
     "gusts_mph": 11,
     "rain_pct": 0
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 154.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Pocket",
@@ -49,11 +49,7 @@
       "direction": "WSW"
     }
   },
-  "river": {
-    "cfs": 18,
-    "stage": null,
-    "gauge_id": "09504500"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-07-31",
@@ -111,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T11:37:03.799908+00:00"
+  "updated_at": "2026-07-31T12:05:49.096697+00:00"
 }

@@ -17,20 +17,18 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
-    "temp_f": 92,
-    "feels_like_f": 86,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "temp_f": 89,
+    "feels_like_f": 83,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-31T05:45",
+  "sunset": "2026-07-31T19:44",
   "aqi": {
     "aqi": 36,
     "category": "Good",
@@ -38,12 +36,68 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 31.6,
-    "fire_count_50km": 3,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-31T11:38:56.450710+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-31",
+      "high_f": 117,
+      "low_f": 86,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-31T05:45",
+      "sunset": "2026-07-31T19:44",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 120,
+      "low_f": 91,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-01T05:46",
+      "sunset": "2026-08-01T19:43",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 118,
+      "low_f": 91,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-02T05:47",
+      "sunset": "2026-08-02T19:42",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-03",
+      "high_f": 117,
+      "low_f": 91,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-03T05:48",
+      "sunset": "2026-08-03T19:41",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-04",
+      "high_f": 117,
+      "low_f": 88,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-04T05:49",
+      "sunset": "2026-08-04T19:40",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-31T12:09:04.977345+00:00"
 }

@@ -22,22 +22,22 @@
   "gear_flags": [],
   "current": {
     "temp_f": 78,
-    "feels_like_f": 73,
-    "wind_mph": 10,
+    "feels_like_f": 72,
+    "wind_mph": 11,
     "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T06:36",
   "sunset": "2026-07-31T20:40",
   "aqi": {
-    "aqi": 36,
+    "aqi": 42,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 165.9,
+    "nearest_fire_km": 165.8,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Falls",
@@ -53,7 +53,7 @@
   "forecast": [
     {
       "date": "2026-07-31",
-      "high_f": 98,
+      "high_f": 99,
       "low_f": 76,
       "rain_pct": 0,
       "uv": 8,
@@ -107,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T08:01:53.603373+00:00"
+  "updated_at": "2026-07-31T08:32:04.986232+00:00"
 }

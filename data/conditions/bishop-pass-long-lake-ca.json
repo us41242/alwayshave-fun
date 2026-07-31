@@ -17,8 +17,8 @@
   "notes": "South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June \u2014 Long Lake turnaround is the right call early season",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 76,
@@ -27,8 +27,8 @@
     "gusts_mph": 10,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-31T05:58",
-  "sunset": "2026-07-31T20:02",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 40,
     "category": "Good",
@@ -36,68 +36,20 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 98.8,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sepsey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T21:14:33.710000+00:00",
+      "distance_km": 25.0,
+      "direction": "E"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-31",
-      "high_f": 75,
-      "low_f": 51,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-07-31T05:58",
-      "sunset": "2026-07-31T20:02",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 77,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-01T05:59",
-      "sunset": "2026-08-01T20:01",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 74,
-      "low_f": 56,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-02T06:00",
-      "sunset": "2026-08-02T20:00",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 76,
-      "low_f": 56,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-03T06:01",
-      "sunset": "2026-08-03T19:59",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 76,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-04T06:02",
-      "sunset": "2026-08-04T19:58",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-07-31T22:47:09.030126+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-31T23:18:21.844668+00:00"
 }

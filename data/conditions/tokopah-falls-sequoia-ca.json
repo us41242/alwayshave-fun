@@ -17,31 +17,39 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 68,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended"
   ],
   "current": {
     "temp_f": 78,
     "feels_like_f": 76,
-    "wind_mph": 6,
-    "gusts_mph": 7,
+    "wind_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T06:00",
   "sunset": "2026-07-31T20:02",
   "aqi": {
-    "aqi": 97,
-    "category": "Moderate",
+    "aqi": 101,
+    "category": "Unhealthy for Sensitive Groups",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 104.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 85,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T00:33:54.057000+00:00",
+      "distance_km": 55.8,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-07-31T06:00",
       "sunset": "2026-07-31T20:02",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-01",
@@ -64,8 +72,8 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:01",
       "sunset": "2026-08-01T20:01",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-02",
@@ -75,7 +83,7 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:02",
       "sunset": "2026-08-02T20:00",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -86,7 +94,7 @@
       "uv": 9,
       "sunrise": "2026-08-03T06:03",
       "sunset": "2026-08-03T19:59",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +105,9 @@
       "uv": 9,
       "sunrise": "2026-08-04T06:03",
       "sunset": "2026-08-04T19:58",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T22:47:14.484243+00:00"
+  "updated_at": "2026-07-31T23:18:26.738731+00:00"
 }

@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 75,
-    "wind_mph": 8,
-    "gusts_mph": 10,
+    "temp_f": 81,
+    "feels_like_f": 79,
+    "wind_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T05:36",
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 119.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Pocket",
@@ -49,7 +49,11 @@
       "direction": "WSW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 18,
+    "stage": null,
+    "gauge_id": "09504500"
+  },
   "forecast": [
     {
       "date": "2026-07-31",
@@ -88,7 +92,7 @@
       "date": "2026-08-03",
       "high_f": 97,
       "low_f": 71,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-08-03T05:38",
       "sunset": "2026-08-03T19:27",
@@ -99,7 +103,7 @@
       "date": "2026-08-04",
       "high_f": 98,
       "low_f": 69,
-      "rain_pct": 11,
+      "rain_pct": 8,
       "uv": 9,
       "sunrise": "2026-08-04T05:39",
       "sunset": "2026-08-04T19:26",
@@ -107,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T14:36:10.527501+00:00"
+  "updated_at": "2026-07-31T15:08:08.035770+00:00"
 }

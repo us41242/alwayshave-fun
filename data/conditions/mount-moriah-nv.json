@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 69,
+    "temp_f": 70,
     "feels_like_f": 64,
-    "wind_mph": 11,
-    "gusts_mph": 15,
+    "wind_mph": 10,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T05:36",
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "moderate",
-    "nearest_fire_km": 62.7,
+    "nearest_fire_km": 62.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 40,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-31T20:14:27.967000+00:00",
+      "distance_km": 63.7,
+      "direction": "WSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T20:40:43.725939+00:00"
+  "updated_at": "2026-07-31T21:09:52.291566+00:00"
 }

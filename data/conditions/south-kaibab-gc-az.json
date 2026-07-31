@@ -21,8 +21,8 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 89,
-    "feels_like_f": 86,
+    "temp_f": 88,
+    "feels_like_f": 83,
     "wind_mph": 9,
     "gusts_mph": 10,
     "rain_pct": 2
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 113.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cliff Spring",
+      "acres": 170,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-27T19:57:45.080000+00:00",
+      "distance_km": 16.5,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -57,8 +65,8 @@
     {
       "date": "2026-08-01",
       "high_f": 94,
-      "low_f": 70,
-      "rain_pct": 0,
+      "low_f": 71,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-01T05:36",
       "sunset": "2026-08-01T19:33",
@@ -69,7 +77,7 @@
       "date": "2026-08-02",
       "high_f": 94,
       "low_f": 68,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-02T05:36",
       "sunset": "2026-08-02T19:32",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T20:36:54.674658+00:00"
+  "updated_at": "2026-07-31T21:04:18.153025+00:00"
 }

@@ -21,10 +21,10 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 90,
+    "temp_f": 91,
     "feels_like_f": 88,
-    "wind_mph": 8,
-    "gusts_mph": 9,
+    "wind_mph": 9,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T06:35",
@@ -39,9 +39,21 @@
     "risk_level": "low",
     "nearest_fire_km": 147.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "1200 N",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:03:05.200000+00:00",
+      "distance_km": 30.1,
+      "direction": "WNW"
+    }
   },
-  "river": null,
+  "river": {
+    "cfs": 33,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-07-31",
@@ -57,7 +69,7 @@
     {
       "date": "2026-08-01",
       "high_f": 94,
-      "low_f": 69,
+      "low_f": 70,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-01T06:36",
@@ -99,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T20:38:10.494166+00:00"
+  "updated_at": "2026-07-31T21:06:43.629593+00:00"
 }

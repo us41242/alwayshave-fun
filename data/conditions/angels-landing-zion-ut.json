@@ -22,24 +22,32 @@
   "gear_flags": [],
   "current": {
     "temp_f": 97,
-    "feels_like_f": 94,
-    "wind_mph": 10,
-    "gusts_mph": 11,
+    "feels_like_f": 95,
+    "wind_mph": 7,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T06:36",
   "sunset": "2026-07-31T20:40",
   "aqi": {
-    "aqi": 44,
+    "aqi": 47,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 165.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "1200 N",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T22:03:05.200000+00:00",
+      "distance_km": 38.4,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T20:31:30.585713+00:00"
+  "updated_at": "2026-07-31T21:01:42.810028+00:00"
 }

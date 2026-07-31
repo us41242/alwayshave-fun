@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 84,
+    "temp_f": 85,
     "feels_like_f": 81,
     "wind_mph": 8,
-    "gusts_mph": 10,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T05:58",
   "sunset": "2026-07-31T20:04",
   "aqi": {
-    "aqi": 39,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 134.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sepsey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T20:51:38.263000+00:00",
+      "distance_km": 69.2,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T20:43:56.677818+00:00"
+  "updated_at": "2026-07-31T21:17:06.743513+00:00"
 }

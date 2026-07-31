@@ -17,21 +17,23 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 92,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 69,
+    "temp_f": 70,
     "feels_like_f": 66,
-    "wind_mph": 3,
-    "gusts_mph": 13,
-    "rain_pct": 8
+    "wind_mph": 4,
+    "gusts_mph": 12,
+    "rain_pct": 10
   },
   "sunrise": "2026-07-31T05:59",
   "sunset": "2026-07-31T20:18",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 61,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -39,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 66.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Williams Peak",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T00:52:38.673000+00:00",
+      "distance_km": 68.2,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,22 +57,22 @@
       "date": "2026-07-31",
       "high_f": 71,
       "low_f": 50,
-      "rain_pct": 11,
+      "rain_pct": 10,
       "uv": 7,
       "sunrise": "2026-07-31T05:59",
       "sunset": "2026-07-31T20:18",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-08-01",
       "high_f": 72,
       "low_f": 53,
-      "rain_pct": 10,
+      "rain_pct": 9,
       "uv": 9,
       "sunrise": "2026-08-01T06:00",
       "sunset": "2026-08-01T20:17",
-      "predicted_score": 80,
+      "predicted_score": 82,
       "score_label": "Good conditions"
     },
     {
@@ -73,18 +83,18 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:01",
       "sunset": "2026-08-02T20:15",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-08-03",
       "high_f": 79,
       "low_f": 54,
-      "rain_pct": 24,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-08-03T06:02",
       "sunset": "2026-08-03T20:14",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -95,9 +105,9 @@
       "uv": 9,
       "sunrise": "2026-08-04T06:03",
       "sunset": "2026-08-04T20:13",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T20:40:48.234610+00:00"
+  "updated_at": "2026-07-31T21:12:19.757474+00:00"
 }

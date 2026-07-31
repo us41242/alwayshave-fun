@@ -22,15 +22,15 @@
   "gear_flags": [],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 55,
-    "wind_mph": 9,
-    "gusts_mph": 14,
+    "feels_like_f": 54,
+    "wind_mph": 12,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T06:08",
   "sunset": "2026-07-31T20:20",
   "aqi": {
-    "aqi": 34,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 152.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Willow",
+      "acres": 7196,
+      "containment_pct": 66,
+      "cause": "Human",
+      "updated": "2026-07-31T16:49:18.827000+00:00",
+      "distance_km": 48.0,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -69,7 +77,7 @@
       "date": "2026-08-02",
       "high_f": 69,
       "low_f": 46,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-08-02T06:09",
       "sunset": "2026-08-02T20:18",
@@ -80,7 +88,7 @@
       "date": "2026-08-03",
       "high_f": 67,
       "low_f": 47,
-      "rain_pct": 5,
+      "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-08-03T06:10",
       "sunset": "2026-08-03T20:17",
@@ -91,13 +99,13 @@
       "date": "2026-08-04",
       "high_f": 67,
       "low_f": 43,
-      "rain_pct": 8,
+      "rain_pct": 10,
       "uv": 9,
       "sunrise": "2026-08-04T06:11",
       "sunset": "2026-08-04T20:16",
-      "predicted_score": 100,
+      "predicted_score": 88,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-31T20:40:46.379264+00:00"
+  "updated_at": "2026-07-31T21:12:16.898225+00:00"
 }

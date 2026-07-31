@@ -23,9 +23,9 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 78,
-    "wind_mph": 4,
+    "temp_f": 84,
+    "feels_like_f": 81,
+    "wind_mph": 5,
     "gusts_mph": 4,
     "rain_pct": 0
   },
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 105.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Basin Springs",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-29T18:12:47.163000+00:00",
+      "distance_km": 23.8,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T15:37:33.042453+00:00"
+  "updated_at": "2026-07-31T16:07:14.950636+00:00"
 }

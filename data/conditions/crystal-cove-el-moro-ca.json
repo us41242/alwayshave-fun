@@ -17,8 +17,8 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 36,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
@@ -30,8 +30,8 @@
     "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-31T06:03",
-  "sunset": "2026-07-31T19:52",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 54,
     "category": "Moderate",
@@ -42,65 +42,17 @@
     "risk_level": "elevated",
     "nearest_fire_km": 41.8,
     "fire_count_50km": 18,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Tesoro",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-29T22:20:20.320000+00:00",
+      "distance_km": 11.2,
+      "direction": "NE"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-31",
-      "high_f": 75,
-      "low_f": 68,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-31T06:03",
-      "sunset": "2026-07-31T19:52",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 78,
-      "low_f": 67,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-01T06:03",
-      "sunset": "2026-08-01T19:51",
-      "predicted_score": 64,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 88,
-      "low_f": 67,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-02T06:04",
-      "sunset": "2026-08-02T19:50",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 86,
-      "low_f": 74,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-03T06:05",
-      "sunset": "2026-08-03T19:49",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 85,
-      "low_f": 73,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T06:06",
-      "sunset": "2026-08-04T19:48",
-      "predicted_score": 64,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-07-31T15:46:33.650392+00:00"
+  "forecast": [],
+  "updated_at": "2026-07-31T16:15:22.903351+00:00"
 }

@@ -17,14 +17,14 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 82,
-    "wind_mph": 4,
-    "gusts_mph": 5,
+    "temp_f": 86,
+    "feels_like_f": 86,
+    "wind_mph": 2,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T05:36",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 119.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Pocket",
+      "acres": 27393,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T23:04:53.143000+00:00",
+      "distance_km": 4.5,
+      "direction": "WSW"
+    }
   },
   "river": {
     "cfs": 18,
@@ -51,7 +59,7 @@
       "date": "2026-07-31",
       "high_f": 98,
       "low_f": 70,
-      "rain_pct": 7,
+      "rain_pct": 8,
       "uv": 9,
       "sunrise": "2026-07-31T05:36",
       "sunset": "2026-07-31T19:30",
@@ -103,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T15:37:32.071645+00:00"
+  "updated_at": "2026-07-31T16:07:14.006556+00:00"
 }

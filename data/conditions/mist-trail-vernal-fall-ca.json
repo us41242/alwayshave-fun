@@ -21,8 +21,8 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 74,
+    "temp_f": 81,
+    "feels_like_f": 75,
     "wind_mph": 0,
     "gusts_mph": 1,
     "rain_pct": 0
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 88.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Raleigh",
+      "acres": 30.94,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T00:26:12.230000+00:00",
+      "distance_km": 75.3,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T15:45:15.566718+00:00"
+  "updated_at": "2026-07-31T16:12:59.943507+00:00"
 }

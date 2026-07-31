@@ -17,16 +17,17 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 82,
+  "score": 76,
   "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 54,
-    "wind_mph": 13,
-    "gusts_mph": 16,
+    "feels_like_f": 53,
+    "wind_mph": 14,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T05:37",
@@ -38,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 50.1,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 47.4,
+    "fire_count_50km": 10,
     "nearest_incident": {
       "name": "Ward",
       "acres": 40,
@@ -61,18 +62,18 @@
       "uv": 8,
       "sunrise": "2026-07-31T05:37",
       "sunset": "2026-07-31T19:49",
-      "predicted_score": 82,
+      "predicted_score": 76,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-08-01",
       "high_f": 65,
-      "low_f": 46,
+      "low_f": 45,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-01T05:38",
       "sunset": "2026-08-01T19:48",
-      "predicted_score": 82,
+      "predicted_score": 76,
       "score_label": "Good conditions"
     },
     {
@@ -83,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-08-02T05:39",
       "sunset": "2026-08-02T19:47",
-      "predicted_score": 82,
+      "predicted_score": 76,
       "score_label": "Good conditions"
     },
     {
@@ -94,7 +95,7 @@
       "uv": 8,
       "sunrise": "2026-08-03T05:40",
       "sunset": "2026-08-03T19:46",
-      "predicted_score": 82,
+      "predicted_score": 76,
       "score_label": "Good conditions"
     },
     {
@@ -105,9 +106,9 @@
       "uv": 8,
       "sunrise": "2026-08-04T05:41",
       "sunset": "2026-08-04T19:45",
-      "predicted_score": 82,
+      "predicted_score": 76,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-07-31T21:34:33.462785+00:00"
+  "updated_at": "2026-07-31T22:04:16.534442+00:00"
 }

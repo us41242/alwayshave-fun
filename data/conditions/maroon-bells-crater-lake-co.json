@@ -17,14 +17,16 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 50,
+    "temp_f": 49,
     "feels_like_f": 43,
-    "wind_mph": 7,
-    "gusts_mph": 14,
+    "wind_mph": 5,
+    "gusts_mph": 12,
     "rain_pct": 1
   },
   "sunrise": "2026-07-30T06:07",
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 49.0,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Willow",
       "acres": 7196,
@@ -59,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-07-30T06:07",
       "sunset": "2026-07-30T20:21",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-07-31",
@@ -70,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-07-31T06:08",
       "sunset": "2026-07-31T20:20",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:08",
       "sunset": "2026-08-01T20:19",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:09",
       "sunset": "2026-08-02T20:18",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 9,
       "sunrise": "2026-08-03T06:10",
       "sunset": "2026-08-03T20:17",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-07-31T03:13:38.269291+00:00"
+  "updated_at": "2026-07-31T03:41:50.812452+00:00"
 }

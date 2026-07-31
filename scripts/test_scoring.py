@@ -19,4 +19,9 @@ assert score_label(compute_score(perfect, clean, fire, {"stage": "high"})) == "U
 assert score_label(compute_score(perfect, clean, fire, {"stage": "flood"})) == "Stay home"
 assert any("do not enter" in f for f in gear_flags(perfect, clean, fire, {"stage": "flood"}))
 
+# No declared caution threshold → stage is None → the reading must not cap the
+# score or emit flags (the Colorado's normal ~9,000 cfs is not a "flood").
+assert compute_score(perfect, clean, fire, {"cfs": 9230, "stage": None}) == 100
+assert gear_flags(perfect, clean, fire, {"cfs": 9230, "stage": None}) == []
+
 print("ok")

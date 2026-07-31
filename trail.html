@@ -717,7 +717,7 @@
       return { easy:'difficulty-easy', moderate:'difficulty-moderate', hard:'difficulty-hard', expert:'difficulty-expert' }[(d||'').toLowerCase()] || '';
     }
     function riverStyle(stage) {
-      return { low:{bg:'#fef3c7',color:'#78350f',label:'Low Flow'}, normal:{bg:'#d1fae5',color:'#064e3b',label:'Normal'}, high:{bg:'#fed7aa',color:'#7c2d12',label:'High Flow'}, flood:{bg:'#fee2e2',color:'#7f1d1d',label:'⚠ Flood Stage'} }[stage] || {bg:'#f1f5f9',color:'#475569',label:stage};
+      return { low:{bg:'#fef3c7',color:'#78350f',label:'Low Flow'}, normal:{bg:'#d1fae5',color:'#064e3b',label:'Normal'}, high:{bg:'#fed7aa',color:'#7c2d12',label:'High Flow'}, flood:{bg:'#fee2e2',color:'#7f1d1d',label:'⚠ Flood Stage'} }[stage] || {bg:'#f1f5f9',color:'#475569',label:stage || 'Current Flow'};
     }
 
     // ─── LOAD HERO IMAGE ──────────────────────────────────────────────────────
@@ -905,19 +905,24 @@
       }
       if (d.river && d.river.cfs != null) {
         const rstage = (d.river.stage || '').toLowerCase();
-        const rlabel = { low: 'Low', normal: 'Normal', high: 'High — use caution', flood: 'FLOOD — do not enter' }[rstage]
-                       || (rstage.charAt(0).toUpperCase() + rstage.slice(1));
-        items.push({
-          dot: (rstage === 'low' || rstage === 'normal') ? 'dot-green' : rstage === 'high' ? 'dot-yellow' : 'dot-red',
-          text: `Water level: ${d.river.cfs.toLocaleString()} cfs — ${rlabel} (USGS ${d.river.gauge_id || 'gauge'})`
-        });
+        if (rstage) {
+          const rlabel = { low: 'Low', normal: 'Normal', high: 'High — use caution', flood: 'FLOOD — do not enter' }[rstage]
+                         || (rstage.charAt(0).toUpperCase() + rstage.slice(1));
+          items.push({
+            dot: (rstage === 'low' || rstage === 'normal') ? 'dot-green' : rstage === 'high' ? 'dot-yellow' : 'dot-red',
+            text: `Water level: ${d.river.cfs.toLocaleString()} cfs — ${rlabel} (USGS ${d.river.gauge_id || 'gauge'})`
+          });
+        } else {
+          // No trail-specific caution threshold → reading is informational, no judgment
+          items.push({ dot: 'dot-gray', text: `Water level: ${d.river.cfs.toLocaleString()} cfs (USGS ${d.river.gauge_id || 'gauge'})` });
+        }
       }
       items.push({ dot: 'dot-gray', text: 'Campground: Check official alerts' });
       document.getElementById('status-list').innerHTML =
         items.map(i => `<li class="status-item"><span class="dot ${i.dot}"></span><span>${i.text}</span></li>`).join('');
 
       // ── River ────────────────────────────────────
-      if (d.river) {
+      if (d.river && d.river.cfs != null) {
         document.getElementById('river-card').classList.remove('hidden');
         const rs = riverStyle(d.river.stage);
         document.getElementById('river-content').innerHTML = `

@@ -136,12 +136,11 @@ def fetch_river(gauge_id, caution_cfs=None):
         cfs = float(values[-1]["value"])
         if cfs < 0:
             return None  # USGS sends -999999 for missing/ice-affected readings
-        if caution_cfs:
-            stage = river_stage(cfs, caution_cfs)
-        elif cfs < 100:   stage = "low"
-        elif cfs < 500:   stage = "normal"
-        elif cfs < 2000:  stage = "high"
-        else:             stage = "flood"
+        # No declared unsafe flow → no stage. Generic cfs bands are meaningless
+        # across rivers: they labeled the Colorado's normal ~9,000 cfs "flood"
+        # and capped Bright Angel at "Stay home" on a fine day. Without a
+        # trail-specific threshold the reading is informational only.
+        stage = river_stage(cfs, caution_cfs) if caution_cfs else None
         return {"cfs": round(cfs), "stage": stage, "gauge_id": gauge_id.strip()}
     except Exception as e:
         print(f"  river error ({gauge_id}): {e}")

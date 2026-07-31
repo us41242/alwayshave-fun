@@ -17,27 +17,27 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 101,
-    "feels_like_f": 99,
-    "wind_mph": 4,
-    "gusts_mph": 6,
-    "rain_pct": 1
+    "temp_f": 96,
+    "feels_like_f": 92,
+    "wind_mph": 6,
+    "gusts_mph": 7,
+    "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-07-30T05:36",
+  "sunset": "2026-07-30T19:38",
   "aqi": {
-    "aqi": 48,
+    "aqi": 45,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 98.9,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Basin Springs",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-07-31T02:38:49.954377+00:00"
+  "forecast": [
+    {
+      "date": "2026-07-30",
+      "high_f": 104,
+      "low_f": 73,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-07-30T05:36",
+      "sunset": "2026-07-30T19:38",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-07-31",
+      "high_f": 109,
+      "low_f": 83,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-07-31T05:37",
+      "sunset": "2026-07-31T19:37",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-01",
+      "high_f": 112,
+      "low_f": 86,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-01T05:38",
+      "sunset": "2026-08-01T19:36",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 108,
+      "low_f": 87,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-02T05:38",
+      "sunset": "2026-08-02T19:35",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-03",
+      "high_f": 106,
+      "low_f": 86,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-03T05:39",
+      "sunset": "2026-08-03T19:34",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-07-31T03:09:46.945977+00:00"
 }

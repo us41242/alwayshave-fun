@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 92,
-    "feels_like_f": 89,
+    "feels_like_f": 88,
     "wind_mph": 6,
     "gusts_mph": 7,
     "rain_pct": 0
@@ -32,12 +32,12 @@
   "aqi": {
     "aqi": 48,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 165.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Falls",
@@ -107,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T00:31:22.817624+00:00"
+  "updated_at": "2026-07-31T01:02:40.700282+00:00"
 }

@@ -32,20 +32,20 @@
   "aqi": {
     "aqi": 48,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 185.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Dry Lake",
-      "acres": 0.1,
-      "containment_pct": null,
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
       "cause": "Natural",
-      "updated": "2026-07-30T22:37:06.953000+00:00",
-      "distance_km": 6.5,
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 32.1,
       "direction": "SW"
     }
   },
@@ -107,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T00:38:43.540073+00:00"
+  "updated_at": "2026-07-31T01:11:26.234051+00:00"
 }

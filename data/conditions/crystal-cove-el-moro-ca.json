@@ -24,9 +24,9 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 77,
-    "feels_like_f": 86,
-    "wind_mph": 7,
+    "temp_f": 76,
+    "feels_like_f": 84,
+    "wind_mph": 6,
     "gusts_mph": 7,
     "rain_pct": 0
   },
@@ -42,7 +42,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 20.0,
     "fire_count_50km": 7,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Tesoro",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-29T22:20:20.320000+00:00",
+      "distance_km": 11.2,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -102,5 +110,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-01T22:42:12.891254+00:00"
+  "updated_at": "2026-08-01T23:11:12.306844+00:00"
 }

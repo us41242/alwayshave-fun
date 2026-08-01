@@ -25,13 +25,13 @@
   ],
   "current": {
     "temp_f": 118,
-    "feels_like_f": 112,
+    "feels_like_f": 111,
     "wind_mph": 12,
-    "gusts_mph": 14,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-01T05:46",
+  "sunset": "2026-08-01T19:43",
   "aqi": {
     "aqi": 51,
     "category": "Moderate",
@@ -45,6 +45,62 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-01T22:38:25.246461+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-01",
+      "high_f": 118,
+      "low_f": 87,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-01T05:46",
+      "sunset": "2026-08-01T19:43",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-02",
+      "high_f": 118,
+      "low_f": 90,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-02T05:47",
+      "sunset": "2026-08-02T19:42",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-03",
+      "high_f": 116,
+      "low_f": 89,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-03T05:48",
+      "sunset": "2026-08-03T19:41",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-04",
+      "high_f": 115,
+      "low_f": 87,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-04T05:49",
+      "sunset": "2026-08-04T19:40",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-05",
+      "high_f": 115,
+      "low_f": 89,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-05T05:49",
+      "sunset": "2026-08-05T19:39",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-08-01T23:07:55.471804+00:00"
 }

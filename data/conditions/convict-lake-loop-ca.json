@@ -21,8 +21,8 @@
   "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {
-    "temp_f": 88,
-    "feels_like_f": 81,
+    "temp_f": 87,
+    "feels_like_f": 80,
     "wind_mph": 10,
     "gusts_mph": 12,
     "rain_pct": 0
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 148.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sepsey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T21:14:33.710000+00:00",
+      "distance_km": 69.0,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-01T22:44:20.653851+00:00"
+  "updated_at": "2026-08-01T23:11:35.316194+00:00"
 }

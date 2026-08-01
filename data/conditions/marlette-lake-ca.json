@@ -23,8 +23,8 @@
   "current": {
     "temp_f": 71,
     "feels_like_f": 66,
-    "wind_mph": 3,
-    "gusts_mph": 5,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:00",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 64.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Elephant",
+      "acres": 0.1,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-07-29T17:46:35.177000+00:00",
+      "distance_km": 66.7,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T16:16:19.344662+00:00"
+  "updated_at": "2026-08-01T16:44:59.481696+00:00"
 }

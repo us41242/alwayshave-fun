@@ -17,7 +17,7 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
+  "score": 36,
   "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups",
@@ -30,10 +30,10 @@
     "gusts_mph": 5,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-01T05:44",
-  "sunset": "2026-08-01T19:44",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 62,
+    "aqi": 57,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,66 +41,10 @@
   "fire": {
     "risk_level": "elevated",
     "nearest_fire_km": 36.3,
-    "fire_count_50km": 5,
+    "fire_count_50km": 3,
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-01",
-      "high_f": 115,
-      "low_f": 87,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-01T05:44",
-      "sunset": "2026-08-01T19:44",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 115,
-      "low_f": 85,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-02T05:45",
-      "sunset": "2026-08-02T19:43",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 114,
-      "low_f": 86,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-03T05:46",
-      "sunset": "2026-08-03T19:42",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 113,
-      "low_f": 86,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T05:47",
-      "sunset": "2026-08-04T19:41",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 113,
-      "low_f": 85,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-05T05:48",
-      "sunset": "2026-08-05T19:40",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-08-01T08:34:26.218177+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-01T09:03:22.342620+00:00"
 }

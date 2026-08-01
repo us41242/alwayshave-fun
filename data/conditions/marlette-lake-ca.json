@@ -23,14 +23,14 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 62,
+    "temp_f": 63,
     "feels_like_f": 56,
     "wind_mph": 4,
     "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-31T05:59",
-  "sunset": "2026-07-31T20:12",
+  "sunrise": "2026-08-01T06:00",
+  "sunset": "2026-08-01T20:11",
   "aqi": {
     "aqi": 31,
     "category": "Good",
@@ -42,28 +42,17 @@
     "nearest_fire_km": 46.3,
     "fire_count_50km": 1,
     "nearest_incident": {
-      "name": "Winter",
-      "acres": 0.01,
-      "containment_pct": null,
+      "name": "Elephant",
+      "acres": 0.1,
+      "containment_pct": 100,
       "cause": "Undetermined",
-      "updated": "2026-08-01T03:44:02.020000+00:00",
-      "distance_km": 29.0,
-      "direction": "NW"
+      "updated": "2026-07-29T17:46:35.177000+00:00",
+      "distance_km": 66.7,
+      "direction": "NNW"
     }
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-07-31",
-      "high_f": 82,
-      "low_f": 52,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-31T05:59",
-      "sunset": "2026-07-31T20:12",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
     {
       "date": "2026-08-01",
       "high_f": 82,
@@ -107,7 +96,18 @@
       "sunset": "2026-08-04T20:08",
       "predicted_score": 56,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-05",
+      "high_f": 88,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-05T06:04",
+      "sunset": "2026-08-05T20:07",
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T06:44:59.484368+00:00"
+  "updated_at": "2026-08-01T07:13:56.714037+00:00"
 }

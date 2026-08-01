@@ -17,11 +17,13 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 46,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 102,
+    "temp_f": 103,
     "feels_like_f": 102,
     "wind_mph": 5,
     "gusts_mph": 6,
@@ -30,15 +32,15 @@
   "sunrise": "2026-08-01T06:19",
   "sunset": "2026-08-01T20:28",
   "aqi": {
-    "aqi": 40,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 40.9,
+    "fire_count_50km": 2,
     "nearest_incident": {
       "name": "Buckhorn",
       "acres": 3,
@@ -59,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:19",
       "sunset": "2026-08-01T20:28",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-02",
@@ -70,19 +72,19 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:20",
       "sunset": "2026-08-02T20:27",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-03",
       "high_f": 104,
       "low_f": 81,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-03T06:21",
       "sunset": "2026-08-03T20:26",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-04",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:22",
       "sunset": "2026-08-04T20:25",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-05",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:23",
       "sunset": "2026-08-05T20:24",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-01T19:11:31.281803+00:00"
+  "updated_at": "2026-08-01T19:45:41.325882+00:00"
 }

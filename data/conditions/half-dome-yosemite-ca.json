@@ -42,7 +42,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 35.1,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Raleigh",
+      "acres": 30.94,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T00:26:12.230000+00:00",
+      "distance_km": 77.1,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
@@ -102,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T20:41:06.830293+00:00"
+  "updated_at": "2026-08-01T21:08:59.359473+00:00"
 }

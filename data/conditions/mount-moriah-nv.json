@@ -17,16 +17,16 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 82,
+  "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 72,
-    "feels_like_f": 64,
-    "wind_mph": 14,
-    "gusts_mph": 15,
+    "feels_like_f": 63,
+    "wind_mph": 15,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T05:37",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 58.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 1852,
+      "containment_pct": 0,
+      "cause": "Natural",
+      "updated": "2026-08-01T14:55:23.853000+00:00",
+      "distance_km": 63.7,
+      "direction": "WSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-01T20:41:01.261235+00:00"
+  "updated_at": "2026-08-01T21:06:23.052080+00:00"
 }

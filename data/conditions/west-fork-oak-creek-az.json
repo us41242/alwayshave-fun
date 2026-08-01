@@ -23,8 +23,8 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 93,
+    "temp_f": 97,
+    "feels_like_f": 94,
     "wind_mph": 12,
     "gusts_mph": 13,
     "rain_pct": 2
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 38.4,
     "fire_count_50km": 2,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Loop",
+      "acres": 22,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T01:25:48.870000+00:00",
+      "distance_km": 72.4,
+      "direction": "NNE"
+    }
   },
   "river": {
     "cfs": 17,
@@ -86,7 +94,7 @@
       "date": "2026-08-04",
       "high_f": 97,
       "low_f": 66,
-      "rain_pct": 4,
+      "rain_pct": 5,
       "uv": 9,
       "sunrise": "2026-08-04T05:39",
       "sunset": "2026-08-04T19:26",
@@ -97,7 +105,7 @@
       "date": "2026-08-05",
       "high_f": 95,
       "low_f": 63,
-      "rain_pct": 41,
+      "rain_pct": 45,
       "uv": 9,
       "sunrise": "2026-08-05T05:39",
       "sunset": "2026-08-05T19:26",
@@ -105,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T20:36:04.601022+00:00"
+  "updated_at": "2026-08-01T21:03:53.618829+00:00"
 }

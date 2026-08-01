@@ -23,8 +23,8 @@
   "current": {
     "temp_f": 76,
     "feels_like_f": 71,
-    "wind_mph": 10,
-    "gusts_mph": 12,
+    "wind_mph": 9,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T05:59",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 98.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sepsey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T21:14:33.710000+00:00",
+      "distance_km": 25.0,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
@@ -91,7 +99,7 @@
       "date": "2026-08-05",
       "high_f": 77,
       "low_f": 54,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-05T06:02",
       "sunset": "2026-08-05T19:57",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-01T20:45:07.697278+00:00"
+  "updated_at": "2026-08-01T21:11:14.224509+00:00"
 }

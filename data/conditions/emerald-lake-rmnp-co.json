@@ -24,15 +24,15 @@
   ],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 69,
-    "wind_mph": 7,
-    "gusts_mph": 13,
+    "feels_like_f": 68,
+    "wind_mph": 8,
+    "gusts_mph": 14,
     "rain_pct": 1
   },
   "sunrise": "2026-08-01T06:00",
   "sunset": "2026-08-01T20:17",
   "aqi": {
-    "aqi": 51,
+    "aqi": 61,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 66.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Fishhook",
+      "acres": 309,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-07-27T23:44:37.257000+00:00",
+      "distance_km": 90.7,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -71,7 +79,7 @@
       "date": "2026-08-03",
       "high_f": 78,
       "low_f": 53,
-      "rain_pct": 45,
+      "rain_pct": 46,
       "uv": 8,
       "sunrise": "2026-08-03T06:02",
       "sunset": "2026-08-03T20:14",
@@ -82,7 +90,7 @@
       "date": "2026-08-04",
       "high_f": 76,
       "low_f": 43,
-      "rain_pct": 23,
+      "rain_pct": 25,
       "uv": 9,
       "sunrise": "2026-08-04T06:03",
       "sunset": "2026-08-04T20:13",
@@ -93,7 +101,7 @@
       "date": "2026-08-05",
       "high_f": 71,
       "low_f": 44,
-      "rain_pct": 13,
+      "rain_pct": 11,
       "uv": 9,
       "sunrise": "2026-08-05T06:04",
       "sunset": "2026-08-05T20:12",
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-01T20:41:05.368400+00:00"
+  "updated_at": "2026-08-01T21:08:58.056639+00:00"
 }

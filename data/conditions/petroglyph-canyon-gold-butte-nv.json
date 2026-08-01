@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 86,
-    "feels_like_f": 82,
+    "feels_like_f": 81,
     "wind_mph": 12,
     "gusts_mph": 13,
     "rain_pct": 0
@@ -30,7 +30,7 @@
   "sunrise": "2026-08-01T05:42",
   "sunset": "2026-08-01T19:42",
   "aqi": {
-    "aqi": 44,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 78.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Hidden Hills",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-01T15:25:50.167000+00:00",
+      "distance_km": 51.3,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -91,7 +99,7 @@
       "date": "2026-08-05",
       "high_f": 88,
       "low_f": 68,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-05T05:46",
       "sunset": "2026-08-05T19:38",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T20:36:01.017728+00:00"
+  "updated_at": "2026-08-01T21:03:50.422362+00:00"
 }

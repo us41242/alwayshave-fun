@@ -32,24 +32,16 @@
   "sunrise": "2026-08-01T06:37",
   "sunset": "2026-08-01T20:40",
   "aqi": {
-    "aqi": 51,
+    "aqi": 61,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 149.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "1200 N",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-07-29T22:03:05.200000+00:00",
-      "distance_km": 4.9,
-      "direction": "W"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -109,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T21:08:55.020264+00:00"
+  "updated_at": "2026-08-01T21:42:42.281580+00:00"
 }

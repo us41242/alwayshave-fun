@@ -17,9 +17,10 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 16,
-  "score_label": "Stay home",
+  "score": 36,
+  "score_label": "Conditions poor",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
@@ -29,13 +30,13 @@
     "gusts_mph": 8,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-31T05:44",
-  "sunset": "2026-07-31T19:44",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 71,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -44,62 +45,6 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-31",
-      "high_f": 111,
-      "low_f": 80,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-31T05:44",
-      "sunset": "2026-07-31T19:44",
-      "predicted_score": 16,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 114,
-      "low_f": 84,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-01T05:44",
-      "sunset": "2026-08-01T19:44",
-      "predicted_score": 16,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 114,
-      "low_f": 84,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-02T05:45",
-      "sunset": "2026-08-02T19:43",
-      "predicted_score": 16,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 114,
-      "low_f": 86,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-03T05:46",
-      "sunset": "2026-08-03T19:42",
-      "predicted_score": 16,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 112,
-      "low_f": 85,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T05:47",
-      "sunset": "2026-08-04T19:41",
-      "predicted_score": 16,
-      "score_label": "Stay home"
-    }
-  ],
-  "updated_at": "2026-08-01T03:37:49.732073+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-01T04:03:48.393428+00:00"
 }

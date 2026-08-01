@@ -17,27 +17,29 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 85,
+    "temp_f": 84,
     "feels_like_f": 77,
-    "wind_mph": 9,
-    "gusts_mph": 9,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-07-31T05:58",
   "sunset": "2026-07-31T20:04",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 56,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 71.1,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Sepsey",
@@ -59,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-07-31T05:58",
       "sunset": "2026-07-31T20:04",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-01",
@@ -70,8 +72,8 @@
       "uv": 9,
       "sunrise": "2026-08-01T05:59",
       "sunset": "2026-08-01T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-02",
@@ -81,8 +83,8 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:00",
       "sunset": "2026-08-02T20:02",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-03",
@@ -92,8 +94,8 @@
       "uv": 9,
       "sunrise": "2026-08-03T06:01",
       "sunset": "2026-08-03T20:01",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-04",
@@ -103,9 +105,9 @@
       "uv": 9,
       "sunrise": "2026-08-04T06:02",
       "sunset": "2026-08-04T20:00",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T00:15:13.208420+00:00"
+  "updated_at": "2026-08-01T00:47:05.799322+00:00"
 }

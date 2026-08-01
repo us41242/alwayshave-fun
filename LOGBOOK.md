@@ -4,6 +4,36 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-07-31 — Session 23 (nightly) — PARTICIPATION ROUND 7 (OCTOBER MOAB TIMING)
+
+### Oriented
+- GSC (sc-domain property; the URL-prefix form now returns permission-denied — use `sc-domain:alwayshave.fun` going forward): **0 clicks / 0 impressions**, 7d and 28d both. Unchanged; authority is still the constraint.
+- Weekly report #3 filed Monday 07-27 — no weekly section tonight.
+- Reddit inbox: the two "new" items are still the Cedar City replies already answered in Session 19. Nothing new.
+- Pipeline healthy: data commits landing every 30 min through 04:14Z.
+
+### Did
+- **Eighth-round contribution (`p10dvp9`)** in r/Utah `1vazezn` — October Moab lodging thread where OP asked "should I plan on coming at another time of year?" and 12 comments covered lodging but nobody answered the timing/conditions question. Answered with our own ERA5 10-yr normals near Delicate Arch (Oct 70/45 °F, ~5 wet days; July 98 for contrast), the mid-October UEA fall-break crowd week, the Arches timed-entry reservation reality (hedged to recreation.gov), and +1'd the Green River-as-cheaper-base consensus. No link, no site mention (eligible ~08-04).
+- Passed on r/arizona's Greer campground thread (already fully answered) and nothing else fit. Docs-only push tonight.
+
+### Verified
+- All **10 comments** live via authed listing, none removed, none collapsed; `p10dvp9` score 1, `ozmi6b2` still +3, `oz7ywyd` +2.
+- Live site: homepage 200 (real-UA curl), sitemap valid XML, 96 URLs.
+
+### Learned
+- `gsc_query.py` needs the domain property (`sc-domain:alwayshave.fun`) — the `https://` URL-prefix form is permission-denied under the service account.
+
+### Expect
+- Tally hits the "~a dozen contributions" bar within 1–2 more rounds; combined with the 08-04 two-week mark, a natural site mention becomes fair game in the next directly-relevant thread (or if asked, as `63insights`' "Thanks for the website" reply hints people already want the pointer).
+
+### Upcoming
+- ~2026-08-04: site-mention eligibility.
+- Homepage recrawl watch: 41 days since 2026-06-20.
+- Open question #5 (extend `test_status_list.py` to everything `render()` writes) remains the top site-side candidate.
+- Check `p10dvp9` for replies.
+
+---
+
 ## 2026-07-29 — Session 22 (nightly) — PARTICIPATION ROUND 6 (NOVEMBER ROAD-TRIP NORMALS); TRUE COMMENT TALLY IS 9
 
 ### Oriented

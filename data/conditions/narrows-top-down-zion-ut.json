@@ -21,7 +21,7 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 69,
+    "temp_f": 70,
     "feels_like_f": 60,
     "wind_mph": 9,
     "gusts_mph": 9,
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 147.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "1200 N",
@@ -49,7 +49,11 @@
       "direction": "WNW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 32,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-08-01",
@@ -107,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-01T10:39:16.195799+00:00"
+  "updated_at": "2026-08-01T11:07:09.602964+00:00"
 }

@@ -17,11 +17,10 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 62,
@@ -30,8 +29,8 @@
     "gusts_mph": 13,
     "rain_pct": 0
   },
-  "sunrise": "2026-07-31T05:37",
-  "sunset": "2026-07-31T19:49",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 54,
     "category": "Moderate",
@@ -39,68 +38,20 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 47.4,
-    "fire_count_50km": 10,
-    "nearest_incident": null
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 1000,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-07-31T23:28:36.033000+00:00",
+      "distance_km": 51.8,
+      "direction": "WNW"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-07-31",
-      "high_f": 62,
-      "low_f": 41,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-07-31T05:37",
-      "sunset": "2026-07-31T19:49",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-01",
-      "high_f": 65,
-      "low_f": 46,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-01T05:38",
-      "sunset": "2026-08-01T19:48",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 69,
-      "low_f": 46,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-02T05:39",
-      "sunset": "2026-08-02T19:47",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 70,
-      "low_f": 47,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-03T05:40",
-      "sunset": "2026-08-03T19:46",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 69,
-      "low_f": 43,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T05:41",
-      "sunset": "2026-08-04T19:45",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-07-31T23:35:52.627670+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-01T00:05:16.956399+00:00"
 }

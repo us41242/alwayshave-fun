@@ -24,10 +24,10 @@
   ],
   "current": {
     "temp_f": 96,
-    "feels_like_f": 91,
-    "wind_mph": 10,
+    "feels_like_f": 90,
+    "wind_mph": 9,
     "gusts_mph": 11,
-    "rain_pct": 4
+    "rain_pct": 8
   },
   "sunrise": "2026-07-31T05:36",
   "sunset": "2026-07-31T19:30",
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 119.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Buds",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T23:53:43.653000+00:00",
+      "distance_km": 30.7,
+      "direction": "ENE"
+    }
   },
   "river": {
     "cfs": 19,
@@ -53,7 +61,7 @@
       "date": "2026-07-31",
       "high_f": 97,
       "low_f": 70,
-      "rain_pct": 6,
+      "rain_pct": 8,
       "uv": 9,
       "sunrise": "2026-07-31T05:36",
       "sunset": "2026-07-31T19:30",
@@ -105,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-07-31T23:38:11.169340+00:00"
+  "updated_at": "2026-08-01T00:06:03.430011+00:00"
 }

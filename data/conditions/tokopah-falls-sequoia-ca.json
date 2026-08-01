@@ -23,16 +23,16 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 81,
+    "temp_f": 82,
     "feels_like_f": 78,
-    "wind_mph": 5,
-    "gusts_mph": 8,
+    "wind_mph": 6,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:01",
   "sunset": "2026-08-01T20:01",
   "aqi": {
-    "aqi": 54,
+    "aqi": 67,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 122.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 88,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T01:37:33.387000+00:00",
+      "distance_km": 55.8,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -50,7 +58,7 @@
       "high_f": 82,
       "low_f": 65,
       "rain_pct": 0,
-      "uv": 8,
+      "uv": 9,
       "sunrise": "2026-08-01T06:01",
       "sunset": "2026-08-01T20:01",
       "predicted_score": 78,
@@ -81,7 +89,7 @@
     {
       "date": "2026-08-04",
       "high_f": 87,
-      "low_f": 66,
+      "low_f": 65,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-08-04T06:03",
@@ -91,7 +99,7 @@
     },
     {
       "date": "2026-08-05",
-      "high_f": 88,
+      "high_f": 87,
       "low_f": 66,
       "rain_pct": 1,
       "uv": 9,
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T17:16:26.744759+00:00"
+  "updated_at": "2026-08-01T17:43:51.647959+00:00"
 }

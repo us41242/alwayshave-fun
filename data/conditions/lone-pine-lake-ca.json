@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 69,
-    "wind_mph": 3,
-    "gusts_mph": 7,
+    "temp_f": 74,
+    "feels_like_f": 70,
+    "wind_mph": 4,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T05:59",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 156.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 88,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T01:37:33.387000+00:00",
+      "distance_km": 36.7,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -78,8 +86,8 @@
     },
     {
       "date": "2026-08-04",
-      "high_f": 83,
-      "low_f": 63,
+      "high_f": 82,
+      "low_f": 64,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-08-04T06:01",
@@ -90,7 +98,7 @@
     {
       "date": "2026-08-05",
       "high_f": 83,
-      "low_f": 64,
+      "low_f": 63,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-08-05T06:02",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-01T17:13:54.558871+00:00"
+  "updated_at": "2026-08-01T17:43:49.924207+00:00"
 }

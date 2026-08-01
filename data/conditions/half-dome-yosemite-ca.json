@@ -24,15 +24,15 @@
   ],
   "current": {
     "temp_f": 74,
-    "feels_like_f": 68,
+    "feels_like_f": 70,
     "wind_mph": 6,
-    "gusts_mph": 9,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:01",
   "sunset": "2026-08-01T20:06",
   "aqi": {
-    "aqi": 43,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 35.1,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Raleigh",
+      "acres": 30.94,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T00:26:12.230000+00:00",
+      "distance_km": 77.1,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
@@ -69,7 +77,7 @@
     },
     {
       "date": "2026-08-03",
-      "high_f": 83,
+      "high_f": 82,
       "low_f": 53,
       "rain_pct": 0,
       "uv": 9,
@@ -80,7 +88,7 @@
     },
     {
       "date": "2026-08-04",
-      "high_f": 84,
+      "high_f": 83,
       "low_f": 56,
       "rain_pct": 0,
       "uv": 9,
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-01T17:09:47.670230+00:00"
+  "updated_at": "2026-08-01T17:40:06.290877+00:00"
 }

@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 72,
+    "temp_f": 75,
+    "feels_like_f": 73,
     "wind_mph": 2,
-    "gusts_mph": 8,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:01",
   "sunset": "2026-08-01T20:11",
   "aqi": {
-    "aqi": 6,
+    "aqi": 5,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 83.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Elephant",
+      "acres": 0.1,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-07-29T17:46:35.177000+00:00",
+      "distance_km": 84.1,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -48,7 +56,7 @@
       "high_f": 81,
       "low_f": 59,
       "rain_pct": 0,
-      "uv": 8,
+      "uv": 9,
       "sunrise": "2026-08-01T06:01",
       "sunset": "2026-08-01T20:11",
       "predicted_score": 80,
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-01T17:15:10.799054+00:00"
+  "updated_at": "2026-08-01T17:43:50.790771+00:00"
 }

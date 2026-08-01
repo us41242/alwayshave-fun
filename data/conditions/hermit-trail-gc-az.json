@@ -17,8 +17,8 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,17 +29,17 @@
     "gusts_mph": 11,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-01T05:36",
-  "sunset": "2026-08-01T19:33",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 74,
+    "aqi": 71,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 105.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Basin Springs",
@@ -52,62 +52,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-01",
-      "high_f": 98,
-      "low_f": 72,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-01T05:36",
-      "sunset": "2026-08-01T19:33",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-02",
-      "high_f": 98,
-      "low_f": 76,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-02T05:37",
-      "sunset": "2026-08-02T19:33",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 95,
-      "low_f": 73,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-03T05:38",
-      "sunset": "2026-08-03T19:32",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 95,
-      "low_f": 71,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T05:38",
-      "sunset": "2026-08-04T19:31",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 95,
-      "low_f": 70,
-      "rain_pct": 12,
-      "uv": 8,
-      "sunrise": "2026-08-05T05:39",
-      "sunset": "2026-08-05T19:30",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-01T08:07:07.120038+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-01T08:38:27.341790+00:00"
 }

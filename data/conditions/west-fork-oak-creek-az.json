@@ -22,22 +22,22 @@
   "gear_flags": [],
   "current": {
     "temp_f": 77,
-    "feels_like_f": 70,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "feels_like_f": 69,
+    "wind_mph": 12,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T05:36",
   "sunset": "2026-08-01T19:29",
   "aqi": {
-    "aqi": 27,
+    "aqi": 26,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 119.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Loop",
@@ -49,7 +49,11 @@
       "direction": "NNE"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 18,
+    "stage": null,
+    "gauge_id": "09504500"
+  },
   "forecast": [
     {
       "date": "2026-08-01",
@@ -107,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T08:07:06.503071+00:00"
+  "updated_at": "2026-08-01T08:36:41.109362+00:00"
 }

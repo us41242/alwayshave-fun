@@ -21,7 +21,7 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 66,
+    "temp_f": 67,
     "feels_like_f": 58,
     "wind_mph": 9,
     "gusts_mph": 14,
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 149.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sepsey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T21:14:33.710000+00:00",
+      "distance_km": 25.0,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-02T15:45:51.123491+00:00"
+  "updated_at": "2026-08-02T16:11:24.274336+00:00"
 }

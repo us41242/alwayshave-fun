@@ -23,8 +23,8 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 82,
+    "temp_f": 89,
+    "feels_like_f": 85,
     "wind_mph": 9,
     "gusts_mph": 10,
     "rain_pct": 0
@@ -32,7 +32,7 @@
   "sunrise": "2026-08-02T05:38",
   "sunset": "2026-08-02T19:35",
   "aqi": {
-    "aqi": 58,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 95.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Hockey Puck",
+      "acres": 15,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T16:36:30.943000+00:00",
+      "distance_km": 53.1,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-02T15:39:36.598835+00:00"
+  "updated_at": "2026-08-02T16:09:40.693958+00:00"
 }

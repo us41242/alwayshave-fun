@@ -24,10 +24,10 @@
   ],
   "current": {
     "temp_f": 91,
-    "feels_like_f": 83,
-    "wind_mph": 12,
-    "gusts_mph": 14,
-    "rain_pct": 1
+    "feels_like_f": 84,
+    "wind_mph": 10,
+    "gusts_mph": 12,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-01T05:36",
   "sunset": "2026-08-01T19:33",
@@ -51,13 +51,17 @@
       "direction": "ENE"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 9100,
+    "stage": null,
+    "gauge_id": "09402500"
+  },
   "forecast": [
     {
       "date": "2026-08-01",
       "high_f": 94,
       "low_f": 68,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-01T05:36",
       "sunset": "2026-08-01T19:33",
@@ -109,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-01T23:35:57.283638+00:00"
+  "updated_at": "2026-08-02T00:05:04.924638+00:00"
 }

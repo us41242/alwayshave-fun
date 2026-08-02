@@ -17,14 +17,16 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 53,
-    "feels_like_f": 45,
-    "wind_mph": 3,
-    "gusts_mph": 10,
+    "temp_f": 52,
+    "feels_like_f": 43,
+    "wind_mph": 7,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:08",
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.5,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Willow",
       "acres": 7196,
@@ -59,7 +61,7 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:08",
       "sunset": "2026-08-01T20:19",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -70,7 +72,7 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:09",
       "sunset": "2026-08-02T20:18",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 9,
       "sunrise": "2026-08-03T06:10",
       "sunset": "2026-08-03T20:17",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:11",
       "sunset": "2026-08-04T20:16",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 9,
       "sunrise": "2026-08-05T06:12",
       "sunset": "2026-08-05T20:15",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-02T04:39:32.115783+00:00"
+  "updated_at": "2026-08-02T05:07:50.169838+00:00"
 }

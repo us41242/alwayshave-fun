@@ -20,27 +20,26 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 86,
     "feels_like_f": 78,
-    "wind_mph": 18,
+    "wind_mph": 17,
     "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-08-02T06:33",
   "sunset": "2026-08-02T20:36",
   "aqi": {
-    "aqi": 51,
+    "aqi": 55,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 121.8,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -110,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-02T21:03:21.039632+00:00"
+  "updated_at": "2026-08-02T21:32:50.350384+00:00"
 }

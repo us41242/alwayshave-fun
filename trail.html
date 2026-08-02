@@ -808,12 +808,19 @@
       const aqiVal    = d.aqi?.aqi;
 
       // ── Meta ────────────────────────────────────
+      // build_static.py already rendered title/meta/schema (richer: ⚠️ caution
+      // prefix, dog flag, sunrise/sunset, FAQPage). Googlebot indexes the
+      // hydrated DOM, so overwriting them here erases those features for
+      // crawlers while no human ever sees them. Skip on static pages.
+      const isStatic = !!document.getElementById('schema-ld');
+      if (!isStatic) {
       document.getElementById('page-title').textContent  = `${d.name}${/trail$/i.test(d.name) ? '' : ' Trail'} Conditions | alwayshave.fun`;
       document.getElementById('page-desc').content       = `Live conditions for ${d.name}: Score ${d.score}/100 — ${d.score_label}. ${cur.temp_f != null ? cur.temp_f + '°F, ' : ''}${cur.wind_mph != null ? 'wind ' + cur.wind_mph + ' mph. ' : ''}Updated ${timeAgo(d.updated_at)}.`;
       document.getElementById('canonical').href          = `https://alwayshave.fun/${stateSlug}/${d.slug}`;
       document.getElementById('og-title').content        = `${d.name} — ${d.score_label} (${d.score}/100)`;
       document.getElementById('og-url').content          = `https://alwayshave.fun/${stateSlug}/${d.slug}`;
       document.getElementById('og-image').content        = `https://alwayshave.fun/photos/${d.slug}/${d.slug}.jpg`;
+      }
 
       // ── Nav ─────────────────────────────────────
       const navBack = document.getElementById('nav-back');
@@ -1018,6 +1025,9 @@
       tryLoadPhoto(d.slug, stateCode);
 
       // ── Schema.org JSON-LD ───────────────────────
+      // Static pages ship #schema-ld (with FAQPage); appending another block
+      // here duplicated SportsActivityLocation/Breadcrumb in the rendered DOM.
+      if (isStatic) return;
       const existingSchema = document.getElementById('trail-schema');
       if (existingSchema) existingSchema.remove();
 

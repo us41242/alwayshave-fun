@@ -17,15 +17,15 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 105,
-    "feels_like_f": 106,
-    "wind_mph": 7,
+    "temp_f": 106,
+    "feels_like_f": 108,
+    "wind_mph": 5,
     "gusts_mph": 17,
     "rain_pct": 0
   },
@@ -38,10 +38,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 99.0,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Hockey Puck",
+      "acres": 15,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-02T16:14:20.330000+00:00",
+      "distance_km": 55.5,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-08-02T05:38",
       "sunset": "2026-08-02T19:35",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-03",
@@ -64,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-08-03T05:39",
       "sunset": "2026-08-03T19:34",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-04",
@@ -75,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T05:40",
       "sunset": "2026-08-04T19:33",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-05",
@@ -86,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-05T05:41",
       "sunset": "2026-08-05T19:32",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
@@ -97,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-06T05:42",
       "sunset": "2026-08-06T19:31",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-02T18:35:50.910881+00:00"
+  "updated_at": "2026-08-02T19:06:12.269782+00:00"
 }

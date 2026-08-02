@@ -37,11 +37,19 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 149.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T22:46:22.153000+00:00",
+      "distance_km": 98.3,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-02T18:41:27.793623+00:00"
+  "updated_at": "2026-08-02T19:10:29.493513+00:00"
 }

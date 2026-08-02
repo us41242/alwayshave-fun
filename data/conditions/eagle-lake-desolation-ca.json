@@ -23,16 +23,16 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 61,
-    "wind_mph": 14,
-    "gusts_mph": 24,
+    "temp_f": 68,
+    "feels_like_f": 59,
+    "wind_mph": 12,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:01",
   "sunset": "2026-08-01T20:11",
   "aqi": {
-    "aqi": 9,
+    "aqi": 8,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 79.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Highway",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T21:37:19.220000+00:00",
+      "distance_km": 90.6,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
     {
       "date": "2026-08-02",
       "high_f": 78,
-      "low_f": 61,
+      "low_f": 60,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-02T06:02",
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-02T02:11:18.373677+00:00"
+  "updated_at": "2026-08-02T02:48:14.219400+00:00"
 }

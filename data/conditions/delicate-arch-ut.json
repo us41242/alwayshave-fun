@@ -17,17 +17,17 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 36,
+  "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 98,
-    "feels_like_f": 90,
-    "wind_mph": 6,
-    "gusts_mph": 9,
+    "temp_f": 93,
+    "feels_like_f": 85,
+    "wind_mph": 7,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:19",
@@ -42,7 +42,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 40.9,
     "fire_count_50km": 2,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Buckhorn",
+      "acres": 2.25,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T22:03:55.037000+00:00",
+      "distance_km": 38.7,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -60,7 +68,7 @@
     {
       "date": "2026-08-02",
       "high_f": 107,
-      "low_f": 75,
+      "low_f": 74,
       "rain_pct": 1,
       "uv": 9,
       "sunrise": "2026-08-02T06:20",
@@ -102,5 +110,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-02T02:11:15.435353+00:00"
+  "updated_at": "2026-08-02T02:47:33.865758+00:00"
 }

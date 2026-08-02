@@ -25,9 +25,9 @@
   ],
   "current": {
     "temp_f": 70,
-    "feels_like_f": 77,
+    "feels_like_f": 76,
     "wind_mph": 4,
-    "gusts_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:03",
@@ -42,7 +42,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 20.0,
     "fire_count_50km": 7,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Granada",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T18:37:30.180000+00:00",
+      "distance_km": 21.8,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -60,7 +68,7 @@
     {
       "date": "2026-08-02",
       "high_f": 76,
-      "low_f": 68,
+      "low_f": 65,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-02T06:04",
@@ -102,5 +110,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-02T02:11:13.766030+00:00"
+  "updated_at": "2026-08-02T02:47:31.332228+00:00"
 }

@@ -17,20 +17,20 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 41,
-    "wind_mph": 11,
-    "gusts_mph": 15,
+    "temp_f": 57,
+    "feels_like_f": 47,
+    "wind_mph": 10,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-02T05:38",
+  "sunset": "2026-08-02T19:47",
   "aqi": {
     "aqi": 64,
     "category": "Moderate",
@@ -38,8 +38,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 58.5,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
@@ -52,6 +52,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-02T13:41:27.485216+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-02",
+      "high_f": 71,
+      "low_f": 50,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-08-02T05:38",
+      "sunset": "2026-08-02T19:47",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-03",
+      "high_f": 67,
+      "low_f": 50,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-08-03T05:39",
+      "sunset": "2026-08-03T19:46",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-04",
+      "high_f": 70,
+      "low_f": 49,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-08-04T05:40",
+      "sunset": "2026-08-04T19:45",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-05",
+      "high_f": 72,
+      "low_f": 53,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-05T05:40",
+      "sunset": "2026-08-05T19:44",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-06",
+      "high_f": 76,
+      "low_f": 54,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-06T05:41",
+      "sunset": "2026-08-06T19:43",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-08-02T14:11:05.244325+00:00"
 }

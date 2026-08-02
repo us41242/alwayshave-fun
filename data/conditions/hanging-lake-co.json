@@ -30,16 +30,24 @@
   "sunrise": "2026-08-02T06:09",
   "sunset": "2026-08-02T20:20",
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 104.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Willow",
+      "acres": 7196,
+      "containment_pct": 67,
+      "cause": "Human",
+      "updated": "2026-08-01T22:52:19.900000+00:00",
+      "distance_km": 76.0,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-02T20:41:37.501337+00:00"
+  "updated_at": "2026-08-02T21:10:57.426836+00:00"
 }

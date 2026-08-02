@@ -17,27 +17,29 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 82,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 72,
+    "temp_f": 74,
+    "feels_like_f": 71,
     "wind_mph": 5,
-    "gusts_mph": 14,
+    "gusts_mph": 13,
     "rain_pct": 1
   },
   "sunrise": "2026-08-01T06:00",
   "sunset": "2026-08-01T20:10",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 90,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 55.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Aspen Acres",
@@ -59,8 +61,8 @@
       "uv": 9,
       "sunrise": "2026-08-01T06:00",
       "sunset": "2026-08-01T20:10",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-02",
@@ -70,7 +72,7 @@
       "uv": 9,
       "sunrise": "2026-08-02T06:01",
       "sunset": "2026-08-02T20:09",
-      "predicted_score": 30,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-03T06:02",
       "sunset": "2026-08-03T20:08",
-      "predicted_score": 30,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:03",
       "sunset": "2026-08-04T20:07",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-05",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:04",
       "sunset": "2026-08-05T20:06",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-02T03:28:43.882568+00:00"
+  "updated_at": "2026-08-02T03:48:19.883400+00:00"
 }

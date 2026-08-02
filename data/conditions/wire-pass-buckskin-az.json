@@ -17,8 +17,8 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 74,
@@ -27,8 +27,8 @@
     "gusts_mph": 7,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-02T06:34",
-  "sunset": "2026-08-02T20:33",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 34,
     "category": "Good",
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 190.7,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock Canyon",
@@ -50,62 +50,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-02",
-      "high_f": 102,
-      "low_f": 73,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-02T06:34",
-      "sunset": "2026-08-02T20:33",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 100,
-      "low_f": 75,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-08-03T06:34",
-      "sunset": "2026-08-03T20:33",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 99,
-      "low_f": 78,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T06:35",
-      "sunset": "2026-08-04T20:31",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 98,
-      "low_f": 75,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-05T06:36",
-      "sunset": "2026-08-05T20:30",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-06",
-      "high_f": 100,
-      "low_f": 74,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-06T06:37",
-      "sunset": "2026-08-06T20:29",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-02T11:38:11.159949+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-02T12:06:29.810184+00:00"
 }

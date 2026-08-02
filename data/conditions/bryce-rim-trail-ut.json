@@ -23,21 +23,21 @@
   "current": {
     "temp_f": 63,
     "feels_like_f": 55,
-    "wind_mph": 10,
-    "gusts_mph": 16,
+    "wind_mph": 9,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-08-02T06:33",
   "sunset": "2026-08-02T20:36",
   "aqi": {
-    "aqi": 29,
+    "aqi": 28,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 122.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -53,7 +53,7 @@
   "forecast": [
     {
       "date": "2026-08-02",
-      "high_f": 87,
+      "high_f": 86,
       "low_f": 63,
       "rain_pct": 0,
       "uv": 9,
@@ -87,9 +87,9 @@
     {
       "date": "2026-08-05",
       "high_f": 88,
-      "low_f": 63,
+      "low_f": 62,
       "rain_pct": 5,
-      "uv": 8,
+      "uv": 9,
       "sunrise": "2026-08-05T06:36",
       "sunset": "2026-08-05T20:33",
       "predicted_score": 70,
@@ -97,8 +97,8 @@
     },
     {
       "date": "2026-08-06",
-      "high_f": 88,
-      "low_f": 60,
+      "high_f": 87,
+      "low_f": 62,
       "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-08-06T06:37",
@@ -107,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-02T11:01:29.497762+00:00"
+  "updated_at": "2026-08-02T11:33:50.130809+00:00"
 }

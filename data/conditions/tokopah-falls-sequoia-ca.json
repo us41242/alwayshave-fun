@@ -23,14 +23,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 67,
+    "temp_f": 66,
     "feels_like_f": 61,
-    "wind_mph": 2,
+    "wind_mph": 1,
     "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-01T06:01",
-  "sunset": "2026-08-01T20:01",
+  "sunrise": "2026-08-02T06:02",
+  "sunset": "2026-08-02T20:00",
   "aqi": {
     "aqi": 84,
     "category": "Moderate",
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 158.3,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock",
@@ -53,17 +53,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-08-01",
-      "high_f": 83,
-      "low_f": 65,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-01T06:01",
-      "sunset": "2026-08-01T20:01",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
     {
       "date": "2026-08-02",
       "high_f": 79,
@@ -107,7 +96,18 @@
       "sunset": "2026-08-05T19:57",
       "predicted_score": 60,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-06",
+      "high_f": 87,
+      "low_f": 66,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-08-06T06:05",
+      "sunset": "2026-08-06T19:56",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-02T06:48:55.538470+00:00"
+  "updated_at": "2026-08-02T07:12:58.929967+00:00"
 }

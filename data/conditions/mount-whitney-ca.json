@@ -24,15 +24,15 @@
   ],
   "current": {
     "temp_f": 43,
-    "feels_like_f": 36,
-    "wind_mph": 6,
-    "gusts_mph": 9,
+    "feels_like_f": 35,
+    "wind_mph": 4,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T05:59",
   "sunset": "2026-08-01T19:59",
   "aqi": {
-    "aqi": 16,
+    "aqi": 18,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 92,
+      "cause": "Undetermined",
+      "updated": "2026-08-02T01:14:52.723000+00:00",
+      "distance_km": 37.9,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-02T04:10:37.038767+00:00"
+  "updated_at": "2026-08-02T04:42:10.931960+00:00"
 }

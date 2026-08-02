@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 66,
+    "temp_f": 64,
     "feels_like_f": 60,
-    "wind_mph": 5,
-    "gusts_mph": 10,
+    "wind_mph": 3,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:00",
   "sunset": "2026-08-01T20:11",
   "aqi": {
-    "aqi": 42,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ringo",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-02T04:21:30.237000+00:00",
+      "distance_km": 64.2,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-02T04:10:38.557094+00:00"
+  "updated_at": "2026-08-02T04:42:48.035266+00:00"
 }

@@ -17,16 +17,17 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 69,
     "feels_like_f": 76,
     "wind_mph": 1,
-    "gusts_mph": 2,
+    "gusts_mph": 1,
     "rain_pct": 0
   },
   "sunrise": "2026-08-02T06:04",
@@ -38,31 +39,23 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Granada",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-07-30T18:37:30.180000+00:00",
-      "distance_km": 21.8,
-      "direction": "ESE"
-    }
+    "risk_level": "high",
+    "nearest_fire_km": 19.9,
+    "fire_count_50km": 12,
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-02",
-      "high_f": 75,
+      "high_f": 76,
       "low_f": 68,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-02T06:04",
       "sunset": "2026-08-02T19:50",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-03",
@@ -72,8 +65,8 @@
       "uv": 8,
       "sunrise": "2026-08-03T06:05",
       "sunset": "2026-08-03T19:49",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-04",
@@ -83,8 +76,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:06",
       "sunset": "2026-08-04T19:48",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-05",
@@ -94,8 +87,8 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:06",
       "sunset": "2026-08-05T19:47",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-06",
@@ -105,9 +98,9 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:07",
       "sunset": "2026-08-06T19:46",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-02T14:14:19.960058+00:00"
+  "updated_at": "2026-08-02T14:42:53.240677+00:00"
 }

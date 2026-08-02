@@ -17,31 +17,37 @@
   "notes": "Chain section requires permit \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 98,
-    "feels_like_f": 90,
-    "wind_mph": 10,
-    "gusts_mph": 13,
+    "temp_f": 96,
+    "feels_like_f": 88,
+    "wind_mph": 12,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:36",
   "sunset": "2026-08-01T20:39",
   "aqi": {
-    "aqi": 81,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 50,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 170.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 76.8,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,18 +59,18 @@
       "uv": 8,
       "sunrise": "2026-08-01T06:36",
       "sunset": "2026-08-01T20:39",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-02",
       "high_f": 99,
-      "low_f": 76,
+      "low_f": 75,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-02T06:37",
       "sunset": "2026-08-02T20:38",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -75,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-08-03T06:38",
       "sunset": "2026-08-03T20:37",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -86,7 +92,7 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:39",
       "sunset": "2026-08-04T20:36",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:40",
       "sunset": "2026-08-05T20:35",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-02T00:32:39.157379+00:00"
+  "updated_at": "2026-08-02T01:01:18.873058+00:00"
 }

@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 56,
-    "wind_mph": 6,
-    "gusts_mph": 11,
+    "feels_like_f": 54,
+    "wind_mph": 9,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:14",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 98.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Gold Mountain",
+      "acres": 39506,
+      "containment_pct": 72,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T23:29:41.287000+00:00",
+      "distance_km": 32.6,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-02T00:44:04.010936+00:00"
+  "updated_at": "2026-08-02T01:14:04.468269+00:00"
 }

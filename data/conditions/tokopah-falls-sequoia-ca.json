@@ -23,10 +23,10 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 74,
+    "temp_f": 77,
+    "feels_like_f": 73,
     "wind_mph": 4,
-    "gusts_mph": 5,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:01",
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 158.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 88,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T01:37:33.387000+00:00",
+      "distance_km": 55.8,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-02T00:46:38.489537+00:00"
+  "updated_at": "2026-08-02T01:16:58.369261+00:00"
 }

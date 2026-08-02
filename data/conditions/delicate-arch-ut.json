@@ -23,10 +23,10 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 103,
+    "temp_f": 102,
     "feels_like_f": 95,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "wind_mph": 5,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-08-01T06:19",
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 40.9,
     "fire_count_50km": 2,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Buckhorn",
+      "acres": 2.25,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T22:03:55.037000+00:00",
+      "distance_km": 38.7,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-02T00:44:46.120249+00:00"
+  "updated_at": "2026-08-02T01:14:44.205378+00:00"
 }

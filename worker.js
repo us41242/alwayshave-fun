@@ -58,6 +58,13 @@ export default {
       }
     }
 
+    // /site/* — dead build-output copies (a rival sitemap.xml + an April homepage
+    // clone). Never linked, but live and crawlable, so 301 rather than delete.
+    if (first === 'site') {
+      const dest = parts[1] === 'sitemap.xml' ? '/sitemap.xml' : '/';
+      return Response.redirect(`${url.origin}${dest}`, 301);
+    }
+
     // /dog-friendly  →  serve dog-friendly landing page
     if (parts.length === 1 && first === 'dog-friendly') {
       const dfUrl = new URL('/generated/dog-friendly/index.html', url.origin);
@@ -82,7 +89,9 @@ export default {
 
     // /articles  →  serve articles index
     if (parts.length === 1 && first === 'articles') {
-      const idxUrl = new URL('/articles/index.html', url.origin);
+      // '/articles/index.html' gets normalized to a 307 by the assets layer, so
+      // the fetch below must ask for the directory form to get a real 200 body.
+      const idxUrl = new URL('/articles/', url.origin);
       const idxRes = await env.ASSETS.fetch(idxUrl);
       if (idxRes.status === 200) return idxRes;
     }

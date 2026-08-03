@@ -34,7 +34,11 @@ def generate_sitemap(trails):
     urls = []
 
     # Homepage
-    urls.append({"loc": BASE_URL, "lastmod": today})
+    urls.append({"loc": f"{BASE_URL}/", "lastmod": today})
+
+    # Trust / E-E-A-T pages (static content — no meaningful lastmod churn)
+    for page in ("about", "privacy", "scoring"):
+        urls.append({"loc": f"{BASE_URL}/{page}", "lastmod": "2026-04-18T00:00:00Z"})
 
     states = sorted(set(t.get("state", "") for t in trails if t.get("state")))
 
@@ -101,10 +105,12 @@ def generate_sitemap(trails):
 def main():
     trails = load_trails()
     sitemap = generate_sitemap(trails)
-    os.makedirs("site", exist_ok=True)
-    with open("site/sitemap.xml", "w") as f:
-        f.write(sitemap)
-    print(f"Sitemap generated — {len(trails)} trails, written to site/sitemap.xml")
+    # Write the file the site actually serves (assets dir is the repo root).
+    # It used to land in site/sitemap.xml, which nothing served — the live
+    # sitemap sat frozen at 2026-04-18 for 3.5 months.
+    with open("sitemap.xml", "w") as f:
+        f.write(sitemap + "\n")
+    print(f"Sitemap generated — {len(trails)} trails, written to sitemap.xml")
 
 if __name__ == "__main__":
     main()

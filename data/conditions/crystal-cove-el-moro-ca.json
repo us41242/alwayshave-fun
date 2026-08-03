@@ -17,9 +17,11 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 46,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 70,
     "feels_like_f": 76,
@@ -36,9 +38,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 20.1,
+    "fire_count_50km": 4,
     "nearest_incident": {
       "name": "Shelter",
       "acres": 0.1,
@@ -51,5 +53,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-03T17:17:54.060390+00:00"
+  "updated_at": "2026-08-03T17:44:27.181856+00:00"
 }

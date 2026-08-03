@@ -17,23 +17,25 @@
   "notes": "Chain section requires permit \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 78,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 86,
+    "temp_f": 85,
     "feels_like_f": 78,
-    "wind_mph": 8,
-    "gusts_mph": 13,
+    "wind_mph": 7,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-08-02T06:37",
   "sunset": "2026-08-02T20:38",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 81,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -59,18 +61,18 @@
       "uv": 8,
       "sunrise": "2026-08-02T06:37",
       "sunset": "2026-08-02T20:38",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-03",
       "high_f": 98,
-      "low_f": 76,
+      "low_f": 75,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-03T06:38",
       "sunset": "2026-08-03T20:37",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:39",
       "sunset": "2026-08-04T20:36",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:40",
       "sunset": "2026-08-05T20:35",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:41",
       "sunset": "2026-08-06T20:34",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-03T04:01:41.486942+00:00"
+  "updated_at": "2026-08-03T04:32:01.477364+00:00"
 }

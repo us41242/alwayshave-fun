@@ -24,14 +24,14 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 99,
-    "feels_like_f": 92,
-    "wind_mph": 9,
-    "gusts_mph": 14,
+    "temp_f": 96,
+    "feels_like_f": 88,
+    "wind_mph": 12,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-03T05:46",
+  "sunset": "2026-08-03T19:42",
   "aqi": {
     "aqi": 55,
     "category": "Moderate",
@@ -41,10 +41,66 @@
   "fire": {
     "risk_level": "elevated",
     "nearest_fire_km": 32.7,
-    "fire_count_50km": 8,
+    "fire_count_50km": 9,
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-03T08:04:12.452446+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-03",
+      "high_f": 114,
+      "low_f": 88,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-03T05:46",
+      "sunset": "2026-08-03T19:42",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-04",
+      "high_f": 111,
+      "low_f": 84,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-04T05:47",
+      "sunset": "2026-08-04T19:41",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-05",
+      "high_f": 111,
+      "low_f": 87,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-05T05:48",
+      "sunset": "2026-08-05T19:40",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-06",
+      "high_f": 112,
+      "low_f": 87,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-06T05:48",
+      "sunset": "2026-08-06T19:39",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-07",
+      "high_f": 111,
+      "low_f": 87,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-07T05:49",
+      "sunset": "2026-08-07T19:38",
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-08-03T08:39:05.971712+00:00"
 }

@@ -17,23 +17,25 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 99,
-    "feels_like_f": 90,
-    "wind_mph": 8,
-    "gusts_mph": 14,
+    "temp_f": 96,
+    "feels_like_f": 88,
+    "wind_mph": 7,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-02T06:40",
   "sunset": "2026-08-02T20:40",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 88,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -51,7 +53,7 @@
       "uv": 8,
       "sunrise": "2026-08-02T06:40",
       "sunset": "2026-08-02T20:40",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -62,7 +64,7 @@
       "uv": 8,
       "sunrise": "2026-08-03T06:41",
       "sunset": "2026-08-03T20:39",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -73,31 +75,31 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:42",
       "sunset": "2026-08-04T20:38",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-05",
       "high_f": 105,
       "low_f": 82,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-05T06:43",
       "sunset": "2026-08-05T20:37",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
       "high_f": 106,
       "low_f": 80,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-06T06:43",
       "sunset": "2026-08-06T20:36",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-03T02:38:41.395588+00:00"
+  "updated_at": "2026-08-03T03:18:56.962020+00:00"
 }

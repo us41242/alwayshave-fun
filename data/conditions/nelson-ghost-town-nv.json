@@ -17,8 +17,8 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 22,
-  "score_label": "Stay home",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 97,
@@ -27,13 +27,13 @@
     "gusts_mph": 15,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-02T05:48",
-  "sunset": "2026-08-02T19:42",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -42,62 +42,6 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-02",
-      "high_f": 109,
-      "low_f": 88,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-02T05:48",
-      "sunset": "2026-08-02T19:42",
-      "predicted_score": 22,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 108,
-      "low_f": 86,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-03T05:49",
-      "sunset": "2026-08-03T19:41",
-      "predicted_score": 22,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 106,
-      "low_f": 80,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T05:50",
-      "sunset": "2026-08-04T19:40",
-      "predicted_score": 22,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 105,
-      "low_f": 81,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-05T05:50",
-      "sunset": "2026-08-05T19:39",
-      "predicted_score": 22,
-      "score_label": "Stay home"
-    },
-    {
-      "date": "2026-08-06",
-      "high_f": 106,
-      "low_f": 82,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-08-06T05:51",
-      "sunset": "2026-08-06T19:38",
-      "predicted_score": 22,
-      "score_label": "Stay home"
-    }
-  ],
-  "updated_at": "2026-08-03T03:15:50.089037+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-03T03:40:20.994130+00:00"
 }

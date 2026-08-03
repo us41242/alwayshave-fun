@@ -17,11 +17,9 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 83,
     "feels_like_f": 74,
@@ -29,77 +27,29 @@
     "gusts_mph": 17,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-02T06:00",
-  "sunset": "2026-08-02T20:02",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 58,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 153.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sepsey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-31T21:14:33.710000+00:00",
+      "distance_km": 69.0,
+      "direction": "SE"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-02",
-      "high_f": 85,
-      "low_f": 59,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-02T06:00",
-      "sunset": "2026-08-02T20:02",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-03",
-      "high_f": 85,
-      "low_f": 62,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-03T06:01",
-      "sunset": "2026-08-03T20:01",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 88,
-      "low_f": 64,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-04T06:02",
-      "sunset": "2026-08-04T20:00",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 88,
-      "low_f": 61,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-08-05T06:03",
-      "sunset": "2026-08-05T19:59",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-06",
-      "high_f": 88,
-      "low_f": 61,
-      "rain_pct": 3,
-      "uv": 9,
-      "sunrise": "2026-08-06T06:03",
-      "sunset": "2026-08-06T19:58",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-02T23:43:23.339173+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-03T00:17:29.814619+00:00"
 }

@@ -23,8 +23,8 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 67,
+    "temp_f": 72,
+    "feels_like_f": 65,
     "wind_mph": 11,
     "gusts_mph": 13,
     "rain_pct": 0
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 131.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Picnic",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-02T17:34:05.323000+00:00",
+      "distance_km": 8.5,
+      "direction": "WSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-02T23:43:16.805986+00:00"
+  "updated_at": "2026-08-03T00:14:00.366612+00:00"
 }

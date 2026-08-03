@@ -17,10 +17,9 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 64,
-  "score_label": "Use caution",
+  "score": 36,
+  "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
@@ -31,8 +30,8 @@
     "gusts_mph": 26,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-03T06:10",
-  "sunset": "2026-08-03T20:17",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 90,
     "category": "Moderate",
@@ -43,65 +42,17 @@
     "risk_level": "elevated",
     "nearest_fire_km": 48.6,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Willow",
+      "acres": 7196,
+      "containment_pct": 67,
+      "cause": "Human",
+      "updated": "2026-08-03T17:44:42.140000+00:00",
+      "distance_km": 48.0,
+      "direction": "ENE"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-03",
-      "high_f": 64,
-      "low_f": 48,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-08-03T06:10",
-      "sunset": "2026-08-03T20:17",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 63,
-      "low_f": 46,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-08-04T06:11",
-      "sunset": "2026-08-04T20:16",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 65,
-      "low_f": 39,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-08-05T06:12",
-      "sunset": "2026-08-05T20:15",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-06",
-      "high_f": 66,
-      "low_f": 40,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-06T06:13",
-      "sunset": "2026-08-06T20:14",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-07",
-      "high_f": 70,
-      "low_f": 44,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-07T06:14",
-      "sunset": "2026-08-07T20:12",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-03T19:12:36.250462+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-03T19:45:56.288166+00:00"
 }

@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 82,
-    "feels_like_f": 79,
-    "wind_mph": 5,
-    "gusts_mph": 11,
+    "feels_like_f": 81,
+    "wind_mph": 4,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-03T06:01",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 208.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wildfire Training",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-03T16:35:41.740000+00:00",
+      "distance_km": 68.2,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-03T19:16:52.269857+00:00"
+  "updated_at": "2026-08-03T19:48:14.405573+00:00"
 }

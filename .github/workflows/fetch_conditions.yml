@@ -60,7 +60,7 @@ jobs:
         run: |
           git config user.name "Joshua Drake"
           git config user.email "us41242@gmail.com"
-          git add data/ site/ generated/ articles/index.html index.html
+          git add data/ sitemap.xml generated/ articles/index.html index.html
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "data: update trail conditions $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase -X theirs origin main

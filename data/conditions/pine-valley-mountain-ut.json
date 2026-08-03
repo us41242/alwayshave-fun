@@ -22,22 +22,22 @@
   "gear_flags": [],
   "current": {
     "temp_f": 89,
-    "feels_like_f": 84,
-    "wind_mph": 12,
-    "gusts_mph": 15,
+    "feels_like_f": 85,
+    "wind_mph": 10,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-08-03T06:40",
   "sunset": "2026-08-03T20:39",
   "aqi": {
-    "aqi": 47,
+    "aqi": 49,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 166.7,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Pond",
@@ -53,7 +53,7 @@
   "forecast": [
     {
       "date": "2026-08-03",
-      "high_f": 91,
+      "high_f": 90,
       "low_f": 69,
       "rain_pct": 0,
       "uv": 8,
@@ -107,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-03T20:09:47.625528+00:00"
+  "updated_at": "2026-08-03T20:41:40.201752+00:00"
 }

@@ -17,9 +17,11 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 42,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 57,
     "feels_like_f": 49,
@@ -30,14 +32,14 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 50.1,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
@@ -51,5 +53,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-03T20:04:44.954392+00:00"
+  "updated_at": "2026-08-03T20:34:56.806632+00:00"
 }

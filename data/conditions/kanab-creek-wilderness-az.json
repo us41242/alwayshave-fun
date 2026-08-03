@@ -17,25 +17,26 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 102,
-    "feels_like_f": 91,
-    "wind_mph": 21,
-    "gusts_mph": 25,
+    "temp_f": 101,
+    "feels_like_f": 92,
+    "wind_mph": 17,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-08-03T05:37",
   "sunset": "2026-08-03T19:34",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 54,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -65,8 +66,8 @@
       "uv": 8,
       "sunrise": "2026-08-03T05:37",
       "sunset": "2026-08-03T19:34",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-04",
@@ -76,8 +77,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T05:38",
       "sunset": "2026-08-04T19:33",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-05",
@@ -87,8 +88,8 @@
       "uv": 8,
       "sunrise": "2026-08-05T05:39",
       "sunset": "2026-08-05T19:32",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
@@ -98,8 +99,8 @@
       "uv": 8,
       "sunrise": "2026-08-06T05:39",
       "sunset": "2026-08-06T19:31",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-07",
@@ -109,9 +110,9 @@
       "uv": 8,
       "sunrise": "2026-08-07T05:40",
       "sunset": "2026-08-07T19:30",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-03T21:34:24.018436+00:00"
+  "updated_at": "2026-08-03T22:01:28.305127+00:00"
 }

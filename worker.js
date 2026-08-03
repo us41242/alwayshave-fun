@@ -87,14 +87,9 @@ export default {
       return env.ASSETS.fetch(new URL(`/${first}.html`, url.origin));
     }
 
-    // /articles  →  serve articles index
-    if (parts.length === 1 && first === 'articles') {
-      // '/articles/index.html' gets normalized to a 307 by the assets layer, so
-      // the fetch below must ask for the directory form to get a real 200 body.
-      const idxUrl = new URL('/articles/', url.origin);
-      const idxRes = await env.ASSETS.fetch(idxUrl);
-      if (idxRes.status === 200) return idxRes;
-    }
+    // ponytail: no /articles branch here. Assets run before the Worker, so a
+    // bare /articles is 307'd to /articles/ by the assets layer and never
+    // reaches this code. The canonical form is /articles/ everywhere.
 
     // /articles/{slug}  →  serve published article HTML
     if (parts.length === 2 && parts[0] === 'articles') {

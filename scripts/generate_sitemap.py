@@ -55,7 +55,7 @@ def generate_sitemap(trails):
         })
 
     # Article index
-    urls.append({"loc": f"{BASE_URL}/articles", "lastmod": today})
+    urls.append({"loc": f"{BASE_URL}/articles/", "lastmod": today})
 
     # Individual articles
     articles_dir = "articles"

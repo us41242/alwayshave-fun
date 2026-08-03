@@ -69,17 +69,17 @@ def main():
         "@graph": [
             {
                 "@type": "CollectionPage",
-                "@id": f"{BASE_URL}/articles",
+                "@id": f"{BASE_URL}/articles/",
                 "name": "Trail Guides & Conditions Reports | alwayshave.fun",
                 "description": "Trail conditions articles, hiking guides, and outdoor reports for the American Southwest — updated constantly.",
-                "url": f"{BASE_URL}/articles",
+                "url": f"{BASE_URL}/articles/",
                 "publisher": {"@type": "Organization", "name": "alwayshave.fun", "url": BASE_URL}
             },
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
                     {"@type": "ListItem", "position": 1, "name": "Home",     "item": BASE_URL},
-                    {"@type": "ListItem", "position": 2, "name": "Articles", "item": f"{BASE_URL}/articles"},
+                    {"@type": "ListItem", "position": 2, "name": "Articles", "item": f"{BASE_URL}/articles/"},
                 ]
             }
         ]
@@ -116,10 +116,10 @@ def main():
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trail Guides & Conditions Reports | alwayshave.fun</title>
   <meta name="description" content="Trail conditions articles, hiking guides, and outdoor reports for the American Southwest — updated constantly. Real data, real talk.">
-  <link rel="canonical" href="{BASE_URL}/articles">
+  <link rel="canonical" href="{BASE_URL}/articles/">
   <meta property="og:title" content="Trail Guides & Conditions Reports | alwayshave.fun">
   <meta property="og:description" content="Trail conditions articles, hiking guides, and outdoor reports for the American Southwest.">
-  <meta property="og:url" content="{BASE_URL}/articles">
+  <meta property="og:url" content="{BASE_URL}/articles/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="alwayshave.fun">
   <meta name="twitter:card" content="summary_large_image">

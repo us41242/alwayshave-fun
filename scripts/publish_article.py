@@ -242,7 +242,7 @@ def build_html(fm, body_md, photo_url, slug):
                 "@type": "BreadcrumbList",
                 "itemListElement": [
                     {"@type": "ListItem", "position": 1, "name": "Home",     "item": BASE_URL},
-                    {"@type": "ListItem", "position": 2, "name": "Articles", "item": f"{BASE_URL}/articles"},
+                    {"@type": "ListItem", "position": 2, "name": "Articles", "item": f"{BASE_URL}/articles/"},
                     {"@type": "ListItem", "position": 3, "name": title,      "item": page_url},
                 ]
             }
@@ -364,7 +364,7 @@ def build_html(fm, body_md, photo_url, slug):
     <div class="nav-inner">
       <a class="nav-logo" href="/">alwayshave.fun</a>
       <span class="nav-sep">/</span>
-      <a class="nav-link" href="/articles">Articles</a>
+      <a class="nav-link" href="/articles/">Articles</a>
     </div>
   </nav>
 
@@ -391,7 +391,7 @@ def build_html(fm, body_md, photo_url, slug):
 
     <footer>
       <a href="/">← All Trails</a> &nbsp;·&nbsp;
-      <a href="/articles">More Articles</a><br>
+      <a href="/articles/">More Articles</a><br>
       Weather via <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
       AQI via <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a><br>
       Conditions updated every 30 min &nbsp;·&nbsp; <a href="/">alwayshave.fun</a>

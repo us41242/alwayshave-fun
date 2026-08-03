@@ -17,7 +17,7 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
@@ -27,13 +27,13 @@
     "gusts_mph": 10,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-03T06:01",
-  "sunset": "2026-08-03T20:01",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 47,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,62 +50,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-03",
-      "high_f": 85,
-      "low_f": 59,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-03T06:01",
-      "sunset": "2026-08-03T20:01",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-04",
-      "high_f": 86,
-      "low_f": 63,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-04T06:02",
-      "sunset": "2026-08-04T20:00",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 88,
-      "low_f": 62,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-05T06:03",
-      "sunset": "2026-08-05T19:59",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-06",
-      "high_f": 88,
-      "low_f": 60,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-08-06T06:03",
-      "sunset": "2026-08-06T19:58",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-07",
-      "high_f": 86,
-      "low_f": 61,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-08-07T06:04",
-      "sunset": "2026-08-07T19:57",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-08-03T23:14:26.801444+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-03T23:49:45.455538+00:00"
 }

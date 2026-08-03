@@ -21,8 +21,8 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 62,
+    "temp_f": 69,
+    "feels_like_f": 63,
     "wind_mph": 4,
     "gusts_mph": 4,
     "rain_pct": 0
@@ -30,24 +30,16 @@
   "sunrise": "2026-08-03T06:01",
   "sunset": "2026-08-03T19:57",
   "aqi": {
-    "aqi": 22,
+    "aqi": 19,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 200.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Rock",
-      "acres": 12008,
-      "containment_pct": 95,
-      "cause": "Undetermined",
-      "updated": "2026-08-03T00:53:05.027000+00:00",
-      "distance_km": 36.7,
-      "direction": "N"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -107,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-03T15:43:11.287230+00:00"
+  "updated_at": "2026-08-03T16:13:24.281588+00:00"
 }

@@ -54,6 +54,14 @@ Also found and fixed: the articles index advertised `rel=canonical` → `/articl
 - ~2026-08-04: Reddit site-mention eligibility (10 contributions live, all clean).
 - Open question for Josh (3 weeks): widen the CF API token to read Workers Builds.
 
+### Session 25 close-out (verified before exit)
+- **Two full pipeline cycles observed post-fix, both `success`.** The 04:30 run regenerated + committed the root `sitemap.xml` (homepage lastmod `04:48:50Z`); the 05:00 run advanced it again (`05:13:51Z`) and the live file followed each time. The loop generate → commit → deploy → serve is proven, not assumed.
+- **New `indexnow.py` exercised in CI:** 66 URLs submitted, HTTP 200, no traceback — the 24h-lastmod window works against the real sitemap. One-off `--all` backfill also sent from this Mac earlier: 116 URLs, 200 (first time articles and `/dog-friendly` have ever been pinged to Bing/Yandex).
+- **Sitemap resubmitted to GSC** (`sitemaps().submit`, `lastSubmitted 2026-08-03T04:51:06Z`, 0 errors / 0 warnings, still `isPending: true` — same as every prior submission).
+- Live sitemap: 116 `<loc>`, valid XML, 66 URLs carrying today's timestamps and articles correctly carrying their true publish dates (an article that hasn't changed shouldn't claim it has — that would be the same lie in the other direction).
+- Nothing left half-shipped; working tree clean apart from `.DS_Store`.
+- Commits this session: `d503f946930`, `920fba7a48c`, `925ef8301f4`, `360a75c4350`, `1e4784ccc69`.
+
 ---
 
 ## 2026-07-31 — Session 23 (nightly) — PARTICIPATION ROUND 7 (OCTOBER MOAB TIMING)

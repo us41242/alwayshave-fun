@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 63,
-    "feels_like_f": 56,
+    "feels_like_f": 57,
     "wind_mph": 2,
     "gusts_mph": 4,
     "rain_pct": 0
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 200.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-03T00:53:05.027000+00:00",
+      "distance_km": 36.7,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-03T14:16:03.465754+00:00"
+  "updated_at": "2026-08-03T14:42:28.814976+00:00"
 }

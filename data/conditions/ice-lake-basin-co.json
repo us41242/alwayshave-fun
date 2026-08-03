@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 46,
-    "wind_mph": 5,
-    "gusts_mph": 13,
+    "temp_f": 54,
+    "feels_like_f": 49,
+    "wind_mph": 4,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "sunrise": "2026-08-03T06:16",
@@ -39,13 +39,21 @@
     "risk_level": "moderate",
     "nearest_fire_km": 52.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Gold Mountain",
+      "acres": 39507,
+      "containment_pct": 72,
+      "cause": "Undetermined",
+      "updated": "2026-08-02T23:07:49.383000+00:00",
+      "distance_km": 32.6,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-03",
-      "high_f": 66,
+      "high_f": 65,
       "low_f": 47,
       "rain_pct": 2,
       "uv": 9,
@@ -57,7 +65,7 @@
     {
       "date": "2026-08-04",
       "high_f": 66,
-      "low_f": 48,
+      "low_f": 50,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-04T06:17",
@@ -68,7 +76,7 @@
     {
       "date": "2026-08-05",
       "high_f": 68,
-      "low_f": 42,
+      "low_f": 43,
       "rain_pct": 5,
       "uv": 9,
       "sunrise": "2026-08-05T06:18",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-03T14:12:48.041331+00:00"
+  "updated_at": "2026-08-03T14:39:31.762836+00:00"
 }

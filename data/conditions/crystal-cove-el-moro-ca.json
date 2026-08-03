@@ -19,26 +19,29 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 72,
+    "temp_f": 69,
+    "feels_like_f": 73,
     "wind_mph": 4,
     "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-02T06:04",
-  "sunset": "2026-08-02T19:50",
+  "sunrise": "2026-08-03T06:05",
+  "sunset": "2026-08-03T19:49",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "high",
+    "nearest_fire_km": 19.9,
+    "fire_count_50km": 12,
     "nearest_incident": {
       "name": "Shelter",
       "acres": 0.1,
@@ -51,17 +54,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-08-02",
-      "high_f": 77,
-      "low_f": 68,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-02T06:04",
-      "sunset": "2026-08-02T19:50",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
     {
       "date": "2026-08-03",
       "high_f": 76,
@@ -105,7 +97,18 @@
       "sunset": "2026-08-06T19:46",
       "predicted_score": 58,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-07",
+      "high_f": 85,
+      "low_f": 74,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-07T06:08",
+      "sunset": "2026-08-07T19:45",
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-03T06:45:42.669280+00:00"
+  "updated_at": "2026-08-03T07:13:27.463294+00:00"
 }

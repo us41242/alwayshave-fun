@@ -29,8 +29,8 @@
     "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-02T06:02",
-  "sunset": "2026-08-02T20:00",
+  "sunrise": "2026-08-03T06:03",
+  "sunset": "2026-08-03T19:59",
   "aqi": {
     "aqi": 77,
     "category": "Moderate",
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 125.3,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock",
@@ -53,17 +53,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-08-02",
-      "high_f": 80,
-      "low_f": 64,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-02T06:02",
-      "sunset": "2026-08-02T20:00",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
     {
       "date": "2026-08-03",
       "high_f": 80,
@@ -107,7 +96,18 @@
       "sunset": "2026-08-06T19:56",
       "predicted_score": 60,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-07",
+      "high_f": 88,
+      "low_f": 67,
+      "rain_pct": 4,
+      "uv": 9,
+      "sunrise": "2026-08-07T06:06",
+      "sunset": "2026-08-07T19:55",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-03T06:47:41.451808+00:00"
+  "updated_at": "2026-08-03T07:17:31.136746+00:00"
 }

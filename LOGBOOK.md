@@ -4,6 +4,58 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-03 — Session 25 (nightly, Monday — weekly report #4) — THE LIVE SITEMAP HAS BEEN FROZEN AT 2026-04-18 FOR 3.5 MONTHS
+
+### Backfill: Session 24 (2026-08-01) shipped code but never logged
+Commit `25ef5028e34` — the render() audit close-out (JS no longer overwrites the static title / meta description / schema on server-rendered trail pages; open question #5 closed) — was pushed with no LOGBOOK entry, and its `docs/STRATEGY.md` edits (kill-or-revise review held 08-01: KEEP everything, next review 09-01) were left **uncommitted in the working tree**. Both are committed tonight inside `d503f946930`. Third occurrence of the unlogged-session failure mode (Sessions 20, 22, now 24) — `git log` + `git status` against the last logged commit stays in the orient checklist.
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** 7d (through 07-30); 28d **0 clicks / 3 impressions**. Flat WoW. Weekly report due (last was 07-27).
+- URL Inspection: homepage "Submitted and indexed," PASS, **last crawl still 2026-06-20 — 44 days**. `/nv/black-canyon-water-trail-nv` indexed (crawl 06-12), `/articles/petroglyph-canyon-gold-butte-nv` indexed (crawl 07-27, post-fix). `/ut/the-narrows-zion-ut` still "URL is unknown to Google." Sitemap status still **pending** since submission.
+- Pipeline healthy, data commits every 30 min through 04:14Z.
+
+### Found — the crawl-signal was broken at the source
+**`/sitemap.xml`, the only file Google reads for freshness, was a hand-written static file dated 2026-04-18.** `scripts/generate_sitemap.py` has been generating a correct, fresh sitemap every 30 minutes for months — into `site/sitemap.xml`, which nothing serves. Consequences, all live until tonight:
+- Every one of 96 `<lastmod>` values read `2026-04-18` — a site that rebuilds 48×/day was telling Google nothing had changed since April. Consistent with a 44-day-old homepage crawl and a permanently "pending" sitemap.
+- **20 live URLs were absent from the served sitemap**: 5 CA trails (`bishop-pass-long-lake-ca`, `convict-lake-loop-ca`, `eagle-lake-desolation-ca`, `lone-pine-lake-ca`, `tokopah-falls-sequoia-ca`), `/ut/delicate-arch-ut`, 13 articles, and `/dog-friendly`.
+- **`/site/*` was live and crawlable** (assets dir is the repo root): `/site/sitemap.xml` served a *second, competing* sitemap and `/site/index.html` an April clone of the homepage — duplicate content plus a conflicting crawl signal.
+- The GH Actions commit step staged `site/`, not `sitemap.xml` — so even after repointing the generator, the fresh file would never have left the runner. Fixed in the same session; without it this would have re-frozen within 30 minutes.
+
+Also found and fixed: the articles index advertised `rel=canonical` → `/articles`, but the assets layer (which runs **before** the Worker) 307s a bare `/articles` to `/articles/`. The canonical URL was a redirect, and worker.js's `/articles` branch was dead code that never executed. Canonical, og:url, schema `@id`/`url`, breadcrumbs, sitemap entry and every internal nav link now use `/articles/`; the dead branch is gone.
+
+### Did
+- `generate_sitemap.py` → writes the served `/sitemap.xml`; added `/about`, `/privacy`, `/scoring`; homepage loc now `https://alwayshave.fun/` (trailing slash, matching canonical). **116 URLs**, real per-trail `updated_at` lastmods.
+- `.github/workflows/fetch_conditions.yml` → `git add … sitemap.xml …` (was `site/`).
+- `worker.js` → `/site/*` 301s to its canonical equivalent (`/site/sitemap.xml` → `/sitemap.xml`, everything else → `/`); stale `site/` files deleted (hard rule 3 respected: the URLs redirect, they don't 404).
+- `/articles/` canonicalization across `build_articles_index.py`, `publish_article.py`, `generate_sitemap.py`, all 57 article pages, and the root/static HTML.
+- Commits: `d503f946930`, `920fba7a48c`, `925ef8301f4`.
+- **Weekly report #4** → `~/Documents/daily-in-box/ahf-weekly-2026-08-03.md`.
+
+### Verified (live, real-UA curl)
+- `/sitemap.xml` serves 116 `<loc>`, valid XML, homepage lastmod `2026-08-03T04:17:44Z`.
+- **All 116 sitemap URLs return 200** (full sweep, zero exceptions).
+- `/site/sitemap.xml` → 301 → `/sitemap.xml`; `/site/index.html` → 301 → `/`.
+- `/articles/` serves `rel=canonical https://alwayshave.fun/articles/`; zero remaining `href="/articles"` in the repo.
+- Homepage 200.
+- End-to-end: the post-fix pipeline run regenerated and committed `sitemap.xml` — see close-out below.
+
+### Learned
+- **A generator that runs clean every 30 minutes proves nothing about what is served.** `generate_sitemap.py` printed success 48×/day for months into a path no route touched. Verify the *served bytes*, not the build log — the same lesson shape as Session 19's hardcoded "Fire Risk: Low" (build was right, browser was wrong).
+- **Cloudflare static assets are matched before the Worker.** Any worker.js branch whose path also resolves to an asset (or to an asset-layer redirect like `/foo` → `/foo/`) is dead code. That's why the `/articles` branch never ran.
+- A build-output directory inside the assets root is publicly crawlable. `site/` was shipping a rival sitemap to Google.
+- `git rebase` conflicts on a file the pipeline rewrites (`site/sitemap.xml`) resolve with `git rm` + `--continue`; use `-X theirs` on subsequent pulls, as the pipeline does.
+
+### Expect
+- This is the first change in weeks that targets the actual binding constraint (discovery/crawl) rather than page quality. If the frozen sitemap was suppressing recrawl, crawl activity should pick up in **1–3 weeks**: watch homepage `last crawl` moving off 2026-06-20, sitemap status leaving "pending", and sampled trail URLs leaving "URL unknown to Google". **Decision point ~2026-08-24:** if nothing moves, freshness signalling is not the constraint and authority is — Phase 3 becomes the entire strategy.
+
+### Upcoming
+- Homepage recrawl watch: 44 days since 2026-06-20 (now with an honest lastmod behind it).
+- `scripts/indexnow.py` only submits homepage/state/trail URLs — **articles and `/dog-friendly` are never pinged to Bing/Yandex.** Small, obvious next fix.
+- ~2026-08-04: Reddit site-mention eligibility (10 contributions live, all clean).
+- Open question for Josh (3 weeks): widen the CF API token to read Workers Builds.
+
+---
+
 ## 2026-07-31 — Session 23 (nightly) — PARTICIPATION ROUND 7 (OCTOBER MOAB TIMING)
 
 ### Oriented

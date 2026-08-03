@@ -9,35 +9,41 @@ The key file must exist at /{key}.txt on the domain — we write it to repo root
 """
 
 import os
-import json
-import glob
+import re
+import sys
 import requests
+from datetime import datetime, timedelta, timezone
 
 BASE_URL     = "https://alwayshave.fun"
-DATA_DIR     = "data/conditions"
+SITEMAP      = "sitemap.xml"
 INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "")
 
 INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow"
 
-STATES = ["nv", "ut", "az", "co", "ca"]
 
+def collect_urls(all_urls=False):
+    """URLs from the generated sitemap that actually changed recently.
 
-def collect_urls():
-    urls = [BASE_URL + "/", f"{BASE_URL}/dog-friendly"]
-    for state in STATES:
-        urls.append(f"{BASE_URL}/{state}")
-
-    for path in glob.glob(f"{DATA_DIR}/*.json"):
+    The sitemap is the single source of truth (it was previously hand-built
+    here and silently missed every article and /dog-friendly). Default is
+    lastmod within 24h so we don't re-ping static pages every 30 minutes;
+    `--all` forces a full submission for one-off backfills.
+    """
+    xml = open(SITEMAP, encoding="utf-8").read()
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    urls = []
+    for loc, lastmod in re.findall(r"<loc>(.*?)</loc>\s*<lastmod>(.*?)</lastmod>", xml, re.S):
+        if all_urls:
+            urls.append(loc)
+            continue
         try:
-            with open(path) as f:
-                d = json.load(f)
-            slug  = d.get("slug", "")
-            state = (d.get("state") or "").lower()
-            if slug and state:
-                urls.append(f"{BASE_URL}/{state}/{slug}")
-        except Exception:
-            pass
-
+            dt = datetime.fromisoformat(lastmod.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if dt >= cutoff:
+            urls.append(loc)
     return urls
 
 
@@ -78,8 +84,10 @@ def submit_batch(urls, host):
 def main():
     host = BASE_URL.replace("https://", "")
     ensure_key_file()
-    urls = collect_urls()
+    urls = collect_urls(all_urls="--all" in sys.argv)
     print(f"IndexNow: submitting {len(urls)} URLs to Bing/Yandex")
+    if not urls:
+        return
     # IndexNow accepts up to 10,000 URLs per batch; we're well under that
     submit_batch(urls, host)
 

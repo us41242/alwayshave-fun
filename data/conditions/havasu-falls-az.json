@@ -20,17 +20,18 @@
   "score": 42,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 109,
-    "feels_like_f": 103,
-    "wind_mph": 15,
-    "gusts_mph": 18,
+    "feels_like_f": 102,
+    "wind_mph": 17,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-03T05:39",
+  "sunset": "2026-08-03T19:34",
   "aqi": {
     "aqi": 51,
     "category": "Moderate",
@@ -52,6 +53,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-03T22:05:08.335512+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-03",
+      "high_f": 110,
+      "low_f": 79,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-03T05:39",
+      "sunset": "2026-08-03T19:34",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-04",
+      "high_f": 109,
+      "low_f": 82,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-04T05:40",
+      "sunset": "2026-08-04T19:33",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-05",
+      "high_f": 105,
+      "low_f": 82,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-05T05:41",
+      "sunset": "2026-08-05T19:32",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-06",
+      "high_f": 107,
+      "low_f": 78,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-08-06T05:42",
+      "sunset": "2026-08-06T19:31",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-07",
+      "high_f": 107,
+      "low_f": 81,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-08-07T05:42",
+      "sunset": "2026-08-07T19:30",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-08-03T22:35:44.394939+00:00"
 }

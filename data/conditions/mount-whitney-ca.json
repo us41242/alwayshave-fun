@@ -23,7 +23,7 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
+    "temp_f": 40,
     "feels_like_f": 30,
     "wind_mph": 7,
     "gusts_mph": 11,
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 85.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 98,
+      "cause": "Undetermined",
+      "updated": "2026-08-04T01:31:16.930000+00:00",
+      "distance_km": 37.9,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-04T14:16:52.028698+00:00"
+  "updated_at": "2026-08-04T14:44:27.739550+00:00"
 }

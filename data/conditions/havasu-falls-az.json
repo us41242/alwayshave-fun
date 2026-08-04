@@ -17,41 +17,49 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 108,
-    "feels_like_f": 101,
-    "wind_mph": 13,
-    "gusts_mph": 16,
+    "feels_like_f": 98,
+    "wind_mph": 16,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T05:40",
   "sunset": "2026-08-04T19:33",
   "aqi": {
-    "aqi": 48,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 99.2,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Hockey Puck",
+      "acres": 8.25,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-03T14:16:25.153000+00:00",
+      "distance_km": 55.5,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-04",
-      "high_f": 108,
+      "high_f": 109,
       "low_f": 78,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-04T05:40",
       "sunset": "2026-08-04T19:33",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -62,7 +70,7 @@
       "uv": 8,
       "sunrise": "2026-08-05T05:41",
       "sunset": "2026-08-05T19:32",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-08-06T05:42",
       "sunset": "2026-08-06T19:31",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +92,7 @@
       "uv": 8,
       "sunrise": "2026-08-07T05:42",
       "sunset": "2026-08-07T19:30",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-08T05:43",
       "sunset": "2026-08-08T19:29",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T23:04:46.911970+00:00"
+  "updated_at": "2026-08-04T23:38:37.239675+00:00"
 }

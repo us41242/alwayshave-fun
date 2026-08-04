@@ -20,14 +20,13 @@
   "score": 90,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 56,
-    "wind_mph": 8,
-    "gusts_mph": 22,
+    "temp_f": 58,
+    "feels_like_f": 55,
+    "wind_mph": 5,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-08-04T06:03",
@@ -40,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 106.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Fishhook",
+      "acres": 309,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-08-02T20:10:44.960000+00:00",
+      "distance_km": 90.7,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -60,7 +67,7 @@
     {
       "date": "2026-08-05",
       "high_f": 70,
-      "low_f": 49,
+      "low_f": 50,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-05T06:04",
@@ -102,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-04T23:11:17.484563+00:00"
+  "updated_at": "2026-08-04T23:46:53.400439+00:00"
 }

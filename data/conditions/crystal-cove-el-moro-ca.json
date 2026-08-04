@@ -17,31 +17,28 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 76,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 75,
-    "wind_mph": 5,
+    "temp_f": 68,
+    "feels_like_f": 73,
+    "wind_mph": 4,
     "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-08-03T06:05",
   "sunset": "2026-08-03T19:49",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 20.1,
-    "fire_count_50km": 4,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Shelter",
       "acres": 0.1,
@@ -57,12 +54,12 @@
     {
       "date": "2026-08-03",
       "high_f": 76,
-      "low_f": 68,
+      "low_f": 67,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-03T06:05",
       "sunset": "2026-08-03T19:49",
-      "predicted_score": 64,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +70,7 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:06",
       "sunset": "2026-08-04T19:48",
-      "predicted_score": 76,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -84,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:06",
       "sunset": "2026-08-05T19:47",
-      "predicted_score": 64,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -95,7 +92,7 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:07",
       "sunset": "2026-08-06T19:46",
-      "predicted_score": 46,
+      "predicted_score": 40,
       "score_label": "Conditions poor"
     },
     {
@@ -106,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:08",
       "sunset": "2026-08-07T19:45",
-      "predicted_score": 64,
+      "predicted_score": 58,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T04:12:29.703226+00:00"
+  "updated_at": "2026-08-04T04:41:20.884354+00:00"
 }

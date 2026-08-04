@@ -21,33 +21,25 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 69,
-    "wind_mph": 2,
+    "temp_f": 74,
+    "feels_like_f": 73,
+    "wind_mph": 1,
     "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:04",
   "sunset": "2026-08-04T20:08",
   "aqi": {
-    "aqi": 17,
+    "aqi": 36,
     "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 84.4,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Chute",
-      "acres": 162,
-      "containment_pct": 95,
-      "cause": "Undetermined",
-      "updated": "2026-07-31T00:38:31.750000+00:00",
-      "distance_km": 99.5,
-      "direction": "WNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -98,7 +90,7 @@
     {
       "date": "2026-08-08",
       "high_f": 80,
-      "low_f": 58,
+      "low_f": 59,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
@@ -107,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-04T17:41:12.382630+00:00"
+  "updated_at": "2026-08-04T18:14:11.376249+00:00"
 }

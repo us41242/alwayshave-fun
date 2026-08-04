@@ -25,8 +25,8 @@
   "current": {
     "temp_f": 76,
     "feels_like_f": 72,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "wind_mph": 10,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:04",
@@ -39,17 +39,9 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 107.3,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Snow",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-04T02:11:40.570000+00:00",
-      "distance_km": 4.9,
-      "direction": "N"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -109,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-04T20:43:12.921683+00:00"
+  "updated_at": "2026-08-04T21:07:24.552555+00:00"
 }

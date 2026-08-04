@@ -32,7 +32,7 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 58,
+    "aqi": 56,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -41,9 +41,17 @@
     "risk_level": "low",
     "nearest_fire_km": 119.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock Canyon",
+      "acres": 4823,
+      "containment_pct": 100,
+      "cause": "Natural",
+      "updated": "2026-07-22T15:03:51.140000+00:00",
+      "distance_km": 77.1,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-04T22:06:30.241399+00:00"
+  "updated_at": "2026-08-04T22:39:03.290396+00:00"
 }

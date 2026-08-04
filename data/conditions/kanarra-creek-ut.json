@@ -24,7 +24,7 @@
   ],
   "current": {
     "temp_f": 93,
-    "feels_like_f": 86,
+    "feels_like_f": 85,
     "wind_mph": 15,
     "gusts_mph": 17,
     "rain_pct": 0
@@ -32,7 +32,7 @@
   "sunrise": "2026-08-04T06:39",
   "sunset": "2026-08-04T20:37",
   "aqi": {
-    "aqi": 58,
+    "aqi": 56,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 141.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-03T23:02:51.640000+00:00",
+      "distance_km": 98.3,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
     {
       "date": "2026-08-05",
       "high_f": 92,
-      "low_f": 71,
+      "low_f": 72,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-05T06:40",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T22:09:36.448774+00:00"
+  "updated_at": "2026-08-04T22:43:40.833027+00:00"
 }

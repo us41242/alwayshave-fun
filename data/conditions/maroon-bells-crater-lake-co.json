@@ -17,16 +17,17 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 47,
     "feels_like_f": 37,
     "wind_mph": 11,
-    "gusts_mph": 16,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:11",
@@ -38,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.4,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Willow",
       "acres": 7196,
@@ -56,13 +57,13 @@
     {
       "date": "2026-08-04",
       "high_f": 63,
-      "low_f": 47,
+      "low_f": 46,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-08-04T06:11",
       "sunset": "2026-08-04T20:16",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-05",
@@ -72,8 +73,8 @@
       "uv": 9,
       "sunrise": "2026-08-05T06:12",
       "sunset": "2026-08-05T20:15",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-06",
@@ -83,8 +84,8 @@
       "uv": 9,
       "sunrise": "2026-08-06T06:13",
       "sunset": "2026-08-06T20:14",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-07",
@@ -94,8 +95,8 @@
       "uv": 9,
       "sunrise": "2026-08-07T06:14",
       "sunset": "2026-08-07T20:12",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-08",
@@ -105,9 +106,9 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:15",
       "sunset": "2026-08-08T20:11",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-04T09:12:27.984581+00:00"
+  "updated_at": "2026-08-04T09:39:24.838079+00:00"
 }

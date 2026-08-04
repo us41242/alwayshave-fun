@@ -17,14 +17,14 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
+  "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 72,
+    "temp_f": 77,
+    "feels_like_f": 74,
     "wind_mph": 4,
     "gusts_mph": 5,
     "rain_pct": 0
@@ -38,10 +38,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 65.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 98,
+      "cause": "Undetermined",
+      "updated": "2026-08-04T01:31:16.930000+00:00",
+      "distance_km": 55.8,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,7 +61,7 @@
       "uv": 9,
       "sunrise": "2026-08-04T06:03",
       "sunset": "2026-08-04T19:58",
-      "predicted_score": 78,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -64,7 +72,7 @@
       "uv": 9,
       "sunrise": "2026-08-05T06:04",
       "sunset": "2026-08-05T19:57",
-      "predicted_score": 78,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -75,7 +83,7 @@
       "uv": 9,
       "sunrise": "2026-08-06T06:05",
       "sunset": "2026-08-06T19:56",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -86,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:06",
       "sunset": "2026-08-07T19:55",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +105,9 @@
       "uv": 9,
       "sunrise": "2026-08-08T06:07",
       "sunset": "2026-08-08T19:54",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T16:47:43.127173+00:00"
+  "updated_at": "2026-08-04T17:18:30.952729+00:00"
 }

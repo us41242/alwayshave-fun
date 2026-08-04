@@ -1,12 +1,20 @@
 {
   "slug": "west-fork-oak-creek-az",
   "name": "West Fork Oak Creek",
-  "updated_at": "2026-08-04T16:33:18.508119+00:00",
-  "risk_level": "low",
-  "score_pts": 20,
-  "nearest_fire_km": null,
+  "updated_at": "2026-08-04T17:02:39.374195+00:00",
+  "risk_level": "elevated",
+  "score_pts": 6,
+  "nearest_fire_km": 47.3,
   "fire_count_20km": 0,
-  "fire_count_50km": 0,
-  "fire_count_100km": 0,
-  "nearest_incident": null
+  "fire_count_50km": 1,
+  "fire_count_100km": 1,
+  "nearest_incident": {
+    "name": "Angus",
+    "acres": 4.9,
+    "containment_pct": null,
+    "cause": "Undetermined",
+    "updated": "2026-08-04T16:44:34.897000+00:00",
+    "distance_km": 47.3,
+    "direction": "SSW"
+  }
 }

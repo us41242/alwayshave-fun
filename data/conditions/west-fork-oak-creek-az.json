@@ -17,14 +17,16 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 84,
-    "feels_like_f": 84,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "feels_like_f": 85,
+    "wind_mph": 8,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T05:39",
@@ -36,10 +38,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
-    "nearest_incident": null
+    "risk_level": "elevated",
+    "nearest_fire_km": 47.3,
+    "fire_count_50km": 1,
+    "nearest_incident": {
+      "name": "Angus",
+      "acres": 4.9,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-04T16:44:34.897000+00:00",
+      "distance_km": 47.3,
+      "direction": "SSW"
+    }
   },
   "river": {
     "cfs": 24,
@@ -49,14 +59,14 @@
   "forecast": [
     {
       "date": "2026-08-04",
-      "high_f": 95,
+      "high_f": 96,
       "low_f": 68,
       "rain_pct": 5,
       "uv": 9,
       "sunrise": "2026-08-04T05:39",
       "sunset": "2026-08-04T19:26",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-05",
@@ -66,8 +76,8 @@
       "uv": 8,
       "sunrise": "2026-08-05T05:39",
       "sunset": "2026-08-05T19:26",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
@@ -77,8 +87,8 @@
       "uv": 8,
       "sunrise": "2026-08-06T05:40",
       "sunset": "2026-08-06T19:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-07",
@@ -88,8 +98,8 @@
       "uv": 9,
       "sunrise": "2026-08-07T05:41",
       "sunset": "2026-08-07T19:24",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-08",
@@ -99,9 +109,9 @@
       "uv": 9,
       "sunrise": "2026-08-08T05:42",
       "sunset": "2026-08-08T19:23",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-04T16:37:32.110825+00:00"
+  "updated_at": "2026-08-04T17:06:47.131798+00:00"
 }

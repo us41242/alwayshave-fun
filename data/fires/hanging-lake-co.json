@@ -1,12 +1,20 @@
 {
   "slug": "hanging-lake-co",
   "name": "Hanging Lake",
-  "updated_at": "2026-08-04T16:33:18.509614+00:00",
-  "risk_level": "low",
-  "score_pts": 20,
-  "nearest_fire_km": null,
+  "updated_at": "2026-08-04T17:02:39.401656+00:00",
+  "risk_level": "moderate",
+  "score_pts": 12,
+  "nearest_fire_km": 76.8,
   "fire_count_20km": 0,
   "fire_count_50km": 0,
-  "fire_count_100km": 0,
-  "nearest_incident": null
+  "fire_count_100km": 2,
+  "nearest_incident": {
+    "name": "Willow",
+    "acres": 7196,
+    "containment_pct": 67,
+    "cause": "Human",
+    "updated": "2026-08-03T22:33:40.233000+00:00",
+    "distance_km": 76.0,
+    "direction": "ESE"
+  }
 }

@@ -30,10 +30,10 @@
   "sunrise": "2026-08-04T06:39",
   "sunset": "2026-08-04T20:36",
   "aqi": {
-    "aqi": 40,
+    "aqi": 50,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +50,7 @@
     }
   },
   "river": {
-    "cfs": 30,
+    "cfs": 29,
     "stage": "low",
     "gauge_id": "09405500"
   },
@@ -111,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T11:01:57.909552+00:00"
+  "updated_at": "2026-08-04T11:33:02.423738+00:00"
 }

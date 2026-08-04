@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 77,
+    "temp_f": 78,
     "feels_like_f": 77,
-    "wind_mph": 11,
-    "gusts_mph": 12,
-    "rain_pct": 3
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 5
   },
   "sunrise": "2026-08-04T06:03",
   "sunset": "2026-08-04T20:07",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 76.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Aspen Acres",
+      "acres": 101961,
+      "containment_pct": 71,
+      "cause": "Human",
+      "updated": "2026-08-04T15:48:15.897000+00:00",
+      "distance_km": 96.6,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-04T19:41:15.362123+00:00"
+  "updated_at": "2026-08-04T20:05:59.998336+00:00"
 }

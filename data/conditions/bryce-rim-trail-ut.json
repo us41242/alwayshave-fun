@@ -17,16 +17,16 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 78,
-    "wind_mph": 13,
-    "gusts_mph": 15,
+    "temp_f": 85,
+    "feels_like_f": 81,
+    "wind_mph": 11,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:35",
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 116.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-03T23:02:51.640000+00:00",
+      "distance_km": 77.6,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T19:33:24.966447+00:00"
+  "updated_at": "2026-08-04T20:02:00.343783+00:00"
 }

@@ -21,9 +21,9 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 101,
+    "temp_f": 102,
     "feels_like_f": 98,
-    "wind_mph": 9,
+    "wind_mph": 8,
     "gusts_mph": 16,
     "rain_pct": 0
   },
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 113.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Star Canyon",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-01T20:03:55.127000+00:00",
+      "distance_km": 40.7,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -68,7 +76,7 @@
     {
       "date": "2026-08-06",
       "high_f": 102,
-      "low_f": 74,
+      "low_f": 72,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-06T06:24",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T19:45:57.501558+00:00"
+  "updated_at": "2026-08-04T20:10:12.141513+00:00"
 }

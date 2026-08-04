@@ -21,10 +21,10 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 90,
-    "feels_like_f": 86,
+    "temp_f": 91,
+    "feels_like_f": 87,
     "wind_mph": 12,
-    "gusts_mph": 16,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:04",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 107.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Picnic",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-02T17:34:05.323000+00:00",
+      "distance_km": 6.0,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -68,7 +76,7 @@
     {
       "date": "2026-08-06",
       "high_f": 97,
-      "low_f": 71,
+      "low_f": 73,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-06T06:06",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T19:43:03.713319+00:00"
+  "updated_at": "2026-08-04T20:08:23.686079+00:00"
 }

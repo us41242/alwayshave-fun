@@ -17,8 +17,8 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 42,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,10 +29,10 @@
     "gusts_mph": 9,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-04T06:03",
-  "sunset": "2026-08-04T20:08",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 56,
+    "aqi": 55,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -41,65 +41,17 @@
     "risk_level": "moderate",
     "nearest_fire_km": 57.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Mule Camp",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-04T18:59:25.377000+00:00",
+      "distance_km": 99.5,
+      "direction": "NW"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-04",
-      "high_f": 82,
-      "low_f": 60,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T06:03",
-      "sunset": "2026-08-04T20:08",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 80,
-      "low_f": 61,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-05T06:04",
-      "sunset": "2026-08-05T20:07",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-06",
-      "high_f": 88,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-06T06:05",
-      "sunset": "2026-08-06T20:05",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-07",
-      "high_f": 88,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-07T06:05",
-      "sunset": "2026-08-07T20:04",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-08",
-      "high_f": 88,
-      "low_f": 58,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-08T06:06",
-      "sunset": "2026-08-08T20:03",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-04T19:45:55.027451+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-04T20:10:11.464806+00:00"
 }

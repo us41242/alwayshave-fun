@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 82,
-    "wind_mph": 5,
+    "temp_f": 84,
+    "feels_like_f": 83,
+    "wind_mph": 4,
     "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:02",
   "sunset": "2026-08-04T20:00",
   "aqi": {
-    "aqi": 40,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 171.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Snow",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-04T02:11:40.570000+00:00",
+      "distance_km": 64.4,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -56,19 +64,19 @@
     },
     {
       "date": "2026-08-05",
-      "high_f": 85,
-      "low_f": 65,
+      "high_f": 86,
+      "low_f": 66,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-05T06:03",
       "sunset": "2026-08-05T19:59",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-06",
       "high_f": 87,
-      "low_f": 60,
+      "low_f": 64,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-08-06T06:03",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-04T19:45:59.194279+00:00"
+  "updated_at": "2026-08-04T20:10:14.344477+00:00"
 }

@@ -17,20 +17,20 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 62,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 94,
-    "feels_like_f": 91,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 96,
+    "feels_like_f": 92,
+    "wind_mph": 8,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T05:55",
   "sunset": "2026-08-04T19:51",
   "aqi": {
-    "aqi": 48,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 71.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Mouse Meadow",
+      "acres": 37553,
+      "containment_pct": 0,
+      "cause": "Undetermined",
+      "updated": "2026-08-03T22:45:12.683000+00:00",
+      "distance_km": 71.8,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T18:10:21.088154+00:00"
+  "updated_at": "2026-08-04T18:42:57.260871+00:00"
 }

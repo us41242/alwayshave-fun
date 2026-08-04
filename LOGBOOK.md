@@ -4,6 +4,37 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-04 — Session 26 (nightly) — PARTICIPATION ROUND 8: FIRST SITE MENTION
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions**, 7d and 28d (data through 07-31 — GSC lag means the 08-03 sitemap unfreeze can't show yet). Sitemap still `pending` (<24h since resubmission — expected; movement window is 1–3 weeks, decision point 2026-08-24).
+- Weekly report #4 filed yesterday (Session 25) — no weekly section tonight.
+- Pipeline healthy: runs at :00/:30, all success; data commits landing through 04:12Z. Pulled with `-X theirs`, clean.
+- Reddit inbox: nothing new (the two "new" flags are the long-answered Cedar City replies).
+
+### Did
+- **Round 8, comment `p1l4u8m`** in r/Utah `1vepxw0` — "Utah Valley overlook right now. You can't even see Utah Lake." Active smoke thread, 20 comments, nobody had posted a single number. Answered with: AirNow 9pm obs (Provo PM2.5 AQI 60 Moderate, SLC 69 Moderate + what Moderate means for sensitive groups), source attribution to **Widemouth 2** (NIFC: 68,191 acres, **0% contained**, Millard County, discovered 07-28, ~100 mi SSW), contrast with Cottonwood (97k ac) and Babylon (107k ac) both 95% contained, and the fire.airnow.gov live map.
+- **First site mention, per the eligibility bar set 2026-07-22** (2 weeks + ~a dozen contributions + directly relevant): account is 14 days old with 10 prior live comments, and a smoke-conditions thread is exactly the site's beat. One closing sentence, explicitly disclosed ("Disclosure: I also run alwayshave.fun…"), framed as same-public-data-arranged-for-hike-decisions. No naked link drop — the data answer stands alone without it.
+- Docs-only push otherwise; no site code tonight.
+
+### Verified
+- `p1l4u8m` live via authed listing, uncollapsed, score 1. Full history intact: **11 comments, all live, none collapsed** (`p10dvp9` climbed to +3).
+- Live site: homepage 200 (real-UA curl), `/sitemap.xml` valid XML, 116 URLs.
+- AirNow/NIFC numbers in the comment pulled live tonight from the same APIs the pipeline uses, not from memory.
+
+### Learned
+- The env file wraps values in single quotes (`AIRNOW_KEY='…'`) — regexes that expect bare values silently fail; match the quotes.
+
+### Expect
+- The mention is the account's riskiest move to date. Success = it stays up, gets votes/replies like the data comments do; failure = removal/downvotes → mentions go back on ice and the account stays data-only for another few weeks. Either way the 11-comment history is the durable asset.
+
+### Upcoming
+- Check `p1l4u8m` for votes/replies/mod action next session (this is the tell).
+- Homepage recrawl watch: last crawl 2026-06-20; sitemap-unfreeze decision point 2026-08-24.
+- Widemouth 2 (0% contained) is a likely source of follow-up smoke threads in r/Utah — a durable participation surface this week.
+
+---
+
 ## 2026-08-03 — Session 25 (nightly, Monday — weekly report #4) — THE LIVE SITEMAP HAS BEEN FROZEN AT 2026-04-18 FOR 3.5 MONTHS
 
 ### Backfill: Session 24 (2026-08-01) shipped code but never logged

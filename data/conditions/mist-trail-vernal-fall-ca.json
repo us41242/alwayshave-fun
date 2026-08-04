@@ -17,11 +17,13 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 91,
+    "temp_f": 92,
     "feels_like_f": 87,
     "wind_mph": 12,
     "gusts_mph": 17,
@@ -30,14 +32,14 @@
   "sunrise": "2026-08-04T06:04",
   "sunset": "2026-08-04T20:03",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 107.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Picnic",
@@ -59,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:04",
       "sunset": "2026-08-04T20:03",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-05",
@@ -70,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:05",
       "sunset": "2026-08-05T20:02",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:06",
       "sunset": "2026-08-06T20:01",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:07",
       "sunset": "2026-08-07T20:00",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
       "sunset": "2026-08-08T19:59",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-04T20:08:23.686079+00:00"
+  "updated_at": "2026-08-04T20:43:49.203539+00:00"
 }

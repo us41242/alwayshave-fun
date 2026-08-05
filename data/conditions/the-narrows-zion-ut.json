@@ -17,25 +17,23 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 75,
-    "wind_mph": 7,
-    "gusts_mph": 13,
+    "temp_f": 81,
+    "feels_like_f": 74,
+    "wind_mph": 6,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-04T06:39",
-  "sunset": "2026-08-04T20:36",
+  "sunrise": "2026-08-05T06:40",
+  "sunset": "2026-08-05T20:35",
   "aqi": {
-    "aqi": 72,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -58,25 +56,14 @@
   },
   "forecast": [
     {
-      "date": "2026-08-04",
-      "high_f": 99,
-      "low_f": 68,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-04T06:39",
-      "sunset": "2026-08-04T20:36",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-08-05",
-      "high_f": 97,
+      "high_f": 98,
       "low_f": 71,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-05T06:40",
       "sunset": "2026-08-05T20:35",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -87,18 +74,18 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:40",
       "sunset": "2026-08-06T20:34",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-07",
       "high_f": 98,
-      "low_f": 75,
+      "low_f": 73,
       "rain_pct": 8,
       "uv": 8,
       "sunrise": "2026-08-07T06:41",
       "sunset": "2026-08-07T20:33",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -109,9 +96,20 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:42",
       "sunset": "2026-08-08T20:32",
-      "predicted_score": 50,
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-09",
+      "high_f": 101,
+      "low_f": 77,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-08-09T06:43",
+      "sunset": "2026-08-09T20:31",
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T05:32:57.952660+00:00"
+  "updated_at": "2026-08-05T06:02:10.390032+00:00"
 }

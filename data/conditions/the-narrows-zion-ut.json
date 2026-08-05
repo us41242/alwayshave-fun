@@ -23,8 +23,8 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 98,
-    "feels_like_f": 92,
+    "temp_f": 97,
+    "feels_like_f": 90,
     "wind_mph": 12,
     "gusts_mph": 14,
     "rain_pct": 0
@@ -39,11 +39,15 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 159.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
-  "river": null,
+  "river": {
+    "cfs": 25,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-08-05",
@@ -60,7 +64,7 @@
       "date": "2026-08-06",
       "high_f": 99,
       "low_f": 71,
-      "rain_pct": 7,
+      "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-08-06T06:40",
       "sunset": "2026-08-06T20:34",
@@ -101,5 +105,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T22:32:50.033897+00:00"
+  "updated_at": "2026-08-05T23:03:27.042893+00:00"
 }

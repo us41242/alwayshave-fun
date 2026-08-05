@@ -17,31 +17,39 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "N95 mask recommended"
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 90,
+    "temp_f": 89,
     "feels_like_f": 80,
     "wind_mph": 9,
-    "gusts_mph": 18,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:22",
   "sunset": "2026-08-04T20:25",
   "aqi": {
-    "aqi": 146,
-    "category": "Unhealthy for Sensitive Groups",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 77,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 113.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Granite Creek",
+      "acres": 0.6,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-02T18:26:20.143000+00:00",
+      "distance_km": 42.0,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:22",
       "sunset": "2026-08-04T20:25",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-05",
@@ -64,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:23",
       "sunset": "2026-08-05T20:24",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
@@ -75,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:24",
       "sunset": "2026-08-06T20:23",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-07",
@@ -86,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:25",
       "sunset": "2026-08-07T20:22",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-08",
@@ -97,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:26",
       "sunset": "2026-08-08T20:21",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T03:33:06.491334+00:00"
+  "updated_at": "2026-08-05T03:48:38.390019+00:00"
 }

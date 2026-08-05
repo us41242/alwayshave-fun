@@ -17,29 +17,37 @@
   "notes": "South Lake Rd opens mid-May; snow above 10800 ft through June; full pass requires snow travel until late June \u2014 Long Lake turnaround is the right call early season",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 60,
     "feels_like_f": 51,
-    "wind_mph": 11,
+    "wind_mph": 10,
     "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-08-04T06:02",
   "sunset": "2026-08-04T19:58",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 40,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 129.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "5-3",
+      "acres": 744,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-05T01:17:14.640000+00:00",
+      "distance_km": 31.9,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,8 +59,8 @@
       "uv": 9,
       "sunrise": "2026-08-04T06:02",
       "sunset": "2026-08-04T19:58",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-05",
@@ -62,8 +70,8 @@
       "uv": 9,
       "sunrise": "2026-08-05T06:02",
       "sunset": "2026-08-05T19:57",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-06",
@@ -73,8 +81,8 @@
       "uv": 9,
       "sunrise": "2026-08-06T06:03",
       "sunset": "2026-08-06T19:56",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-07",
@@ -84,8 +92,8 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:04",
       "sunset": "2026-08-07T19:55",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-08",
@@ -95,9 +103,9 @@
       "uv": 7,
       "sunrise": "2026-08-08T06:05",
       "sunset": "2026-08-08T19:54",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-05T03:33:37.083530+00:00"
+  "updated_at": "2026-08-05T03:48:39.372070+00:00"
 }

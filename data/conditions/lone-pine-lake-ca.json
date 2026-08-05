@@ -17,8 +17,8 @@
   "notes": "No permit required to the lake (only for full Whitney summit); snow patches above 9500 ft until mid-June; dogs legal in Inyo NF section",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 78,
@@ -27,77 +27,29 @@
     "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-04T06:01",
-  "sunset": "2026-08-04T19:56",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 19,
+    "aqi": 16,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 90.0,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 98,
+      "cause": "Undetermined",
+      "updated": "2026-08-05T01:14:39.403000+00:00",
+      "distance_km": 36.7,
+      "direction": "N"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-04",
-      "high_f": 81,
-      "low_f": 62,
-      "rain_pct": 0,
-      "uv": 9,
-      "sunrise": "2026-08-04T06:01",
-      "sunset": "2026-08-04T19:56",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-05",
-      "high_f": 80,
-      "low_f": 64,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-08-05T06:02",
-      "sunset": "2026-08-05T19:55",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-06",
-      "high_f": 81,
-      "low_f": 64,
-      "rain_pct": 3,
-      "uv": 9,
-      "sunrise": "2026-08-06T06:03",
-      "sunset": "2026-08-06T19:54",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-07",
-      "high_f": 80,
-      "low_f": 64,
-      "rain_pct": 8,
-      "uv": 8,
-      "sunrise": "2026-08-07T06:04",
-      "sunset": "2026-08-07T19:53",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-08",
-      "high_f": 80,
-      "low_f": 66,
-      "rain_pct": 23,
-      "uv": 7,
-      "sunrise": "2026-08-08T06:05",
-      "sunset": "2026-08-08T19:52",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-05T01:44:47.258088+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-05T02:14:54.334774+00:00"
 }

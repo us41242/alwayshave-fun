@@ -23,14 +23,14 @@
   "current": {
     "temp_f": 78,
     "feels_like_f": 73,
-    "wind_mph": 10,
-    "gusts_mph": 15,
+    "wind_mph": 11,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:02",
   "sunset": "2026-08-05T19:55",
   "aqi": {
-    "aqi": 16,
+    "aqi": 14,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -39,21 +39,13 @@
     "risk_level": "low",
     "nearest_fire_km": 149.4,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Woods Lake",
-      "acres": 1.2,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-05T18:47:30.520000+00:00",
-      "distance_km": 35.6,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-05",
-      "high_f": 79,
+      "high_f": 80,
       "low_f": 63,
       "rain_pct": 1,
       "uv": 9,
@@ -65,7 +57,7 @@
     {
       "date": "2026-08-06",
       "high_f": 80,
-      "low_f": 64,
+      "low_f": 65,
       "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-08-06T06:03",
@@ -107,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-05T20:12:51.527168+00:00"
+  "updated_at": "2026-08-05T20:45:53.036581+00:00"
 }

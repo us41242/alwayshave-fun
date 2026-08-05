@@ -17,27 +17,29 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 92,
+    "temp_f": 93,
     "feels_like_f": 88,
-    "wind_mph": 13,
-    "gusts_mph": 14,
+    "wind_mph": 11,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:40",
   "sunset": "2026-08-05T20:36",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 141.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -59,19 +61,19 @@
       "uv": 8,
       "sunrise": "2026-08-05T06:40",
       "sunset": "2026-08-05T20:36",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
       "high_f": 94,
       "low_f": 73,
-      "rain_pct": 10,
+      "rain_pct": 11,
       "uv": 8,
       "sunrise": "2026-08-06T06:41",
       "sunset": "2026-08-06T20:35",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-07",
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:42",
       "sunset": "2026-08-07T20:34",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:43",
       "sunset": "2026-08-08T20:33",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-09T06:43",
       "sunset": "2026-08-09T20:32",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T21:09:07.389490+00:00"
+  "updated_at": "2026-08-05T21:39:48.108730+00:00"
 }

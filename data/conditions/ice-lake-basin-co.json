@@ -17,9 +17,11 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 51,
     "feels_like_f": 42,
@@ -30,15 +32,15 @@
   "sunrise": "2026-08-04T06:17",
   "sunset": "2026-08-04T20:16",
   "aqi": {
-    "aqi": 44,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 40.5,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Gold Mountain",
       "acres": 39507,
@@ -59,7 +61,7 @@
       "uv": 9,
       "sunrise": "2026-08-04T06:17",
       "sunset": "2026-08-04T20:16",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -70,7 +72,7 @@
       "uv": 9,
       "sunrise": "2026-08-05T06:18",
       "sunset": "2026-08-05T20:15",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 9,
       "sunrise": "2026-08-06T06:19",
       "sunset": "2026-08-06T20:14",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 9,
       "sunrise": "2026-08-07T06:20",
       "sunset": "2026-08-07T20:13",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:20",
       "sunset": "2026-08-08T20:12",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-05T04:45:17.275716+00:00"
+  "updated_at": "2026-08-05T05:12:45.423151+00:00"
 }

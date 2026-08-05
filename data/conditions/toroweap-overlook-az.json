@@ -17,29 +17,37 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 78,
-    "wind_mph": 13,
-    "gusts_mph": 16,
+    "temp_f": 86,
+    "feels_like_f": 83,
+    "wind_mph": 12,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T05:41",
   "sunset": "2026-08-05T19:32",
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 95.6,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cliff Spring",
+      "acres": 170,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-04T19:48:51.527000+00:00",
+      "distance_km": 69.5,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,7 +59,7 @@
       "uv": 8,
       "sunrise": "2026-08-05T05:41",
       "sunset": "2026-08-05T19:32",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -62,7 +70,7 @@
       "uv": 8,
       "sunrise": "2026-08-06T05:42",
       "sunset": "2026-08-06T19:31",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-08-07T05:42",
       "sunset": "2026-08-07T19:30",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +92,7 @@
       "uv": 8,
       "sunrise": "2026-08-08T05:43",
       "sunset": "2026-08-08T19:29",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-09T05:44",
       "sunset": "2026-08-09T19:27",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T15:38:22.031507+00:00"
+  "updated_at": "2026-08-05T16:11:21.485916+00:00"
 }

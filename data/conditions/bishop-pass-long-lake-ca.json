@@ -23,25 +23,33 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 55,
+    "temp_f": 66,
+    "feels_like_f": 57,
     "wind_mph": 9,
-    "gusts_mph": 14,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:02",
   "sunset": "2026-08-05T19:57",
   "aqi": {
-    "aqi": 53,
+    "aqi": 56,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 181.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "5-3",
+      "acres": 744,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-05T01:17:14.640000+00:00",
+      "distance_km": 31.9,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T15:43:20.704954+00:00"
+  "updated_at": "2026-08-05T16:17:03.664406+00:00"
 }

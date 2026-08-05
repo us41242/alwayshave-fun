@@ -17,29 +17,37 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 69,
-    "feels_like_f": 62,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "temp_f": 72,
+    "feels_like_f": 67,
+    "wind_mph": 3,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:03",
   "sunset": "2026-08-05T19:59",
   "aqi": {
-    "aqi": 37,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 169.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wildfire Training",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-03T16:35:41.740000+00:00",
+      "distance_km": 68.2,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,8 +59,8 @@
       "uv": 9,
       "sunrise": "2026-08-05T06:03",
       "sunset": "2026-08-05T19:59",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-06",
@@ -62,8 +70,8 @@
       "uv": 9,
       "sunrise": "2026-08-06T06:03",
       "sunset": "2026-08-06T19:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-07",
@@ -73,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:04",
       "sunset": "2026-08-07T19:57",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-08",
@@ -84,8 +92,8 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:05",
       "sunset": "2026-08-08T19:56",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-09",
@@ -95,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-09T06:06",
       "sunset": "2026-08-09T19:55",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-05T15:43:21.814811+00:00"
+  "updated_at": "2026-08-05T16:17:24.874648+00:00"
 }

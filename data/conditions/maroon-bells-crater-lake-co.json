@@ -25,10 +25,10 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 51,
-    "wind_mph": 18,
-    "gusts_mph": 28,
+    "temp_f": 62,
+    "feels_like_f": 52,
+    "wind_mph": 19,
+    "gusts_mph": 29,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:12",
@@ -43,7 +43,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 48.5,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Willow",
+      "acres": 7196,
+      "containment_pct": 67,
+      "cause": "Human",
+      "updated": "2026-08-04T23:06:34.790000+00:00",
+      "distance_km": 48.0,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -72,7 +80,7 @@
     {
       "date": "2026-08-07",
       "high_f": 68,
-      "low_f": 44,
+      "low_f": 47,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-07T06:14",
@@ -103,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T19:41:38.863044+00:00"
+  "updated_at": "2026-08-05T20:09:12.678964+00:00"
 }

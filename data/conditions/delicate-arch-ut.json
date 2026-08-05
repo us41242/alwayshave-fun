@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 99,
+    "temp_f": 100,
     "feels_like_f": 95,
     "wind_mph": 8,
-    "gusts_mph": 15,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:23",
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 167.7,
+    "nearest_fire_km": 167.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Buck Canyon",
+      "acres": 1.2,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-04T14:16:09.360000+00:00",
+      "distance_km": 53.5,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -58,7 +66,7 @@
     },
     {
       "date": "2026-08-06",
-      "high_f": 103,
+      "high_f": 104,
       "low_f": 72,
       "rain_pct": 0,
       "uv": 8,
@@ -70,7 +78,7 @@
     {
       "date": "2026-08-07",
       "high_f": 104,
-      "low_f": 75,
+      "low_f": 71,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-07T06:25",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T19:45:47.555683+00:00"
+  "updated_at": "2026-08-05T20:12:48.422507+00:00"
 }

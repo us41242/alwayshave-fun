@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 181.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "5-3",
+      "acres": 744,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-05T01:17:14.640000+00:00",
+      "distance_km": 31.9,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
     {
       "date": "2026-08-06",
       "high_f": 74,
-      "low_f": 55,
+      "low_f": 54,
       "rain_pct": 5,
       "uv": 9,
       "sunrise": "2026-08-06T06:03",
@@ -70,7 +78,7 @@
     {
       "date": "2026-08-07",
       "high_f": 74,
-      "low_f": 54,
+      "low_f": 55,
       "rain_pct": 15,
       "uv": 9,
       "sunrise": "2026-08-07T06:04",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T19:46:23.522326+00:00"
+  "updated_at": "2026-08-05T20:12:49.346580+00:00"
 }

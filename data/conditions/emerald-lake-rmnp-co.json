@@ -25,15 +25,15 @@
   ],
   "current": {
     "temp_f": 68,
-    "feels_like_f": 59,
-    "wind_mph": 16,
-    "gusts_mph": 28,
+    "feels_like_f": 58,
+    "wind_mph": 18,
+    "gusts_mph": 30,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:04",
   "sunset": "2026-08-05T20:12",
   "aqi": {
-    "aqi": 65,
+    "aqi": 64,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -42,7 +42,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 69.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Indian Creek",
+      "acres": 15,
+      "containment_pct": null,
+      "cause": "Human",
+      "updated": "2026-08-05T16:16:59.353000+00:00",
+      "distance_km": 70.1,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
     },
     {
       "date": "2026-08-06",
-      "high_f": 71,
+      "high_f": 72,
       "low_f": 51,
       "rain_pct": 0,
       "uv": 9,
@@ -71,7 +79,7 @@
     {
       "date": "2026-08-07",
       "high_f": 78,
-      "low_f": 51,
+      "low_f": 56,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-07T06:06",
@@ -102,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T19:42:16.138390+00:00"
+  "updated_at": "2026-08-05T20:09:14.664905+00:00"
 }

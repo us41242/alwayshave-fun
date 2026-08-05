@@ -27,7 +27,7 @@
     "temp_f": 81,
     "feels_like_f": 72,
     "wind_mph": 16,
-    "gusts_mph": 27,
+    "gusts_mph": 26,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:12",
@@ -42,7 +42,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 77.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Baldy",
+      "acres": 0.5,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-05T01:30:32.370000+00:00",
+      "distance_km": 29.1,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -71,7 +79,7 @@
     {
       "date": "2026-08-07",
       "high_f": 91,
-      "low_f": 52,
+      "low_f": 58,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-07T06:14",
@@ -102,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T19:40:22.563465+00:00"
+  "updated_at": "2026-08-05T20:09:11.907372+00:00"
 }

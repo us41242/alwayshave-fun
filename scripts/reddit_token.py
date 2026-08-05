@@ -31,7 +31,11 @@ def main():
 
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
     opener.addheaders = [("User-Agent", UA), ("Accept", "text/html,*/*")]
+    # The homepage alone stopped minting token_v2 (2026-08-04) — it now serves a
+    # logged-out-cacheable shell. Warm the session on "/" (session_tracker +
+    # csrf_token), then hit the authed-only /settings/, which does mint it.
     opener.open("https://www.reddit.com/", timeout=30).read()
+    opener.open("https://www.reddit.com/settings/", timeout=30).read()
 
     for c in jar:
         if c.name == "token_v2":

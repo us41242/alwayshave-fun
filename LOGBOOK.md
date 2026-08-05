@@ -4,6 +4,44 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-05 — Session 27 (nightly) — SITE MENTION VALIDATED (+5); FIRST r/arizona COMMENT; REDDIT TOKEN PATH REPAIRED
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** at 7d AND 28d (data through 08-01). The 28d window's 3 impressions have aged out — no new ones replaced them. Sitemap still `pending` (day 2 of the 1–3 week watch; decision point 2026-08-24).
+- Weekly report #4 filed 08-03 — no weekly section tonight.
+- Pipeline healthy: runs at :00/:30, all `success`, data commits through 04:00Z. Working tree clean apart from `.DS_Store`.
+- **The Session 26 tell came back positive:** `p1l4u8m`, the first disclosed site mention, is **+5 — the highest-scoring comment this account has ever posted** — live, uncollapsed, no mod action. A disclosed mention hung off a real data answer is accepted here. Mentions still stay rare (90/10); the data is the product, the mention is the footnote.
+
+### Fixed — Reddit token path (blocker, hit at session start)
+`scripts/reddit_token.py` printed "reddit_session is probably dead; Josh needs to re-login" — i.e. it claimed a hard wall. It wasn't one. The session file's `reddit_session` cookie is valid to **2027-01-18**; what changed is that `https://www.reddit.com/` no longer mints `token_v2` (it now serves a logged-out-cacheable shell even to an authed cookie jar). Loading the authed-only `/settings/` does mint it — but only after `/` has been fetched first to set `session_tracker`/`csrf_token`; `/settings/` on a cold jar mints nothing. Script now does both hops. Verified: token minted (1,309 chars), `api/v1/me` → `StunningOpinion7483`, comment karma 8.
+
+### Did — participation round 9 (two comments, both data-only, no site mention)
+- **`p1si3ts` in r/arizona `1vf9ygp`** ("What is this Haze? Or Am I imagining?", 153 up / 107 comments) — **first comment this account has made outside r/Utah**, and r/arizona is our strongest-coverage state. The thread was people guessing ("500 AQI", "like 300"); the AirNow monitor record shows they were *understating* it. Posted the actual hourly record: PM10 AQI **4,715** at COMBS (San Tan Valley) 10pm Mon, PM2.5 428 at Glendale CC midnight, valley-wide max 1,780 at 6am → 492 noon → 362 at 5pm → **68 PM10 / 54 PM2.5 (Moderate) at 9pm Tue**, against a normal-afternoon valley median PM10 of 27. Called it as dust not smoke on evidence (coarse PM10 peak an order of magnitude above fine PM2.5 on the same scale; no large uncontained NIFC fire near the valley — nearest is Butte, 200 ac, Gila Co). Added the NWS clearing outlook (WSW 5–15 g25 tonight → 5–10 Wed, slight t-storm chance Wed evening) and the valley-fever correction: **AQI does not measure spore risk at all**, so a Moderate reading says nothing either way.
+- **`p1siao5` in r/Utah `1vfp822`** (Widemouth 2 photo from Fillmore; OP said 88,000 acres). NIFC/WFIGS as of 23:45Z: **84,409 ac, 0% contained**, 495 personnel, natural cause, discovered 07-27 — and **+16,189 acres in the 24h since Session 26's 68,191**. Contrasted with Cottonwood (97,464) and Babylon (107,189), both 95% contained — Widemouth 2 is the only one of the three still at zero. Downwind: NWS Fillmore carries "Smoke" tonight, all Wednesday, Wednesday night, patchy Thursday morning, with light 2–7 mph winds (the pattern that pools it in valleys). Wasatch Front PM2.5 an hour old: Erda **104 (USG)**, Lake Park 78, Copper View 77, Rose Park 70, Lindon 69 — up from last night's Provo 60 / SLC 69, stated as correlation not attribution.
+
+### Verified
+- Both comments live via authed `api/info`: `p1si3ts` (r/arizona) and `p1siao5` (r/Utah), score 1, `collapsed=false`, `banned_by=null`. Full history: **13 comments, all live, none collapsed**.
+- Every number in both comments pulled live tonight from AirNow (`aq/data` hourly monitor endpoint, not the app-model layer), WFIGS, and api.weather.gov — none from memory.
+- Live site (real-UA curl): homepage 200; `/sitemap.xml` valid XML, 116 URLs.
+
+### Learned
+- **A tool's own "credentials are dead" message is a hypothesis, not a diagnosis.** `reddit_token.py` blamed a cookie that had five more months on it; the real change was Reddit's homepage caching. Check the artifact (cookie expiry in the session file) before escalating a hard wall to Josh.
+- Reddit mints `token_v2` only on an authed-only page (`/settings/`) and only after `/` has warmed the jar. Two hops, in that order.
+- **The AirNow `aq/data` endpoint is far more useful for participation than the zip-code current-observation endpoint** — it returns per-monitor hourly history over a bbox, which is what turns "it was bad this morning" into "4,715 at COMBS at 10pm, 68 by 9pm." That hourly record is the thing nobody in the thread has, and it is exactly the site's own data source.
+- Consumer weather-app AQI can *understate* a dust event badly (people quoting 300–500 while monitors read 4,715). Worth remembering as a content angle: the gap between app numbers and monitor numbers.
+
+### Expect
+- r/arizona is an unproven surface for this account — watch `p1si3ts` for votes/replies/removal the way `p1l4u8m` was watched. If it lands, AZ becomes the second regular sub and roughly doubles the participation surface.
+- No GSC movement expected yet; the sitemap-unfreeze window runs to 2026-08-24.
+
+### Upcoming
+- Check `p1si3ts` (r/arizona reception) and `p1siao5` next session.
+- Widemouth 2 at 0% containment and growing 16k acres/day will keep generating r/Utah threads this week — durable surface.
+- Homepage recrawl watch: last crawl 2026-06-20 (46 days).
+- Open question for Josh (3 weeks, non-blocking): widen the CF API token to read Workers Builds.
+
+---
+
 ## 2026-08-04 — Session 26 (nightly) — PARTICIPATION ROUND 8: FIRST SITE MENTION
 
 ### Oriented

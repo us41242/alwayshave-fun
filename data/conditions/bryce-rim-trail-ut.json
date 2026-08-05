@@ -17,29 +17,37 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 84,
-    "wind_mph": 6,
-    "gusts_mph": 7,
+    "temp_f": 83,
+    "feels_like_f": 75,
+    "wind_mph": 10,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:36",
   "sunset": "2026-08-05T20:33",
   "aqi": {
-    "aqi": 45,
+    "aqi": 49,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 115.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-04T22:56:05.520000+00:00",
+      "distance_km": 77.6,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -69,7 +77,7 @@
       "date": "2026-08-07",
       "high_f": 89,
       "low_f": 61,
-      "rain_pct": 17,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-08-07T06:38",
       "sunset": "2026-08-07T20:30",
@@ -80,7 +88,7 @@
       "date": "2026-08-08",
       "high_f": 89,
       "low_f": 65,
-      "rain_pct": 17,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-08-08T06:38",
       "sunset": "2026-08-08T20:29",
@@ -91,13 +99,13 @@
       "date": "2026-08-09",
       "high_f": 86,
       "low_f": 58,
-      "rain_pct": 57,
+      "rain_pct": 66,
       "uv": 8,
       "sunrise": "2026-08-09T06:39",
       "sunset": "2026-08-09T20:28",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T20:33:32.564599+00:00"
+  "updated_at": "2026-08-05T21:01:54.428557+00:00"
 }

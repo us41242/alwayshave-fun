@@ -17,14 +17,15 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 62,
+    "temp_f": 61,
     "feels_like_f": 48,
     "wind_mph": 19,
     "gusts_mph": 23,
@@ -33,24 +34,16 @@
   "sunrise": "2026-08-04T06:11",
   "sunset": "2026-08-04T20:16",
   "aqi": {
-    "aqi": 62,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Willow",
-      "acres": 7196,
-      "containment_pct": 67,
-      "cause": "Human",
-      "updated": "2026-08-04T23:06:34.790000+00:00",
-      "distance_km": 48.0,
-      "direction": "ENE"
-    }
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.4,
+    "fire_count_50km": 1,
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -62,8 +55,8 @@
       "uv": 8,
       "sunrise": "2026-08-04T06:11",
       "sunset": "2026-08-04T20:16",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-05",
@@ -73,8 +66,8 @@
       "uv": 9,
       "sunrise": "2026-08-05T06:12",
       "sunset": "2026-08-05T20:15",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-06",
@@ -84,31 +77,31 @@
       "uv": 9,
       "sunrise": "2026-08-06T06:13",
       "sunset": "2026-08-06T20:14",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-07",
-      "high_f": 69,
-      "low_f": 43,
+      "high_f": 68,
+      "low_f": 42,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-08-07T06:14",
       "sunset": "2026-08-07T20:12",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-08",
-      "high_f": 68,
+      "high_f": 67,
       "low_f": 44,
       "rain_pct": 2,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-08T06:15",
       "sunset": "2026-08-08T20:11",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-04T23:45:00.081401+00:00"
+  "updated_at": "2026-08-05T00:11:46.575129+00:00"
 }

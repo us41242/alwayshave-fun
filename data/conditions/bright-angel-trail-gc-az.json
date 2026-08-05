@@ -24,9 +24,9 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 75,
-    "wind_mph": 14,
+    "temp_f": 82,
+    "feels_like_f": 74,
+    "wind_mph": 12,
     "gusts_mph": 22,
     "rain_pct": 0
   },
@@ -40,20 +40,12 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 121.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Cliff Spring",
-      "acres": 170,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-04T19:48:51.527000+00:00",
-      "distance_km": 21.2,
-      "direction": "ENE"
-    }
+    "nearest_incident": null
   },
   "river": {
-    "cfs": 9250,
+    "cfs": 9280,
     "stage": null,
     "gauge_id": "09402500"
   },
@@ -114,5 +106,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-05T02:05:49.782897+00:00"
+  "updated_at": "2026-08-05T02:35:09.023666+00:00"
 }

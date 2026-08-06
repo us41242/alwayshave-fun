@@ -24,15 +24,15 @@
   ],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 62,
-    "wind_mph": 13,
-    "gusts_mph": 15,
+    "feels_like_f": 63,
+    "wind_mph": 11,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-08-06T05:41",
   "sunset": "2026-08-06T19:43",
   "aqi": {
-    "aqi": 54,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 64.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8775,
+      "containment_pct": 5,
+      "cause": "Natural",
+      "updated": "2026-08-06T01:42:30.580000+00:00",
+      "distance_km": 63.7,
+      "direction": "WSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
     {
       "date": "2026-08-07",
       "high_f": 69,
-      "low_f": 49,
+      "low_f": 51,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-07T05:42",
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-06T22:09:10.232873+00:00"
+  "updated_at": "2026-08-06T22:39:27.151168+00:00"
 }

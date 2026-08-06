@@ -17,20 +17,20 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 81,
-    "feels_like_f": 79,
-    "wind_mph": 7,
-    "gusts_mph": 8,
+    "temp_f": 91,
+    "feels_like_f": 89,
+    "wind_mph": 10,
+    "gusts_mph": 10,
     "rain_pct": 1
   },
   "sunrise": "2026-08-06T05:40",
   "sunset": "2026-08-06T19:29",
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,34 +39,26 @@
     "risk_level": "low",
     "nearest_fire_km": 115.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Cliff Spring",
-      "acres": 170,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-04T19:48:51.527000+00:00",
-      "distance_km": 27.5,
-      "direction": "ENE"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-06",
-      "high_f": 95,
+      "high_f": 96,
       "low_f": 68,
-      "rain_pct": 17,
+      "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-08-06T05:40",
       "sunset": "2026-08-06T19:29",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-07",
       "high_f": 93,
       "low_f": 69,
-      "rain_pct": 8,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-08-07T05:41",
       "sunset": "2026-08-07T19:28",
@@ -75,7 +67,7 @@
     },
     {
       "date": "2026-08-08",
-      "high_f": 96,
+      "high_f": 97,
       "low_f": 67,
       "rain_pct": 13,
       "uv": 8,
@@ -87,7 +79,7 @@
     {
       "date": "2026-08-09",
       "high_f": 95,
-      "low_f": 67,
+      "low_f": 70,
       "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-08-09T05:42",
@@ -97,8 +89,8 @@
     },
     {
       "date": "2026-08-10",
-      "high_f": 92,
-      "low_f": 70,
+      "high_f": 94,
+      "low_f": 69,
       "rain_pct": 37,
       "uv": 8,
       "sunrise": "2026-08-10T05:43",
@@ -107,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-06T16:14:16.874200+00:00"
+  "updated_at": "2026-08-06T19:36:33.715921+00:00"
 }

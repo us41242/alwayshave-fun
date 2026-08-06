@@ -4,6 +4,37 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-06 — Session 28 (nightly) — PARTICIPATION ROUND 10 (WILDFIRE-RECORD THREAD); WIDEMOUTH 2 COMMENT AT +6; STALE INBOX FLAGS CLEARED
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** at 7d and 28d (data through 08-02). Sitemap still `pending` (day 3 of the 1–3 week watch; decision point 2026-08-24). No weekly section — report #4 filed 08-03.
+- Pipeline healthy: data commits every 30 min through 03:52Z. `git pull --rebase -X theirs` clean.
+- **Session 27 reception:** `p1siao5` (Widemouth 2 update) at **+6** — new highest-scoring comment, beating the site mention's +5 (`p1l4u8m`, now +4). The r/arizona debut `p1si3ts` sits at +1, uncollapsed, no mod action — neutral, surface still unproven. Full history: 13 comments, all live, none collapsed.
+- **Cleared the stale inbox flags.** The two "unread" messages every session re-checks are the July Cedar City replies (both children of `ozmi6b2`, answered in Session 19 by `ozt1k8i`). `POST /api/read_all_messages` → 202; future orients see a genuinely empty inbox.
+
+### Did — participation round 10 (one comment, data-only, no site mention)
+- **`p1zvez1` in r/Utah `1vgi358`** ("Utah shatters record for woodland area lost to wildfires", 334 up / 21 comments) — thread had the KSL headline stat and jokes, but nobody had the live picture. Posted the WFIGS active-incident table (>1,000 ac): **Widemouth 2 at 96,702 ac / 10% contained / 540 personnel — +12,293 acres in the 24h since Session 27's 84,409, but its FIRST containment ever after a week at 0%**; Babylon 107,189 (95%); Cottonwood 97,464 (95%); new Black Canyon (Sanpete Co) 1,736 ac 0% w/ 196 personnel; ~322k acres on active incidents alone, consistent with the article's record. Smoke: 9pm AirNow hourly monitors, Wasatch Front Moderate (Brigham City 85, Erda 76, Copper View 75, Spanish Fork 72), light winds pooling it in valleys through Thursday, fire.airnow.gov pointer. No mention — round 8's disclosed mention keeps the 90/10 ratio; the next mention needs someone asking or a directly-on-point conditions question.
+
+### Verified
+- `p1zvez1` live via authed `api/info`: score 1, `collapsed=false`, `banned_by=null`. Tally: **14 comments, all live, none collapsed.**
+- Every number pulled live tonight: WFIGS FeatureServer (IncidentSize/PercentContained, FireOutDateTime IS NULL), AirNow `aq/data` hourly bbox endpoint. None from memory.
+- Live site (real-UA curl): homepage 200; `/sitemap.xml` valid XML, 116 URLs.
+
+### Learned
+- Widemouth 2's growth is slowing in relative terms (+16.2k → +12.3k acres/day) and containment finally started (0% → 10%) — the r/Utah fire-thread surface probably has a few more days of life, then reverts to trip-planning threads as the durable surface.
+- The stale-unread flags were pure orient friction three sessions running; one `read_all_messages` call ends it. Clear operational noise when you notice it recurring, don't just re-note it.
+
+### Expect
+- No GSC movement expected before the 2026-08-24 sitemap decision point.
+- `p1zvez1` is on the sub's current front-page story — good odds of votes/replies; check next session alongside `p1si3ts` (r/arizona still needs one positive signal before AZ becomes a regular surface).
+
+### Upcoming
+- Check `p1zvez1` and `p1si3ts` reception next session.
+- Homepage recrawl watch: last crawl 2026-06-20 (47 days).
+- Open question for Josh (3+ weeks, non-blocking): widen the CF API token to read Workers Builds.
+
+---
+
 ## 2026-08-05 — Session 27 (nightly) — SITE MENTION VALIDATED (+5); FIRST r/arizona COMMENT; REDDIT TOKEN PATH REPAIRED
 
 ### Oriented

@@ -19,12 +19,14 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 69,
-    "wind_mph": 6,
-    "gusts_mph": 7,
+    "temp_f": 72,
+    "feels_like_f": 60,
+    "wind_mph": 17,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-08-05T06:02",
@@ -37,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 149.4,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Woods Lake",
@@ -65,7 +67,7 @@
     {
       "date": "2026-08-06",
       "high_f": 80,
-      "low_f": 64,
+      "low_f": 63,
       "rain_pct": 4,
       "uv": 9,
       "sunrise": "2026-08-06T06:03",
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-06T02:14:40.421663+00:00"
+  "updated_at": "2026-08-06T02:47:49.116915+00:00"
 }

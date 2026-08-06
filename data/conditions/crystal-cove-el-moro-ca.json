@@ -17,86 +17,74 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 76,
-    "wind_mph": 3,
-    "gusts_mph": 5,
+    "temp_f": 72,
+    "feels_like_f": 77,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-05T06:06",
-  "sunset": "2026-08-05T19:47",
+  "sunrise": "2026-08-06T06:07",
+  "sunset": "2026-08-06T19:46",
   "aqi": {
-    "aqi": 52,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "high",
-    "nearest_fire_km": 5.0,
-    "fire_count_50km": 24,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Shelter",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-03T04:42:30.243000+00:00",
-      "distance_km": 24.9,
-      "direction": "ENE"
+      "name": "Mateo",
+      "acres": 1335,
+      "containment_pct": 100,
+      "cause": "Human",
+      "updated": "2026-07-27T14:12:31.670000+00:00",
+      "distance_km": 34.7,
+      "direction": "ESE"
     }
   },
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-05",
-      "high_f": 76,
-      "low_f": 65,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-05T06:06",
-      "sunset": "2026-08-05T19:47",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-08-06",
       "high_f": 77,
-      "low_f": 68,
-      "rain_pct": 2,
+      "low_f": 66,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-06T06:07",
       "sunset": "2026-08-06T19:46",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-07",
-      "high_f": 81,
-      "low_f": 65,
-      "rain_pct": 2,
+      "high_f": 76,
+      "low_f": 67,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-07T06:08",
       "sunset": "2026-08-07T19:45",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-08",
-      "high_f": 88,
-      "low_f": 73,
+      "high_f": 87,
+      "low_f": 67,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
       "sunset": "2026-08-08T19:44",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-09",
@@ -106,9 +94,20 @@
       "uv": 8,
       "sunrise": "2026-08-09T06:09",
       "sunset": "2026-08-09T19:43",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-10",
+      "high_f": 87,
+      "low_f": 74,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-10T06:10",
+      "sunset": "2026-08-10T19:43",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-06T05:09:31.625369+00:00"
+  "updated_at": "2026-08-06T15:12:08.985425+00:00"
 }

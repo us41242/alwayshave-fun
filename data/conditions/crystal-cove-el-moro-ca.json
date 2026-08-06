@@ -17,25 +17,26 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 44,
-  "score_label": "Conditions poor",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 77,
-    "feels_like_f": 86,
+    "feels_like_f": 84,
     "wind_mph": 8,
-    "gusts_mph": 12,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-06T06:07",
   "sunset": "2026-08-06T19:46",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 54,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -53,19 +54,19 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:07",
       "sunset": "2026-08-06T19:46",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-07",
       "high_f": 76,
-      "low_f": 65,
+      "low_f": 64,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-07T06:08",
       "sunset": "2026-08-07T19:45",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-08",
@@ -75,8 +76,8 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
       "sunset": "2026-08-08T19:44",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-09",
@@ -86,8 +87,8 @@
       "uv": 7,
       "sunrise": "2026-08-09T06:09",
       "sunset": "2026-08-09T19:43",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-10",
@@ -97,9 +98,9 @@
       "uv": 8,
       "sunrise": "2026-08-10T06:10",
       "sunset": "2026-08-10T19:43",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-06T21:11:47.644912+00:00"
+  "updated_at": "2026-08-06T22:14:07.737737+00:00"
 }

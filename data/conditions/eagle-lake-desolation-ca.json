@@ -23,8 +23,8 @@
   "current": {
     "temp_f": 80,
     "feels_like_f": 75,
-    "wind_mph": 11,
-    "gusts_mph": 15,
+    "wind_mph": 12,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-08-06T06:06",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 104.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Shingle",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-06T19:50:04.720000+00:00",
+      "distance_km": 78.0,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -56,7 +64,7 @@
     },
     {
       "date": "2026-08-07",
-      "high_f": 82,
+      "high_f": 83,
       "low_f": 65,
       "rain_pct": 3,
       "uv": 8,
@@ -68,7 +76,7 @@
     {
       "date": "2026-08-08",
       "high_f": 81,
-      "low_f": 58,
+      "low_f": 60,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-06T19:43:57.024478+00:00"
+  "updated_at": "2026-08-06T20:17:35.003544+00:00"
 }

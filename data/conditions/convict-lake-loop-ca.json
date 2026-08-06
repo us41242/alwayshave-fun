@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 78,
+    "temp_f": 85,
+    "feels_like_f": 77,
     "wind_mph": 13,
     "gusts_mph": 14,
-    "rain_pct": 3
+    "rain_pct": 4
   },
   "sunrise": "2026-08-06T06:03",
   "sunset": "2026-08-06T19:58",
@@ -41,20 +41,28 @@
     "risk_level": "low",
     "nearest_fire_km": 153.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Raleigh",
+      "acres": 30.94,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-07-30T00:26:12.230000+00:00",
+      "distance_km": 82.4,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-06",
-      "high_f": 86,
+      "high_f": 85,
       "low_f": 62,
       "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-08-06T06:03",
       "sunset": "2026-08-06T19:58",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-07",
@@ -69,14 +77,14 @@
     },
     {
       "date": "2026-08-08",
-      "high_f": 86,
-      "low_f": 65,
+      "high_f": 85,
+      "low_f": 64,
       "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-08-08T06:05",
       "sunset": "2026-08-08T19:56",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-09",
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-06T23:12:30.669899+00:00"
+  "updated_at": "2026-08-06T23:43:01.183864+00:00"
 }

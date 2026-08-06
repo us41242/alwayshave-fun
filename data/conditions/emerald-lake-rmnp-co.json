@@ -24,10 +24,10 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 70,
+    "temp_f": 71,
     "feels_like_f": 60,
-    "wind_mph": 12,
-    "gusts_mph": 19,
+    "wind_mph": 10,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "sunrise": "2026-08-06T06:05",
@@ -42,7 +42,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 39.5,
     "fire_count_50km": 4,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Indian Creek",
+      "acres": 31,
+      "containment_pct": null,
+      "cause": "Human",
+      "updated": "2026-08-06T17:53:02.360000+00:00",
+      "distance_km": 70.1,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -60,7 +68,7 @@
     {
       "date": "2026-08-07",
       "high_f": 74,
-      "low_f": 54,
+      "low_f": 55,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-07T06:06",
@@ -71,7 +79,7 @@
     {
       "date": "2026-08-08",
       "high_f": 79,
-      "low_f": 58,
+      "low_f": 57,
       "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-08T06:07",
@@ -92,15 +100,15 @@
     },
     {
       "date": "2026-08-10",
-      "high_f": 76,
+      "high_f": 75,
       "low_f": 51,
       "rain_pct": 64,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-08-10T06:09",
       "sunset": "2026-08-10T20:06",
       "predicted_score": 36,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-06T23:09:27.875738+00:00"
+  "updated_at": "2026-08-06T23:39:53.857036+00:00"
 }

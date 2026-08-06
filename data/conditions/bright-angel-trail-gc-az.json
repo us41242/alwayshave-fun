@@ -19,20 +19,18 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 69,
-    "wind_mph": 24,
-    "gusts_mph": 28,
-    "rain_pct": 28
+    "temp_f": 84,
+    "feels_like_f": 76,
+    "wind_mph": 11,
+    "gusts_mph": 12,
+    "rain_pct": 26
   },
   "sunrise": "2026-08-06T05:40",
   "sunset": "2026-08-06T19:28",
   "aqi": {
-    "aqi": 48,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,10 +39,18 @@
     "risk_level": "low",
     "nearest_fire_km": 121.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cliff Spring",
+      "acres": 170,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-04T19:48:51.527000+00:00",
+      "distance_km": 21.2,
+      "direction": "ENE"
+    }
   },
   "river": {
-    "cfs": 8850,
+    "cfs": 8990,
     "stage": null,
     "gauge_id": "09402500"
   },
@@ -52,7 +58,7 @@
     {
       "date": "2026-08-06",
       "high_f": 93,
-      "low_f": 65,
+      "low_f": 64,
       "rain_pct": 28,
       "uv": 8,
       "sunrise": "2026-08-06T05:40",
@@ -63,7 +69,7 @@
     {
       "date": "2026-08-07",
       "high_f": 89,
-      "low_f": 67,
+      "low_f": 63,
       "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-08-07T05:40",
@@ -84,8 +90,8 @@
     },
     {
       "date": "2026-08-09",
-      "high_f": 93,
-      "low_f": 66,
+      "high_f": 92,
+      "low_f": 65,
       "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-08-09T05:42",
@@ -95,8 +101,8 @@
     },
     {
       "date": "2026-08-10",
-      "high_f": 92,
-      "low_f": 66,
+      "high_f": 90,
+      "low_f": 65,
       "rain_pct": 32,
       "uv": 8,
       "sunrise": "2026-08-10T05:43",
@@ -105,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-06T23:04:25.408674+00:00"
+  "updated_at": "2026-08-06T23:34:58.463314+00:00"
 }

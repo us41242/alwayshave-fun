@@ -24,10 +24,10 @@
   ],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 61,
-    "wind_mph": 13,
-    "gusts_mph": 14,
-    "rain_pct": 0
+    "feels_like_f": 62,
+    "wind_mph": 8,
+    "gusts_mph": 12,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-06T05:41",
   "sunset": "2026-08-06T19:43",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 64.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8775,
+      "containment_pct": 5,
+      "cause": "Natural",
+      "updated": "2026-08-06T01:42:30.580000+00:00",
+      "distance_km": 63.7,
+      "direction": "WSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
     {
       "date": "2026-08-07",
       "high_f": 69,
-      "low_f": 51,
+      "low_f": 50,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-07T05:42",
@@ -69,7 +77,7 @@
     },
     {
       "date": "2026-08-08",
-      "high_f": 74,
+      "high_f": 73,
       "low_f": 52,
       "rain_pct": 23,
       "uv": 8,
@@ -80,10 +88,10 @@
     },
     {
       "date": "2026-08-09",
-      "high_f": 72,
+      "high_f": 71,
       "low_f": 54,
       "rain_pct": 37,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-09T05:44",
       "sunset": "2026-08-09T19:39",
       "predicted_score": 52,
@@ -92,7 +100,7 @@
     {
       "date": "2026-08-10",
       "high_f": 71,
-      "low_f": 56,
+      "low_f": 55,
       "rain_pct": 29,
       "uv": 8,
       "sunrise": "2026-08-10T05:45",
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-06T23:08:13.208558+00:00"
+  "updated_at": "2026-08-06T23:39:49.918140+00:00"
 }

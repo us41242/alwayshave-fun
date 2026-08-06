@@ -32,10 +32,10 @@
   "sunrise": "2026-08-05T06:36",
   "sunset": "2026-08-05T20:33",
   "aqi": {
-    "aqi": 58,
+    "aqi": 76,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -59,7 +59,7 @@
     {
       "date": "2026-08-06",
       "high_f": 87,
-      "low_f": 61,
+      "low_f": 60,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-06T06:37",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-06T00:01:51.051830+00:00"
+  "updated_at": "2026-08-06T00:33:15.821327+00:00"
 }

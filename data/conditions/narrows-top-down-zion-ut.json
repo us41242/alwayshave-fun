@@ -17,20 +17,20 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 82,
-    "wind_mph": 7,
+    "temp_f": 85,
+    "feels_like_f": 85,
+    "wind_mph": 6,
     "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T06:41",
   "sunset": "2026-08-07T20:33",
   "aqi": {
-    "aqi": 36,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 139.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-07T00:30:55.370000+00:00",
+      "distance_km": 98.8,
+      "direction": "NNE"
+    }
   },
   "river": {
     "cfs": 31,
@@ -103,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-07T17:04:10.845288+00:00"
+  "updated_at": "2026-08-07T17:39:15.763312+00:00"
 }

@@ -17,34 +17,36 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 62,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 91,
+    "temp_f": 93,
+    "feels_like_f": 88,
     "wind_mph": 14,
-    "gusts_mph": 18,
+    "gusts_mph": 22,
     "rain_pct": 1
   },
   "sunrise": "2026-08-06T05:51",
   "sunset": "2026-08-06T19:38",
   "aqi": {
-    "aqi": 45,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 72.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ivanpah",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-07T00:58:30.533000+00:00",
+      "updated": "2026-08-07T02:18:15.143000+00:00",
       "distance_km": 60.3,
       "direction": "SW"
     }
@@ -59,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-08-06T05:51",
       "sunset": "2026-08-06T19:38",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -70,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-08-07T05:52",
       "sunset": "2026-08-07T19:37",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-08T05:53",
       "sunset": "2026-08-08T19:36",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-09T05:53",
       "sunset": "2026-08-09T19:35",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 7,
       "sunrise": "2026-08-10T05:54",
       "sunset": "2026-08-10T19:34",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T02:08:48.095763+00:00"
+  "updated_at": "2026-08-07T02:36:43.596530+00:00"
 }

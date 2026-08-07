@@ -21,11 +21,11 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 77,
-    "wind_mph": 8,
-    "gusts_mph": 10,
-    "rain_pct": 5
+    "temp_f": 79,
+    "feels_like_f": 76,
+    "wind_mph": 10,
+    "gusts_mph": 13,
+    "rain_pct": 7
   },
   "sunrise": "2026-08-07T06:07",
   "sunset": "2026-08-07T20:00",
@@ -37,9 +37,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 145.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Kirkwood",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "updated": "2026-08-07T16:46:48.970000+00:00",
+      "distance_km": 65.9,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,7 +55,7 @@
       "date": "2026-08-07",
       "high_f": 79,
       "low_f": 61,
-      "rain_pct": 6,
+      "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-07T06:07",
       "sunset": "2026-08-07T20:00",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-07T21:43:02.825776+00:00"
+  "updated_at": "2026-08-07T22:12:38.230507+00:00"
 }

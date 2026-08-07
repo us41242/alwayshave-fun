@@ -24,24 +24,32 @@
   ],
   "current": {
     "temp_f": 87,
-    "feels_like_f": 79,
-    "wind_mph": 15,
-    "gusts_mph": 16,
-    "rain_pct": 3
+    "feels_like_f": 78,
+    "wind_mph": 14,
+    "gusts_mph": 15,
+    "rain_pct": 2
   },
   "sunrise": "2026-08-07T06:04",
   "sunset": "2026-08-07T19:57",
   "aqi": {
-    "aqi": 83,
+    "aqi": 81,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 195.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Bdu/Toomey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-07T21:22:26.907000+00:00",
+      "distance_km": 44.2,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
@@ -49,7 +57,7 @@
       "date": "2026-08-07",
       "high_f": 87,
       "low_f": 65,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-07T06:04",
       "sunset": "2026-08-07T19:57",
@@ -59,8 +67,8 @@
     {
       "date": "2026-08-08",
       "high_f": 84,
-      "low_f": 68,
-      "rain_pct": 11,
+      "low_f": 66,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-08-08T06:05",
       "sunset": "2026-08-08T19:56",
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-07T21:46:31.995495+00:00"
+  "updated_at": "2026-08-07T22:15:31.131118+00:00"
 }

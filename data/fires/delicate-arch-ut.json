@@ -1,12 +1,20 @@
 {
   "slug": "delicate-arch-ut",
   "name": "Delicate Arch",
-  "updated_at": "2026-08-07T01:32:05.736655+00:00",
-  "risk_level": "moderate",
-  "score_pts": 12,
-  "nearest_fire_km": 81.4,
+  "updated_at": "2026-08-07T02:03:45.121683+00:00",
+  "risk_level": "low",
+  "score_pts": 20,
+  "nearest_fire_km": null,
   "fire_count_20km": 0,
   "fire_count_50km": 0,
-  "fire_count_100km": 1,
-  "nearest_incident": null
+  "fire_count_100km": 0,
+  "nearest_incident": {
+    "name": "Snipe",
+    "acres": 5,
+    "containment_pct": null,
+    "cause": "Undetermined",
+    "updated": "2026-08-06T15:22:47.010000+00:00",
+    "distance_km": 81.3,
+    "direction": "ESE"
+  }
 }

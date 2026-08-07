@@ -24,22 +24,22 @@
   ],
   "current": {
     "temp_f": 66,
-    "feels_like_f": 60,
-    "wind_mph": 10,
-    "gusts_mph": 12,
+    "feels_like_f": 61,
+    "wind_mph": 8,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T05:40",
   "sunset": "2026-08-07T19:27",
   "aqi": {
-    "aqi": 58,
+    "aqi": 61,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 121.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cliff Spring",
@@ -52,14 +52,14 @@
     }
   },
   "river": {
-    "cfs": 7990,
+    "cfs": 7730,
     "stage": null,
     "gauge_id": "09402500"
   },
   "forecast": [
     {
       "date": "2026-08-07",
-      "high_f": 89,
+      "high_f": 90,
       "low_f": 66,
       "rain_pct": 15,
       "uv": 8,
@@ -71,7 +71,7 @@
     {
       "date": "2026-08-08",
       "high_f": 91,
-      "low_f": 63,
+      "low_f": 66,
       "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-08-08T05:41",
@@ -113,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T08:06:20.426787+00:00"
+  "updated_at": "2026-08-07T08:37:15.086046+00:00"
 }

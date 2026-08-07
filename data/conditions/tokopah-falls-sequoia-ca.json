@@ -23,16 +23,16 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
+    "temp_f": 80,
     "feels_like_f": 81,
     "wind_mph": 6,
-    "gusts_mph": 6,
-    "rain_pct": 0
+    "gusts_mph": 7,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-07T06:06",
   "sunset": "2026-08-07T19:55",
   "aqi": {
-    "aqi": 84,
+    "aqi": 90,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 105.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cabin",
+      "acres": 1.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-07T07:17:30.900000+00:00",
+      "distance_km": 36.1,
+      "direction": "SSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-07T18:11:24.208848+00:00"
+  "updated_at": "2026-08-07T18:47:09.743698+00:00"
 }

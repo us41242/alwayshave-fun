@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 68,
-    "wind_mph": 6,
-    "gusts_mph": 12,
+    "temp_f": 72,
+    "feels_like_f": 67,
+    "wind_mph": 10,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T06:06",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 63.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Indian Creek",
+      "acres": 31,
+      "containment_pct": null,
+      "cause": "Human",
+      "updated": "2026-08-06T17:53:02.360000+00:00",
+      "distance_km": 70.1,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T18:09:08.902209+00:00"
+  "updated_at": "2026-08-07T18:41:35.261184+00:00"
 }

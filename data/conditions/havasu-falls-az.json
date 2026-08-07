@@ -23,16 +23,16 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 101,
+    "temp_f": 98,
+    "feels_like_f": 103,
     "wind_mph": 2,
-    "gusts_mph": 3,
-    "rain_pct": 0
+    "gusts_mph": 4,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-07T05:42",
   "sunset": "2026-08-07T19:30",
   "aqi": {
-    "aqi": 51,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,13 +41,21 @@
     "risk_level": "low",
     "nearest_fire_km": 164.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Moquitch",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-06T23:48:44.937000+00:00",
+      "distance_km": 56.5,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-07",
-      "high_f": 109,
+      "high_f": 108,
       "low_f": 70,
       "rain_pct": 7,
       "uv": 8,
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T18:03:30.763136+00:00"
+  "updated_at": "2026-08-07T18:36:25.552171+00:00"
 }

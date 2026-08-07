@@ -4,6 +4,46 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-07 — Session 29 (nightly) — SHIPPED `/fires`: THE PAGE WE'VE BEEN HAND-BUILDING IN REDDIT COMMENTS FOR 5 SESSIONS
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** at both 7d and 28d (data through 08-03). Sitemap still `pending` — day 4 of the 1–3 week watch, decision point 2026-08-24. No weekly section: report #4 filed 08-03 (Monday), next is 08-10.
+- Pipeline healthy — runs at :00/:30, all `success`, data commits through 04:15Z. Local was 24h behind origin at session start (not an outage; just an unpulled clone).
+- Reddit reception check: `p1siao5` **+6** and `p1l4u8m` **+6** (both r/Utah, tied for account high); Session 28's `p1zvez1` at +1 and the r/arizona debut `p1si3ts` at +1 — both live, uncollapsed, no mod action, no replies. **Tally: 14 comments, all live, none collapsed.** No comment tonight — see Decided.
+
+### Decided
+Five sessions running, the genuinely useful thing this operator produces has been a hand-assembled table of active NIFC/WFIGS incidents — acres, containment, personnel, growth — typed into a Reddit thread and then thrown away. The same feed is already fetched **every 30 minutes** by `fetch_fires.py`, which keeps only the nearest incident per trail and discards the other ~175. Nobody publishes that table for the Southwest in one place. So tonight's action was to stop throwing it away and publish it: **`/fires`**. It renews itself (the freshness moat the charter asks for), costs zero new API calls, is honestly sourced and timestamped, and is the first thing on this site that is *citable* — which is the Phase 3 constraint. One page beat one more comment.
+
+### Did
+- **`scripts/fetch_fires.py`** — same WFIGS query, three more `outFields` (`POOState`, `TotalIncidentPersonnel`, `FireDiscoveryDateTime`), and the full list now persists to **`data/fires/incidents.json`** (179 incidents in the bbox tonight). `nearest_incident()` untouched — it reads a fixed key set, so the per-trail fire card is unaffected.
+- **`scripts/build_fires.py`** (new) → `generated/fires/index.html`. Filter: **≥100 acres, in NV/UT/AZ/CO/CA, containment < 100%** — 28 incidents tonight, 598,162 acres, 6 at 0% contained. Grouped by state (most acres first), each row: acres, containment (color-coded), cause, discovery date + days burning, personnel, and **every trail we track within 100 km, linked** (13 of 28 incidents link to trails — Bryce, Garden of the Gods, Ice Lake Basin, Maroon Bells…). Read timestamp stated in the hero and the footer; empty feed renders an explicit "no fires over 100 acres" statement rather than a blank table (hard rule 4). CollectionPage + BreadcrumbList + FAQPage schema, FAQ visible on the page to match.
+- **`scripts/test_build_fires.py`** (new) — fixture asserts the three filters (contained / under-size / out-of-state all drop), the 100 km trail match, the stamped read time, the canonical, and the empty-feed copy.
+- **Wiring:** worker.js route `/fires`; sitemap entry (117 URLs); `build_fires.py` added to the pipeline after `build_dog_friendly.py`; footer links from the homepage, all 5 state pages, and `/dog-friendly` (static, crawlable — the discovery path, not just the sitemap).
+
+### Verified
+- `test_build_fires.py` passes. Local render checked against tonight's live feed before push.
+- Pushed `c4978685d31` in the gap between the 04:00 and 04:30 pipeline runs (no race).
+- **The pipeline regenerated the page itself** — CI log for run 31147651042: `✓ fires/index.html (28 active incidents)`, sitemap 46 trails, `IndexNow → 200 (67 URLs)` (up from 53 — the sitemap-driven submitter picked `/fires` up automatically), `Cache purge: success`.
+- Live (real-UA curl): `/fires` 200, 31 KB, correct `<title>`, canonical `https://alwayshave.fun/fires`, 28 incident rows, JSON-LD parses. Homepage carries `href="/fires"`; live `/sitemap.xml` valid XML, 117 URLs, includes `/fires`. `/az` `/co` `/dog-friendly` still 200; unknown path still 404 — no new soft-404s.
+- **End-to-end proof:** live page stamp moved from my hand-generated 04:19 UTC to CI's **04:32 UTC** within ~2 min of the run's purge — the 30-minute self-refresh works in production, not just locally.
+
+### Learned
+- The most valuable data on this site was being fetched and discarded 48 times a day. Worth periodically asking of every fetch script: *what does it throw away, and would a page of it be useful?*
+- Cloudflare's purge fires before the Worker finishes deploying, so a live check inside ~2 min of a run can serve the previous build. Re-check after the deploy settles before concluding anything is wrong.
+
+### Expect
+- No GSC movement before the 2026-08-24 sitemap decision point; `/fires` is on IndexNow (Bing indexes 92/96 of our pages, so Bing should pick it up within days — that's the fast read on whether it lands).
+- The real payoff is Phase 3: the next r/Utah or r/arizona fire thread gets the data answer *plus* a page holding the same table, which is a mention that earns its place instead of a link drop.
+
+### Upcoming
+- Watch Bing for `/fires` indexation (BWT API) — first signal, days not weeks.
+- Next fire-thread participation round can reference `/fires` (90/10 rule still holds; the data answer stands alone).
+- Homepage recrawl watch: last crawl 2026-06-20 (48 days).
+- Weekly report #5 due Monday 2026-08-10.
+- Open question for Josh (4 weeks, non-blocking): widen the CF API token to read Workers Builds.
+
+---
+
 ## 2026-08-06 — Session 28 (nightly) — PARTICIPATION ROUND 10 (WILDFIRE-RECORD THREAD); WIDEMOUTH 2 COMMENT AT +6; STALE INBOX FLAGS CLEARED
 
 ### Oriented

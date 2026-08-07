@@ -17,7 +17,7 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
@@ -29,85 +29,21 @@
     "gusts_mph": 16,
     "rain_pct": 22
   },
-  "sunrise": "2026-08-06T06:41",
-  "sunset": "2026-08-06T20:35",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 58,
+    "aqi": 51,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 139.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Cottonwood",
-      "acres": 97464,
-      "containment_pct": 95,
-      "cause": "Undetermined",
-      "updated": "2026-08-07T00:30:55.370000+00:00",
-      "distance_km": 98.3,
-      "direction": "NNE"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-06",
-      "high_f": 95,
-      "low_f": 70,
-      "rain_pct": 24,
-      "uv": 8,
-      "sunrise": "2026-08-06T06:41",
-      "sunset": "2026-08-06T20:35",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-07",
-      "high_f": 93,
-      "low_f": 69,
-      "rain_pct": 12,
-      "uv": 8,
-      "sunrise": "2026-08-07T06:42",
-      "sunset": "2026-08-07T20:34",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-08",
-      "high_f": 95,
-      "low_f": 71,
-      "rain_pct": 23,
-      "uv": 8,
-      "sunrise": "2026-08-08T06:43",
-      "sunset": "2026-08-08T20:33",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-09",
-      "high_f": 95,
-      "low_f": 68,
-      "rain_pct": 21,
-      "uv": 8,
-      "sunrise": "2026-08-09T06:43",
-      "sunset": "2026-08-09T20:32",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-10",
-      "high_f": 93,
-      "low_f": 70,
-      "rain_pct": 26,
-      "uv": 8,
-      "sunrise": "2026-08-10T06:44",
-      "sunset": "2026-08-10T20:31",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-07T01:11:50.172198+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-07T01:44:53.728061+00:00"
 }

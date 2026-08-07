@@ -21,11 +21,11 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 36,
-    "wind_mph": 14,
-    "gusts_mph": 14,
-    "rain_pct": 10
+    "temp_f": 49,
+    "feels_like_f": 42,
+    "wind_mph": 5,
+    "gusts_mph": 5,
+    "rain_pct": 8
   },
   "sunrise": "2026-08-06T06:03",
   "sunset": "2026-08-06T19:54",
@@ -37,17 +37,9 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 141.4,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Woods Lake",
-      "acres": 2,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-06T19:38:07.293000+00:00",
-      "distance_km": 35.2,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -55,17 +47,17 @@
       "date": "2026-08-06",
       "high_f": 51,
       "low_f": 38,
-      "rain_pct": 10,
+      "rain_pct": 8,
       "uv": 9,
       "sunrise": "2026-08-06T06:03",
       "sunset": "2026-08-06T19:54",
-      "predicted_score": 88,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-07",
       "high_f": 53,
-      "low_f": 37,
+      "low_f": 36,
       "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-07T06:04",
@@ -107,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-07T01:13:05.749390+00:00"
+  "updated_at": "2026-08-07T01:45:00.183494+00:00"
 }

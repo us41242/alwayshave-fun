@@ -17,30 +17,27 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended",
-    "mask for sensitive groups"
-  ],
+  "score": 40,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
-    "temp_f": 91,
-    "feels_like_f": 82,
+    "temp_f": 90,
+    "feels_like_f": 81,
     "wind_mph": 14,
-    "gusts_mph": 20,
-    "rain_pct": 4
+    "gusts_mph": 18,
+    "rain_pct": 7
   },
   "sunrise": "2026-08-06T06:37",
   "sunset": "2026-08-06T20:29",
   "aqi": {
-    "aqi": 71,
-    "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 124.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Moquitch",
@@ -62,19 +59,19 @@
       "uv": 8,
       "sunrise": "2026-08-06T06:37",
       "sunset": "2026-08-06T20:29",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-07",
       "high_f": 105,
       "low_f": 75,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-07T06:38",
       "sunset": "2026-08-07T20:28",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-08",
@@ -84,31 +81,31 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:38",
       "sunset": "2026-08-08T20:27",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-09",
       "high_f": 102,
       "low_f": 77,
-      "rain_pct": 19,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-08-09T06:39",
       "sunset": "2026-08-09T20:26",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-10",
       "high_f": 100,
       "low_f": 76,
-      "rain_pct": 17,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-08-10T06:40",
       "sunset": "2026-08-10T20:25",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-07T02:38:38.537485+00:00"
+  "updated_at": "2026-08-07T03:18:19.575409+00:00"
 }

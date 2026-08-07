@@ -24,16 +24,16 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 61,
+    "temp_f": 64,
+    "feels_like_f": 63,
     "wind_mph": 4,
-    "gusts_mph": 7,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T06:20",
   "sunset": "2026-08-07T20:13",
   "aqi": {
-    "aqi": 69,
+    "aqi": 66,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -41,16 +41,8 @@
   "fire": {
     "risk_level": "elevated",
     "nearest_fire_km": 40.4,
-    "fire_count_50km": 27,
-    "nearest_incident": {
-      "name": "Gold Mountain",
-      "acres": 39507,
-      "containment_pct": 90,
-      "cause": "Undetermined",
-      "updated": "2026-08-06T23:16:29.487000+00:00",
-      "distance_km": 32.6,
-      "direction": "NNE"
-    }
+    "fire_count_50km": 26,
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -110,5 +102,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-07T18:42:51.657161+00:00"
+  "updated_at": "2026-08-07T19:13:33.657875+00:00"
 }

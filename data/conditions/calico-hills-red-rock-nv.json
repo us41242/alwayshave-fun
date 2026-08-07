@@ -21,41 +21,33 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
+    "temp_f": 80,
     "feels_like_f": 78,
-    "wind_mph": 12,
-    "gusts_mph": 18,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T05:53",
   "sunset": "2026-08-07T19:41",
   "aqi": {
-    "aqi": 44,
+    "aqi": 29,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 50.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Madre",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-07T05:08:30.287000+00:00",
-      "distance_km": 13.3,
-      "direction": "WSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-07",
       "high_f": 100,
-      "low_f": 83,
-      "rain_pct": 13,
+      "low_f": 81,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-08-07T05:53",
       "sunset": "2026-08-07T19:41",
@@ -107,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T13:01:43.709107+00:00"
+  "updated_at": "2026-08-07T13:33:20.059149+00:00"
 }

@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 95,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "temp_f": 99,
+    "feels_like_f": 93,
+    "wind_mph": 8,
+    "gusts_mph": 9,
     "rain_pct": 1
   },
   "sunrise": "2026-08-07T06:38",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 58.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wiggler Wash",
+      "acres": 1.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-07T21:31:03.170000+00:00",
+      "distance_km": 58.9,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [
@@ -60,7 +68,7 @@
       "date": "2026-08-08",
       "high_f": 100,
       "low_f": 73,
-      "rain_pct": 4,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-08T06:39",
       "sunset": "2026-08-08T20:27",
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-07T22:39:12.466307+00:00"
+  "updated_at": "2026-08-07T23:04:21.604150+00:00"
 }

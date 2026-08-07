@@ -23,9 +23,9 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 89,
-    "wind_mph": 6,
+    "temp_f": 95,
+    "feels_like_f": 85,
+    "wind_mph": 11,
     "gusts_mph": 18,
     "rain_pct": 1
   },
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 74.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Aspen Acres",
+      "acres": 101965,
+      "containment_pct": 72,
+      "cause": "Human",
+      "updated": "2026-08-07T23:00:01.303000+00:00",
+      "distance_km": 96.6,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
@@ -49,7 +57,7 @@
       "date": "2026-08-07",
       "high_f": 96,
       "low_f": 62,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-07T06:06",
       "sunset": "2026-08-07T20:04",
@@ -60,7 +68,7 @@
       "date": "2026-08-08",
       "high_f": 97,
       "low_f": 66,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-08T06:07",
       "sunset": "2026-08-08T20:02",
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-07T22:44:14.274751+00:00"
+  "updated_at": "2026-08-07T23:09:11.019618+00:00"
 }

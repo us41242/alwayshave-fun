@@ -21,11 +21,11 @@
   "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 81,
-    "wind_mph": 11,
-    "gusts_mph": 13,
-    "rain_pct": 0
+    "temp_f": 86,
+    "feels_like_f": 80,
+    "wind_mph": 14,
+    "gusts_mph": 16,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-07T06:04",
   "sunset": "2026-08-07T19:57",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 163.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Kirkwood",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "updated": "2026-08-07T16:46:48.970000+00:00",
+      "distance_km": 60.4,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T19:45:04.771374+00:00"
+  "updated_at": "2026-08-07T20:16:10.992496+00:00"
 }

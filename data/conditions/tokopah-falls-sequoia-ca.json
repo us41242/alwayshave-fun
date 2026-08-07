@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 105.4,
+    "nearest_fire_km": 136.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cabin",
+      "acres": 1.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-07T07:17:30.900000+00:00",
+      "distance_km": 36.1,
+      "direction": "SSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T19:46:57.069791+00:00"
+  "updated_at": "2026-08-07T20:16:49.315005+00:00"
 }

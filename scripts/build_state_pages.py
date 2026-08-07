@@ -320,7 +320,8 @@ def build_state_page(state, trails, meta):
       <a href="/az">Arizona</a> &nbsp;·&nbsp;
       <a href="/co">Colorado</a> &nbsp;·&nbsp;
       <a href="/ca">California</a> &nbsp;·&nbsp;
-      <a href="/dog-friendly">🐕 Dog-Friendly</a><br>
+      <a href="/dog-friendly">🐕 Dog-Friendly</a> &nbsp;·&nbsp;
+      <a href="/fires">🔥 Active Fires</a><br>
       Weather via <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
       AQI via <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a><br>
       Conditions updated every 30 minutes &nbsp;·&nbsp; <a href="/">alwayshave.fun</a>

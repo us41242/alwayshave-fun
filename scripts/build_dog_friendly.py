@@ -234,7 +234,8 @@ def build_html(trails):
       <a href="/ut">Utah</a> &nbsp;·&nbsp;
       <a href="/az">Arizona</a> &nbsp;·&nbsp;
       <a href="/co">Colorado</a> &nbsp;·&nbsp;
-      <a href="/ca">California</a><br>
+      <a href="/ca">California</a> &nbsp;·&nbsp;
+      <a href="/fires">🔥 Active Fires</a><br>
       Conditions updated every 30 minutes &nbsp;·&nbsp; <a href="/">alwayshave.fun</a>
     </footer>
   </div>

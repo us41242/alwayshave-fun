@@ -87,6 +87,9 @@ def generate_sitemap(trails):
     # Great today page
     urls.append({"loc": f"{BASE_URL}/great-today", "lastmod": today})
 
+    # Active wildfires page
+    urls.append({"loc": f"{BASE_URL}/fires", "lastmod": today})
+
     # Dog-friendly landing page
     urls.append({"loc": f"{BASE_URL}/dog-friendly", "lastmod": today})
 

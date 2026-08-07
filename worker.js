@@ -77,6 +77,12 @@ export default {
       return env.ASSETS.fetch(new URL('/states.html', url.origin));
     }
 
+    // /fires  →  serve live active-wildfire page
+    if (parts.length === 1 && first === 'fires') {
+      const fRes = await env.ASSETS.fetch(new URL('/generated/fires/index.html', url.origin));
+      if (fRes.status === 200) return fRes;
+    }
+
     // /great-today  →  serve great trails page
     if (parts.length === 1 && first === 'great-today') {
       return env.ASSETS.fetch(new URL('/great-today.html', url.origin));

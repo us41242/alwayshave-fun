@@ -109,7 +109,8 @@ def fetch_wfigs_incidents():
         "inSR": "4326", "outSR": "4326",
         "spatialRel": "esriSpatialRelIntersects",
         "outFields": "IncidentName,IncidentSize,DiscoveryAcres,PercentContained,"
-                     "FireCause,FireCauseGeneral,ModifiedOnDateTime_dt",
+                     "FireCause,FireCauseGeneral,ModifiedOnDateTime_dt,"
+                     "POOState,TotalIncidentPersonnel,FireDiscoveryDateTime",
         "returnGeometry": "true",
         "f": "json",
     }
@@ -130,6 +131,7 @@ def fetch_wfigs_incidents():
             name = str(a["IncidentName"]).strip()
             if name.isupper():  # some dispatch systems shout ("MATEO" → "Mateo")
                 name = name.title()
+            disc = a.get("FireDiscoveryDateTime")
             incidents.append({
                 "name": name,
                 "acres": a.get("IncidentSize") if a.get("IncidentSize") is not None else a.get("DiscoveryAcres"),
@@ -138,6 +140,10 @@ def fetch_wfigs_incidents():
                 "lat": g["y"],
                 "lng": g["x"],
                 "updated": datetime.fromtimestamp(mod / 1000, timezone.utc).isoformat() if mod else None,
+                # /fires page only — nearest_incident() ignores these
+                "state": (a.get("POOState") or "").replace("US-", "") or None,
+                "personnel": a.get("TotalIncidentPersonnel"),
+                "discovered": datetime.fromtimestamp(disc / 1000, timezone.utc).isoformat() if disc else None,
             })
         print(f"  WFIGS: {len(incidents)} active incidents in region")
         return incidents
@@ -298,6 +304,16 @@ def main():
     trails    = load_trails()
     hotspots  = fetch_firms_csv()
     incidents = fetch_wfigs_incidents()
+
+    # Full incident list — feeds the /fires page (build_fires.py). Same query,
+    # no extra API cost; it used to be thrown away after the per-trail match.
+    with open("data/fires/incidents.json", "w") as f:
+        json.dump({
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "source": "NIFC/WFIGS Incident Locations (current)",
+            "count": len(incidents),
+            "incidents": sorted(incidents, key=lambda i: i.get("acres") or 0, reverse=True),
+        }, f, indent=2)
 
     print(f"  Processing {len(trails)} trails against {len(hotspots)} hotspots…")
     for trail in trails:

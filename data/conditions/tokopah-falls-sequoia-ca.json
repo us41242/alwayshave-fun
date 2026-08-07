@@ -23,8 +23,8 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 81,
-    "feels_like_f": 81,
+    "temp_f": 79,
+    "feels_like_f": 76,
     "wind_mph": 6,
     "gusts_mph": 6,
     "rain_pct": 3
@@ -32,24 +32,16 @@
   "sunrise": "2026-08-07T06:06",
   "sunset": "2026-08-07T19:55",
   "aqi": {
-    "aqi": 119,
+    "aqi": 126,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 136.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Woods Lake",
-      "acres": 2,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-07T01:08:09.080000+00:00",
-      "distance_km": 44.9,
-      "direction": "NE"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -67,7 +59,7 @@
     {
       "date": "2026-08-08",
       "high_f": 80,
-      "low_f": 67,
+      "low_f": 66,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-08T06:07",
@@ -109,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T22:16:49.473784+00:00"
+  "updated_at": "2026-08-07T22:46:29.924244+00:00"
 }

@@ -21,23 +21,23 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 97,
+    "temp_f": 96,
     "feels_like_f": 94,
-    "wind_mph": 11,
-    "gusts_mph": 12,
-    "rain_pct": 2
+    "wind_mph": 9,
+    "gusts_mph": 10,
+    "rain_pct": 4
   },
   "sunrise": "2026-08-07T06:41",
   "sunset": "2026-08-07T20:33",
   "aqi": {
-    "aqi": 49,
+    "aqi": 45,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 105.3,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-07T22:03:40.667115+00:00"
+  "updated_at": "2026-08-07T22:32:21.343661+00:00"
 }

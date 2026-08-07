@@ -23,10 +23,10 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 98,
-    "feels_like_f": 96,
-    "wind_mph": 11,
-    "gusts_mph": 16,
+    "temp_f": 99,
+    "feels_like_f": 97,
+    "wind_mph": 12,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T05:51",
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 45.8,
     "fire_count_50km": 4,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Madre",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-07T14:02:45.027000+00:00",
+      "distance_km": 77.3,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-07T15:06:28.172549+00:00"
+  "updated_at": "2026-08-07T15:40:36.912857+00:00"
 }

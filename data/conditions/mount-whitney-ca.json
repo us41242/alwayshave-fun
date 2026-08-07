@@ -17,20 +17,22 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 37,
-    "feels_like_f": 28,
-    "wind_mph": 8,
-    "gusts_mph": 13,
+    "temp_f": 44,
+    "feels_like_f": 35,
+    "wind_mph": 9,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-07T06:04",
+  "sunset": "2026-08-07T19:53",
   "aqi": {
-    "aqi": 19,
+    "aqi": 24,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -39,9 +41,73 @@
     "risk_level": "low",
     "nearest_fire_km": 141.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Woods Lake",
+      "acres": 2,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-07T01:08:09.080000+00:00",
+      "distance_km": 35.2,
+      "direction": "NNW"
+    }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-07T15:10:53.278211+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-07",
+      "high_f": 53,
+      "low_f": 36,
+      "rain_pct": 4,
+      "uv": 9,
+      "sunrise": "2026-08-07T06:04",
+      "sunset": "2026-08-07T19:53",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-08",
+      "high_f": 53,
+      "low_f": 36,
+      "rain_pct": 19,
+      "uv": 7,
+      "sunrise": "2026-08-08T06:05",
+      "sunset": "2026-08-08T19:52",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-09",
+      "high_f": 57,
+      "low_f": 38,
+      "rain_pct": 37,
+      "uv": 8,
+      "sunrise": "2026-08-09T06:06",
+      "sunset": "2026-08-09T19:51",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-10",
+      "high_f": 56,
+      "low_f": 37,
+      "rain_pct": 13,
+      "uv": 9,
+      "sunrise": "2026-08-10T06:07",
+      "sunset": "2026-08-10T19:49",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-11",
+      "high_f": 54,
+      "low_f": 37,
+      "rain_pct": 10,
+      "uv": 9,
+      "sunrise": "2026-08-11T06:07",
+      "sunset": "2026-08-11T19:48",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-08-07T15:46:35.467140+00:00"
 }

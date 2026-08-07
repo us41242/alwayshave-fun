@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 64,
-    "wind_mph": 11,
-    "gusts_mph": 17,
+    "temp_f": 70,
+    "feels_like_f": 65,
+    "wind_mph": 13,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T05:42",
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 159.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Moquitch",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-06T23:48:44.937000+00:00",
+      "distance_km": 58.9,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T13:39:04.608249+00:00"
+  "updated_at": "2026-08-07T14:10:28.238345+00:00"
 }

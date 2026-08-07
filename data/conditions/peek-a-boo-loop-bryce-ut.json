@@ -19,14 +19,12 @@
   "vehicle_req": "Any",
   "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 52,
+    "temp_f": 64,
+    "feels_like_f": 56,
     "wind_mph": 14,
-    "gusts_mph": 21,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T06:38",
@@ -41,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 116.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-07T00:30:55.370000+00:00",
+      "distance_km": 80.4,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-07T13:36:30.469833+00:00"
+  "updated_at": "2026-08-07T14:07:18.414529+00:00"
 }

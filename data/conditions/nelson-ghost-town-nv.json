@@ -17,13 +17,13 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 62,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 81,
-    "wind_mph": 5,
+    "temp_f": 85,
+    "feels_like_f": 85,
+    "wind_mph": 4,
     "gusts_mph": 7,
     "rain_pct": 1
   },
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 72.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ivanpah",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-07T06:07:10.080000+00:00",
+      "distance_km": 60.3,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T13:36:33.359302+00:00"
+  "updated_at": "2026-08-07T14:07:21.304595+00:00"
 }

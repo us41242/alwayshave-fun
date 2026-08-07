@@ -21,10 +21,10 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 76,
-    "wind_mph": 3,
-    "gusts_mph": 5,
+    "temp_f": 79,
+    "feels_like_f": 77,
+    "wind_mph": 2,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T05:58",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 70.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Mouse Meadow",
+      "acres": 49766,
+      "containment_pct": 10,
+      "cause": "Undetermined",
+      "updated": "2026-08-06T19:54:30.717000+00:00",
+      "distance_km": 71.8,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T13:39:07.363117+00:00"
+  "updated_at": "2026-08-07T14:10:29.199575+00:00"
 }

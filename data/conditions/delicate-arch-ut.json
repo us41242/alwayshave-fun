@@ -21,9 +21,9 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 63,
-    "wind_mph": 3,
+    "temp_f": 73,
+    "feels_like_f": 65,
+    "wind_mph": 4,
     "gusts_mph": 4,
     "rain_pct": 0
   },
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 154.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Snipe",
+      "acres": 5,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-06T15:22:47.010000+00:00",
+      "distance_km": 81.3,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-07T13:42:50.693228+00:00"
+  "updated_at": "2026-08-07T14:13:54.941541+00:00"
 }

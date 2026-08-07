@@ -20,14 +20,15 @@
   "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 88,
+    "temp_f": 89,
     "feels_like_f": 79,
-    "wind_mph": 14,
-    "gusts_mph": 17,
+    "wind_mph": 16,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "sunrise": "2026-08-07T06:14",
@@ -42,15 +43,7 @@
     "risk_level": "elevated",
     "nearest_fire_km": 47.0,
     "fire_count_50km": 3,
-    "nearest_incident": {
-      "name": "Rat Mtn",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-07T19:32:07.050000+00:00",
-      "distance_km": 46.5,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -68,7 +61,7 @@
     {
       "date": "2026-08-08",
       "high_f": 88,
-      "low_f": 66,
+      "low_f": 67,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-08T06:15",
@@ -110,5 +103,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-07T21:09:16.668790+00:00"
+  "updated_at": "2026-08-07T21:41:46.510056+00:00"
 }

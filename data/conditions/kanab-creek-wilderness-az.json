@@ -17,7 +17,7 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
@@ -36,24 +36,12 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 95.3,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Wahweap Creek",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-07T23:40:05.877000+00:00",
-      "distance_km": 95.0,
-      "direction": "NE"
-    }
+    "nearest_incident": null
   },
-  "river": {
-    "cfs": 15,
-    "stage": null,
-    "gauge_id": "09403850"
-  },
+  "river": null,
   "forecast": [],
-  "updated_at": "2026-08-08T17:34:41.804325+00:00"
+  "updated_at": "2026-08-08T18:03:22.515779+00:00"
 }

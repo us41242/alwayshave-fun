@@ -80,6 +80,7 @@ def main():
     assert "8,590 cfs" in block and "FLOOD" in block, f"water level missing:\n{block}"
     want = "Nearest fire: Selfcheck Fire — 1,234 acres, 15% contained, 7 mi WSW, lightning (NIFC, Jul 26)"
     assert want in block, f"named incident line wrong or missing (want {want!r}):\n{block}"
+    assert 'href="/fires"' in block, f"fire line must link to /fires:\n{block}"
 
     block = status_block(hydrate(FIXTURE_INFO))
     want = "Water level: 9,230 cfs (USGS 09402500)"

@@ -4,6 +4,46 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-07 — Session 30 (nightly) — WIRED `/fires` INTO THE SITE'S INTERNAL MESH (46/46 TRAIL PAGES); PARTICIPATION ROUND 11
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** at both 7d and 28d (data through 08-04). Sitemap still `pending` — day 5 of the watch, decision point 2026-08-24. No weekly section: report #4 filed 08-03, #5 due Monday 08-10.
+- Pipeline healthy — :00/:30, all `success`, data through 04:43Z.
+- **Bing on `/fires`:** `GetUrlInfo` shows `LastCrawledDate` = min-date ⇒ **not yet crawled**, one day after launch. Expected; submitted the single URL via BWT `SubmitUrl` (accepted, `{"d":null}`) — 1 of the 100/day quota. Bing RankAndTraffic: 2 impressions on 08-07, 106 days of data, still ~0 overall.
+- Reddit reception: `p1siao5` and `p1l4u8m` both **+6**, `p10dvp9` +3, Session 28's `p1zvez1` +1. All 14 live, none collapsed. Account comment karma 8 → 11.
+
+### Decided
+Session 29 shipped `/fires` but gave it only ~8 inbound internal links, all footers on index-type pages. The site's 46 trail pages — its bulk, its crawl surface, and the pages that already name the nearest active NIFC incident — pointed at it not at all. A citable asset nothing links to is a page Google has no reason to reach. Tonight: wire it in, from the exact line where a reader is already thinking about fire.
+
+### Did
+- **Nearest-fire line → `/fires`.** `build_static.py` and `trail.html`'s `render()` both append `All active fires →` to the named-incident status line (static/JS mirrored, as that line has been since Session 20). `test_status_list.py` now asserts `href="/fires"` in the hydrated block, so the parity can't silently rot.
+- **Permanent footer link.** The status line only renders when an incident is within 100 km — **39 of 46 trails tonight, and ~0 in winter**. So the footer in `trail.html` now carries `Active Fires` unconditionally: every trail page links `/fires` in every season, not just fire season.
+- Reddit **participation round 11** — comment `p2ejftt` in r/Utah `1vi9iaa` ("Incident involving aircraft reported at Widemouth 2 Fire", KSL front-page). Live WFIGS as of 23:38Z: **Widemouth 2 106,450 ac / 24% contained / 703 personnel**, natural cause, day 11 — up from 96,702 ac / 10% 24h earlier, and its **first meaningful containment after a full week at 0%**. Scale context (Babylon 107,189 @ 97%, Cottonwood 97,464 @ 95%, Black Canyon 2,762 @ 0% w/ 308 personnel), plus distance-to-parks (Bryce ~77 mi, Zion ~93 mi ⇒ smoke question, not closure question) and a fire.airnow.gov pointer. Also confirmed the "broken" KSL link returns 200. **No site mention** — a possible-casualty thread is not a place to plug a page, `/fires` or not. **Tally: 15 comments, all live, none collapsed.**
+
+### Verified
+- `test_status_list.py` passes; `build_static.py` 46 pages, 0 errors.
+- Both pushes landed in the gaps between pipeline runs (`ad418f4f7e5` at 04:18Z, `055c0979f38` at 04:44Z); the 04:30 CI run regenerated the pages itself (`✓ fires/index.html (30 active incidents)`, IndexNow → 200 on 67 URLs, cache purge success).
+- **Live sweep of every generated trail page with a real UA: 46/46 link `/fires`.** `/fires` 200; `/sitemap.xml` valid, 117 URLs; unknown path still 404 — no new soft-404s.
+- `p2ejftt` verified live via authed `api/info`: score 1, `collapsed=false`, `banned_by=null`.
+
+### Learned
+- **The nearest-fire link is seasonal by construction.** The first push looked broken — 7 trail pages served only 1 match instead of 2 — and it wasn't: `data/fires/{slug}.json` has `nearest_incident: null` for Zion, Cathedral Gorge, Snow Canyon et al. tonight because nothing is burning within 100 km of them. Correct behavior, but it means any internal link hung off live data is only as durable as the data. Hence the unconditional footer link. Generalize: **before concluding a deploy is broken, check whether the data simply says no.**
+- **The local `AIRNOW_KEY` in `~/Documents/Environmental Variables/alwayshavefun.env.local` is dead — 401 on every AirNow endpoint.** The site is unaffected: 40 of 46 trails carry `source: "airnow"` in tonight's conditions, so the **GitHub Actions secret is a different, working key**. This is local-only credential drift, and it silently costs every session the ability to pull ad-hoc AQI for Reddit answers (tonight's comment went out fire-data-only because of it). Not a site outage, not an escalation — but fix or re-sync the local key next session.
+- A direct `git push` deploy does **not** purge the Cloudflare cache (only the pipeline's purge step does), so a live sweep right after a manual push reads a mix of new and cached-old pages. Verify after the next pipeline run, or expect false negatives.
+
+### Expect
+- `/fires` now has 46 crawlable internal inbound links instead of ~8. On a site whose entire problem is discovery, that is the cheapest possible signal that the page matters. Bing should crawl it within days (92/96 of our pages are in its index) — that is the near-term read.
+- No GSC movement before the 2026-08-24 sitemap decision point.
+
+### Upcoming
+- **Re-check `GetUrlInfo` on `/fires` next session** — `LastCrawledDate` leaving min-date is the first evidence the page landed anywhere.
+- Fix the local AirNow key (pull the working value from the GH secret or re-issue a free key).
+- Homepage recrawl watch: last crawl 2026-06-20 (49 days).
+- Weekly report #5 due Monday 2026-08-10.
+- Open question for Josh (4 weeks, non-blocking): widen the CF API token to read Workers Builds.
+
+---
+
 ## 2026-08-07 — Session 29 (nightly) — SHIPPED `/fires`: THE PAGE WE'VE BEEN HAND-BUILDING IN REDDIT COMMENTS FOR 5 SESSIONS
 
 ### Oriented

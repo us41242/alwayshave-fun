@@ -17,34 +17,36 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 99,
-    "feels_like_f": 103,
-    "wind_mph": 11,
-    "gusts_mph": 14,
-    "rain_pct": 6
+    "temp_f": 87,
+    "feels_like_f": 72,
+    "wind_mph": 35,
+    "gusts_mph": 41,
+    "rain_pct": 12
   },
   "sunrise": "2026-08-08T05:47",
   "sunset": "2026-08-08T19:38",
   "aqi": {
-    "aqi": 38,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 91.5,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Irish",
-      "acres": 3,
+      "acres": 25,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-08T19:29:53.860000+00:00",
+      "updated": "2026-08-08T21:00:14.057000+00:00",
       "distance_km": 91.8,
       "direction": "WSW"
     }
@@ -55,11 +57,11 @@
       "date": "2026-08-08",
       "high_f": 99,
       "low_f": 69,
-      "rain_pct": 19,
+      "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-08-08T05:47",
       "sunset": "2026-08-08T19:38",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -70,42 +72,42 @@
       "uv": 8,
       "sunrise": "2026-08-09T05:48",
       "sunset": "2026-08-09T19:37",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-10",
       "high_f": 96,
       "low_f": 73,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-10T05:49",
       "sunset": "2026-08-10T19:36",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-11",
       "high_f": 96,
       "low_f": 74,
-      "rain_pct": 14,
+      "rain_pct": 12,
       "uv": 7,
       "sunrise": "2026-08-11T05:50",
       "sunset": "2026-08-11T19:35",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-12",
       "high_f": 93,
       "low_f": 71,
-      "rain_pct": 46,
+      "rain_pct": 44,
       "uv": 8,
       "sunrise": "2026-08-12T05:50",
       "sunset": "2026-08-12T19:34",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-08T20:34:15.043480+00:00"
+  "updated_at": "2026-08-08T21:05:22.253578+00:00"
 }

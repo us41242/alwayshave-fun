@@ -23,23 +23,23 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 94,
-    "feels_like_f": 89,
-    "wind_mph": 13,
-    "gusts_mph": 18,
-    "rain_pct": 5
+    "temp_f": 93,
+    "feels_like_f": 87,
+    "wind_mph": 12,
+    "gusts_mph": 17,
+    "rain_pct": 8
   },
   "sunrise": "2026-08-08T06:08",
   "sunset": "2026-08-08T19:59",
   "aqi": {
-    "aqi": 67,
+    "aqi": 74,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 102.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Kirkwood",
@@ -55,19 +55,19 @@
   "forecast": [
     {
       "date": "2026-08-08",
-      "high_f": 94,
+      "high_f": 96,
       "low_f": 75,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
       "sunset": "2026-08-08T19:59",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-09",
       "high_f": 94,
-      "low_f": 76,
+      "low_f": 75,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-09T06:09",
@@ -88,8 +88,8 @@
     },
     {
       "date": "2026-08-11",
-      "high_f": 93,
-      "low_f": 70,
+      "high_f": 92,
+      "low_f": 69,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-11T06:10",
@@ -99,7 +99,7 @@
     },
     {
       "date": "2026-08-12",
-      "high_f": 91,
+      "high_f": 89,
       "low_f": 69,
       "rain_pct": 15,
       "uv": 8,
@@ -109,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-08T23:10:33.752255+00:00"
+  "updated_at": "2026-08-08T23:41:31.755186+00:00"
 }

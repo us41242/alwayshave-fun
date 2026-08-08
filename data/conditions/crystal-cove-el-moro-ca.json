@@ -17,11 +17,13 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 38,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 79,
+    "temp_f": 78,
     "feels_like_f": 86,
     "wind_mph": 9,
     "gusts_mph": 10,
@@ -36,9 +38,9 @@
     "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "high",
+    "nearest_fire_km": 5.0,
+    "fire_count_50km": 25,
     "nearest_incident": {
       "name": "Mateo",
       "acres": 1335,
@@ -59,30 +61,30 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
       "sunset": "2026-08-08T19:44",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-09",
       "high_f": 76,
-      "low_f": 66,
+      "low_f": 68,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-09T06:09",
       "sunset": "2026-08-09T19:43",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-10",
       "high_f": 87,
-      "low_f": 67,
+      "low_f": 66,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-10T06:10",
       "sunset": "2026-08-10T19:43",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-11",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-11T06:11",
       "sunset": "2026-08-11T19:41",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-12",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:40",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-08T19:46:34.211942+00:00"
+  "updated_at": "2026-08-08T20:14:23.823609+00:00"
 }

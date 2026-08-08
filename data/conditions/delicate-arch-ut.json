@@ -23,16 +23,16 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 99,
-    "feels_like_f": 96,
-    "wind_mph": 8,
-    "gusts_mph": 10,
+    "temp_f": 100,
+    "feels_like_f": 97,
+    "wind_mph": 7,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-08T06:26",
   "sunset": "2026-08-08T20:21",
   "aqi": {
-    "aqi": 61,
+    "aqi": 71,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 167.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Snipe",
+      "acres": 5,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-06T15:22:47.010000+00:00",
+      "distance_km": 81.3,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-08T18:17:35.740859+00:00"
+  "updated_at": "2026-08-08T18:48:35.597169+00:00"
 }

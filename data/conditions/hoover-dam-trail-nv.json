@@ -23,10 +23,10 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 111,
-    "feels_like_f": 110,
+    "temp_f": 113,
+    "feels_like_f": 111,
     "wind_mph": 12,
-    "gusts_mph": 14,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-08-08T05:52",
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 40.9,
     "fire_count_50km": 4,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Epan",
+      "acres": 30,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-08T12:25:24.153000+00:00",
+      "distance_km": 72.4,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-08T18:09:00.585548+00:00"
+  "updated_at": "2026-08-08T18:39:58.386405+00:00"
 }

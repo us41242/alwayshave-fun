@@ -25,10 +25,10 @@
   ],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 57,
+    "feels_like_f": 54,
     "wind_mph": 9,
-    "gusts_mph": 17,
-    "rain_pct": 0
+    "gusts_mph": 14,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-08T06:15",
   "sunset": "2026-08-08T20:11",
@@ -42,7 +42,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 46.4,
     "fire_count_50km": 4,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Willow",
+      "acres": 7533,
+      "containment_pct": 67,
+      "cause": "Human",
+      "updated": "2026-08-07T22:32:08.683000+00:00",
+      "distance_km": 48.0,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -102,5 +110,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-08T18:13:26.794500+00:00"
+  "updated_at": "2026-08-08T18:45:43.467873+00:00"
 }

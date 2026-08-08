@@ -21,39 +21,39 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 69,
-    "wind_mph": 11,
-    "gusts_mph": 12,
-    "rain_pct": 9
+    "temp_f": 74,
+    "feels_like_f": 67,
+    "wind_mph": 9,
+    "gusts_mph": 11,
+    "rain_pct": 10
   },
   "sunrise": "2026-08-07T06:07",
   "sunset": "2026-08-07T20:00",
   "aqi": {
-    "aqi": 49,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 145.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Kirkwood",
-      "acres": null,
+      "name": "Deer",
+      "acres": 0.01,
       "containment_pct": null,
-      "cause": null,
-      "updated": "2026-08-07T16:46:48.970000+00:00",
-      "distance_km": 65.9,
-      "direction": "NE"
+      "cause": "Undetermined",
+      "updated": "2026-08-08T00:22:53.377000+00:00",
+      "distance_km": 48.1,
+      "direction": "S"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-07",
-      "high_f": 78,
+      "high_f": 77,
       "low_f": 61,
       "rain_pct": 10,
       "uv": 7,
@@ -65,7 +65,7 @@
     {
       "date": "2026-08-08",
       "high_f": 77,
-      "low_f": 63,
+      "low_f": 64,
       "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-08-08T06:07",
@@ -107,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-08T00:11:48.347938+00:00"
+  "updated_at": "2026-08-08T00:40:03.586695+00:00"
 }

@@ -25,9 +25,9 @@
   "current": {
     "temp_f": 99,
     "feels_like_f": 95,
-    "wind_mph": 6,
-    "gusts_mph": 6,
-    "rain_pct": 2
+    "wind_mph": 4,
+    "gusts_mph": 5,
+    "rain_pct": 5
   },
   "sunrise": "2026-08-07T05:40",
   "sunset": "2026-08-07T19:30",
@@ -42,26 +42,22 @@
     "nearest_fire_km": 95.3,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Wiggler Wash",
-      "acres": 1.5,
+      "name": "Wahweap Creek",
+      "acres": 0.1,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-07T21:31:03.170000+00:00",
-      "distance_km": 95.5,
+      "updated": "2026-08-07T23:40:05.877000+00:00",
+      "distance_km": 95.0,
       "direction": "NE"
     }
   },
-  "river": {
-    "cfs": 3,
-    "stage": null,
-    "gauge_id": "09403850"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-08-07",
       "high_f": 99,
       "low_f": 60,
-      "rain_pct": 3,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-07T05:40",
       "sunset": "2026-08-07T19:30",
@@ -113,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-07T23:34:54.133749+00:00"
+  "updated_at": "2026-08-08T00:02:16.473023+00:00"
 }

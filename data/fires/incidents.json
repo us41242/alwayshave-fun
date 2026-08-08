@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-08T22:01:47.256072+00:00",
+  "updated_at": "2026-08-08T22:31:47.527499+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 199,
+  "count": 195,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -94,7 +94,7 @@
       "cause": "Undetermined",
       "lat": 38.05157300573942,
       "lng": -107.68213452533236,
-      "updated": "2026-08-08T18:08:30.713000+00:00",
+      "updated": "2026-08-08T22:07:26.360000+00:00",
       "state": "CO",
       "personnel": 184,
       "discovered": "2026-06-27T23:33:48+00:00"
@@ -230,18 +230,6 @@
       "state": "CO",
       "personnel": 104,
       "discovered": "2026-07-09T15:46:12+00:00"
-    },
-    {
-      "name": "Beehive",
-      "acres": 4728,
-      "containment_pct": 100,
-      "cause": "Undetermined",
-      "lat": 36.73735391717838,
-      "lng": -106.16491006027245,
-      "updated": "2026-08-05T15:21:28.490000+00:00",
-      "state": "NM",
-      "personnel": 3,
-      "discovered": "2026-06-26T19:04:00+00:00"
     },
     {
       "name": "Fish",
@@ -582,11 +570,11 @@
     {
       "name": "Canadian River",
       "acres": 200,
-      "containment_pct": 0,
+      "containment_pct": 5,
       "cause": "Undetermined",
       "lat": 35.419874935673214,
       "lng": -102.30109305836045,
-      "updated": "2026-08-08T20:58:28.263000+00:00",
+      "updated": "2026-08-08T22:05:47.130000+00:00",
       "state": "TX",
       "personnel": null,
       "discovered": "2026-08-08T19:52:40+00:00"
@@ -766,7 +754,7 @@
       "cause": "Natural",
       "lat": 34.67577259467479,
       "lng": -106.43580994211057,
-      "updated": "2026-08-07T21:09:04.957000+00:00",
+      "updated": "2026-08-08T22:22:09.373000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-07-31T19:38:00+00:00"
@@ -940,6 +928,18 @@
       "discovered": "2026-08-06T14:45:07+00:00"
     },
     {
+      "name": "Flat",
+      "acres": 12,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.189005176582384,
+      "lng": -120.9010131547651,
+      "updated": "2026-08-08T22:18:36.093000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-08T21:26:33+00:00"
+    },
+    {
       "name": "Finger Ridge",
       "acres": 10,
       "containment_pct": null,
@@ -1002,11 +1002,11 @@
     {
       "name": "Bad Land",
       "acres": 4,
-      "containment_pct": 20,
+      "containment_pct": 75,
       "cause": "Undetermined",
       "lat": 35.37493926644428,
       "lng": -102.15089234920084,
-      "updated": "2026-08-08T19:34:09.920000+00:00",
+      "updated": "2026-08-08T22:20:35.070000+00:00",
       "state": "TX",
       "personnel": null,
       "discovered": "2026-08-08T16:13:09+00:00"
@@ -1072,18 +1072,6 @@
       "discovered": "2026-08-05T00:20:47+00:00"
     },
     {
-      "name": "Bear Foot",
-      "acres": 2,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 36.233555900782875,
-      "lng": -105.18850979516583,
-      "updated": "2026-08-05T21:27:27.397000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-05T14:22:12+00:00"
-    },
-    {
       "name": "Turkey",
       "acres": 2,
       "containment_pct": null,
@@ -1106,18 +1094,6 @@
       "state": "CO",
       "personnel": null,
       "discovered": "2026-08-07T17:54:02+00:00"
-    },
-    {
-      "name": "Buhr",
-      "acres": 1.5,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 36.93718607047199,
-      "lng": -104.11680961433804,
-      "updated": "2026-08-05T22:04:53.153000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-07-25T19:00:00+00:00"
     },
     {
       "name": "Macho",
@@ -1166,6 +1142,18 @@
       "state": "UT",
       "personnel": null,
       "discovered": "2026-07-28T16:07:03+00:00"
+    },
+    {
+      "name": "Garrison",
+      "acres": 0.39,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 40.302596145230424,
+      "lng": -122.38980453552023,
+      "updated": "2026-08-08T22:18:43.683000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-08T21:16:53+00:00"
     },
     {
       "name": "Canyon",
@@ -1436,9 +1424,9 @@
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 36.80670509660698,
-      "lng": -119.01001257114143,
-      "updated": "2026-08-08T21:59:55.527000+00:00",
+      "lat": 36.78867209710264,
+      "lng": -118.97637956367977,
+      "updated": "2026-08-08T22:29:00.400000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-08T21:42:19+00:00"
@@ -1454,18 +1442,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-06-27T03:11:45+00:00"
-    },
-    {
-      "name": "Lac-276105",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.67519493512933,
-      "lng": -118.05888220845814,
-      "updated": "2026-08-05T21:19:41.880000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-05T21:19:25+00:00"
     },
     {
       "name": "Bristol",
@@ -2282,30 +2258,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-08T20:22:43+00:00"
-    },
-    {
-      "name": "Garrison",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 40.302596145230424,
-      "lng": -122.38980453552023,
-      "updated": "2026-08-08T21:25:30.090000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-08T21:16:53+00:00"
-    },
-    {
-      "name": "Flat",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.189005176582384,
-      "lng": -120.9010131547651,
-      "updated": "2026-08-08T21:48:14.363000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-08T21:26:33+00:00"
     },
     {
       "name": "Kirkwood",

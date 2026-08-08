@@ -23,25 +23,33 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 94,
+    "temp_f": 92,
     "feels_like_f": 89,
-    "wind_mph": 6,
-    "gusts_mph": 9,
+    "wind_mph": 3,
+    "gusts_mph": 7,
     "rain_pct": 4
   },
   "sunrise": "2026-08-07T06:41",
   "sunset": "2026-08-07T20:33",
   "aqi": {
-    "aqi": 59,
+    "aqi": 67,
     "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 104.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Holt",
+      "acres": 0.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-08T01:55:59.297000+00:00",
+      "distance_km": 65.4,
+      "direction": "NW"
+    }
   },
   "river": {
     "cfs": 29,
@@ -105,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-08T01:33:07.110862+00:00"
+  "updated_at": "2026-08-08T02:02:16.541410+00:00"
 }

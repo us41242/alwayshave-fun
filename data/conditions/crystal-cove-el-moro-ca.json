@@ -17,30 +17,30 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 68,
+    "temp_f": 65,
+    "feels_like_f": 67,
     "wind_mph": 4,
-    "gusts_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-08-08T06:08",
   "sunset": "2026-08-08T19:44",
   "aqi": {
-    "aqi": 52,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "high",
+    "nearest_fire_km": 5.0,
+    "fire_count_50km": 25,
     "nearest_incident": {
       "name": "Mateo",
       "acres": 1335,
@@ -57,23 +57,23 @@
       "date": "2026-08-08",
       "high_f": 79,
       "low_f": 65,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-08T06:08",
       "sunset": "2026-08-08T19:44",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-09",
       "high_f": 77,
       "low_f": 66,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-09T06:09",
       "sunset": "2026-08-09T19:43",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 38,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-10",
@@ -83,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-10T06:10",
       "sunset": "2026-08-10T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-11",
@@ -94,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-11T06:11",
       "sunset": "2026-08-11T19:41",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-12",
@@ -105,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 20,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-08-08T10:40:45.708339+00:00"
+  "updated_at": "2026-08-08T11:11:52.414432+00:00"
 }

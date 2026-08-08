@@ -17,27 +17,29 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 93,
     "feels_like_f": 87,
-    "wind_mph": 10,
-    "gusts_mph": 17,
+    "wind_mph": 11,
+    "gusts_mph": 18,
     "rain_pct": 1
   },
   "sunrise": "2026-08-07T06:44",
   "sunset": "2026-08-07T20:35",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
-    "pollutant": "O3",
+    "aqi": 56,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 141.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
@@ -51,7 +53,7 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:44",
       "sunset": "2026-08-07T20:35",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -62,7 +64,7 @@
       "uv": 8,
       "sunrise": "2026-08-08T06:45",
       "sunset": "2026-08-08T20:34",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +75,7 @@
       "uv": 8,
       "sunrise": "2026-08-09T06:46",
       "sunset": "2026-08-09T20:33",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +86,7 @@
       "uv": 8,
       "sunrise": "2026-08-10T06:47",
       "sunset": "2026-08-10T20:32",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-08-11T06:48",
       "sunset": "2026-08-11T20:31",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-08T04:06:56.047350+00:00"
+  "updated_at": "2026-08-08T04:39:39.459941+00:00"
 }

@@ -17,14 +17,13 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 69,
+    "temp_f": 68,
     "feels_like_f": 62,
     "wind_mph": 9,
     "gusts_mph": 13,
@@ -39,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 32.3,
-    "fire_count_50km": 1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Wiggler Wash",
       "acres": 1.5,
@@ -62,19 +61,19 @@
       "uv": 8,
       "sunrise": "2026-08-07T06:38",
       "sunset": "2026-08-07T20:30",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-08",
-      "high_f": 86,
+      "high_f": 84,
       "low_f": 61,
       "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-08T06:38",
       "sunset": "2026-08-08T20:29",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-09",
@@ -84,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-09T06:39",
       "sunset": "2026-08-09T20:28",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-10",
@@ -95,8 +94,8 @@
       "uv": 7,
       "sunrise": "2026-08-10T06:40",
       "sunset": "2026-08-10T20:27",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-11",
@@ -106,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-11T06:41",
       "sunset": "2026-08-11T20:26",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-08T04:02:14.948934+00:00"
+  "updated_at": "2026-08-08T04:33:42.134113+00:00"
 }

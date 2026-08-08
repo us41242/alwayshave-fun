@@ -1,8 +1,20 @@
 {
-  "updated_at": "2026-08-08T16:31:19.410092+00:00",
+  "updated_at": "2026-08-08T17:02:50.010754+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 190,
+  "count": 189,
   "incidents": [
+    {
+      "name": "Widemouth 2",
+      "acres": 114685,
+      "containment_pct": 24,
+      "cause": "Natural",
+      "lat": 38.728922759607606,
+      "lng": -112.4989946016779,
+      "updated": "2026-08-08T16:46:22.777000+00:00",
+      "state": "UT",
+      "personnel": 703,
+      "discovered": "2026-07-27T23:02:28+00:00"
+    },
     {
       "name": "Babylon",
       "acres": 107189,
@@ -14,18 +26,6 @@
       "state": "UT",
       "personnel": 60,
       "discovered": "2026-06-26T20:15:00+00:00"
-    },
-    {
-      "name": "Widemouth 2",
-      "acres": 106450,
-      "containment_pct": 24,
-      "cause": "Natural",
-      "lat": 38.728922759607606,
-      "lng": -112.4989946016779,
-      "updated": "2026-08-07T23:38:42.240000+00:00",
-      "state": "UT",
-      "personnel": 703,
-      "discovered": "2026-07-27T23:02:28+00:00"
     },
     {
       "name": "Aspen Acres",
@@ -874,7 +874,7 @@
       "cause": "Undetermined",
       "lat": 32.73493578009372,
       "lng": -116.82817684479735,
-      "updated": "2026-08-07T22:19:14.683000+00:00",
+      "updated": "2026-08-08T16:34:25.170000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-07T21:20:27+00:00"
@@ -940,6 +940,18 @@
       "discovered": "2026-08-05T21:09:00+00:00"
     },
     {
+      "name": "Trail",
+      "acres": 2.9,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 33.776955329604625,
+      "lng": -108.89371039989194,
+      "updated": "2026-08-08T16:56:47.403000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-07T19:30:10+00:00"
+    },
+    {
       "name": "Hunter",
       "acres": 2.35,
       "containment_pct": null,
@@ -974,18 +986,6 @@
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-05T14:22:12+00:00"
-    },
-    {
-      "name": "Trail",
-      "acres": 2,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 33.776955329604625,
-      "lng": -108.89371039989194,
-      "updated": "2026-08-08T16:14:57.400000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-07T19:30:10+00:00"
     },
     {
       "name": "Rat Mountain",
@@ -1094,18 +1094,6 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-07T21:54:19+00:00"
-    },
-    {
-      "name": "Switchback",
-      "acres": 1,
-      "containment_pct": null,
-      "cause": "Human",
-      "lat": 33.35613819281438,
-      "lng": -110.3595936706529,
-      "updated": "2026-08-08T12:59:11.850000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-08T02:46:42+00:00"
     },
     {
       "name": "475",
@@ -1327,10 +1315,10 @@
       "name": "Canyon",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
+      "cause": "Human",
       "lat": 34.44866032458875,
       "lng": -110.76718683678732,
-      "updated": "2026-08-08T14:19:52.450000+00:00",
+      "updated": "2026-08-08T16:47:53.427000+00:00",
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-08T03:32:41+00:00"
@@ -2278,7 +2266,7 @@
       "cause": null,
       "lat": 41.13306069428731,
       "lng": -123.68501384954533,
-      "updated": "2026-08-08T12:49:27.310000+00:00",
+      "updated": "2026-08-08T16:32:08.320000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-07T23:45:00+00:00"

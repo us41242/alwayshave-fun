@@ -4,6 +4,51 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-08 — Session 31 (nightly) — SHIPPED PERMANENT PER-INCIDENT FIRE PAGES (`/fires/{incident}`), 32 OF THEM
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** at both 7d and 28d (data through 08-05). Sitemap still `pending` — day 6 of the watch, decision point 2026-08-24. Saturday, so no weekly section: report #4 filed 08-03, **#5 due Monday 08-10**.
+- Pipeline healthy — :00/:30, all `success`, data through 04:15Z.
+- **Bing `/fires`: still not crawled** — `GetUrlInfo` `LastCrawledDate` is still min-date, two days after launch and one day after the single-URL `SubmitUrl`. Homepage last crawled 08-06. No further BWT submissions tonight (quota is for new/changed pages; IndexNow already covers them).
+- No Reddit round tonight — the build was the action, and there was no thread where a comment beat it.
+
+### Decided
+`/fires` is one page listing 33 fires. Each of those fires is its own live query with real current demand — "widemouth 2 fire acres", "gold mountain fire containment" — and we hold authoritative data on all of them, re-read every 30 minutes. The feed gives a *snapshot*; because we read it 48 times a day, we can publish something NIFC does not: **the day-by-day curve**. That is a genuinely unique, self-renewing asset on a page-per-fire basis, which is also the cheapest legitimate way to multiply a 117-URL site's crawl surface. The risk to manage was hard rules 3 and 5 — URL churn when a fire ends, and mass-generated thin pages — so both are designed out rather than accepted.
+
+### Did
+- **`scripts/build_fires.py`** — new `data/fires/archive.json`: every incident that has ever cleared **1,000 acres** in NV/UT/AZ/CO/CA keeps a permanent entry keyed `{name}-fire-{state}-{discovery-year}` (state + year because fire names repeat across states and seasons, and a published slug has to keep meaning the same fire forever). Each run appends one history point per UTC day, latest read of that day winning. `active` flips false when an incident stops appearing in the feed — and the page then says **only** that NIFC stopped listing it, never that it is out, because the feed does not tell us which (hard rule 4). Perimeter remaps that *shrink* acreage are labelled "(remap)", not smoothed away.
+- **Per-incident page** — hero, the numbers (state/size/containment/cause/discovery/personnel), the day-by-day table, trails within 100 km with live-conditions links, three FAQs, Article + BreadcrumbList schema, canonical, stamped read time. **Min visible text across the 32 pages: 1,735 chars** — comparable to a trail page (~2,345), so the 1,000-acre bar is doing its job of keeping this from being thin-page generation.
+- **Crawl paths, not just sitemap** — `/fires` rows now link to their incident page (21 tonight), and a new "Also tracked this season" block links the other 11 (contained or dropped off). All 32 reachable from one page.
+- `worker.js` route `/fires/{incident}`; `generate_sitemap.py` enumerates `generated/fires/*` (117 → **149 URLs**); `test_build_fires.py` extended to cover slug permanence, archive survival across days, the growth delta, and the inactive-page wording.
+- **Workflow ordering fix** — `build_fires.py` now runs *before* `generate_sitemap.py`. It ran after, so a brand-new incident's page missed that run's sitemap and IndexNow ping by a full cycle.
+- Checked the local AirNow key flagged dead last session: **it works** — HTTP 200 with real observations (Hurricane UT, O3 48 Good). Last session's 401 was transient, not credential drift.
+
+### Verified
+- `test_build_fires.py` passes; local build 33 active incidents, 32 incident pages, sitemap 149 URLs.
+- Pushed `6026b102f8c` in the gap between the 04:00 and 04:30 pipeline runs (no race).
+- **Live sweep with a real UA: 32/32 incident pages 200.** Two read 404 on the first pass ~1 min after push and 200 shortly after — edge propagation, and `/fires` served a cached copy with 0 detail links in that same window. Re-checked after settling: `/fires` links all **32** unique incident URLs. Titles/canonicals correct (`Gold Mountain Fire, Colorado — 39,532 Acres, 90% Contained`, canonical `/fires/gold-mountain-fire-co-2026`). Unknown incident slug still **404** — no soft-404 space opened.
+- Live `/sitemap.xml` valid XML, 149 URLs, 32 of them `/fires/…`.
+- **CI regenerated it all itself** (run 31294710198): `✓ fires/index.html (33 active incidents)`, `✓ fires/{incident} pages: 32 total (32 active)`, `IndexNow → 200 (99 URLs)` — up from 67, the new pages were picked up automatically — `Cache purge: success`.
+
+### Learned
+- **The most valuable thing we own is the read frequency, not the read.** The WFIGS snapshot is public to everyone; the *curve* only exists because we sample it 48 times a day and keep it. Worth asking of every feed we poll: are we storing the time series, or throwing it away and re-fetching the present forever?
+- Publishing anything keyed on live data forces the hard-rule-3 question up front: what is this URL when the data goes away? Answering it *before* shipping (archive + honest inactive copy) is much cheaper than a redirect map later.
+- **An AirNow 401 is not proof of a dead key** — tonight the same key returned real data. Third instance of this pattern (cf. Session 27's Reddit "session is dead"): re-test a credential before recording it as broken.
+- Confirmed again: a direct `git push` does not purge the Cloudflare cache, and asset propagation to the edge is not instant. A live check inside ~2 minutes of a manual push produces false 404s and stale pages. Wait, then verify.
+
+### Expect
+- 32 new indexable URLs on fire-name queries with live demand during a record Utah fire season, each internally linked and IndexNow-submitted. Bing is the fast read (92/96 of our pages are in its index); Google remains gated on crawl budget.
+- The day-by-day tables say "one day of readings" today and get more useful every day they run. This asset compounds; it does not launch finished.
+
+### Upcoming
+- **Weekly report #5 due Monday 2026-08-10.**
+- Re-check Bing `GetUrlInfo` on `/fires` and on one incident page — `LastCrawledDate` leaving min-date is the first evidence any of this landed.
+- Watch that `active` correctly flips false on the first fire to drop off the feed, and that its page renders the archived copy.
+- Homepage recrawl watch: last crawl 2026-08-06 (recrawled — better than the 06-20 stall we were tracking).
+- Open question for Josh (4 weeks, non-blocking): widen the CF API token to read Workers Builds.
+
+---
+
 ## 2026-08-07 — Session 30 (nightly) — WIRED `/fires` INTO THE SITE'S INTERNAL MESH (46/46 TRAIL PAGES); PARTICIPATION ROUND 11
 
 ### Oriented

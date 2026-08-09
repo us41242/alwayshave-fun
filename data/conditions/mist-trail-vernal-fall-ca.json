@@ -17,36 +17,38 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 62,
+  "score": 52,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 93,
     "feels_like_f": 92,
-    "wind_mph": 11,
-    "gusts_mph": 15,
+    "wind_mph": 12,
+    "gusts_mph": 16,
     "rain_pct": 1
   },
   "sunrise": "2026-08-09T06:09",
   "sunset": "2026-08-09T19:58",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
-    "nearest_fire_km": 79.8,
+    "nearest_fire_km": 79.6,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Yard",
-      "acres": 0.1,
+      "name": "Kirkwood",
+      "acres": null,
       "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-09T02:30:27.630000+00:00",
-      "distance_km": 62.4,
-      "direction": "ESE"
+      "cause": null,
+      "updated": "2026-08-07T16:46:48.970000+00:00",
+      "distance_km": 68.8,
+      "direction": "NE"
     }
   },
   "river": null,
@@ -59,18 +61,18 @@
       "uv": 8,
       "sunrise": "2026-08-09T06:09",
       "sunset": "2026-08-09T19:58",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-10",
       "high_f": 92,
-      "low_f": 73,
+      "low_f": 74,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-10T06:10",
       "sunset": "2026-08-10T19:57",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-11T06:10",
       "sunset": "2026-08-11T19:56",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:54",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:53",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-09T20:10:25.710547+00:00"
+  "updated_at": "2026-08-09T20:42:27.153526+00:00"
 }

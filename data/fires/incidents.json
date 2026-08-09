@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T04:31:52.028754+00:00",
+  "updated_at": "2026-08-09T05:01:52.901443+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
   "count": 210,
   "incidents": [
@@ -772,18 +772,6 @@
       "discovered": "2026-07-28T00:45:14+00:00"
     },
     {
-      "name": "Double",
-      "acres": 50,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 38.791388242657746,
-      "lng": -119.59084589351228,
-      "updated": "2026-08-09T03:39:16.133000+00:00",
-      "state": "NV",
-      "personnel": null,
-      "discovered": "2026-08-09T02:34:58+00:00"
-    },
-    {
       "name": "Sand Springs",
       "acres": 50,
       "containment_pct": null,
@@ -994,10 +982,22 @@
       "cause": "Undetermined",
       "lat": 38.46958871695456,
       "lng": -112.67223360582511,
-      "updated": "2026-08-09T04:21:15.323000+00:00",
+      "updated": "2026-08-09T04:43:26.740000+00:00",
       "state": "UT",
       "personnel": null,
       "discovered": "2026-08-09T03:18:14+00:00"
+    },
+    {
+      "name": "Timber",
+      "acres": 7,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 36.215898858987735,
+      "lng": -121.71752094030687,
+      "updated": "2026-08-09T04:56:02.470000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-09T03:35:26+00:00"
     },
     {
       "name": "Onava",
@@ -1360,18 +1360,6 @@
       "discovered": "2026-07-31T21:49:15+00:00"
     },
     {
-      "name": "Black Point",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": null,
-      "lat": 37.80810194626538,
-      "lng": -122.42855722041428,
-      "updated": "2026-08-09T04:10:50.170000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-08T23:00:56+00:00"
-    },
-    {
       "name": "Coyote",
       "acres": 0.1,
       "containment_pct": null,
@@ -1382,6 +1370,18 @@
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-09T00:02:47+00:00"
+    },
+    {
+      "name": "Black Point",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": null,
+      "lat": 37.80810194626538,
+      "lng": -122.42855722041428,
+      "updated": "2026-08-09T04:10:50.170000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-08T23:00:56+00:00"
     },
     {
       "name": "Big Sky",
@@ -1418,6 +1418,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-08T18:40:12+00:00"
+    },
+    {
+      "name": "Cherry",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 38.431780712298234,
+      "lng": -112.67546460213502,
+      "updated": "2026-08-09T04:41:01.160000+00:00",
+      "state": "UT",
+      "personnel": null,
+      "discovered": "2026-08-09T02:09:20+00:00"
     },
     {
       "name": "Mutual Aid/Logan",
@@ -1804,28 +1816,16 @@
       "discovered": "2026-08-08T23:00:07+00:00"
     },
     {
-      "name": "Lac-277136",
+      "name": "Bdu/Toomey",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.696904933087694,
-      "lng": -118.13352222293386,
-      "updated": "2026-08-06T17:21:14.780000+00:00",
+      "lat": 37.58955521979136,
+      "lng": -118.34917954519572,
+      "updated": "2026-08-07T21:22:26.907000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-06T17:20:50+00:00"
-    },
-    {
-      "name": "Lac-276762",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.687584931021036,
-      "lng": -118.1513122251245,
-      "updated": "2026-08-06T07:39:26.150000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-06T07:39:09+00:00"
+      "discovered": "2026-08-07T19:06:00+00:00"
     },
     {
       "name": "Lac-277029",
@@ -1852,16 +1852,28 @@
       "discovered": "2026-08-07T17:41:44+00:00"
     },
     {
-      "name": "Bdu/Toomey",
+      "name": "Lac-276762",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.58955521979136,
-      "lng": -118.34917954519572,
-      "updated": "2026-08-07T21:22:26.907000+00:00",
+      "lat": 34.687584931021036,
+      "lng": -118.1513122251245,
+      "updated": "2026-08-06T07:39:26.150000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-07T19:06:00+00:00"
+      "discovered": "2026-08-06T07:39:09+00:00"
+    },
+    {
+      "name": "Lac-277136",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.696904933087694,
+      "lng": -118.13352222293386,
+      "updated": "2026-08-06T17:21:14.780000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-06T17:20:50+00:00"
     },
     {
       "name": "Robin",
@@ -2234,18 +2246,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-07T21:32:30+00:00"
-    },
-    {
-      "name": "Idaleona",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.796224876887,
-      "lng": -117.35471001564262,
-      "updated": "2026-08-09T04:29:19.647000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-09T04:12:33+00:00"
     },
     {
       "name": "Lac-279333",

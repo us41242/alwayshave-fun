@@ -20,23 +20,22 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 90,
-    "feels_like_f": 83,
-    "wind_mph": 15,
-    "gusts_mph": 20,
-    "rain_pct": 7
+    "feels_like_f": 86,
+    "wind_mph": 6,
+    "gusts_mph": 7,
+    "rain_pct": 12
   },
   "sunrise": "2026-08-08T06:42",
   "sunset": "2026-08-08T20:32",
   "aqi": {
-    "aqi": 82,
+    "aqi": 67,
     "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -44,10 +43,10 @@
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Eight Mile",
-      "acres": 15,
+      "acres": 60,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-09T01:15:43.170000+00:00",
+      "updated": "2026-08-09T01:36:35.693000+00:00",
       "distance_km": 51.2,
       "direction": "NNW"
     }
@@ -62,7 +61,7 @@
       "date": "2026-08-08",
       "high_f": 100,
       "low_f": 71,
-      "rain_pct": 8,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-08-08T06:42",
       "sunset": "2026-08-08T20:32",
@@ -71,7 +70,7 @@
     },
     {
       "date": "2026-08-09",
-      "high_f": 97,
+      "high_f": 98,
       "low_f": 76,
       "rain_pct": 7,
       "uv": 8,
@@ -83,7 +82,7 @@
     {
       "date": "2026-08-10",
       "high_f": 96,
-      "low_f": 72,
+      "low_f": 73,
       "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-10T06:44",
@@ -114,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-09T01:32:45.345492+00:00"
+  "updated_at": "2026-08-09T02:01:42.881272+00:00"
 }

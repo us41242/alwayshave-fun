@@ -30,7 +30,7 @@
   "sunrise": "2026-08-09T05:49",
   "sunset": "2026-08-09T19:34",
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 78.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Black Mountain",
+      "acres": 10,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-09T22:30:33.893000+00:00",
+      "distance_km": 65.4,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-09T22:04:25.456482+00:00"
+  "updated_at": "2026-08-09T22:34:28.705544+00:00"
 }

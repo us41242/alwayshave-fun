@@ -83,6 +83,14 @@ export default {
       if (fRes.status === 200) return fRes;
     }
 
+    // /fires/{incident}  →  permanent per-incident page (kept after the fire
+    // leaves the NIFC feed — hard rule 3, a published URL never breaks)
+    if (parts.length === 2 && first === 'fires') {
+      const iRes = await env.ASSETS.fetch(
+        new URL(`/generated/fires/${parts[1]}/index.html`, url.origin));
+      if (iRes.status === 200) return iRes;
+    }
+
     // /great-today  →  serve great trails page
     if (parts.length === 1 && first === 'great-today') {
       return env.ASSETS.fetch(new URL('/great-today.html', url.origin));

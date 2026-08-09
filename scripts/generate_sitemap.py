@@ -90,6 +90,13 @@ def generate_sitemap(trails):
     # Active wildfires page
     urls.append({"loc": f"{BASE_URL}/fires", "lastmod": today})
 
+    # Per-incident fire pages (permanent once published, active or not)
+    fires_dir = "generated/fires"
+    if os.path.isdir(fires_dir):
+        for slug in sorted(os.listdir(fires_dir)):
+            if os.path.isfile(os.path.join(fires_dir, slug, "index.html")):
+                urls.append({"loc": f"{BASE_URL}/fires/{slug}", "lastmod": today})
+
     # Dog-friendly landing page
     urls.append({"loc": f"{BASE_URL}/dog-friendly", "lastmod": today})
 

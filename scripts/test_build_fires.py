@@ -42,4 +42,35 @@ assert '<link rel="canonical" href="https://alwayshave.fun/fires">' in html
 empty = bf.build_html([], trails, FIXTURE["updated_at"])
 assert "No wildfire over 100 acres" in empty
 
+# --- per-incident pages: permanent slugs, archive survival, honest inactive copy ---
+assert bf.incident_slug(FIXTURE["incidents"][0]) == "widemouth-2-fire-ut-2026"
+assert "/fires/widemouth-2-fire-ut-2026" in html          # the only crawl path in
+
+arc = bf.update_archive(FIXTURE, {})
+# 1,000-acre bar: Widemouth 2 (96,702) and Babylon (107,189) qualify; Tiny does not.
+# Babylon is 100% contained — off /fires, but it still gets a permanent page.
+assert set(arc) == {"widemouth-2-fire-ut-2026", "babylon-fire-ut-unknown"}, arc
+assert arc["widemouth-2-fire-ut-2026"]["history"] == [
+    {"date": "2026-08-07", "acres": 96702, "containment_pct": 10}]
+
+# A second read the next day appends one point and does not duplicate the first.
+day2 = {"updated_at": "2026-08-08T04:00:00+00:00",
+        "incidents": [dict(FIXTURE["incidents"][0], acres=106450, containment_pct=24)]}
+arc = bf.update_archive(day2, arc)
+w = arc["widemouth-2-fire-ut-2026"]
+assert [h["acres"] for h in w["history"]] == [96702, 106450], w["history"]
+assert w["active"] is True
+# Babylon fell out of this read — it must survive, flipped inactive, never deleted.
+assert arc["babylon-fire-ut-unknown"]["active"] is False
+
+page = bf.build_incident_html("widemouth-2-fire-ut-2026", w, trails)
+assert "106,450 acres" in page and "24% contained" in page
+assert '<link rel="canonical" href="https://alwayshave.fun/fires/widemouth-2-fire-ut-2026">' in page
+assert "+9,748 ac" in page                     # growth curve is the unique asset
+assert "/ut/near-ut" in page and "/ca/far-ca" not in page
+
+gone = bf.build_incident_html("babylon-fire-ut-unknown", arc["babylon-fire-ut-unknown"], trails)
+assert "No longer on the NIFC active list" in gone
+assert "we do not guess" in gone               # hard rule 4: never claim it is out
+
 print("test_build_fires: OK")

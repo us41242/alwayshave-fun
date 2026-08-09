@@ -12,6 +12,7 @@ Southwest. It renews itself every 30 minutes, which is the site's moat.
 """
 
 import os
+import re
 import csv
 import json
 import math
@@ -20,9 +21,39 @@ from datetime import datetime, timezone
 BASE_URL = "https://alwayshave.fun"
 OUT_DIR = "generated/fires"
 INCIDENTS = "data/fires/incidents.json"
+ARCHIVE = "data/fires/archive.json"
 STATES = {"NV": "Nevada", "UT": "Utah", "AZ": "Arizona", "CO": "Colorado", "CA": "California"}
 MIN_ACRES = 100
+# Bar for an incident to earn its own permanent page. Small fires produce thin
+# pages and churn; 1,000+ acres is the size that generates real search demand.
+PAGE_MIN_ACRES = 1000
 NEAR_KM = 100
+
+PAGE_CSS = """  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0c1117; color: #e6edf3; font-family: 'Inter', sans-serif; }
+    a { color: inherit; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    .nav { position: sticky; top: 0; background: rgba(12,17,23,.95); border-bottom: 1px solid #30363d; z-index: 100; padding: 14px 0; }
+    .nav-inner { display: flex; align-items: center; gap: 12px; }
+    .nav-logo { font-weight: 800; font-size: 1.1rem; text-decoration: none; color: #e6edf3; }
+    .nav-sep { color: #30363d; }
+    .nav-state { color: #8b949e; font-size: .9rem; }
+    .hero { padding: 48px 0 32px; border-bottom: 1px solid #30363d; }
+    .h1 { font-size: 2.4rem; font-weight: 900; line-height: 1.1; margin-bottom: 12px; }
+    .stats { display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
+    .pill { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 8px 16px; font-size: .85rem; color: #8b949e; }
+    .pill strong { color: #e6edf3; font-size: 1.1rem; }
+    .intro { font-size: .95rem; color: #8b949e; line-height: 1.7; margin-top: 16px; }
+    .section-title { font-size: 1rem; font-weight: 700; color: #8b949e; text-transform: uppercase; letter-spacing: .08em; padding: 28px 0 4px; }
+    .faq { padding: 32px 0 40px; border-top: 1px solid #30363d; margin-top: 24px; }
+    .faq h3 { font-size: .95rem; margin: 18px 0 4px; }
+    .faq p { font-size: .88rem; color: #8b949e; line-height: 1.7; }
+    footer { border-top: 1px solid #30363d; padding: 32px 0; font-size: .8rem; color: #6e7681; line-height: 2; text-align: center; }
+    footer a { color: #8b949e; text-decoration: none; }
+    footer a:hover { color: #e6edf3; }
+  </style>"""
+
 
 PAGE_TITLE = "Active Wildfires in the Southwest — Live Acres & Containment | alwayshave.fun"
 PAGE_DESC = ("Every active wildfire over 100 acres in Nevada, Utah, Arizona, Colorado, and "
@@ -108,6 +139,59 @@ def contain_color(pct):
     return "#65a30d"
 
 
+def incident_slug(inc):
+    """Permanent per-incident URL key. Includes state + discovery year because
+    fire names repeat across states and seasons, and hard rule 3 means a slug
+    we publish once has to keep meaning the same fire forever."""
+    name = re.sub(r"[^a-z0-9]+", "-", (inc.get("name") or "").lower()).strip("-")
+    year = (inc.get("discovered") or inc.get("first_seen") or "")[:4] or "unknown"
+    return f"{name}-fire-{(inc.get('state') or '').lower()}-{year}"
+
+
+def load_archive():
+    try:
+        with open(ARCHIVE) as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def update_archive(data, archive):
+    """Fold this run's feed into the permanent record.
+
+    Every incident that has ever cleared PAGE_MIN_ACRES keeps its entry (and so
+    its URL) forever. `active` flips false once it stops appearing in the feed —
+    we do NOT claim it is out, only that NIFC stopped listing it (hard rule 4).
+    """
+    read_at = data.get("updated_at") or datetime.now(timezone.utc).isoformat()
+    day = read_at[:10]
+    seen = set()
+
+    for inc in data.get("incidents", []):
+        if inc.get("state") not in STATES or (inc.get("acres") or 0) < PAGE_MIN_ACRES:
+            continue
+        slug = incident_slug(inc)
+        seen.add(slug)
+        entry = archive.get(slug, {"first_seen": read_at, "history": []})
+        entry.update({k: inc.get(k) for k in
+                      ("name", "state", "acres", "containment_pct", "cause",
+                       "lat", "lng", "personnel", "discovered")})
+        entry["last_seen"] = read_at
+        entry["active"] = True
+        # One point per UTC day, latest read of that day wins — a real growth
+        # curve, free, from data we already fetch 48 times a day.
+        hist = [h for h in entry["history"] if h["date"] != day]
+        hist.append({"date": day, "acres": int(inc.get("acres") or 0),
+                     "containment_pct": inc.get("containment_pct")})
+        entry["history"] = sorted(hist, key=lambda h: h["date"])
+        archive[slug] = entry
+
+    for slug, entry in archive.items():
+        if slug not in seen:
+            entry["active"] = False
+    return archive
+
+
 def incident_html(inc, trails):
     acres = int(inc.get("acres") or 0)
     pct = inc.get("containment_pct")
@@ -134,10 +218,17 @@ def incident_html(inc, trails):
         near_html = ('<div style="font-size:.78rem;color:#6e7681;margin-top:8px">'
                      f'No trails we track are within {NEAR_KM} km.</div>')
 
+    # Fires big enough to have their own page get linked from the table — that
+    # link is the only crawl path to them.
+    title = f'{esc(inc.get("name", ""))} Fire'
+    if (inc.get("acres") or 0) >= PAGE_MIN_ACRES:
+        title = (f'<a href="/fires/{incident_slug(inc)}" style="color:#58a6ff;'
+                 f'text-decoration:none">{title} →</a>')
+
     return f'''
     <div style="padding:16px 0;border-bottom:1px solid #30363d">
       <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
-        <div style="font-weight:700;font-size:1.05rem">{esc(inc.get("name", ""))} Fire</div>
+        <div style="font-weight:700;font-size:1.05rem">{title}</div>
         <div style="font-weight:800;color:#e6edf3">{acres:,} acres</div>
         <div style="font-weight:600;color:{contain_color(pct)}">{pct_str}</div>
       </div>
@@ -146,7 +237,25 @@ def incident_html(inc, trails):
     </div>'''
 
 
-def build_html(incidents, trails, updated_at):
+def archive_html(archive, shown_slugs):
+    """Link every incident page not already linked from the table above.
+    Contained and dropped-off fires still have permanent pages; without this
+    they would be reachable only from the sitemap."""
+    rest = [(s, e) for s, e in archive.items()
+            if s not in shown_slugs and e.get("name")]
+    if not rest:
+        return ""
+    rest.sort(key=lambda x: -(x[1].get("acres") or 0))
+    links = " · ".join(
+        f'<a href="/fires/{s}" style="color:#58a6ff;text-decoration:none">{esc(e["name"])} Fire</a>'
+        f' <span style="color:#6e7681">{int(e.get("acres") or 0):,} ac, '
+        f'{STATES.get(e.get("state"), "")}</span>' for s, e in rest)
+    return (f'<div class="section-title">Also tracked this season</div>'
+            f'<p class="intro">Contained, or no longer listed on the NIFC active feed. '
+            f'We keep the page and the daily record for each one.<br><br>{links}</p>')
+
+
+def build_html(incidents, trails, updated_at, archive=None):
     try:
         stamp = datetime.fromisoformat(updated_at).strftime("%Y-%m-%d %H:%M UTC")
     except (TypeError, ValueError):
@@ -229,30 +338,7 @@ def build_html(incidents, trails, updated_at):
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    body {{ background: #0c1117; color: #e6edf3; font-family: 'Inter', sans-serif; }}
-    a {{ color: inherit; }}
-    .wrap {{ max-width: 720px; margin: 0 auto; padding: 0 20px; }}
-    .nav {{ position: sticky; top: 0; background: rgba(12,17,23,.95); border-bottom: 1px solid #30363d; z-index: 100; padding: 14px 0; }}
-    .nav-inner {{ display: flex; align-items: center; gap: 12px; }}
-    .nav-logo {{ font-weight: 800; font-size: 1.1rem; text-decoration: none; color: #e6edf3; }}
-    .nav-sep {{ color: #30363d; }}
-    .nav-state {{ color: #8b949e; font-size: .9rem; }}
-    .hero {{ padding: 48px 0 32px; border-bottom: 1px solid #30363d; }}
-    .h1 {{ font-size: 2.4rem; font-weight: 900; line-height: 1.1; margin-bottom: 12px; }}
-    .stats {{ display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }}
-    .pill {{ background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 8px 16px; font-size: .85rem; color: #8b949e; }}
-    .pill strong {{ color: #e6edf3; font-size: 1.1rem; }}
-    .intro {{ font-size: .95rem; color: #8b949e; line-height: 1.7; margin-top: 16px; }}
-    .section-title {{ font-size: 1rem; font-weight: 700; color: #8b949e; text-transform: uppercase; letter-spacing: .08em; padding: 28px 0 4px; }}
-    .faq {{ padding: 32px 0 40px; border-top: 1px solid #30363d; margin-top: 24px; }}
-    .faq h3 {{ font-size: .95rem; margin: 18px 0 4px; }}
-    .faq p {{ font-size: .88rem; color: #8b949e; line-height: 1.7; }}
-    footer {{ border-top: 1px solid #30363d; padding: 32px 0; font-size: .8rem; color: #6e7681; line-height: 2; text-align: center; }}
-    footer a {{ color: #8b949e; text-decoration: none; }}
-    footer a:hover {{ color: #e6edf3; }}
-  </style>
+  {PAGE_CSS}
 </head>
 <body>
   <nav class="nav">
@@ -285,6 +371,7 @@ def build_html(incidents, trails, updated_at):
     </div>
 
     {sections}
+    {archive_html(archive or {}, {incident_slug(i) for i in incidents if (i.get("acres") or 0) >= PAGE_MIN_ACRES})}
 
     <div class="faq">
       <h3>Where does this data come from?</h3>
@@ -316,6 +403,202 @@ def build_html(incidents, trails, updated_at):
 </html>'''
 
 
+def growth_html(history):
+    """Daily acres/containment from our own 30-min reads. This is the part of an
+    incident page nobody else publishes — NIFC gives a snapshot, not a curve."""
+    if len(history) < 2:
+        return ('<p class="intro">We have one day of readings on this fire so far. '
+                'The daily record builds from here.</p>')
+    rows = ""
+    prev = None
+    for h in history[-30:]:
+        acres = h["acres"]
+        delta = ""
+        if prev is not None:
+            d = acres - prev
+            if d > 0:
+                delta = f'<span style="color:#dc2626">+{d:,} ac</span>'
+            elif d < 0:
+                # NIFC revises mapped perimeters downward; say so, don't hide it.
+                delta = f'<span style="color:#8b949e">{d:,} ac (remap)</span>'
+            else:
+                delta = '<span style="color:#6e7681">no change</span>'
+        prev = acres
+        pct = h.get("containment_pct")
+        rows += (f'<tr><td style="padding:6px 14px 6px 0;color:#8b949e">{h["date"]}</td>'
+                 f'<td style="padding:6px 14px 6px 0;font-weight:600">{acres:,}</td>'
+                 f'<td style="padding:6px 14px 6px 0;color:{contain_color(pct)}">'
+                 f'{0 if pct is None else int(pct)}%</td>'
+                 f'<td style="padding:6px 0;font-size:.85rem">{delta}</td></tr>')
+    return (f'<table style="border-collapse:collapse;font-size:.9rem;margin-top:8px">'
+            f'<tr style="color:#6e7681;font-size:.75rem;text-transform:uppercase">'
+            f'<td style="padding-right:14px">Date</td><td style="padding-right:14px">Acres</td>'
+            f'<td style="padding-right:14px">Contained</td><td>Change</td></tr>{rows}</table>')
+
+
+def build_incident_html(slug, e, trails):
+    name = esc(e.get("name", ""))
+    state_name = STATES.get(e.get("state"), "")
+    acres = int(e.get("acres") or 0)
+    pct = e.get("containment_pct")
+    active = e.get("active")
+    url = f"{BASE_URL}/fires/{slug}"
+    try:
+        stamp = datetime.fromisoformat(e["last_seen"]).strftime("%Y-%m-%d %H:%M UTC")
+    except (KeyError, TypeError, ValueError):
+        stamp = "unknown"
+    days = days_burning(e.get("discovered"))
+
+    title = (f"{name} Fire, {state_name} — {acres:,} Acres, "
+             f"{0 if pct is None else int(pct)}% Contained | alwayshave.fun")
+    desc = (f"Live size, containment, crews and nearby hiking trails for the {name} Fire in "
+            f"{state_name}. Straight from the NIFC/WFIGS incident feed, re-read every 30 "
+            f"minutes — last read {stamp}.")
+
+    if active:
+        status = (f'<p class="intro">The {name} Fire is on the current NIFC active-incident '
+                  f'list at <strong>{acres:,} acres</strong> and '
+                  f'<strong>{0 if pct is None else int(pct)}% contained</strong>'
+                  + (f", {days} days after it was discovered on {fmt_date(e.get('discovered'))}"
+                     if days is not None else "") + '.</p>')
+    else:
+        status = (f'<p class="intro"><strong>No longer on the NIFC active list.</strong> '
+                  f'The last reading we recorded was {acres:,} acres at '
+                  f'{0 if pct is None else int(pct)}% contained on {e.get("last_seen", "")[:10]}. '
+                  f'Incidents drop off the feed when they are contained or declared out — the '
+                  f'feed does not tell us which, so we do not guess. This page is kept as the '
+                  f'record of what we read while it burned.</p>')
+
+    facts = [("State", state_name),
+             ("Size", f"{acres:,} acres"),
+             ("Containment", f"{0 if pct is None else int(pct)}%"),
+             ("Cause", (e.get("cause") or "not reported").title()),
+             ("Discovered", fmt_date(e.get("discovered"))),
+             ("Personnel assigned", f"{int(e['personnel']):,}" if e.get("personnel") else "not reported")]
+    facts_html = "".join(
+        f'<div style="padding:10px 0;border-bottom:1px solid #21262d;display:flex;'
+        f'justify-content:space-between;font-size:.9rem"><span style="color:#8b949e">{k}</span>'
+        f'<span style="font-weight:600">{esc(v)}</span></div>' for k, v in facts)
+
+    near = nearby_trails(e, trails) if e.get("lat") and e.get("lng") else []
+    if near:
+        rows = "".join(
+            f'<div style="padding:10px 0;border-bottom:1px solid #21262d;font-size:.9rem">'
+            f'<a href="/{t["state"]}/{t["slug"]}" style="color:#58a6ff;text-decoration:none">'
+            f'{esc(t["name"])}</a> <span style="color:#6e7681">— {d} km away, live AQI and '
+            f'conditions</span></div>' for d, t in near)
+        near_html = (f'<div class="section-title">Trails within {NEAR_KM} km</div>{rows}'
+                     f'<p class="intro">Distance is not the whole question — smoke carries much '
+                     f'further than fire, and trailheads and roads close well before flames reach '
+                     f'them. Each trail page shows live AQI; check the managing agency and '
+                     f'inciweb.nwcg.gov for closures before you drive.</p>')
+    else:
+        near_html = (f'<div class="section-title">Trails within {NEAR_KM} km</div>'
+                     f'<p class="intro">None of the trails we track are within {NEAR_KM} km of '
+                     f'this fire. Smoke still travels far beyond that, so check the AQI on '
+                     f'whichever trail page you are headed for.</p>')
+
+    schema = {"@context": "https://schema.org", "@graph": [
+        {"@type": "Article", "@id": url, "headline": f"{e.get('name','')} Fire, {state_name}",
+         "description": desc, "url": url, "dateModified": e.get("last_seen"),
+         "datePublished": e.get("first_seen"),
+         "publisher": {"@type": "Organization", "name": "alwayshave.fun", "url": BASE_URL}},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL},
+            {"@type": "ListItem", "position": 2, "name": "Active Wildfires",
+             "item": f"{BASE_URL}/fires"},
+            {"@type": "ListItem", "position": 3, "name": f"{e.get('name','')} Fire", "item": url}]}]}
+
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SENVGVQJ6X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-SENVGVQJ6X');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <meta name="description" content="{desc}">
+  <link rel="canonical" href="{url}">
+  <meta property="og:title" content="{title}">
+  <meta property="og:description" content="{desc}">
+  <meta property="og:url" content="{url}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="alwayshave.fun">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{title}">
+  <meta name="twitter:description" content="{desc}">
+  <script type="application/ld+json">{json.dumps(schema, separators=(",", ":"))}</script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+{PAGE_CSS}
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap">
+      <div class="nav-inner">
+        <a class="nav-logo" href="/">alwayshave.fun</a>
+        <span class="nav-sep">/</span>
+        <a href="/fires" class="nav-state" style="text-decoration:none">Active Wildfires</a>
+        <span class="nav-sep">/</span>
+        <span class="nav-state">{name} Fire</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <div class="hero">
+      <div class="h1">{name} Fire</div>
+      <div class="stats">
+        <div class="pill"><strong>{acres:,}</strong> acres</div>
+        <div class="pill"><strong>{0 if pct is None else int(pct)}%</strong> contained</div>
+        <div class="pill"><strong>{state_name}</strong></div>
+      </div>
+      {status}
+      <p class="intro">Source: the federal NIFC/WFIGS Incident Locations feed, re-read every
+      30 minutes. Last read <strong>{stamp}</strong>. Nothing on this page is estimated.</p>
+    </div>
+
+    <div class="section-title">The numbers</div>
+    {facts_html}
+
+    <div class="section-title">Day-by-day, as we read it</div>
+    {growth_html(e.get("history", []))}
+
+    {near_html}
+
+    <div class="faq">
+      <h3>What does &ldquo;{0 if pct is None else int(pct)}% contained&rdquo; mean here?</h3>
+      <p>Containment is the share of the fire's perimeter that crews have a control line
+      around — not how much of the fire is out. A 95% contained fire can still put up plenty of
+      smoke; a 0% contained fire is still growing freely.</p>
+      <h3>Where do these numbers come from?</h3>
+      <p>The NIFC/WFIGS Incident Locations feed — the official interagency record used by fire
+      managers. We re-read it every 30 minutes and stamp the read time. The day-by-day table is
+      our own record of those reads; acres sometimes drop when a perimeter is remapped, and we
+      label that rather than smoothing it out.</p>
+      <h3>Can I still hike near it?</h3>
+      <p>Check the managing agency and inciweb.nwcg.gov for closures first — they close roads and
+      trailheads well ahead of the fire. Then check the live AQI on the trail page itself; smoke
+      is usually what decides the day, not flames.</p>
+    </div>
+
+    <footer>
+      <a href="/fires">← All active fires</a> &nbsp;·&nbsp;
+      <a href="/">All Trails</a> &nbsp;·&nbsp;
+      <a href="/{(e.get("state") or "").lower()}">{state_name}</a><br>
+      Fire data: NIFC/WFIGS, read {stamp} &nbsp;·&nbsp; <a href="/">alwayshave.fun</a>
+    </footer>
+  </div>
+</body>
+</html>'''
+
+
 def main():
     try:
         with open(INCIDENTS) as f:
@@ -327,9 +610,21 @@ def main():
     incidents = active_incidents(data)
     trails = load_trails()
     os.makedirs(OUT_DIR, exist_ok=True)
+
+    archive = update_archive(data, load_archive())
+    with open(ARCHIVE, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=1, sort_keys=True)
+
     with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(build_html(incidents, trails, data.get("updated_at")))
+        f.write(build_html(incidents, trails, data.get("updated_at"), archive))
     print(f"  ✓ fires/index.html ({len(incidents)} active incidents)")
+
+    for slug, entry in archive.items():
+        os.makedirs(os.path.join(OUT_DIR, slug), exist_ok=True)
+        with open(os.path.join(OUT_DIR, slug, "index.html"), "w", encoding="utf-8") as f:
+            f.write(build_incident_html(slug, entry, trails))
+    live = sum(1 for e in archive.values() if e.get("active"))
+    print(f"  ✓ fires/{{incident}} pages: {len(archive)} total ({live} active)")
 
 
 if __name__ == "__main__":

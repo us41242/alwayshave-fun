@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T15:31:30.648511+00:00",
+  "updated_at": "2026-08-09T16:01:23.764391+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
   "count": 207,
   "incidents": [
@@ -536,9 +536,9 @@
       "acres": 330,
       "containment_pct": 85,
       "cause": "Undetermined (remarks required)",
-      "lat": 35.419874935673214,
-      "lng": -102.30109305836045,
-      "updated": "2026-08-09T14:49:32.303000+00:00",
+      "lat": 35.52155195500501,
+      "lng": -102.24953305439664,
+      "updated": "2026-08-09T15:47:16.890000+00:00",
       "state": "TX",
       "personnel": null,
       "discovered": "2026-08-08T19:52:40+00:00"
@@ -1204,18 +1204,6 @@
       "discovered": "2026-08-09T01:05:53+00:00"
     },
     {
-      "name": "Saint",
-      "acres": 1,
-      "containment_pct": null,
-      "cause": "Human",
-      "lat": 41.83293956529882,
-      "lng": -106.73369377382251,
-      "updated": "2026-08-09T15:23:35.157000+00:00",
-      "state": "WY",
-      "personnel": null,
-      "discovered": "2026-08-09T02:12:20+00:00"
-    },
-    {
       "name": "Sand Hollow",
       "acres": 0.5,
       "containment_pct": null,
@@ -1238,6 +1226,18 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-08T03:32:41+00:00"
+    },
+    {
+      "name": "Rust",
+      "acres": 0.3,
+      "containment_pct": null,
+      "cause": "Human",
+      "lat": 35.81572252419053,
+      "lng": -110.52881090555701,
+      "updated": "2026-08-09T15:49:42.707000+00:00",
+      "state": "AZ",
+      "personnel": null,
+      "discovered": "2026-08-08T15:41:00+00:00"
     },
     {
       "name": "Bilbao",
@@ -1426,7 +1426,7 @@
       "cause": "Undetermined",
       "lat": 33.74762185518067,
       "lng": -117.64709506182855,
-      "updated": "2026-08-09T14:11:52.207000+00:00",
+      "updated": "2026-08-09T15:39:19.220000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-08T18:40:12+00:00"
@@ -1564,18 +1564,6 @@
       "discovered": "2026-08-08T11:03:16+00:00"
     },
     {
-      "name": "Seal",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": null,
-      "lat": 37.786189938682355,
-      "lng": -122.50765622967107,
-      "updated": "2026-08-09T04:02:55.307000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-06T03:00:46+00:00"
-    },
-    {
       "name": "Antlers",
       "acres": 0.1,
       "containment_pct": null,
@@ -1586,6 +1574,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-07-31T00:02:00+00:00"
+    },
+    {
+      "name": "Seal",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": null,
+      "lat": 37.786189938682355,
+      "lng": -122.50765622967107,
+      "updated": "2026-08-09T04:02:55.307000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-06T03:00:46+00:00"
     },
     {
       "name": "Salt",
@@ -2008,18 +2008,6 @@
       "discovered": "2026-08-07T01:13:42+00:00"
     },
     {
-      "name": "Lac-280449",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.68933493016869,
-      "lng": -118.16895222824768,
-      "updated": "2026-08-09T00:32:57.873000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-09T00:32:20+00:00"
-    },
-    {
       "name": "Lac-279423",
       "acres": 0.01,
       "containment_pct": null,
@@ -2042,6 +2030,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-07T03:03:14+00:00"
+    },
+    {
+      "name": "Lac-280449",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.68933493016869,
+      "lng": -118.16895222824768,
+      "updated": "2026-08-09T00:32:57.873000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-09T00:32:20+00:00"
     },
     {
       "name": "Lac-277904",
@@ -2260,6 +2260,30 @@
       "discovered": "2026-08-08T04:02:17+00:00"
     },
     {
+      "name": "Lac-278265",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.03352485751958,
+      "lng": -118.18021217501281,
+      "updated": "2026-08-07T12:51:51.370000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-07T12:51:32+00:00"
+    },
+    {
+      "name": "Lac-278977",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.718774936726156,
+      "lng": -118.11229222125154,
+      "updated": "2026-08-07T23:19:09.600000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-07T23:18:39+00:00"
+    },
+    {
       "name": "Lac-277083",
       "acres": 0.01,
       "containment_pct": null,
@@ -2282,30 +2306,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-07T20:37:27+00:00"
-    },
-    {
-      "name": "Lac-278977",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.718774936726156,
-      "lng": -118.11229222125154,
-      "updated": "2026-08-07T23:19:09.600000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-07T23:18:39+00:00"
-    },
-    {
-      "name": "Lac-278265",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.03352485751958,
-      "lng": -118.18021217501281,
-      "updated": "2026-08-07T12:51:51.370000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-07T12:51:32+00:00"
     },
     {
       "name": "Lac-278789",
@@ -2344,6 +2344,30 @@
       "discovered": "2026-08-07T02:27:52+00:00"
     },
     {
+      "name": "Lac-277348",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.4337548896563,
+      "lng": -118.38581224274634,
+      "updated": "2026-08-06T20:13:55.803000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-06T20:13:13+00:00"
+    },
+    {
+      "name": "Smokey",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 32.87028281236081,
+      "lng": -116.51640080006814,
+      "updated": "2026-08-07T17:07:16.560000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-06-27T03:11:45+00:00"
+    },
+    {
       "name": "Lac-277206",
       "acres": 0.01,
       "containment_pct": null,
@@ -2378,30 +2402,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-09T14:33:11+00:00"
-    },
-    {
-      "name": "Smokey",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 32.87028281236081,
-      "lng": -116.51640080006814,
-      "updated": "2026-08-07T17:07:16.560000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-06-27T03:11:45+00:00"
-    },
-    {
-      "name": "Lac-277348",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.4337548896563,
-      "lng": -118.38581224274634,
-      "updated": "2026-08-06T20:13:55.803000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-06T20:13:13+00:00"
     },
     {
       "name": "Charlie",
@@ -2440,18 +2440,6 @@
       "discovered": "2026-07-24T22:10:00+00:00"
     },
     {
-      "name": "Walnut",
-      "acres": null,
-      "containment_pct": null,
-      "cause": null,
-      "lat": 34.20663236953254,
-      "lng": -118.30462441011937,
-      "updated": "2026-08-08T23:46:34.783000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-08T22:54:00+00:00"
-    },
-    {
       "name": "Kirkwood",
       "acres": null,
       "containment_pct": null,
@@ -2462,6 +2450,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-05-03T21:28:00+00:00"
+    },
+    {
+      "name": "Walnut",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "lat": 34.20663236953254,
+      "lng": -118.30462441011937,
+      "updated": "2026-08-08T23:46:34.783000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-08T22:54:00+00:00"
     },
     {
       "name": "Holser",

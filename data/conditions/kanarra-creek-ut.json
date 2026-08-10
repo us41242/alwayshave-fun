@@ -20,14 +20,15 @@
   "score": 68,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 70,
-    "wind_mph": 13,
-    "gusts_mph": 17,
-    "rain_pct": 15
+    "temp_f": 77,
+    "feels_like_f": 66,
+    "wind_mph": 20,
+    "gusts_mph": 26,
+    "rain_pct": 12
   },
   "sunrise": "2026-08-09T06:43",
   "sunset": "2026-08-09T20:32",
@@ -41,7 +42,15 @@
     "risk_level": "high",
     "nearest_fire_km": 17.9,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Eight Mile",
+      "acres": 80.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-09T18:57:41.017000+00:00",
+      "distance_km": 18.1,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T00:42:14.565421+00:00"
+  "updated_at": "2026-08-10T01:13:39.815525+00:00"
 }

@@ -17,19 +17,19 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 88,
-    "feels_like_f": 79,
+    "temp_f": 84,
+    "feels_like_f": 74,
     "wind_mph": 18,
-    "gusts_mph": 21,
-    "rain_pct": 8
+    "gusts_mph": 23,
+    "rain_pct": 9
   },
   "sunrise": "2026-08-09T06:43",
   "sunset": "2026-08-09T20:31",
@@ -43,7 +43,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 41.8,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Eight Mile",
+      "acres": 80.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-09T18:57:41.017000+00:00",
+      "distance_km": 41.8,
+      "direction": "NW"
+    }
   },
   "river": {
     "cfs": 29,
@@ -107,5 +115,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-10T00:36:37.661749+00:00"
+  "updated_at": "2026-08-10T01:04:29.953015+00:00"
 }

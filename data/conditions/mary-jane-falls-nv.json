@@ -17,29 +17,39 @@
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 82,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 75,
+    "temp_f": 74,
     "feels_like_f": 68,
-    "wind_mph": 10,
-    "gusts_mph": 13,
+    "wind_mph": 9,
+    "gusts_mph": 14,
     "rain_pct": 2
   },
   "sunrise": "2026-08-09T05:56",
   "sunset": "2026-08-09T19:39",
   "aqi": {
-    "aqi": 30,
-    "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "aqi": 72,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 67.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Trough Spring",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-07T21:34:51.987000+00:00",
+      "distance_km": 15.9,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-08-09T05:56",
       "sunset": "2026-08-09T19:39",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -62,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-08-10T05:56",
       "sunset": "2026-08-10T19:38",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -73,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-11T05:57",
       "sunset": "2026-08-11T19:37",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -84,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-12T05:58",
       "sunset": "2026-08-12T19:36",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-13T05:59",
       "sunset": "2026-08-13T19:35",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T00:39:01.218593+00:00"
+  "updated_at": "2026-08-10T01:07:12.002698+00:00"
 }

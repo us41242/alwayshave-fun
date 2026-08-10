@@ -23,8 +23,8 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 73,
+    "temp_f": 79,
+    "feels_like_f": 72,
     "wind_mph": 8,
     "gusts_mph": 14,
     "rain_pct": 3
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 76.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rat Mountain",
+      "acres": 1.87,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-09T16:04:12.543000+00:00",
+      "distance_km": 47.2,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-10T00:42:15.601181+00:00"
+  "updated_at": "2026-08-10T01:13:40.555093+00:00"
 }

@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 95,
-    "feels_like_f": 88,
+    "temp_f": 94,
+    "feels_like_f": 87,
     "wind_mph": 12,
     "gusts_mph": 15,
-    "rain_pct": 4
+    "rain_pct": 3
   },
   "sunrise": "2026-08-09T06:43",
   "sunset": "2026-08-09T20:31",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 53.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Eight Mile",
+      "acres": 80.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-09T18:57:41.017000+00:00",
+      "distance_km": 53.4,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T00:32:16.245476+00:00"
+  "updated_at": "2026-08-10T01:02:12.920401+00:00"
 }

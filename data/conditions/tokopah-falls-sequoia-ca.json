@@ -23,10 +23,10 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 75,
-    "wind_mph": 5,
-    "gusts_mph": 6,
+    "temp_f": 78,
+    "feels_like_f": 74,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 1
   },
   "sunrise": "2026-08-09T06:07",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 54.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Converse",
+      "acres": 1.3,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-09T14:48:55.407000+00:00",
+      "distance_km": 29.9,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T00:47:26.700759+00:00"
+  "updated_at": "2026-08-10T01:18:36.209716+00:00"
 }

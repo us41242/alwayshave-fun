@@ -17,31 +17,39 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 80,
   "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "wind layer recommended"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 67,
-    "wind_mph": 11,
-    "gusts_mph": 15,
-    "rain_pct": 25
+    "temp_f": 71,
+    "feels_like_f": 62,
+    "wind_mph": 16,
+    "gusts_mph": 28,
+    "rain_pct": 22
   },
   "sunrise": "2026-08-09T06:39",
   "sunset": "2026-08-09T20:28",
   "aqi": {
-    "aqi": 68,
-    "category": "Moderate",
+    "aqi": 46,
+    "category": "Good",
     "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 81.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wiggler Wash",
+      "acres": 1.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-08T01:33:03.037000+00:00",
+      "distance_km": 32.4,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,7 +61,7 @@
       "uv": 7,
       "sunrise": "2026-08-09T06:39",
       "sunset": "2026-08-09T20:28",
-      "predicted_score": 52,
+      "predicted_score": 62,
       "score_label": "Use caution"
     },
     {
@@ -64,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-08-10T06:40",
       "sunset": "2026-08-10T20:27",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -75,7 +83,7 @@
       "uv": 7,
       "sunrise": "2026-08-11T06:41",
       "sunset": "2026-08-11T20:26",
-      "predicted_score": 52,
+      "predicted_score": 62,
       "score_label": "Use caution"
     },
     {
@@ -86,8 +94,8 @@
       "uv": 5,
       "sunrise": "2026-08-12T06:42",
       "sunset": "2026-08-12T20:25",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
@@ -97,9 +105,9 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:43",
       "sunset": "2026-08-13T20:23",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T00:32:29.837136+00:00"
+  "updated_at": "2026-08-10T01:02:14.577427+00:00"
 }

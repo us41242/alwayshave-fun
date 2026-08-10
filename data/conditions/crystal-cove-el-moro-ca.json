@@ -17,14 +17,15 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 74,
-    "feels_like_f": 80,
+    "feels_like_f": 79,
     "wind_mph": 8,
     "gusts_mph": 9,
     "rain_pct": 1
@@ -32,8 +33,8 @@
   "sunrise": "2026-08-09T06:09",
   "sunset": "2026-08-09T19:43",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -41,7 +42,15 @@
     "risk_level": "high",
     "nearest_fire_km": 5.0,
     "fire_count_50km": 24,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ladd",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-09T17:07:28.200000+00:00",
+      "distance_km": 26.7,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,7 +62,7 @@
       "uv": 8,
       "sunrise": "2026-08-09T06:09",
       "sunset": "2026-08-09T19:43",
-      "predicted_score": 68,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -64,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-08-10T06:10",
       "sunset": "2026-08-10T19:43",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -75,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-08-11T06:11",
       "sunset": "2026-08-11T19:41",
-      "predicted_score": 68,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -86,7 +95,7 @@
       "uv": 8,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:40",
-      "predicted_score": 68,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +106,9 @@
       "uv": 8,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:39",
-      "predicted_score": 68,
+      "predicted_score": 58,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T00:45:27.542494+00:00"
+  "updated_at": "2026-08-10T01:13:46.071373+00:00"
 }

@@ -21,33 +21,37 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 94,
+    "temp_f": 95,
     "feels_like_f": 92,
     "wind_mph": 13,
-    "gusts_mph": 16,
+    "gusts_mph": 15,
     "rain_pct": 2
   },
   "sunrise": "2026-08-10T06:44",
   "sunset": "2026-08-10T20:29",
   "aqi": {
-    "aqi": 50,
+    "aqi": 48,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 152.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
-  "river": null,
+  "river": {
+    "cfs": 28,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-08-10",
       "high_f": 95,
       "low_f": 69,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 7,
       "sunrise": "2026-08-10T06:44",
       "sunset": "2026-08-10T20:29",
@@ -58,7 +62,7 @@
       "date": "2026-08-11",
       "high_f": 91,
       "low_f": 72,
-      "rain_pct": 13,
+      "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-11T06:45",
       "sunset": "2026-08-11T20:28",
@@ -69,7 +73,7 @@
       "date": "2026-08-12",
       "high_f": 90,
       "low_f": 68,
-      "rain_pct": 20,
+      "rain_pct": 34,
       "uv": 7,
       "sunrise": "2026-08-12T06:45",
       "sunset": "2026-08-12T20:27",
@@ -80,7 +84,7 @@
       "date": "2026-08-13",
       "high_f": 84,
       "low_f": 68,
-      "rain_pct": 52,
+      "rain_pct": 54,
       "uv": 7,
       "sunrise": "2026-08-13T06:46",
       "sunset": "2026-08-13T20:26",
@@ -91,7 +95,7 @@
       "date": "2026-08-14",
       "high_f": 83,
       "low_f": 69,
-      "rain_pct": 32,
+      "rain_pct": 34,
       "uv": 6,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
@@ -99,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T21:01:19.844725+00:00"
+  "updated_at": "2026-08-10T21:33:41.851936+00:00"
 }

@@ -17,8 +17,8 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 92,
-  "score_label": "Great day to go",
+  "score": 22,
+  "score_label": "Stay home",
   "gear_flags": [],
   "current": {
     "temp_f": 75,
@@ -27,13 +27,13 @@
     "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-10T05:50",
-  "sunset": "2026-08-10T19:33",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 39,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "moderate",
@@ -50,62 +50,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-10",
-      "high_f": 82,
-      "low_f": 66,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-08-10T05:50",
-      "sunset": "2026-08-10T19:33",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-11",
-      "high_f": 78,
-      "low_f": 64,
-      "rain_pct": 8,
-      "uv": 8,
-      "sunrise": "2026-08-11T05:50",
-      "sunset": "2026-08-11T19:32",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-12",
-      "high_f": 82,
-      "low_f": 62,
-      "rain_pct": 36,
-      "uv": 8,
-      "sunrise": "2026-08-12T05:51",
-      "sunset": "2026-08-12T19:30",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-13",
-      "high_f": 76,
-      "low_f": 64,
-      "rain_pct": 32,
-      "uv": 6,
-      "sunrise": "2026-08-13T05:52",
-      "sunset": "2026-08-13T19:29",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-14",
-      "high_f": 76,
-      "low_f": 61,
-      "rain_pct": 20,
-      "uv": 7,
-      "sunrise": "2026-08-14T05:53",
-      "sunset": "2026-08-14T19:28",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-10T17:04:26.433546+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-10T17:36:23.571434+00:00"
 }

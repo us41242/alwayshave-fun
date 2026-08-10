@@ -24,7 +24,7 @@
   ],
   "current": {
     "temp_f": 97,
-    "feels_like_f": 94,
+    "feels_like_f": 95,
     "wind_mph": 13,
     "gusts_mph": 15,
     "rain_pct": 2
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 51.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Epan",
+      "acres": 77.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-08T19:43:07.537000+00:00",
+      "distance_km": 25.0,
+      "direction": "SSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-10T19:33:58.259541+00:00"
+  "updated_at": "2026-08-10T20:01:57.617002+00:00"
 }

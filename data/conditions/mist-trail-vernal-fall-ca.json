@@ -26,7 +26,7 @@
     "temp_f": 91,
     "feels_like_f": 88,
     "wind_mph": 12,
-    "gusts_mph": 16,
+    "gusts_mph": 17,
     "rain_pct": 1
   },
   "sunrise": "2026-08-10T06:10",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 79.6,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-09T23:24:26.333000+00:00",
+      "distance_km": 69.7,
+      "direction": "SE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T19:40:48.218214+00:00"
+  "updated_at": "2026-08-10T20:14:16.433853+00:00"
 }

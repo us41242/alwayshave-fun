@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 66,
-    "wind_mph": 12,
-    "gusts_mph": 14,
+    "temp_f": 75,
+    "feels_like_f": 69,
+    "wind_mph": 14,
+    "gusts_mph": 17,
     "rain_pct": 1
   },
   "sunrise": "2026-08-10T05:56",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 67.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "North Springs",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-09T02:48:37.763000+00:00",
+      "distance_km": 24.2,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,7 +55,7 @@
       "date": "2026-08-10",
       "high_f": 75,
       "low_f": 61,
-      "rain_pct": 3,
+      "rain_pct": 4,
       "uv": 7,
       "sunrise": "2026-08-10T05:56",
       "sunset": "2026-08-10T19:38",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T19:37:32.974716+00:00"
+  "updated_at": "2026-08-10T20:08:25.972578+00:00"
 }

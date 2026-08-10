@@ -17,27 +17,29 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 57,
-    "wind_mph": 10,
-    "gusts_mph": 17,
-    "rain_pct": 27
+    "temp_f": 65,
+    "feels_like_f": 58,
+    "wind_mph": 15,
+    "gusts_mph": 27,
+    "rain_pct": 24
   },
   "sunrise": "2026-08-09T06:39",
   "sunset": "2026-08-09T20:28",
   "aqi": {
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 81.2,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Wiggler Wash",
@@ -59,19 +61,19 @@
       "uv": 7,
       "sunrise": "2026-08-09T06:39",
       "sunset": "2026-08-09T20:28",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-10",
-      "high_f": 79,
+      "high_f": 80,
       "low_f": 59,
       "rain_pct": 27,
       "uv": 8,
       "sunrise": "2026-08-10T06:40",
       "sunset": "2026-08-10T20:27",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-11",
@@ -81,8 +83,8 @@
       "uv": 7,
       "sunrise": "2026-08-11T06:41",
       "sunset": "2026-08-11T20:26",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-12",
@@ -92,7 +94,7 @@
       "uv": 5,
       "sunrise": "2026-08-12T06:42",
       "sunset": "2026-08-12T20:25",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:43",
       "sunset": "2026-08-13T20:23",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T04:02:19.094349+00:00"
+  "updated_at": "2026-08-10T04:33:46.555277+00:00"
 }

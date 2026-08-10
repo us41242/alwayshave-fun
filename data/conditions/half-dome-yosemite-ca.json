@@ -17,16 +17,16 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 82,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 53,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 65,
+    "feels_like_f": 59,
+    "wind_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-08-10T06:09",
@@ -38,10 +38,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 78.4,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Kirkwood",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "updated": "2026-08-07T16:46:48.970000+00:00",
+      "distance_km": 65.9,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,19 +61,19 @@
       "uv": 8,
       "sunrise": "2026-08-10T06:09",
       "sunset": "2026-08-10T19:56",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-11",
-      "high_f": 71,
+      "high_f": 72,
       "low_f": 56,
       "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-08-11T06:10",
       "sunset": "2026-08-11T19:55",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-12",
@@ -75,7 +83,7 @@
       "uv": 7,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:54",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -86,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:53",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:52",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T14:41:17.921814+00:00"
+  "updated_at": "2026-08-10T15:10:34.723607+00:00"
 }

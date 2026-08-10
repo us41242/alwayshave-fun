@@ -19,26 +19,29 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 81,
-    "wind_mph": 7,
-    "gusts_mph": 6,
+    "temp_f": 73,
+    "feels_like_f": 80,
+    "wind_mph": 8,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "sunrise": "2026-08-10T06:10",
   "sunset": "2026-08-10T19:43",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 55,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "high",
+    "nearest_fire_km": 5.2,
+    "fire_count_50km": 24,
     "nearest_incident": {
       "name": "Ladd",
       "acres": 0.1,
@@ -107,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T16:44:39.673358+00:00"
+  "updated_at": "2026-08-10T17:12:44.405011+00:00"
 }

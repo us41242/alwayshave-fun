@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 83,
-    "wind_mph": 13,
-    "gusts_mph": 16,
+    "temp_f": 89,
+    "feels_like_f": 86,
+    "wind_mph": 10,
+    "gusts_mph": 11,
     "rain_pct": 30
   },
   "sunrise": "2026-08-10T05:43",
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 120.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Hart",
+      "acres": 13,
+      "containment_pct": 0,
+      "cause": "Natural",
+      "updated": "2026-08-07T22:34:36.283000+00:00",
+      "distance_km": 15.1,
+      "direction": "WSW"
+    }
   },
   "river": {
     "cfs": 26,
@@ -63,7 +71,7 @@
     {
       "date": "2026-08-11",
       "high_f": 89,
-      "low_f": 65,
+      "low_f": 66,
       "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-08-11T05:44",
@@ -105,5 +113,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T21:38:29.008976+00:00"
+  "updated_at": "2026-08-10T22:04:29.248718+00:00"
 }

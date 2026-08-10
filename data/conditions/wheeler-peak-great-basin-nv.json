@@ -20,14 +20,15 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 46,
-    "wind_mph": 17,
+    "temp_f": 55,
+    "feels_like_f": 43,
+    "wind_mph": 19,
     "gusts_mph": 20,
-    "rain_pct": 7
+    "rain_pct": 5
   },
   "sunrise": "2026-08-10T05:46",
   "sunset": "2026-08-10T19:38",
@@ -39,9 +40,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 129.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8683,
+      "containment_pct": 83,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:52:26.240000+00:00",
+      "distance_km": 51.8,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +68,7 @@
     {
       "date": "2026-08-11",
       "high_f": 56,
-      "low_f": 40,
+      "low_f": 41,
       "rain_pct": 19,
       "uv": 6,
       "sunrise": "2026-08-11T05:47",
@@ -101,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T21:36:02.919151+00:00"
+  "updated_at": "2026-08-10T22:02:17.462505+00:00"
 }

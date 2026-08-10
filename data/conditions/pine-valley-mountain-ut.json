@@ -17,18 +17,17 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 85,
-    "feels_like_f": 78,
-    "wind_mph": 18,
-    "gusts_mph": 22,
-    "rain_pct": 2
+    "feels_like_f": 79,
+    "wind_mph": 15,
+    "gusts_mph": 19,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-10T06:46",
   "sunset": "2026-08-10T20:32",
@@ -40,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 162.7,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "North Hills",
+      "acres": 15.2,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-10T15:56:21.347000+00:00",
+      "distance_km": 36.8,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -102,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T21:41:40.850138+00:00"
+  "updated_at": "2026-08-10T22:09:31.119958+00:00"
 }

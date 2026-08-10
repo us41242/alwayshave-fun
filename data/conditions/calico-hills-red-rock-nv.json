@@ -17,8 +17,8 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 22,
-  "score_label": "Stay home",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "N95 mask recommended"
   ],
@@ -38,12 +38,20 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 51.6,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Epan",
+      "acres": 77.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-08T19:43:07.537000+00:00",
+      "distance_km": 25.0,
+      "direction": "SSW"
+    }
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-10T15:34:47.882262+00:00"
+  "updated_at": "2026-08-10T16:08:27.567250+00:00"
 }

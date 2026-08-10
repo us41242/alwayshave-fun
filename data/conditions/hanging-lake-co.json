@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 60,
-    "wind_mph": 8,
-    "gusts_mph": 9,
-    "rain_pct": 1
+    "temp_f": 71,
+    "feels_like_f": 67,
+    "wind_mph": 6,
+    "gusts_mph": 6,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-10T06:16",
   "sunset": "2026-08-10T20:11",
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 163.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rat Mountain",
+      "acres": 1.87,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-09T16:04:12.543000+00:00",
+      "distance_km": 47.2,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -71,7 +79,7 @@
       "date": "2026-08-12",
       "high_f": 86,
       "low_f": 52,
-      "rain_pct": 66,
+      "rain_pct": 63,
       "uv": 8,
       "sunrise": "2026-08-12T06:18",
       "sunset": "2026-08-12T20:08",
@@ -82,7 +90,7 @@
       "date": "2026-08-13",
       "high_f": 77,
       "low_f": 52,
-      "rain_pct": 69,
+      "rain_pct": 68,
       "uv": 8,
       "sunrise": "2026-08-13T06:19",
       "sunset": "2026-08-13T20:07",
@@ -93,7 +101,7 @@
       "date": "2026-08-14",
       "high_f": 77,
       "low_f": 52,
-      "rain_pct": 63,
+      "rain_pct": 62,
       "uv": 8,
       "sunrise": "2026-08-14T06:20",
       "sunset": "2026-08-14T20:06",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T15:41:28.134573+00:00"
+  "updated_at": "2026-08-10T16:17:20.546740+00:00"
 }

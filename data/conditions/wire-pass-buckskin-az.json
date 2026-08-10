@@ -17,39 +17,89 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 76,
-    "wind_mph": 3,
-    "gusts_mph": 10,
+    "temp_f": 83,
+    "feels_like_f": 77,
+    "wind_mph": 14,
+    "gusts_mph": 32,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-10T06:40",
+  "sunset": "2026-08-10T20:25",
   "aqi": {
-    "aqi": 40,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 179.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Wahweap Creek",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-07T23:40:05.877000+00:00",
-      "distance_km": 57.5,
-      "direction": "NNE"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-10T15:07:17.530683+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-10",
+      "high_f": 97,
+      "low_f": 71,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-08-10T06:40",
+      "sunset": "2026-08-10T20:25",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-11",
+      "high_f": 94,
+      "low_f": 70,
+      "rain_pct": 11,
+      "uv": 8,
+      "sunrise": "2026-08-11T06:41",
+      "sunset": "2026-08-11T20:24",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-12",
+      "high_f": 92,
+      "low_f": 71,
+      "rain_pct": 39,
+      "uv": 8,
+      "sunrise": "2026-08-12T06:42",
+      "sunset": "2026-08-12T20:23",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-13",
+      "high_f": 86,
+      "low_f": 71,
+      "rain_pct": 36,
+      "uv": 7,
+      "sunrise": "2026-08-13T06:43",
+      "sunset": "2026-08-13T20:22",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-14",
+      "high_f": 85,
+      "low_f": 68,
+      "rain_pct": 25,
+      "uv": 8,
+      "sunrise": "2026-08-14T06:44",
+      "sunset": "2026-08-14T20:20",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-08-10T15:38:55.007609+00:00"
 }

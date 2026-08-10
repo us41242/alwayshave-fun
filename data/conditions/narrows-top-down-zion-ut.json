@@ -20,20 +20,21 @@
   "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 89,
-    "feels_like_f": 82,
-    "wind_mph": 13,
-    "gusts_mph": 15,
-    "rain_pct": 7
+    "temp_f": 88,
+    "feels_like_f": 79,
+    "wind_mph": 18,
+    "gusts_mph": 21,
+    "rain_pct": 8
   },
   "sunrise": "2026-08-09T06:43",
   "sunset": "2026-08-09T20:31",
   "aqi": {
-    "aqi": 67,
+    "aqi": 64,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,15 +43,7 @@
     "risk_level": "elevated",
     "nearest_fire_km": 41.8,
     "fire_count_50km": 1,
-    "nearest_incident": {
-      "name": "Eight Mile",
-      "acres": 80.5,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-09T18:57:41.017000+00:00",
-      "distance_km": 41.8,
-      "direction": "NW"
-    }
+    "nearest_incident": null
   },
   "river": {
     "cfs": 29,
@@ -72,7 +65,7 @@
     {
       "date": "2026-08-10",
       "high_f": 89,
-      "low_f": 67,
+      "low_f": 66,
       "rain_pct": 11,
       "uv": 8,
       "sunrise": "2026-08-10T06:43",
@@ -114,5 +107,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-10T00:05:27.280150+00:00"
+  "updated_at": "2026-08-10T00:36:37.661749+00:00"
 }

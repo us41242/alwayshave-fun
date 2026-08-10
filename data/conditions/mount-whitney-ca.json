@@ -19,15 +19,13 @@
   "vehicle_req": "Any",
   "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 46,
-    "feels_like_f": 36,
-    "wind_mph": 17,
-    "gusts_mph": 20,
-    "rain_pct": 12
+    "temp_f": 48,
+    "feels_like_f": 38,
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 9
   },
   "sunrise": "2026-08-09T06:06",
   "sunset": "2026-08-09T19:51",
@@ -41,15 +39,7 @@
     "risk_level": "moderate",
     "nearest_fire_km": 70.1,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Woods Lake",
-      "acres": 2,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-07T01:08:09.080000+00:00",
-      "distance_km": 35.2,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -67,7 +57,7 @@
     {
       "date": "2026-08-10",
       "high_f": 51,
-      "low_f": 36,
+      "low_f": 37,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-10T06:07",
@@ -109,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T00:10:47.853648+00:00"
+  "updated_at": "2026-08-10T00:44:10.218099+00:00"
 }

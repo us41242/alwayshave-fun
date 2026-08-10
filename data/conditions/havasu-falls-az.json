@@ -17,29 +17,29 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 95,
+    "temp_f": 94,
     "feels_like_f": 91,
-    "wind_mph": 8,
-    "gusts_mph": 17,
+    "wind_mph": 4,
+    "gusts_mph": 14,
     "rain_pct": 8
   },
   "sunrise": "2026-08-09T05:44",
   "sunset": "2026-08-09T19:28",
   "aqi": {
-    "aqi": 59,
+    "aqi": 80,
     "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 165.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Confucius",
@@ -66,7 +66,7 @@
     },
     {
       "date": "2026-08-10",
-      "high_f": 102,
+      "high_f": 103,
       "low_f": 81,
       "rain_pct": 17,
       "uv": 8,
@@ -109,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T03:14:06.986888+00:00"
+  "updated_at": "2026-08-10T03:41:47.627702+00:00"
 }

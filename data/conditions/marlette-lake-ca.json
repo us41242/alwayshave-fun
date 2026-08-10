@@ -21,7 +21,7 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 76,
+    "temp_f": 77,
     "feels_like_f": 74,
     "wind_mph": 4,
     "gusts_mph": 11,
@@ -30,24 +30,16 @@
   "sunrise": "2026-08-10T06:08",
   "sunset": "2026-08-10T20:01",
   "aqi": {
-    "aqi": 44,
+    "aqi": 41,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 57.4,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Five",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-07T21:15:01.360000+00:00",
-      "distance_km": 29.3,
-      "direction": "W"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -107,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T17:46:49.392366+00:00"
+  "updated_at": "2026-08-10T18:11:27.205655+00:00"
 }

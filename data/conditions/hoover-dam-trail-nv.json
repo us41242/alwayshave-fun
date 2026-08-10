@@ -17,13 +17,14 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 26,
+  "score_label": "Stay home",
   "gear_flags": [
-    "N95 mask recommended"
+    "N95 mask recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 111,
+    "temp_f": 112,
     "feels_like_f": 111,
     "wind_mph": 14,
     "gusts_mph": 16,
@@ -38,18 +39,10 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Epan",
-      "acres": 77.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-08T19:43:07.537000+00:00",
-      "distance_km": 72.4,
-      "direction": "W"
-    }
+    "risk_level": "elevated",
+    "nearest_fire_km": 41.1,
+    "fire_count_50km": 6,
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -61,53 +54,53 @@
       "uv": 8,
       "sunrise": "2026-08-10T05:53",
       "sunset": "2026-08-10T19:34",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-11",
-      "high_f": 107,
+      "high_f": 105,
       "low_f": 89,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-11T05:54",
       "sunset": "2026-08-11T19:33",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-12",
       "high_f": 107,
-      "low_f": 88,
-      "rain_pct": 17,
+      "low_f": 86,
+      "rain_pct": 19,
       "uv": 8,
       "sunrise": "2026-08-12T05:55",
       "sunset": "2026-08-12T19:32",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-13",
       "high_f": 101,
       "low_f": 88,
-      "rain_pct": 20,
+      "rain_pct": 29,
       "uv": 7,
       "sunrise": "2026-08-13T05:56",
       "sunset": "2026-08-13T19:31",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-14",
       "high_f": 104,
       "low_f": 87,
-      "rain_pct": 25,
+      "rain_pct": 35,
       "uv": 8,
       "sunrise": "2026-08-14T05:56",
       "sunset": "2026-08-14T19:30",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-08-10T20:37:23.733064+00:00"
+  "updated_at": "2026-08-10T21:06:26.127750+00:00"
 }

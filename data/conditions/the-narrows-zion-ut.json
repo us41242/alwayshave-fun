@@ -23,7 +23,7 @@
   "current": {
     "temp_f": 94,
     "feels_like_f": 92,
-    "wind_mph": 14,
+    "wind_mph": 13,
     "gusts_mph": 16,
     "rain_pct": 2
   },
@@ -37,23 +37,11 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 152.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Eight Mile",
-      "acres": 80.5,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-09T18:57:41.017000+00:00",
-      "distance_km": 51.2,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
-  "river": {
-    "cfs": 28,
-    "stage": "low",
-    "gauge_id": "09405500"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-08-10",
@@ -68,8 +56,8 @@
     },
     {
       "date": "2026-08-11",
-      "high_f": 92,
-      "low_f": 70,
+      "high_f": 91,
+      "low_f": 72,
       "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-08-11T06:45",
@@ -80,7 +68,7 @@
     {
       "date": "2026-08-12",
       "high_f": 90,
-      "low_f": 70,
+      "low_f": 68,
       "rain_pct": 20,
       "uv": 7,
       "sunrise": "2026-08-12T06:45",
@@ -111,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-10T20:34:03.835866+00:00"
+  "updated_at": "2026-08-10T21:01:19.844725+00:00"
 }

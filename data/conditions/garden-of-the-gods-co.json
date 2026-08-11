@@ -17,29 +17,29 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
+  "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 75,
-    "feels_like_f": 67,
-    "wind_mph": 13,
-    "gusts_mph": 18,
-    "rain_pct": 13
+    "feels_like_f": 69,
+    "wind_mph": 8,
+    "gusts_mph": 12,
+    "rain_pct": 10
   },
-  "sunrise": "2026-08-10T06:08",
-  "sunset": "2026-08-10T20:00",
+  "sunrise": "2026-08-11T06:09",
+  "sunset": "2026-08-11T19:59",
   "aqi": {
-    "aqi": 71,
+    "aqi": 67,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 85.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Aspen Acres",
@@ -54,17 +54,6 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-10",
-      "high_f": 96,
-      "low_f": 63,
-      "rain_pct": 37,
-      "uv": 7,
-      "sunrise": "2026-08-10T06:08",
-      "sunset": "2026-08-10T20:00",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-08-11",
       "high_f": 92,
       "low_f": 65,
@@ -72,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-08-11T06:09",
       "sunset": "2026-08-11T19:59",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -83,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-08-12T06:10",
       "sunset": "2026-08-12T19:58",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-13",
@@ -94,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-13T06:11",
       "sunset": "2026-08-13T19:56",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-14",
@@ -105,9 +94,20 @@
       "uv": 7,
       "sunrise": "2026-08-14T06:12",
       "sunset": "2026-08-14T19:55",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-15",
+      "high_f": 81,
+      "low_f": 63,
+      "rain_pct": 78,
+      "uv": 7,
+      "sunrise": "2026-08-15T06:13",
+      "sunset": "2026-08-15T19:54",
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-11T05:43:35.154711+00:00"
+  "updated_at": "2026-08-11T06:10:37.131535+00:00"
 }

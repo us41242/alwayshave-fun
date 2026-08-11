@@ -21,11 +21,11 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 54,
+    "temp_f": 61,
+    "feels_like_f": 58,
     "wind_mph": 3,
     "gusts_mph": 6,
-    "rain_pct": 1
+    "rain_pct": 0
   },
   "sunrise": "2026-08-11T06:07",
   "sunset": "2026-08-11T19:51",
@@ -37,9 +37,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 121.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wheeler",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-11T00:57:19.050000+00:00",
+      "distance_km": 29.9,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,12 +55,12 @@
       "date": "2026-08-11",
       "high_f": 65,
       "low_f": 49,
-      "rain_pct": 30,
+      "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-08-11T06:07",
       "sunset": "2026-08-11T19:51",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-12",
@@ -69,7 +77,7 @@
       "date": "2026-08-13",
       "high_f": 61,
       "low_f": 46,
-      "rain_pct": 53,
+      "rain_pct": 50,
       "uv": 8,
       "sunrise": "2026-08-13T06:09",
       "sunset": "2026-08-13T19:48",
@@ -80,7 +88,7 @@
       "date": "2026-08-14",
       "high_f": 62,
       "low_f": 43,
-      "rain_pct": 11,
+      "rain_pct": 10,
       "uv": 9,
       "sunrise": "2026-08-14T06:10",
       "sunset": "2026-08-14T19:47",
@@ -91,7 +99,7 @@
       "date": "2026-08-15",
       "high_f": 64,
       "low_f": 42,
-      "rain_pct": 5,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-15T06:11",
       "sunset": "2026-08-15T19:46",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-11T15:12:03.750501+00:00"
+  "updated_at": "2026-08-11T15:45:56.926617+00:00"
 }

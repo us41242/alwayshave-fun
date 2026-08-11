@@ -17,14 +17,14 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 84,
+    "temp_f": 87,
     "feels_like_f": 84,
-    "wind_mph": 4,
-    "gusts_mph": 7,
+    "wind_mph": 9,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-08-11T06:48",
@@ -32,20 +32,28 @@
   "aqi": {
     "aqi": 37,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 145.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Black Mountain",
+      "acres": 50,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-10T15:49:48.037000+00:00",
+      "distance_km": 40.6,
+      "direction": "S"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-11",
-      "high_f": 99,
+      "high_f": 98,
       "low_f": 77,
       "rain_pct": 3,
       "uv": 7,
@@ -58,7 +66,7 @@
       "date": "2026-08-12",
       "high_f": 93,
       "low_f": 77,
-      "rain_pct": 39,
+      "rain_pct": 34,
       "uv": 8,
       "sunrise": "2026-08-12T06:48",
       "sunset": "2026-08-12T20:30",
@@ -69,7 +77,7 @@
       "date": "2026-08-13",
       "high_f": 89,
       "low_f": 70,
-      "rain_pct": 51,
+      "rain_pct": 54,
       "uv": 6,
       "sunrise": "2026-08-13T06:49",
       "sunset": "2026-08-13T20:28",
@@ -80,7 +88,7 @@
       "date": "2026-08-14",
       "high_f": 92,
       "low_f": 77,
-      "rain_pct": 24,
+      "rain_pct": 34,
       "uv": 7,
       "sunrise": "2026-08-14T06:50",
       "sunset": "2026-08-14T20:27",
@@ -91,7 +99,7 @@
       "date": "2026-08-15",
       "high_f": 93,
       "low_f": 74,
-      "rain_pct": 10,
+      "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-08-15T06:51",
       "sunset": "2026-08-15T20:26",
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-11T15:08:05.720887+00:00"
+  "updated_at": "2026-08-11T15:40:45.556724+00:00"
 }

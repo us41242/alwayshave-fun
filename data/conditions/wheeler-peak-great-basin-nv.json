@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 40,
+    "temp_f": 48,
+    "feels_like_f": 42,
     "wind_mph": 6,
-    "gusts_mph": 11,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-11T05:47",
@@ -37,17 +37,25 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 157.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8683,
+      "containment_pct": 83,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:52:26.240000+00:00",
+      "distance_km": 51.8,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-11",
-      "high_f": 55,
+      "high_f": 56,
       "low_f": 40,
-      "rain_pct": 17,
+      "rain_pct": 21,
       "uv": 6,
       "sunrise": "2026-08-11T05:47",
       "sunset": "2026-08-11T19:37",
@@ -58,18 +66,18 @@
       "date": "2026-08-12",
       "high_f": 52,
       "low_f": 36,
-      "rain_pct": 53,
+      "rain_pct": 61,
       "uv": 7,
       "sunrise": "2026-08-12T05:48",
       "sunset": "2026-08-12T19:36",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
       "high_f": 50,
       "low_f": 34,
-      "rain_pct": 71,
+      "rain_pct": 72,
       "uv": 5,
       "sunrise": "2026-08-13T05:49",
       "sunset": "2026-08-13T19:34",
@@ -80,7 +88,7 @@
       "date": "2026-08-14",
       "high_f": 54,
       "low_f": 38,
-      "rain_pct": 23,
+      "rain_pct": 29,
       "uv": 8,
       "sunrise": "2026-08-14T05:50",
       "sunset": "2026-08-14T19:33",
@@ -91,7 +99,7 @@
       "date": "2026-08-15",
       "high_f": 57,
       "low_f": 39,
-      "rain_pct": 18,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-08-15T05:51",
       "sunset": "2026-08-15T19:32",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-11T15:03:27.176574+00:00"
+  "updated_at": "2026-08-11T15:35:38.753135+00:00"
 }

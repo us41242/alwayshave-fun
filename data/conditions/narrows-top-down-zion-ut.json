@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 75,
@@ -27,8 +27,8 @@
     "gusts_mph": 6,
     "rain_pct": 1
   },
-  "sunrise": "2026-08-10T06:43",
-  "sunset": "2026-08-10T20:30",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 47,
     "category": "Good",
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 136.7,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Eight Mile",
@@ -54,62 +54,6 @@
     "stage": "low",
     "gauge_id": "09405500"
   },
-  "forecast": [
-    {
-      "date": "2026-08-10",
-      "high_f": 87,
-      "low_f": 65,
-      "rain_pct": 13,
-      "uv": 8,
-      "sunrise": "2026-08-10T06:43",
-      "sunset": "2026-08-10T20:30",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-11",
-      "high_f": 85,
-      "low_f": 66,
-      "rain_pct": 19,
-      "uv": 7,
-      "sunrise": "2026-08-11T06:44",
-      "sunset": "2026-08-11T20:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-12",
-      "high_f": 80,
-      "low_f": 58,
-      "rain_pct": 36,
-      "uv": 6,
-      "sunrise": "2026-08-12T06:45",
-      "sunset": "2026-08-12T20:27",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-13",
-      "high_f": 70,
-      "low_f": 60,
-      "rain_pct": 65,
-      "uv": 6,
-      "sunrise": "2026-08-13T06:46",
-      "sunset": "2026-08-13T20:26",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-14",
-      "high_f": 76,
-      "low_f": 61,
-      "rain_pct": 47,
-      "uv": 8,
-      "sunrise": "2026-08-14T06:47",
-      "sunset": "2026-08-14T20:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-11T04:38:44.335276+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-11T05:07:22.763877+00:00"
 }

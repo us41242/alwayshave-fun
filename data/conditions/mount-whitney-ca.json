@@ -17,29 +17,30 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 62,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
     "temp_f": 37,
-    "feels_like_f": 28,
-    "wind_mph": 10,
-    "gusts_mph": 17,
+    "feels_like_f": 27,
+    "wind_mph": 13,
+    "gusts_mph": 22,
     "rain_pct": 1
   },
   "sunrise": "2026-08-10T06:07",
   "sunset": "2026-08-10T19:49",
   "aqi": {
-    "aqi": 24,
+    "aqi": 23,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 85.0,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock",
@@ -61,19 +62,19 @@
       "uv": 7,
       "sunrise": "2026-08-10T06:07",
       "sunset": "2026-08-10T19:49",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-11",
       "high_f": 46,
       "low_f": 33,
-      "rain_pct": 30,
+      "rain_pct": 32,
       "uv": 7,
       "sunrise": "2026-08-11T06:07",
       "sunset": "2026-08-11T19:48",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-12",
@@ -83,7 +84,7 @@
       "uv": 5,
       "sunrise": "2026-08-12T06:08",
       "sunset": "2026-08-12T19:47",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -94,8 +95,8 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:09",
       "sunset": "2026-08-13T19:46",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
@@ -105,9 +106,9 @@
       "uv": 9,
       "sunrise": "2026-08-14T06:10",
       "sunset": "2026-08-14T19:45",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-11T04:44:42.356495+00:00"
+  "updated_at": "2026-08-11T05:15:14.445098+00:00"
 }

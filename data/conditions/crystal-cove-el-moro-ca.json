@@ -17,30 +17,30 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 72,
-    "feels_like_f": 78,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "feels_like_f": 77,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 1
   },
   "sunrise": "2026-08-10T06:10",
   "sunset": "2026-08-10T19:43",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 57,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "high",
-    "nearest_fire_km": 5.2,
-    "fire_count_50km": 13,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ladd",
       "acres": 0.1,
@@ -61,30 +61,30 @@
       "uv": 8,
       "sunrise": "2026-08-10T06:10",
       "sunset": "2026-08-10T19:43",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-11",
-      "high_f": 74,
+      "high_f": 76,
       "low_f": 66,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-11T06:11",
       "sunset": "2026-08-11T19:41",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-12",
-      "high_f": 81,
-      "low_f": 66,
+      "high_f": 76,
+      "low_f": 67,
       "rain_pct": 2,
       "uv": 7,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:40",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-13",
@@ -94,8 +94,8 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:39",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-14",
@@ -105,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:38",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-11T01:43:33.975737+00:00"
+  "updated_at": "2026-08-11T02:13:32.513445+00:00"
 }

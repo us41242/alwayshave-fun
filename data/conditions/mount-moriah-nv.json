@@ -21,8 +21,8 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 59,
-    "feels_like_f": 51,
+    "temp_f": 60,
+    "feels_like_f": 53,
     "wind_mph": 13,
     "gusts_mph": 15,
     "rain_pct": 1
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 156.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8683,
+      "containment_pct": 83,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:52:26.240000+00:00",
+      "distance_km": 63.7,
+      "direction": "WSW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-11T16:40:44.267313+00:00"
+  "updated_at": "2026-08-11T17:10:49.519926+00:00"
 }

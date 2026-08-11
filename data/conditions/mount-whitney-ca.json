@@ -32,7 +32,7 @@
   "sunrise": "2026-08-11T06:07",
   "sunset": "2026-08-11T19:48",
   "aqi": {
-    "aqi": 22,
+    "aqi": 18,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 117.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-08-06T01:03:48.163000+00:00",
+      "distance_km": 37.9,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-11T16:45:05.765515+00:00"
+  "updated_at": "2026-08-11T17:13:29.728957+00:00"
 }

@@ -20,7 +20,6 @@
   "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
@@ -30,10 +29,10 @@
     "gusts_mph": 21,
     "rain_pct": 10
   },
-  "sunrise": "2026-08-11T05:52",
-  "sunset": "2026-08-11T19:33",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -42,65 +41,17 @@
     "risk_level": "elevated",
     "nearest_fire_km": 36.4,
     "fire_count_50km": 2,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Black Mountain",
+      "acres": 45,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-11T21:11:37.800000+00:00",
+      "distance_km": 89.7,
+      "direction": "ENE"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-11",
-      "high_f": 100,
-      "low_f": 86,
-      "rain_pct": 11,
-      "uv": 7,
-      "sunrise": "2026-08-11T05:52",
-      "sunset": "2026-08-11T19:33",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-12",
-      "high_f": 97,
-      "low_f": 81,
-      "rain_pct": 11,
-      "uv": 8,
-      "sunrise": "2026-08-12T05:53",
-      "sunset": "2026-08-12T19:32",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-13",
-      "high_f": 96,
-      "low_f": 75,
-      "rain_pct": 34,
-      "uv": 7,
-      "sunrise": "2026-08-13T05:54",
-      "sunset": "2026-08-13T19:31",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-14",
-      "high_f": 99,
-      "low_f": 83,
-      "rain_pct": 31,
-      "uv": 8,
-      "sunrise": "2026-08-14T05:55",
-      "sunset": "2026-08-14T19:30",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-15",
-      "high_f": 101,
-      "low_f": 80,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-15T05:56",
-      "sunset": "2026-08-15T19:28",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-08-11T22:33:05.669761+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-11T23:04:16.156155+00:00"
 }

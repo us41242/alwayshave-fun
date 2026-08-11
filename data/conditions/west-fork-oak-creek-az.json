@@ -21,23 +21,23 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 82,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 83,
+    "feels_like_f": 83,
+    "wind_mph": 11,
+    "gusts_mph": 11,
     "rain_pct": 1
   },
   "sunrise": "2026-08-11T05:44",
   "sunset": "2026-08-11T19:19",
   "aqi": {
-    "aqi": 38,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 120.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Hart",
@@ -49,13 +49,17 @@
       "direction": "WSW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 26,
+    "stage": null,
+    "gauge_id": "09504500"
+  },
   "forecast": [
     {
       "date": "2026-08-11",
       "high_f": 90,
       "low_f": 67,
-      "rain_pct": 26,
+      "rain_pct": 41,
       "uv": 7,
       "sunrise": "2026-08-11T05:44",
       "sunset": "2026-08-11T19:19",
@@ -66,7 +70,7 @@
       "date": "2026-08-12",
       "high_f": 82,
       "low_f": 64,
-      "rain_pct": 38,
+      "rain_pct": 48,
       "uv": 7,
       "sunrise": "2026-08-12T05:45",
       "sunset": "2026-08-12T19:18",
@@ -107,5 +111,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-11T17:06:24.493099+00:00"
+  "updated_at": "2026-08-11T17:37:13.859889+00:00"
 }

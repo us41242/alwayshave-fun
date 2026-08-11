@@ -17,23 +17,23 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 40,
-    "feels_like_f": 32,
-    "wind_mph": 7,
-    "gusts_mph": 11,
-    "rain_pct": 0
+    "temp_f": 42,
+    "feels_like_f": 35,
+    "wind_mph": 8,
+    "gusts_mph": 13,
+    "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-11T05:47",
+  "sunset": "2026-08-11T19:37",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 49,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -41,17 +41,65 @@
     "risk_level": "low",
     "nearest_fire_km": 157.1,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Ward",
-      "acres": 8683,
-      "containment_pct": 83,
-      "cause": "Natural",
-      "updated": "2026-08-10T21:52:26.240000+00:00",
-      "distance_km": 51.8,
-      "direction": "WNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-11T13:03:57.460272+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-11",
+      "high_f": 55,
+      "low_f": 40,
+      "rain_pct": 28,
+      "uv": 6,
+      "sunrise": "2026-08-11T05:47",
+      "sunset": "2026-08-11T19:37",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-12",
+      "high_f": 53,
+      "low_f": 39,
+      "rain_pct": 57,
+      "uv": 7,
+      "sunrise": "2026-08-12T05:48",
+      "sunset": "2026-08-12T19:36",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-13",
+      "high_f": 50,
+      "low_f": 34,
+      "rain_pct": 71,
+      "uv": 5,
+      "sunrise": "2026-08-13T05:49",
+      "sunset": "2026-08-13T19:34",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-14",
+      "high_f": 54,
+      "low_f": 38,
+      "rain_pct": 23,
+      "uv": 8,
+      "sunrise": "2026-08-14T05:50",
+      "sunset": "2026-08-14T19:33",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-15",
+      "high_f": 57,
+      "low_f": 39,
+      "rain_pct": 18,
+      "uv": 8,
+      "sunrise": "2026-08-15T05:51",
+      "sunset": "2026-08-15T19:32",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-08-11T13:34:15.265613+00:00"
 }

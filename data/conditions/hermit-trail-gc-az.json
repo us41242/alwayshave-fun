@@ -17,17 +17,17 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 80,
-    "wind_mph": 11,
-    "gusts_mph": 14,
-    "rain_pct": 17
+    "temp_f": 82,
+    "feels_like_f": 77,
+    "wind_mph": 13,
+    "gusts_mph": 17,
+    "rain_pct": 15
   },
   "sunrise": "2026-08-10T05:43",
   "sunset": "2026-08-10T19:24",
@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 115.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Confucius",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:06:33.447000+00:00",
+      "distance_km": 14.6,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -69,10 +77,10 @@
     },
     {
       "date": "2026-08-12",
-      "high_f": 79,
+      "high_f": 73,
       "low_f": 64,
       "rain_pct": 55,
-      "uv": 6,
+      "uv": 4,
       "sunrise": "2026-08-12T05:45",
       "sunset": "2026-08-12T19:22",
       "predicted_score": 60,
@@ -80,10 +88,10 @@
     },
     {
       "date": "2026-08-13",
-      "high_f": 82,
-      "low_f": 63,
+      "high_f": 78,
+      "low_f": 61,
       "rain_pct": 64,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-13T05:46",
       "sunset": "2026-08-13T19:21",
       "predicted_score": 50,
@@ -92,14 +100,14 @@
     {
       "date": "2026-08-14",
       "high_f": 79,
-      "low_f": 63,
+      "low_f": 61,
       "rain_pct": 53,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-08-14T05:46",
       "sunset": "2026-08-14T19:20",
       "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-10T23:35:43.249546+00:00"
+  "updated_at": "2026-08-11T00:07:09.749382+00:00"
 }

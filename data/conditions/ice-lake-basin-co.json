@@ -17,9 +17,11 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 46,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 61,
     "feels_like_f": 53,
@@ -27,77 +29,29 @@
     "gusts_mph": 16,
     "rain_pct": 7
   },
-  "sunrise": "2026-08-10T06:22",
-  "sunset": "2026-08-10T20:10",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 46,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
-    "nearest_incident": null
+    "risk_level": "elevated",
+    "nearest_fire_km": 47.9,
+    "fire_count_50km": 2,
+    "nearest_incident": {
+      "name": "Gold Mountain",
+      "acres": 39532,
+      "containment_pct": 90,
+      "cause": "Undetermined",
+      "updated": "2026-08-10T00:04:36.230000+00:00",
+      "distance_km": 32.6,
+      "direction": "NNE"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-10",
-      "high_f": 62,
-      "low_f": 44,
-      "rain_pct": 10,
-      "uv": 7,
-      "sunrise": "2026-08-10T06:22",
-      "sunset": "2026-08-10T20:10",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-11",
-      "high_f": 63,
-      "low_f": 46,
-      "rain_pct": 21,
-      "uv": 7,
-      "sunrise": "2026-08-11T06:23",
-      "sunset": "2026-08-11T20:08",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-12",
-      "high_f": 60,
-      "low_f": 41,
-      "rain_pct": 90,
-      "uv": 7,
-      "sunrise": "2026-08-12T06:24",
-      "sunset": "2026-08-12T20:07",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-13",
-      "high_f": 53,
-      "low_f": 39,
-      "rain_pct": 95,
-      "uv": 5,
-      "sunrise": "2026-08-13T06:25",
-      "sunset": "2026-08-13T20:06",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-14",
-      "high_f": 53,
-      "low_f": 38,
-      "rain_pct": 71,
-      "uv": 6,
-      "sunrise": "2026-08-14T06:26",
-      "sunset": "2026-08-14T20:05",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-10T23:42:03.092873+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-11T00:14:01.135741+00:00"
 }

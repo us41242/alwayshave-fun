@@ -26,8 +26,8 @@
     "temp_f": 78,
     "feels_like_f": 74,
     "wind_mph": 9,
-    "gusts_mph": 9,
-    "rain_pct": 4
+    "gusts_mph": 10,
+    "rain_pct": 8
   },
   "sunrise": "2026-08-11T06:41",
   "sunset": "2026-08-11T20:26",
@@ -39,17 +39,9 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 118.3,
+    "nearest_fire_km": 149.4,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Gravel",
-      "acres": 6,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-11T15:47:05.583000+00:00",
-      "distance_km": 20.8,
-      "direction": "SSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -58,7 +50,7 @@
       "high_f": 78,
       "low_f": 58,
       "rain_pct": 24,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-11T06:41",
       "sunset": "2026-08-11T20:26",
       "predicted_score": 78,
@@ -69,7 +61,7 @@
       "high_f": 75,
       "low_f": 57,
       "rain_pct": 31,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-08-12T06:42",
       "sunset": "2026-08-12T20:25",
       "predicted_score": 60,
@@ -77,10 +69,10 @@
     },
     {
       "date": "2026-08-13",
-      "high_f": 68,
-      "low_f": 56,
+      "high_f": 69,
+      "low_f": 55,
       "rain_pct": 65,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-08-13T06:43",
       "sunset": "2026-08-13T20:23",
       "predicted_score": 50,
@@ -88,10 +80,10 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 68,
-      "low_f": 52,
+      "high_f": 71,
+      "low_f": 53,
       "rain_pct": 63,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-08-14T06:44",
       "sunset": "2026-08-14T20:22",
       "predicted_score": 50,
@@ -99,8 +91,8 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 74,
-      "low_f": 53,
+      "high_f": 76,
+      "low_f": 54,
       "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-08-15T06:44",
@@ -109,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-11T19:04:19.153798+00:00"
+  "updated_at": "2026-08-11T19:39:36.302450+00:00"
 }

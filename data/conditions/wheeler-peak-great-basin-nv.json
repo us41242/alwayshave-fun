@@ -39,9 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 186.4,
+    "nearest_fire_km": 153.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8683,
+      "containment_pct": 83,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:52:26.240000+00:00",
+      "distance_km": 51.8,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -49,7 +57,7 @@
       "date": "2026-08-11",
       "high_f": 55,
       "low_f": 40,
-      "rain_pct": 17,
+      "rain_pct": 26,
       "uv": 6,
       "sunrise": "2026-08-11T05:47",
       "sunset": "2026-08-11T19:37",
@@ -60,11 +68,11 @@
       "date": "2026-08-12",
       "high_f": 52,
       "low_f": 36,
-      "rain_pct": 61,
+      "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-08-12T05:48",
       "sunset": "2026-08-12T19:36",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-11T19:34:58.130314+00:00"
+  "updated_at": "2026-08-11T20:04:36.224392+00:00"
 }

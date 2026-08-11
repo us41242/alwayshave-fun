@@ -17,22 +17,22 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 42,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 95,
+    "temp_f": 96,
     "feels_like_f": 96,
-    "wind_mph": 8,
+    "wind_mph": 7,
     "gusts_mph": 8,
-    "rain_pct": 5
+    "rain_pct": 7
   },
   "sunrise": "2026-08-11T05:45",
   "sunset": "2026-08-11T19:25",
   "aqi": {
-    "aqi": 61,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 95.8,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Confucius",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:06:33.447000+00:00",
+      "distance_km": 42.4,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
@@ -49,7 +57,7 @@
       "date": "2026-08-11",
       "high_f": 98,
       "low_f": 67,
-      "rain_pct": 20,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-08-11T05:45",
       "sunset": "2026-08-11T19:25",
@@ -60,7 +68,7 @@
       "date": "2026-08-12",
       "high_f": 91,
       "low_f": 70,
-      "rain_pct": 38,
+      "rain_pct": 37,
       "uv": 5,
       "sunrise": "2026-08-12T05:46",
       "sunset": "2026-08-12T19:24",
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-11T19:42:13.037374+00:00"
+  "updated_at": "2026-08-11T20:10:32.159805+00:00"
 }

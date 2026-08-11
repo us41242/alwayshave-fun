@@ -17,8 +17,8 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,8 +29,8 @@
     "gusts_mph": 12,
     "rain_pct": 17
   },
-  "sunrise": "2026-08-11T06:41",
-  "sunset": "2026-08-11T20:26",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 51,
     "category": "Moderate",
@@ -39,75 +39,11 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 118.3,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Gravel",
-      "acres": 6,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-11T19:42:44.990000+00:00",
-      "distance_km": 20.8,
-      "direction": "SSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-11",
-      "high_f": 79,
-      "low_f": 58,
-      "rain_pct": 21,
-      "uv": 7,
-      "sunrise": "2026-08-11T06:41",
-      "sunset": "2026-08-11T20:26",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-12",
-      "high_f": 71,
-      "low_f": 59,
-      "rain_pct": 32,
-      "uv": 6,
-      "sunrise": "2026-08-12T06:42",
-      "sunset": "2026-08-12T20:25",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-13",
-      "high_f": 69,
-      "low_f": 54,
-      "rain_pct": 65,
-      "uv": 7,
-      "sunrise": "2026-08-13T06:43",
-      "sunset": "2026-08-13T20:23",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-14",
-      "high_f": 71,
-      "low_f": 53,
-      "rain_pct": 63,
-      "uv": 7,
-      "sunrise": "2026-08-14T06:44",
-      "sunset": "2026-08-14T20:22",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-15",
-      "high_f": 76,
-      "low_f": 54,
-      "rain_pct": 14,
-      "uv": 8,
-      "sunrise": "2026-08-15T06:44",
-      "sunset": "2026-08-15T20:21",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-11T21:05:54.224472+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-11T21:39:05.418414+00:00"
 }

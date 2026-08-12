@@ -17,15 +17,17 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 77,
     "feels_like_f": 73,
-    "wind_mph": 11,
-    "gusts_mph": 15,
-    "rain_pct": 29
+    "wind_mph": 16,
+    "gusts_mph": 22,
+    "rain_pct": 31
   },
   "sunrise": "2026-08-12T05:56",
   "sunset": "2026-08-12T19:32",
@@ -36,8 +38,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 59.5,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
@@ -51,19 +53,19 @@
       "uv": 7,
       "sunrise": "2026-08-12T05:56",
       "sunset": "2026-08-12T19:32",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-13",
       "high_f": 90,
-      "low_f": 69,
-      "rain_pct": 8,
+      "low_f": 68,
+      "rain_pct": 9,
       "uv": 5,
       "sunrise": "2026-08-13T05:57",
       "sunset": "2026-08-13T19:31",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-14",
@@ -73,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T05:57",
       "sunset": "2026-08-14T19:30",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-15",
@@ -84,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:58",
       "sunset": "2026-08-15T19:28",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
@@ -95,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-08-16T05:59",
       "sunset": "2026-08-16T19:27",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T22:39:24.860598+00:00"
+  "updated_at": "2026-08-12T23:07:30.102594+00:00"
 }

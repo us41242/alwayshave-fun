@@ -21,23 +21,23 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 65,
-    "wind_mph": 4,
+    "temp_f": 69,
+    "feels_like_f": 68,
+    "wind_mph": 3,
     "gusts_mph": 4,
     "rain_pct": 1
   },
   "sunrise": "2026-08-12T06:46",
   "sunset": "2026-08-12T20:27",
   "aqi": {
-    "aqi": 44,
+    "aqi": 41,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 157.3,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Gravel",
@@ -53,21 +53,21 @@
   "forecast": [
     {
       "date": "2026-08-12",
-      "high_f": 85,
+      "high_f": 86,
       "low_f": 68,
       "rain_pct": 19,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-12T06:46",
       "sunset": "2026-08-12T20:27",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-13",
       "high_f": 78,
       "low_f": 64,
       "rain_pct": 63,
-      "uv": 5,
+      "uv": 7,
       "sunrise": "2026-08-13T06:46",
       "sunset": "2026-08-13T20:26",
       "predicted_score": 60,
@@ -75,8 +75,8 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 80,
-      "low_f": 63,
+      "high_f": 79,
+      "low_f": 64,
       "rain_pct": 59,
       "uv": 7,
       "sunrise": "2026-08-14T06:47",
@@ -97,15 +97,15 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 86,
-      "low_f": 73,
+      "high_f": 84,
+      "low_f": 68,
       "rain_pct": 5,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-12T13:03:22.634289+00:00"
+  "updated_at": "2026-08-12T13:32:06.895476+00:00"
 }

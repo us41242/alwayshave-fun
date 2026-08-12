@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T22:03:37.258876+00:00",
+  "updated_at": "2026-08-12T22:31:55.253760+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 187,
+  "count": 188,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -425,12 +425,12 @@
     },
     {
       "name": "Plains",
-      "acres": 795,
+      "acres": 800,
       "containment_pct": 0,
       "cause": "Undetermined",
       "lat": 35.416596894231034,
       "lng": -120.00146859470647,
-      "updated": "2026-08-12T21:28:56.493000+00:00",
+      "updated": "2026-08-12T22:08:49.633000+00:00",
       "state": "CA",
       "personnel": 118,
       "discovered": "2026-08-12T19:35:20+00:00"
@@ -508,6 +508,18 @@
       "discovered": "2026-07-26T19:38:56+00:00"
     },
     {
+      "name": "Sheep Pen",
+      "acres": 400,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 37.07564314135143,
+      "lng": -103.28554443379696,
+      "updated": "2026-08-12T22:04:40.553000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-12T14:18:18+00:00"
+    },
+    {
       "name": "Fishhook",
       "acres": 309,
       "containment_pct": 100,
@@ -522,11 +534,11 @@
     {
       "name": "Foster",
       "acres": 252,
-      "containment_pct": 35,
+      "containment_pct": 50,
       "cause": "Human",
       "lat": 32.76375789444399,
       "lng": -114.64135545580156,
-      "updated": "2026-08-11T23:01:41.480000+00:00",
+      "updated": "2026-08-12T22:05:06.130000+00:00",
       "state": "CA",
       "personnel": 13,
       "discovered": "2026-08-09T13:23:48+00:00"
@@ -640,18 +652,6 @@
       "discovered": "2026-07-09T01:00:00+00:00"
     },
     {
-      "name": "Sheep Pen",
-      "acres": 120,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 37.07564314135143,
-      "lng": -103.28554443379696,
-      "updated": "2026-08-12T20:26:34.533000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-12T14:18:18+00:00"
-    },
-    {
       "name": "Finger Ridge",
       "acres": 67,
       "containment_pct": null,
@@ -763,10 +763,10 @@
       "name": "Diamante",
       "acres": 20,
       "containment_pct": null,
-      "cause": "Undetermined",
+      "cause": "Natural",
       "lat": 36.9754159115458,
       "lng": -106.81567022699083,
-      "updated": "2026-08-12T17:03:20.823000+00:00",
+      "updated": "2026-08-12T22:02:21.513000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-11T21:28:04+00:00"
@@ -940,6 +940,18 @@
       "discovered": "2026-08-07T21:54:19+00:00"
     },
     {
+      "name": "Sikes Ranch",
+      "acres": 3,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 37.99328818166759,
+      "lng": -104.84771988546935,
+      "updated": "2026-08-12T22:03:36.677000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-12T21:05:17+00:00"
+    },
+    {
       "name": "Marina",
       "acres": 3,
       "containment_pct": null,
@@ -1094,6 +1106,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-12T00:00:46+00:00"
+    },
+    {
+      "name": "Tunnel",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.01428223918957,
+      "lng": -121.90593556495615,
+      "updated": "2026-08-12T22:08:17.200000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T21:56:43+00:00"
     },
     {
       "name": "Club",
@@ -1300,28 +1324,16 @@
       "discovered": "2026-08-10T21:50:35+00:00"
     },
     {
-      "name": "Grouse",
+      "name": "Lost Creek",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.69483413443002,
-      "lng": -119.69207178006305,
-      "updated": "2026-08-12T17:09:55.460000+00:00",
+      "lat": 34.16522394862205,
+      "lng": -116.83295895507152,
+      "updated": "2026-08-12T00:14:14.080000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T17:06:51+00:00"
-    },
-    {
-      "name": "Dewey",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 37.702338137845,
-      "lng": -119.6541797747395,
-      "updated": "2026-08-12T19:10:30.270000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T19:06:20+00:00"
+      "discovered": "2026-08-12T00:00:46+00:00"
     },
     {
       "name": "Long",
@@ -1336,16 +1348,28 @@
       "discovered": "2026-08-12T15:51:00+00:00"
     },
     {
-      "name": "Lost Creek",
+      "name": "Dewey",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.16522394862205,
-      "lng": -116.83295895507152,
-      "updated": "2026-08-12T00:14:14.080000+00:00",
+      "lat": 37.702338137845,
+      "lng": -119.6541797747395,
+      "updated": "2026-08-12T19:10:30.270000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T00:00:46+00:00"
+      "discovered": "2026-08-12T19:06:20+00:00"
+    },
+    {
+      "name": "Grouse",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 37.69483413443002,
+      "lng": -119.69207178006305,
+      "updated": "2026-08-12T17:09:55.460000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T17:06:51+00:00"
     },
     {
       "name": "Gypsum",
@@ -1936,16 +1960,16 @@
       "discovered": "2026-08-09T23:47:45+00:00"
     },
     {
-      "name": "Lac-284375",
+      "name": "Mmu August Lightning Complex",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.98664485227517,
-      "lng": -118.18106217134363,
-      "updated": "2026-08-11T23:20:59.960000+00:00",
+      "lat": 37.50069509535516,
+      "lng": -119.98656680593245,
+      "updated": "2026-08-12T21:50:14.657000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-11T23:20:43+00:00"
+      "discovered": "2026-08-12T17:55:10+00:00"
     },
     {
       "name": "Lac-284571",
@@ -1972,28 +1996,16 @@
       "discovered": "2026-08-10T01:23:00+00:00"
     },
     {
-      "name": "Mmu August Lightning Complex",
+      "name": "Lac-284375",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.50069509535516,
-      "lng": -119.98656680593245,
-      "updated": "2026-08-12T21:50:14.657000+00:00",
+      "lat": 33.98664485227517,
+      "lng": -118.18106217134363,
+      "updated": "2026-08-11T23:20:59.960000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T17:55:10+00:00"
-    },
-    {
-      "name": "Hagen Flat Rd  Bigbend",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 41.01428223918957,
-      "lng": -121.90593556495615,
-      "updated": "2026-08-12T22:01:01.100000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T21:56:43+00:00"
+      "discovered": "2026-08-11T23:20:43+00:00"
     },
     {
       "name": "Mtz/Bdc/82N",

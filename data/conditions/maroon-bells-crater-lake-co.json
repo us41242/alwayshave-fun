@@ -17,17 +17,18 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required"
+    "insulation layer required",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 44,
-    "feels_like_f": 35,
-    "wind_mph": 11,
-    "gusts_mph": 16,
-    "rain_pct": 2
+    "feels_like_f": 36,
+    "wind_mph": 10,
+    "gusts_mph": 14,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-12T06:18",
   "sunset": "2026-08-12T20:06",
@@ -38,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.4,
+    "fire_count_50km": 2,
     "nearest_incident": {
       "name": "Cold Mountain",
       "acres": 0.1,
@@ -61,8 +62,8 @@
       "uv": 6,
       "sunrise": "2026-08-12T06:18",
       "sunset": "2026-08-12T20:06",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
@@ -72,8 +73,8 @@
       "uv": 6,
       "sunrise": "2026-08-13T06:19",
       "sunset": "2026-08-13T20:05",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-14",
@@ -83,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:20",
       "sunset": "2026-08-14T20:04",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-15",
@@ -94,8 +95,8 @@
       "uv": 7,
       "sunrise": "2026-08-15T06:21",
       "sunset": "2026-08-15T20:03",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-16",
@@ -105,9 +106,9 @@
       "uv": 6,
       "sunrise": "2026-08-16T06:22",
       "sunset": "2026-08-16T20:01",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T11:42:37.549589+00:00"
+  "updated_at": "2026-08-12T12:02:56.136410+00:00"
 }

@@ -19,25 +19,27 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 84,
-    "wind_mph": 13,
-    "gusts_mph": 14,
-    "rain_pct": 13
+    "temp_f": 86,
+    "feels_like_f": 82,
+    "wind_mph": 11,
+    "gusts_mph": 12,
+    "rain_pct": 24
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-12T06:42",
+  "sunset": "2026-08-12T20:23",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 184.1,
+    "nearest_fire_km": 189.2,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Confucius",
@@ -50,6 +52,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-12T20:07:50.156215+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-12",
+      "high_f": 86,
+      "low_f": 66,
+      "rain_pct": 31,
+      "uv": 8,
+      "sunrise": "2026-08-12T06:42",
+      "sunset": "2026-08-12T20:23",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-13",
+      "high_f": 82,
+      "low_f": 65,
+      "rain_pct": 29,
+      "uv": 7,
+      "sunrise": "2026-08-13T06:43",
+      "sunset": "2026-08-13T20:22",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-14",
+      "high_f": 80,
+      "low_f": 62,
+      "rain_pct": 53,
+      "uv": 7,
+      "sunrise": "2026-08-14T06:44",
+      "sunset": "2026-08-14T20:20",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-15",
+      "high_f": 86,
+      "low_f": 65,
+      "rain_pct": 22,
+      "uv": 8,
+      "sunrise": "2026-08-15T06:44",
+      "sunset": "2026-08-15T20:19",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-16",
+      "high_f": 85,
+      "low_f": 72,
+      "rain_pct": 6,
+      "uv": 6,
+      "sunrise": "2026-08-16T06:45",
+      "sunset": "2026-08-16T20:18",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-08-12T20:39:28.235123+00:00"
 }

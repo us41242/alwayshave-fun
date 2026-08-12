@@ -23,32 +23,32 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 90,
-    "feels_like_f": 83,
+    "temp_f": 89,
+    "feels_like_f": 82,
     "wind_mph": 15,
-    "gusts_mph": 18,
+    "gusts_mph": 20,
     "rain_pct": 7
   },
   "sunrise": "2026-08-11T06:45",
   "sunset": "2026-08-11T20:28",
   "aqi": {
-    "aqi": 64,
+    "aqi": 59,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 154.9,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Eight Mile",
-      "acres": 80.5,
+      "name": "Gravel",
+      "acres": 6,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-11T19:07:16.390000+00:00",
-      "distance_km": 51.2,
-      "direction": "NNW"
+      "updated": "2026-08-11T19:42:44.990000+00:00",
+      "distance_km": 63.3,
+      "direction": "ENE"
     }
   },
   "river": {
@@ -62,7 +62,7 @@
       "high_f": 91,
       "low_f": 67,
       "rain_pct": 7,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-11T06:45",
       "sunset": "2026-08-11T20:28",
       "predicted_score": 60,
@@ -73,7 +73,7 @@
       "high_f": 82,
       "low_f": 68,
       "rain_pct": 18,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-12T06:45",
       "sunset": "2026-08-12T20:27",
       "predicted_score": 78,
@@ -84,7 +84,7 @@
       "high_f": 78,
       "low_f": 66,
       "rain_pct": 53,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-08-13T06:46",
       "sunset": "2026-08-13T20:26",
       "predicted_score": 60,
@@ -92,10 +92,10 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 83,
-      "low_f": 67,
+      "high_f": 80,
+      "low_f": 66,
       "rain_pct": 55,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
       "predicted_score": 60,
@@ -103,15 +103,15 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 86,
+      "high_f": 85,
       "low_f": 67,
       "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
       "sunset": "2026-08-15T20:23",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-12T00:02:29.791375+00:00"
+  "updated_at": "2026-08-12T00:32:29.341125+00:00"
 }

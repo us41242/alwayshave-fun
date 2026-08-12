@@ -20,26 +20,27 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 79,
-    "wind_mph": 11,
-    "gusts_mph": 20,
+    "temp_f": 82,
+    "feels_like_f": 76,
+    "wind_mph": 14,
+    "gusts_mph": 26,
     "rain_pct": 2
   },
   "sunrise": "2026-08-12T06:29",
   "sunset": "2026-08-12T20:16",
   "aqi": {
-    "aqi": 64,
+    "aqi": 61,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 168.2,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
@@ -48,7 +49,7 @@
     {
       "date": "2026-08-12",
       "high_f": 90,
-      "low_f": 76,
+      "low_f": 74,
       "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-08-12T06:29",
@@ -58,14 +59,14 @@
     },
     {
       "date": "2026-08-13",
-      "high_f": 85,
-      "low_f": 69,
+      "high_f": 88,
+      "low_f": 68,
       "rain_pct": 22,
       "uv": 8,
       "sunrise": "2026-08-13T06:30",
       "sunset": "2026-08-13T20:15",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
@@ -101,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T08:14:58.645282+00:00"
+  "updated_at": "2026-08-12T08:46:52.787545+00:00"
 }

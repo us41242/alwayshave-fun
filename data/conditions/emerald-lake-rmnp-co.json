@@ -17,18 +17,18 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
+    "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 65,
-    "feels_like_f": 57,
-    "wind_mph": 16,
-    "gusts_mph": 23,
-    "rain_pct": 37
+    "temp_f": 68,
+    "feels_like_f": 68,
+    "wind_mph": 6,
+    "gusts_mph": 7,
+    "rain_pct": 44
   },
   "sunrise": "2026-08-12T06:11",
   "sunset": "2026-08-12T20:04",
@@ -39,33 +39,41 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 63.3,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Moriah",
+      "acres": 19.6,
+      "containment_pct": null,
+      "cause": "Human",
+      "updated": "2026-08-08T03:49:57.083000+00:00",
+      "distance_km": 76.3,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
-      "high_f": 70,
-      "low_f": 49,
+      "high_f": 69,
+      "low_f": 50,
       "rain_pct": 61,
       "uv": 7,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T20:04",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
       "high_f": 62,
-      "low_f": 48,
+      "low_f": 49,
       "rain_pct": 43,
       "uv": 5,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T20:02",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -76,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T20:01",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -87,8 +95,8 @@
       "uv": 7,
       "sunrise": "2026-08-15T06:14",
       "sunset": "2026-08-15T19:59",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
@@ -98,9 +106,9 @@
       "uv": 6,
       "sunrise": "2026-08-16T06:15",
       "sunset": "2026-08-16T19:58",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T21:08:21.674842+00:00"
+  "updated_at": "2026-08-12T21:43:22.780842+00:00"
 }

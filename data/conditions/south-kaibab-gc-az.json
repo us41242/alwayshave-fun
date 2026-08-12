@@ -32,18 +32,26 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 74,
+    "aqi": 77,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 125.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cliff Spring",
+      "acres": 170,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-12T19:22:27.717000+00:00",
+      "distance_km": 16.5,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-12T21:05:11.536597+00:00"
+  "updated_at": "2026-08-12T21:36:50.596853+00:00"
 }

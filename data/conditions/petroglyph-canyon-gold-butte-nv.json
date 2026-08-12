@@ -17,15 +17,15 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 92,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 69,
-    "wind_mph": 12,
+    "feels_like_f": 70,
+    "wind_mph": 11,
     "gusts_mph": 12,
-    "rain_pct": 9
+    "rain_pct": 10
   },
   "sunrise": "2026-08-12T05:51",
   "sunset": "2026-08-12T19:30",
@@ -36,23 +36,31 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 78.7,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Black Mountain",
+      "acres": 45,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-11T21:11:37.800000+00:00",
+      "distance_km": 47.8,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
-      "high_f": 71,
+      "high_f": 72,
       "low_f": 58,
       "rain_pct": 19,
       "uv": 8,
       "sunrise": "2026-08-12T05:51",
       "sunset": "2026-08-12T19:30",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-13",
@@ -62,8 +70,8 @@
       "uv": 6,
       "sunrise": "2026-08-13T05:52",
       "sunset": "2026-08-13T19:29",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-14",
@@ -73,8 +81,8 @@
       "uv": 7,
       "sunrise": "2026-08-14T05:53",
       "sunset": "2026-08-14T19:28",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-15",
@@ -84,8 +92,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:54",
       "sunset": "2026-08-15T19:27",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
@@ -95,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-16T05:54",
       "sunset": "2026-08-16T19:26",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-12T21:03:24.820222+00:00"
+  "updated_at": "2026-08-12T21:35:02.946697+00:00"
 }

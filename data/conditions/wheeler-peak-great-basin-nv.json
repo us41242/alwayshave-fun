@@ -24,32 +24,40 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 43,
-    "feels_like_f": 36,
-    "wind_mph": 8,
-    "gusts_mph": 16,
-    "rain_pct": 13
+    "temp_f": 45,
+    "feels_like_f": 35,
+    "wind_mph": 15,
+    "gusts_mph": 17,
+    "rain_pct": 16
   },
   "sunrise": "2026-08-12T05:48",
   "sunset": "2026-08-12T19:36",
   "aqi": {
-    "aqi": 61,
+    "aqi": 64,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 129.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8683,
+      "containment_pct": 83,
+      "cause": "Natural",
+      "updated": "2026-08-11T22:28:28.810000+00:00",
+      "distance_km": 51.8,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
-      "high_f": 49,
-      "low_f": 38,
+      "high_f": 50,
+      "low_f": 37,
       "rain_pct": 38,
       "uv": 7,
       "sunrise": "2026-08-12T05:48",
@@ -102,5 +110,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-12T21:03:22.844768+00:00"
+  "updated_at": "2026-08-12T21:34:59.707593+00:00"
 }

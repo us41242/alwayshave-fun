@@ -17,16 +17,14 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 80,
-    "wind_mph": 8,
-    "gusts_mph": 8,
+    "temp_f": 76,
+    "feels_like_f": 83,
+    "wind_mph": 9,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "sunrise": "2026-08-12T06:11",
@@ -38,23 +36,31 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "high",
-    "nearest_fire_km": 5.0,
-    "fire_count_50km": 15,
-    "nearest_incident": null
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Maple",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-10T23:55:45.230000+00:00",
+      "distance_km": 33.6,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
-      "high_f": 76,
+      "high_f": 77,
       "low_f": 65,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:40",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-13",
@@ -64,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:39",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-14",
@@ -75,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:38",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-15",
@@ -86,8 +92,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:37",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
@@ -97,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:36",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-12T21:11:20.645546+00:00"
+  "updated_at": "2026-08-12T21:43:28.909930+00:00"
 }

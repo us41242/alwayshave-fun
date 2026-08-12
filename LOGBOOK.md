@@ -4,6 +4,46 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-11 — Session 33 (nightly) — FIRST active→false FLIPS VERIFIED LIVE; PARTICIPATION ROUND 13 (2nd DISCLOSED MENTION, /fires/rocky-canyon)
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** 7d and 28d (data through 08-08) — the 3 impressions from last week rolled out of the 28d window. Sitemap still `pending` — day 9; decision point 2026-08-24. Weekly #5 filed yesterday; next weekly 08-17.
+- Pipeline healthy — :00/:30 runs all `success` through 04:00Z (11–21 min each).
+- **Bing:** homepage `LastCrawledDate` 2026-08-10 (near-daily continues). `/fires` + sampled incident pages (gold-mountain, widemouth-2): **still never crawled**, 1 day after the 37-URL batch submit — within expected lag, keep watching. (`GetUrlInfo` 400s transiently; retry with 5s backoff works.)
+- Archive at 37 incidents; sitemap 154 URLs (CI added post-fire-co-2026 on its own).
+
+### Verified (watch item closed)
+- **First `active→false` flips happened — 6 incidents** (antelope-ca, fields-ca, island-az, keystone-co, mateo-ca, wild-goose-ut) dropped off the NIFC feed. Live pages render the archived copy with the hard-rule-4 wording ("No longer on the NIFC active list" — no claim it's out). The Session 31 design works in production, first time exercised.
+
+### Decided
+Binding constraint unchanged (discovery/authority ⇒ Phase 3). Tonight's fit: r/Utah `1vm1dcu` "Smoke coming over the mountains into Davis County?" — a live smoke-attribution question, 4 comments of qualitative guesses, zero data. And the smoke source is **Rocky Canyon** — a fire we hold a 4-day growth curve for at `/fires/rocky-canyon-fire-ut-2026`. This is precisely the thread shape Session 31's pages were built to serve ("what a Reddit fire-thread mention can honestly point at").
+
+### Did
+- **Round 13 — comment `p36ex3b`** in r/Utah `1vm1dcu`. Data, all pulled live tonight: Rocky Canyon geometry (Morgan Co, ~9 mi SW of Henefer; Clearfield/Fruit Heights 15–25 mi WNW = downwind — computed from WFIGS point coords); growth curve from our archive (1,200 Sat → 4,372 Sun → 13,601 Mon, +9,200 blow-up day → 15,366 today, first containment 25%, 216 personnel, human-caused, disc 08-07); Utah DEQ Davis County monitor PM2.5 9.8 µg/m³ Good at 7pm (smoke aloft, not yet surface) with the overnight-settling caveat; NWS wind (S 7 tonight → WNW Wed); air.utah.gov / fire.airnow.gov morning-check pointer. **Second-ever disclosed site mention** — one closing sentence citing the day-by-day archive page. Rationale: prior mention validated (+5/+6, account high), the growth curve is the one thing in the comment nobody else publishes, and the disclosure is explicit ("my site"). Ratio now 2 mentions / 17 comments (~12%) — next several comments stay mention-free to get back under 10%.
+
+### Verified
+- `p36ex3b` live via authed `api/info`: score 1, `collapsed=false`, `banned_by=null`. **Tally: 17 comments, all live, none collapsed.** Reception: `p1l4u8m` +5, `p2z7tpm` +2, `p2ejftt` +1.
+- Live sweep (real UA): `/`, `/fires`, `/sitemap.xml` all 200; sitemap valid, 154 URLs, 37 fire pages.
+- Cited page checked live before posting: `/fires/rocky-canyon-fire-ut-2026` 200, title current (15,366 ac / 25%), data stamped 04:03 UTC tonight.
+- Every number pulled live: WFIGS (+geometry), Utah DEQ feed, NWS gridpoint, own archive.json. None from memory.
+
+### Learned
+- **`air.utah.gov/xmlFeed.php` is a keyless real-time monitor feed** — PM2.5/ozone/wind hourly from Utah DEQ stations. The `id` param appears ignored (every id returned Davis County tonight) and it lags ~3h, but it's ground truth where AirNow's keyless reportingarea endpoint only gives daily summaries. Third AQI source for Reddit answers (after own conditions JSON + Open-Meteo).
+- Open-Meteo's air-quality *model* read PM2.5 at 36–49 µg/m³ for the same hour the DEQ *monitor* read 9.8 — model smoke estimates run hot vs ground stations during aloft-smoke events. Prefer monitors; cite the model only with the caveat.
+- Bing `GetUrlInfo` intermittently 400s on valid requests; 5s-backoff retry resolves. Don't read a single 400 as quota/auth failure.
+
+### Expect
+- `p36ex3b` is the first comment where the mention IS the differentiating data (the curve). Its reception is the cleanest read yet on whether fire-page mentions convert. Referral clicks unmeasurable (no analytics), but Bing/Google crawl of the linked page may follow.
+- No GSC movement before 08-24.
+
+### Upcoming
+- Bing `GetUrlInfo` re-check on `/fires` + incidents (batch submitted 08-10; crawl expected within days).
+- Watch `p36ex3b` votes/replies/mod action — if removed or downvoted hard, mentions go back on ice.
+- AirNow local key still dead; workarounds now cover it (own JSON, DEQ feed, Open-Meteo). Fresh key registration needs email verification — flagged to Josh in weekly #5, not blocking.
+- Sitemap decision point 2026-08-24; weekly #6 due 2026-08-17.
+
+---
+
 ## 2026-08-10 — Session 32 (nightly + WEEKLY #5) — BWT BATCH-SUBMITTED ALL 37 FIRE URLS; PARTICIPATION ROUND 12
 
 ### Oriented

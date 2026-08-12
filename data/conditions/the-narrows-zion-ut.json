@@ -25,8 +25,8 @@
   "current": {
     "temp_f": 78,
     "feels_like_f": 74,
-    "wind_mph": 10,
-    "gusts_mph": 14,
+    "wind_mph": 7,
+    "gusts_mph": 12,
     "rain_pct": 5
   },
   "sunrise": "2026-08-12T06:45",
@@ -51,13 +51,17 @@
       "direction": "ENE"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 31,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-08-12",
       "high_f": 84,
       "low_f": 70,
-      "rain_pct": 23,
+      "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-08-12T06:45",
       "sunset": "2026-08-12T20:27",
@@ -69,7 +73,7 @@
       "high_f": 81,
       "low_f": 65,
       "rain_pct": 69,
-      "uv": 6,
+      "uv": 5,
       "sunrise": "2026-08-13T06:46",
       "sunset": "2026-08-13T20:26",
       "predicted_score": 50,
@@ -77,10 +81,10 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 80,
-      "low_f": 66,
+      "high_f": 82,
+      "low_f": 64,
       "rain_pct": 59,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
       "predicted_score": 60,
@@ -88,8 +92,8 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 85,
-      "low_f": 67,
+      "high_f": 84,
+      "low_f": 66,
       "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
@@ -99,15 +103,15 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 86,
-      "low_f": 70,
+      "high_f": 87,
+      "low_f": 74,
       "rain_pct": 3,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
       "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T06:02:12.480743+00:00"
+  "updated_at": "2026-08-12T06:32:29.560218+00:00"
 }

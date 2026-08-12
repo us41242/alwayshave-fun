@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,89 +29,25 @@
     "gusts_mph": 14,
     "rain_pct": 21
   },
-  "sunrise": "2026-08-12T06:45",
-  "sunset": "2026-08-12T20:27",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 54,
+    "aqi": 61,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 142.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Black Mountain",
-      "acres": 45,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-11T21:11:37.800000+00:00",
-      "distance_km": 92.3,
-      "direction": "SW"
-    }
+    "nearest_incident": null
   },
   "river": {
     "cfs": 31,
     "stage": "low",
     "gauge_id": "09405500"
   },
-  "forecast": [
-    {
-      "date": "2026-08-12",
-      "high_f": 77,
-      "low_f": 60,
-      "rain_pct": 31,
-      "uv": 7,
-      "sunrise": "2026-08-12T06:45",
-      "sunset": "2026-08-12T20:27",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-13",
-      "high_f": 74,
-      "low_f": 56,
-      "rain_pct": 30,
-      "uv": 5,
-      "sunrise": "2026-08-13T06:46",
-      "sunset": "2026-08-13T20:26",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-14",
-      "high_f": 67,
-      "low_f": 56,
-      "rain_pct": 51,
-      "uv": 6,
-      "sunrise": "2026-08-14T06:47",
-      "sunset": "2026-08-14T20:25",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-15",
-      "high_f": 77,
-      "low_f": 58,
-      "rain_pct": 30,
-      "uv": 8,
-      "sunrise": "2026-08-15T06:48",
-      "sunset": "2026-08-15T20:24",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-16",
-      "high_f": 76,
-      "low_f": 65,
-      "rain_pct": 7,
-      "uv": 6,
-      "sunrise": "2026-08-16T06:49",
-      "sunset": "2026-08-16T20:22",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-12T23:07:27.566757+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-12T23:36:48.354192+00:00"
 }

@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 44,
-    "wind_mph": 9,
-    "gusts_mph": 18,
-    "rain_pct": 14
+    "temp_f": 55,
+    "feels_like_f": 48,
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 13
   },
   "sunrise": "2026-08-12T05:47",
   "sunset": "2026-08-12T19:36",
@@ -39,24 +39,16 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 124.0,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Ward",
-      "acres": 8683,
-      "containment_pct": 90,
-      "cause": "Natural",
-      "updated": "2026-08-12T22:34:51.053000+00:00",
-      "distance_km": 63.7,
-      "direction": "WSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
       "high_f": 55,
-      "low_f": 44,
+      "low_f": 43,
       "rain_pct": 49,
       "uv": 6,
       "sunrise": "2026-08-12T05:47",
@@ -69,7 +61,7 @@
       "high_f": 54,
       "low_f": 40,
       "rain_pct": 44,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-08-13T05:48",
       "sunset": "2026-08-13T19:34",
       "predicted_score": 60,
@@ -77,10 +69,10 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 60,
+      "high_f": 61,
       "low_f": 37,
       "rain_pct": 59,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-14T05:49",
       "sunset": "2026-08-14T19:33",
       "predicted_score": 60,
@@ -88,7 +80,7 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 63,
+      "high_f": 62,
       "low_f": 44,
       "rain_pct": 16,
       "uv": 8,
@@ -100,14 +92,14 @@
     {
       "date": "2026-08-16",
       "high_f": 62,
-      "low_f": 49,
+      "low_f": 50,
       "rain_pct": 5,
-      "uv": 6,
+      "uv": 8,
       "sunrise": "2026-08-16T05:50",
       "sunset": "2026-08-16T19:30",
       "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-12T23:09:55.970270+00:00"
+  "updated_at": "2026-08-12T23:40:00.134634+00:00"
 }

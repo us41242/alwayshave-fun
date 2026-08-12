@@ -17,50 +17,45 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 26,
+  "score_label": "Stay home",
+  "gear_flags": [
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 74,
-    "wind_mph": 13,
-    "gusts_mph": 15,
+    "temp_f": 80,
+    "feels_like_f": 82,
+    "wind_mph": 15,
+    "gusts_mph": 21,
     "rain_pct": 40
   },
   "sunrise": "2026-08-12T05:53",
   "sunset": "2026-08-12T19:32",
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Black Mountain",
-      "acres": 45,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-11T21:11:37.800000+00:00",
-      "distance_km": 89.7,
-      "direction": "ENE"
-    }
+    "risk_level": "elevated",
+    "nearest_fire_km": 36.5,
+    "fire_count_50km": 2,
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
       "high_f": 97,
-      "low_f": 75,
+      "low_f": 77,
       "rain_pct": 40,
       "uv": 8,
       "sunrise": "2026-08-12T05:53",
       "sunset": "2026-08-12T19:32",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-13",
@@ -70,8 +65,8 @@
       "uv": 6,
       "sunrise": "2026-08-13T05:54",
       "sunset": "2026-08-13T19:31",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-14",
@@ -81,8 +76,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T05:55",
       "sunset": "2026-08-14T19:30",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-15",
@@ -92,8 +87,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:56",
       "sunset": "2026-08-15T19:28",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-16",
@@ -103,9 +98,9 @@
       "uv": 8,
       "sunrise": "2026-08-16T05:56",
       "sunset": "2026-08-16T19:27",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-08-12T23:05:00.509687+00:00"
+  "updated_at": "2026-08-12T23:33:10.560216+00:00"
 }

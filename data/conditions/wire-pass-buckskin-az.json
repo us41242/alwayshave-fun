@@ -17,39 +17,31 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 73,
-    "wind_mph": 16,
-    "gusts_mph": 19,
-    "rain_pct": 34
+    "temp_f": 81,
+    "feels_like_f": 76,
+    "wind_mph": 10,
+    "gusts_mph": 13,
+    "rain_pct": 28
   },
   "sunrise": "2026-08-12T06:42",
   "sunset": "2026-08-12T20:23",
   "aqi": {
-    "aqi": 54,
+    "aqi": 61,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 189.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Confucius",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-10T21:06:33.447000+00:00",
-      "distance_km": 98.3,
-      "direction": "SSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -67,7 +59,7 @@
     {
       "date": "2026-08-13",
       "high_f": 82,
-      "low_f": 64,
+      "low_f": 63,
       "rain_pct": 13,
       "uv": 7,
       "sunrise": "2026-08-13T06:43",
@@ -77,7 +69,7 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 80,
+      "high_f": 84,
       "low_f": 61,
       "rain_pct": 32,
       "uv": 7,
@@ -89,7 +81,7 @@
     {
       "date": "2026-08-15",
       "high_f": 86,
-      "low_f": 65,
+      "low_f": 64,
       "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-08-15T06:44",
@@ -99,15 +91,15 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 85,
-      "low_f": 72,
+      "high_f": 88,
+      "low_f": 71,
       "rain_pct": 7,
       "uv": 6,
       "sunrise": "2026-08-16T06:45",
       "sunset": "2026-08-16T20:18",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T23:07:28.838941+00:00"
+  "updated_at": "2026-08-12T23:37:24.607294+00:00"
 }

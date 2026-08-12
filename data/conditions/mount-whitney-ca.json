@@ -17,18 +17,20 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 62,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 35,
+    "temp_f": 37,
     "feels_like_f": 28,
-    "wind_mph": 6,
-    "gusts_mph": 10,
-    "rain_pct": 28
+    "wind_mph": 13,
+    "gusts_mph": 16,
+    "rain_pct": 21
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-12T06:08",
+  "sunset": "2026-08-12T19:47",
   "aqi": {
     "aqi": 28,
     "category": "Good",
@@ -36,20 +38,68 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 84.4,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Soda Creek",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-11T23:34:46.110000+00:00",
-      "distance_km": 21.8,
-      "direction": "SW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-12T23:12:22.704719+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-12",
+      "high_f": 39,
+      "low_f": 30,
+      "rain_pct": 32,
+      "uv": 6,
+      "sunrise": "2026-08-12T06:08",
+      "sunset": "2026-08-12T19:47",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-13",
+      "high_f": 41,
+      "low_f": 28,
+      "rain_pct": 19,
+      "uv": 7,
+      "sunrise": "2026-08-13T06:09",
+      "sunset": "2026-08-13T19:46",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-14",
+      "high_f": 45,
+      "low_f": 27,
+      "rain_pct": 16,
+      "uv": 9,
+      "sunrise": "2026-08-14T06:10",
+      "sunset": "2026-08-14T19:45",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-15",
+      "high_f": 47,
+      "low_f": 27,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-08-15T06:11",
+      "sunset": "2026-08-15T19:44",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-16",
+      "high_f": 45,
+      "low_f": 31,
+      "rain_pct": 3,
+      "uv": 4,
+      "sunrise": "2026-08-16T06:11",
+      "sunset": "2026-08-16T19:42",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-08-12T23:43:45.685163+00:00"
 }

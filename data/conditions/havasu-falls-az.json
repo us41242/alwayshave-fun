@@ -24,11 +24,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 75,
-    "wind_mph": 10,
-    "gusts_mph": 14,
-    "rain_pct": 42
+    "temp_f": 75,
+    "feels_like_f": 82,
+    "wind_mph": 2,
+    "gusts_mph": 2,
+    "rain_pct": 45
   },
   "sunrise": "2026-08-12T05:46",
   "sunset": "2026-08-12T19:24",
@@ -42,15 +42,7 @@
     "risk_level": "moderate",
     "nearest_fire_km": 98.9,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Confucius",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-10T21:06:33.447000+00:00",
-      "distance_km": 43.8,
-      "direction": "E"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -58,18 +50,18 @@
       "date": "2026-08-12",
       "high_f": 87,
       "low_f": 74,
-      "rain_pct": 49,
+      "rain_pct": 66,
       "uv": 7,
       "sunrise": "2026-08-12T05:46",
       "sunset": "2026-08-12T19:24",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-13",
-      "high_f": 86,
-      "low_f": 69,
-      "rain_pct": 56,
+      "high_f": 88,
+      "low_f": 71,
+      "rain_pct": 51,
       "uv": 7,
       "sunrise": "2026-08-13T05:47",
       "sunset": "2026-08-13T19:23",
@@ -79,8 +71,8 @@
     {
       "date": "2026-08-14",
       "high_f": 93,
-      "low_f": 69,
-      "rain_pct": 63,
+      "low_f": 68,
+      "rain_pct": 65,
       "uv": 7,
       "sunrise": "2026-08-14T05:48",
       "sunset": "2026-08-14T19:22",
@@ -91,7 +83,7 @@
       "date": "2026-08-15",
       "high_f": 96,
       "low_f": 75,
-      "rain_pct": 14,
+      "rain_pct": 11,
       "uv": 8,
       "sunrise": "2026-08-15T05:49",
       "sunset": "2026-08-15T19:21",
@@ -102,7 +94,7 @@
       "date": "2026-08-16",
       "high_f": 92,
       "low_f": 82,
-      "rain_pct": 6,
+      "rain_pct": 4,
       "uv": 6,
       "sunrise": "2026-08-16T05:50",
       "sunset": "2026-08-16T19:20",
@@ -110,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T20:36:52.464830+00:00"
+  "updated_at": "2026-08-12T21:05:47.262478+00:00"
 }

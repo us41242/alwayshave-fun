@@ -17,40 +17,34 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 84,
     "feels_like_f": 83,
-    "wind_mph": 10,
-    "gusts_mph": 12,
-    "rain_pct": 17
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 16
   },
   "sunrise": "2026-08-12T06:45",
   "sunset": "2026-08-12T20:27",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 158.1,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Black Mountain",
-      "acres": 45,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-11T21:11:37.800000+00:00",
-      "distance_km": 79.4,
-      "direction": "SW"
-    }
+    "nearest_incident": null
   },
   "river": {
-    "cfs": 31,
+    "cfs": 32,
     "stage": "low",
     "gauge_id": "09405500"
   },
@@ -63,53 +57,53 @@
       "uv": 8,
       "sunrise": "2026-08-12T06:45",
       "sunset": "2026-08-12T20:27",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-13",
-      "high_f": 80,
-      "low_f": 62,
-      "rain_pct": 34,
+      "high_f": 81,
+      "low_f": 61,
+      "rain_pct": 35,
       "uv": 6,
       "sunrise": "2026-08-13T06:46",
       "sunset": "2026-08-13T20:26",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
       "high_f": 77,
-      "low_f": 63,
-      "rain_pct": 56,
+      "low_f": 61,
+      "rain_pct": 50,
       "uv": 7,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
       "high_f": 85,
       "low_f": 65,
-      "rain_pct": 28,
+      "rain_pct": 30,
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
       "sunset": "2026-08-15T20:23",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
       "high_f": 84,
       "low_f": 74,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 6,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-12T20:32:53.307156+00:00"
+  "updated_at": "2026-08-12T21:02:02.901159+00:00"
 }

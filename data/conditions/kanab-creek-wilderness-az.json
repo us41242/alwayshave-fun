@@ -21,23 +21,23 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 81,
-    "wind_mph": 8,
-    "gusts_mph": 10,
+    "temp_f": 83,
+    "feels_like_f": 82,
+    "wind_mph": 9,
+    "gusts_mph": 11,
     "rain_pct": 14
   },
   "sunrise": "2026-08-12T05:44",
   "sunset": "2026-08-12T19:25",
   "aqi": {
-    "aqi": 45,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 171.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Confucius",
@@ -49,7 +49,11 @@
       "direction": "SSE"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 9,
+    "stage": null,
+    "gauge_id": "09403850"
+  },
   "forecast": [
     {
       "date": "2026-08-12",
@@ -107,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-12T19:02:15.026133+00:00"
+  "updated_at": "2026-08-12T19:34:06.493031+00:00"
 }

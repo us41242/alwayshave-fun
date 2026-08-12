@@ -17,27 +17,29 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 71,
+    "feels_like_f": 68,
     "wind_mph": 4,
-    "gusts_mph": 6,
-    "rain_pct": 27
+    "gusts_mph": 7,
+    "rain_pct": 29
   },
   "sunrise": "2026-08-12T06:42",
   "sunset": "2026-08-12T20:25",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 61,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 115.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -59,8 +61,8 @@
       "uv": 5,
       "sunrise": "2026-08-12T06:42",
       "sunset": "2026-08-12T20:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
@@ -70,8 +72,8 @@
       "uv": 6,
       "sunrise": "2026-08-13T06:43",
       "sunset": "2026-08-13T20:23",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-14",
@@ -81,7 +83,7 @@
       "uv": 5,
       "sunrise": "2026-08-14T06:44",
       "sunset": "2026-08-14T20:22",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:44",
       "sunset": "2026-08-15T20:21",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
@@ -103,9 +105,9 @@
       "uv": 6,
       "sunrise": "2026-08-16T06:45",
       "sunset": "2026-08-16T20:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-12T19:02:11.879108+00:00"
+  "updated_at": "2026-08-12T19:34:05.280166+00:00"
 }

@@ -17,21 +17,23 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 47,
-    "feels_like_f": 40,
+    "feels_like_f": 41,
     "wind_mph": 15,
     "gusts_mph": 15,
-    "rain_pct": 3
+    "rain_pct": 6
   },
   "sunrise": "2026-08-12T05:48",
   "sunset": "2026-08-12T19:36",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -55,12 +57,12 @@
       "date": "2026-08-12",
       "high_f": 51,
       "low_f": 36,
-      "rain_pct": 30,
+      "rain_pct": 32,
       "uv": 7,
       "sunrise": "2026-08-12T05:48",
       "sunset": "2026-08-12T19:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
@@ -70,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-08-13T05:49",
       "sunset": "2026-08-13T19:34",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -81,8 +83,8 @@
       "uv": 7,
       "sunrise": "2026-08-14T05:50",
       "sunset": "2026-08-14T19:33",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:51",
       "sunset": "2026-08-15T19:32",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-16T05:52",
       "sunset": "2026-08-16T19:30",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-12T18:04:40.613905+00:00"
+  "updated_at": "2026-08-12T18:35:38.146304+00:00"
 }

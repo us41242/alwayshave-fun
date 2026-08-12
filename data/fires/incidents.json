@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T21:33:33.293571+00:00",
+  "updated_at": "2026-08-12T22:03:37.258876+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 184,
+  "count": 187,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -78,11 +78,11 @@
     {
       "name": "Mouse Meadow",
       "acres": 52000,
-      "containment_pct": 65,
+      "containment_pct": 80,
       "cause": "Undetermined",
       "lat": 37.26670533856897,
       "lng": -116.15757912775128,
-      "updated": "2026-08-11T21:38:29.077000+00:00",
+      "updated": "2026-08-12T21:36:26.257000+00:00",
       "state": "NV",
       "personnel": 5,
       "discovered": "2026-07-24T01:00:52+00:00"
@@ -154,7 +154,7 @@
       "cause": "Undetermined",
       "lat": 37.41230538509435,
       "lng": -115.71001206259436,
-      "updated": "2026-08-11T20:43:12.250000+00:00",
+      "updated": "2026-08-12T21:24:35.470000+00:00",
       "state": "NV",
       "personnel": 14,
       "discovered": "2026-07-25T15:22:00+00:00"
@@ -424,6 +424,18 @@
       "discovered": "2026-08-01T22:39:08+00:00"
     },
     {
+      "name": "Plains",
+      "acres": 795,
+      "containment_pct": 0,
+      "cause": "Undetermined",
+      "lat": 35.416596894231034,
+      "lng": -120.00146859470647,
+      "updated": "2026-08-12T21:28:56.493000+00:00",
+      "state": "CA",
+      "personnel": 118,
+      "discovered": "2026-08-12T19:35:20+00:00"
+    },
+    {
       "name": "5-3",
       "acres": 744,
       "containment_pct": null,
@@ -494,18 +506,6 @@
       "state": "NM",
       "personnel": 1,
       "discovered": "2026-07-26T19:38:56+00:00"
-    },
-    {
-      "name": "Plains",
-      "acres": 340,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 35.416596894231034,
-      "lng": -120.00146859470647,
-      "updated": "2026-08-12T20:48:21.013000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T19:35:20+00:00"
     },
     {
       "name": "Fishhook",
@@ -832,6 +832,18 @@
       "discovered": "2026-08-06T14:45:07+00:00"
     },
     {
+      "name": "Yuba",
+      "acres": 12,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.27831216669832,
+      "lng": -121.12273820122765,
+      "updated": "2026-08-12T21:58:09.067000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T21:17:19+00:00"
+    },
+    {
       "name": "High Fence",
       "acres": 12,
       "containment_pct": null,
@@ -1028,9 +1040,9 @@
       "acres": 1,
       "containment_pct": null,
       "cause": "Natural",
-      "lat": 35.88068476284357,
-      "lng": -106.652451090342,
-      "updated": "2026-08-12T21:09:58.793000+00:00",
+      "lat": 35.875455761917735,
+      "lng": -106.65514309047433,
+      "updated": "2026-08-12T21:25:32.950000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-12T18:54:31+00:00"
@@ -1228,30 +1240,6 @@
       "discovered": "2026-08-12T01:44:49+00:00"
     },
     {
-      "name": "Boneyard",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 33.87155532362419,
-      "lng": -109.27176048575637,
-      "updated": "2026-08-12T04:12:58.760000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-08T23:19:11+00:00"
-    },
-    {
-      "name": "Wallow",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 33.6070052756821,
-      "lng": -109.45334350357749,
-      "updated": "2026-08-12T03:13:39.283000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-07-25T14:40:44+00:00"
-    },
-    {
       "name": "Logan",
       "acres": 0.1,
       "containment_pct": null,
@@ -1274,6 +1262,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-11T20:51:24+00:00"
+    },
+    {
+      "name": "Wallow",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 33.6070052756821,
+      "lng": -109.45334350357749,
+      "updated": "2026-08-12T03:13:39.283000+00:00",
+      "state": "AZ",
+      "personnel": null,
+      "discovered": "2026-07-25T14:40:44+00:00"
     },
     {
       "name": "Teagle",
@@ -1528,18 +1528,6 @@
       "discovered": "2026-08-10T18:08:59+00:00"
     },
     {
-      "name": "Headly",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.81323388143636,
-      "lng": -117.30779800892715,
-      "updated": "2026-08-12T20:18:03.183000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T20:05:03+00:00"
-    },
-    {
       "name": "Lac-285129",
       "acres": 0.01,
       "containment_pct": null,
@@ -1556,12 +1544,12 @@
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.806121882378385,
-      "lng": -119.18104540650809,
-      "updated": "2026-08-12T20:17:47.617000+00:00",
+      "lat": 34.79624788004217,
+      "lng": -119.20285040920663,
+      "updated": "2026-08-12T21:53:21.387000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T19:20:21+00:00"
+      "discovered": "2026-08-12T19:20:00+00:00"
     },
     {
       "name": "Zelda",
@@ -1648,6 +1636,18 @@
       "discovered": "2026-08-10T01:28:31+00:00"
     },
     {
+      "name": "Creek",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.77515188012658,
+      "lng": -119.16462540109663,
+      "updated": "2026-08-12T21:56:13.853000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T21:55:20+00:00"
+    },
+    {
       "name": "Lac-282016",
       "acres": 0.01,
       "containment_pct": null,
@@ -1732,18 +1732,6 @@
       "discovered": "2026-08-10T10:59:28+00:00"
     },
     {
-      "name": "Lac-281953",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.67551494042669,
-      "lng": -117.96971219340415,
-      "updated": "2026-08-10T02:34:07.420000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-10T02:33:49+00:00"
-    },
-    {
       "name": "Lac-283721",
       "acres": 0.01,
       "containment_pct": null,
@@ -1766,6 +1754,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-12T17:59:35+00:00"
+    },
+    {
+      "name": "Lac-281953",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.67551494042669,
+      "lng": -117.96971219340415,
+      "updated": "2026-08-10T02:34:07.420000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-10T02:33:49+00:00"
     },
     {
       "name": "Lac-283054",
@@ -1972,6 +1972,30 @@
       "discovered": "2026-08-10T01:23:00+00:00"
     },
     {
+      "name": "Mmu August Lightning Complex",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 37.50069509535516,
+      "lng": -119.98656680593245,
+      "updated": "2026-08-12T21:50:14.657000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T17:55:10+00:00"
+    },
+    {
+      "name": "Hagen Flat Rd  Bigbend",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.01428223918957,
+      "lng": -121.90593556495615,
+      "updated": "2026-08-12T22:01:01.100000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T21:56:43+00:00"
+    },
+    {
       "name": "Mtz/Bdc/82N",
       "acres": 0.01,
       "containment_pct": null,
@@ -2066,6 +2090,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-10T08:17:31+00:00"
+    },
+    {
+      "name": "Mutual Aid/Fod",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.283306847610426,
+      "lng": -116.78967887825029,
+      "updated": "2026-08-12T21:26:51.143000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T20:24:33+00:00"
     },
     {
       "name": "Lac-283461",

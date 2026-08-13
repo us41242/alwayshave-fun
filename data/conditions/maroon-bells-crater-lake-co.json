@@ -23,23 +23,23 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 40,
+    "temp_f": 39,
     "feels_like_f": 31,
-    "wind_mph": 13,
-    "gusts_mph": 19,
-    "rain_pct": 20
+    "wind_mph": 12,
+    "gusts_mph": 18,
+    "rain_pct": 21
   },
   "sunrise": "2026-08-13T06:19",
   "sunset": "2026-08-13T20:05",
   "aqi": {
-    "aqi": 31,
+    "aqi": 23,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 224.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cold Mountain",
@@ -57,12 +57,12 @@
       "date": "2026-08-13",
       "high_f": 53,
       "low_f": 39,
-      "rain_pct": 38,
-      "uv": 6,
+      "rain_pct": 30,
+      "uv": 7,
       "sunrise": "2026-08-13T06:19",
       "sunset": "2026-08-13T20:05",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-14",
@@ -78,9 +78,9 @@
     {
       "date": "2026-08-15",
       "high_f": 58,
-      "low_f": 36,
+      "low_f": 37,
       "rain_pct": 55,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-15T06:21",
       "sunset": "2026-08-15T20:03",
       "predicted_score": 70,
@@ -88,8 +88,8 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 59,
-      "low_f": 38,
+      "high_f": 60,
+      "low_f": 37,
       "rain_pct": 30,
       "uv": 7,
       "sunrise": "2026-08-16T06:22",
@@ -99,8 +99,8 @@
     },
     {
       "date": "2026-08-17",
-      "high_f": 58,
-      "low_f": 40,
+      "high_f": 61,
+      "low_f": 38,
       "rain_pct": 23,
       "uv": 6,
       "sunrise": "2026-08-17T06:23",
@@ -109,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T11:40:55.352756+00:00"
+  "updated_at": "2026-08-13T12:14:10.205139+00:00"
 }

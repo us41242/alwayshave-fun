@@ -32,14 +32,14 @@
   "sunrise": "2026-08-13T06:09",
   "sunset": "2026-08-13T19:46",
   "aqi": {
-    "aqi": 6,
+    "aqi": 7,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 122.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock",
@@ -79,7 +79,7 @@
     {
       "date": "2026-08-15",
       "high_f": 48,
-      "low_f": 27,
+      "low_f": 26,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-08-15T06:11",
@@ -89,10 +89,10 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 44,
-      "low_f": 32,
+      "high_f": 48,
+      "low_f": 31,
       "rain_pct": 4,
-      "uv": 5,
+      "uv": 8,
       "sunrise": "2026-08-16T06:11",
       "sunset": "2026-08-16T19:42",
       "predicted_score": 88,
@@ -100,7 +100,7 @@
     },
     {
       "date": "2026-08-17",
-      "high_f": 53,
+      "high_f": 52,
       "low_f": 32,
       "rain_pct": 3,
       "uv": 9,
@@ -110,5 +110,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T11:41:34.303119+00:00"
+  "updated_at": "2026-08-13T12:15:31.469091+00:00"
 }

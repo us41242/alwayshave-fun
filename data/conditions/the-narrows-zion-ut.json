@@ -17,29 +17,27 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 25,
-  "score_label": "Stay home",
-  "gear_flags": [
-    "high water \u2014 do not enter the river; check with rangers"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 65,
-    "feels_like_f": 67,
-    "wind_mph": 3,
-    "gusts_mph": 5,
-    "rain_pct": 36
+    "temp_f": 66,
+    "feels_like_f": 70,
+    "wind_mph": 0,
+    "gusts_mph": 3,
+    "rain_pct": 26
   },
   "sunrise": "2026-08-13T06:46",
   "sunset": "2026-08-13T20:26",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 40,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 158.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
@@ -51,11 +49,7 @@
       "direction": "SW"
     }
   },
-  "river": {
-    "cfs": 305,
-    "stage": "flood",
-    "gauge_id": "09405500"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-08-13",
@@ -65,8 +59,8 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:46",
       "sunset": "2026-08-13T20:26",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-14",
@@ -76,8 +70,8 @@
       "uv": 6,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-15",
@@ -87,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
       "sunset": "2026-08-15T20:23",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
@@ -98,8 +92,8 @@
       "uv": 5,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-17",
@@ -109,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:50",
       "sunset": "2026-08-17T20:21",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T11:32:32.236908+00:00"
+  "updated_at": "2026-08-13T12:03:32.808185+00:00"
 }

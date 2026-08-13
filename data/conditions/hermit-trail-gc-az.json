@@ -17,27 +17,29 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 70,
+    "temp_f": 71,
     "feels_like_f": 69,
-    "wind_mph": 7,
-    "gusts_mph": 9,
+    "wind_mph": 8,
+    "gusts_mph": 10,
     "rain_pct": 2
   },
   "sunrise": "2026-08-13T05:46",
   "sunset": "2026-08-13T19:21",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 205.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Confucius",
@@ -55,23 +57,23 @@
       "date": "2026-08-13",
       "high_f": 81,
       "low_f": 60,
-      "rain_pct": 43,
+      "rain_pct": 41,
       "uv": 7,
       "sunrise": "2026-08-13T05:46",
       "sunset": "2026-08-13T19:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
       "high_f": 64,
       "low_f": 56,
-      "rain_pct": 29,
+      "rain_pct": 35,
       "uv": 7,
       "sunrise": "2026-08-14T05:46",
       "sunset": "2026-08-14T19:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -81,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:47",
       "sunset": "2026-08-15T19:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
@@ -92,8 +94,8 @@
       "uv": 6,
       "sunrise": "2026-08-16T05:48",
       "sunset": "2026-08-16T19:17",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-17",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-17T05:49",
       "sunset": "2026-08-17T19:16",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T16:04:29.364601+00:00"
+  "updated_at": "2026-08-13T16:35:41.759621+00:00"
 }

@@ -20,21 +20,19 @@
   "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
-    "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 57,
-    "wind_mph": 11,
-    "gusts_mph": 21,
-    "rain_pct": 55
+    "temp_f": 64,
+    "feels_like_f": 58,
+    "wind_mph": 10,
+    "gusts_mph": 15,
+    "rain_pct": 38
   },
   "sunrise": "2026-08-12T06:11",
   "sunset": "2026-08-12T20:04",
   "aqi": {
-    "aqi": 96,
+    "aqi": 97,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -43,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 63.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Mt Chauncey",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-12T23:47:35.210000+00:00",
+      "distance_km": 38.9,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -103,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-12T23:41:22.806301+00:00"
+  "updated_at": "2026-08-13T00:07:19.047183+00:00"
 }

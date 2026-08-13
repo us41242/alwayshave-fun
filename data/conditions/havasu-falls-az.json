@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 87,
+    "temp_f": 84,
+    "feels_like_f": 88,
     "wind_mph": 2,
     "gusts_mph": 8,
-    "rain_pct": 13
+    "rain_pct": 11
   },
   "sunrise": "2026-08-12T05:46",
   "sunset": "2026-08-12T19:24",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 98.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Confucius",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:06:33.447000+00:00",
+      "distance_km": 43.8,
+      "direction": "E"
+    }
   },
   "river": null,
   "forecast": [
@@ -50,7 +58,7 @@
       "high_f": 87,
       "low_f": 73,
       "rain_pct": 66,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-12T05:46",
       "sunset": "2026-08-12T19:24",
       "predicted_score": 42,
@@ -61,7 +69,7 @@
       "high_f": 88,
       "low_f": 71,
       "rain_pct": 44,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-08-13T05:47",
       "sunset": "2026-08-13T19:23",
       "predicted_score": 52,
@@ -94,12 +102,12 @@
       "high_f": 96,
       "low_f": 81,
       "rain_pct": 4,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-08-16T05:50",
       "sunset": "2026-08-16T19:20",
       "predicted_score": 42,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-12T23:35:00.542847+00:00"
+  "updated_at": "2026-08-13T00:04:33.582195+00:00"
 }

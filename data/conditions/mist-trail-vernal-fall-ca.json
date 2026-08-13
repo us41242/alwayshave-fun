@@ -25,9 +25,9 @@
   "current": {
     "temp_f": 82,
     "feels_like_f": 77,
-    "wind_mph": 12,
-    "gusts_mph": 17,
-    "rain_pct": 16
+    "wind_mph": 11,
+    "gusts_mph": 15,
+    "rain_pct": 14
   },
   "sunrise": "2026-08-12T06:11",
   "sunset": "2026-08-12T19:54",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 79.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ostrander Rock",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-12T19:01:20.400000+00:00",
+      "distance_km": 5.7,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T23:43:45.127423+00:00"
+  "updated_at": "2026-08-13T00:08:36.477141+00:00"
 }

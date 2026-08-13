@@ -20,14 +20,13 @@
   "score": 74,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 61,
-    "wind_mph": 14,
-    "gusts_mph": 21,
+    "temp_f": 67,
+    "feels_like_f": 60,
+    "wind_mph": 13,
+    "gusts_mph": 20,
     "rain_pct": 10
   },
   "sunrise": "2026-08-12T06:11",
@@ -42,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 36.3,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Dirt",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-12T00:35:05.270000+00:00",
+      "distance_km": 32.0,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -61,7 +68,7 @@
       "date": "2026-08-13",
       "high_f": 66,
       "low_f": 52,
-      "rain_pct": 13,
+      "rain_pct": 14,
       "uv": 7,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:58",
@@ -102,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-12T23:44:26.103001+00:00"
+  "updated_at": "2026-08-13T00:11:02.537055+00:00"
 }

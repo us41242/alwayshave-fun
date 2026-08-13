@@ -17,29 +17,37 @@
   "notes": "No permit required to the lake (only for full Whitney summit); snow patches above 9500 ft until mid-June; dogs legal in Inyo NF section",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 60,
-    "wind_mph": 4,
-    "gusts_mph": 10,
+    "feels_like_f": 61,
+    "wind_mph": 3,
+    "gusts_mph": 5,
     "rain_pct": 20
   },
   "sunrise": "2026-08-12T06:08",
   "sunset": "2026-08-12T19:47",
   "aqi": {
-    "aqi": 28,
+    "aqi": 0,
     "category": "Good",
-    "pollutant": "PM10",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 81.9,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Soda Creek",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-11T23:34:46.110000+00:00",
+      "distance_km": 26.0,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,8 +59,8 @@
       "uv": 6,
       "sunrise": "2026-08-12T06:08",
       "sunset": "2026-08-12T19:47",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
@@ -62,8 +70,8 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:09",
       "sunset": "2026-08-13T19:46",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
@@ -73,8 +81,8 @@
       "uv": 9,
       "sunrise": "2026-08-14T06:09",
       "sunset": "2026-08-14T19:45",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -84,8 +92,8 @@
       "uv": 9,
       "sunrise": "2026-08-15T06:10",
       "sunset": "2026-08-15T19:43",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
@@ -95,9 +103,9 @@
       "uv": 7,
       "sunrise": "2026-08-16T06:11",
       "sunset": "2026-08-16T19:42",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-12T23:43:50.296341+00:00"
+  "updated_at": "2026-08-13T00:11:01.953538+00:00"
 }

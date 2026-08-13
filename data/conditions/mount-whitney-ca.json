@@ -26,8 +26,8 @@
     "temp_f": 37,
     "feels_like_f": 28,
     "wind_mph": 13,
-    "gusts_mph": 16,
-    "rain_pct": 21
+    "gusts_mph": 14,
+    "rain_pct": 19
   },
   "sunrise": "2026-08-12T06:08",
   "sunset": "2026-08-12T19:47",
@@ -41,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 84.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Soda Creek",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-11T23:34:46.110000+00:00",
+      "distance_km": 21.8,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-12T23:43:45.685163+00:00"
+  "updated_at": "2026-08-13T00:08:37.184000+00:00"
 }

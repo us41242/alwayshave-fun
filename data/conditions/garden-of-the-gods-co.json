@@ -21,18 +21,18 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 68,
-    "wind_mph": 2,
-    "gusts_mph": 5,
+    "temp_f": 72,
+    "feels_like_f": 72,
+    "wind_mph": 1,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "sunrise": "2026-08-13T06:11",
   "sunset": "2026-08-13T19:56",
   "aqi": {
-    "aqi": 42,
+    "aqi": 44,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
@@ -40,14 +40,13 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Aspen Acres",
-      "acres": 102004,
-      "containment_pct": 72,
-      "cause": "Human",
-      "updated": "2026-08-12T23:51:44.290000+00:00",
-      "distance_km": 96.6,
-      "direction": "S",
-      "page": "/fires/aspen-acres-fire-co-2026"
+      "name": "Stellie",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-13T14:45:59.213000+00:00",
+      "distance_km": 70.5,
+      "direction": "NW"
     }
   },
   "river": null,
@@ -56,7 +55,7 @@
       "date": "2026-08-13",
       "high_f": 84,
       "low_f": 61,
-      "rain_pct": 49,
+      "rain_pct": 45,
       "uv": 8,
       "sunrise": "2026-08-13T06:11",
       "sunset": "2026-08-13T19:56",
@@ -67,7 +66,7 @@
       "date": "2026-08-14",
       "high_f": 86,
       "low_f": 59,
-      "rain_pct": 88,
+      "rain_pct": 79,
       "uv": 7,
       "sunrise": "2026-08-14T06:12",
       "sunset": "2026-08-14T19:55",
@@ -77,8 +76,8 @@
     {
       "date": "2026-08-15",
       "high_f": 82,
-      "low_f": 64,
-      "rain_pct": 88,
+      "low_f": 61,
+      "rain_pct": 87,
       "uv": 8,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:54",
@@ -89,7 +88,7 @@
       "date": "2026-08-16",
       "high_f": 79,
       "low_f": 64,
-      "rain_pct": 92,
+      "rain_pct": 91,
       "uv": 7,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:52",
@@ -100,7 +99,7 @@
       "date": "2026-08-17",
       "high_f": 83,
       "low_f": 65,
-      "rain_pct": 75,
+      "rain_pct": 78,
       "uv": 7,
       "sunrise": "2026-08-17T06:15",
       "sunset": "2026-08-17T19:51",
@@ -108,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T14:12:26.551718+00:00"
+  "updated_at": "2026-08-13T15:12:06.325322+00:00"
 }

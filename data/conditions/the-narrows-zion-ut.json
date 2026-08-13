@@ -17,22 +17,20 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 25,
-  "score_label": "Stay home",
-  "gear_flags": [
-    "high water \u2014 do not enter the river; check with rangers"
-  ],
+  "score": 100,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 67,
-    "wind_mph": 6,
+    "temp_f": 69,
+    "feels_like_f": 71,
+    "wind_mph": 2,
     "gusts_mph": 7,
-    "rain_pct": 6
+    "rain_pct": 7
   },
   "sunrise": "2026-08-13T06:46",
   "sunset": "2026-08-13T20:26",
   "aqi": {
-    "aqi": 38,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,24 +40,24 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Black Mountain",
-      "acres": 45,
+      "name": "Little Red",
+      "acres": 0.1,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-11T21:11:37.800000+00:00",
-      "distance_km": 79.4,
-      "direction": "SW"
+      "updated": "2026-08-13T14:22:20.177000+00:00",
+      "distance_km": 33.5,
+      "direction": "NW"
     }
   },
   "river": {
-    "cfs": 188,
-    "stage": "flood",
+    "cfs": 115,
+    "stage": "normal",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 80,
+      "high_f": 81,
       "low_f": 64,
       "rain_pct": 41,
       "uv": 7,
@@ -70,8 +68,8 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 73,
-      "low_f": 59,
+      "high_f": 71,
+      "low_f": 61,
       "rain_pct": 32,
       "uv": 7,
       "sunrise": "2026-08-14T06:47",
@@ -82,7 +80,7 @@
     {
       "date": "2026-08-15",
       "high_f": 84,
-      "low_f": 65,
+      "low_f": 62,
       "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
@@ -113,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T14:03:29.188195+00:00"
+  "updated_at": "2026-08-13T15:03:06.900078+00:00"
 }

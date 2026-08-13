@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T01:03:32.152055+00:00",
+  "updated_at": "2026-08-13T01:32:12.312059+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 181,
+  "count": 184,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -70,7 +70,7 @@
       "cause": "Human",
       "lat": 39.72788829033682,
       "lng": -120.03813008708195,
-      "updated": "2026-08-13T00:32:10.627000+00:00",
+      "updated": "2026-08-13T01:12:11.690000+00:00",
       "state": "CA",
       "personnel": 579,
       "discovered": "2026-08-08T22:30:49+00:00"
@@ -118,7 +118,7 @@
       "cause": "Human",
       "lat": 39.822838339427,
       "lng": -119.52518001564738,
-      "updated": "2026-08-13T00:30:35.410000+00:00",
+      "updated": "2026-08-13T01:11:19.117000+00:00",
       "state": "NV",
       "personnel": 200,
       "discovered": "2026-08-10T16:02:23+00:00"
@@ -258,14 +258,26 @@
     {
       "name": "Timber",
       "acres": 3774,
-      "containment_pct": 5,
+      "containment_pct": 7,
       "cause": "Undetermined",
       "lat": 36.215898858987735,
       "lng": -121.71752094030687,
-      "updated": "2026-08-12T18:44:12.487000+00:00",
+      "updated": "2026-08-13T00:52:22.103000+00:00",
       "state": "CA",
-      "personnel": 924,
+      "personnel": 1405,
       "discovered": "2026-08-09T03:35:00+00:00"
+    },
+    {
+      "name": "Mp18",
+      "acres": 3613,
+      "containment_pct": 6,
+      "cause": "Human",
+      "lat": 41.13306069428731,
+      "lng": -123.68501384954533,
+      "updated": "2026-08-13T01:18:26.567000+00:00",
+      "state": "CA",
+      "personnel": 866,
+      "discovered": "2026-08-07T23:45:00+00:00"
     },
     {
       "name": "Black Canyon",
@@ -316,16 +328,16 @@
       "discovered": "2026-08-12T00:55:00+00:00"
     },
     {
-      "name": "Mp18",
-      "acres": 2107,
-      "containment_pct": 10,
-      "cause": "Human",
-      "lat": 41.13306069428731,
-      "lng": -123.68501384954533,
-      "updated": "2026-08-12T00:30:16.650000+00:00",
+      "name": "Plains",
+      "acres": 1800,
+      "containment_pct": 0,
+      "cause": "Undetermined",
+      "lat": 35.416596894231034,
+      "lng": -120.00146859470647,
+      "updated": "2026-08-13T01:05:37.233000+00:00",
       "state": "CA",
-      "personnel": 720,
-      "discovered": "2026-08-07T23:45:00+00:00"
+      "personnel": 118,
+      "discovered": "2026-08-12T19:35:20+00:00"
     },
     {
       "name": "Fuhr Gulch",
@@ -362,18 +374,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-07-25T06:51:57+00:00"
-    },
-    {
-      "name": "Plains",
-      "acres": 1200,
-      "containment_pct": 0,
-      "cause": "Undetermined",
-      "lat": 35.416596894231034,
-      "lng": -120.00146859470647,
-      "updated": "2026-08-12T22:58:35.667000+00:00",
-      "state": "CA",
-      "personnel": 118,
-      "discovered": "2026-08-12T19:35:20+00:00"
     },
     {
       "name": "Ridge",
@@ -676,6 +676,18 @@
       "discovered": "2026-07-28T00:45:14+00:00"
     },
     {
+      "name": "Diamante",
+      "acres": 50,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 36.9754159115458,
+      "lng": -106.81567022699083,
+      "updated": "2026-08-13T01:08:34.440000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-11T21:28:04+00:00"
+    },
+    {
       "name": "Beacon",
       "acres": 50,
       "containment_pct": null,
@@ -760,18 +772,6 @@
       "discovered": "2026-08-12T14:18:04+00:00"
     },
     {
-      "name": "Diamante",
-      "acres": 20,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 36.9754159115458,
-      "lng": -106.81567022699083,
-      "updated": "2026-08-12T22:02:21.513000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-11T21:28:04+00:00"
-    },
-    {
       "name": "Yuba",
       "acres": 19.88,
       "containment_pct": null,
@@ -806,6 +806,18 @@
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-09T21:28:03+00:00"
+    },
+    {
+      "name": "Talbot",
+      "acres": 16,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.17500521541062,
+      "lng": -120.38684607107885,
+      "updated": "2026-08-13T00:54:58.723000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T22:26:00+00:00"
     },
     {
       "name": "Sand Springs",
@@ -1024,6 +1036,18 @@
       "discovered": "2026-08-12T15:03:05+00:00"
     },
     {
+      "name": "Brandywine",
+      "acres": 0.5,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.79624788004217,
+      "lng": -119.20285040920663,
+      "updated": "2026-08-13T00:52:25.983000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T19:20:00+00:00"
+    },
+    {
       "name": "502 Command",
       "acres": 0.25,
       "containment_pct": null,
@@ -1096,18 +1120,6 @@
       "discovered": "2026-08-12T18:59:37+00:00"
     },
     {
-      "name": "Steep",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 38.17067304472771,
-      "lng": -107.33751046261992,
-      "updated": "2026-08-12T23:18:16.210000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-12T21:55:37+00:00"
-    },
-    {
       "name": "Gunsight",
       "acres": 0.1,
       "containment_pct": null,
@@ -1118,6 +1130,18 @@
       "state": "CO",
       "personnel": null,
       "discovered": "2026-08-12T17:35:00+00:00"
+    },
+    {
+      "name": "Steep",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 38.17067304472771,
+      "lng": -107.33751046261992,
+      "updated": "2026-08-12T23:18:16.210000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-12T21:55:37+00:00"
     },
     {
       "name": "Harden",
@@ -1180,30 +1204,6 @@
       "discovered": "2026-08-12T01:44:49+00:00"
     },
     {
-      "name": "Little Bear",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.06368912114427,
-      "lng": -107.96917769922328,
-      "updated": "2026-08-13T00:03:05.413000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-12T22:00:41+00:00"
-    },
-    {
-      "name": "Wallow",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 33.6070052756821,
-      "lng": -109.45334350357749,
-      "updated": "2026-08-12T03:13:39.283000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-07-25T14:40:44+00:00"
-    },
-    {
       "name": "Logan",
       "acres": 0.1,
       "containment_pct": null,
@@ -1226,6 +1226,42 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-11T20:51:24+00:00"
+    },
+    {
+      "name": "Wallow",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 33.6070052756821,
+      "lng": -109.45334350357749,
+      "updated": "2026-08-12T03:13:39.283000+00:00",
+      "state": "AZ",
+      "personnel": null,
+      "discovered": "2026-07-25T14:40:44+00:00"
+    },
+    {
+      "name": "Little Bear",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.06368912114427,
+      "lng": -107.96917769922328,
+      "updated": "2026-08-13T00:03:05.413000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-12T22:00:41+00:00"
+    },
+    {
+      "name": "Coyote Mountain",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.46798656849937,
+      "lng": -106.0909105775985,
+      "updated": "2026-08-13T01:20:05.590000+00:00",
+      "state": "WY",
+      "personnel": null,
+      "discovered": "2026-08-13T00:00:31+00:00"
     },
     {
       "name": "Teagle",
@@ -1252,28 +1288,16 @@
       "discovered": "2026-08-10T21:50:35+00:00"
     },
     {
-      "name": "Grouse",
+      "name": "Lost Creek",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.69483413443002,
-      "lng": -119.69207178006305,
-      "updated": "2026-08-12T17:09:55.460000+00:00",
+      "lat": 34.16522394862205,
+      "lng": -116.83295895507152,
+      "updated": "2026-08-12T00:14:14.080000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T17:06:51+00:00"
-    },
-    {
-      "name": "Dewey",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 37.702338137845,
-      "lng": -119.6541797747395,
-      "updated": "2026-08-12T19:10:30.270000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T19:06:20+00:00"
+      "discovered": "2026-08-12T00:00:46+00:00"
     },
     {
       "name": "Long",
@@ -1288,16 +1312,40 @@
       "discovered": "2026-08-12T15:51:00+00:00"
     },
     {
-      "name": "Lost Creek",
+      "name": "Dewey",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.16522394862205,
-      "lng": -116.83295895507152,
-      "updated": "2026-08-12T00:14:14.080000+00:00",
+      "lat": 37.702338137845,
+      "lng": -119.6541797747395,
+      "updated": "2026-08-12T19:10:30.270000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T00:00:46+00:00"
+      "discovered": "2026-08-12T19:06:20+00:00"
+    },
+    {
+      "name": "Grouse",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 37.69483413443002,
+      "lng": -119.69207178006305,
+      "updated": "2026-08-12T17:09:55.460000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T17:06:51+00:00"
+    },
+    {
+      "name": "Grizzly Ridge",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 39.57370623645034,
+      "lng": -107.27831060683108,
+      "updated": "2026-08-13T01:26:14.143000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-12T22:20:58+00:00"
     },
     {
       "name": "Gypsum",
@@ -1420,6 +1468,18 @@
       "discovered": "2026-08-12T19:49:00+00:00"
     },
     {
+      "name": "San Miguel",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 35.926055753874145,
+      "lng": -106.9200431530336,
+      "updated": "2026-08-13T01:04:54.683000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-13T00:04:11+00:00"
+    },
+    {
       "name": "Engineer Spring",
       "acres": 0.1,
       "containment_pct": null,
@@ -1430,18 +1490,6 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-10T00:14:18+00:00"
-    },
-    {
-      "name": "Talbot",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.17500521541062,
-      "lng": -120.38684607107885,
-      "updated": "2026-08-13T00:47:21.717000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T22:26:00+00:00"
     },
     {
       "name": "North Springs",
@@ -1502,18 +1550,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-12T15:17:13+00:00"
-    },
-    {
-      "name": "Brandywine",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.79624788004217,
-      "lng": -119.20285040920663,
-      "updated": "2026-08-12T21:53:21.387000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T19:20:00+00:00"
     },
     {
       "name": "Zelda",
@@ -1696,18 +1732,6 @@
       "discovered": "2026-08-10T10:59:28+00:00"
     },
     {
-      "name": "Lac-281953",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.67551494042669,
-      "lng": -117.96971219340415,
-      "updated": "2026-08-10T02:34:07.420000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-10T02:33:49+00:00"
-    },
-    {
       "name": "Lac-283721",
       "acres": 0.01,
       "containment_pct": null,
@@ -1730,6 +1754,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-12T17:59:35+00:00"
+    },
+    {
+      "name": "Lac-281953",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.67551494042669,
+      "lng": -117.96971219340415,
+      "updated": "2026-08-10T02:34:07.420000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-10T02:33:49+00:00"
     },
     {
       "name": "Lac-283054",
@@ -1900,16 +1936,16 @@
       "discovered": "2026-08-09T23:47:45+00:00"
     },
     {
-      "name": "Lac-284375",
+      "name": "Mmu August Lightning Complex",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.98664485227517,
-      "lng": -118.18106217134363,
-      "updated": "2026-08-11T23:20:59.960000+00:00",
+      "lat": 37.50069509535516,
+      "lng": -119.98656680593245,
+      "updated": "2026-08-12T21:50:14.657000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-11T23:20:43+00:00"
+      "discovered": "2026-08-12T17:55:10+00:00"
     },
     {
       "name": "Lac-284571",
@@ -1936,16 +1972,16 @@
       "discovered": "2026-08-10T01:23:00+00:00"
     },
     {
-      "name": "Mmu August Lightning Complex",
+      "name": "Lac-284375",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.50069509535516,
-      "lng": -119.98656680593245,
-      "updated": "2026-08-12T21:50:14.657000+00:00",
+      "lat": 33.98664485227517,
+      "lng": -118.18106217134363,
+      "updated": "2026-08-11T23:20:59.960000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T17:55:10+00:00"
+      "discovered": "2026-08-11T23:20:43+00:00"
     },
     {
       "name": "Mtz/Bdc/82N",

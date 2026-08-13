@@ -17,10 +17,9 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -30,17 +29,17 @@
     "gusts_mph": 35,
     "rain_pct": 18
   },
-  "sunrise": "2026-08-12T06:10",
-  "sunset": "2026-08-12T19:58",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 84,
+    "aqi": 90,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 85.8,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Aspen Acres",
@@ -49,66 +48,11 @@
       "cause": "Human",
       "updated": "2026-08-12T23:51:44.290000+00:00",
       "distance_km": 96.6,
-      "direction": "S"
+      "direction": "S",
+      "page": "/fires/aspen-acres-fire-co-2026"
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-12",
-      "high_f": 91,
-      "low_f": 65,
-      "rain_pct": 24,
-      "uv": 8,
-      "sunrise": "2026-08-12T06:10",
-      "sunset": "2026-08-12T19:58",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-13",
-      "high_f": 83,
-      "low_f": 63,
-      "rain_pct": 52,
-      "uv": 8,
-      "sunrise": "2026-08-13T06:11",
-      "sunset": "2026-08-13T19:56",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-14",
-      "high_f": 86,
-      "low_f": 59,
-      "rain_pct": 88,
-      "uv": 7,
-      "sunrise": "2026-08-14T06:12",
-      "sunset": "2026-08-14T19:55",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-15",
-      "high_f": 81,
-      "low_f": 65,
-      "rain_pct": 87,
-      "uv": 7,
-      "sunrise": "2026-08-15T06:13",
-      "sunset": "2026-08-15T19:54",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-16",
-      "high_f": 78,
-      "low_f": 63,
-      "rain_pct": 89,
-      "uv": 8,
-      "sunrise": "2026-08-16T06:14",
-      "sunset": "2026-08-16T19:52",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-08-13T04:11:49.983889+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-13T04:49:02.828086+00:00"
 }

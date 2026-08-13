@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 61,
-    "feels_like_f": 60,
-    "wind_mph": 1,
-    "gusts_mph": 1,
-    "rain_pct": 3
+    "temp_f": 60,
+    "feels_like_f": 59,
+    "wind_mph": 2,
+    "gusts_mph": 2,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-12T06:10",
   "sunset": "2026-08-12T19:49",
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 116.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Rock",
@@ -48,7 +48,8 @@
       "cause": "Undetermined",
       "updated": "2026-08-06T01:03:48.163000+00:00",
       "distance_km": 55.8,
-      "direction": "NE"
+      "direction": "NE",
+      "page": "/fires/rock-fire-ca-2026"
     }
   },
   "river": null,
@@ -109,5 +110,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T04:18:31.135373+00:00"
+  "updated_at": "2026-08-13T04:55:09.224391+00:00"
 }

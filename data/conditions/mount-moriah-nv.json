@@ -17,30 +17,30 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "insulation layer required",
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 38,
-    "wind_mph": 10,
-    "gusts_mph": 14,
-    "rain_pct": 68
+    "temp_f": 43,
+    "feels_like_f": 36,
+    "wind_mph": 13,
+    "gusts_mph": 18,
+    "rain_pct": 48
   },
   "sunrise": "2026-08-12T05:47",
   "sunset": "2026-08-12T19:36",
   "aqi": {
-    "aqi": 42,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 124.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
@@ -49,7 +49,8 @@
       "cause": "Natural",
       "updated": "2026-08-12T22:34:51.053000+00:00",
       "distance_km": 63.7,
-      "direction": "WSW"
+      "direction": "WSW",
+      "page": "/fires/ward-fire-nv-2026"
     }
   },
   "river": null,
@@ -57,7 +58,7 @@
     {
       "date": "2026-08-12",
       "high_f": 56,
-      "low_f": 44,
+      "low_f": 43,
       "rain_pct": 68,
       "uv": 6,
       "sunrise": "2026-08-12T05:47",
@@ -67,7 +68,7 @@
     },
     {
       "date": "2026-08-13",
-      "high_f": 53,
+      "high_f": 54,
       "low_f": 35,
       "rain_pct": 38,
       "uv": 7,
@@ -110,5 +111,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T04:11:44.719285+00:00"
+  "updated_at": "2026-08-13T04:45:04.705406+00:00"
 }

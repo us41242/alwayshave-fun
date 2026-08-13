@@ -17,39 +17,95 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 69,
-    "wind_mph": 1,
-    "gusts_mph": 11,
-    "rain_pct": 10
+    "temp_f": 69,
+    "feels_like_f": 72,
+    "wind_mph": 5,
+    "gusts_mph": 12,
+    "rain_pct": 11
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-13T05:51",
+  "sunset": "2026-08-13T19:33",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 34,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 188.0,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Barns Canyon Rd Area",
+      "name": "Barns Canyon",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-13T16:29:57.450000+00:00",
+      "updated": "2026-08-13T16:33:56.367000+00:00",
       "distance_km": 31.2,
       "direction": "S"
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-13T16:35:37.065167+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-13",
+      "high_f": 80,
+      "low_f": 60,
+      "rain_pct": 58,
+      "uv": 7,
+      "sunrise": "2026-08-13T05:51",
+      "sunset": "2026-08-13T19:33",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-14",
+      "high_f": 76,
+      "low_f": 60,
+      "rain_pct": 25,
+      "uv": 8,
+      "sunrise": "2026-08-14T05:52",
+      "sunset": "2026-08-14T19:31",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-15",
+      "high_f": 86,
+      "low_f": 61,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-08-15T05:53",
+      "sunset": "2026-08-15T19:30",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-16",
+      "high_f": 87,
+      "low_f": 70,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-08-16T05:54",
+      "sunset": "2026-08-16T19:29",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-17",
+      "high_f": 91,
+      "low_f": 72,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-17T05:55",
+      "sunset": "2026-08-17T19:28",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-08-13T17:04:33.077395+00:00"
 }

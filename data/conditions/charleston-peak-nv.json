@@ -17,21 +17,21 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 80,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
     "temp_f": 41,
-    "feels_like_f": 30,
-    "wind_mph": 18,
-    "gusts_mph": 28,
-    "rain_pct": 14
+    "feels_like_f": 32,
+    "wind_mph": 15,
+    "gusts_mph": 25,
+    "rain_pct": 7
   },
-  "sunrise": "2026-08-12T05:58",
-  "sunset": "2026-08-12T19:36",
+  "sunrise": "2026-08-13T05:59",
+  "sunset": "2026-08-13T19:35",
   "aqi": {
     "aqi": 25,
     "category": "Good",
@@ -39,8 +39,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 70.8,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "North Springs",
@@ -55,17 +55,6 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-12",
-      "high_f": 56,
-      "low_f": 41,
-      "rain_pct": 60,
-      "uv": 6,
-      "sunrise": "2026-08-12T05:58",
-      "sunset": "2026-08-12T19:36",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
       "date": "2026-08-13",
       "high_f": 52,
       "low_f": 40,
@@ -73,8 +62,8 @@
       "uv": 7,
       "sunrise": "2026-08-13T05:59",
       "sunset": "2026-08-13T19:35",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-14",
@@ -84,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:00",
       "sunset": "2026-08-14T19:34",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -95,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:01",
       "sunset": "2026-08-15T19:33",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
@@ -106,9 +95,20 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:01",
       "sunset": "2026-08-16T19:31",
-      "predicted_score": 100,
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-17",
+      "high_f": 64,
+      "low_f": 46,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-17T06:02",
+      "sunset": "2026-08-17T19:30",
+      "predicted_score": 92,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T06:33:47.008706+00:00"
+  "updated_at": "2026-08-13T07:02:59.934034+00:00"
 }

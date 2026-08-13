@@ -17,17 +17,18 @@
   "notes": "Wilderness day permit required Jun 15\u2013Sep 30 (Recreation.gov); steep scramble on lower section; dogs allowed on leash",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 67,
-    "feels_like_f": 61,
-    "wind_mph": 17,
-    "gusts_mph": 27,
+    "temp_f": 66,
+    "feels_like_f": 60,
+    "wind_mph": 18,
+    "gusts_mph": 28,
     "rain_pct": 9
   },
   "sunrise": "2026-08-13T06:12",
@@ -39,9 +40,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 33.2,
+    "fire_count_50km": 27,
     "nearest_incident": {
       "name": "Dirt",
       "acres": 0.1,
@@ -62,8 +63,8 @@
       "uv": 6,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:58",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
@@ -73,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:56",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-15",
@@ -84,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:14",
       "sunset": "2026-08-15T19:55",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
@@ -95,8 +96,8 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:15",
       "sunset": "2026-08-16T19:54",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-17",
@@ -106,9 +107,9 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:16",
       "sunset": "2026-08-17T19:52",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T21:14:38.730850+00:00"
+  "updated_at": "2026-08-13T21:45:15.048562+00:00"
 }

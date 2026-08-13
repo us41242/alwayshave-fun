@@ -19,25 +19,27 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 67,
-    "feels_like_f": 65,
-    "wind_mph": 8,
-    "gusts_mph": 12,
-    "rain_pct": 20
+    "temp_f": 66,
+    "feels_like_f": 60,
+    "wind_mph": 19,
+    "gusts_mph": 25,
+    "rain_pct": 23
   },
   "sunrise": "2026-08-13T06:46",
   "sunset": "2026-08-13T20:26",
   "aqi": {
-    "aqi": 47,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 143.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
@@ -49,11 +51,15 @@
       "direction": "SW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 43,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 69,
+      "high_f": 68,
       "low_f": 58,
       "rain_pct": 53,
       "uv": 7,
@@ -65,8 +71,8 @@
     {
       "date": "2026-08-14",
       "high_f": 67,
-      "low_f": 55,
-      "rain_pct": 40,
+      "low_f": 54,
+      "rain_pct": 43,
       "uv": 6,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
@@ -77,7 +83,7 @@
       "date": "2026-08-15",
       "high_f": 78,
       "low_f": 55,
-      "rain_pct": 12,
+      "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
       "sunset": "2026-08-15T20:24",
@@ -99,7 +105,7 @@
       "date": "2026-08-17",
       "high_f": 82,
       "low_f": 64,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-17T06:49",
       "sunset": "2026-08-17T20:21",
@@ -107,5 +113,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T21:05:32.149501+00:00"
+  "updated_at": "2026-08-13T21:37:01.280535+00:00"
 }

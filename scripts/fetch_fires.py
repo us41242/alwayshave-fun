@@ -167,8 +167,17 @@ def nearest_incident(incidents, trail_lat, trail_lng, max_km=100):
         - math.sin(math.radians(trail_lat)) * math.cos(math.radians(best["lat"]))
         * math.cos(math.radians(best["lng"] - trail_lng))))
     direction = COMPASS[round(bearing % 360 / 22.5) % 16]
-    return {**{k: best[k] for k in ("name", "acres", "containment_pct", "cause", "updated")},
-            "distance_km": round(best_d, 1), "direction": direction}
+    out = {**{k: best[k] for k in ("name", "acres", "containment_pct", "cause", "updated")},
+           "distance_km": round(best_d, 1), "direction": direction}
+    # Link the incident's own /fires/{slug} page when one exists (archive holds
+    # every fire that ever cleared build_fires.PAGE_MIN_ACRES). The archive is
+    # written by build_fires.py, which runs after this script — so a brand-new
+    # big fire gets its trail links one 30-min cycle after its page appears.
+    from build_fires import incident_slug, load_archive
+    slug = incident_slug(best)
+    if slug in load_archive():
+        out["page"] = f"/fires/{slug}"
+    return out
 
 
 def haversine_km(lat1, lng1, lat2, lng2):

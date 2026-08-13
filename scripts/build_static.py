@@ -404,7 +404,8 @@ def inject_body(html, d, m, siblings):
         mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
         idate = f', {mon[int(inc["updated"][5:7]) - 1]} {int(inc["updated"][8:10])}' if inc.get("updated") else ''
         # dot-gray: informational — the FIRMS risk line above is the risk signal
-        items.append(f'<li class="status-item"><span class="dot dot-gray"></span><span>Nearest fire: {esc(nm)} — {esc(", ".join(parts))} (NIFC{idate})</span> <a class="fires-link" href="/fires">All active fires →</a></li>')
+        nm_html = f'<a class="fires-link" href="{esc(inc["page"])}">{esc(nm)}</a>' if inc.get("page") else esc(nm)
+        items.append(f'<li class="status-item"><span class="dot dot-gray"></span><span>Nearest fire: {nm_html} — {esc(", ".join(parts))} (NIFC{idate})</span> <a class="fires-link" href="/fires">All active fires →</a></li>')
     river = d.get("river") or {}
     if river.get("cfs") is not None:
         rstage = (river.get("stage") or "").lower()

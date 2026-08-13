@@ -20,7 +20,8 @@ FIXTURE = {
     "fire": {"risk_level": "high", "nearest_fire_km": 8.0, "fire_count_50km": 4,
              "nearest_incident": {"name": "Selfcheck", "acres": 1234.0, "containment_pct": 15,
                                   "cause": "Lightning", "distance_km": 11.3, "direction": "WSW",
-                                  "updated": "2026-07-26T23:04:00+00:00"}},
+                                  "updated": "2026-07-26T23:04:00+00:00",
+                                  "page": "/fires/selfcheck-fire-ut-2026"}},
     "river": {"cfs": 8590, "stage": "flood", "gauge_id": "09405500"},
     "forecast": [], "gear_flags": [], "updated_at": "2026-07-26T04:00:00+00:00",
 }
@@ -78,7 +79,8 @@ def main():
     assert "Fire Risk: Low" not in block, f"hardcoded 'Fire Risk: Low' is back:\n{block}"
     assert "dot-red" in block, f"high fire risk must not render a green/yellow dot:\n{block}"
     assert "8,590 cfs" in block and "FLOOD" in block, f"water level missing:\n{block}"
-    want = "Nearest fire: Selfcheck Fire — 1,234 acres, 15% contained, 7 mi WSW, lightning (NIFC, Jul 26)"
+    want = ('Nearest fire: <a class="fires-link" href="/fires/selfcheck-fire-ut-2026">Selfcheck Fire</a>'
+            " — 1,234 acres, 15% contained, 7 mi WSW, lightning (NIFC, Jul 26)")
     assert want in block, f"named incident line wrong or missing (want {want!r}):\n{block}"
     assert 'href="/fires"' in block, f"fire line must link to /fires:\n{block}"
 

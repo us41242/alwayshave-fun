@@ -911,7 +911,8 @@
         const mon = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
         const idate = inc.updated ? `, ${mon[+inc.updated.slice(5, 7) - 1]} ${+inc.updated.slice(8, 10)}` : '';
         // dot-gray: informational — the FIRMS risk line above is the risk signal
-        items.push({ dot: 'dot-gray', text: `Nearest fire: ${nm} — ${parts.join(', ')} (NIFC${idate})`, after: ' <a class="fires-link" href="/fires">All active fires →</a>' });
+        const nmHtml = inc.page ? `<a class="fires-link" href="${inc.page}">${nm}</a>` : nm;
+        items.push({ dot: 'dot-gray', text: `Nearest fire: ${nmHtml} — ${parts.join(', ')} (NIFC${idate})`, after: ' <a class="fires-link" href="/fires">All active fires →</a>' });
       }
       if (d.river && d.river.cfs != null) {
         const rstage = (d.river.stage || '').toLowerCase();

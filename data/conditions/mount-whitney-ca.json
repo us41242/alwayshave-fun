@@ -17,32 +17,39 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 32,
-    "feels_like_f": 24,
-    "wind_mph": 10,
-    "gusts_mph": 14,
-    "rain_pct": 5
+    "temp_f": 31,
+    "feels_like_f": 25,
+    "wind_mph": 6,
+    "gusts_mph": 11,
+    "rain_pct": 4
   },
   "sunrise": "2026-08-12T06:08",
   "sunset": "2026-08-12T19:47",
   "aqi": {
-    "aqi": 66,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 12,
+    "category": "Good",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 84.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-08-06T01:03:48.163000+00:00",
+      "distance_km": 37.9,
+      "direction": "N"
+    }
   },
   "river": null,
   "forecast": [
@@ -54,7 +61,7 @@
       "uv": 6,
       "sunrise": "2026-08-12T06:08",
       "sunset": "2026-08-12T19:47",
-      "predicted_score": 52,
+      "predicted_score": 62,
       "score_label": "Use caution"
     },
     {
@@ -65,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:09",
       "sunset": "2026-08-13T19:46",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -76,7 +83,7 @@
       "uv": 9,
       "sunrise": "2026-08-14T06:10",
       "sunset": "2026-08-14T19:45",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -87,7 +94,7 @@
       "uv": 9,
       "sunrise": "2026-08-15T06:11",
       "sunset": "2026-08-15T19:44",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -98,9 +105,9 @@
       "uv": 4,
       "sunrise": "2026-08-16T06:11",
       "sunset": "2026-08-16T19:42",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T03:29:20.412852+00:00"
+  "updated_at": "2026-08-13T03:50:11.768755+00:00"
 }

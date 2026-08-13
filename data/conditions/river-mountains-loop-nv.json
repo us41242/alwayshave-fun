@@ -17,45 +17,54 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 44,
-  "score_label": "Conditions poor",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 82,
-    "feels_like_f": 77,
-    "wind_mph": 23,
-    "gusts_mph": 35,
-    "rain_pct": 9
+    "feels_like_f": 78,
+    "wind_mph": 17,
+    "gusts_mph": 22,
+    "rain_pct": 11
   },
   "sunrise": "2026-08-12T05:56",
   "sunset": "2026-08-12T19:33",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "elevated",
     "nearest_fire_km": 35.0,
     "fire_count_50km": 2,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "North Springs",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-11T17:14:30.490000+00:00",
+      "distance_km": 96.2,
+      "direction": "WNW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
       "high_f": 96,
-      "low_f": 80,
+      "low_f": 79,
       "rain_pct": 28,
       "uv": 8,
       "sunrise": "2026-08-12T05:56",
       "sunset": "2026-08-12T19:33",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-13",
@@ -65,8 +74,8 @@
       "uv": 6,
       "sunrise": "2026-08-13T05:56",
       "sunset": "2026-08-13T19:32",
-      "predicted_score": 26,
-      "score_label": "Stay home"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-14",
@@ -76,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T05:57",
       "sunset": "2026-08-14T19:30",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-15",
@@ -87,8 +96,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:58",
       "sunset": "2026-08-15T19:29",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-16",
@@ -98,9 +107,9 @@
       "uv": 6,
       "sunrise": "2026-08-16T05:59",
       "sunset": "2026-08-16T19:28",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-13T03:17:43.352875+00:00"
+  "updated_at": "2026-08-13T03:45:29.626453+00:00"
 }

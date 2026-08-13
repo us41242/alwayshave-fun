@@ -21,11 +21,11 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 76,
-    "wind_mph": 3,
-    "gusts_mph": 7,
-    "rain_pct": 29
+    "temp_f": 73,
+    "feels_like_f": 72,
+    "wind_mph": 4,
+    "gusts_mph": 6,
+    "rain_pct": 23
   },
   "sunrise": "2026-08-12T06:45",
   "sunset": "2026-08-12T20:27",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 158.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Black Mountain",
+      "acres": 45,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-11T21:11:37.800000+00:00",
+      "distance_km": 79.4,
+      "direction": "SW"
+    }
   },
   "river": {
     "cfs": 29,
@@ -103,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T03:03:57.477136+00:00"
+  "updated_at": "2026-08-13T03:36:27.969085+00:00"
 }

@@ -17,26 +17,27 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 26,
-  "score_label": "Stay home",
+  "score": 46,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 81,
+    "temp_f": 85,
+    "feels_like_f": 80,
     "wind_mph": 23,
-    "gusts_mph": 34,
-    "rain_pct": 10
+    "gusts_mph": 36,
+    "rain_pct": 15
   },
   "sunrise": "2026-08-12T05:55",
   "sunset": "2026-08-12T19:32",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "elevated",
@@ -49,24 +50,24 @@
     {
       "date": "2026-08-12",
       "high_f": 103,
-      "low_f": 83,
+      "low_f": 80,
       "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-08-12T05:55",
       "sunset": "2026-08-12T19:32",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-13",
       "high_f": 97,
-      "low_f": 78,
+      "low_f": 77,
       "rain_pct": 18,
       "uv": 7,
       "sunrise": "2026-08-13T05:56",
       "sunset": "2026-08-13T19:31",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-14",
@@ -76,8 +77,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T05:56",
       "sunset": "2026-08-14T19:30",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-15",
@@ -87,8 +88,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:57",
       "sunset": "2026-08-15T19:28",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-16",
@@ -98,9 +99,9 @@
       "uv": 6,
       "sunrise": "2026-08-16T05:58",
       "sunset": "2026-08-16T19:27",
-      "predicted_score": 16,
-      "score_label": "Stay home"
+      "predicted_score": 36,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-13T03:18:14.789073+00:00"
+  "updated_at": "2026-08-13T03:46:17.895687+00:00"
 }

@@ -17,17 +17,17 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 81,
-    "feels_like_f": 76,
-    "wind_mph": 12,
-    "gusts_mph": 17,
-    "rain_pct": 16
+    "temp_f": 80,
+    "feels_like_f": 75,
+    "wind_mph": 11,
+    "gusts_mph": 16,
+    "rain_pct": 17
   },
   "sunrise": "2026-08-12T06:11",
   "sunset": "2026-08-12T19:54",
@@ -38,10 +38,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 79.4,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ostrander Rock",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-12T19:01:20.400000+00:00",
+      "distance_km": 5.7,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:54",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -64,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:53",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -75,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:52",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -86,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:14",
       "sunset": "2026-08-15T19:51",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -97,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:15",
       "sunset": "2026-08-16T19:49",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T00:43:31.172301+00:00"
+  "updated_at": "2026-08-13T01:14:55.820292+00:00"
 }

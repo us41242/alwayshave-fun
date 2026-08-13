@@ -17,15 +17,15 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 45,
-    "wind_mph": 5,
-    "gusts_mph": 18,
-    "rain_pct": 14
+    "temp_f": 52,
+    "feels_like_f": 47,
+    "wind_mph": 6,
+    "gusts_mph": 17,
+    "rain_pct": 12
   },
   "sunrise": "2026-08-12T06:24",
   "sunset": "2026-08-12T20:07",
@@ -36,10 +36,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 51.7,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Gold Mountain",
+      "acres": 39674,
+      "containment_pct": 87,
+      "cause": "Undetermined",
+      "updated": "2026-08-13T00:04:31.157000+00:00",
+      "distance_km": 32.6,
+      "direction": "NNE"
+    }
   },
   "river": null,
   "forecast": [
@@ -51,8 +59,8 @@
       "uv": 7,
       "sunrise": "2026-08-12T06:24",
       "sunset": "2026-08-12T20:07",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-13",
@@ -62,8 +70,8 @@
       "uv": 7,
       "sunrise": "2026-08-13T06:25",
       "sunset": "2026-08-13T20:06",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-14",
@@ -73,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:26",
       "sunset": "2026-08-14T20:05",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +92,7 @@
       "uv": 7,
       "sunrise": "2026-08-15T06:26",
       "sunset": "2026-08-15T20:04",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +103,9 @@
       "uv": 7,
       "sunrise": "2026-08-16T06:27",
       "sunset": "2026-08-16T20:02",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T00:42:53.623385+00:00"
+  "updated_at": "2026-08-13T01:14:54.345950+00:00"
 }

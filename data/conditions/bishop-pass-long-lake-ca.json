@@ -21,25 +21,33 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 56,
+    "temp_f": 55,
     "feels_like_f": 50,
-    "wind_mph": 11,
+    "wind_mph": 10,
     "gusts_mph": 15,
-    "rain_pct": 16
+    "rain_pct": 13
   },
   "sunrise": "2026-08-12T06:08",
   "sunset": "2026-08-12T19:49",
   "aqi": {
-    "aqi": 44,
+    "aqi": 40,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 151.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wheeler",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-12T20:38:43.137000+00:00",
+      "distance_km": 29.9,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T00:46:38.033703+00:00"
+  "updated_at": "2026-08-13T01:17:26.044962+00:00"
 }

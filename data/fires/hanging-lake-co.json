@@ -1,12 +1,20 @@
 {
   "slug": "hanging-lake-co",
   "name": "Hanging Lake",
-  "updated_at": "2026-08-13T00:32:26.502040+00:00",
-  "risk_level": "moderate",
-  "score_pts": 12,
-  "nearest_fire_km": 76.8,
+  "updated_at": "2026-08-13T01:03:32.162645+00:00",
+  "risk_level": "low",
+  "score_pts": 20,
+  "nearest_fire_km": null,
   "fire_count_20km": 0,
   "fire_count_50km": 0,
-  "fire_count_100km": 2,
-  "nearest_incident": null
+  "fire_count_100km": 0,
+  "nearest_incident": {
+    "name": "Trail Gulch",
+    "acres": 1,
+    "containment_pct": null,
+    "cause": "Natural",
+    "updated": "2026-08-12T02:04:20.123000+00:00",
+    "distance_km": 20.2,
+    "direction": "ENE"
+  }
 }

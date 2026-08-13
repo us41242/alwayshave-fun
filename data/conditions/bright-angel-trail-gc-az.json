@@ -20,13 +20,14 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 66,
-    "wind_mph": 10,
-    "gusts_mph": 15,
+    "temp_f": 63,
+    "feels_like_f": 57,
+    "wind_mph": 17,
+    "gusts_mph": 23,
     "rain_pct": 11
   },
   "sunrise": "2026-08-12T05:44",
@@ -39,9 +40,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 121.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Confucius",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-10T21:06:33.447000+00:00",
+      "distance_km": 16.2,
+      "direction": "NNW"
+    }
   },
   "river": {
     "cfs": 9120,
@@ -63,7 +72,7 @@
     {
       "date": "2026-08-13",
       "high_f": 72,
-      "low_f": 56,
+      "low_f": 54,
       "rain_pct": 32,
       "uv": 7,
       "sunrise": "2026-08-13T05:45",
@@ -105,5 +114,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T00:36:28.876041+00:00"
+  "updated_at": "2026-08-13T01:07:12.591003+00:00"
 }

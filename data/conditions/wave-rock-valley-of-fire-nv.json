@@ -17,45 +17,52 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 74,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
-    "N95 mask recommended for wildfire smoke"
+    "wind layer recommended"
   ],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 77,
-    "wind_mph": 15,
-    "gusts_mph": 24,
-    "rain_pct": 23
+    "temp_f": 84,
+    "feels_like_f": 82,
+    "wind_mph": 13,
+    "gusts_mph": 22,
+    "rain_pct": 14
   },
   "sunrise": "2026-08-12T05:53",
   "sunset": "2026-08-12T19:32",
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 36.5,
-    "fire_count_50km": 2,
-    "nearest_incident": null
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
+    "nearest_incident": {
+      "name": "Black Mountain",
+      "acres": 45,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-11T21:11:37.800000+00:00",
+      "distance_km": 89.7,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-12",
       "high_f": 97,
-      "low_f": 77,
+      "low_f": 78,
       "rain_pct": 40,
       "uv": 8,
       "sunrise": "2026-08-12T05:53",
       "sunset": "2026-08-12T19:32",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-13",
@@ -65,8 +72,8 @@
       "uv": 7,
       "sunrise": "2026-08-13T05:54",
       "sunset": "2026-08-13T19:31",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
@@ -76,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T05:55",
       "sunset": "2026-08-14T19:30",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -87,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:56",
       "sunset": "2026-08-15T19:28",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
@@ -98,9 +105,9 @@
       "uv": 5,
       "sunrise": "2026-08-16T05:56",
       "sunset": "2026-08-16T19:27",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T00:34:53.043932+00:00"
+  "updated_at": "2026-08-13T01:03:38.947812+00:00"
 }

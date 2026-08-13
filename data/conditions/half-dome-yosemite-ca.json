@@ -17,17 +17,17 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 63,
+    "temp_f": 62,
     "feels_like_f": 56,
-    "wind_mph": 13,
-    "gusts_mph": 17,
-    "rain_pct": 17
+    "wind_mph": 12,
+    "gusts_mph": 15,
+    "rain_pct": 18
   },
   "sunrise": "2026-08-12T06:11",
   "sunset": "2026-08-12T19:54",
@@ -38,10 +38,18 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 78.2,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ostrander Rock",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-12T19:01:20.400000+00:00",
+      "distance_km": 8.6,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -53,7 +61,7 @@
       "uv": 7,
       "sunrise": "2026-08-12T06:11",
       "sunset": "2026-08-12T19:54",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -64,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:53",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -75,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:52",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-15",
@@ -86,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:50",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
@@ -97,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:49",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T00:43:30.041426+00:00"
+  "updated_at": "2026-08-13T01:14:55.007042+00:00"
 }

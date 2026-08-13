@@ -17,29 +17,29 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 55,
-  "score_label": "Use caution",
+  "score": 25,
+  "score_label": "Stay home",
   "gear_flags": [
-    "elevated water level \u2014 check with rangers before crossing"
+    "high water \u2014 do not enter the river; check with rangers"
   ],
   "current": {
     "temp_f": 65,
     "feels_like_f": 65,
     "wind_mph": 6,
     "gusts_mph": 7,
-    "rain_pct": 16
+    "rain_pct": 11
   },
   "sunrise": "2026-08-13T06:46",
   "sunset": "2026-08-13T20:26",
   "aqi": {
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 158.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
@@ -52,15 +52,15 @@
     }
   },
   "river": {
-    "cfs": 120,
-    "stage": "high",
+    "cfs": 163,
+    "stage": "flood",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 83,
-      "low_f": 65,
+      "high_f": 80,
+      "low_f": 64,
       "rain_pct": 41,
       "uv": 7,
       "sunrise": "2026-08-13T06:46",
@@ -113,5 +113,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T13:01:56.954413+00:00"
+  "updated_at": "2026-08-13T13:33:26.614969+00:00"
 }

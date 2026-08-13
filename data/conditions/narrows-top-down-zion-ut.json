@@ -17,29 +17,29 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 55,
-  "score_label": "Use caution",
+  "score": 25,
+  "score_label": "Stay home",
   "gear_flags": [
-    "elevated water level \u2014 check with rangers before crossing"
+    "high water \u2014 do not enter the river; check with rangers"
   ],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 57,
-    "wind_mph": 3,
+    "temp_f": 59,
+    "feels_like_f": 59,
+    "wind_mph": 2,
     "gusts_mph": 3,
-    "rain_pct": 17
+    "rain_pct": 12
   },
   "sunrise": "2026-08-13T06:46",
   "sunset": "2026-08-13T20:26",
   "aqi": {
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 142.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
@@ -52,14 +52,14 @@
     }
   },
   "river": {
-    "cfs": 120,
-    "stage": "high",
+    "cfs": 163,
+    "stage": "flood",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 73,
+      "high_f": 71,
       "low_f": 58,
       "rain_pct": 53,
       "uv": 7,
@@ -113,5 +113,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T13:04:12.958947+00:00"
+  "updated_at": "2026-08-13T13:35:42.610521+00:00"
 }

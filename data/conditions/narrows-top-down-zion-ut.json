@@ -21,23 +21,23 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 61,
+    "temp_f": 62,
     "feels_like_f": 62,
     "wind_mph": 2,
-    "gusts_mph": 5,
-    "rain_pct": 6
+    "gusts_mph": 9,
+    "rain_pct": 5
   },
   "sunrise": "2026-08-13T06:46",
   "sunset": "2026-08-13T20:26",
   "aqi": {
-    "aqi": 37,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 142.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Little Red",
@@ -50,14 +50,14 @@
     }
   },
   "river": {
-    "cfs": 115,
+    "cfs": 101,
     "stage": "normal",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 71,
+      "high_f": 74,
       "low_f": 58,
       "rain_pct": 53,
       "uv": 7,
@@ -70,7 +70,7 @@
       "date": "2026-08-14",
       "high_f": 64,
       "low_f": 55,
-      "rain_pct": 33,
+      "rain_pct": 35,
       "uv": 7,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
@@ -81,18 +81,18 @@
       "date": "2026-08-15",
       "high_f": 77,
       "low_f": 56,
-      "rain_pct": 23,
+      "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
       "sunset": "2026-08-15T20:24",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
       "high_f": 79,
       "low_f": 62,
-      "rain_pct": 5,
+      "rain_pct": 6,
       "uv": 7,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
@@ -103,7 +103,7 @@
       "date": "2026-08-17",
       "high_f": 83,
       "low_f": 65,
-      "rain_pct": 1,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-17T06:49",
       "sunset": "2026-08-17T20:21",
@@ -111,5 +111,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T15:07:30.254328+00:00"
+  "updated_at": "2026-08-13T15:37:57.846307+00:00"
 }

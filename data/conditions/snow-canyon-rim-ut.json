@@ -17,27 +17,29 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 91,
-    "wind_mph": 4,
-    "gusts_mph": 10,
-    "rain_pct": 20
+    "temp_f": 87,
+    "feels_like_f": 89,
+    "wind_mph": 5,
+    "gusts_mph": 12,
+    "rain_pct": 21
   },
   "sunrise": "2026-08-13T06:49",
   "sunset": "2026-08-13T20:28",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 191.6,
+    "nearest_fire_km": 192.8,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
@@ -53,36 +55,36 @@
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 90,
+      "high_f": 88,
       "low_f": 68,
       "rain_pct": 39,
       "uv": 7,
       "sunrise": "2026-08-13T06:49",
       "sunset": "2026-08-13T20:28",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
-      "high_f": 79,
+      "high_f": 84,
       "low_f": 65,
       "rain_pct": 33,
       "uv": 7,
       "sunrise": "2026-08-14T06:50",
       "sunset": "2026-08-14T20:27",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
       "high_f": 90,
-      "low_f": 67,
+      "low_f": 65,
       "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-08-15T06:51",
       "sunset": "2026-08-15T20:26",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:52",
       "sunset": "2026-08-16T20:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-17",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:53",
       "sunset": "2026-08-17T20:23",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T20:07:00.965340+00:00"
+  "updated_at": "2026-08-13T20:39:00.400544+00:00"
 }

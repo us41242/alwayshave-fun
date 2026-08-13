@@ -17,28 +17,30 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 92,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 56,
     "feels_like_f": 52,
-    "wind_mph": 5,
-    "gusts_mph": 12,
-    "rain_pct": 3
+    "wind_mph": 4,
+    "gusts_mph": 11,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-13T06:11",
   "sunset": "2026-08-13T19:57",
   "aqi": {
-    "aqi": 42,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 53.6,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 39.7,
+    "fire_count_50km": 3,
     "nearest_incident": {
       "name": "Dirt",
       "acres": 0.1,
@@ -54,34 +56,34 @@
     {
       "date": "2026-08-13",
       "high_f": 68,
-      "low_f": 54,
-      "rain_pct": 17,
+      "low_f": 53,
+      "rain_pct": 16,
       "uv": 7,
       "sunrise": "2026-08-13T06:11",
       "sunset": "2026-08-13T19:57",
-      "predicted_score": 80,
+      "predicted_score": 74,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-08-14",
       "high_f": 68,
       "low_f": 48,
-      "rain_pct": 13,
+      "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-08-14T06:12",
       "sunset": "2026-08-14T19:56",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-15",
       "high_f": 74,
       "low_f": 47,
-      "rain_pct": 4,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:54",
-      "predicted_score": 92,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -92,20 +94,20 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:53",
-      "predicted_score": 80,
+      "predicted_score": 74,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-08-17",
       "high_f": 79,
       "low_f": 54,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-17T06:15",
       "sunset": "2026-08-17T19:52",
-      "predicted_score": 80,
+      "predicted_score": 74,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T08:41:37.999440+00:00"
+  "updated_at": "2026-08-13T09:15:13.299937+00:00"
 }

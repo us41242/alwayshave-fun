@@ -32,21 +32,21 @@
   "sunrise": "2026-08-14T06:03",
   "sunset": "2026-08-14T19:40",
   "aqi": {
-    "aqi": 41,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 242.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Mouse Meadow",
       "acres": 52000,
       "containment_pct": 80,
       "cause": "Undetermined",
-      "updated": "2026-08-13T22:39:32.167000+00:00",
+      "updated": "2026-08-14T20:17:35.867000+00:00",
       "distance_km": 71.8,
       "direction": "NE",
       "page": "/fires/mouse-meadow-fire-nv-2026"
@@ -56,7 +56,7 @@
   "forecast": [
     {
       "date": "2026-08-14",
-      "high_f": 89,
+      "high_f": 88,
       "low_f": 68,
       "rain_pct": 1,
       "uv": 8,
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 91,
+      "high_f": 90,
       "low_f": 67,
       "rain_pct": 3,
       "uv": 8,
@@ -79,7 +79,7 @@
     {
       "date": "2026-08-16",
       "high_f": 92,
-      "low_f": 72,
+      "low_f": 71,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-16T06:05",
@@ -110,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-14T20:10:04.362149+00:00"
+  "updated_at": "2026-08-14T20:40:17.775238+00:00"
 }

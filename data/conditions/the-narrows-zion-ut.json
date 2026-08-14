@@ -20,27 +20,27 @@
   "score": 25,
   "score_label": "Stay home",
   "gear_flags": [
-    "wind layer recommended",
+    "rain gear recommended",
     "high water \u2014 do not enter the river; check with rangers"
   ],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 52,
-    "wind_mph": 26,
-    "gusts_mph": 40,
-    "rain_pct": 36
+    "temp_f": 64,
+    "feels_like_f": 64,
+    "wind_mph": 9,
+    "gusts_mph": 12,
+    "rain_pct": 74
   },
   "sunrise": "2026-08-14T06:47",
   "sunset": "2026-08-14T20:25",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 20,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 159.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
@@ -53,21 +53,21 @@
     }
   },
   "river": {
-    "cfs": 307,
+    "cfs": 780,
     "stage": "flood",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-14",
-      "high_f": 70,
-      "low_f": 61,
-      "rain_pct": 60,
+      "high_f": 72,
+      "low_f": 62,
+      "rain_pct": 74,
       "uv": 5,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -77,8 +77,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
       "sunset": "2026-08-15T20:23",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
@@ -88,8 +88,8 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-17",
@@ -99,8 +99,8 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:50",
       "sunset": "2026-08-17T20:21",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-18",
@@ -110,9 +110,9 @@
       "uv": 8,
       "sunrise": "2026-08-18T06:50",
       "sunset": "2026-08-18T20:20",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-14T16:32:23.355394+00:00"
+  "updated_at": "2026-08-14T17:03:04.274256+00:00"
 }

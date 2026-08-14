@@ -17,54 +17,52 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 64,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 84,
-    "feels_like_f": 85,
-    "wind_mph": 7,
-    "gusts_mph": 10,
-    "rain_pct": 11
+    "feels_like_f": 86,
+    "wind_mph": 0,
+    "gusts_mph": 7,
+    "rain_pct": 18
   },
   "sunrise": "2026-08-14T06:12",
   "sunset": "2026-08-14T19:55",
   "aqi": {
-    "aqi": 77,
+    "aqi": 97,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 31.7,
-    "fire_count_50km": 1,
+    "risk_level": "moderate",
+    "nearest_fire_km": 74.4,
+    "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Aspen Acres",
-      "acres": 102004,
-      "containment_pct": 72,
-      "cause": "Human",
-      "updated": "2026-08-13T23:59:39.903000+00:00",
-      "distance_km": 96.6,
-      "direction": "S",
-      "page": "/fires/aspen-acres-fire-co-2026"
+      "name": "Turner Gulch",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-14T19:20:52.163000+00:00",
+      "distance_km": 76.8,
+      "direction": "WNW"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-14",
-      "high_f": 88,
+      "high_f": 86,
       "low_f": 60,
       "rain_pct": 52,
       "uv": 7,
       "sunrise": "2026-08-14T06:12",
       "sunset": "2026-08-14T19:55",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -74,8 +72,8 @@
       "uv": 7,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:54",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
@@ -85,7 +83,7 @@
       "uv": 6,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:52",
-      "predicted_score": 36,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -96,7 +94,7 @@
       "uv": 7,
       "sunrise": "2026-08-17T06:15",
       "sunset": "2026-08-17T19:51",
-      "predicted_score": 36,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
@@ -107,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-18T06:16",
       "sunset": "2026-08-18T19:50",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 52,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-14T19:08:37.058937+00:00"
+  "updated_at": "2026-08-14T19:42:55.658544+00:00"
 }

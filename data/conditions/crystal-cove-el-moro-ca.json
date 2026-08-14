@@ -17,12 +17,14 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 44,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 75,
-    "feels_like_f": 82,
+    "feels_like_f": 80,
     "wind_mph": 9,
     "gusts_mph": 10,
     "rain_pct": 0
@@ -30,15 +32,15 @@
   "sunrise": "2026-08-14T06:13",
   "sunset": "2026-08-14T19:38",
   "aqi": {
-    "aqi": 30,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 41.9,
+    "fire_count_50km": 2,
     "nearest_incident": {
       "name": "Lac-287801",
       "acres": 0.01,
@@ -55,34 +57,34 @@
       "date": "2026-08-14",
       "high_f": 76,
       "low_f": 67,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:38",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-15",
       "high_f": 73,
       "low_f": 65,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:37",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
       "high_f": 84,
       "low_f": 66,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-17",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:15",
       "sunset": "2026-08-17T19:35",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-08-18",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-18T06:15",
       "sunset": "2026-08-18T19:34",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 26,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-08-14T20:44:07.364469+00:00"
+  "updated_at": "2026-08-14T21:12:14.042780+00:00"
 }

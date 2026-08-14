@@ -17,15 +17,17 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "rain gear recommended"
+  ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 71,
-    "wind_mph": 3,
-    "gusts_mph": 7,
-    "rain_pct": 29
+    "temp_f": 67,
+    "feels_like_f": 61,
+    "wind_mph": 14,
+    "gusts_mph": 18,
+    "rain_pct": 41
   },
   "sunrise": "2026-08-14T06:49",
   "sunset": "2026-08-14T20:27",
@@ -37,15 +39,15 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 175.5,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Creek",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-14T18:39:14.677000+00:00",
-      "distance_km": 40.5,
+      "updated": "2026-08-14T20:29:12.540000+00:00",
+      "distance_km": 40.4,
       "direction": "E"
     }
   },
@@ -66,7 +68,7 @@
       "date": "2026-08-15",
       "high_f": 79,
       "low_f": 56,
-      "rain_pct": 6,
+      "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-15T06:50",
       "sunset": "2026-08-15T20:26",
@@ -88,7 +90,7 @@
       "date": "2026-08-17",
       "high_f": 82,
       "low_f": 66,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-17T06:52",
       "sunset": "2026-08-17T20:23",
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-14T20:40:54.994389+00:00"
+  "updated_at": "2026-08-14T21:08:37.261650+00:00"
 }

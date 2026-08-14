@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T14:02:49.215552+00:00",
+  "updated_at": "2026-08-14T14:31:28.988319+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 173,
+  "count": 172,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -1060,18 +1060,6 @@
       "discovered": "2026-08-12T21:55:37+00:00"
     },
     {
-      "name": "Sheep Mountain",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.412323289297376,
-      "lng": -106.21662735074199,
-      "updated": "2026-08-13T01:26:50.190000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-13T00:25:41+00:00"
-    },
-    {
       "name": "Harden",
       "acres": 0.1,
       "containment_pct": null,
@@ -1094,6 +1082,18 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-03T18:56:14+00:00"
+    },
+    {
+      "name": "Sheep Mountain",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.412323289297376,
+      "lng": -106.21662735074199,
+      "updated": "2026-08-13T01:26:50.190000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-13T00:25:41+00:00"
     },
     {
       "name": "Resurrection",
@@ -1264,52 +1264,16 @@
       "discovered": "2026-08-13T22:00:00+00:00"
     },
     {
-      "name": "Grouse",
+      "name": "Lost Creek",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.69483413443002,
-      "lng": -119.69207178006305,
-      "updated": "2026-08-12T17:09:55.460000+00:00",
+      "lat": 34.16522394862205,
+      "lng": -116.83295895507152,
+      "updated": "2026-08-12T00:14:14.080000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T17:06:51+00:00"
-    },
-    {
-      "name": "Gardenhire",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 39.87598620808602,
-      "lng": -108.22000084987982,
-      "updated": "2026-08-14T00:42:59.057000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-14T00:06:43+00:00"
-    },
-    {
-      "name": "Ridge",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 37.74483821155163,
-      "lng": -118.67984561837,
-      "updated": "2026-08-13T22:38:25.080000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-13T16:52:14+00:00"
-    },
-    {
-      "name": "Dewey",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 37.702338137845,
-      "lng": -119.6541797747395,
-      "updated": "2026-08-12T19:10:30.270000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T19:06:20+00:00"
+      "discovered": "2026-08-12T00:00:46+00:00"
     },
     {
       "name": "Long",
@@ -1324,16 +1288,52 @@
       "discovered": "2026-08-12T15:51:00+00:00"
     },
     {
-      "name": "Lost Creek",
+      "name": "Dewey",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.16522394862205,
-      "lng": -116.83295895507152,
-      "updated": "2026-08-12T00:14:14.080000+00:00",
+      "lat": 37.702338137845,
+      "lng": -119.6541797747395,
+      "updated": "2026-08-12T19:10:30.270000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T00:00:46+00:00"
+      "discovered": "2026-08-12T19:06:20+00:00"
+    },
+    {
+      "name": "Grouse",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 37.69483413443002,
+      "lng": -119.69207178006305,
+      "updated": "2026-08-12T17:09:55.460000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-12T17:06:51+00:00"
+    },
+    {
+      "name": "Ridge",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 37.74483821155163,
+      "lng": -118.67984561837,
+      "updated": "2026-08-13T22:38:25.080000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-13T16:52:14+00:00"
+    },
+    {
+      "name": "Gardenhire",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 39.87598620808602,
+      "lng": -108.22000084987982,
+      "updated": "2026-08-14T00:42:59.057000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-14T00:06:43+00:00"
     },
     {
       "name": "Sisku Assist",
@@ -1624,18 +1624,6 @@
       "discovered": "2026-08-13T10:42:24+00:00"
     },
     {
-      "name": "Lac-283721",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.035694866169024,
-      "lng": -118.03131215011257,
-      "updated": "2026-08-11T13:25:34.890000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-11T13:24:35+00:00"
-    },
-    {
       "name": "Ponderosa 3",
       "acres": 0.01,
       "containment_pct": null,
@@ -1684,16 +1672,16 @@
       "discovered": "2026-08-08T21:26:33+00:00"
     },
     {
-      "name": "Wildfire Training",
+      "name": "Lac-286173",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.30686710354273,
-      "lng": -119.61234472378048,
-      "updated": "2026-08-12T09:10:56.420000+00:00",
+      "lat": 34.66404493707294,
+      "lng": -118.00526219843016,
+      "updated": "2026-08-13T06:59:50.653000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-01-07T16:17:00+00:00"
+      "discovered": "2026-08-13T06:57:33+00:00"
     },
     {
       "name": "Lac-284916",
@@ -1708,16 +1696,16 @@
       "discovered": "2026-08-12T08:46:13+00:00"
     },
     {
-      "name": "Lac-286173",
+      "name": "Wildfire Training",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.66404493707294,
-      "lng": -118.00526219843016,
-      "updated": "2026-08-13T06:59:50.653000+00:00",
+      "lat": 37.30686710354273,
+      "lng": -119.61234472378048,
+      "updated": "2026-08-12T09:10:56.420000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-13T06:57:33+00:00"
+      "discovered": "2026-01-07T16:17:00+00:00"
     },
     {
       "name": "Glass",
@@ -1756,28 +1744,16 @@
       "discovered": "2026-08-13T22:18:28+00:00"
     },
     {
-      "name": "Ponderosa 4",
+      "name": "Mmu August Lightning Complex",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 39.23945500430223,
-      "lng": -123.14434650313322,
-      "updated": "2026-08-14T05:53:31.650000+00:00",
+      "lat": 37.50069509535516,
+      "lng": -119.98656680593245,
+      "updated": "2026-08-12T21:50:14.657000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-14T05:28:23+00:00"
-    },
-    {
-      "name": "Lac-284375",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.98664485227517,
-      "lng": -118.18106217134363,
-      "updated": "2026-08-11T23:20:59.960000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-11T23:20:43+00:00"
+      "discovered": "2026-08-12T17:55:10+00:00"
     },
     {
       "name": "Lac-284571",
@@ -1792,16 +1768,28 @@
       "discovered": "2026-08-12T01:51:25+00:00"
     },
     {
-      "name": "Mmu August Lightning Complex",
+      "name": "Lac-284375",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 37.50069509535516,
-      "lng": -119.98656680593245,
-      "updated": "2026-08-12T21:50:14.657000+00:00",
+      "lat": 33.98664485227517,
+      "lng": -118.18106217134363,
+      "updated": "2026-08-11T23:20:59.960000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T17:55:10+00:00"
+      "discovered": "2026-08-11T23:20:43+00:00"
+    },
+    {
+      "name": "Ponderosa 4",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.23945500430223,
+      "lng": -123.14434650313322,
+      "updated": "2026-08-14T05:53:31.650000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-14T05:28:23+00:00"
     },
     {
       "name": "Lac-287034",

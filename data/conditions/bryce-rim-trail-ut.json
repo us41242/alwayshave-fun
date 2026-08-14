@@ -17,23 +17,25 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 53,
-    "wind_mph": 10,
-    "gusts_mph": 14,
-    "rain_pct": 36
+    "temp_f": 55,
+    "feels_like_f": 50,
+    "wind_mph": 12,
+    "gusts_mph": 13,
+    "rain_pct": 38
   },
   "sunrise": "2026-08-14T06:44",
   "sunset": "2026-08-14T20:22",
   "aqi": {
-    "aqi": 22,
-    "category": "Good",
+    "aqi": 52,
+    "category": "Moderate",
     "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -60,8 +62,8 @@
       "uv": 5,
       "sunrise": "2026-08-14T06:44",
       "sunset": "2026-08-14T20:22",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
@@ -71,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-08-15T06:44",
       "sunset": "2026-08-15T20:21",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -82,31 +84,31 @@
       "uv": 7,
       "sunrise": "2026-08-16T06:45",
       "sunset": "2026-08-16T20:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-17",
       "high_f": 78,
-      "low_f": 56,
+      "low_f": 60,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-17T06:46",
       "sunset": "2026-08-17T20:18",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-18",
-      "high_f": 81,
-      "low_f": 59,
+      "high_f": 82,
+      "low_f": 61,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-18T06:47",
       "sunset": "2026-08-18T20:17",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-14T17:32:39.351820+00:00"
+  "updated_at": "2026-08-14T18:01:39.340438+00:00"
 }

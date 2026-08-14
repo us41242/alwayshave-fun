@@ -17,20 +17,22 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 65,
-    "wind_mph": 13,
-    "gusts_mph": 18,
-    "rain_pct": 2
+    "temp_f": 70,
+    "feels_like_f": 66,
+    "wind_mph": 15,
+    "gusts_mph": 20,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-14T06:20",
   "sunset": "2026-08-14T20:06",
   "aqi": {
-    "aqi": 31,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -40,13 +42,13 @@
     "nearest_fire_km": 179.0,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Trail Gulch",
-      "acres": 1,
+      "name": "Cold Mountain",
+      "acres": 0.1,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-12T02:04:20.123000+00:00",
-      "distance_km": 20.2,
-      "direction": "ENE"
+      "updated": "2026-08-13T02:24:26.043000+00:00",
+      "distance_km": 26.5,
+      "direction": "S"
     }
   },
   "river": null,
@@ -67,7 +69,7 @@
       "high_f": 76,
       "low_f": 56,
       "rain_pct": 9,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-15T06:21",
       "sunset": "2026-08-15T20:04",
       "predicted_score": 88,
@@ -75,10 +77,10 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 79,
-      "low_f": 51,
+      "high_f": 80,
+      "low_f": 49,
       "rain_pct": 2,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-16T06:22",
       "sunset": "2026-08-16T20:03",
       "predicted_score": 88,
@@ -86,10 +88,10 @@
     },
     {
       "date": "2026-08-17",
-      "high_f": 80,
-      "low_f": 51,
+      "high_f": 84,
+      "low_f": 49,
       "rain_pct": 8,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-17T06:23",
       "sunset": "2026-08-17T20:02",
       "predicted_score": 88,
@@ -97,7 +99,7 @@
     },
     {
       "date": "2026-08-18",
-      "high_f": 83,
+      "high_f": 84,
       "low_f": 52,
       "rain_pct": 8,
       "uv": 8,
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-14T17:40:58.944251+00:00"
+  "updated_at": "2026-08-14T18:10:42.003423+00:00"
 }

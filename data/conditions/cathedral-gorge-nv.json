@@ -17,23 +17,23 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 65,
-    "wind_mph": 3,
-    "gusts_mph": 4,
+    "temp_f": 66,
+    "feels_like_f": 68,
+    "wind_mph": 0,
+    "gusts_mph": 6,
     "rain_pct": 7
   },
   "sunrise": "2026-08-14T05:52",
   "sunset": "2026-08-14T19:31",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 34,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -45,14 +45,14 @@
   "forecast": [
     {
       "date": "2026-08-14",
-      "high_f": 83,
+      "high_f": 80,
       "low_f": 60,
-      "rain_pct": 43,
+      "rain_pct": 28,
       "uv": 8,
       "sunrise": "2026-08-14T05:52",
       "sunset": "2026-08-14T19:31",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-15",
@@ -62,19 +62,19 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:53",
       "sunset": "2026-08-15T19:30",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
       "high_f": 88,
       "low_f": 65,
-      "rain_pct": 4,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-16T05:54",
       "sunset": "2026-08-16T19:29",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-17",
@@ -84,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-08-17T05:55",
       "sunset": "2026-08-17T19:28",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-18",
@@ -95,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-08-18T05:56",
       "sunset": "2026-08-18T19:26",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-14T14:33:38.492913+00:00"
+  "updated_at": "2026-08-14T15:04:03.069455+00:00"
 }

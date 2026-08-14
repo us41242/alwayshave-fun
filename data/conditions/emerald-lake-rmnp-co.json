@@ -17,28 +17,31 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 64,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 55,
-    "wind_mph": 12,
+    "temp_f": 62,
+    "feels_like_f": 57,
+    "wind_mph": 8,
     "gusts_mph": 15,
-    "rain_pct": 26
+    "rain_pct": 28
   },
   "sunrise": "2026-08-14T06:13",
   "sunset": "2026-08-14T20:01",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 57,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 37.4,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Lefthand Canyon",
       "acres": 0.1,
@@ -55,23 +58,23 @@
       "date": "2026-08-14",
       "high_f": 67,
       "low_f": 49,
-      "rain_pct": 51,
+      "rain_pct": 46,
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T20:01",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-15",
       "high_f": 66,
       "low_f": 48,
-      "rain_pct": 29,
+      "rain_pct": 27,
       "uv": 6,
       "sunrise": "2026-08-15T06:14",
       "sunset": "2026-08-15T19:59",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
@@ -81,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-08-16T06:15",
       "sunset": "2026-08-16T19:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-17",
@@ -92,8 +95,8 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:16",
       "sunset": "2026-08-17T19:57",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-18",
@@ -103,9 +106,9 @@
       "uv": 7,
       "sunrise": "2026-08-18T06:16",
       "sunset": "2026-08-18T19:55",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-14T22:44:05.319871+00:00"
+  "updated_at": "2026-08-14T23:08:50.519162+00:00"
 }

@@ -17,27 +17,27 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 59,
-    "wind_mph": 10,
-    "gusts_mph": 14,
-    "rain_pct": 36
+    "temp_f": 60,
+    "feels_like_f": 56,
+    "wind_mph": 3,
+    "gusts_mph": 4,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-13T06:46",
   "sunset": "2026-08-13T20:26",
   "aqi": {
-    "aqi": 50,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 143.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
@@ -50,16 +50,16 @@
     }
   },
   "river": {
-    "cfs": 43,
-    "stage": "low",
+    "cfs": 105,
+    "stage": "normal",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 68,
+      "high_f": 67,
       "low_f": 58,
-      "rain_pct": 53,
+      "rain_pct": 60,
       "uv": 7,
       "sunrise": "2026-08-13T06:46",
       "sunset": "2026-08-13T20:26",
@@ -68,9 +68,9 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 67,
-      "low_f": 54,
-      "rain_pct": 41,
+      "high_f": 69,
+      "low_f": 56,
+      "rain_pct": 39,
       "uv": 6,
       "sunrise": "2026-08-14T06:47",
       "sunset": "2026-08-14T20:25",
@@ -80,8 +80,8 @@
     {
       "date": "2026-08-15",
       "high_f": 78,
-      "low_f": 55,
-      "rain_pct": 10,
+      "low_f": 54,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-15T06:48",
       "sunset": "2026-08-15T20:24",
@@ -90,9 +90,9 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 78,
-      "low_f": 59,
-      "rain_pct": 6,
+      "high_f": 77,
+      "low_f": 58,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
@@ -102,8 +102,8 @@
     {
       "date": "2026-08-17",
       "high_f": 82,
-      "low_f": 64,
-      "rain_pct": 2,
+      "low_f": 63,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-17T06:49",
       "sunset": "2026-08-17T20:21",
@@ -111,5 +111,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T22:05:33.950311+00:00"
+  "updated_at": "2026-08-14T04:24:59.552552+00:00"
 }

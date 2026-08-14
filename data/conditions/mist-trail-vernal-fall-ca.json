@@ -17,28 +17,31 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 77,
-    "wind_mph": 14,
-    "gusts_mph": 20,
-    "rain_pct": 21
+    "temp_f": 66,
+    "feels_like_f": 63,
+    "wind_mph": 3,
+    "gusts_mph": 4,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-13T06:12",
   "sunset": "2026-08-13T19:53",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 55,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "high",
+    "nearest_fire_km": 8.3,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Pothole",
       "acres": 1,
@@ -53,36 +56,36 @@
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 79,
+      "high_f": 80,
       "low_f": 64,
       "rain_pct": 21,
       "uv": 8,
       "sunrise": "2026-08-13T06:12",
       "sunset": "2026-08-13T19:53",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
-      "high_f": 77,
+      "high_f": 79,
       "low_f": 61,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:52",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
-      "high_f": 83,
+      "high_f": 82,
       "low_f": 60,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-15T06:14",
       "sunset": "2026-08-15T19:51",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
@@ -92,20 +95,20 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:15",
       "sunset": "2026-08-16T19:49",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-17",
-      "high_f": 86,
-      "low_f": 64,
-      "rain_pct": 1,
+      "high_f": 83,
+      "low_f": 62,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-17T06:16",
       "sunset": "2026-08-17T19:48",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-13T22:12:07.422109+00:00"
+  "updated_at": "2026-08-14T04:32:44.245809+00:00"
 }

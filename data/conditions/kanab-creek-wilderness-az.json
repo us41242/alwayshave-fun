@@ -17,38 +17,36 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 100,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 66,
-    "wind_mph": 16,
-    "gusts_mph": 22,
-    "rain_pct": 39
+    "temp_f": 63,
+    "feels_like_f": 64,
+    "wind_mph": 3,
+    "gusts_mph": 4,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-13T05:45",
   "sunset": "2026-08-13T19:24",
   "aqi": {
-    "aqi": 50,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 195.4,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Confucius",
-      "acres": 0.1,
+      "name": "Black Mountain",
+      "acres": 45,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-10T21:06:33.447000+00:00",
-      "distance_km": 86.9,
-      "direction": "SSE"
+      "updated": "2026-08-11T21:11:37.800000+00:00",
+      "distance_km": 97.7,
+      "direction": "W"
     }
   },
   "river": {
@@ -60,19 +58,19 @@
     {
       "date": "2026-08-13",
       "high_f": 78,
-      "low_f": 63,
-      "rain_pct": 50,
+      "low_f": 61,
+      "rain_pct": 69,
       "uv": 7,
       "sunrise": "2026-08-13T05:45",
       "sunset": "2026-08-13T19:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-14",
-      "high_f": 70,
-      "low_f": 58,
-      "rain_pct": 36,
+      "high_f": 84,
+      "low_f": 60,
+      "rain_pct": 39,
       "uv": 7,
       "sunrise": "2026-08-14T05:46",
       "sunset": "2026-08-14T19:22",
@@ -82,8 +80,8 @@
     {
       "date": "2026-08-15",
       "high_f": 86,
-      "low_f": 57,
-      "rain_pct": 3,
+      "low_f": 56,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-15T05:47",
       "sunset": "2026-08-15T19:21",
@@ -93,8 +91,8 @@
     {
       "date": "2026-08-16",
       "high_f": 88,
-      "low_f": 69,
-      "rain_pct": 2,
+      "low_f": 72,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-08-16T05:48",
       "sunset": "2026-08-16T19:20",
@@ -105,7 +103,7 @@
       "date": "2026-08-17",
       "high_f": 93,
       "low_f": 72,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-17T05:49",
       "sunset": "2026-08-17T19:19",
@@ -113,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-13T22:03:03.267570+00:00"
+  "updated_at": "2026-08-14T04:20:54.615850+00:00"
 }

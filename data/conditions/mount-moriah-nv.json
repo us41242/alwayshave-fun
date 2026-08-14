@@ -17,37 +17,38 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "mask for sensitive groups"
+    "insulation layer required",
+    "rain gear recommended"
   ],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 46,
-    "wind_mph": 22,
+    "temp_f": 38,
+    "feels_like_f": 27,
+    "wind_mph": 19,
     "gusts_mph": 26,
-    "rain_pct": 30
+    "rain_pct": 65
   },
   "sunrise": "2026-08-13T05:48",
   "sunset": "2026-08-13T19:34",
   "aqi": {
-    "aqi": 54,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 156.8,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
       "acres": 8683,
-      "containment_pct": 90,
+      "containment_pct": 95,
       "cause": "Natural",
-      "updated": "2026-08-13T20:46:02.933000+00:00",
+      "updated": "2026-08-13T22:21:27.297000+00:00",
       "distance_km": 63.7,
       "direction": "WSW",
       "page": "/fires/ward-fire-nv-2026"
@@ -57,9 +58,9 @@
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 56,
+      "high_f": 55,
       "low_f": 38,
-      "rain_pct": 46,
+      "rain_pct": 67,
       "uv": 7,
       "sunrise": "2026-08-13T05:48",
       "sunset": "2026-08-13T19:34",
@@ -69,34 +70,34 @@
     {
       "date": "2026-08-14",
       "high_f": 54,
-      "low_f": 36,
-      "rain_pct": 22,
+      "low_f": 38,
+      "rain_pct": 20,
       "uv": 7,
       "sunrise": "2026-08-14T05:49",
       "sunset": "2026-08-14T19:33",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-15",
-      "high_f": 62,
-      "low_f": 36,
-      "rain_pct": 10,
+      "high_f": 61,
+      "low_f": 38,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-08-15T05:50",
       "sunset": "2026-08-15T19:32",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
-      "high_f": 60,
+      "high_f": 59,
       "low_f": 51,
-      "rain_pct": 5,
+      "rain_pct": 4,
       "uv": 7,
       "sunrise": "2026-08-16T05:50",
       "sunset": "2026-08-16T19:30",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -107,9 +108,9 @@
       "uv": 8,
       "sunrise": "2026-08-17T05:51",
       "sunset": "2026-08-17T19:29",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T22:10:06.738429+00:00"
+  "updated_at": "2026-08-14T04:29:53.271490+00:00"
 }

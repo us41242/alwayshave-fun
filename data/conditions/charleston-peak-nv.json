@@ -20,26 +20,26 @@
   "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 44,
-    "wind_mph": 14,
-    "gusts_mph": 21,
-    "rain_pct": 13
+    "temp_f": 43,
+    "feels_like_f": 35,
+    "wind_mph": 10,
+    "gusts_mph": 19,
+    "rain_pct": 2
   },
   "sunrise": "2026-08-13T05:59",
   "sunset": "2026-08-13T19:35",
   "aqi": {
-    "aqi": 38,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 163.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "North Springs",
@@ -55,7 +55,7 @@
   "forecast": [
     {
       "date": "2026-08-13",
-      "high_f": 50,
+      "high_f": 52,
       "low_f": 40,
       "rain_pct": 15,
       "uv": 7,
@@ -66,9 +66,9 @@
     },
     {
       "date": "2026-08-14",
-      "high_f": 51,
-      "low_f": 37,
-      "rain_pct": 22,
+      "high_f": 53,
+      "low_f": 38,
+      "rain_pct": 21,
       "uv": 8,
       "sunrise": "2026-08-14T06:00",
       "sunset": "2026-08-14T19:34",
@@ -77,20 +77,20 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 57,
+      "high_f": 54,
       "low_f": 39,
-      "rain_pct": 27,
+      "rain_pct": 39,
       "uv": 8,
       "sunrise": "2026-08-15T06:01",
       "sunset": "2026-08-15T19:33",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
-      "high_f": 58,
-      "low_f": 46,
-      "rain_pct": 18,
+      "high_f": 56,
+      "low_f": 47,
+      "rain_pct": 24,
       "uv": 7,
       "sunrise": "2026-08-16T06:01",
       "sunset": "2026-08-16T19:31",
@@ -99,15 +99,15 @@
     },
     {
       "date": "2026-08-17",
-      "high_f": 63,
-      "low_f": 48,
-      "rain_pct": 3,
-      "uv": 8,
+      "high_f": 60,
+      "low_f": 47,
+      "rain_pct": 2,
+      "uv": 7,
       "sunrise": "2026-08-17T06:02",
       "sunset": "2026-08-17T19:30",
       "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-13T22:03:04.694383+00:00"
+  "updated_at": "2026-08-14T04:20:56.623809+00:00"
 }

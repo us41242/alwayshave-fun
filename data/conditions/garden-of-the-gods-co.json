@@ -17,17 +17,17 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 81,
-    "wind_mph": 10,
-    "gusts_mph": 14,
-    "rain_pct": 27
+    "temp_f": 85,
+    "feels_like_f": 79,
+    "wind_mph": 14,
+    "gusts_mph": 18,
+    "rain_pct": 32
   },
   "sunrise": "2026-08-14T06:12",
   "sunset": "2026-08-14T19:55",
@@ -38,42 +38,41 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 74.4,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Aspen Acres",
-      "acres": 102004,
-      "containment_pct": 72,
-      "cause": "Human",
-      "updated": "2026-08-13T23:59:39.903000+00:00",
-      "distance_km": 96.6,
-      "direction": "S",
-      "page": "/fires/aspen-acres-fire-co-2026"
+      "name": "Little Creek",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-14T22:22:47.147000+00:00",
+      "distance_km": 37.1,
+      "direction": "NW"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-14",
-      "high_f": 86,
+      "high_f": 83,
       "low_f": 60,
       "rain_pct": 44,
       "uv": 7,
       "sunrise": "2026-08-14T06:12",
       "sunset": "2026-08-14T19:55",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-15",
       "high_f": 84,
-      "low_f": 58,
+      "low_f": 57,
       "rain_pct": 55,
       "uv": 7,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:54",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -84,8 +83,8 @@
       "uv": 6,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:52",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-17",
@@ -95,8 +94,8 @@
       "uv": 7,
       "sunrise": "2026-08-17T06:15",
       "sunset": "2026-08-17T19:51",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-18",
@@ -106,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-18T06:16",
       "sunset": "2026-08-18T19:50",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-14T22:11:47.617153+00:00"
+  "updated_at": "2026-08-14T22:44:03.579580+00:00"
 }

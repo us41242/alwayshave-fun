@@ -17,8 +17,8 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 60,
@@ -27,8 +27,8 @@
     "gusts_mph": 11,
     "rain_pct": 7
   },
-  "sunrise": "2026-08-14T05:46",
-  "sunset": "2026-08-14T19:20",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 34,
     "category": "Good",
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 173.9,
+    "nearest_fire_km": 115.7,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cliff Spring",
@@ -50,62 +50,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-14",
-      "high_f": 80,
-      "low_f": 55,
-      "rain_pct": 32,
-      "uv": 6,
-      "sunrise": "2026-08-14T05:46",
-      "sunset": "2026-08-14T19:20",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-15",
-      "high_f": 79,
-      "low_f": 56,
-      "rain_pct": 9,
-      "uv": 8,
-      "sunrise": "2026-08-15T05:47",
-      "sunset": "2026-08-15T19:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-16",
-      "high_f": 82,
-      "low_f": 67,
-      "rain_pct": 6,
-      "uv": 6,
-      "sunrise": "2026-08-16T05:48",
-      "sunset": "2026-08-16T19:17",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-17",
-      "high_f": 88,
-      "low_f": 66,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-08-17T05:49",
-      "sunset": "2026-08-17T19:16",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-18",
-      "high_f": 91,
-      "low_f": 69,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-08-18T05:50",
-      "sunset": "2026-08-18T19:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-14T11:37:35.193450+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-14T12:05:43.483316+00:00"
 }

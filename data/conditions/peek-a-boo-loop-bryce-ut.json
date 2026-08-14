@@ -17,8 +17,8 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,8 +29,8 @@
     "gusts_mph": 5,
     "rain_pct": 1
   },
-  "sunrise": "2026-08-14T06:44",
-  "sunset": "2026-08-14T20:22",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 59,
     "category": "Moderate",
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 120.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -53,62 +53,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-14",
-      "high_f": 68,
-      "low_f": 50,
-      "rain_pct": 45,
-      "uv": 5,
-      "sunrise": "2026-08-14T06:44",
-      "sunset": "2026-08-14T20:22",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-15",
-      "high_f": 73,
-      "low_f": 48,
-      "rain_pct": 7,
-      "uv": 8,
-      "sunrise": "2026-08-15T06:44",
-      "sunset": "2026-08-15T20:21",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-16",
-      "high_f": 76,
-      "low_f": 57,
-      "rain_pct": 8,
-      "uv": 7,
-      "sunrise": "2026-08-16T06:45",
-      "sunset": "2026-08-16T20:20",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-17",
-      "high_f": 77,
-      "low_f": 56,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-08-17T06:46",
-      "sunset": "2026-08-17T20:18",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-18",
-      "high_f": 81,
-      "low_f": 59,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-18T06:47",
-      "sunset": "2026-08-18T20:17",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-14T13:35:47.826375+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-14T14:06:53.142941+00:00"
 }

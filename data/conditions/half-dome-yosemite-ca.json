@@ -17,30 +17,28 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 38,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 46,
-    "wind_mph": 3,
-    "gusts_mph": 4,
-    "rain_pct": 1
+    "temp_f": 47,
+    "feels_like_f": 41,
+    "wind_mph": 5,
+    "gusts_mph": 5,
+    "rain_pct": 0
   },
-  "sunrise": "2026-08-13T06:12",
-  "sunset": "2026-08-13T19:53",
+  "sunrise": "2026-08-14T06:13",
+  "sunset": "2026-08-14T19:52",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 39,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
-    "risk_level": "high",
-    "nearest_fire_km": 11.0,
-    "fire_count_50km": 1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Pothole",
       "acres": 1,
@@ -54,60 +52,60 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-13",
-      "high_f": 61,
-      "low_f": 48,
-      "rain_pct": 21,
-      "uv": 8,
-      "sunrise": "2026-08-13T06:12",
-      "sunset": "2026-08-13T19:53",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
-    },
-    {
       "date": "2026-08-14",
-      "high_f": 65,
+      "high_f": 66,
       "low_f": 46,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-14T06:13",
       "sunset": "2026-08-14T19:52",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-15",
-      "high_f": 68,
-      "low_f": 45,
-      "rain_pct": 0,
+      "high_f": 67,
+      "low_f": 47,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-15T06:13",
       "sunset": "2026-08-15T19:50",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
-      "high_f": 72,
+      "high_f": 73,
       "low_f": 49,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-16T06:14",
       "sunset": "2026-08-16T19:49",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-17",
-      "high_f": 70,
-      "low_f": 48,
-      "rain_pct": 0,
+      "high_f": 74,
+      "low_f": 50,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-17T06:15",
       "sunset": "2026-08-17T19:48",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-18",
+      "high_f": 76,
+      "low_f": 49,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-18T06:16",
+      "sunset": "2026-08-18T19:46",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-14T04:31:57.410324+00:00"
+  "updated_at": "2026-08-14T10:40:55.859371+00:00"
 }

@@ -21,10 +21,10 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 81,
-    "wind_mph": 4,
-    "gusts_mph": 9,
+    "temp_f": 77,
+    "feels_like_f": 83,
+    "wind_mph": 5,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-08-15T05:58",
@@ -39,7 +39,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 72.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Mojave 1",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-15T17:31:03.950000+00:00",
+      "distance_km": 84.4,
+      "direction": "SW"
+    }
   },
   "river": null,
   "forecast": [
@@ -59,7 +67,7 @@
       "high_f": 92,
       "low_f": 76,
       "rain_pct": 6,
-      "uv": 5,
+      "uv": 8,
       "sunrise": "2026-08-16T05:59",
       "sunset": "2026-08-16T19:27",
       "predicted_score": 62,
@@ -68,7 +76,7 @@
     {
       "date": "2026-08-17",
       "high_f": 100,
-      "low_f": 80,
+      "low_f": 81,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-17T06:00",
@@ -90,7 +98,7 @@
     {
       "date": "2026-08-19",
       "high_f": 102,
-      "low_f": 85,
+      "low_f": 86,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-19T06:01",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-15T17:18:45.505962+00:00"
+  "updated_at": "2026-08-15T17:48:40.069751+00:00"
 }

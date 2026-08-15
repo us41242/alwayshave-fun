@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 65,
-    "wind_mph": 4,
-    "gusts_mph": 4,
+    "temp_f": 66,
+    "feels_like_f": 62,
+    "wind_mph": 8,
+    "gusts_mph": 10,
     "rain_pct": 1
   },
   "sunrise": "2026-08-14T05:46",
@@ -49,7 +49,11 @@
       "direction": "WSW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 27,
+    "stage": null,
+    "gauge_id": "09504500"
+  },
   "forecast": [
     {
       "date": "2026-08-14",
@@ -66,7 +70,7 @@
       "date": "2026-08-15",
       "high_f": 87,
       "low_f": 60,
-      "rain_pct": 9,
+      "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-15T05:47",
       "sunset": "2026-08-15T19:15",
@@ -107,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-15T04:06:57.746461+00:00"
+  "updated_at": "2026-08-15T04:57:07.473468+00:00"
 }

@@ -17,18 +17,20 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 100,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 70,
-    "wind_mph": 3,
-    "gusts_mph": 22,
+    "temp_f": 70,
+    "feels_like_f": 67,
+    "wind_mph": 6,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-15T06:04",
+  "sunset": "2026-08-15T19:38",
   "aqi": {
     "aqi": 44,
     "category": "Good",
@@ -51,6 +53,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-15T08:00:14.682915+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-15",
+      "high_f": 90,
+      "low_f": 66,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-15T06:04",
+      "sunset": "2026-08-15T19:38",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-16",
+      "high_f": 91,
+      "low_f": 71,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-08-16T06:05",
+      "sunset": "2026-08-16T19:37",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-17",
+      "high_f": 94,
+      "low_f": 76,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-17T06:06",
+      "sunset": "2026-08-17T19:36",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-18",
+      "high_f": 97,
+      "low_f": 77,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-18T06:07",
+      "sunset": "2026-08-18T19:35",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-19",
+      "high_f": 99,
+      "low_f": 78,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-19T06:08",
+      "sunset": "2026-08-19T19:33",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-15T08:23:34.977237+00:00"
 }

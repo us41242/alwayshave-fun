@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T13:49:53.941006+00:00",
+  "updated_at": "2026-08-15T14:14:23.592339+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 172,
+  "count": 174,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -580,6 +580,18 @@
       "discovered": "2026-08-10T21:17:27+00:00"
     },
     {
+      "name": "Dash",
+      "acres": 55,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 36.163085919956764,
+      "lng": -104.67544967244216,
+      "updated": "2026-08-15T14:11:09.810000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-14T19:30:00+00:00"
+    },
+    {
       "name": "Taffle",
       "acres": 55,
       "containment_pct": null,
@@ -910,7 +922,7 @@
       "cause": "Undetermined",
       "lat": 35.701455799109006,
       "lng": -105.55829283191643,
-      "updated": "2026-08-15T02:22:31.587000+00:00",
+      "updated": "2026-08-15T14:04:48.310000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-14T23:21:23+00:00"
@@ -1036,18 +1048,6 @@
       "discovered": "2026-08-15T00:02:07+00:00"
     },
     {
-      "name": "Little Coyote",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 41.46798656849937,
-      "lng": -106.0909105775985,
-      "updated": "2026-08-13T14:17:57.547000+00:00",
-      "state": "WY",
-      "personnel": null,
-      "discovered": "2026-08-13T00:00:31+00:00"
-    },
-    {
       "name": "Hilgard",
       "acres": 0.1,
       "containment_pct": null,
@@ -1058,6 +1058,18 @@
       "state": "UT",
       "personnel": null,
       "discovered": "2026-08-12T23:22:36+00:00"
+    },
+    {
+      "name": "Little Coyote",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.46798656849937,
+      "lng": -106.0909105775985,
+      "updated": "2026-08-13T14:17:57.547000+00:00",
+      "state": "WY",
+      "personnel": null,
+      "discovered": "2026-08-13T00:00:31+00:00"
     },
     {
       "name": "Sandwash",
@@ -1432,66 +1444,6 @@
       "discovered": "2026-08-13T10:40:48+00:00"
     },
     {
-      "name": "Lac-288354",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.894974841709136,
-      "lng": -118.18795216509612,
-      "updated": "2026-08-15T01:05:04.067000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-15T01:04:39+00:00"
-    },
-    {
-      "name": "Ponderosa 3",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.23922200425829,
-      "lng": -123.14468050315169,
-      "updated": "2026-08-14T05:53:21.080000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-14T05:27:41+00:00"
-    },
-    {
-      "name": "Lac-287733",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.92319484362221,
-      "lng": -118.20977217103312,
-      "updated": "2026-08-14T15:57:41.967000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-14T15:57:13+00:00"
-    },
-    {
-      "name": "Trout",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.354354938702826,
-      "lng": -117.38581206645983,
-      "updated": "2026-08-13T14:12:26.573000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-13T10:42:24+00:00"
-    },
-    {
-      "name": "Lac-288056",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.581444922444796,
-      "lng": -118.10024220736575,
-      "updated": "2026-08-14T20:35:29.080000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-14T20:34:54+00:00"
-    },
-    {
       "name": "Lac-287034",
       "acres": 0.01,
       "containment_pct": null,
@@ -1514,6 +1466,78 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-15T03:48:45+00:00"
+    },
+    {
+      "name": "Lac-288056",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.581444922444796,
+      "lng": -118.10024220736575,
+      "updated": "2026-08-14T20:35:29.080000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-14T20:34:54+00:00"
+    },
+    {
+      "name": "Trout",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.354354938702826,
+      "lng": -117.38581206645983,
+      "updated": "2026-08-13T14:12:26.573000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-13T10:42:24+00:00"
+    },
+    {
+      "name": "Lac-288354",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.894974841709136,
+      "lng": -118.18795216509612,
+      "updated": "2026-08-15T01:05:04.067000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-15T01:04:39+00:00"
+    },
+    {
+      "name": "Lac-287733",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.92319484362221,
+      "lng": -118.20977217103312,
+      "updated": "2026-08-14T15:57:41.967000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-14T15:57:13+00:00"
+    },
+    {
+      "name": "Ponderosa 3",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.23922200425829,
+      "lng": -123.14468050315169,
+      "updated": "2026-08-14T05:53:21.080000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-14T05:27:41+00:00"
+    },
+    {
+      "name": "Lac-287279",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.87580484548055,
+      "lng": -118.08223214577244,
+      "updated": "2026-08-14T03:20:48.603000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-14T03:20:19+00:00"
     },
     {
       "name": "Mtz/Krn/Elmo",
@@ -1550,18 +1574,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-13T20:59:11+00:00"
-    },
-    {
-      "name": "Lac-287279",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.87580484548055,
-      "lng": -118.08223214577244,
-      "updated": "2026-08-14T03:20:48.603000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-14T03:20:19+00:00"
     },
     {
       "name": "Lac-287701",
@@ -1898,6 +1910,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-12T20:24:33+00:00"
+    },
+    {
+      "name": "Lac-288969",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.00889485600816,
+      "lng": -118.15861216937684,
+      "updated": "2026-08-15T14:09:15.017000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-15T14:08:58+00:00"
     },
     {
       "name": "Lac-287801",

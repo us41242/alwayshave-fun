@@ -17,27 +17,29 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 59,
-    "feels_like_f": 53,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 62,
+    "feels_like_f": 58,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-08-15T05:47",
   "sunset": "2026-08-15T19:19",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 58,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 115.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cliff Spring",
@@ -59,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:47",
       "sunset": "2026-08-15T19:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-16",
@@ -70,8 +72,8 @@
       "uv": 4,
       "sunrise": "2026-08-16T05:48",
       "sunset": "2026-08-16T19:17",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-17",
@@ -81,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-17T05:49",
       "sunset": "2026-08-17T19:16",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-18",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-18T05:50",
       "sunset": "2026-08-18T19:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-19",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-19T05:50",
       "sunset": "2026-08-19T19:14",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-15T13:52:26.675922+00:00"
+  "updated_at": "2026-08-15T14:16:40.437100+00:00"
 }

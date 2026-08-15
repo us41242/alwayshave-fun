@@ -17,30 +17,28 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 72,
-    "wind_mph": 5,
-    "gusts_mph": 6,
+    "temp_f": 72,
+    "feels_like_f": 74,
+    "wind_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-08-15T05:56",
   "sunset": "2026-08-15T19:28",
   "aqi": {
-    "aqi": 37,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 36.3,
-    "fire_count_50km": 7,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
       "acres": 45,
@@ -61,19 +59,19 @@
       "uv": 8,
       "sunrise": "2026-08-15T05:56",
       "sunset": "2026-08-15T19:28",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-16",
-      "high_f": 99,
+      "high_f": 100,
       "low_f": 78,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-16T05:56",
       "sunset": "2026-08-16T19:27",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-17",
@@ -83,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-08-17T05:57",
       "sunset": "2026-08-17T19:26",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-18",
@@ -94,8 +92,8 @@
       "uv": 8,
       "sunrise": "2026-08-18T05:58",
       "sunset": "2026-08-18T19:25",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-19",
@@ -105,9 +103,9 @@
       "uv": 8,
       "sunrise": "2026-08-19T05:59",
       "sunset": "2026-08-19T19:23",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-15T13:49:59.958616+00:00"
+  "updated_at": "2026-08-15T14:14:29.430881+00:00"
 }

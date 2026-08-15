@@ -4,23 +4,9 @@ const STATES = ['nv', 'ut', 'az', 'ca', 'co', 'nm'];
 // Worker maps /articles/{slug} → /articles/{slug}.html
 
 export default {
-  async scheduled(event, env, ctx) {
-    const resp = await fetch(
-      'https://api.github.com/repos/us41242/alwayshave-fun/actions/workflows/fetch_conditions.yml/dispatches',
-      {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${env.GH_DISPATCH_TOKEN}`,
-          'Accept': 'application/vnd.github+json',
-          'User-Agent': 'alwayshave-fun-cron',
-        },
-        body: JSON.stringify({ ref: 'main' }),
-      }
-    );
-    if (!resp.ok) {
-      console.error(`dispatch failed: ${resp.status} ${await resp.text()}`);
-    }
-  },
+  // scheduled() handler removed 2026-08-14 — the pipeline cron moved to
+  // GitHub Actions' native schedule after the Worker's GH_DISPATCH_TOKEN
+  // expired and 401'd silently for 6 hours.
 
   async fetch(request, env) {
     const url = new URL(request.url);

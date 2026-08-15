@@ -3,9 +3,10 @@ main = "worker.js"
 compatibility_date = "2024-09-23"
 
 [triggers]
-# 30-min cadence matches the site's documented update promise; */20 was
-# burning ~2,150 builds+workflow runs/mo for no user-visible freshness gain.
-crons = ["*/30 * * * *"]
+# Worker cron retired 2026-08-14: its GH_DISPATCH_TOKEN expired and 401'd
+# silently. The pipeline now runs on GitHub Actions' own schedule trigger
+# (fetch_conditions.yml) — no token to expire. Empty list removes the cron.
+crons = []
 
 [assets]
 directory = "."

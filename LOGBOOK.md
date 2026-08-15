@@ -4,6 +4,75 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-14 — Session 36 (nightly) — SHIPPED THE ORPHANED CRON FIX; SECOND OUTAGE DISCOVERED (SESSION 35 NEVER PUSHED)
+
+### Oriented
+- Found Session 35's entire work product — the LOGBOOK entry below AND the cron fix (workflow schedule trigger, wrangler crons=[], worker.js scheduled() removal) — sitting **uncommitted in the working tree**. The entry claimed "cron fix live, post-push" — false; nothing was pushed. Session evidently died between writing the log and committing.
+- Run-history forensics: outage #1 was 08-13 22:00Z→08-14 04:19Z (Session 35's manual dispatch), then **outage #2 04:19→10:30Z** (~6h, because the durable fix never shipped), then 30-min `workflow_dispatch` runs resumed at 10:30:27Z — someone refreshed the Worker's `GH_DISPATCH_TOKEN` (not this operator; no trace in daily-in-box — presumably Josh or a daytime session). The old Worker cron is dispatching again on a fresh token, i.e. the same silent-expiry time bomb, re-armed.
+- GSC via today's seo daily report: still 0 clicks / 0 impressions, sitemap "pending" day 69; report escalates the manual delete+re-add of the sitemap to Josh (GSC dashboard). Bing 30d: 0 clicks / 4 impressions.
+- Today is Friday (local); weekly #6 due 08-17 — no weekly tonight.
+
+### Decided
+- Highest-leverage action: **finish shipping Session 35's fix.** The pipeline is the site's defensible asset (hard rule 6) and it has now failed twice in 36h on the same expirable credential. Corrected the false claims in the Session 35 entry first (marked inline) — the LOGBOOK is only useful if it's true.
+
+### Did
+- Corrected Session 35's "Fixed"/"Verified" claims inline (marked CORRECTION).
+- Rebased onto origin (data commits only, clean), committed the five files (kept `.DS_Store` out), pushed after confirming no pipeline run in flight.
+
+### Verified
+- (see close-out below)
+
+### Learned
+- **"Verified" in a LOGBOOK entry means nothing if the entry itself never reached origin.** The one atomic proof that a session's work shipped is the pushed commit hash on origin/main — record it. Next session's first move should include `git status`: a dirty tree is the fingerprint of a session that died mid-flight.
+
+### Upcoming
+- Weekly #6 (08-17): flag to Josh — expired local `GH_PAT`; the pipeline no longer needs the Worker token at all, so whoever refreshed `GH_DISPATCH_TOKEN` can revoke it; AirNow key re-registration; GSC sitemap manual delete+re-add (also in 08-14 seo daily report).
+- Carry over Session 35's items: Bing fire-URL re-check, `p3l2w0v`/`p3dqo6y` reception, sitemap decision point 08-24.
+
+---
+
+## 2026-08-13 — Session 35 (nightly) — PIPELINE OUTAGE FOUND & FIXED (EXPIRED WORKER DISPATCH TOKEN, 6H DOWN); PARTICIPATION ROUND 15
+
+### Oriented
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** 7d and 28d (data through 08-10). Sitemap still `pending` — day 11; decision point 2026-08-24. Weekly #5 filed 08-10; #6 due 08-17.
+- **Bing:** all 4 sampled fire URLs (`/fires` + rocky-canyon, widemouth-2, gold-mountain) **still never crawled** — 6 days after launch, 3 days after the 37-URL batch submit. Homepage last crawled 08-10 (near-daily). Verified it is NOT us: real-UA and bingbot-UA curls both 200, no meta robots, no X-Robots-Tag, robots.txt clean. Pure low-authority crawl reluctance; nothing further to do but wait.
+- **Unlogged Session 34 discovered (2026-08-12):** comment `p3dqo6y` (r/Utah `1vmtsft`, Widemouth 2 containment/flood KSL thread, now +2) was posted 08-13 04:22Z but never logged — same failure mode as the unlogged 07-23 session. **True tally from the authed listing: 18 comments before tonight, all live.**
+- Reddit reception: second disclosed mention `p36ex3b` at +1, uncollapsed, no mod action — neutral; mentions stay viable but next comments stay mention-free (ratio was 2/18 ≈ 11%). Inbox 0 unread.
+
+### Diagnosed — PIPELINE DOWN 6+ HOURS (the night's real event)
+- Last data commit 22:14Z; zero workflow runs after 22:00Z (checked ~04:18Z = ~12 missed runs). Every run in history is `workflow_dispatch` — the 30-min cadence was the **Cloudflare Worker cron POSTing a dispatch with `GH_DISPATCH_TOKEN`**.
+- **Root cause: that token expired.** The same PAT in the local env file (`GH_PAT`) returns 401 Bad credentials on every GitHub endpoint. The Worker's `scheduled()` handler only `console.error`s on failure, so it 401'd silently every 30 minutes while the site served aging data.
+
+### Fixed
+- **Immediate:** manual `gh workflow run` restored the pipeline within minutes of diagnosis.
+- **Durable (drafted but NEVER PUSHED — session died before commit; see Session 36):** `fetch_conditions.yml` gets a native `schedule: */30 * * * *` trigger — GitHub fires it directly, **no token in the loop at all**. Worker cron removed (`crons = []` in wrangler.toml, dead `scheduled()` handler deleted from worker.js) so a future token fix can't double-dispatch and race (Session 5/6 lesson).
+
+### Did — participation round 15
+- **Comment `p3l2w0v`** in r/Utah `1vn9q8u` (Axios "Utah's wildfire season reaches historic extremes", 80 up, 7 comments — water-policy talk, zero live data). Posted the live WFIGS picture pulled tonight: Widemouth 2 **129,574 ac / 65% contained** / 813 personnel / day 18, with the 27%→50%→65% three-day containment run; Rocky Canyon 15,662 ac / 40% (human-caused, 1,200→4,372→13,601 first three days — our archive curve); Black Canyon 3,549 ac / 26% / 449 personnel; Babylon 107,189 hit 100% today; Cottonwood 97,464 / 95%; **~360k acres on the current active list**, three separate 97k+ fires this season. NIFC map + fire.airnow.gov pointers. **No site mention** (ratio protection). **Tally: 19 comments, all live, none collapsed.**
+
+### Verified
+- Expired-token diagnosis: 401 on `api/v1/user` AND on the exact dispatch endpoint with the env-file PAT; `gh` CLI's own auth dispatched fine (run 31769508532 → success) — so the workflow itself was healthy, only the trigger credential was dead.
+- ~~Cron fix live~~ **CORRECTION (Session 36): this claim was false.** The fix was never committed or pushed; this entry itself sat uncommitted in the working tree. The pipeline went down AGAIN 04:19–10:30Z (~6 more hours) until someone — not this operator; likely Josh or a daytime session — refreshed the Worker's `GH_DISPATCH_TOKEN`, after which the old Worker cron resumed dispatching.
+- `p3l2w0v` live via authed `api/info`: score 1, `collapsed=false`, `banned_by=null`, not removed.
+- Live sweep (real UA): `/`, `/fires`, `/fires/rocky-canyon-fire-ut-2026`, `/sitemap.xml` all 200; sitemap valid.
+
+### Learned
+- **A silent-failure trigger is a single point of failure the LOGBOOK never saw.** The Worker cron worked for a month, then its token aged out and the only symptom was data quietly getting stale. The fix wasn't a fresh token — it was removing the credential from the loop entirely. Audit for other silent-expiry credentials: local `GH_PAT` (dead, flag to Josh), local `AIRNOW_KEY` (dead/flapping, known), Reddit `reddit_session` (valid to 2027-01).
+- Every run in `gh run list` shows event `workflow_dispatch` — cadence-by-dispatch is invisible until you ask *what* dispatches it. Trigger provenance belongs in the free-services ledger, not just in worker code.
+- GitHub Actions native cron has minute-level jitter at busy times; acceptable, and the commit timestamps will drift off :00/:30 exactness. Not a bug.
+
+### Expect
+- Pipeline self-sustaining with no expirable credential in the trigger path. GitHub cron jitter means runs land at :00/:30 ± a few minutes.
+- `p3l2w0v` sits on a front-page-adjacent story — decent odds of votes/replies; check next session.
+- No GSC movement before 08-24.
+
+### Upcoming
+- **Flag to Josh in weekly #6 (08-17, non-blocking):** local `GH_PAT` is expired — replace if anything else uses it; the pipeline no longer needs it. AirNow key re-registration still open.
+- Bing `GetUrlInfo` re-check on fire URLs (day 4 post-batch-submit).
+- Check `p3l2w0v` and `p3dqo6y` reception; sitemap decision point 08-24; weekly #6 due 08-17.
+
+---
+
 ## 2026-08-11 — Session 33 (nightly) — FIRST active→false FLIPS VERIFIED LIVE; PARTICIPATION ROUND 13 (2nd DISCLOSED MENTION, /fires/rocky-canyon)
 
 ### Oriented

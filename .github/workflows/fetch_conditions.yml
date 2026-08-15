@@ -2,6 +2,12 @@ name: Fetch Trail Conditions
 
 on:
   workflow_dispatch:
+  # Native cron replaces the Cloudflare Worker cron (2026-08-14): the Worker's
+  # GH_DISPATCH_TOKEN expired 2026-08-13 ~22:30Z and silently 401'd, stopping the
+  # pipeline for 6h. No token here — GitHub fires it directly. UTC, ±jitter at
+  # busy times is acceptable.
+  schedule:
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write

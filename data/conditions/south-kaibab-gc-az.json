@@ -17,27 +17,27 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 92,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 76,
-    "feels_like_f": 74,
-    "wind_mph": 8,
-    "gusts_mph": 13,
+    "temp_f": 75,
+    "feels_like_f": 71,
+    "wind_mph": 4,
+    "gusts_mph": 10,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-15T05:47",
+  "sunset": "2026-08-15T19:18",
   "aqi": {
-    "aqi": 48,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
-    "nearest_fire_km": 99.2,
+    "nearest_fire_km": 99.1,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cliff Spring",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-15T20:50:15.418254+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-15",
+      "high_f": 78,
+      "low_f": 50,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-15T05:47",
+      "sunset": "2026-08-15T19:18",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-16",
+      "high_f": 80,
+      "low_f": 60,
+      "rain_pct": 7,
+      "uv": 6,
+      "sunrise": "2026-08-16T05:47",
+      "sunset": "2026-08-16T19:17",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-17",
+      "high_f": 85,
+      "low_f": 63,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-17T05:48",
+      "sunset": "2026-08-17T19:16",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-18",
+      "high_f": 87,
+      "low_f": 65,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-08-18T05:49",
+      "sunset": "2026-08-18T19:14",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-19",
+      "high_f": 86,
+      "low_f": 67,
+      "rain_pct": 11,
+      "uv": 7,
+      "sunrise": "2026-08-19T05:50",
+      "sunset": "2026-08-19T19:13",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-15T21:14:25.311365+00:00"
 }

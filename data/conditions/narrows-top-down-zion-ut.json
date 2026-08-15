@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 74,
@@ -27,8 +27,8 @@
     "gusts_mph": 10,
     "rain_pct": 1
   },
-  "sunrise": "2026-08-15T06:48",
-  "sunset": "2026-08-15T20:24",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 37,
     "category": "Good",
@@ -50,66 +50,10 @@
     }
   },
   "river": {
-    "cfs": 46,
+    "cfs": 45,
     "stage": "low",
     "gauge_id": "09405500"
   },
-  "forecast": [
-    {
-      "date": "2026-08-15",
-      "high_f": 78,
-      "low_f": 53,
-      "rain_pct": 17,
-      "uv": 8,
-      "sunrise": "2026-08-15T06:48",
-      "sunset": "2026-08-15T20:24",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-16",
-      "high_f": 82,
-      "low_f": 59,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-16T06:49",
-      "sunset": "2026-08-16T20:22",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-17",
-      "high_f": 83,
-      "low_f": 63,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-17T06:49",
-      "sunset": "2026-08-17T20:21",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-18",
-      "high_f": 84,
-      "low_f": 67,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-18T06:50",
-      "sunset": "2026-08-18T20:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-19",
-      "high_f": 85,
-      "low_f": 68,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-19T06:51",
-      "sunset": "2026-08-19T20:18",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-08-15T19:19:59.056072+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-15T19:46:35.104782+00:00"
 }

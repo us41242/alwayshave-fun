@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T08:52:36.708263+00:00",
+  "updated_at": "2026-08-15T09:18:26.369281+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 172,
+  "count": 170,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -808,18 +808,6 @@
       "discovered": "2026-08-13T21:38:42+00:00"
     },
     {
-      "name": "Whispering Pine",
-      "acres": 0.25,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 37.44657560413667,
-      "lng": -112.5417914676804,
-      "updated": "2026-08-15T02:05:20.427000+00:00",
-      "state": "UT",
-      "personnel": null,
-      "discovered": "2026-08-15T01:54:45+00:00"
-    },
-    {
       "name": "Grande",
       "acres": 0.25,
       "containment_pct": null,
@@ -830,6 +818,18 @@
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-14T21:02:43+00:00"
+    },
+    {
+      "name": "Whispering Pine",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 37.44657560413667,
+      "lng": -112.5417914676804,
+      "updated": "2026-08-15T02:05:20.427000+00:00",
+      "state": "UT",
+      "personnel": null,
+      "discovered": "2026-08-15T01:54:45+00:00"
     },
     {
       "name": "Palma",
@@ -880,6 +880,18 @@
       "discovered": "2026-08-13T23:41:00+00:00"
     },
     {
+      "name": "Lefthand Canyon",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 40.09860444359055,
+      "lng": -105.33870323138895,
+      "updated": "2026-08-14T21:52:18.780000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-14T20:33:59+00:00"
+    },
+    {
       "name": "Ostrander Rock",
       "acres": 0.1,
       "containment_pct": null,
@@ -904,16 +916,16 @@
       "discovered": "2026-08-14T23:21:23+00:00"
     },
     {
-      "name": "Lefthand Canyon",
+      "name": "Gunsight",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Natural",
-      "lat": 40.09860444359055,
-      "lng": -105.33870323138895,
-      "updated": "2026-08-14T21:52:18.780000+00:00",
+      "cause": "Undetermined",
+      "lat": 37.26550595811888,
+      "lng": -106.72984323628306,
+      "updated": "2026-08-12T20:17:12.543000+00:00",
       "state": "CO",
       "personnel": null,
-      "discovered": "2026-08-14T20:33:59+00:00"
+      "discovered": "2026-08-12T17:35:00+00:00"
     },
     {
       "name": "Steep",
@@ -926,18 +938,6 @@
       "state": "CO",
       "personnel": null,
       "discovered": "2026-08-12T21:55:37+00:00"
-    },
-    {
-      "name": "Gunsight",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 37.26550595811888,
-      "lng": -106.72984323628306,
-      "updated": "2026-08-12T20:17:12.543000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-12T17:35:00+00:00"
     },
     {
       "name": "Companero",
@@ -1288,16 +1288,16 @@
       "discovered": "2026-08-14T05:03:28+00:00"
     },
     {
-      "name": "Lac-285129",
+      "name": "Lac-288047",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.903814845211066,
-      "lng": -118.1429321582404,
-      "updated": "2026-08-12T15:17:32.313000+00:00",
+      "lat": 33.927174842421074,
+      "lng": -118.23907217627114,
+      "updated": "2026-08-14T20:30:51.523000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T15:17:13+00:00"
+      "discovered": "2026-08-14T20:30:21+00:00"
     },
     {
       "name": "Lac-286989",
@@ -1312,28 +1312,16 @@
       "discovered": "2026-08-13T23:06:02+00:00"
     },
     {
-      "name": "Lac-288047",
+      "name": "Lac-285129",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.927174842421074,
-      "lng": -118.23907217627114,
-      "updated": "2026-08-14T20:30:51.523000+00:00",
+      "lat": 33.903814845211066,
+      "lng": -118.1429321582404,
+      "updated": "2026-08-12T15:17:32.313000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-14T20:30:21+00:00"
-    },
-    {
-      "name": "Ponderosa 2",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.23878800412018,
-      "lng": -123.14601350329045,
-      "updated": "2026-08-14T05:53:04.447000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-14T05:26:27+00:00"
+      "discovered": "2026-08-12T15:17:13+00:00"
     },
     {
       "name": "Fence",
@@ -1348,16 +1336,16 @@
       "discovered": "2026-08-12T19:05:58+00:00"
     },
     {
-      "name": "Lac-284923",
+      "name": "Ponderosa 2",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.902074847151496,
-      "lng": -118.10478215168071,
-      "updated": "2026-08-12T09:00:43.223000+00:00",
+      "lat": 39.23878800412018,
+      "lng": -123.14601350329045,
+      "updated": "2026-08-14T05:53:04.447000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-12T08:59:23+00:00"
+      "discovered": "2026-08-14T05:26:27+00:00"
     },
     {
       "name": "Lac-288749",
@@ -1586,18 +1574,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-13T06:57:33+00:00"
-    },
-    {
-      "name": "Lac-284916",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.066834882544576,
-      "lng": -117.80301211399872,
-      "updated": "2026-08-12T08:58:33.950000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-12T08:46:13+00:00"
     },
     {
       "name": "Wildfire Training",
@@ -1996,18 +1972,6 @@
       "discovered": "2026-08-13T23:45:54+00:00"
     },
     {
-      "name": "Wesley",
-      "acres": null,
-      "containment_pct": null,
-      "cause": null,
-      "lat": 35.44833825882782,
-      "lng": -119.02001243828207,
-      "updated": "2026-08-13T23:34:18.353000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-13T23:24:00+00:00"
-    },
-    {
       "name": "Cmd Helicopters 2026",
       "acres": null,
       "containment_pct": null,
@@ -2018,6 +1982,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-12T20:30:00+00:00"
+    },
+    {
+      "name": "Wesley",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "lat": 35.44833825882782,
+      "lng": -119.02001243828207,
+      "updated": "2026-08-13T23:34:18.353000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-13T23:24:00+00:00"
     },
     {
       "name": "Wesley",

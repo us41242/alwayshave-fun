@@ -17,11 +17,9 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 75,
     "feels_like_f": 76,
@@ -38,9 +36,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 36.8,
-    "fire_count_50km": 1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Black Mountain",
       "acres": 45,
@@ -53,5 +51,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-15T08:54:30.876532+00:00"
+  "updated_at": "2026-08-15T09:20:20.066409+00:00"
 }

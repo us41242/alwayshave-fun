@@ -17,29 +17,40 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended",
+    "rain gear recommended"
+  ],
   "current": {
-    "temp_f": 51,
+    "temp_f": 50,
     "feels_like_f": 46,
     "wind_mph": 10,
-    "gusts_mph": 20,
-    "rain_pct": 29
+    "gusts_mph": 23,
+    "rain_pct": 46
   },
   "sunrise": "2026-08-14T05:53",
   "sunset": "2026-08-14T19:28",
   "aqi": {
-    "aqi": 42,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 140.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Black Mountain",
+      "acres": 45,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-11T21:11:37.800000+00:00",
+      "distance_km": 47.8,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -56,9 +67,9 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 74,
+      "high_f": 71,
       "low_f": 50,
-      "rain_pct": 11,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-08-15T05:54",
       "sunset": "2026-08-15T19:27",
@@ -68,7 +79,7 @@
     {
       "date": "2026-08-16",
       "high_f": 75,
-      "low_f": 58,
+      "low_f": 60,
       "rain_pct": 2,
       "uv": 7,
       "sunrise": "2026-08-16T05:54",
@@ -99,5 +110,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-15T01:35:27.287151+00:00"
+  "updated_at": "2026-08-15T02:05:51.063073+00:00"
 }

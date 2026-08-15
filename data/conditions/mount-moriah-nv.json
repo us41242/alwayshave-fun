@@ -24,9 +24,9 @@
   ],
   "current": {
     "temp_f": 44,
-    "feels_like_f": 37,
-    "wind_mph": 8,
-    "gusts_mph": 11,
+    "feels_like_f": 36,
+    "wind_mph": 7,
+    "gusts_mph": 10,
     "rain_pct": 20
   },
   "sunrise": "2026-08-14T05:49",
@@ -39,9 +39,18 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 172.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8683,
+      "containment_pct": 96,
+      "cause": "Natural",
+      "updated": "2026-08-14T22:25:20.610000+00:00",
+      "distance_km": 63.7,
+      "direction": "WSW",
+      "page": "/fires/ward-fire-nv-2026"
+    }
   },
   "river": null,
   "forecast": [
@@ -60,16 +69,16 @@
       "date": "2026-08-15",
       "high_f": 55,
       "low_f": 36,
-      "rain_pct": 12,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-08-15T05:50",
       "sunset": "2026-08-15T19:32",
-      "predicted_score": 88,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-16",
-      "high_f": 63,
+      "high_f": 61,
       "low_f": 40,
       "rain_pct": 2,
       "uv": 8,
@@ -101,5 +110,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-15T01:41:52.093296+00:00"
+  "updated_at": "2026-08-15T02:08:24.090332+00:00"
 }

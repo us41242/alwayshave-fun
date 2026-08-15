@@ -22,24 +22,32 @@
   "gear_flags": [],
   "current": {
     "temp_f": 47,
-    "feels_like_f": 41,
-    "wind_mph": 6,
-    "gusts_mph": 11,
-    "rain_pct": 13
+    "feels_like_f": 40,
+    "wind_mph": 9,
+    "gusts_mph": 12,
+    "rain_pct": 9
   },
   "sunrise": "2026-08-14T06:20",
   "sunset": "2026-08-14T20:04",
   "aqi": {
-    "aqi": 33,
+    "aqi": 30,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 193.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cold Mountain",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-13T02:24:26.043000+00:00",
+      "distance_km": 39.4,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,7 +55,7 @@
       "date": "2026-08-14",
       "high_f": 54,
       "low_f": 39,
-      "rain_pct": 21,
+      "rain_pct": 25,
       "uv": 7,
       "sunrise": "2026-08-14T06:20",
       "sunset": "2026-08-14T20:04",
@@ -56,9 +64,9 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 56,
+      "high_f": 55,
       "low_f": 38,
-      "rain_pct": 16,
+      "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-08-15T06:21",
       "sunset": "2026-08-15T20:03",
@@ -67,8 +75,8 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 60,
-      "low_f": 38,
+      "high_f": 58,
+      "low_f": 37,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-16T06:22",
@@ -99,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-15T01:43:42.864672+00:00"
+  "updated_at": "2026-08-15T02:10:52.673117+00:00"
 }

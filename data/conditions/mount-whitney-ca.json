@@ -23,11 +23,11 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
+    "temp_f": 34,
     "feels_like_f": 22,
-    "wind_mph": 16,
-    "gusts_mph": 18,
-    "rain_pct": 1
+    "wind_mph": 14,
+    "gusts_mph": 16,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-14T06:10",
   "sunset": "2026-08-14T19:45",
@@ -39,9 +39,18 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 199.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Rock",
+      "acres": 12008,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "updated": "2026-08-06T01:03:48.163000+00:00",
+      "distance_km": 37.9,
+      "direction": "N",
+      "page": "/fires/rock-fire-ca-2026"
+    }
   },
   "river": null,
   "forecast": [
@@ -58,7 +67,7 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 43,
+      "high_f": 42,
       "low_f": 27,
       "rain_pct": 2,
       "uv": 9,
@@ -69,7 +78,7 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 48,
+      "high_f": 45,
       "low_f": 28,
       "rain_pct": 5,
       "uv": 8,
@@ -101,5 +110,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-15T01:45:36.764753+00:00"
+  "updated_at": "2026-08-15T02:12:12.395987+00:00"
 }

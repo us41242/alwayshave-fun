@@ -21,25 +21,34 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 43,
-    "wind_mph": 5,
-    "gusts_mph": 15,
-    "rain_pct": 11
+    "temp_f": 46,
+    "feels_like_f": 41,
+    "wind_mph": 6,
+    "gusts_mph": 19,
+    "rain_pct": 13
   },
   "sunrise": "2026-08-14T06:26",
   "sunset": "2026-08-14T20:05",
   "aqi": {
-    "aqi": 18,
+    "aqi": 20,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 262.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Gold Mountain",
+      "acres": 39674,
+      "containment_pct": 87,
+      "cause": "Undetermined",
+      "updated": "2026-08-15T00:02:19.877000+00:00",
+      "distance_km": 32.6,
+      "direction": "NNE",
+      "page": "/fires/gold-mountain-fire-co-2026"
+    }
   },
   "river": null,
   "forecast": [
@@ -56,7 +65,7 @@
     },
     {
       "date": "2026-08-15",
-      "high_f": 56,
+      "high_f": 57,
       "low_f": 39,
       "rain_pct": 7,
       "uv": 8,
@@ -67,8 +76,8 @@
     },
     {
       "date": "2026-08-16",
-      "high_f": 62,
-      "low_f": 41,
+      "high_f": 60,
+      "low_f": 39,
       "rain_pct": 30,
       "uv": 8,
       "sunrise": "2026-08-16T06:27",
@@ -99,5 +108,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-15T01:45:32.669933+00:00"
+  "updated_at": "2026-08-15T02:12:10.559870+00:00"
 }

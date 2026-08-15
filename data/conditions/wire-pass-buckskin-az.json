@@ -17,8 +17,8 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 73,
@@ -27,8 +27,8 @@
     "gusts_mph": 11,
     "rain_pct": 2
   },
-  "sunrise": "2026-08-14T06:44",
-  "sunset": "2026-08-14T20:20",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 45,
     "category": "Good",
@@ -39,73 +39,9 @@
     "risk_level": "low",
     "nearest_fire_km": 161.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Sink Valley",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-15T00:17:35.427000+00:00",
-      "distance_km": 57.3,
-      "direction": "WNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-14",
-      "high_f": 72,
-      "low_f": 61,
-      "rain_pct": 43,
-      "uv": 6,
-      "sunrise": "2026-08-14T06:44",
-      "sunset": "2026-08-14T20:20",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-15",
-      "high_f": 85,
-      "low_f": 56,
-      "rain_pct": 8,
-      "uv": 8,
-      "sunrise": "2026-08-15T06:44",
-      "sunset": "2026-08-15T20:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-16",
-      "high_f": 85,
-      "low_f": 64,
-      "rain_pct": 4,
-      "uv": 5,
-      "sunrise": "2026-08-16T06:45",
-      "sunset": "2026-08-16T20:18",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-17",
-      "high_f": 91,
-      "low_f": 69,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-17T06:46",
-      "sunset": "2026-08-17T20:17",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-18",
-      "high_f": 94,
-      "low_f": 73,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-08-18T06:47",
-      "sunset": "2026-08-18T20:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-15T00:38:54.250215+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-15T01:07:49.340843+00:00"
 }

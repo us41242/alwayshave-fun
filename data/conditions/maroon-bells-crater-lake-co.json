@@ -17,11 +17,10 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 56,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required",
-    "N95 mask recommended for wildfire smoke"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 38,
@@ -33,15 +32,15 @@
   "sunrise": "2026-08-16T06:22",
   "sunset": "2026-08-16T20:01",
   "aqi": {
-    "aqi": 33,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 48.6,
-    "fire_count_50km": 1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Willow",
       "acres": 7534,
@@ -63,7 +62,7 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:22",
       "sunset": "2026-08-16T20:01",
-      "predicted_score": 86,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -74,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:23",
       "sunset": "2026-08-17T20:00",
-      "predicted_score": 86,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -85,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-08-18T06:24",
       "sunset": "2026-08-18T19:58",
-      "predicted_score": 86,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -96,8 +95,8 @@
       "uv": 7,
       "sunrise": "2026-08-19T06:25",
       "sunset": "2026-08-19T19:57",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-20",
@@ -107,9 +106,9 @@
       "uv": 8,
       "sunrise": "2026-08-20T06:26",
       "sunset": "2026-08-20T19:56",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-16T10:55:20.040580+00:00"
+  "updated_at": "2026-08-16T11:20:58.295387+00:00"
 }

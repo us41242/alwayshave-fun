@@ -4,6 +4,39 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-15 — Session 37 (nightly) — NATIVE CRON CONFIRMED HEALTHY; PARTICIPATION ROUND 16
+
+### Oriented
+- `git status` clean (Session 36's lesson applied — no dead-session fingerprint). Session 36's cron-migration commit `4dd1cc46070` is on origin.
+- **Native `schedule` cron verified working over a full day**: 15 most recent fetch_conditions runs are all event=`schedule`, all `success`, ~30-min cadence with GitHub's expected jitter (one skipped slot ~00:07Z — known GitHub cron behavior, next run caught up). Zero `workflow_dispatch` runs = the retired Worker cron is confirmed not double-dispatching, even though someone refreshed its token 08-14. No credential in the trigger path anymore.
+- GSC: **0 clicks / 0 impressions** 7d and 28d (data through 08-12). Sitemap still `pending` — day 70; decision point 2026-08-24. Weekly #5 filed 08-10; #6 due 08-17 — none tonight (Saturday).
+- **Bing `GetUrlInfo` re-check (carry-over):** `/fires` + rocky-canyon, widemouth-2, gold-mountain **still never crawled** — day 8 post-launch, day 5 post-batch-submit. Homepage crawl continues near-daily (last 08-15). Already verified clean on 08-13 (200s, no robots blocks); pure low-authority reluctance, keep waiting.
+- Reddit reception: all 19 comments live, none collapsed. `p3dqo6y` +3, `p3l2w0v` +1, `p36ex3b` (2nd mention) +1, `p1l4u8m` (1st mention) now **+6**. Inbox clear.
+
+### Decided
+- Binding constraint unchanged (authority ⇒ Phase 3). No fire/smoke threads tonight (season news quieted in both subs). Best genuine fit: r/Utah `1voln7g` "Looking for mountains to summit in November" — Houstonian planning Thanksgiving week, thread full of qualitative "November is a toss-up / go south" advice with zero numbers. Exactly the shape our ERA5 climate tables answer.
+
+### Did — participation round 16 (mention-free)
+- **Comment `p3yuiai`** in r/Utah `1voln7g`: November ERA5 normals (2015–2024) from our own climate data — St. George 62/42 / ~3 wet days, Zion floor 55/32, Moab 54/33, Kanarra 51/30, Bryce rim 44/27 ("already winter"); the reframe that ~26 of 30 November days down south are dry, so flexibility beats cancellation; **Signal Peak / Pine Valley Mtns (10,365')** as an actual Timp-scale southern summit; Thanksgiving-week daylight ~9.5h (SLC 7:27am–5:02pm, from Open-Meteo archive — NB its sunrise/sunset fields came back offset +1h, DST not applied post-Nov-2; durations correct, clock times corrected by hand); forecast.weather.gov pointer. No link, no site mention — **ratio back to 2/20 (10%)**.
+
+### Verified
+- `p3yuiai` live via authed `api/info`: score 1, `collapsed=false`, `banned_by=null`. **Tally: 20 comments, all live, none collapsed.**
+- Live sweep (real UA): `/`, `/fires`, `/sitemap.xml`, `/ut/pine-valley-mountain-ut` all 200; sitemap valid XML, 155 URLs; trail page data stamped 2026-08-16 03:37 UTC (fresh within cadence).
+- All comment numbers pulled tonight from `data/climate/*-ut.json` + Open-Meteo archive; none from memory.
+
+### Learned
+- Open-Meteo archive API `daily=sunrise,sunset` returns clock times **without DST fold applied** (SLC late-Nov "08:23" sunrise = 07:23 MST). Durations are trustworthy; clock times need the DST check before citing.
+
+### Expect
+- No GSC movement before 08-24. `p3yuiai` in a modest thread — small but real usefulness; trip-planning threads remain the off-season surface.
+
+### Upcoming
+- **Weekly #6 due 2026-08-17** — flag to Josh: expired local `GH_PAT` (pipeline no longer needs it; whoever refreshed `GH_DISPATCH_TOKEN` can revoke it), AirNow key re-registration, GSC sitemap manual delete+re-add.
+- Sitemap decision point 2026-08-24 (no homepage recrawl since 06-20 ⇒ authority is the whole strategy).
+- Bing fire-URL crawl re-check; `p3yuiai` reception.
+
+---
+
 ## 2026-08-14 — Session 36 (nightly) — SHIPPED THE ORPHANED CRON FIX; SECOND OUTAGE DISCOVERED (SESSION 35 NEVER PUSHED)
 
 ### Oriented

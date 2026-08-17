@@ -19,18 +19,20 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 78,
-    "feels_like_f": 69,
-    "wind_mph": 15,
-    "gusts_mph": 17,
+    "temp_f": 77,
+    "feels_like_f": 68,
+    "wind_mph": 16,
+    "gusts_mph": 21,
     "rain_pct": 2
   },
   "sunrise": "2026-08-17T06:13",
   "sunset": "2026-08-17T19:45",
   "aqi": {
-    "aqi": 41,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -40,13 +42,13 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Wishon",
-      "acres": 1,
+      "name": "Wheeler",
+      "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-15T22:15:26.140000+00:00",
-      "distance_km": 63.7,
-      "direction": "S"
+      "updated": "2026-08-17T22:24:42.110000+00:00",
+      "distance_km": 24.6,
+      "direction": "SE"
     }
   },
   "river": null,
@@ -65,7 +67,7 @@
     {
       "date": "2026-08-18",
       "high_f": 83,
-      "low_f": 57,
+      "low_f": 58,
       "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-08-18T06:14",
@@ -76,7 +78,7 @@
     {
       "date": "2026-08-19",
       "high_f": 83,
-      "low_f": 61,
+      "low_f": 62,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-19T06:14",
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-17T22:30:25.910562+00:00"
+  "updated_at": "2026-08-17T23:01:12.162228+00:00"
 }

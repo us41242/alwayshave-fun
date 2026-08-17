@@ -17,28 +17,30 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 84,
-    "feels_like_f": 84,
-    "wind_mph": 0,
-    "gusts_mph": 2,
+    "feels_like_f": 83,
+    "wind_mph": 2,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "sunrise": "2026-08-17T05:57",
   "sunset": "2026-08-17T19:26",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 32,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 32.5,
+    "fire_count_50km": 8,
     "nearest_incident": null
   },
   "river": null,
@@ -51,7 +53,7 @@
       "uv": 8,
       "sunrise": "2026-08-17T05:57",
       "sunset": "2026-08-17T19:26",
-      "predicted_score": 30,
+      "predicted_score": 46,
       "score_label": "Conditions poor"
     },
     {
@@ -62,7 +64,7 @@
       "uv": 7,
       "sunrise": "2026-08-18T05:58",
       "sunset": "2026-08-18T19:25",
-      "predicted_score": 30,
+      "predicted_score": 46,
       "score_label": "Conditions poor"
     },
     {
@@ -73,7 +75,7 @@
       "uv": 8,
       "sunrise": "2026-08-19T05:59",
       "sunset": "2026-08-19T19:23",
-      "predicted_score": 30,
+      "predicted_score": 46,
       "score_label": "Conditions poor"
     },
     {
@@ -84,7 +86,7 @@
       "uv": 8,
       "sunrise": "2026-08-20T06:00",
       "sunset": "2026-08-20T19:22",
-      "predicted_score": 30,
+      "predicted_score": 46,
       "score_label": "Conditions poor"
     },
     {
@@ -95,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-08-21T06:01",
       "sunset": "2026-08-21T19:21",
-      "predicted_score": 30,
+      "predicted_score": 46,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-17T09:33:24.001346+00:00"
+  "updated_at": "2026-08-17T10:06:56.384822+00:00"
 }

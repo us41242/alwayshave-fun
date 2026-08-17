@@ -17,28 +17,30 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 46,
+    "temp_f": 45,
     "feels_like_f": 40,
-    "wind_mph": 3,
-    "gusts_mph": 8,
+    "wind_mph": 2,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-08-16T06:22",
   "sunset": "2026-08-16T20:01",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 44,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.6,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Willow",
       "acres": 7534,
@@ -60,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-08-16T06:22",
       "sunset": "2026-08-16T20:01",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-17",
@@ -71,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:23",
       "sunset": "2026-08-17T20:00",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-18",
@@ -82,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-08-18T06:24",
       "sunset": "2026-08-18T19:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-19",
@@ -93,8 +95,8 @@
       "uv": 8,
       "sunrise": "2026-08-19T06:25",
       "sunset": "2026-08-19T19:57",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-20",
@@ -104,9 +106,9 @@
       "uv": 8,
       "sunrise": "2026-08-20T06:26",
       "sunset": "2026-08-20T19:56",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-17T03:46:58.084539+00:00"
+  "updated_at": "2026-08-17T04:18:35.332011+00:00"
 }

@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 80,
-    "feels_like_f": 76,
-    "wind_mph": 1,
-    "gusts_mph": 2,
+    "feels_like_f": 74,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "sunrise": "2026-08-16T06:49",
@@ -32,12 +32,12 @@
   "aqi": {
     "aqi": 46,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 183.2,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Pine",
@@ -50,7 +50,7 @@
     }
   },
   "river": {
-    "cfs": 38,
+    "cfs": 36,
     "stage": "low",
     "gauge_id": "09405500"
   },
@@ -59,7 +59,7 @@
       "date": "2026-08-16",
       "high_f": 90,
       "low_f": 62,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-16T06:49",
       "sunset": "2026-08-16T20:22",
@@ -92,7 +92,7 @@
       "date": "2026-08-19",
       "high_f": 92,
       "low_f": 75,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-19T06:51",
       "sunset": "2026-08-19T20:18",
@@ -103,7 +103,7 @@
       "date": "2026-08-20",
       "high_f": 94,
       "low_f": 74,
-      "rain_pct": 6,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-20T06:52",
       "sunset": "2026-08-20T20:17",
@@ -111,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-17T03:28:48.755378+00:00"
+  "updated_at": "2026-08-17T04:10:05.369277+00:00"
 }

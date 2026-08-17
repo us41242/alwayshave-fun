@@ -14,7 +14,9 @@ wrangler.toml
 .gitignore
 .assetsignore
 *.py
-*.csv
+# NOT *.csv — data/fires/growth-history.csv and data/climate/normals.csv are
+# published downloads for /data, and they 404'd until this rule came out. The
+# only other CSV in the repo is seeds/trails.csv, already covered by seeds/.
 *.md
 .env*
 env.local.example

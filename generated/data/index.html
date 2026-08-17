@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SENVGVQJ6X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SENVGVQJ6X');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Data — Southwest Wildfire, Trail Conditions & Climate Datasets | alwayshave.fun</title>
+  <meta name="description" content="Free, openly licensed datasets for Nevada, Utah, Arizona, Colorado and California: a day-by-day wildfire size and containment record covering 38 incidents, live trail conditions and air quality for 46 trails, and 10-year monthly climate normals. CC BY 4.0, JSON and CSV, updated every 30 minutes.">
+  <link rel="canonical" href="https://alwayshave.fun/data">
+  <meta property="og:title" content="Open Data — Southwest Wildfire, Trail Conditions & Climate Datasets | alwayshave.fun">
+  <meta property="og:description" content="Free, openly licensed datasets for Nevada, Utah, Arizona, Colorado and California: a day-by-day wildfire size and containment record covering 38 incidents, live trail conditions and air quality for 46 trails, and 10-year monthly climate normals. CC BY 4.0, JSON and CSV, updated every 30 minutes.">
+  <meta property="og:url" content="https://alwayshave.fun/data">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="alwayshave.fun">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Open Data — Southwest Wildfire, Trail Conditions & Climate Datasets | alwayshave.fun">
+  <meta name="twitter:description" content="Free, openly licensed datasets for Nevada, Utah, Arizona, Colorado and California: a day-by-day wildfire size and containment record covering 38 incidents, live trail conditions and air quality for 46 trails, and 10-year monthly climate normals. CC BY 4.0, JSON and CSV, updated every 30 minutes.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DataCatalog","@id":"https://alwayshave.fun/data","name":"alwayshave.fun Open Data","description":"Free, openly licensed datasets for Nevada, Utah, Arizona, Colorado and California: a day-by-day wildfire size and containment record covering 38 incidents, live trail conditions and air quality for 46 trails, and 10-year monthly climate normals. CC BY 4.0, JSON and CSV, updated every 30 minutes.","url":"https://alwayshave.fun/data","license":"https://creativecommons.org/licenses/by/4.0/","creator":{"@type":"Organization","name":"alwayshave.fun","url":"https://alwayshave.fun"},"dateModified":"2026-08-17T04:10:02.837972+00:00","dataset":[{"@id":"https://alwayshave.fun/data#wildfire-growth"},{"@id":"https://alwayshave.fun/data#trail-conditions"},{"@id":"https://alwayshave.fun/data#climate-normals"}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://alwayshave.fun"},{"@type":"ListItem","position":2,"name":"Open Data","item":"https://alwayshave.fun/data"}]},{"@type":"Dataset","@id":"https://alwayshave.fun/data#wildfire-growth","name":"Southwest Wildfire Daily Growth Record (NV, UT, AZ, CO, CA)","description":"A day-by-day record of size (acres) and containment percentage for every wildfire of 1,000 acres or more in Nevada, Utah, Arizona, Colorado and California, built by reading the federal NIFC/WFIGS Incident Locations feed every 30 minutes and keeping the last reading of each UTC day. The upstream feed publishes only a current snapshot, so the historical curve it implies is not otherwise available; this dataset is that curve. Incidents are retained permanently after they leave the active feed. Perimeter remaps can move acreage downward and are recorded as read, not smoothed.","url":"https://alwayshave.fun/data#wildfire-growth","license":"https://creativecommons.org/licenses/by/4.0/","creator":{"@type":"Organization","name":"alwayshave.fun","url":"https://alwayshave.fun"},"isAccessibleForFree":true,"dateModified":"2026-08-17T04:10:02.837972+00:00","temporalCoverage":"2026-08-09/2026-08-17","spatialCoverage":[{"@type":"Place","name":"Nevada"},{"@type":"Place","name":"Utah"},{"@type":"Place","name":"Arizona"},{"@type":"Place","name":"Colorado"},{"@type":"Place","name":"California"}],"keywords":["wildfire","fire containment","acres burned","NIFC","WFIGS","Nevada","Utah","Arizona","Colorado","California","wildfire history","fire growth"],"variableMeasured":[{"@type":"PropertyValue","name":"acres","description":"Incident size in acres as reported by NIFC/WFIGS on that date","unitText":"acre"},{"@type":"PropertyValue","name":"containment_pct","description":"Share of the fire perimeter under a control line, 0-100","unitText":"percent"},{"@type":"PropertyValue","name":"cause","description":"Reported cause: natural, human, or undetermined"}],"isBasedOn":"https://data-nifc.opendata.arcgis.com/","distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://alwayshave.fun/data/fires/growth-history.csv","name":"growth-history.csv \u2014 one row per incident per day"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://alwayshave.fun/data/fires/archive.json","name":"archive.json \u2014 full incident records with nested daily history"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://alwayshave.fun/data/fires/incidents.json","name":"incidents.json \u2014 the current 30-minute read of the active feed"}]},{"@type":"Dataset","@id":"https://alwayshave.fun/data#trail-conditions","name":"Live Trail Conditions and Air Quality, Southwest United States","description":"Current weather, air quality index, wildfire proximity, river flow where relevant, and a 1-100 hikeability score for 46 hiking trails across Nevada, Utah, Arizona, Colorado and California, refreshed every 30 minutes. Each record carries the observation timestamp and names the source of each reading, and reports missing values as missing rather than carrying a stale number forward. Weather and AQI fallback come from Open-Meteo, primary AQI from AirNow, fire proximity from NASA FIRMS and NIFC/WFIGS.","url":"https://alwayshave.fun/data#trail-conditions","license":"https://creativecommons.org/licenses/by/4.0/","creator":{"@type":"Organization","name":"alwayshave.fun","url":"https://alwayshave.fun"},"isAccessibleForFree":true,"dateModified":"2026-08-17T04:10:02.837972+00:00","spatialCoverage":[{"@type":"Place","name":"Nevada"},{"@type":"Place","name":"Utah"},{"@type":"Place","name":"Arizona"},{"@type":"Place","name":"Colorado"},{"@type":"Place","name":"California"}],"keywords":["air quality","AQI","hiking","trail conditions","PM2.5","weather","wildfire smoke","Southwest United States"],"variableMeasured":[{"@type":"PropertyValue","name":"aqi","description":"US EPA Air Quality Index at or near the trailhead"},{"@type":"PropertyValue","name":"score","description":"Composite 1-100 hikeability score (methodology at /scoring)"},{"@type":"PropertyValue","name":"current","description":"Temperature, wind, precipitation and humidity at the trailhead"}],"distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://alwayshave.fun/data/trails-index.json","name":"trails-index.json \u2014 all trails with current score and conditions"}]},{"@type":"Dataset","@id":"https://alwayshave.fun/data#climate-normals","name":"Trailhead Monthly Climate Normals, 2015-2024 (ERA5)","description":"Ten-year monthly normals \u2014 average high, average low, and count of wet days \u2014 computed at the trailhead coordinates of 46 Southwest hiking trails from the ERA5 reanalysis via Open-Meteo's historical archive. Intended for the question a gridded national normal answers badly: what a specific trailhead is typically like in a given month, including trails whose elevation puts them in a different regime from the nearest town.","url":"https://alwayshave.fun/data#climate-normals","license":"https://creativecommons.org/licenses/by/4.0/","creator":{"@type":"Organization","name":"alwayshave.fun","url":"https://alwayshave.fun"},"isAccessibleForFree":true,"temporalCoverage":"2015-01-01/2024-12-31","spatialCoverage":[{"@type":"Place","name":"Nevada"},{"@type":"Place","name":"Utah"},{"@type":"Place","name":"Arizona"},{"@type":"Place","name":"Colorado"},{"@type":"Place","name":"California"}],"keywords":["climate normals","ERA5","monthly temperature","precipitation","hiking season","best time to hike"],"variableMeasured":[{"@type":"PropertyValue","name":"avg_high_f","description":"Mean daily maximum temperature","unitText":"degree Fahrenheit"},{"@type":"PropertyValue","name":"avg_low_f","description":"Mean daily minimum temperature","unitText":"degree Fahrenheit"},{"@type":"PropertyValue","name":"wet_days","description":"Mean count of days per month with measurable precipitation","unitText":"day"}],"isBasedOn":"https://open-meteo.com/en/docs/historical-weather-api","distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://alwayshave.fun/data/climate/normals.csv","name":"normals.csv \u2014 one row per trail per month"}]}]}</script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0c1117; color: #e6edf3; font-family: 'Inter', sans-serif; }
+    a { color: inherit; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    .nav { position: sticky; top: 0; background: rgba(12,17,23,.95); border-bottom: 1px solid #30363d; z-index: 100; padding: 14px 0; }
+    .nav-inner { display: flex; align-items: center; gap: 12px; }
+    .nav-logo { font-weight: 800; font-size: 1.1rem; text-decoration: none; color: #e6edf3; }
+    .nav-sep { color: #30363d; }
+    .nav-state { color: #8b949e; font-size: .9rem; }
+    .hero { padding: 48px 0 32px; border-bottom: 1px solid #30363d; }
+    .h1 { font-size: 2.4rem; font-weight: 900; line-height: 1.1; margin-bottom: 12px; }
+    .stats { display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
+    .pill { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 8px 16px; font-size: .85rem; color: #8b949e; }
+    .pill strong { color: #e6edf3; font-size: 1.1rem; }
+    .intro { font-size: .95rem; color: #8b949e; line-height: 1.7; margin-top: 16px; }
+    .section-title { font-size: 1rem; font-weight: 700; color: #8b949e; text-transform: uppercase; letter-spacing: .08em; padding: 28px 0 4px; }
+    .faq { padding: 32px 0 40px; border-top: 1px solid #30363d; margin-top: 24px; }
+    .faq h3 { font-size: .95rem; margin: 18px 0 4px; }
+    .faq p { font-size: .88rem; color: #8b949e; line-height: 1.7; }
+    footer { border-top: 1px solid #30363d; padding: 32px 0; font-size: .8rem; color: #6e7681; line-height: 2; text-align: center; }
+    footer a { color: #8b949e; text-decoration: none; }
+    footer a:hover { color: #e6edf3; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap">
+      <div class="nav-inner">
+        <a class="nav-logo" href="/">alwayshave.fun</a>
+        <span class="nav-sep">/</span>
+        <span class="nav-state">Open Data</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <div class="hero">
+      <div class="h1">📊 Open Data</div>
+      <div class="stats">
+        <div class="pill"><strong>38</strong> wildfire incidents</div>
+        <div class="pill"><strong>280</strong> daily fire readings</div>
+        <div class="pill"><strong>46</strong> trails</div>
+      </div>
+      <p class="intro">
+        Everything this site measures is published here as plain JSON and CSV under
+        <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" style="color:#58a6ff">CC BY 4.0</a> —
+        free to use, including commercially, with attribution. No key, no signup, no rate limit
+        beyond ordinary politeness. Rebuilt every 30 minutes; last write <strong>2026-08-17 04:10 UTC</strong>.
+      </p>
+    </div>
+
+    <div class="section-title">1. Southwest wildfire daily growth record</div>
+    <p class="intro">
+      Size and containment for every wildfire of 1,000+ acres in Nevada, Utah,
+      Arizona, Colorado and California, <strong>one row per incident per day</strong> —
+      38 incidents, 280 readings, 2026-08-09 to 2026-08-17, with a multi-day curve on
+      37 of them.
+    </p>
+    <p class="intro">
+      The reason this exists: the federal NIFC/WFIGS feed publishes a <em>current snapshot</em>
+      and overwrites it. Read it 48 times a day and keep the last reading of each UTC day and you
+      have the growth curve the snapshot implies but never shows — how fast a fire ran, which day
+      it blew up, when containment actually started moving. That record is what is published here.
+      Incidents stay in the file permanently once they enter it, including after they drop off the
+      active feed; when that happens the file says only that NIFC stopped listing the incident,
+      because the feed does not say whether a fire was contained or declared out and we do not
+      guess. Acreage sometimes falls when a perimeter is remapped — those revisions are kept as
+      read rather than smoothed away.
+    </p>
+    <p class="intro">
+      <a href="/data/fires/growth-history.csv" style="color:#58a6ff">growth-history.csv</a> (280 rows) &nbsp;·&nbsp;
+      <a href="/data/fires/archive.json" style="color:#58a6ff">archive.json</a> (nested daily history) &nbsp;·&nbsp;
+      <a href="/data/fires/incidents.json" style="color:#58a6ff">incidents.json</a> (current read) &nbsp;·&nbsp;
+      <a href="/fires" style="color:#58a6ff">browse it as pages</a>
+    </p>
+    <div class="section-title" style="font-size:.85rem">CSV columns</div>
+    <div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">date</code> <span style="color:#8b949e">— UTC date of the reading, YYYY-MM-DD</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">incident_slug</code> <span style="color:#8b949e">— stable key for the incident; also its page at /fires/{slug}</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">incident_name</code> <span style="color:#8b949e">— incident name as published by NIFC</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">state</code> <span style="color:#8b949e">— NV, UT, AZ, CO or CA</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">acres</code> <span style="color:#8b949e">— size in acres on that date</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">containment_pct</code> <span style="color:#8b949e">— 0–100; empty when the feed reported no value</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">cause</code> <span style="color:#8b949e">— natural, human or undetermined, as last reported</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">discovered</code> <span style="color:#8b949e">— discovery date, YYYY-MM-DD</span></div><div style="padding:9px 0;border-bottom:1px solid #21262d;font-size:.88rem"><code style="color:#58a6ff">lat / lng</code> <span style="color:#8b949e">— incident point location, WGS84 decimal degrees</span></div>
+
+    <div class="section-title">2. Live trail conditions and air quality</div>
+    <p class="intro">
+      Weather, AQI, wildfire proximity, river flow where it matters, and a 1–100 hikeability
+      score for 46 trails, refreshed every 30 minutes. Every record carries its
+      observation timestamp and names the source of each reading; a value we could not fetch is
+      reported as missing rather than backfilled with an old one, because these numbers get used
+      to make safety decisions.
+    </p>
+    <p class="intro">
+      <a href="/data/trails-index.json" style="color:#58a6ff">trails-index.json</a> (all trails)
+      &nbsp;·&nbsp; <code style="color:#8b949e">/data/conditions/{slug}.json</code> per trail
+      &nbsp;·&nbsp; <a href="/scoring" style="color:#58a6ff">how the score is computed</a>
+    </p>
+
+    <div class="section-title">3. Trailhead monthly climate normals, 2015–2024</div>
+    <p class="intro">
+      Average high, average low, and wet-day count by month for 46 trailheads, computed
+      from ERA5 reanalysis at the trail's own coordinates. The point is the coordinates: a
+      national gridded normal will tell you about the nearest town, which is frequently several
+      thousand feet below the trail and a different month-by-month regime entirely.
+    </p>
+    <p class="intro">
+      <a href="/data/climate/normals.csv" style="color:#58a6ff">normals.csv</a> (one row per trail per
+      month) &nbsp;·&nbsp; <code style="color:#8b949e">/data/climate/{slug}.json</code>
+      &nbsp;·&nbsp; fields: <code style="color:#58a6ff">month</code>,
+      <code style="color:#58a6ff">avg_high_f</code>, <code style="color:#58a6ff">avg_low_f</code>,
+      <code style="color:#58a6ff">wet_days</code>
+    </p>
+
+    <div class="faq">
+      <h3>How do I attribute this?</h3>
+      <p>&ldquo;Wildfire growth data compiled by alwayshave.fun (CC BY 4.0), from the NIFC/WFIGS
+      incident feed&rdquo; is plenty. A link to the page or dataset you used is appreciated and
+      lets readers check the current numbers themselves.</p>
+      <h3>Where does the underlying data come from, and can you license it to me?</h3>
+      <p>Sources: the NIFC/WFIGS Incident Locations feed (US interagency, public domain),
+      <a href="https://open-meteo.com" rel="noopener" style="color:#58a6ff">Open-Meteo</a> for
+      weather and ERA5 history (CC BY 4.0), <a href="https://www.airnow.gov" rel="noopener"
+      style="color:#58a6ff">AirNow</a> for air quality, and NASA FIRMS for satellite fire
+      detections. The CC BY 4.0 license here covers <em>our compilation</em> — the daily record,
+      the per-trail joins, the scoring — not the upstream feeds, which carry their own terms.
+      Cite them too if you use those fields directly.</p>
+      <h3>Is there an API?</h3>
+      <p>These files are the API. They are static JSON and CSV on a CDN, regenerated every 30
+      minutes; fetch them on any schedule you like. There is no versioned endpoint and no
+      stability guarantee on field names yet — if you build something on this and want a heads-up
+      before anything changes, say so and we will keep a changelog.</p>
+      <h3>How accurate is it?</h3>
+      <p>It is exactly as accurate as the sources, which is the honest answer. We do not model,
+      interpolate, or estimate anything, and we do not correct the feeds. What we add is the time
+      dimension — 48 reads a day, stamped — plus the joins between fires, trails, and air
+      quality. Where a source disagrees with a ground monitor (smoke models routinely read high
+      against ground PM2.5) the raw value is what appears, not a reconciled one.</p>
+    </div>
+
+    <footer>
+      <a href="/">← All Trails</a> &nbsp;·&nbsp;
+      <a href="/fires">Active Fires</a> &nbsp;·&nbsp;
+      <a href="/scoring">How We Score</a> &nbsp;·&nbsp;
+      <a href="/about">About</a> &nbsp;·&nbsp;
+      <a href="/dog-friendly">Dog-Friendly</a><br>
+      Data: NIFC/WFIGS, Open-Meteo, AirNow, NASA FIRMS &nbsp;·&nbsp; compilation CC BY 4.0
+      &nbsp;·&nbsp; written 2026-08-17 04:10 UTC &nbsp;·&nbsp; <a href="/">alwayshave.fun</a>
+    </footer>
+  </div>
+</body>
+</html>

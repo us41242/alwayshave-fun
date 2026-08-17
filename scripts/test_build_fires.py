@@ -73,4 +73,40 @@ gone = bf.build_incident_html("babylon-fire-ut-unknown", arc["babylon-fire-ut-un
 assert "No longer on the NIFC active list" in gone
 assert "we do not guess" in gone               # hard rule 4: never claim it is out
 
+
+# --- /data: the CSV flattening and the Dataset markup that feeds Dataset Search ---
+import csv as _csv
+import json as _json
+import tempfile
+import os as _os
+
+with tempfile.TemporaryDirectory() as td:
+    csv_path = _os.path.join(td, "growth-history.csv")
+    rows = bf.write_growth_csv(arc, csv_path)
+    # 2 days of Widemouth 2 + 1 of Babylon = 3 rows, one per incident per day, date-sorted.
+    assert len(rows) == 3, rows
+    with open(csv_path, newline="") as f:
+        read_back = list(_csv.DictReader(f))
+    assert [r["date"] for r in read_back] == ["2026-08-07", "2026-08-07", "2026-08-08"]
+    assert read_back[-1]["acres"] == "106450"
+    assert read_back[-1]["incident_slug"] == "widemouth-2-fire-ut-2026"
+    assert list(read_back[0]) == bf.GROWTH_CSV_FIELDS
+
+data_page = bf.build_data_html(arc, rows, day2["updated_at"])
+assert '<link rel="canonical" href="https://alwayshave.fun/data">' in data_page
+assert "growth-history.csv" in data_page and "creativecommons.org/licenses/by/4.0" in data_page
+# The JSON-LD must parse and expose three Datasets — malformed markup is invisible
+# to Dataset Search, and the whole point of the page is that markup.
+ld = _json.loads(data_page.split('application/ld+json">')[1].split("</script>")[0])
+kinds = [n["@type"] for n in ld["@graph"]]
+assert kinds.count("Dataset") == 3, kinds
+assert "DataCatalog" in kinds
+for node in ld["@graph"]:
+    if node["@type"] != "Dataset":
+        continue
+    # Dataset Search requires these; a Dataset without them is silently dropped.
+    for key in ("name", "description", "license", "url", "creator"):
+        assert node.get(key), (node["@id"], key)
+    assert len(node["description"]) >= 50, node["@id"]
+
 print("test_build_fires: OK")

@@ -77,6 +77,13 @@ export default {
       if (iRes.status === 200) return iRes;
     }
 
+    // /data  →  open-data catalog. Real files under /data/... are served by the
+    // asset layer before the Worker sees them, so only the bare path lands here.
+    if (parts.length === 1 && first === 'data') {
+      const dRes = await env.ASSETS.fetch(new URL('/generated/data/index.html', url.origin));
+      if (dRes.status === 200) return dRes;
+    }
+
     // /great-today  →  serve great trails page
     if (parts.length === 1 && first === 'great-today') {
       return env.ASSETS.fetch(new URL('/great-today.html', url.origin));

@@ -17,8 +17,8 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 89,
@@ -30,10 +30,10 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -43,5 +43,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-17T00:40:07.525189+00:00"
+  "updated_at": "2026-08-17T02:15:51.679118+00:00"
 }

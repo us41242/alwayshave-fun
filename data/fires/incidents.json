@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T20:15:36.801419+00:00",
+  "updated_at": "2026-08-17T20:52:48.992205+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 134,
+  "count": 137,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -82,7 +82,7 @@
       "cause": "Undetermined",
       "lat": 37.26670533856897,
       "lng": -116.15757912775128,
-      "updated": "2026-08-16T22:19:19.903000+00:00",
+      "updated": "2026-08-17T20:26:59.383000+00:00",
       "state": "NV",
       "personnel": 5,
       "discovered": "2026-07-24T01:00:52+00:00"
@@ -154,10 +154,22 @@
       "cause": "Undetermined",
       "lat": 37.41230538509435,
       "lng": -115.71001206259436,
-      "updated": "2026-08-16T20:49:51.530000+00:00",
+      "updated": "2026-08-17T20:23:28.093000+00:00",
       "state": "NV",
       "personnel": 14,
       "discovered": "2026-07-25T15:22:00+00:00"
+    },
+    {
+      "name": "Gann",
+      "acres": 10339,
+      "containment_pct": 100,
+      "cause": "Undetermined",
+      "lat": 38.10793309380294,
+      "lng": -120.7668100002191,
+      "updated": "2026-08-17T20:32:53.317000+00:00",
+      "state": "CA",
+      "personnel": 689,
+      "discovered": "2026-08-04T00:27:56+00:00"
     },
     {
       "name": "Frijoles",
@@ -652,6 +664,18 @@
       "discovered": "2026-08-15T22:18:48+00:00"
     },
     {
+      "name": "Gonzales",
+      "acres": 3,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 36.98372601938944,
+      "lng": -105.0781098389736,
+      "updated": "2026-08-17T20:49:36.520000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-03T00:00:00+00:00"
+    },
+    {
       "name": "Marina",
       "acres": 3,
       "containment_pct": null,
@@ -688,6 +712,30 @@
       "discovered": "2026-08-14T15:35:00+00:00"
     },
     {
+      "name": "Short",
+      "acres": 1.5,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.81565504011071,
+      "lng": -123.22987859286823,
+      "updated": "2026-08-17T20:33:39.757000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-17T19:51:31+00:00"
+    },
+    {
+      "name": "Buhr",
+      "acres": 1.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 36.93718607047199,
+      "lng": -104.11680961433804,
+      "updated": "2026-08-17T20:46:50.323000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-07-25T19:00:00+00:00"
+    },
+    {
       "name": "Slough Canyon",
       "acres": 1,
       "containment_pct": null,
@@ -722,6 +770,18 @@
       "state": "UT",
       "personnel": null,
       "discovered": "2026-08-15T19:56:48+00:00"
+    },
+    {
+      "name": "Hatchet Canyon",
+      "acres": 0.3,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 33.31517241739117,
+      "lng": -105.76234269234185,
+      "updated": "2026-08-17T20:48:56.880000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-17T01:48:00+00:00"
     },
     {
       "name": "Canal Bon",
@@ -916,18 +976,6 @@
       "discovered": "2026-08-15T02:11:59+00:00"
     },
     {
-      "name": "Hicks",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.81171515000492,
-      "lng": -121.87245738851864,
-      "updated": "2026-08-17T17:38:00.230000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-17T17:12:43+00:00"
-    },
-    {
       "name": "Badger",
       "acres": 0.01,
       "containment_pct": null,
@@ -1036,18 +1084,6 @@
       "discovered": "2026-08-15T22:58:07+00:00"
     },
     {
-      "name": "Short",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.81666504216163,
-      "lng": -123.20561558944613,
-      "updated": "2026-08-17T19:57:18.120000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-17T19:51:31+00:00"
-    },
-    {
       "name": "Rover",
       "acres": 0.01,
       "containment_pct": null,
@@ -1072,28 +1108,16 @@
       "discovered": "2026-08-15T11:42:00+00:00"
     },
     {
-      "name": "Apollo",
+      "name": "Lac-288354",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.393624876112085,
-      "lng": -118.54400226575206,
-      "updated": "2026-08-15T03:56:11.463000+00:00",
+      "lat": 33.894974841709136,
+      "lng": -118.18795216509612,
+      "updated": "2026-08-15T01:05:04.067000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-15T03:48:45+00:00"
-    },
-    {
-      "name": "Lac-288056",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.581444922444796,
-      "lng": -118.10024220736575,
-      "updated": "2026-08-14T20:35:29.080000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-14T20:34:54+00:00"
+      "discovered": "2026-08-15T01:04:39+00:00"
     },
     {
       "name": "Lac-291790",
@@ -1108,16 +1132,28 @@
       "discovered": "2026-08-17T17:31:41+00:00"
     },
     {
-      "name": "Lac-288354",
+      "name": "Lac-288056",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.894974841709136,
-      "lng": -118.18795216509612,
-      "updated": "2026-08-15T01:05:04.067000+00:00",
+      "lat": 34.581444922444796,
+      "lng": -118.10024220736575,
+      "updated": "2026-08-14T20:35:29.080000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-15T01:04:39+00:00"
+      "discovered": "2026-08-14T20:34:54+00:00"
+    },
+    {
+      "name": "Apollo",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.393624876112085,
+      "lng": -118.54400226575206,
+      "updated": "2026-08-15T03:56:11.463000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-15T03:48:45+00:00"
     },
     {
       "name": "Lac-290351",

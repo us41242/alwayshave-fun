@@ -19,13 +19,15 @@
   "vehicle_req": "High-Clearance",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 54,
-    "wind_mph": 15,
-    "gusts_mph": 19,
-    "rain_pct": 1
+    "feels_like_f": 52,
+    "wind_mph": 16,
+    "gusts_mph": 21,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-17T05:51",
   "sunset": "2026-08-17T19:29",
@@ -37,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 123.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
@@ -108,5 +110,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-17T20:21:54.618033+00:00"
+  "updated_at": "2026-08-17T21:02:03.907608+00:00"
 }

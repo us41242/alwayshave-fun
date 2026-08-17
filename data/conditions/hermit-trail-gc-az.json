@@ -17,27 +17,27 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 70,
-    "wind_mph": 9,
-    "gusts_mph": 12,
-    "rain_pct": 5
+    "temp_f": 74,
+    "feels_like_f": 68,
+    "wind_mph": 8,
+    "gusts_mph": 8,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-16T05:48",
   "sunset": "2026-08-16T19:17",
   "aqi": {
-    "aqi": 50,
+    "aqi": 44,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 103.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cliff Spring",
@@ -65,7 +65,7 @@
     {
       "date": "2026-08-17",
       "high_f": 91,
-      "low_f": 68,
+      "low_f": 67,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-17T05:49",
@@ -76,7 +76,7 @@
     {
       "date": "2026-08-18",
       "high_f": 90,
-      "low_f": 70,
+      "low_f": 71,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-18T05:50",
@@ -88,7 +88,7 @@
       "date": "2026-08-19",
       "high_f": 90,
       "low_f": 70,
-      "rain_pct": 3,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-19T05:50",
       "sunset": "2026-08-19T19:14",
@@ -99,7 +99,7 @@
       "date": "2026-08-20",
       "high_f": 91,
       "low_f": 70,
-      "rain_pct": 38,
+      "rain_pct": 21,
       "uv": 8,
       "sunrise": "2026-08-20T05:51",
       "sunset": "2026-08-20T19:12",
@@ -107,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-17T02:16:52.476022+00:00"
+  "updated_at": "2026-08-17T03:36:56.038977+00:00"
 }

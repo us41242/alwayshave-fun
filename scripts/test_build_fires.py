@@ -99,13 +99,16 @@ assert "growth-history.csv" in data_page and "creativecommons.org/licenses/by/4.
 # to Dataset Search, and the whole point of the page is that markup.
 ld = _json.loads(data_page.split('application/ld+json">')[1].split("</script>")[0])
 kinds = [n["@type"] for n in ld["@graph"]]
-assert kinds.count("Dataset") == 3, kinds
-assert "DataCatalog" in kinds
-for node in ld["@graph"]:
-    if node["@type"] != "Dataset":
-        continue
+assert kinds == ["DataCatalog", "BreadcrumbList"], kinds
+catalog = ld["@graph"][0]
+# Datasets must be NESTED, not {"@id": ...} references to sibling @graph nodes —
+# validator.schema.org drops those and reports a catalog with no datasets at all.
+assert len(catalog["dataset"]) == 3, catalog.get("dataset")
+for node in catalog["dataset"]:
+    assert node["@type"] == "Dataset", node
+    assert not set(node) <= {"@id", "@type"}, f"{node['@id']} is a bare reference"
     # Dataset Search requires these; a Dataset without them is silently dropped.
-    for key in ("name", "description", "license", "url", "creator"):
+    for key in ("name", "description", "license", "url", "creator", "distribution"):
         assert node.get(key), (node["@id"], key)
     assert len(node["description"]) >= 50, node["@id"]
 

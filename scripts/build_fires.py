@@ -823,15 +823,18 @@ def build_data_html(archive, rows, updated_at):
         },
     ]
 
+    # Datasets are nested inside the catalog, not referenced by @id. Reference-only
+    # children ({"@id": ...} pointing at sibling @graph nodes) were silently dropped
+    # by validator.schema.org — it reported the catalog with no `dataset` property
+    # and zero Dataset nodes, i.e. exactly the markup this page exists for, invisible.
     schema = {"@context": "https://schema.org", "@graph": [
         {"@type": "DataCatalog", "@id": page_url, "name": "alwayshave.fun Open Data",
          "description": desc, "url": page_url, "license": license_url, "creator": creator,
-         "dateModified": updated_at,
-         "dataset": [{"@id": d["@id"]} for d in datasets]},
+         "dateModified": updated_at, "dataset": datasets},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL},
             {"@type": "ListItem", "position": 2, "name": "Open Data", "item": page_url}]},
-    ] + datasets}
+    ]}
 
     def field_rows(pairs):
         return "".join(

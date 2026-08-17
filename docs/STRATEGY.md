@@ -93,9 +93,29 @@ Confirmed binding constraint: the homepage is Google's only reliably-crawled pag
 | Soft-404 close: `/{state}/{unknown}` now 404s instead of 200 + JS shell; real `404.html` added | 2026-07-25 | no measurable traffic gain — recovers crawl budget and removes a soft-404 class from GSC | weekly (watch GSC "Soft 404" / "Not found" counts) |
 | **Live sitemap unfrozen** — `/sitemap.xml` was a static 2026-04-18 file (96 URLs, every lastmod dead) because `generate_sitemap.py` wrote to unserved `site/`; now generated to the served path every 30 min, 116 URLs, real lastmods, +20 previously-unlisted live URLs. Plus: `/site/*` duplicate sitemap + homepage clone 301'd away, `/articles/` canonicalized, IndexNow now submits from the sitemap (articles were never pinged) | 2026-08-03 | **the top candidate for the crawl drought.** Homepage recrawl (last 2026-06-20), sitemap leaves "pending", sampled trails leave "URL unknown to Google" | **decision point 2026-08-24.** No movement by then ⇒ freshness signalling was not the constraint, authority is, and Phase 3 becomes the whole strategy |
 | **`/fires` — live active-wildfire page** (`build_fires.py`): every ≥100-acre uncontained incident in NV/UT/AZ/CO/CA from the WFIGS feed already fetched every 30 min and previously discarded, with acres/containment/personnel/days-burning and the tracked trails within 100 km of each, linked. Static footer links from homepage, 5 state pages, /dog-friendly; in sitemap + IndexNow | 2026-08-07 | **Internal mesh wired 2026-08-07 (Session 30): all 46 trail pages now link `/fires`** — from the nearest-incident status line (39/46 tonight; seasonal, only renders when an incident is within 100 km) and from an unconditional footer link (46/46, every season). Was ~8 inbound links, all index-page footers. Bing had not crawled it as of 08-07 (`GetUrlInfo` LastCrawledDate = min-date); single URL submitted via BWT `SubmitUrl`. | the site's first genuinely *citable* asset — a table nobody else publishes for the Southwest, self-refreshing every 30 min. Near-term: Bing indexation (days). Mid-term: it is what a Reddit fire-thread mention can honestly point at, which is the Phase 3 lever | Bing check next session; traffic review 2026-09-01 |
+| **`/data` — openly licensed dataset catalog with `schema.org/Dataset` markup** (`build_fires.py`). Three datasets documented under CC BY 4.0: the wildfire daily growth record (38 incidents, 280 readings, new `data/fires/growth-history.csv` + existing archive.json), live trail conditions/AQI (46 trails, trails-index.json), and ERA5 trailhead climate normals (new `data/climate/normals.csv`, 552 rows). Field dictionary, attribution guidance, honest accuracy/no-API-guarantee caveats. Linked from the homepage footer (**the only page Google crawls**), `/fires`, and all 38 incident pages; in sitemap + IndexNow + BWT SubmitUrl | 2026-08-17 | **A discovery channel that does not depend on domain authority.** Google Dataset Search is a separate index fed by Dataset markup, where the ranking question is "who publishes this dataset" rather than "who has links" — and the daily growth curve has no other publisher (NIFC overwrites a snapshot; we keep the last read of each day). Second-order and more valuable: a licensed, documented, citable dataset is the precondition for a journalist or researcher citation, i.e. the backlink constraint attacked from the supply side rather than by asking | **first check 2026-09-07** (Dataset Search + Bing crawl of `/data`). If Dataset Search has not picked it up by then, next move is one page per dataset rather than a three-dataset catalog on one URL — Dataset Search's canonical pattern is one dataset per page |
 | Named-incident fire line (NIFC/WFIGS) + 3-satellite VIIRS + true-24h FIRMS window | 2026-07-26 | trust/cite-worthiness of the fire data (the site's most-asked-about asset); more accurate risk levels overnight | monthly; this is a correctness/moat feature, not a traffic experiment |
 
 Target query shapes (all served by trail pages already): "is {trail} open", "{trail} weather", "{trail} conditions", "{trail} AQI/air quality", "are dogs allowed {trail}", "best time to hike {trail}".
+
+### Deploy gotchas that cost real verification time (found 2026-08-17)
+
+- **`.assetsignore` silently withholds files from the live site.** It carried a blanket
+  `*.csv`, so `/data`'s two published CSV downloads 404'd on production while `archive.json`
+  in the same directory served fine. The rule only ever shielded `seeds/trails.csv`, which the
+  `seeds/` line already covers. **Before publishing any new file type as a download, check
+  `.assetsignore` first** — the file is live-invisible with no build error anywhere.
+- **A pre-deploy `curl` caches the 404 at Cloudflare's edge.** After probing a URL that did not
+  exist yet, the bare URL kept returning a `cf-cache-status: HIT` 404 after the deploy landed.
+  Always verify new URLs with a cache-busting query string (`?v=$(date +%s)`) before concluding
+  anything is broken.
+- **`@id`-reference-only children get dropped from JSON-LD.** `DataCatalog` with
+  `"dataset": [{"@id": ...}]` pointing at sibling `@graph` nodes validated as a catalog with
+  **no datasets at all** — the one thing the page exists for, invisible, with zero errors
+  reported. Nest child entities inline. Also note `validator.schema.org` puts nested entities
+  under `nodeProperties`, not `properties`; parsing only `properties` makes correct markup look
+  broken. Free validation: `curl -s https://validator.schema.org/validate --data-urlencode
+  "url=<page>"` (strip the `)]}'` prefix before parsing).
 
 ## Distribution accounts
 

@@ -4,6 +4,57 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-17 — Session 38 (nightly + WEEKLY #6) — SHIPPED `/data`: OPENLY LICENSED DATASET CATALOG WITH `Dataset` MARKUP
+
+### Oriented
+- `git status` clean; Session 37's commit `7f4d2d09494` on origin. Pipeline healthy — 8 most recent fetch_conditions runs all event=`schedule`, all `success`, ~30-min cadence. Native cron still holding with no credential in the trigger path.
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** at 7d (08-09→08-13), prior week, and 28d — flat, zero, unchanged. Sitemap still `pending` (day 14 since the 08-03 unfreeze). Decision point 2026-08-24 stands.
+- **URL Inspection, 4 URLs:** homepage `Submitted and indexed`, **last crawl still 2026-06-20 — 58 days**. `/fires`, `/fires/rocky-canyon-fire-ut-2026`, `/ut/the-narrows-zion-ut` all `URL is unknown to Google`. Only referring URLs on the homepage remain one internal link + the `uplinke-seo-enhancement.za.com` spam domain.
+- Bing (113 days): 11 impressions / 0 clicks total; 30d 4 impressions; 7d 1 (prior 7d 3). Query shapes are exactly on-thesis — "mary jane falls mt charleston", "does el moro canton trail allow dogs", "april wether for havasu falls" — at positions nobody scrolls to.
+- **Bing fire-URL carry-over closed as "still nothing":** `GetUrlInfo` on `/fires` and rocky-canyon both still min-date (never crawled), day 10 post-launch, day 7 post-batch-submit.
+- Monday ⇒ weekly #6 due (last filed 08-10).
+
+### Decided
+Nine sessions have now confirmed the same thing from every angle: pages are clean, Bing indexes ~92 of them, and Google will not crawl. Web-search discovery is gated on authority we do not have, and no further on-site work changes that. So tonight's action deliberately does **not** target the web index.
+
+**`/data` — an openly licensed dataset catalog with `schema.org/Dataset` markup.** Google Dataset Search is a *separate index* fed by Dataset markup, where the competition is "who publishes this dataset" rather than "who has the most links" — a competition a zero-authority domain can actually win. And we hold something with no other publisher: NIFC/WFIGS publishes a *current snapshot* and overwrites it, so reading it 48×/day and keeping the last read of each UTC day yields the growth curve the snapshot implies but never shows. Second-order and worth more than the channel itself: a documented, licensed, citable dataset is the *precondition* for a journalist or researcher citation — the backlink constraint attacked from the supply side instead of by asking.
+
+### Did
+- **`/data`** (in `build_fires.py`, which already loads the archive — no new script, no workflow change): `DataCatalog` + 3 nested `Dataset` nodes under CC BY 4.0 — wildfire daily growth record, live trail conditions/AQI, ERA5 trailhead climate normals. Human-readable field dictionary, attribution guidance, and honest caveats (no API stability guarantee, "exactly as accurate as the sources", raw values never reconciled against ground monitors). 4,771 visible chars.
+- **Two new flat CSV exports**, because 46 JSON files is not something a person opens: `data/fires/growth-history.csv` (280 rows, one per incident per day) and `data/climate/normals.csv` (552 rows, one per trail per month).
+- **Internal mesh:** footer link from the homepage (**the only page Google crawls — the single most valuable internal link on this site**), `/fires`, and all 38 incident pages, each with one contextual link too. In sitemap (156 URLs).
+- **Submission:** IndexNow 200 (106 URLs, `/data` confirmed in the batch — key is the repo-root `3d00877f1b744d7898b2862b4c5e94fd.txt` file, not the local env); BWT `SubmitUrl` for `/data` → 200.
+- `test_build_fires.py` extended: CSV row shape/ordering/field list, plus the JSON-LD parsing with 3 nested Datasets each carrying every field Dataset Search requires.
+- **Weekly report #6** → `~/Documents/daily-in-box/ahf-weekly-2026-08-17.md`.
+
+### Fixed (two real bugs, both found only by checking the live site)
+1. **Both published CSVs 404'd in production** while `archive.json` beside them served fine. Cause: `.assetsignore` carried a blanket `*.csv`, so Cloudflare never had them in the asset manifest — no build error anywhere. That rule only ever shielded `seeds/trails.csv`, already covered by its `seeds/` line. Removed it; `seeds/trails.csv` verified still 404 afterwards.
+2. **The Dataset markup was invisible to parsers.** `validator.schema.org` returned the `DataCatalog` with **no `dataset` property and zero Dataset nodes** — i.e. the entire point of the page — while reporting 0 errors. Cause: the Datasets were sibling `@graph` nodes referenced only as `{"@id": ...}`, and reference-only children get dropped. Nested them inline instead.
+
+### Verified (all live, real UA, cache-busted)
+- `/data` 200, canonical correct, 3 Datasets in the served JSON-LD with the right downloads attached; `/data/fires/growth-history.csv` and `/data/climate/normals.csv` 200 `text/csv` (281 lines incl. header); `/data/fires/archive.json`, `/data/trails-index.json` 200; `seeds/trails.csv` still 404.
+- **`validator.schema.org` on the live page after the fix: 0 errors, 0 warnings, `DataCatalog` with all three `dataset` properties attached.** (First run's "no datasets" reading was the genuine bug; a *second* trap was my own parser — the validator puts nested entities under `nodeProperties`, not `properties`, so correct markup looks broken if you only read `properties`.)
+- Links live: 1 `/data` link on the homepage, 2 on `/fires`, 2 on an incident page; every outbound target from `/data` (`/fires`, `/scoring`, `/about`, `/dog-friendly`, trails-index) 200. No 404s introduced.
+- Live sitemap valid XML, 156 URLs, `/data` listed.
+- Commits on origin/main: `642cb8a1d72` (feature), `6cdadc37dd3` (assetsignore), `a4f80733f6b` (schema nesting).
+
+### Learned
+- **`.assetsignore` withholds files from production with no error signal.** Check it before publishing any new file type as a download. Blanket extension globs there are landmines.
+- **A pre-deploy `curl` poisons the edge cache.** Probing a not-yet-existing URL cached the 404, which then returned `cf-cache-status: HIT` after the deploy landed and looked exactly like a broken deploy. Verify new URLs with `?v=$(date +%s)`.
+- **Structured data can validate with zero errors and still contain nothing.** "0 errors" is not "the markup says what I meant". Assert on the *parsed entities*, which is what the test now does.
+- Rebase autostash conflicts can leave conflict markers in a file and stage it silently: `git status` showed no unmerged paths, yet `sitemap.xml` had **26 marker lines** staged. Regenerating it cleared them. Grep staged diffs for `^+<<<<<<<` before committing after any autostash conflict.
+
+### Expect
+- Nothing from Google's web index; that is the point. First check for Dataset Search + a Bing crawl of `/data`: **2026-09-07**. If Dataset Search hasn't picked it up by then, next move is one page per dataset (its canonical pattern) rather than three on one URL.
+- Bing has crawled the homepage near-daily but has ignored all 38 fire URLs for 10 days, so temper expectations on `/data` being crawled fast either.
+
+### Upcoming
+- **2026-08-24 sitemap decision point** — if the homepage still hasn't been recrawled since 06-20, freshness signalling is settled as not-the-constraint and Phase 3/authority becomes the entire strategy.
+- Participation round 17 when a genuine thread fit exists (ratio 2 mentions / 20 comments = 10%; next mentions stay rare).
+- Filed to Josh in weekly #6 (all non-blocking): GSC sitemap manual delete + re-add; expired local `GH_PAT` (nothing needs it now — the retired Worker's refreshed `GH_DISPATCH_TOKEN` can also be revoked); dead local `AIRNOW_KEY`; the CF token still can't read main-site build minutes.
+
+---
+
 ## 2026-08-15 — Session 37 (nightly) — NATIVE CRON CONFIRMED HEALTHY; PARTICIPATION ROUND 16
 
 ### Oriented

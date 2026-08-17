@@ -17,27 +17,29 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 52,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 95,
-    "wind_mph": 15,
-    "gusts_mph": 14,
+    "temp_f": 99,
+    "feels_like_f": 94,
+    "wind_mph": 14,
+    "gusts_mph": 21,
     "rain_pct": 1
   },
   "sunrise": "2026-08-17T06:00",
   "sunset": "2026-08-17T19:26",
   "aqi": {
-    "aqi": 37,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 72.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "MOJAVE Complex",
@@ -59,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-08-17T06:00",
       "sunset": "2026-08-17T19:26",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -70,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-08-18T06:00",
       "sunset": "2026-08-18T19:25",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-19T06:01",
       "sunset": "2026-08-19T19:24",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-20T06:02",
       "sunset": "2026-08-20T19:22",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 7,
       "sunrise": "2026-08-21T06:03",
       "sunset": "2026-08-21T19:21",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-17T22:54:20.852609+00:00"
+  "updated_at": "2026-08-17T23:20:14.625826+00:00"
 }

@@ -17,18 +17,18 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 92,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 65,
+    "temp_f": 68,
+    "feels_like_f": 63,
     "wind_mph": 5,
-    "gusts_mph": 10,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-17T05:48",
+  "sunset": "2026-08-17T19:16",
   "aqi": {
     "aqi": 41,
     "category": "Good",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-18T05:36:57.170195+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-17",
+      "high_f": 84,
+      "low_f": 58,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-17T05:48",
+      "sunset": "2026-08-17T19:16",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-18",
+      "high_f": 85,
+      "low_f": 63,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-08-18T05:49",
+      "sunset": "2026-08-18T19:14",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-19",
+      "high_f": 87,
+      "low_f": 64,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-19T05:50",
+      "sunset": "2026-08-19T19:13",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-20",
+      "high_f": 88,
+      "low_f": 62,
+      "rain_pct": 21,
+      "uv": 8,
+      "sunrise": "2026-08-20T05:51",
+      "sunset": "2026-08-20T19:12",
+      "predicted_score": 62,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-21",
+      "high_f": 86,
+      "low_f": 64,
+      "rain_pct": 63,
+      "uv": 8,
+      "sunrise": "2026-08-21T05:51",
+      "sunset": "2026-08-21T19:10",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-18T05:59:24.564439+00:00"
 }

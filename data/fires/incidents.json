@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T15:11:15.240140+00:00",
+  "updated_at": "2026-08-18T15:32:38.018493+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 125,
+  "count": 126,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -497,15 +497,27 @@
     },
     {
       "name": "Diamante",
-      "acres": 89,
+      "acres": 87,
       "containment_pct": 0,
       "cause": "Natural",
       "lat": 36.9754159115458,
       "lng": -106.81567022699083,
-      "updated": "2026-08-16T23:30:24.113000+00:00",
+      "updated": "2026-08-18T15:26:42.827000+00:00",
       "state": "NM",
       "personnel": 70,
       "discovered": "2026-08-11T21:28:04+00:00"
+    },
+    {
+      "name": "Sandy Hill",
+      "acres": 77.7,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.13456567408092,
+      "lng": -103.27918918837902,
+      "updated": "2026-08-18T15:13:31.467000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-18T15:09:36+00:00"
     },
     {
       "name": "Taffle",
@@ -850,7 +862,7 @@
       "cause": "Undetermined",
       "lat": 33.43280243654435,
       "lng": -105.75378969869104,
-      "updated": "2026-08-17T22:09:26.830000+00:00",
+      "updated": "2026-08-18T15:09:23.450000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-17T20:32:00+00:00"
@@ -916,18 +928,6 @@
       "discovered": "2026-08-18T02:41:00+00:00"
     },
     {
-      "name": "Mm17 I15",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Human",
-      "lat": 37.17635351263573,
-      "lng": -113.4257256108766,
-      "updated": "2026-08-18T02:03:50.273000+00:00",
-      "state": "UT",
-      "personnel": null,
-      "discovered": "2026-08-18T00:02:46+00:00"
-    },
-    {
       "name": "Branscomb",
       "acres": 0.1,
       "containment_pct": null,
@@ -938,6 +938,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-17T13:40:41+00:00"
+    },
+    {
+      "name": "Mm17 I15",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Human",
+      "lat": 37.17635351263573,
+      "lng": -113.4257256108766,
+      "updated": "2026-08-18T02:03:50.273000+00:00",
+      "state": "UT",
+      "personnel": null,
+      "discovered": "2026-08-18T00:02:46+00:00"
     },
     {
       "name": "Greenfield",
@@ -1084,6 +1096,18 @@
       "discovered": "2026-07-18T23:14:47+00:00"
     },
     {
+      "name": "Lac-290351",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.927174842421074,
+      "lng": -118.23907217627114,
+      "updated": "2026-08-16T15:34:22.470000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-16T15:34:04+00:00"
+    },
+    {
       "name": "Snake",
       "acres": 0.01,
       "containment_pct": null,
@@ -1094,30 +1118,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-16T22:18:29+00:00"
-    },
-    {
-      "name": "Creek",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 41.822188167141654,
-      "lng": -123.38160691247624,
-      "updated": "2026-08-17T18:10:06.610000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-15T16:06:04+00:00"
-    },
-    {
-      "name": "Copper",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.460044883852255,
-      "lng": -118.53439226977973,
-      "updated": "2026-08-17T17:38:47.330000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-17T17:35:53+00:00"
     },
     {
       "name": "Lac-291356",
@@ -1144,16 +1144,28 @@
       "discovered": "2026-08-16T08:07:18+00:00"
     },
     {
-      "name": "Lac-290351",
+      "name": "Copper",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.927174842421074,
-      "lng": -118.23907217627114,
-      "updated": "2026-08-16T15:34:22.470000+00:00",
+      "lat": 34.460044883852255,
+      "lng": -118.53439226977973,
+      "updated": "2026-08-17T17:38:47.330000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-16T15:34:04+00:00"
+      "discovered": "2026-08-17T17:35:53+00:00"
+    },
+    {
+      "name": "Creek",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.822188167141654,
+      "lng": -123.38160691247624,
+      "updated": "2026-08-17T18:10:06.610000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-15T16:06:04+00:00"
     },
     {
       "name": "Lac-290713",
@@ -1300,18 +1312,6 @@
       "discovered": "2026-07-26T21:32:53+00:00"
     },
     {
-      "name": "Lac-290202",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.01549487010202,
-      "lng": -117.92159212992479,
-      "updated": "2026-08-16T10:28:32.290000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-16T10:28:04+00:00"
-    },
-    {
       "name": "Lac-289448",
       "acres": 0.01,
       "containment_pct": null,
@@ -1346,6 +1346,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-17T15:16:04+00:00"
+    },
+    {
+      "name": "Lac-290202",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.01549487010202,
+      "lng": -117.92159212992479,
+      "updated": "2026-08-16T10:28:32.290000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-16T10:28:04+00:00"
     },
     {
       "name": "Day",

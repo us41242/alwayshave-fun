@@ -19,12 +19,10 @@
   "vehicle_req": "High-Clearance",
   "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 46,
+    "feels_like_f": 47,
     "wind_mph": 14,
     "gusts_mph": 20,
     "rain_pct": 0
@@ -32,14 +30,14 @@
   "sunrise": "2026-08-18T05:52",
   "sunset": "2026-08-18T19:28",
   "aqi": {
-    "aqi": 34,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 123.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
@@ -110,5 +108,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-18T15:16:39.010136+00:00"
+  "updated_at": "2026-08-18T15:42:57.253250+00:00"
 }

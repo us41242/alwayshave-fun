@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T05:00:42.658125+00:00",
+  "updated_at": "2026-08-18T05:31:17.653429+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 130,
+  "count": 131,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -832,18 +832,6 @@
       "discovered": "2026-08-16T03:02:06+00:00"
     },
     {
-      "name": "Walt Smith",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.43280243654435,
-      "lng": -105.75378969869104,
-      "updated": "2026-08-17T22:09:26.830000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-17T20:32:00+00:00"
-    },
-    {
       "name": "Vehicle",
       "acres": 0.1,
       "containment_pct": null,
@@ -854,6 +842,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-02T19:42:00+00:00"
+    },
+    {
+      "name": "Walt Smith",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.43280243654435,
+      "lng": -105.75378969869104,
+      "updated": "2026-08-17T22:09:26.830000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-17T20:32:00+00:00"
     },
     {
       "name": "MOJAVE Complex",
@@ -907,10 +907,10 @@
       "name": "Double Heart",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.840625354615916,
-      "lng": -108.5941603418418,
-      "updated": "2026-08-18T04:17:58.117000+00:00",
+      "cause": "Natural",
+      "lat": 33.84062235461286,
+      "lng": -108.5942103418521,
+      "updated": "2026-08-18T05:07:28.663000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-18T02:41:00+00:00"
@@ -1024,18 +1024,6 @@
       "discovered": "2026-08-18T04:09:39+00:00"
     },
     {
-      "name": "Lac-289546",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.92815484252748,
-      "lng": -118.23911217635694,
-      "updated": "2026-08-15T22:58:38.900000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-15T22:58:07+00:00"
-    },
-    {
       "name": "Lac-288749",
       "acres": 0.01,
       "containment_pct": null,
@@ -1048,16 +1036,16 @@
       "discovered": "2026-08-15T06:55:30+00:00"
     },
     {
-      "name": "Lac-288908",
+      "name": "Lac-289546",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.927174842421074,
-      "lng": -118.23907217627114,
-      "updated": "2026-08-15T11:42:27.883000+00:00",
+      "lat": 33.92815484252748,
+      "lng": -118.23911217635694,
+      "updated": "2026-08-15T22:58:38.900000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-15T11:42:00+00:00"
+      "discovered": "2026-08-15T22:58:07+00:00"
     },
     {
       "name": "Rover",
@@ -1072,16 +1060,16 @@
       "discovered": "2026-08-15T20:57:57+00:00"
     },
     {
-      "name": "Cdv #4",
+      "name": "Lac-288908",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 41.52272142736798,
-      "lng": -120.17358736617686,
-      "updated": "2026-08-18T00:13:41.213000+00:00",
+      "lat": 33.927174842421074,
+      "lng": -118.23907217627114,
+      "updated": "2026-08-15T11:42:27.883000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-07-18T23:14:47+00:00"
+      "discovered": "2026-08-15T11:42:00+00:00"
     },
     {
       "name": "Lac-291790",
@@ -1096,6 +1084,30 @@
       "discovered": "2026-08-17T17:31:41+00:00"
     },
     {
+      "name": "Cdv #4",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.52272142736798,
+      "lng": -120.17358736617686,
+      "updated": "2026-08-18T00:13:41.213000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-07-18T23:14:47+00:00"
+    },
+    {
+      "name": "Lac-290351",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.927174842421074,
+      "lng": -118.23907217627114,
+      "updated": "2026-08-16T15:34:22.470000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-16T15:34:04+00:00"
+    },
+    {
       "name": "Snake",
       "acres": 0.01,
       "containment_pct": null,
@@ -1106,30 +1118,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-16T22:18:29+00:00"
-    },
-    {
-      "name": "Creek",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 41.822188167141654,
-      "lng": -123.38160691247624,
-      "updated": "2026-08-17T18:10:06.610000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-15T16:06:04+00:00"
-    },
-    {
-      "name": "Copper",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.460044883852255,
-      "lng": -118.53439226977973,
-      "updated": "2026-08-17T17:38:47.330000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-17T17:35:53+00:00"
     },
     {
       "name": "Lac-291356",
@@ -1156,16 +1144,28 @@
       "discovered": "2026-08-16T08:07:18+00:00"
     },
     {
-      "name": "Lac-290351",
+      "name": "Copper",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.927174842421074,
-      "lng": -118.23907217627114,
-      "updated": "2026-08-16T15:34:22.470000+00:00",
+      "lat": 34.460044883852255,
+      "lng": -118.53439226977973,
+      "updated": "2026-08-17T17:38:47.330000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-16T15:34:04+00:00"
+      "discovered": "2026-08-17T17:35:53+00:00"
+    },
+    {
+      "name": "Creek",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.822188167141654,
+      "lng": -123.38160691247624,
+      "updated": "2026-08-17T18:10:06.610000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-15T16:06:04+00:00"
     },
     {
       "name": "Lac-290713",
@@ -1250,18 +1250,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-15T05:33:32+00:00"
-    },
-    {
-      "name": "Lac-288635",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.67487492908251,
-      "lng": -118.16070222560599,
-      "updated": "2026-08-15T04:45:01.397000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-15T04:44:37+00:00"
     },
     {
       "name": "Lac-290975",
@@ -1444,6 +1432,18 @@
       "discovered": "2026-08-16T13:32:55+00:00"
     },
     {
+      "name": "Lac-288969",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.00889485600816,
+      "lng": -118.15861216937684,
+      "updated": "2026-08-15T14:09:15.017000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-15T14:08:58+00:00"
+    },
+    {
       "name": "Lac-289580",
       "acres": 0.01,
       "containment_pct": null,
@@ -1468,18 +1468,6 @@
       "discovered": "2026-08-15T05:05:20+00:00"
     },
     {
-      "name": "Lac-288969",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.00889485600816,
-      "lng": -118.15861216937684,
-      "updated": "2026-08-15T14:09:15.017000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-15T14:08:58+00:00"
-    },
-    {
       "name": "Lac-288806",
       "acres": 0.01,
       "containment_pct": null,
@@ -1492,16 +1480,28 @@
       "discovered": "2026-08-15T08:17:32+00:00"
     },
     {
-      "name": "Lac-292631",
+      "name": "Yerba",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
       "lat": 34.106944822263976,
       "lng": -118.94267230781696,
-      "updated": "2026-08-18T04:29:06.717000+00:00",
+      "updated": "2026-08-18T05:14:35.653000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-18T04:26:29+00:00"
+    },
+    {
+      "name": "Yerba",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "lat": 34.10320482177335,
+      "lng": -118.94422900776496,
+      "updated": "2026-08-18T05:13:58.703000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-18T05:08:00+00:00"
     },
     {
       "name": "Sorrento",
@@ -1538,6 +1538,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-17T23:55:00+00:00"
+    },
+    {
+      "name": "Yerba",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "lat": 34.10320482177335,
+      "lng": -118.94422900776496,
+      "updated": "2026-08-18T05:05:51.530000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-18T05:05:00+00:00"
     },
     {
       "name": "Hermies",

@@ -17,8 +17,8 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 68,
@@ -27,17 +27,17 @@
     "gusts_mph": 14,
     "rain_pct": 1
   },
-  "sunrise": "2026-08-17T06:46",
-  "sunset": "2026-08-17T20:18",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 35,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 119.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -51,62 +51,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-17",
-      "high_f": 79,
-      "low_f": 55,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-17T06:46",
-      "sunset": "2026-08-17T20:18",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-18",
-      "high_f": 80,
-      "low_f": 61,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-08-18T06:47",
-      "sunset": "2026-08-18T20:17",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-19",
-      "high_f": 82,
-      "low_f": 61,
-      "rain_pct": 17,
-      "uv": 8,
-      "sunrise": "2026-08-19T06:48",
-      "sunset": "2026-08-19T20:16",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-20",
-      "high_f": 84,
-      "low_f": 63,
-      "rain_pct": 21,
-      "uv": 8,
-      "sunrise": "2026-08-20T06:49",
-      "sunset": "2026-08-20T20:14",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-21",
-      "high_f": 84,
-      "low_f": 62,
-      "rain_pct": 45,
-      "uv": 8,
-      "sunrise": "2026-08-21T06:50",
-      "sunset": "2026-08-21T20:13",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-08-18T03:28:46.255850+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-18T04:09:11.307888+00:00"
 }

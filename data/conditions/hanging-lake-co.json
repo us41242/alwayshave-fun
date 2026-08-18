@@ -24,11 +24,11 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 81,
+    "temp_f": 82,
     "feels_like_f": 72,
     "wind_mph": 19,
-    "gusts_mph": 27,
-    "rain_pct": 1
+    "gusts_mph": 26,
+    "rain_pct": 2
   },
   "sunrise": "2026-08-18T06:24",
   "sunset": "2026-08-18T20:00",
@@ -40,23 +40,23 @@
   },
   "fire": {
     "risk_level": "elevated",
-    "nearest_fire_km": 33.7,
+    "nearest_fire_km": 33.8,
     "fire_count_50km": 1,
     "nearest_incident": {
-      "name": "310",
-      "acres": 603,
-      "containment_pct": 96,
-      "cause": "Human",
-      "updated": "2026-08-17T23:36:08.630000+00:00",
-      "distance_km": 70.6,
-      "direction": "WSW"
+      "name": "Elk Knob",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-18T21:12:55.847000+00:00",
+      "distance_km": 33.3,
+      "direction": "NNW"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-18",
-      "high_f": 82,
+      "high_f": 81,
       "low_f": 53,
       "rain_pct": 6,
       "uv": 8,
@@ -68,7 +68,7 @@
     {
       "date": "2026-08-19",
       "high_f": 83,
-      "low_f": 60,
+      "low_f": 61,
       "rain_pct": 13,
       "uv": 7,
       "sunrise": "2026-08-19T06:25",
@@ -110,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-18T21:25:44.379226+00:00"
+  "updated_at": "2026-08-18T21:52:50.076931+00:00"
 }

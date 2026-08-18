@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T19:06:34.764323+00:00",
+  "updated_at": "2026-08-18T19:47:56.626524+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 124,
+  "count": 123,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -700,18 +700,6 @@
       "discovered": "2026-08-05T20:31:10+00:00"
     },
     {
-      "name": "Post Canyon",
-      "acres": 0.6,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 39.316623020983066,
-      "lng": -109.84126112925951,
-      "updated": "2026-08-18T02:59:40.647000+00:00",
-      "state": "UT",
-      "personnel": null,
-      "discovered": "2026-08-15T19:56:00+00:00"
-    },
-    {
       "name": "High",
       "acres": 0.38,
       "containment_pct": null,
@@ -734,6 +722,18 @@
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-17T01:48:00+00:00"
+    },
+    {
+      "name": "Farnum",
+      "acres": 0.2,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.15117329736588,
+      "lng": -105.57934317656661,
+      "updated": "2026-08-18T19:42:12.043000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-18T17:01:12+00:00"
     },
     {
       "name": "Canal Bon",
@@ -760,18 +760,6 @@
       "discovered": "2026-08-16T01:13:12+00:00"
     },
     {
-      "name": "Timber Mill",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 33.79969925034171,
-      "lng": -110.46581672511988,
-      "updated": "2026-08-18T18:18:02.037000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-17T19:39:28+00:00"
-    },
-    {
       "name": "Mtz/Rru/Palm",
       "acres": 0.1,
       "containment_pct": null,
@@ -794,6 +782,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-16T03:02:06+00:00"
+    },
+    {
+      "name": "Timber Mill",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 33.79969925034171,
+      "lng": -110.46581672511988,
+      "updated": "2026-08-18T18:18:02.037000+00:00",
+      "state": "AZ",
+      "personnel": null,
+      "discovered": "2026-08-17T19:39:28+00:00"
     },
     {
       "name": "Vehicle",
@@ -859,10 +859,10 @@
       "name": "Quaking Aspen",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
+      "cause": "Natural",
       "lat": 33.44817229653654,
       "lng": -108.59051031216568,
-      "updated": "2026-08-18T18:12:44.197000+00:00",
+      "updated": "2026-08-18T19:13:27.553000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-18T03:25:00+00:00"
@@ -1240,28 +1240,16 @@
       "discovered": "2026-08-18T01:36:49+00:00"
     },
     {
-      "name": "Pt 31 Unattended Camp Fire",
+      "name": "Lac-290246",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 36.75330509930043,
-      "lng": -118.89201254598399,
-      "updated": "2026-08-17T16:41:26.250000+00:00",
+      "lat": 34.013414866760534,
+      "lng": -117.97677213908894,
+      "updated": "2026-08-16T11:49:03.157000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-07-26T21:32:53+00:00"
-    },
-    {
-      "name": "Lac-293045",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.57608493026535,
-      "lng": -117.95683218266703,
-      "updated": "2026-08-18T15:46:27.147000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-18T15:46:01+00:00"
+      "discovered": "2026-08-16T11:48:43+00:00"
     },
     {
       "name": "Bike",
@@ -1276,16 +1264,28 @@
       "discovered": "2026-08-17T23:16:10+00:00"
     },
     {
-      "name": "Lac-290246",
+      "name": "Lac-293045",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 34.013414866760534,
-      "lng": -117.97677213908894,
-      "updated": "2026-08-16T11:49:03.157000+00:00",
+      "lat": 34.57608493026535,
+      "lng": -117.95683218266703,
+      "updated": "2026-08-18T15:46:27.147000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-16T11:48:43+00:00"
+      "discovered": "2026-08-18T15:46:01+00:00"
+    },
+    {
+      "name": "Pt 31 Unattended Camp Fire",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 36.75330509930043,
+      "lng": -118.89201254598399,
+      "updated": "2026-08-17T16:41:26.250000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-07-26T21:32:53+00:00"
     },
     {
       "name": "Lac-289448",
@@ -1360,18 +1360,6 @@
       "discovered": "2026-08-16T13:32:55+00:00"
     },
     {
-      "name": "Church 2",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.431621845862345,
-      "lng": -117.14930495186674,
-      "updated": "2026-08-18T10:41:38.100000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-18T10:40:15+00:00"
-    },
-    {
       "name": "Lac-289580",
       "acres": 0.01,
       "containment_pct": null,
@@ -1384,16 +1372,16 @@
       "discovered": "2026-08-15T23:23:15+00:00"
     },
     {
-      "name": "Showers",
+      "name": "Church 2",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 38.74306120470856,
-      "lng": -120.03417995981972,
-      "updated": "2026-08-18T18:42:01.483000+00:00",
+      "lat": 33.431621845862345,
+      "lng": -117.14930495186674,
+      "updated": "2026-08-18T10:41:38.100000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-17T20:28:26+00:00"
+      "discovered": "2026-08-18T10:40:15+00:00"
     },
     {
       "name": "Yerba",

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T15:32:38.018493+00:00",
+  "updated_at": "2026-08-18T16:19:47.698288+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 126,
+  "count": 125,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -172,6 +172,18 @@
       "discovered": "2026-08-05T00:57:00+00:00"
     },
     {
+      "name": "Shoshone",
+      "acres": 11000,
+      "containment_pct": 0,
+      "cause": "Natural",
+      "lat": 39.829895486584576,
+      "lng": -117.67619270245483,
+      "updated": "2026-08-18T16:09:58.080000+00:00",
+      "state": "NV",
+      "personnel": 179,
+      "discovered": "2026-08-15T20:49:40+00:00"
+    },
+    {
       "name": "Gann",
       "acres": 10339,
       "containment_pct": 100,
@@ -194,18 +206,6 @@
       "state": "NV",
       "personnel": 27,
       "discovered": "2026-07-31T16:30:00+00:00"
-    },
-    {
-      "name": "Shoshone",
-      "acres": 8000,
-      "containment_pct": 0,
-      "cause": "Natural",
-      "lat": 39.829895486584576,
-      "lng": -117.67619270245483,
-      "updated": "2026-08-17T22:56:22.597000+00:00",
-      "state": "NV",
-      "personnel": 179,
-      "discovered": "2026-08-15T20:49:40+00:00"
     },
     {
       "name": "Willow",
@@ -506,18 +506,6 @@
       "state": "NM",
       "personnel": 70,
       "discovered": "2026-08-11T21:28:04+00:00"
-    },
-    {
-      "name": "Sandy Hill",
-      "acres": 77.7,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.13456567408092,
-      "lng": -103.27918918837902,
-      "updated": "2026-08-18T15:13:31.467000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-18T15:09:36+00:00"
     },
     {
       "name": "Taffle",
@@ -844,6 +832,18 @@
       "discovered": "2026-08-16T03:02:06+00:00"
     },
     {
+      "name": "Walt Smith",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 33.4315054362446,
+      "lng": -105.7556766990177,
+      "updated": "2026-08-18T15:54:16.033000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-17T20:32:00+00:00"
+    },
+    {
       "name": "Vehicle",
       "acres": 0.1,
       "containment_pct": null,
@@ -854,18 +854,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-02T19:42:00+00:00"
-    },
-    {
-      "name": "Walt Smith",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.43280243654435,
-      "lng": -105.75378969869104,
-      "updated": "2026-08-18T15:09:23.450000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-17T20:32:00+00:00"
     },
     {
       "name": "MOJAVE Complex",
@@ -914,18 +902,6 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-15T16:09:59+00:00"
-    },
-    {
-      "name": "Double Heart",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 33.84062235461286,
-      "lng": -108.5942103418521,
-      "updated": "2026-08-18T05:07:28.663000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-18T02:41:00+00:00"
     },
     {
       "name": "Branscomb",
@@ -1228,6 +1204,30 @@
       "discovered": "2026-08-17T00:31:07+00:00"
     },
     {
+      "name": "Lac-290553",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.926254843757775,
+      "lng": -118.213412171891,
+      "updated": "2026-08-16T19:25:38.790000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-16T19:07:18+00:00"
+    },
+    {
+      "name": "Martins",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.57018488668445,
+      "lng": -118.688312304782,
+      "updated": "2026-08-16T02:06:06.640000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-07-06T23:08:41+00:00"
+    },
+    {
       "name": "Lac-290975",
       "acres": 0.01,
       "containment_pct": null,
@@ -1252,30 +1252,6 @@
       "discovered": "2026-08-18T01:36:49+00:00"
     },
     {
-      "name": "Martins",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.57018488668445,
-      "lng": -118.688312304782,
-      "updated": "2026-08-16T02:06:06.640000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-07-06T23:08:41+00:00"
-    },
-    {
-      "name": "Lac-290553",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.926254843757775,
-      "lng": -118.213412171891,
-      "updated": "2026-08-16T19:25:38.790000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-16T19:07:18+00:00"
-    },
-    {
       "name": "Lac-290246",
       "acres": 0.01,
       "containment_pct": null,
@@ -1298,6 +1274,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-17T23:16:10+00:00"
+    },
+    {
+      "name": "Lac-293045",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.57608493026535,
+      "lng": -117.95683218266703,
+      "updated": "2026-08-18T15:46:27.147000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-18T15:46:01+00:00"
     },
     {
       "name": "Pt 31 Unattended Camp Fire",

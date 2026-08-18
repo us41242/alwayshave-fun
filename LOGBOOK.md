@@ -4,6 +4,46 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-18 — Session 39 (nightly) — FIRST EXTERNAL DISTRIBUTION OF `/data`: r/datasets POST LIVE
+
+### Oriented
+- `git status` clean; Session 38's three feature commits + log commit `56c4832d50e` on origin. Pipeline healthy — 8 most recent `fetch_conditions` runs all event=`schedule`, 7 `success` + 1 in flight at 04:03Z. No credential in the trigger path.
+- GSC (`sc-domain:alwayshave.fun`): **0 clicks / 0 impressions** at 7d (08-10→08-14) and 28d (07-20→08-14). Sitemap still `pending` — day 15. Decision point 2026-08-24 unchanged.
+- Weekly #6 was filed earlier today by Session 38 (`~/Documents/daily-in-box/ahf-weekly-2026-08-17.md`) — no weekly due tonight.
+- Reddit account live: `u/StunningOpinion7483`, 15 karma, not suspended.
+
+### Decided
+`/data` shipped last night and **nothing outside this domain pointed at it.** The charter's own read of the constraint (authority, Phase 3) says the next move is outbound, and the thing that just became postable is a genuine open dataset. So tonight: the site's first *self-post* anywhere — r/datasets (222k subs), which explicitly permits self-promotion **with disclosure** and requires original-source credit.
+
+Deliberately NOT done: PRs adding `/data` to curated dataset lists. The only GitHub identity on this machine is `us41242` = Josh personally, and hard rule 7 forbids posting as Josh. Filed as an open question instead (STRATEGY.md #7) — it needs either Josh's OK or a site-owned GitHub account, which needs a site-controlled email.
+
+### Did
+- Read `r/datasets` rules through the API first (as Phase 3 requires). Relevant ones: self-promotion allowed **with a disclaimer**, link the original source, no low-effort posts, flair required.
+- **Post `1vrergg`** — flair `dataset`, title `[Dataset] Daily size & containment history for Southwest US wildfires (NV/UT/AZ/CO/CA), archived from NIFC snapshots that get overwritten — CSV + JSON, CC BY 4.0`. Body leads with the ownership disclosure, explains *why the data can't be obtained elsewhere* (WFIGS overwrites its snapshot; we keep the last read of each UTC day), states plainly that **the record only starts 2026-08-09** (39 incidents / 309 readings — no overselling, hard rule 4), lists the columns, repeats all four caveats from the page (remap-driven acreage drops kept as read, drop-off ≠ contained, empty ≠ 0% containment, accurate only as the upstream feed), credits NIFC/WFIGS as original source with its own link, and closes with the two other datasets and an offer to add fields.
+- STRATEGY.md: experiment row for the distribution attempt, distribution-account note (first self-post), open question #7 (site GitHub identity).
+
+### Verified
+- Post live via authed `api/info`: `removed_by_category=null`, `banned_by=null`, flair `dataset` applied, score 1 — not caught by the spam filter or automod.
+- Every URL in the post resolves on the live site with a real UA + cache-buster: `/`, `/data`, `/fires`, `/data/fires/growth-history.csv`, `/data/fires/archive.json`, `/data/fires/incidents.json`, `/data/trails-index.json`, `/data/climate/normals.csv`, `/scoring`, `/sitemap.xml` — all 200. Sitemap valid XML, 157 URLs.
+- **Numbers in the post checked against the files as served, not against the page copy:** live `growth-history.csv` = 310 lines = 309 readings ✓, header exactly the 10 columns quoted ✓, `normals.csv` = 553 lines = 552 rows ✓.
+
+### Learned
+- `gsc_query.py` takes a subcommand: `query --property sc-domain:… --days N` (also `sitemaps`, `sites`). Passing the property positionally errors out.
+- Judging an awesome-list PR's odds: `pulls?state=closed` filtered on `merged_at` is the honest signal, not stars or `pushed_at`. `awesomedata/awesome-public-datasets` — 78k stars, pushed 08-04 — has **no merged PR in its last 15 closed**, while the much smaller `sshuair/awesome-gis` merged as recently as 2026-07-21.
+
+### Expect
+- Reception on `1vrergg` within 24–48h. The realistic best case is not traffic — it's a commenter mirroring or citing the CSV, which would be the first genuine inbound link this domain has ever had. Realistic base case is a handful of upvotes and no link. Either way it's the first outbound authority attempt, and it cost nothing.
+- No GSC movement before 08-24.
+
+### Upcoming
+- **Check `1vrergg` reception next session** (score, comments, still not removed) and answer any questions in-thread — an unanswered question on a dataset post is a wasted contact.
+- **2026-08-24 sitemap decision point** — no homepage recrawl since 06-20 ⇒ authority becomes the entire strategy.
+- Await Josh on the GitHub-identity question before any dataset-list PRs.
+- 2026-09-07: `/data` first review (Dataset Search + Bing crawl).
+- Participation round 17 when a genuine thread fit exists.
+
+---
+
 ## 2026-08-17 — Session 38 (nightly + WEEKLY #6) — SHIPPED `/data`: OPENLY LICENSED DATASET CATALOG WITH `Dataset` MARKUP
 
 ### Oriented

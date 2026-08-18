@@ -19,12 +19,14 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 95,
-    "feels_like_f": 87,
-    "wind_mph": 15,
-    "gusts_mph": 18,
+    "temp_f": 94,
+    "feels_like_f": 84,
+    "wind_mph": 18,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-08-18T06:47",
@@ -37,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 185.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
@@ -45,7 +47,7 @@
   "forecast": [
     {
       "date": "2026-08-18",
-      "high_f": 94,
+      "high_f": 95,
       "low_f": 67,
       "rain_pct": 1,
       "uv": 8,
@@ -57,7 +59,7 @@
     {
       "date": "2026-08-19",
       "high_f": 98,
-      "low_f": 72,
+      "low_f": 70,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-19T06:48",
@@ -67,7 +69,7 @@
     },
     {
       "date": "2026-08-20",
-      "high_f": 96,
+      "high_f": 97,
       "low_f": 78,
       "rain_pct": 4,
       "uv": 8,
@@ -89,15 +91,15 @@
     },
     {
       "date": "2026-08-22",
-      "high_f": 92,
+      "high_f": 91,
       "low_f": 71,
       "rain_pct": 38,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-22T06:50",
       "sunset": "2026-08-22T20:10",
       "predicted_score": 70,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-18T23:18:58.730044+00:00"
+  "updated_at": "2026-08-18T23:50:26.766021+00:00"
 }

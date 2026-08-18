@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 72,
-    "feels_like_f": 70,
+    "feels_like_f": 69,
     "wind_mph": 2,
     "gusts_mph": 5,
     "rain_pct": 0
@@ -30,10 +30,10 @@
   "sunrise": "2026-08-18T06:50",
   "sunset": "2026-08-18T20:20",
   "aqi": {
-    "aqi": 28,
+    "aqi": 29,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,14 +50,14 @@
     }
   },
   "river": {
-    "cfs": 36,
+    "cfs": 35,
     "stage": "low",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-18",
-      "high_f": 94,
+      "high_f": 95,
       "low_f": 70,
       "rain_pct": 3,
       "uv": 8,
@@ -68,14 +68,14 @@
     },
     {
       "date": "2026-08-19",
-      "high_f": 93,
-      "low_f": 70,
+      "high_f": 96,
+      "low_f": 72,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-19T06:51",
       "sunset": "2026-08-19T20:18",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-20",
@@ -111,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-18T10:18:31.259345+00:00"
+  "updated_at": "2026-08-18T10:53:51.825200+00:00"
 }

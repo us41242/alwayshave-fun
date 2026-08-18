@@ -17,8 +17,8 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 22,
-  "score_label": "Stay home",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 67,
@@ -30,10 +30,10 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 29,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
@@ -51,5 +51,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-18T10:20:44.042054+00:00"
+  "updated_at": "2026-08-18T10:58:10.873370+00:00"
 }

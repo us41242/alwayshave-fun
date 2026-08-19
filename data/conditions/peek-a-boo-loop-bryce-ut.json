@@ -17,11 +17,9 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 62,
     "feels_like_f": 53,
@@ -29,8 +27,8 @@
     "gusts_mph": 23,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-19T06:48",
-  "sunset": "2026-08-19T20:16",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 16,
     "category": "Good",
@@ -39,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 119.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -53,62 +51,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-19",
-      "high_f": 84,
-      "low_f": 62,
-      "rain_pct": 7,
-      "uv": 8,
-      "sunrise": "2026-08-19T06:48",
-      "sunset": "2026-08-19T20:16",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-20",
-      "high_f": 84,
-      "low_f": 64,
-      "rain_pct": 43,
-      "uv": 8,
-      "sunrise": "2026-08-20T06:49",
-      "sunset": "2026-08-20T20:14",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-21",
-      "high_f": 82,
-      "low_f": 61,
-      "rain_pct": 43,
-      "uv": 8,
-      "sunrise": "2026-08-21T06:50",
-      "sunset": "2026-08-21T20:13",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-22",
-      "high_f": 77,
-      "low_f": 60,
-      "rain_pct": 38,
-      "uv": 7,
-      "sunrise": "2026-08-22T06:50",
-      "sunset": "2026-08-22T20:12",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-23",
-      "high_f": 80,
-      "low_f": 59,
-      "rain_pct": 36,
-      "uv": 8,
-      "sunrise": "2026-08-23T06:51",
-      "sunset": "2026-08-23T20:10",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-19T10:57:57.836641+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-19T11:22:04.173351+00:00"
 }

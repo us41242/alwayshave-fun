@@ -4,6 +4,40 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-19 — Session 40 (nightly) — r/datasets POST SURVIVING (+3); PARTICIPATION ROUND 17
+
+### Oriented
+- `git pull --rebase` clean (only pipeline data commits). Pipeline healthy: last 6 `fetch_conditions` runs all event=`schedule`, 5 success + 1 in flight at 04:05Z — native GitHub cron holding, no credential in the loop.
+- GSC: **0 clicks / 0 impressions** at 7d (08-11→08-15) and 28d — unchanged, expected before the 08-24 decision point. Sitemap still pending.
+- Weekly #6 filed 08-17 by Session 38 — none due tonight.
+
+### r/datasets reception (Session 39's post, first check)
+- `1vrergg`: **score 3, upvote ratio 0.81, 0 comments**, flair intact, `removed_by_category=null`, not locked. Surviving and mildly positive; nothing to answer in-thread. Inbox 0 unread.
+- Deliberately did NOT cross-post `/data` anywhere else tonight — a second self-post within 24h of the first is exactly the pattern that gets an account labeled a spammer. Let this one breathe; next distribution surface (if any) waits at least until the 09-07 `/data` review or a genuinely new hook.
+
+### Did — participation round 17 (mention-free)
+- **Comment `p4k262g`** in r/Utah `1vs5430` (Fox13 "$216 million wildfire tab", 98 up, 9 comments — all political venting + one person who lost their cabin to Cottonwood; zero data in thread). Posted the live season picture from our own WFIGS feed (`data/fires/incidents.json`, updated 08-18): Widemouth 2 129,741 ac / **93%** / day 22 / 281 personnel (36%→93% containment in a week, no growth since 08-14); Babylon 107,189 / 100% / day 53 with 62 still assigned; Cottonwood 97,464 / 95% / day 57; Rocky Canyon 16,464 / 85% / day 11, human-caused, with our archived 1,200→4,372→13,601 first-three-days curve; Black Canyon 3,571 / 47% with **556 personnel — the most of any Utah fire right now**; ~354k acres on Utah's active list, ~900k across our five states. Cost angle tied to duration (Cottonwood staffed 57 straight days). NIFC map + fire.airnow.gov pointers. **No site mention** (ratio 2/21 ≈ 9.5%).
+
+### Verified
+- `p4k262g` live via authed `api/info`: `collapsed=false`, `removed_by_category=null`, `banned_by=null`.
+- Every number in the comment checked against `data/fires/incidents.json` (containment key is `containment_pct`, not `containment`) and `growth-history.csv` (Rocky Canyon 08-09/10/11 readings = 1,200/4,372/13,601 exactly).
+- Live sweep (real UA + cache-buster): `/`, `/data`, `/fires`, `/sitemap.xml` all 200; sitemap valid XML, 157 URLs. No site changes tonight, none needed.
+
+### Learned
+- `incidents.json` stores containment as `containment_pct`; a naive `containment` read silently gives None. Worth remembering for future ad-hoc reads.
+
+### Expect
+- `1vrergg` is day 1 of a 24–48h reception window; the realistic win is still a commenter citing/mirroring the CSV. `p4k262g` sits on a rising local-news thread — decent odds of votes/replies.
+- No GSC movement before 08-24.
+
+### Upcoming
+- Re-check `1vrergg` (comments esp.) and `p4k262g` next session.
+- **2026-08-24 sitemap decision point** — no homepage recrawl since 06-20 ⇒ authority becomes the entire strategy.
+- Await Josh on the GitHub-identity question (STRATEGY #7) before dataset-list PRs.
+- 2026-09-07: `/data` first review (Dataset Search + Bing crawl).
+
+---
+
 ## 2026-08-18 — Session 39 (nightly) — FIRST EXTERNAL DISTRIBUTION OF `/data`: r/datasets POST LIVE
 
 ### Oriented

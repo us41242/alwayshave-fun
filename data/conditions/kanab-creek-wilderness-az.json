@@ -17,13 +17,13 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 88,
-    "wind_mph": 14,
+    "temp_f": 90,
+    "feels_like_f": 84,
+    "wind_mph": 9,
     "gusts_mph": 16,
     "rain_pct": 1
   },
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 171.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Mm17 I15",
@@ -49,7 +49,11 @@
       "direction": "WNW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 5,
+    "stage": null,
+    "gauge_id": "09403850"
+  },
   "forecast": [
     {
       "date": "2026-08-18",
@@ -75,8 +79,8 @@
     },
     {
       "date": "2026-08-20",
-      "high_f": 98,
-      "low_f": 70,
+      "high_f": 100,
+      "low_f": 68,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-20T05:51",
@@ -107,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-19T00:37:34.838721+00:00"
+  "updated_at": "2026-08-19T02:13:50.603457+00:00"
 }

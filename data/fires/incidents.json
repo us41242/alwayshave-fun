@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T21:16:21.579752+00:00",
+  "updated_at": "2026-08-19T21:49:31.118196+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 128,
+  "count": 131,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -258,13 +258,13 @@
     {
       "name": "Post",
       "acres": 4343,
-      "containment_pct": 70,
+      "containment_pct": 80,
       "cause": "Natural",
       "lat": 37.081950073895264,
       "lng": -104.42139869811702,
-      "updated": "2026-08-18T21:13:15.560000+00:00",
+      "updated": "2026-08-19T21:41:36.300000+00:00",
       "state": "CO",
-      "personnel": 52,
+      "personnel": 23,
       "discovered": "2026-08-12T00:55:00+00:00"
     },
     {
@@ -592,6 +592,18 @@
       "discovered": "2026-08-06T14:45:07+00:00"
     },
     {
+      "name": "Kittle",
+      "acres": 10,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.33230623331637,
+      "lng": -106.86771048747104,
+      "updated": "2026-08-19T21:42:49.947000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-19T20:43:19+00:00"
+    },
+    {
       "name": "Green",
       "acres": 10,
       "containment_pct": null,
@@ -700,6 +712,18 @@
       "discovered": "2026-08-19T05:21:58+00:00"
     },
     {
+      "name": "Farnum",
+      "acres": 0.5,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 39.15117329736588,
+      "lng": -105.57934317656661,
+      "updated": "2026-08-19T21:28:44.060000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-18T17:01:12+00:00"
+    },
+    {
       "name": "Max Gold",
       "acres": 0.5,
       "containment_pct": null,
@@ -734,18 +758,6 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-19T00:55:40+00:00"
-    },
-    {
-      "name": "Farnum",
-      "acres": 0.25,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 39.15117329736588,
-      "lng": -105.57934317656661,
-      "updated": "2026-08-19T15:28:57.920000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-18T17:01:12+00:00"
     },
     {
       "name": "Canal Bon",
@@ -808,6 +820,18 @@
       "discovered": "2026-08-02T19:42:00+00:00"
     },
     {
+      "name": "Exit",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Human",
+      "lat": 39.75215592695028,
+      "lng": -111.83556159309434,
+      "updated": "2026-08-19T21:45:30.120000+00:00",
+      "state": "UT",
+      "personnel": null,
+      "discovered": "2026-08-19T21:15:00+00:00"
+    },
+    {
       "name": "Rabbit",
       "acres": 0.1,
       "containment_pct": null,
@@ -835,25 +859,13 @@
       "name": "Little Juniper",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 40.496338697457325,
-      "lng": -115.83101246170766,
-      "updated": "2026-08-19T20:56:28.233000+00:00",
+      "cause": "Natural",
+      "lat": 40.49640569745059,
+      "lng": -115.83117946174758,
+      "updated": "2026-08-19T21:42:02.270000+00:00",
       "state": "NV",
       "personnel": null,
       "discovered": "2026-08-19T19:40:12+00:00"
-    },
-    {
-      "name": "Tooth",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Human",
-      "lat": 33.99020522794273,
-      "lng": -111.38176092346927,
-      "updated": "2026-08-19T21:09:42.307000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-19T19:43:48+00:00"
     },
     {
       "name": "Fox",
@@ -892,18 +904,6 @@
       "discovered": "2026-08-18T00:02:46+00:00"
     },
     {
-      "name": "Volcano",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 35.865422768407505,
-      "lng": -106.51809305942776,
-      "updated": "2026-08-19T20:22:01.817000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-19T18:08:30+00:00"
-    },
-    {
       "name": "Buckman",
       "acres": 0.1,
       "containment_pct": null,
@@ -914,6 +914,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-18T22:11:07+00:00"
+    },
+    {
+      "name": "East Fork",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 35.825672758931205,
+      "lng": -106.58031006965038,
+      "updated": "2026-08-19T21:36:01.397000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-19T19:51:47+00:00"
     },
     {
       "name": "Top",
@@ -1070,6 +1082,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-19T17:59:23+00:00"
+    },
+    {
+      "name": "Fort",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 36.90607515872432,
+      "lng": -118.24149245289207,
+      "updated": "2026-08-19T21:42:32.780000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-19T21:26:32+00:00"
     },
     {
       "name": "Lac-292711",
@@ -1420,28 +1444,28 @@
       "discovered": "2026-08-19T16:27:00+00:00"
     },
     {
+      "name": "Summit",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 40.63830214137054,
+      "lng": -122.73137463517017,
+      "updated": "2026-08-19T21:43:10.897000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-19T21:37:27+00:00"
+    },
+    {
       "name": "Mtz/Sdu/Rainbow",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
       "lat": 33.43083784631518,
       "lng": -117.13917895005865,
-      "updated": "2026-08-19T19:46:22.647000+00:00",
+      "updated": "2026-08-19T21:21:54.797000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-19T19:42:08+00:00"
-    },
-    {
-      "name": "Church 2",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.431621845862345,
-      "lng": -117.14930495186674,
-      "updated": "2026-08-18T10:41:38.100000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-18T10:40:15+00:00"
     },
     {
       "name": "Old Highway 80  / Sunrise Hwy 2",
@@ -1454,6 +1478,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-18T22:13:18+00:00"
+    },
+    {
+      "name": "Church 2",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.431621845862345,
+      "lng": -117.14930495186674,
+      "updated": "2026-08-18T10:41:38.100000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-18T10:40:15+00:00"
     },
     {
       "name": "Lac-294029",

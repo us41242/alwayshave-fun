@@ -29,8 +29,8 @@
     "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-19T06:16",
-  "sunset": "2026-08-19T19:40",
+  "sunrise": "2026-08-20T06:16",
+  "sunset": "2026-08-20T19:39",
   "aqi": {
     "aqi": 97,
     "category": "Moderate",
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 107.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Pt 31 Unattended Camp Fire",
@@ -54,20 +54,9 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-19",
-      "high_f": 80,
-      "low_f": 61,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-19T06:16",
-      "sunset": "2026-08-19T19:40",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
       "date": "2026-08-20",
       "high_f": 79,
-      "low_f": 64,
+      "low_f": 63,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-20T06:16",
@@ -107,7 +96,18 @@
       "sunset": "2026-08-23T19:35",
       "predicted_score": 78,
       "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-24",
+      "high_f": 80,
+      "low_f": 61,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-24T06:20",
+      "sunset": "2026-08-24T19:34",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-20T06:45:42.704185+00:00"
+  "updated_at": "2026-08-20T07:27:33.092995+00:00"
 }

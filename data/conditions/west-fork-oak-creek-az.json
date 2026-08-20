@@ -19,25 +19,27 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 91,
-    "feels_like_f": 93,
-    "wind_mph": 8,
-    "gusts_mph": 14,
-    "rain_pct": 19
+    "temp_f": 85,
+    "feels_like_f": 79,
+    "wind_mph": 18,
+    "gusts_mph": 24,
+    "rain_pct": 21
   },
   "sunrise": "2026-08-20T05:51",
   "sunset": "2026-08-20T19:09",
   "aqi": {
-    "aqi": 42,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 125.5,
+    "nearest_fire_km": 154.3,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Hart",
@@ -59,7 +61,7 @@
       "date": "2026-08-20",
       "high_f": 90,
       "low_f": 68,
-      "rain_pct": 33,
+      "rain_pct": 29,
       "uv": 8,
       "sunrise": "2026-08-20T05:51",
       "sunset": "2026-08-20T19:09",
@@ -69,7 +71,7 @@
     {
       "date": "2026-08-21",
       "high_f": 93,
-      "low_f": 70,
+      "low_f": 71,
       "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-08-21T05:51",
@@ -81,7 +83,7 @@
       "date": "2026-08-22",
       "high_f": 92,
       "low_f": 72,
-      "rain_pct": 6,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-22T05:52",
       "sunset": "2026-08-22T19:06",
@@ -92,7 +94,7 @@
       "date": "2026-08-23",
       "high_f": 92,
       "low_f": 65,
-      "rain_pct": 19,
+      "rain_pct": 21,
       "uv": 8,
       "sunrise": "2026-08-23T05:53",
       "sunset": "2026-08-23T19:05",
@@ -103,7 +105,7 @@
       "date": "2026-08-24",
       "high_f": 91,
       "low_f": 67,
-      "rain_pct": 17,
+      "rain_pct": 15,
       "uv": 7,
       "sunrise": "2026-08-24T05:54",
       "sunset": "2026-08-24T19:04",
@@ -111,5 +113,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-20T20:20:07.775183+00:00"
+  "updated_at": "2026-08-20T20:56:52.909443+00:00"
 }

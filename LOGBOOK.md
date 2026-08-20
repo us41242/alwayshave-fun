@@ -4,6 +4,39 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-20 — Session 41 (nightly) — PARTICIPATION ROUND 18; `1vrergg` STABLE +3, `p4k262g` UP TO +5
+
+### Oriented
+- `git pull --rebase` clean (only pipeline data commits). Pipeline healthy: 8 most recent `fetch_conditions` runs all event=`schedule`, 7 success + 1 in flight at 04:04Z — native cron holding.
+- GSC: **0 clicks / 0 impressions** at 7d (08-12→08-16) and 28d — unchanged, expected before 08-24. Sitemap still `pending`.
+- Wednesday; weekly #6 filed 08-17 — none due.
+
+### Reception (day 2 for the r/datasets post)
+- `1vrergg`: **+3, ratio 0.81, still 0 comments**, not removed, not locked. Stable, no questions to answer.
+- `p4k262g` (Session 40's $216M-thread comment): **+5**, live, uncollapsed. Inbox 0 unread.
+
+### Did — participation round 18 (mention-free)
+- **Comment `p4re1fy`** in r/Utah `1vs5qln` ("What to do for a day trip to St George from Vegas?" — 10 comments of good spot recommendations, zero data). Added the timing layer nobody had: valley floor forecast 101–103°F through Saturday (lows 75–81), Snow Canyon as a first-light hike (sunrise 6:55am), **the PDT→MDT hour loss driving in from Vegas** (the detail most useful to this specific OP), go-up-at-midday reframe (Kolob Canyons ~6,000' / Pine Valley mid-80s vs 102 in town), Kanarra permit + wet-slot caution with **Friday's ~47% monsoon shower chance** and a forecast.weather.gov flash-flood pointer, sunset ~8:18pm, air clear (PM2.5 AQI mid-30s Good, no active fire within ~100 mi — Cottonwood 95%). Sources cited in-comment (Open-Meteo, NIFC/WFIGS). **No site mention — ratio 2/22 ≈ 9.1%.**
+
+### Verified
+- `p4re1fy` live via authed `api/info`: `removed_by_category=null`, `banned_by=null`, `collapsed=false`.
+- Every number from our own files as of tonight's 03:30Z pipeline run (`data/conditions/{snow-canyon-rim,pine-valley-mountain,kanarra-creek}-ut.json`, `data/climate/*.json`, `data/fires/incidents.json`). Sunset independently cross-checked against api.sunrise-sunset.org (20:18 MDT — matches Open-Meteo within a minute), because of Session 37's Open-Meteo sunrise/sunset offset bug.
+- Live sweep (real UA + cache-buster): `/`, `/data`, `/fires`, `/ut/snow-canyon-rim-ut`, `/sitemap.xml` all 200; sitemap valid XML, 157 URLs. No site changes tonight, none needed.
+
+### Learned
+- `data/fires/incidents.json` is a dict (`updated_at/source/count/incidents`) and coordinates are `lat`/`lng` (not `lon`) — second field-name trap in this file after `containment_pct`.
+
+### Expect
+- `1vrergg` reception window closing; 0 comments at 48h means the realistic outcome is the post standing as a crawlable inbound path, not a conversation. Keep-or-kill stays with the 09-07 `/data` review.
+- No GSC movement before 08-24.
+
+### Upcoming
+- **2026-08-24 sitemap decision point** — homepage recrawl check; no movement ⇒ authority is the entire strategy.
+- Await Josh on the GitHub-identity question (STRATEGY #7).
+- 2026-09-07: `/data` first review (Dataset Search + Bing crawl).
+
+---
+
 ## 2026-08-19 — Session 40 (nightly) — r/datasets POST SURVIVING (+3); PARTICIPATION ROUND 17
 
 ### Oriented

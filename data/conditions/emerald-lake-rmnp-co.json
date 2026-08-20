@@ -17,13 +17,15 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 74,
-    "feels_like_f": 68,
-    "wind_mph": 7,
+    "feels_like_f": 67,
+    "wind_mph": 8,
     "gusts_mph": 12,
     "rain_pct": 0
   },
@@ -36,9 +38,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 37.5,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "People's Crossing",
       "acres": 0.5,
@@ -59,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-08-20T06:18",
       "sunset": "2026-08-20T19:52",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -70,8 +72,8 @@
       "uv": 7,
       "sunrise": "2026-08-21T06:19",
       "sunset": "2026-08-21T19:51",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-22",
@@ -81,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-22T06:20",
       "sunset": "2026-08-22T19:49",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-23",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-23T06:21",
       "sunset": "2026-08-23T19:48",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-24",
@@ -103,9 +105,9 @@
       "uv": 6,
       "sunrise": "2026-08-24T06:22",
       "sunset": "2026-08-24T19:46",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-20T22:00:48.268355+00:00"
+  "updated_at": "2026-08-20T22:26:56.661186+00:00"
 }

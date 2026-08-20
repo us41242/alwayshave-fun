@@ -17,10 +17,10 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 10,
+  "score_label": "Stay home",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 76,
@@ -29,18 +29,18 @@
     "gusts_mph": 7,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-20T06:17",
-  "sunset": "2026-08-20T19:31",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 57,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "high",
+    "nearest_fire_km": 4.9,
+    "fire_count_50km": 11,
     "nearest_incident": {
       "name": "Arroyo",
       "acres": 0.1,
@@ -52,62 +52,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-20",
-      "high_f": 78,
-      "low_f": 67,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-20T06:17",
-      "sunset": "2026-08-20T19:31",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-21",
-      "high_f": 75,
-      "low_f": 68,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-08-21T06:18",
-      "sunset": "2026-08-21T19:30",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-22",
-      "high_f": 90,
-      "low_f": 66,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-22T06:18",
-      "sunset": "2026-08-22T19:29",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-23",
-      "high_f": 92,
-      "low_f": 75,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-23T06:19",
-      "sunset": "2026-08-23T19:28",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-24",
-      "high_f": 90,
-      "low_f": 74,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-24T06:20",
-      "sunset": "2026-08-24T19:27",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-20T22:00:52.383913+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-20T22:29:07.347171+00:00"
 }

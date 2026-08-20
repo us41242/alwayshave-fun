@@ -24,20 +24,20 @@
     "temp_f": 50,
     "feels_like_f": 40,
     "wind_mph": 10,
-    "gusts_mph": 15,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-08-20T05:54",
   "sunset": "2026-08-20T19:25",
   "aqi": {
-    "aqi": 29,
+    "aqi": 31,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 123.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
@@ -56,7 +56,7 @@
       "date": "2026-08-20",
       "high_f": 69,
       "low_f": 49,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-20T05:54",
       "sunset": "2026-08-20T19:25",
@@ -108,5 +108,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-20T10:31:10.078053+00:00"
+  "updated_at": "2026-08-20T11:04:36.769815+00:00"
 }

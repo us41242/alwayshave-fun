@@ -21,16 +21,16 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 93,
-    "feels_like_f": 88,
-    "wind_mph": 11,
-    "gusts_mph": 13,
-    "rain_pct": 2
+    "temp_f": 88,
+    "feels_like_f": 86,
+    "wind_mph": 10,
+    "gusts_mph": 18,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-20T06:52",
   "sunset": "2026-08-20T20:17",
   "aqi": {
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,15 +39,7 @@
     "risk_level": "low",
     "nearest_fire_km": 162.9,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Mm17 I15",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Human",
-      "updated": "2026-08-18T02:03:50.273000+00:00",
-      "distance_km": 44.2,
-      "direction": "WSW"
-    }
+    "nearest_incident": null
   },
   "river": {
     "cfs": 32,
@@ -59,7 +51,7 @@
       "date": "2026-08-20",
       "high_f": 96,
       "low_f": 68,
-      "rain_pct": 5,
+      "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-20T06:52",
       "sunset": "2026-08-20T20:17",
@@ -68,19 +60,19 @@
     },
     {
       "date": "2026-08-21",
-      "high_f": 96,
-      "low_f": 68,
-      "rain_pct": 13,
+      "high_f": 93,
+      "low_f": 69,
+      "rain_pct": 16,
       "uv": 7,
       "sunrise": "2026-08-21T06:53",
       "sunset": "2026-08-21T20:16",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-22",
-      "high_f": 94,
-      "low_f": 72,
+      "high_f": 95,
+      "low_f": 71,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-22T06:54",
@@ -111,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-21T00:39:22.310383+00:00"
+  "updated_at": "2026-08-21T02:18:13.684666+00:00"
 }

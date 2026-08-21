@@ -17,20 +17,20 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 80,
-    "wind_mph": 12,
-    "gusts_mph": 14,
-    "rain_pct": 2
+    "temp_f": 80,
+    "feels_like_f": 76,
+    "wind_mph": 7,
+    "gusts_mph": 17,
+    "rain_pct": 4
   },
   "sunrise": "2026-08-20T06:52",
   "sunset": "2026-08-20T20:17",
   "aqi": {
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -40,13 +40,14 @@
     "nearest_fire_km": 147.5,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Mm17 I15",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Human",
-      "updated": "2026-08-18T02:03:50.273000+00:00",
-      "distance_km": 53.4,
-      "direction": "WSW"
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-20T22:13:42.997000+00:00",
+      "distance_km": 98.8,
+      "direction": "NNE",
+      "page": "/fires/cottonwood-fire-ut-2026"
     }
   },
   "river": {
@@ -57,9 +58,9 @@
   "forecast": [
     {
       "date": "2026-08-20",
-      "high_f": 89,
+      "high_f": 90,
       "low_f": 63,
-      "rain_pct": 4,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-20T06:52",
       "sunset": "2026-08-20T20:17",
@@ -68,9 +69,9 @@
     },
     {
       "date": "2026-08-21",
-      "high_f": 88,
-      "low_f": 64,
-      "rain_pct": 17,
+      "high_f": 86,
+      "low_f": 66,
+      "rain_pct": 16,
       "uv": 7,
       "sunrise": "2026-08-21T06:53",
       "sunset": "2026-08-21T20:16",
@@ -79,8 +80,8 @@
     },
     {
       "date": "2026-08-22",
-      "high_f": 86,
-      "low_f": 67,
+      "high_f": 88,
+      "low_f": 66,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-22T06:54",
@@ -111,5 +112,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-21T00:44:15.418817+00:00"
+  "updated_at": "2026-08-21T02:20:48.215758+00:00"
 }

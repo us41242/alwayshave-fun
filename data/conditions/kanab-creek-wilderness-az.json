@@ -17,14 +17,14 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 95,
-    "feels_like_f": 95,
-    "wind_mph": 4,
-    "gusts_mph": 10,
+    "feels_like_f": 94,
+    "wind_mph": 6,
+    "gusts_mph": 11,
     "rain_pct": 4
   },
   "sunrise": "2026-08-21T05:52",
@@ -49,7 +49,11 @@
       "direction": "NNW"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 31,
+    "stage": null,
+    "gauge_id": "09403850"
+  },
   "forecast": [
     {
       "date": "2026-08-21",
@@ -107,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-21T21:46:57.807120+00:00"
+  "updated_at": "2026-08-21T22:13:36.443104+00:00"
 }

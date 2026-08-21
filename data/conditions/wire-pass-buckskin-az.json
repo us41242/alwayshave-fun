@@ -22,18 +22,18 @@
   "gear_flags": [],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 69,
-    "wind_mph": 3,
-    "gusts_mph": 2,
-    "rain_pct": 1
+    "feels_like_f": 70,
+    "wind_mph": 2,
+    "gusts_mph": 5,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-21T06:49",
   "sunset": "2026-08-21T20:11",
   "aqi": {
-    "aqi": 21,
+    "aqi": 31,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -45,8 +45,8 @@
   "forecast": [
     {
       "date": "2026-08-21",
-      "high_f": 94,
-      "low_f": 70,
+      "high_f": 95,
+      "low_f": 71,
       "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-08-21T06:49",
@@ -58,7 +58,7 @@
       "date": "2026-08-22",
       "high_f": 96,
       "low_f": 72,
-      "rain_pct": 10,
+      "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-08-22T06:50",
       "sunset": "2026-08-22T20:10",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-21T12:30:29.288259+00:00"
+  "updated_at": "2026-08-21T13:29:28.403784+00:00"
 }

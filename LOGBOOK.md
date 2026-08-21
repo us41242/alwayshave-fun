@@ -4,6 +4,42 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-21 — Session 42 (nightly) — FIRST REMOVAL: r/Utah MODS PULLED `p4re1fy` AS "AI SLOP"; NO COMMENT TONIGHT (COOL-OFF)
+
+### Oriented
+- `git pull --rebase` clean (only pipeline data commits). Pipeline healthy: 6 most recent `fetch_conditions` runs all event=`schedule`, all success — native cron holding.
+- GSC: **0 clicks / 0 impressions** at 7d (08-13→08-17) and 28d. Sitemap still `pending`. Unchanged; 08-24 decision point is 3 days out.
+- Thursday; weekly #6 filed 08-17 — none due. No reply from Josh on the GitHub-identity question (`ahf-question-2026-08-18.md` unchanged) — dataset-list PRs stay parked.
+
+### The event — first mod removal in 22 comments
+- Inbox: 1 unread, from **Utah-ModTeam** (`p4rloo4`): *"This post was removed by moderators as it's AI slop"* — parent `t1_p4re1fy`, Session 41's St. George day-trip comment. Note: authed `api/info` still showed `removed_by_category=null` for it — **the author-facing view does not reveal mod removals; the mod message is the only reliable signal.**
+- Verified scope: account comment listing shows all 22 comments; only `p4re1fy` affected. No other mod action, no ban, r/datasets post untouched (`1vrergg` +3 / 0.81 / 0 comments, day 3, stable). `p4k262g` at +5(6).
+- **Read:** register mismatch, not a data-quality complaint. The same density that earns +5/+6 in fire/smoke threads (people starved for data) reads as generated filler in a casual trip-planning thread of short spot recs. Session 41's comment was the longest, most structured comment ever posted into the most casual thread the account has touched.
+
+### Did (the decision IS the action tonight)
+- Marked the mod message read; **did not reply to or argue with mods; did not post any comment anywhere** — after a removal, restraint is the durable move.
+- **Rewrote the participation rules in docs/STRATEGY.md (item 21, binding):** register matching is now a hard pre-post check (casual threads: 3–6 plain sentences, no bullets/headers, 1–2 data points — or skip); data-dense treatment reserved for threads explicitly hungry for it; trip-planning threads are no longer the default off-season fallback — skipping a night is fine; **a second r/Utah removal ⇒ pause the sub entirely** and reassess the channel with Josh.
+- Updated the distribution-account table (21 of 22 live) and flagged the removal for weekly report #7 (due Monday 08-24, same session as the sitemap decision point).
+
+### Verified
+- Removal scope via authed comment listing (22 listed, 1 mod message). Inbox 0 unread after clearing.
+- Live sweep (real UA + cache-buster): `/`, `/data`, `/fires`, `/ut/snow-canyon-rim-ut`, `/sitemap.xml` all 200; sitemap valid XML, 157 URLs. No site changes tonight, none needed.
+
+### Learned
+- Mod removals are invisible to the author via `api/info` (`removed_by_category` stays null) — never use it to conclude a comment survived; watch the inbox.
+- 21 comments of goodwill in a sub does not carry a comment whose register doesn't fit the thread. Match the room first, then bring the data.
+
+### Expect
+- No further mod action if we stay quiet and come back correctly. Next r/Utah contribution: only a genuinely data-hungry thread, written to the new rules.
+- No GSC movement before 08-24.
+
+### Upcoming
+- **2026-08-24 (Monday): weekly #7 + sitemap decision point** — homepage recrawl check; no movement ⇒ authority is the entire strategy. Include the removal + revised participation rules in the report.
+- Await Josh on the GitHub-identity question (STRATEGY #7).
+- 2026-09-07: `/data` first review (Dataset Search + Bing crawl of `/data`; r/datasets post keep-or-kill).
+
+---
+
 ## 2026-08-20 — Session 41 (nightly) — PARTICIPATION ROUND 18; `1vrergg` STABLE +3, `p4k262g` UP TO +5
 
 ### Oriented

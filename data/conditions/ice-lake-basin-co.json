@@ -17,15 +17,17 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 54,
+    "temp_f": 59,
+    "feels_like_f": 56,
     "wind_mph": 6,
-    "gusts_mph": 9,
-    "rain_pct": 0
+    "gusts_mph": 10,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-21T06:32",
   "sunset": "2026-08-21T19:56",
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 48.7,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Gold Mountain",
       "acres": 39710,
@@ -60,53 +62,53 @@
       "uv": 7,
       "sunrise": "2026-08-21T06:32",
       "sunset": "2026-08-21T19:56",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-22",
       "high_f": 62,
       "low_f": 47,
       "rain_pct": 40,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-08-22T06:32",
       "sunset": "2026-08-22T19:54",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-23",
-      "high_f": 61,
+      "high_f": 60,
       "low_f": 42,
       "rain_pct": 58,
       "uv": 6,
       "sunrise": "2026-08-23T06:33",
       "sunset": "2026-08-23T19:53",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-24",
-      "high_f": 62,
-      "low_f": 40,
-      "rain_pct": 65,
-      "uv": 6,
-      "sunrise": "2026-08-24T06:34",
-      "sunset": "2026-08-24T19:51",
-      "predicted_score": 60,
+      "predicted_score": 56,
       "score_label": "Use caution"
     },
     {
-      "date": "2026-08-25",
-      "high_f": 64,
+      "date": "2026-08-24",
+      "high_f": 61,
       "low_f": 41,
+      "rain_pct": 65,
+      "uv": 7,
+      "sunrise": "2026-08-24T06:34",
+      "sunset": "2026-08-24T19:51",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-25",
+      "high_f": 62,
+      "low_f": 42,
       "rain_pct": 52,
-      "uv": 8,
+      "uv": 6,
       "sunrise": "2026-08-25T06:35",
       "sunset": "2026-08-25T19:50",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-21T17:13:39.429793+00:00"
+  "updated_at": "2026-08-21T17:37:11.992919+00:00"
 }

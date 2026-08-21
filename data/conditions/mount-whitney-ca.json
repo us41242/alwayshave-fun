@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 41,
-    "wind_mph": 12,
-    "gusts_mph": 14,
+    "temp_f": 49,
+    "feels_like_f": 40,
+    "wind_mph": 15,
+    "gusts_mph": 16,
     "rain_pct": 2
   },
   "sunrise": "2026-08-21T06:15",
@@ -37,35 +37,35 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 199.9,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Alpaugh",
-      "acres": null,
+      "name": "Springs",
+      "acres": 0.01,
       "containment_pct": null,
-      "cause": null,
-      "updated": "2026-08-20T17:31:08.387000+00:00",
-      "distance_km": 88.3,
-      "direction": "WSW"
+      "cause": "Undetermined",
+      "updated": "2026-08-21T20:16:40.977000+00:00",
+      "distance_km": 37.9,
+      "direction": "N"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-21",
-      "high_f": 50,
+      "high_f": 49,
       "low_f": 34,
       "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-08-21T06:15",
       "sunset": "2026-08-21T19:36",
-      "predicted_score": 100,
+      "predicted_score": 88,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-22",
       "high_f": 50,
-      "low_f": 34,
+      "low_f": 35,
       "rain_pct": 11,
       "uv": 8,
       "sunrise": "2026-08-22T06:16",
@@ -88,7 +88,7 @@
       "date": "2026-08-24",
       "high_f": 51,
       "low_f": 34,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-08-24T06:18",
       "sunset": "2026-08-24T19:32",
@@ -99,7 +99,7 @@
       "date": "2026-08-25",
       "high_f": 53,
       "low_f": 33,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-08-25T06:19",
       "sunset": "2026-08-25T19:31",
@@ -107,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-21T20:23:59.695761+00:00"
+  "updated_at": "2026-08-21T20:55:19.666104+00:00"
 }

@@ -19,25 +19,27 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 76,
-    "wind_mph": 7,
-    "gusts_mph": 17,
-    "rain_pct": 4
+    "temp_f": 70,
+    "feels_like_f": 60,
+    "wind_mph": 21,
+    "gusts_mph": 30,
+    "rain_pct": 11
   },
   "sunrise": "2026-08-20T06:52",
   "sunset": "2026-08-20T20:17",
   "aqi": {
-    "aqi": 42,
+    "aqi": 40,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 147.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -60,7 +62,7 @@
       "date": "2026-08-20",
       "high_f": 90,
       "low_f": 63,
-      "rain_pct": 5,
+      "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-20T06:52",
       "sunset": "2026-08-20T20:17",
@@ -70,8 +72,8 @@
     {
       "date": "2026-08-21",
       "high_f": 86,
-      "low_f": 66,
-      "rain_pct": 16,
+      "low_f": 67,
+      "rain_pct": 18,
       "uv": 7,
       "sunrise": "2026-08-21T06:53",
       "sunset": "2026-08-21T20:16",
@@ -93,7 +95,7 @@
       "date": "2026-08-23",
       "high_f": 86,
       "low_f": 68,
-      "rain_pct": 5,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-23T06:54",
       "sunset": "2026-08-23T20:13",
@@ -104,7 +106,7 @@
       "date": "2026-08-24",
       "high_f": 85,
       "low_f": 65,
-      "rain_pct": 8,
+      "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-08-24T06:55",
       "sunset": "2026-08-24T20:12",
@@ -112,5 +114,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-21T02:20:48.215758+00:00"
+  "updated_at": "2026-08-21T03:35:23.820368+00:00"
 }

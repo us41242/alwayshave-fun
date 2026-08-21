@@ -17,17 +17,15 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 86,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 61,
-    "feels_like_f": 55,
-    "wind_mph": 9,
-    "gusts_mph": 12,
-    "rain_pct": 0
+    "temp_f": 60,
+    "feels_like_f": 52,
+    "wind_mph": 11,
+    "gusts_mph": 13,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-20T06:18",
   "sunset": "2026-08-20T19:52",
@@ -38,9 +36,9 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 37.5,
-    "fire_count_50km": 1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Fishhook",
       "acres": 309,
@@ -61,53 +59,53 @@
       "uv": 8,
       "sunrise": "2026-08-20T06:18",
       "sunset": "2026-08-20T19:52",
-      "predicted_score": 86,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-21",
       "high_f": 75,
-      "low_f": 58,
-      "rain_pct": 14,
+      "low_f": 57,
+      "rain_pct": 13,
       "uv": 7,
       "sunrise": "2026-08-21T06:19",
       "sunset": "2026-08-21T19:51",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-22",
       "high_f": 71,
       "low_f": 51,
-      "rain_pct": 76,
+      "rain_pct": 74,
       "uv": 7,
       "sunrise": "2026-08-22T06:20",
       "sunset": "2026-08-22T19:49",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-23",
       "high_f": 73,
       "low_f": 48,
-      "rain_pct": 68,
+      "rain_pct": 65,
       "uv": 8,
       "sunrise": "2026-08-23T06:21",
       "sunset": "2026-08-23T19:48",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-24",
       "high_f": 72,
       "low_f": 48,
-      "rain_pct": 65,
+      "rain_pct": 66,
       "uv": 6,
       "sunrise": "2026-08-24T06:22",
       "sunset": "2026-08-24T19:46",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-21T02:26:55.368340+00:00"
+  "updated_at": "2026-08-21T03:40:00.086278+00:00"
 }

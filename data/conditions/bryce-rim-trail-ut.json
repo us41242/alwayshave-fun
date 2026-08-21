@@ -24,37 +24,36 @@
     "temp_f": 78,
     "feels_like_f": 76,
     "wind_mph": 11,
-    "gusts_mph": 15,
-    "rain_pct": 8
+    "gusts_mph": 14,
+    "rain_pct": 12
   },
   "sunrise": "2026-08-21T06:49",
   "sunset": "2026-08-21T20:13",
   "aqi": {
-    "aqi": 40,
+    "aqi": 36,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 115.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Cottonwood",
-      "acres": 97464,
-      "containment_pct": 95,
+      "name": "Meadow Creek",
+      "acres": 0.25,
+      "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-20T22:13:42.997000+00:00",
-      "distance_km": 77.6,
-      "direction": "NNW",
-      "page": "/fires/cottonwood-fire-ut-2026"
+      "updated": "2026-08-21T19:39:34.850000+00:00",
+      "distance_km": 66.2,
+      "direction": "SW"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-21",
-      "high_f": 81,
+      "high_f": 80,
       "low_f": 61,
       "rain_pct": 21,
       "uv": 7,
@@ -108,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-21T19:05:39.074520+00:00"
+  "updated_at": "2026-08-21T19:47:04.586152+00:00"
 }

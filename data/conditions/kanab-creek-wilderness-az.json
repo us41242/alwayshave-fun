@@ -22,34 +22,42 @@
   "gear_flags": [],
   "current": {
     "temp_f": 92,
-    "feels_like_f": 94,
-    "wind_mph": 4,
-    "gusts_mph": 9,
-    "rain_pct": 5
+    "feels_like_f": 95,
+    "wind_mph": 3,
+    "gusts_mph": 7,
+    "rain_pct": 6
   },
   "sunrise": "2026-08-21T05:52",
   "sunset": "2026-08-21T19:13",
   "aqi": {
-    "aqi": 32,
+    "aqi": 33,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 194.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Meadow Creek",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-21T19:39:34.850000+00:00",
+      "distance_km": 47.4,
+      "direction": "NNW"
+    }
   },
   "river": {
-    "cfs": 20,
+    "cfs": 6,
     "stage": null,
     "gauge_id": "09403850"
   },
   "forecast": [
     {
       "date": "2026-08-21",
-      "high_f": 97,
+      "high_f": 96,
       "low_f": 68,
       "rain_pct": 30,
       "uv": 7,
@@ -103,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-21T19:05:40.951263+00:00"
+  "updated_at": "2026-08-21T19:47:05.539846+00:00"
 }

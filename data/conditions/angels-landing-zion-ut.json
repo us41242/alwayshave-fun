@@ -21,25 +21,33 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 90,
-    "feels_like_f": 91,
-    "wind_mph": 6,
-    "gusts_mph": 11,
-    "rain_pct": 5
+    "temp_f": 91,
+    "feels_like_f": 93,
+    "wind_mph": 5,
+    "gusts_mph": 10,
+    "rain_pct": 6
   },
   "sunrise": "2026-08-21T06:53",
   "sunset": "2026-08-21T20:16",
   "aqi": {
-    "aqi": 32,
+    "aqi": 33,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 165.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Meadow Creek",
+      "acres": 0.25,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-21T19:39:34.850000+00:00",
+      "distance_km": 14.6,
+      "direction": "ENE"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +107,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-21T19:05:36.560969+00:00"
+  "updated_at": "2026-08-21T19:47:02.865652+00:00"
 }

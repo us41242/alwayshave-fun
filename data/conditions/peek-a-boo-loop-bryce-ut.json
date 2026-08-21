@@ -19,27 +19,25 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 54,
-    "wind_mph": 15,
-    "gusts_mph": 22,
-    "rain_pct": 21
+    "temp_f": 64,
+    "feels_like_f": 56,
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 12
   },
-  "sunrise": "2026-08-20T06:49",
-  "sunset": "2026-08-20T20:14",
+  "sunrise": "2026-08-21T06:50",
+  "sunset": "2026-08-21T20:13",
   "aqi": {
-    "aqi": 31,
+    "aqi": 30,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 119.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -55,20 +53,9 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-20",
-      "high_f": 84,
-      "low_f": 62,
-      "rain_pct": 41,
-      "uv": 8,
-      "sunrise": "2026-08-20T06:49",
-      "sunset": "2026-08-20T20:14",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
       "date": "2026-08-21",
-      "high_f": 80,
-      "low_f": 62,
+      "high_f": 81,
+      "low_f": 60,
       "rain_pct": 14,
       "uv": 7,
       "sunrise": "2026-08-21T06:50",
@@ -89,8 +76,8 @@
     },
     {
       "date": "2026-08-23",
-      "high_f": 81,
-      "low_f": 60,
+      "high_f": 80,
+      "low_f": 61,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-08-23T06:51",
@@ -100,15 +87,26 @@
     },
     {
       "date": "2026-08-24",
-      "high_f": 81,
-      "low_f": 61,
+      "high_f": 82,
+      "low_f": 59,
       "rain_pct": 33,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-24T06:52",
       "sunset": "2026-08-24T20:09",
       "predicted_score": 70,
       "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-25",
+      "high_f": 83,
+      "low_f": 59,
+      "rain_pct": 23,
+      "uv": 8,
+      "sunrise": "2026-08-25T06:53",
+      "sunset": "2026-08-25T20:07",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-21T05:04:24.877987+00:00"
+  "updated_at": "2026-08-21T06:01:35.566691+00:00"
 }

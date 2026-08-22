@@ -23,21 +23,21 @@
   "current": {
     "temp_f": 50,
     "feels_like_f": 42,
-    "wind_mph": 10,
-    "gusts_mph": 16,
+    "wind_mph": 9,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-08-22T06:17",
   "sunset": "2026-08-22T19:37",
   "aqi": {
-    "aqi": 28,
+    "aqi": 30,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 139.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Wheeler",
@@ -53,8 +53,8 @@
   "forecast": [
     {
       "date": "2026-08-22",
-      "high_f": 68,
-      "low_f": 49,
+      "high_f": 69,
+      "low_f": 50,
       "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-08-22T06:17",
@@ -66,7 +66,7 @@
       "date": "2026-08-23",
       "high_f": 69,
       "low_f": 49,
-      "rain_pct": 5,
+      "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-23T06:17",
       "sunset": "2026-08-23T19:35",
@@ -107,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-22T12:34:03.844948+00:00"
+  "updated_at": "2026-08-22T13:22:55.751411+00:00"
 }

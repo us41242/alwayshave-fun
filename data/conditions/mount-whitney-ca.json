@@ -19,25 +19,27 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 34,
-    "wind_mph": 15,
-    "gusts_mph": 16,
+    "temp_f": 41,
+    "feels_like_f": 32,
+    "wind_mph": 11,
+    "gusts_mph": 12,
     "rain_pct": 1
   },
   "sunrise": "2026-08-21T06:15",
   "sunset": "2026-08-21T19:36",
   "aqi": {
-    "aqi": 14,
+    "aqi": 13,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 171.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Alpaugh",
@@ -64,7 +66,7 @@
     },
     {
       "date": "2026-08-22",
-      "high_f": 50,
+      "high_f": 49,
       "low_f": 34,
       "rain_pct": 11,
       "uv": 8,
@@ -75,8 +77,8 @@
     },
     {
       "date": "2026-08-23",
-      "high_f": 52,
-      "low_f": 33,
+      "high_f": 50,
+      "low_f": 34,
       "rain_pct": 6,
       "uv": 9,
       "sunrise": "2026-08-23T06:17",
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-22T00:46:11.611681+00:00"
+  "updated_at": "2026-08-22T02:21:19.980122+00:00"
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T22:13:18.704183+00:00",
+  "updated_at": "2026-08-22T22:45:08.330353+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 146,
+  "count": 149,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -10,9 +10,9 @@
       "cause": "Natural",
       "lat": 38.728922759607606,
       "lng": -112.4989946016779,
-      "updated": "2026-08-22T19:58:30.250000+00:00",
+      "updated": "2026-08-22T22:32:29.393000+00:00",
       "state": "UT",
-      "personnel": 68,
+      "personnel": 66,
       "discovered": "2026-07-27T23:02:28+00:00"
     },
     {
@@ -46,7 +46,7 @@
       "cause": "Undetermined",
       "lat": 38.26975570200302,
       "lng": -112.55077855923282,
-      "updated": "2026-08-21T22:09:59.037000+00:00",
+      "updated": "2026-08-22T22:20:20.020000+00:00",
       "state": "UT",
       "personnel": 42,
       "discovered": "2026-06-22T21:36:46+00:00"
@@ -556,6 +556,18 @@
       "discovered": "2026-08-14T19:30:00+00:00"
     },
     {
+      "name": "Miller",
+      "acres": 50,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 34.06391765160053,
+      "lng": -103.4942332329298,
+      "updated": "2026-08-22T22:33:08.270000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-19T23:37:00+00:00"
+    },
+    {
       "name": "Sunset",
       "acres": 33.15,
       "containment_pct": null,
@@ -628,6 +640,18 @@
       "discovered": "2026-08-20T18:26:00+00:00"
     },
     {
+      "name": "Big Ridge",
+      "acres": 2,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 36.69072253804929,
+      "lng": -112.13046130952759,
+      "updated": "2026-08-22T22:32:52.207000+00:00",
+      "state": "AZ",
+      "personnel": null,
+      "discovered": "2026-08-22T17:57:05+00:00"
+    },
+    {
       "name": "Cuernos",
       "acres": 2,
       "containment_pct": null,
@@ -694,7 +718,7 @@
       "cause": "Undetermined",
       "lat": 36.91994185184892,
       "lng": -107.6505794040628,
-      "updated": "2026-08-22T22:11:05.573000+00:00",
+      "updated": "2026-08-22T22:39:42.480000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-22T19:57:51+00:00"
@@ -710,6 +734,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-22T20:17:30+00:00"
+    },
+    {
+      "name": "Centinela",
+      "acres": 0.3,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 32.210138327255834,
+      "lng": -103.80109217872119,
+      "updated": "2026-08-22T22:20:00.730000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-22T21:12:09+00:00"
     },
     {
       "name": "Swiss Roll",
@@ -952,6 +988,30 @@
       "discovered": "2026-08-22T18:45:00+00:00"
     },
     {
+      "name": "North Spring",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 38.93158863282579,
+      "lng": -114.55951202335547,
+      "updated": "2026-08-22T22:30:29.293000+00:00",
+      "state": "NV",
+      "personnel": null,
+      "discovered": "2026-08-22T20:43:17+00:00"
+    },
+    {
+      "name": "Stella",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 39.00539565827359,
+      "lng": -114.32330298765407,
+      "updated": "2026-08-22T22:40:47.317000+00:00",
+      "state": "NV",
+      "personnel": null,
+      "discovered": "2026-08-22T21:33:35+00:00"
+    },
+    {
       "name": "Engineer Spring",
       "acres": 0.1,
       "containment_pct": null,
@@ -1130,18 +1190,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-22T20:46:05+00:00"
-    },
-    {
-      "name": "Poho 2",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 38.80417416570904,
-      "lng": -120.61699506096609,
-      "updated": "2026-08-22T21:06:39.427000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-22T19:44:25+00:00"
     },
     {
       "name": "Lac-298711",
@@ -1490,18 +1538,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-20T05:45:50+00:00"
-    },
-    {
-      "name": "Amber",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.17233293183673,
-      "lng": -117.14362900961211,
-      "updated": "2026-08-22T20:52:50.127000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-22T19:11:00+00:00"
     },
     {
       "name": "Lac-297638",

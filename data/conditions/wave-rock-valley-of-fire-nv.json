@@ -17,22 +17,22 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 90,
-    "wind_mph": 12,
-    "gusts_mph": 15,
+    "temp_f": 95,
+    "feels_like_f": 91,
+    "wind_mph": 10,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-21T06:01",
-  "sunset": "2026-08-21T19:21",
+  "sunrise": "2026-08-22T06:01",
+  "sunset": "2026-08-22T19:19",
   "aqi": {
-    "aqi": 61,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -45,17 +45,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-08-21",
-      "high_f": 108,
-      "low_f": 84,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-08-21T06:01",
-      "sunset": "2026-08-21T19:21",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
     {
       "date": "2026-08-22",
       "high_f": 108,
@@ -71,7 +60,7 @@
       "date": "2026-08-23",
       "high_f": 108,
       "low_f": 82,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-23T06:02",
       "sunset": "2026-08-23T19:18",
@@ -99,7 +88,18 @@
       "sunset": "2026-08-25T19:15",
       "predicted_score": 50,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 109,
+      "low_f": 82,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:05",
+      "sunset": "2026-08-26T19:14",
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-22T06:21:40.288142+00:00"
+  "updated_at": "2026-08-22T07:10:32.999765+00:00"
 }

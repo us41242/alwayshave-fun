@@ -17,23 +17,25 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 92,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 82,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 68,
+    "temp_f": 73,
+    "feels_like_f": 66,
     "wind_mph": 5,
-    "gusts_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-21T06:19",
-  "sunset": "2026-08-21T19:43",
+  "sunrise": "2026-08-22T06:20",
+  "sunset": "2026-08-22T19:41",
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
+    "aqi": 56,
+    "category": "Moderate",
     "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -52,25 +54,14 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-21",
-      "high_f": 89,
-      "low_f": 68,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-21T06:19",
-      "sunset": "2026-08-21T19:43",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-08-22",
-      "high_f": 87,
-      "low_f": 71,
+      "high_f": 88,
+      "low_f": 70,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-22T06:20",
       "sunset": "2026-08-22T19:41",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -81,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-08-23T06:21",
       "sunset": "2026-08-23T19:40",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-24T06:22",
       "sunset": "2026-08-24T19:39",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +94,20 @@
       "uv": 8,
       "sunrise": "2026-08-25T06:22",
       "sunset": "2026-08-25T19:37",
-      "predicted_score": 62,
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 90,
+      "low_f": 67,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:23",
+      "sunset": "2026-08-26T19:36",
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-22T06:33:04.259938+00:00"
+  "updated_at": "2026-08-22T07:20:14.645633+00:00"
 }

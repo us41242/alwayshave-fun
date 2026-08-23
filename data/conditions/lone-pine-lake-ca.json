@@ -17,14 +17,16 @@
   "notes": "No permit required to the lake (only for full Whitney summit); snow patches above 9500 ft until mid-June; dogs legal in Inyo NF section",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 77,
-    "feels_like_f": 72,
-    "wind_mph": 11,
-    "gusts_mph": 16,
+    "temp_f": 76,
+    "feels_like_f": 69,
+    "wind_mph": 12,
+    "gusts_mph": 17,
     "rain_pct": 3
   },
   "sunrise": "2026-08-23T06:17",
@@ -36,16 +38,16 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 40.0,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Arrow Creek",
       "acres": 3.5,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-23T20:30:06.637000+00:00",
-      "distance_km": 39.9,
+      "updated": "2026-08-23T22:35:10.497000+00:00",
+      "distance_km": 39.8,
       "direction": "NW"
     }
   },
@@ -53,24 +55,24 @@
   "forecast": [
     {
       "date": "2026-08-23",
-      "high_f": 78,
+      "high_f": 77,
       "low_f": 59,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-23T06:17",
       "sunset": "2026-08-23T19:33",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-24",
       "high_f": 74,
-      "low_f": 61,
-      "rain_pct": 4,
+      "low_f": 62,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-24T06:18",
       "sunset": "2026-08-24T19:32",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 6,
       "sunrise": "2026-08-25T06:18",
       "sunset": "2026-08-25T19:30",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-26T06:19",
       "sunset": "2026-08-26T19:29",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-27",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-27T06:20",
       "sunset": "2026-08-27T19:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-23T22:26:14.519868+00:00"
+  "updated_at": "2026-08-23T23:02:43.905151+00:00"
 }

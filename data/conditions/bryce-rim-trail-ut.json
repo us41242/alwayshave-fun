@@ -19,13 +19,15 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 73,
-    "wind_mph": 11,
-    "gusts_mph": 14,
-    "rain_pct": 5
+    "temp_f": 76,
+    "feels_like_f": 63,
+    "wind_mph": 23,
+    "gusts_mph": 27,
+    "rain_pct": 8
   },
   "sunrise": "2026-08-23T06:51",
   "sunset": "2026-08-23T20:10",
@@ -37,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 121.1,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Blue Spruce",
@@ -53,7 +55,7 @@
   "forecast": [
     {
       "date": "2026-08-23",
-      "high_f": 80,
+      "high_f": 79,
       "low_f": 58,
       "rain_pct": 11,
       "uv": 8,
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-23T22:13:15.430092+00:00"
+  "updated_at": "2026-08-23T22:44:57.784578+00:00"
 }

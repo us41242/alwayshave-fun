@@ -17,20 +17,22 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 62,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "rain gear recommended"
+  ],
   "current": {
-    "temp_f": 84,
-    "feels_like_f": 79,
-    "wind_mph": 12,
-    "gusts_mph": 16,
-    "rain_pct": 28
+    "temp_f": 76,
+    "feels_like_f": 74,
+    "wind_mph": 8,
+    "gusts_mph": 10,
+    "rain_pct": 44
   },
   "sunrise": "2026-08-22T06:19",
   "sunset": "2026-08-22T19:44",
   "aqi": {
-    "aqi": 50,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -40,14 +42,13 @@
     "nearest_fire_km": 85.9,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Aspen Acres",
-      "acres": 102004,
-      "containment_pct": 77,
-      "cause": "Human",
-      "updated": "2026-08-21T23:51:35.657000+00:00",
-      "distance_km": 96.6,
-      "direction": "S",
-      "page": "/fires/aspen-acres-fire-co-2026"
+      "name": "Turtle Mountain",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-23T00:32:31.203000+00:00",
+      "distance_km": 52.6,
+      "direction": "NNW"
     }
   },
   "river": null,
@@ -55,7 +56,7 @@
     {
       "date": "2026-08-22",
       "high_f": 86,
-      "low_f": 61,
+      "low_f": 64,
       "rain_pct": 44,
       "uv": 7,
       "sunrise": "2026-08-22T06:19",
@@ -66,8 +67,8 @@
     {
       "date": "2026-08-23",
       "high_f": 87,
-      "low_f": 60,
-      "rain_pct": 31,
+      "low_f": 62,
+      "rain_pct": 29,
       "uv": 8,
       "sunrise": "2026-08-23T06:20",
       "sunset": "2026-08-23T19:43",
@@ -108,5 +109,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-22T23:50:25.471574+00:00"
+  "updated_at": "2026-08-23T00:46:57.011802+00:00"
 }

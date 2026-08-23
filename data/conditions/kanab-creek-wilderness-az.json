@@ -20,20 +20,22 @@
   "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 88,
-    "wind_mph": 12,
-    "gusts_mph": 14,
+    "temp_f": 93,
+    "feels_like_f": 83,
+    "wind_mph": 19,
+    "gusts_mph": 24,
     "rain_pct": 2
   },
   "sunrise": "2026-08-22T05:53",
   "sunset": "2026-08-22T19:12",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -43,10 +45,10 @@
     "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Big Ridge",
-      "acres": 2,
+      "acres": 2.21,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-22T22:32:52.207000+00:00",
+      "updated": "2026-08-23T00:14:37.993000+00:00",
       "distance_km": 44.7,
       "direction": "SE"
     }
@@ -65,18 +67,18 @@
       "uv": 8,
       "sunrise": "2026-08-22T05:53",
       "sunset": "2026-08-22T19:12",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-23",
       "high_f": 96,
-      "low_f": 69,
-      "rain_pct": 5,
+      "low_f": 68,
+      "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-23T05:53",
       "sunset": "2026-08-23T19:11",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     },
     {
@@ -87,8 +89,8 @@
       "uv": 8,
       "sunrise": "2026-08-24T05:54",
       "sunset": "2026-08-24T19:09",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-25",
@@ -98,8 +100,8 @@
       "uv": 8,
       "sunrise": "2026-08-25T05:55",
       "sunset": "2026-08-25T19:08",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-26",
@@ -109,9 +111,9 @@
       "uv": 8,
       "sunrise": "2026-08-26T05:56",
       "sunset": "2026-08-26T19:07",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-22T23:42:52.645780+00:00"
+  "updated_at": "2026-08-23T00:39:44.077831+00:00"
 }

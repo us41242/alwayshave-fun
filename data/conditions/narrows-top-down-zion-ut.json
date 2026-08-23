@@ -17,18 +17,18 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 66,
-    "feels_like_f": 61,
-    "wind_mph": 4,
-    "gusts_mph": 4,
+    "feels_like_f": 62,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-23T06:54",
+  "sunset": "2026-08-23T20:13",
   "aqi": {
     "aqi": 36,
     "category": "Good",
@@ -54,6 +54,62 @@
     "stage": "low",
     "gauge_id": "09405500"
   },
-  "forecast": [],
-  "updated_at": "2026-08-23T13:13:05.982912+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-23",
+      "high_f": 87,
+      "low_f": 65,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-08-23T06:54",
+      "sunset": "2026-08-23T20:13",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-24",
+      "high_f": 86,
+      "low_f": 63,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-08-24T06:55",
+      "sunset": "2026-08-24T20:12",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-25",
+      "high_f": 86,
+      "low_f": 66,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-08-25T06:56",
+      "sunset": "2026-08-25T20:10",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 86,
+      "low_f": 67,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:57",
+      "sunset": "2026-08-26T20:09",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 88,
+      "low_f": 67,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-27T06:58",
+      "sunset": "2026-08-27T20:07",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-08-23T13:54:55.731191+00:00"
 }

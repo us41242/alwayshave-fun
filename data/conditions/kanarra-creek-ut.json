@@ -19,25 +19,27 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 88,
+    "temp_f": 89,
     "feels_like_f": 83,
     "wind_mph": 16,
     "gusts_mph": 20,
-    "rain_pct": 0
+    "rain_pct": 1
   },
   "sunrise": "2026-08-23T06:55",
   "sunset": "2026-08-23T20:14",
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 159.1,
+    "nearest_fire_km": 154.3,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Mm71 I15",
@@ -99,7 +101,7 @@
       "date": "2026-08-27",
       "high_f": 92,
       "low_f": 66,
-      "rain_pct": 0,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-27T06:59",
       "sunset": "2026-08-27T20:09",
@@ -107,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-23T20:21:27.007381+00:00"
+  "updated_at": "2026-08-23T20:54:09.735372+00:00"
 }

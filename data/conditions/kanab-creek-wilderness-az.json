@@ -17,20 +17,22 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 91,
-    "wind_mph": 14,
-    "gusts_mph": 19,
-    "rain_pct": 1
+    "temp_f": 94,
+    "feels_like_f": 86,
+    "wind_mph": 17,
+    "gusts_mph": 20,
+    "rain_pct": 2
   },
   "sunrise": "2026-08-23T05:53",
   "sunset": "2026-08-23T19:11",
   "aqi": {
-    "aqi": 43,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -111,5 +113,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-23T20:11:16.053765+00:00"
+  "updated_at": "2026-08-23T20:45:52.706439+00:00"
 }

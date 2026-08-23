@@ -137,6 +137,11 @@ def esc(v):
             .replace('"', "&quot;"))
 
 
+def pct_text(pct, suffix="% contained"):
+    """Hard rule 4: the feed reporting no containment value is NOT 0%."""
+    return "containment not yet reported" if pct is None else f"{int(pct)}{suffix}"
+
+
 def contain_color(pct):
     if pct is None or pct == 0:
         return "#dc2626"
@@ -203,7 +208,7 @@ def update_archive(data, archive):
 def incident_html(inc, trails):
     acres = int(inc.get("acres") or 0)
     pct = inc.get("containment_pct")
-    pct_str = "0% contained" if pct in (None, 0) else f"{int(pct)}% contained"
+    pct_str = pct_text(pct)
     days = days_burning(inc.get("discovered"))
     people = inc.get("personnel")
     bits = [f"{STATES.get(inc.get('state'), '')}"]
@@ -270,7 +275,7 @@ def build_html(incidents, trails, updated_at, archive=None):
         stamp = "unknown"
     page_url = f"{BASE_URL}/fires"
     total_acres = sum(int(i.get("acres") or 0) for i in incidents)
-    uncontained = sum(1 for i in incidents if not i.get("containment_pct"))
+    uncontained = sum(1 for i in incidents if i.get("containment_pct") is None)
     by_state = {}
     for i in incidents:
         by_state.setdefault(i["state"], []).append(i)
@@ -365,7 +370,7 @@ def build_html(incidents, trails, updated_at, archive=None):
       <div class="stats">
         <div class="pill"><strong>{len(incidents)}</strong> active fires</div>
         <div class="pill"><strong>{total_acres:,}</strong> acres burning</div>
-        <div class="pill"><strong>{uncontained}</strong> at 0% contained</div>
+        <div class="pill"><strong>{uncontained}</strong> with no containment reported</div>
       </div>
       <p class="intro">
         Every wildfire over {MIN_ACRES} acres still burning in Nevada, Utah, Arizona, Colorado,
@@ -438,7 +443,7 @@ def growth_html(history):
         rows += (f'<tr><td style="padding:6px 14px 6px 0;color:#8b949e">{h["date"]}</td>'
                  f'<td style="padding:6px 14px 6px 0;font-weight:600">{acres:,}</td>'
                  f'<td style="padding:6px 14px 6px 0;color:{contain_color(pct)}">'
-                 f'{0 if pct is None else int(pct)}%</td>'
+                 f'{pct_text(pct, "%")}</td>'
                  f'<td style="padding:6px 0;font-size:.85rem">{delta}</td></tr>')
     return (f'<table style="border-collapse:collapse;font-size:.9rem;margin-top:8px">'
             f'<tr style="color:#6e7681;font-size:.75rem;text-transform:uppercase">'
@@ -460,7 +465,7 @@ def build_incident_html(slug, e, trails):
     days = days_burning(e.get("discovered"))
 
     title = (f"{name} Fire, {state_name} — {acres:,} Acres, "
-             f"{0 if pct is None else int(pct)}% Contained | alwayshave.fun")
+             f"{'Containment Not Yet Reported' if pct is None else f'{int(pct)}% Contained'} | alwayshave.fun")
     desc = (f"Live size, containment, crews and nearby hiking trails for the {name} Fire in "
             f"{state_name}. Straight from the NIFC/WFIGS incident feed, re-read every 30 "
             f"minutes — last read {stamp}.")
@@ -468,20 +473,20 @@ def build_incident_html(slug, e, trails):
     if active:
         status = (f'<p class="intro">The {name} Fire is on the current NIFC active-incident '
                   f'list at <strong>{acres:,} acres</strong> and '
-                  f'<strong>{0 if pct is None else int(pct)}% contained</strong>'
+                  f'<strong>{pct_text(pct)}</strong>'
                   + (f", {days} days after it was discovered on {fmt_date(e.get('discovered'))}"
                      if days is not None else "") + '.</p>')
     else:
         status = (f'<p class="intro"><strong>No longer on the NIFC active list.</strong> '
                   f'The last reading we recorded was {acres:,} acres at '
-                  f'{0 if pct is None else int(pct)}% contained on {e.get("last_seen", "")[:10]}. '
+                  f'{pct_text(pct)} on {e.get("last_seen", "")[:10]}. '
                   f'Incidents drop off the feed when they are contained or declared out — the '
                   f'feed does not tell us which, so we do not guess. This page is kept as the '
                   f'record of what we read while it burned.</p>')
 
     facts = [("State", state_name),
              ("Size", f"{acres:,} acres"),
-             ("Containment", f"{0 if pct is None else int(pct)}%"),
+             ("Containment", pct_text(pct, "%") if pct is not None else "not yet reported"),
              ("Cause", (e.get("cause") or "not reported").title()),
              ("Discovered", fmt_date(e.get("discovered"))),
              ("Personnel assigned", f"{int(e['personnel']):,}" if e.get("personnel") else "not reported")]
@@ -566,7 +571,7 @@ def build_incident_html(slug, e, trails):
       <div class="h1">{name} Fire</div>
       <div class="stats">
         <div class="pill"><strong>{acres:,}</strong> acres</div>
-        <div class="pill"><strong>{0 if pct is None else int(pct)}%</strong> contained</div>
+        <div class="pill"><strong>{'—' if pct is None else f'{int(pct)}%'}</strong> {'containment not yet reported' if pct is None else 'contained'}</div>
         <div class="pill"><strong>{state_name}</strong></div>
       </div>
       {status}
@@ -583,10 +588,10 @@ def build_incident_html(slug, e, trails):
     {near_html}
 
     <div class="faq">
-      <h3>What does &ldquo;{0 if pct is None else int(pct)}% contained&rdquo; mean here?</h3>
+      <h3>What does &ldquo;{'containment not yet reported' if pct is None else f'{int(pct)}% contained'}&rdquo; mean here?</h3>
       <p>Containment is the share of the fire's perimeter that crews have a control line
       around — not how much of the fire is out. A 95% contained fire can still put up plenty of
-      smoke; a 0% contained fire is still growing freely.</p>
+      smoke; a 0% contained fire is still growing freely.{' When the feed carries no containment value at all — common in the first day of a new fire — we say so rather than showing 0%.' if pct is None else ''}</p>
       <h3>Where do these numbers come from?</h3>
       <p>The NIFC/WFIGS Incident Locations feed — the official interagency record used by fire
       managers. We re-read it every 30 minutes and stamp the read time. The day-by-day table is

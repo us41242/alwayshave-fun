@@ -113,3 +113,10 @@ for node in catalog["dataset"]:
     assert len(node["description"]) >= 50, node["@id"]
 
 print("test_build_fires: OK")
+
+# Hard rule 4: a feed row with NO containment value is "not yet reported", never "0%".
+new = dict(w, containment_pct=None, history=[{"date": "2026-08-08", "acres": 106450, "containment_pct": None}])
+page = bf.build_incident_html("widemouth-2-fire-ut-2026", new, trails)
+assert "containment not yet reported" in page.lower() and "0% contained" not in page.split("<div class=\"faq\">")[0], "None rendered as 0%"
+assert "Containment Not Yet Reported" in page.split("</title>")[0]
+print("test_build_fires: OK (None containment)")

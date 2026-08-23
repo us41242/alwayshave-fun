@@ -17,27 +17,27 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 77,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "temp_f": 81,
+    "feels_like_f": 76,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-23T06:11",
+  "sunset": "2026-08-23T19:28",
   "aqi": {
-    "aqi": 46,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 181.6,
+    "nearest_fire_km": 150.3,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Mouse Meadow",
@@ -51,6 +51,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-23T09:57:06.182666+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-23",
+      "high_f": 99,
+      "low_f": 78,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-23T06:11",
+      "sunset": "2026-08-23T19:28",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-24",
+      "high_f": 97,
+      "low_f": 75,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-24T06:12",
+      "sunset": "2026-08-24T19:27",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-25",
+      "high_f": 98,
+      "low_f": 76,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-25T06:12",
+      "sunset": "2026-08-25T19:25",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 100,
+      "low_f": 77,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:13",
+      "sunset": "2026-08-26T19:24",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 100,
+      "low_f": 77,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-27T06:14",
+      "sunset": "2026-08-27T19:22",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-23T10:21:16.505517+00:00"
 }

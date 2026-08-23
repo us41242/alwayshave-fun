@@ -19,13 +19,15 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 72,
-    "wind_mph": 16,
-    "gusts_mph": 17,
-    "rain_pct": 5
+    "temp_f": 76,
+    "feels_like_f": 62,
+    "wind_mph": 24,
+    "gusts_mph": 29,
+    "rain_pct": 8
   },
   "sunrise": "2026-08-23T06:51",
   "sunset": "2026-08-23T20:10",
@@ -37,16 +39,16 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 124.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Meadow Creek",
-      "acres": 0.25,
+      "name": "Blue Spruce",
+      "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-21T19:39:34.850000+00:00",
-      "distance_km": 63.5,
-      "direction": "WSW"
+      "cause": "Natural",
+      "updated": "2026-08-23T22:03:39.217000+00:00",
+      "distance_km": 59.6,
+      "direction": "NE"
     }
   },
   "river": null,
@@ -55,7 +57,7 @@
       "date": "2026-08-23",
       "high_f": 79,
       "low_f": 58,
-      "rain_pct": 7,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-08-23T06:51",
       "sunset": "2026-08-23T20:10",
@@ -66,7 +68,7 @@
       "date": "2026-08-24",
       "high_f": 78,
       "low_f": 59,
-      "rain_pct": 18,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-08-24T06:52",
       "sunset": "2026-08-24T20:09",
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-23T21:47:48.590223+00:00"
+  "updated_at": "2026-08-23T22:18:11.426132+00:00"
 }

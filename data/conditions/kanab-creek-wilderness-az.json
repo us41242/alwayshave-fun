@@ -20,15 +20,14 @@
   "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 93,
+    "temp_f": 89,
     "feels_like_f": 83,
-    "wind_mph": 19,
-    "gusts_mph": 24,
+    "wind_mph": 8,
+    "gusts_mph": 15,
     "rain_pct": 2
   },
   "sunrise": "2026-08-22T05:53",
@@ -44,13 +43,13 @@
     "nearest_fire_km": 44.8,
     "fire_count_50km": 1,
     "nearest_incident": {
-      "name": "Big Ridge",
-      "acres": 2.21,
+      "name": "Meadow Creek",
+      "acres": 0.25,
       "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-23T00:14:37.993000+00:00",
-      "distance_km": 44.7,
-      "direction": "SE"
+      "cause": "Undetermined",
+      "updated": "2026-08-21T19:39:34.850000+00:00",
+      "distance_km": 47.4,
+      "direction": "NNW"
     }
   },
   "river": {
@@ -72,19 +71,19 @@
     },
     {
       "date": "2026-08-23",
-      "high_f": 96,
+      "high_f": 95,
       "low_f": 68,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-23T05:53",
       "sunset": "2026-08-23T19:11",
-      "predicted_score": 36,
+      "predicted_score": 46,
       "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-24",
-      "high_f": 95,
-      "low_f": 66,
+      "high_f": 94,
+      "low_f": 65,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-24T05:54",
@@ -115,5 +114,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-23T00:39:44.077831+00:00"
+  "updated_at": "2026-08-23T02:18:53.955760+00:00"
 }

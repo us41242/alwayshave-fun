@@ -4,6 +4,40 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-22 — Session 43 (nightly) — HAWK FIRE (RENO) DAY 1: FIXED "0% CONTAINED" SHOWN FOR UNREPORTED CONTAINMENT; NO COMMENT (NO DATA-HUNGRY THREAD)
+
+### Oriented
+- `git pull --rebase` clean. Pipeline healthy: 5 most recent `fetch_conditions` runs all event=`schedule`, all success.
+- GSC: **0 clicks / 0 impressions** at 7d (08-15→08-19) and 28d. Sitemap still `pending`. Saturday; weekly #7 + sitemap decision point due Monday 08-24.
+- Bing WMT (second signal): 13 impressions / 0 clicks in 121d; last 7d = 2 (prior 7d = 1); crawl 106× 2xx, 0 errors. Query shape is unmistakable: 3 of 8 are "are dogs allowed at {trail}" (Kanarra Creek, El Moro/Crystal Cove), rest "{trail} weather". Verified the dog answer is already served statically (FAQ + meta desc + schema, 46/46 trails have Yes/No) — nothing to build there.
+- Reddit: inbox 0 unread, no new mod action. `p4k262g` now **+7**; `1vrergg` +3 / 0 comments (stable).
+
+### Participation: skipped (by rule)
+- Searched r/Utah, Colorado, arizona, Nevada, California, hiking, CampingandHiking + 15 park/city subs for fire/smoke/AQI/closure/dog threads <24h old. Nothing data-hungry in our states except **r/reno, where the Hawk Fire (west of Reno, 10,523 ac by 03:12Z, discovered 18:23Z today) is driving evacuation threads** ("will we be evacuated?", "Hawk Fire smoke clouds"). Those are people in distress asking locals and being pointed to Watch Duty/Perimeter — the right answer, and not ours. Posting data into them is the register mismatch Session 42 was removed for. **Did not post anywhere.**
+
+### Did — hard-rule-4 fix on `/fires`
+- The feed row for Hawk has `containment_pct: None` (no report yet — normal on day 1). The live page title read **"Hawk Fire, Nevada — 10,523 Acres, 0% Contained"**, and 0% was repeated in the pill, intro, facts table, growth table, and FAQ heading. Our own `/data` caveats say "empty ≠ 0% containment" — the pages contradicted the dataset. Eight `0 if pct is None` coercions in `scripts/build_fires.py` → one `pct_text()` helper: None now renders "containment not yet reported" everywhere (title: "Containment Not Yet Reported"), FAQ gets an extra sentence explaining it, and the `/fires` index pill now counts only None rows as "with no containment reported" (was counting 0% and None together as "at 0% contained"). Real values unchanged (Widemouth 2 still 93%).
+- `scripts/test_build_fires.py`: new regression assert — a None-containment incident must not render "0%" and must title "Containment Not Yet Reported".
+- Commit `80c24e4358e`, pushed 04:24Z between pipeline runs (last run completed 04:18Z).
+
+### Verified
+- Tests pass (`test_build_fires: OK` ×2). Live 80s after push (real UA + cache-buster): `/fires/hawk-fire-nv-2026` title "Containment Not Yet Reported"; `/fires` pill "3 with no containment reported"; `/fires/widemouth-2-fire-ut-2026` still "93% Contained"; `/`, `/data`, `/ut/snow-canyon-rim-ut`, `/sitemap.xml` all 200; sitemap valid XML, 159 URLs (Hawk page listed).
+
+### Learned
+- Day-1 fires are exactly when a `/fires/{incident}` page gets its first real visitors, and day 1 is when the feed has no containment value — the one case where the page was lying. Worth a sweep of other feed fields that get `or 0`'d (personnel already says "not reported"; acres `or 0` is harmless since pages need ≥100 ac).
+- Bing's query log is the only live demand signal we have; its dog-policy queries validate the dog_friendly column and `/dog-friendly` page as real long-tail targets once any authority exists.
+
+### Expect
+- Hawk Fire page picks up containment on the next feed read that carries it; no action needed.
+- No GSC movement before 08-24.
+
+### Upcoming
+- **2026-08-24 (Monday): weekly #7 + sitemap decision point** — include Session 42's removal + revised rules, the Bing query signal, and this fix.
+- Await Josh on the GitHub-identity question (STRATEGY #7).
+- 2026-09-07: `/data` first review.
+
+---
+
 ## 2026-08-21 — Session 42 (nightly) — FIRST REMOVAL: r/Utah MODS PULLED `p4re1fy` AS "AI SLOP"; NO COMMENT TONIGHT (COOL-OFF)
 
 ### Oriented

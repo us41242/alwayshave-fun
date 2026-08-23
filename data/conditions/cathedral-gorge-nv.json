@@ -17,39 +17,89 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 40,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 87,
-    "feels_like_f": 86,
-    "wind_mph": 5,
-    "gusts_mph": 17,
+    "temp_f": 94,
+    "feels_like_f": 89,
+    "wind_mph": 15,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-23T06:00",
+  "sunset": "2026-08-23T19:19",
   "aqi": {
-    "aqi": 40,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 186.6,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Montgomery",
-      "acres": 0.2,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-23T03:16:35.953000+00:00",
-      "distance_km": 21.2,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-23T18:16:40.941292+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-23",
+      "high_f": 95,
+      "low_f": 69,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-08-23T06:00",
+      "sunset": "2026-08-23T19:19",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-24",
+      "high_f": 94,
+      "low_f": 68,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-24T06:01",
+      "sunset": "2026-08-24T19:18",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-25",
+      "high_f": 93,
+      "low_f": 70,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-25T06:02",
+      "sunset": "2026-08-25T19:17",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 95,
+      "low_f": 73,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:02",
+      "sunset": "2026-08-26T19:15",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 95,
+      "low_f": 75,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-27T06:03",
+      "sunset": "2026-08-27T19:14",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-08-23T18:58:02.500739+00:00"
 }

@@ -30,14 +30,14 @@
   "sunrise": "2026-08-23T06:17",
   "sunset": "2026-08-23T19:33",
   "aqi": {
-    "aqi": 13,
+    "aqi": 38,
     "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 163.2,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Arrow Creek",
@@ -107,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-23T09:12:43.203597+00:00"
+  "updated_at": "2026-08-23T09:31:39.178149+00:00"
 }

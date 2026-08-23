@@ -17,18 +17,18 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 90,
-    "feels_like_f": 84,
-    "wind_mph": 8,
-    "gusts_mph": 8,
+    "temp_f": 88,
+    "feels_like_f": 83,
+    "wind_mph": 9,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-23T06:04",
+  "sunset": "2026-08-23T19:19",
   "aqi": {
     "aqi": 40,
     "category": "Good",
@@ -42,6 +42,62 @@
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-23T10:20:33.306211+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-23",
+      "high_f": 105,
+      "low_f": 87,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-08-23T06:04",
+      "sunset": "2026-08-23T19:19",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-24",
+      "high_f": 104,
+      "low_f": 84,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-08-24T06:05",
+      "sunset": "2026-08-24T19:18",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-25",
+      "high_f": 102,
+      "low_f": 78,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-25T06:06",
+      "sunset": "2026-08-25T19:16",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 106,
+      "low_f": 86,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:07",
+      "sunset": "2026-08-26T19:15",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 108,
+      "low_f": 88,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-27T06:07",
+      "sunset": "2026-08-27T19:14",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-23T10:54:52.092409+00:00"
 }

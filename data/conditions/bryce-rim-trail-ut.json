@@ -23,23 +23,23 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 64,
+    "temp_f": 69,
+    "feels_like_f": 61,
     "wind_mph": 10,
-    "gusts_mph": 16,
-    "rain_pct": 2
+    "gusts_mph": 14,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-22T06:50",
   "sunset": "2026-08-22T20:12",
   "aqi": {
-    "aqi": 51,
+    "aqi": 74,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 105.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Meadow Creek",
@@ -68,7 +68,7 @@
       "date": "2026-08-23",
       "high_f": 80,
       "low_f": 58,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-23T06:51",
       "sunset": "2026-08-23T20:10",
@@ -79,7 +79,7 @@
       "date": "2026-08-24",
       "high_f": 76,
       "low_f": 59,
-      "rain_pct": 32,
+      "rain_pct": 48,
       "uv": 8,
       "sunrise": "2026-08-24T06:52",
       "sunset": "2026-08-24T20:09",
@@ -90,7 +90,7 @@
       "date": "2026-08-25",
       "high_f": 82,
       "low_f": 61,
-      "rain_pct": 16,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-08-25T06:53",
       "sunset": "2026-08-25T20:07",
@@ -101,7 +101,7 @@
       "date": "2026-08-26",
       "high_f": 84,
       "low_f": 60,
-      "rain_pct": 12,
+      "rain_pct": 26,
       "uv": 8,
       "sunrise": "2026-08-26T06:54",
       "sunset": "2026-08-26T20:06",
@@ -109,5 +109,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-23T02:18:52.934205+00:00"
+  "updated_at": "2026-08-23T03:31:07.892624+00:00"
 }

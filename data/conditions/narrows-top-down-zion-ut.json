@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 66,
@@ -27,8 +27,8 @@
     "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-23T06:54",
-  "sunset": "2026-08-23T20:13",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 36,
     "category": "Good",
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 107.5,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Meadow Creek",
@@ -54,62 +54,6 @@
     "stage": "low",
     "gauge_id": "09405500"
   },
-  "forecast": [
-    {
-      "date": "2026-08-23",
-      "high_f": 86,
-      "low_f": 66,
-      "rain_pct": 6,
-      "uv": 8,
-      "sunrise": "2026-08-23T06:54",
-      "sunset": "2026-08-23T20:13",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-24",
-      "high_f": 86,
-      "low_f": 63,
-      "rain_pct": 6,
-      "uv": 8,
-      "sunrise": "2026-08-24T06:55",
-      "sunset": "2026-08-24T20:12",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-25",
-      "high_f": 86,
-      "low_f": 66,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-08-25T06:56",
-      "sunset": "2026-08-25T20:10",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 86,
-      "low_f": 67,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:57",
-      "sunset": "2026-08-26T20:09",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 88,
-      "low_f": 67,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-08-27T06:58",
-      "sunset": "2026-08-27T20:07",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-23T12:24:10.479141+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-23T13:13:05.982912+00:00"
 }

@@ -17,9 +17,11 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 92,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 82,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 64,
     "feels_like_f": 59,
@@ -30,10 +32,10 @@
   "sunrise": "2026-08-23T05:53",
   "sunset": "2026-08-23T19:08",
   "aqi": {
-    "aqi": 40,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -55,11 +57,11 @@
       "date": "2026-08-23",
       "high_f": 84,
       "low_f": 63,
-      "rain_pct": 22,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-08-23T05:53",
       "sunset": "2026-08-23T19:08",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -70,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-08-24T05:54",
       "sunset": "2026-08-24T19:07",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-08-25T05:55",
       "sunset": "2026-08-25T19:05",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -92,7 +94,7 @@
       "uv": 8,
       "sunrise": "2026-08-26T05:55",
       "sunset": "2026-08-26T19:04",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-27T05:56",
       "sunset": "2026-08-27T19:02",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-23T10:50:11.016397+00:00"
+  "updated_at": "2026-08-23T11:14:42.598807+00:00"
 }

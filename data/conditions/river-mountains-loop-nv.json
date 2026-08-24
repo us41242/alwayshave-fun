@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 92,
-    "feels_like_f": 85,
+    "temp_f": 91,
+    "feels_like_f": 84,
     "wind_mph": 9,
-    "gusts_mph": 13,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-23T06:04",
-  "sunset": "2026-08-23T19:19",
+  "sunrise": "2026-08-24T06:05",
+  "sunset": "2026-08-24T19:18",
   "aqi": {
     "aqi": 44,
     "category": "Good",
@@ -37,28 +39,17 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 154.5,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-23",
-      "high_f": 105,
-      "low_f": 87,
-      "rain_pct": 8,
-      "uv": 8,
-      "sunrise": "2026-08-23T06:04",
-      "sunset": "2026-08-23T19:19",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-08-24",
       "high_f": 104,
-      "low_f": 85,
-      "rain_pct": 8,
+      "low_f": 83,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-24T06:05",
       "sunset": "2026-08-24T19:18",
@@ -97,7 +88,18 @@
       "sunset": "2026-08-27T19:14",
       "predicted_score": 60,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-28",
+      "high_f": 103,
+      "low_f": 86,
+      "rain_pct": 1,
+      "uv": 6,
+      "sunrise": "2026-08-28T06:08",
+      "sunset": "2026-08-28T19:12",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-24T06:09:28.047798+00:00"
+  "updated_at": "2026-08-24T07:08:05.294623+00:00"
 }

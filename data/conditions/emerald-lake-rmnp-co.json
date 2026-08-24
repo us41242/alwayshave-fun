@@ -17,14 +17,15 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 74,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 52,
-    "feels_like_f": 40,
+    "feels_like_f": 39,
     "wind_mph": 22,
     "gusts_mph": 29,
     "rain_pct": 0
@@ -32,15 +33,15 @@
   "sunrise": "2026-08-24T06:22",
   "sunset": "2026-08-24T19:46",
   "aqi": {
-    "aqi": 37,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 78.4,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 37.2,
+    "fire_count_50km": 2,
     "nearest_incident": {
       "name": "Rawah",
       "acres": 0.25,
@@ -61,7 +62,7 @@
       "uv": 7,
       "sunrise": "2026-08-24T06:22",
       "sunset": "2026-08-24T19:46",
-      "predicted_score": 80,
+      "predicted_score": 74,
       "score_label": "Good conditions"
     },
     {
@@ -72,7 +73,7 @@
       "uv": 6,
       "sunrise": "2026-08-25T06:23",
       "sunset": "2026-08-25T19:45",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     },
     {
@@ -83,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-08-26T06:24",
       "sunset": "2026-08-26T19:43",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-27",
@@ -94,7 +95,7 @@
       "uv": 7,
       "sunrise": "2026-08-27T06:25",
       "sunset": "2026-08-27T19:42",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     },
     {
@@ -105,9 +106,9 @@
       "uv": 7,
       "sunrise": "2026-08-28T06:26",
       "sunset": "2026-08-28T19:40",
-      "predicted_score": 80,
+      "predicted_score": 74,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-24T09:19:11.930337+00:00"
+  "updated_at": "2026-08-24T10:19:51.171873+00:00"
 }

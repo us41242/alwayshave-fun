@@ -17,8 +17,8 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 70,
@@ -27,17 +27,17 @@
     "gusts_mph": 15,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-24T06:58",
-  "sunset": "2026-08-24T20:14",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 49,
+    "aqi": 36,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 170.8,
+    "nearest_fire_km": 166.7,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Meadow Creek",
@@ -50,62 +50,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-24",
-      "high_f": 83,
-      "low_f": 66,
-      "rain_pct": 9,
-      "uv": 8,
-      "sunrise": "2026-08-24T06:58",
-      "sunset": "2026-08-24T20:14",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-25",
-      "high_f": 85,
-      "low_f": 64,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-08-25T06:59",
-      "sunset": "2026-08-25T20:12",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 87,
-      "low_f": 68,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:59",
-      "sunset": "2026-08-26T20:11",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 87,
-      "low_f": 69,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-27T07:00",
-      "sunset": "2026-08-27T20:10",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 84,
-      "low_f": 68,
-      "rain_pct": 5,
-      "uv": 7,
-      "sunrise": "2026-08-28T07:01",
-      "sunset": "2026-08-28T20:08",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-08-24T09:19:07.601461+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-24T10:19:45.755042+00:00"
 }

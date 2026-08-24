@@ -17,30 +17,31 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 86,
+  "score": 90,
   "score_label": "Great day to go",
   "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
+    "wind layer recommended",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 74,
+    "temp_f": 75,
     "feels_like_f": 71,
-    "wind_mph": 12,
-    "gusts_mph": 20,
-    "rain_pct": 1
+    "wind_mph": 13,
+    "gusts_mph": 22,
+    "rain_pct": 2
   },
   "sunrise": "2026-08-24T06:21",
   "sunset": "2026-08-24T19:42",
   "aqi": {
-    "aqi": 34,
-    "category": "Good",
+    "aqi": 99,
+    "category": "Moderate",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 47.6,
-    "fire_count_50km": 12,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Hawk",
       "acres": 15051,
@@ -62,18 +63,18 @@
       "uv": 8,
       "sunrise": "2026-08-24T06:21",
       "sunset": "2026-08-24T19:42",
-      "predicted_score": 86,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-25",
       "high_f": 75,
-      "low_f": 54,
+      "low_f": 55,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-25T06:22",
       "sunset": "2026-08-25T19:40",
-      "predicted_score": 86,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -84,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-08-26T06:23",
       "sunset": "2026-08-26T19:39",
-      "predicted_score": 74,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -95,7 +96,7 @@
       "uv": 8,
       "sunrise": "2026-08-27T06:24",
       "sunset": "2026-08-27T19:37",
-      "predicted_score": 74,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -106,9 +107,9 @@
       "uv": 5,
       "sunrise": "2026-08-28T06:25",
       "sunset": "2026-08-28T19:36",
-      "predicted_score": 74,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-24T20:06:50.301595+00:00"
+  "updated_at": "2026-08-24T20:35:33.575591+00:00"
 }

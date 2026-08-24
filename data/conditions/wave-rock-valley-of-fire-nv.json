@@ -17,11 +17,9 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 101,
     "feels_like_f": 97,
@@ -32,18 +30,18 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 39,
+    "aqi": 40,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 32.5,
-    "fire_count_50km": 6,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": null
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-08-24T19:54:01.931909+00:00"
+  "updated_at": "2026-08-24T20:22:05.822342+00:00"
 }

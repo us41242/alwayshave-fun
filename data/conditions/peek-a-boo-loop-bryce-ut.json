@@ -21,18 +21,18 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 63,
-    "wind_mph": 9,
-    "gusts_mph": 13,
-    "rain_pct": 28
+    "temp_f": 66,
+    "feels_like_f": 62,
+    "wind_mph": 6,
+    "gusts_mph": 6,
+    "rain_pct": 20
   },
   "sunrise": "2026-08-24T06:52",
   "sunset": "2026-08-24T20:09",
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
@@ -40,14 +40,13 @@
     "nearest_fire_km": 119.9,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Cottonwood",
-      "acres": 97464,
-      "containment_pct": 95,
-      "cause": "Undetermined",
-      "updated": "2026-08-24T20:35:29.100000+00:00",
-      "distance_km": 80.4,
-      "direction": "NNW",
-      "page": "/fires/cottonwood-fire-ut-2026"
+      "name": "Fairyland",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-24T23:19:10.450000+00:00",
+      "distance_km": 4.6,
+      "direction": "N"
     }
   },
   "river": null,
@@ -87,10 +86,10 @@
     },
     {
       "date": "2026-08-27",
-      "high_f": 83,
-      "low_f": 61,
+      "high_f": 82,
+      "low_f": 62,
       "rain_pct": 4,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-08-27T06:55",
       "sunset": "2026-08-27T20:05",
       "predicted_score": 88,
@@ -99,7 +98,7 @@
     {
       "date": "2026-08-28",
       "high_f": 78,
-      "low_f": 60,
+      "low_f": 61,
       "rain_pct": 11,
       "uv": 6,
       "sunrise": "2026-08-28T06:55",
@@ -108,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-24T23:20:09.269399+00:00"
+  "updated_at": "2026-08-24T23:49:36.974048+00:00"
 }

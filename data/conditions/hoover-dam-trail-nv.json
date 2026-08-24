@@ -17,19 +17,18 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 36,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 100,
-    "feels_like_f": 96,
-    "wind_mph": 19,
-    "gusts_mph": 25,
-    "rain_pct": 0
+    "temp_f": 104,
+    "feels_like_f": 101,
+    "wind_mph": 20,
+    "gusts_mph": 24,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-24T06:04",
   "sunset": "2026-08-24T19:17",
@@ -40,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 40.9,
-    "fire_count_50km": 6,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": null
   },
   "river": null,
@@ -51,57 +50,57 @@
       "date": "2026-08-24",
       "high_f": 112,
       "low_f": 92,
-      "rain_pct": 16,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-08-24T06:04",
       "sunset": "2026-08-24T19:17",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-25",
       "high_f": 113,
       "low_f": 84,
-      "rain_pct": 2,
+      "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-25T06:05",
       "sunset": "2026-08-25T19:16",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-26",
-      "high_f": 114,
+      "high_f": 113,
       "low_f": 91,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-26T06:06",
       "sunset": "2026-08-26T19:14",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-27",
-      "high_f": 114,
-      "low_f": 93,
+      "high_f": 115,
+      "low_f": 94,
       "rain_pct": 2,
       "uv": 7,
       "sunrise": "2026-08-27T06:07",
       "sunset": "2026-08-27T19:13",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-28",
-      "high_f": 108,
-      "low_f": 93,
+      "high_f": 113,
+      "low_f": 92,
       "rain_pct": 10,
-      "uv": 5,
+      "uv": 7,
       "sunrise": "2026-08-28T06:07",
       "sunset": "2026-08-28T19:12",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-24T17:08:27.548929+00:00"
+  "updated_at": "2026-08-24T18:04:17.900673+00:00"
 }

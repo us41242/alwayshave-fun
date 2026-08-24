@@ -17,44 +17,44 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 56,
   "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 94,
-    "feels_like_f": 86,
-    "wind_mph": 12,
+    "temp_f": 93,
+    "feels_like_f": 85,
+    "wind_mph": 11,
     "gusts_mph": 16,
     "rain_pct": 0
   },
   "sunrise": "2026-08-24T06:03",
   "sunset": "2026-08-24T19:17",
   "aqi": {
-    "aqi": 52,
-    "category": "Moderate",
+    "aqi": 49,
+    "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 152.7,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 36.3,
+    "fire_count_50km": 1,
     "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-24",
-      "high_f": 108,
+      "high_f": 107,
       "low_f": 86,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-24T06:03",
       "sunset": "2026-08-24T19:17",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-25",
@@ -64,42 +64,42 @@
       "uv": 8,
       "sunrise": "2026-08-25T06:04",
       "sunset": "2026-08-25T19:15",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-26",
       "high_f": 110,
       "low_f": 88,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-26T06:05",
       "sunset": "2026-08-26T19:14",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-27",
       "high_f": 110,
       "low_f": 88,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-08-27T06:05",
       "sunset": "2026-08-27T19:13",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-28",
       "high_f": 107,
       "low_f": 85,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-08-28T06:06",
       "sunset": "2026-08-28T19:11",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-24T08:11:02.201859+00:00"
+  "updated_at": "2026-08-24T09:11:37.338535+00:00"
 }

@@ -17,36 +17,38 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 69,
-    "wind_mph": 14,
-    "gusts_mph": 20,
+    "temp_f": 77,
+    "feels_like_f": 66,
+    "wind_mph": 15,
+    "gusts_mph": 26,
     "rain_pct": 1
   },
   "sunrise": "2026-08-23T06:18",
   "sunset": "2026-08-23T19:37",
   "aqi": {
-    "aqi": 39,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 85.4,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Public Smoking Dumpster Goat Mdw Sno Play Area",
+      "name": "Trafton",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-23T00:00:16.657000+00:00",
-      "distance_km": 69.1,
-      "direction": "W"
+      "updated": "2026-08-24T00:35:35.193000+00:00",
+      "distance_km": 43.7,
+      "direction": "NE"
     }
   },
   "river": null,
@@ -59,19 +61,19 @@
       "uv": 8,
       "sunrise": "2026-08-23T06:18",
       "sunset": "2026-08-23T19:37",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-24",
       "high_f": 78,
-      "low_f": 57,
+      "low_f": 59,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-24T06:19",
       "sunset": "2026-08-24T19:35",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-25",
@@ -81,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-08-25T06:20",
       "sunset": "2026-08-25T19:34",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-26",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-08-26T06:20",
       "sunset": "2026-08-26T19:33",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-27",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-08-27T06:21",
       "sunset": "2026-08-27T19:31",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-23T23:54:10.730242+00:00"
+  "updated_at": "2026-08-24T00:53:31.573213+00:00"
 }

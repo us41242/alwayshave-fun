@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T05:09:07.167829+00:00",
+  "updated_at": "2026-08-24T06:02:40.519247+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 174,
+  "count": 176,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -378,13 +378,13 @@
     {
       "name": "Master",
       "acres": 770,
-      "containment_pct": null,
+      "containment_pct": 50,
       "cause": "Undetermined",
       "lat": 41.10625580860672,
       "lng": -115.20261243040875,
-      "updated": "2026-08-24T04:00:22.420000+00:00",
+      "updated": "2026-08-24T05:10:22.393000+00:00",
       "state": "NV",
-      "personnel": null,
+      "personnel": 27,
       "discovered": "2026-08-24T00:16:29+00:00"
     },
     {
@@ -653,12 +653,12 @@
     },
     {
       "name": "Petaluma",
-      "acres": 5,
+      "acres": 6.4,
       "containment_pct": null,
       "cause": "Undetermined",
       "lat": 38.18845696434908,
       "lng": -122.60205329120566,
-      "updated": "2026-08-24T03:05:45.223000+00:00",
+      "updated": "2026-08-24T05:46:36.593000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-24T02:44:19+00:00"
@@ -988,6 +988,18 @@
       "discovered": "2026-08-05T23:00:02+00:00"
     },
     {
+      "name": "Vista",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.66491589244863,
+      "lng": -118.76204732518288,
+      "updated": "2026-08-24T05:15:35.287000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-24T03:36:19+00:00"
+    },
+    {
       "name": "Vnc Hill",
       "acres": 0.1,
       "containment_pct": null,
@@ -1048,6 +1060,18 @@
       "discovered": "2026-08-23T22:05:14+00:00"
     },
     {
+      "name": "Dunford",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 40.824851086809154,
+      "lng": -111.3480116336269,
+      "updated": "2026-08-23T04:30:58.103000+00:00",
+      "state": "UT",
+      "personnel": null,
+      "discovered": "2026-08-22T23:08:30+00:00"
+    },
+    {
       "name": "Pilot Peak",
       "acres": 0.1,
       "containment_pct": null,
@@ -1058,18 +1082,6 @@
       "state": "NV",
       "personnel": null,
       "discovered": "2026-08-23T00:47:37+00:00"
-    },
-    {
-      "name": "Rose",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 34.16700532538428,
-      "lng": -110.03321066537202,
-      "updated": "2026-08-23T21:33:35.223000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-22T22:31:35+00:00"
     },
     {
       "name": "Pinion",
@@ -1084,16 +1096,16 @@
       "discovered": "2026-08-24T01:45:00+00:00"
     },
     {
-      "name": "Dunford",
+      "name": "Rose",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Natural",
-      "lat": 40.824851086809154,
-      "lng": -111.3480116336269,
-      "updated": "2026-08-23T04:30:58.103000+00:00",
-      "state": "UT",
+      "lat": 34.16700532538428,
+      "lng": -110.03321066537202,
+      "updated": "2026-08-23T21:33:35.223000+00:00",
+      "state": "AZ",
       "personnel": null,
-      "discovered": "2026-08-22T23:08:30+00:00"
+      "discovered": "2026-08-22T22:31:35+00:00"
     },
     {
       "name": "Alper",
@@ -1154,6 +1166,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-23T00:59:33+00:00"
+    },
+    {
+      "name": "Rattlesnake",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 40.689865716274475,
+      "lng": -115.83393248901916,
+      "updated": "2026-08-24T05:26:30.207000+00:00",
+      "state": "NV",
+      "personnel": null,
+      "discovered": "2026-08-24T05:10:00+00:00"
     },
     {
       "name": "Pilot",
@@ -1576,18 +1600,6 @@
       "discovered": "2026-08-22T13:27:24+00:00"
     },
     {
-      "name": "Lac-297051",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.87306484517127,
-      "lng": -118.0822921455627,
-      "updated": "2026-08-21T15:40:57.923000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-21T15:40:36+00:00"
-    },
-    {
       "name": "Lac-297317",
       "acres": 0.01,
       "containment_pct": null,
@@ -1598,6 +1610,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-21T19:49:50+00:00"
+    },
+    {
+      "name": "Lac-297051",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.87306484517127,
+      "lng": -118.0822921455627,
+      "updated": "2026-08-21T15:40:57.923000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-21T15:40:36+00:00"
     },
     {
       "name": "Lac-298044",
@@ -1936,18 +1960,6 @@
       "discovered": "2026-08-22T03:41:35+00:00"
     },
     {
-      "name": "Lac-299880",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.99810485379682,
-      "lng": -118.17661217152607,
-      "updated": "2026-08-23T13:57:02.323000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-23T13:56:46+00:00"
-    },
-    {
       "name": "Mever",
       "acres": 0.01,
       "containment_pct": null,
@@ -1982,6 +1994,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-21T07:11:50+00:00"
+    },
+    {
+      "name": "Lac-299880",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.99810485379682,
+      "lng": -118.17661217152607,
+      "updated": "2026-08-23T13:57:02.323000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-23T13:56:46+00:00"
     },
     {
       "name": "Lac-298335",

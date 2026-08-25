@@ -17,30 +17,29 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 30,
-    "wind_mph": 18,
-    "gusts_mph": 21,
-    "rain_pct": 1
+    "temp_f": 39,
+    "feels_like_f": 27,
+    "wind_mph": 15,
+    "gusts_mph": 18,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-24T06:18",
   "sunset": "2026-08-24T19:32",
   "aqi": {
-    "aqi": 11,
+    "aqi": 14,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 115.1,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Arrow Creek",
@@ -57,7 +56,7 @@
     {
       "date": "2026-08-24",
       "high_f": 48,
-      "low_f": 32,
+      "low_f": 33,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-24T06:18",
@@ -67,9 +66,9 @@
     },
     {
       "date": "2026-08-25",
-      "high_f": 48,
+      "high_f": 47,
       "low_f": 31,
-      "rain_pct": 12,
+      "rain_pct": 11,
       "uv": 7,
       "sunrise": "2026-08-25T06:19",
       "sunset": "2026-08-25T19:31",
@@ -78,13 +77,13 @@
     },
     {
       "date": "2026-08-26",
-      "high_f": 54,
-      "low_f": 32,
+      "high_f": 49,
+      "low_f": 33,
       "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-26T06:20",
       "sunset": "2026-08-26T19:29",
-      "predicted_score": 100,
+      "predicted_score": 88,
       "score_label": "Great day to go"
     },
     {
@@ -110,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-25T00:47:51.561130+00:00"
+  "updated_at": "2026-08-25T02:21:42.955231+00:00"
 }

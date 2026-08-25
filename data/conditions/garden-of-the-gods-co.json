@@ -17,38 +17,37 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
+  "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 72,
+    "temp_f": 65,
+    "feels_like_f": 66,
     "wind_mph": 5,
-    "gusts_mph": 9,
-    "rain_pct": 20
+    "gusts_mph": 6,
+    "rain_pct": 12
   },
   "sunrise": "2026-08-24T06:21",
   "sunset": "2026-08-24T19:41",
   "aqi": {
-    "aqi": 67,
-    "category": "Moderate",
+    "aqi": 48,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 86.0,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Jenning Gulch",
-      "acres": 1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-25T00:23:15.513000+00:00",
-      "distance_km": 66.8,
-      "direction": "SSW"
+      "name": "Aspen Acres",
+      "acres": 102004,
+      "containment_pct": 77,
+      "cause": "Human",
+      "updated": "2026-08-24T22:22:55.450000+00:00",
+      "distance_km": 96.6,
+      "direction": "S",
+      "page": "/fires/aspen-acres-fire-co-2026"
     }
   },
   "river": null,
@@ -61,29 +60,29 @@
       "uv": 7,
       "sunrise": "2026-08-24T06:21",
       "sunset": "2026-08-24T19:41",
-      "predicted_score": 60,
+      "predicted_score": 62,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-25",
-      "high_f": 86,
-      "low_f": 57,
-      "rain_pct": 26,
+      "high_f": 84,
+      "low_f": 60,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-08-25T06:22",
       "sunset": "2026-08-25T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-26",
-      "high_f": 82,
-      "low_f": 57,
+      "high_f": 83,
+      "low_f": 58,
       "rain_pct": 87,
       "uv": 7,
       "sunrise": "2026-08-26T06:23",
       "sunset": "2026-08-26T19:38",
-      "predicted_score": 50,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -94,7 +93,7 @@
       "uv": 8,
       "sunrise": "2026-08-27T06:24",
       "sunset": "2026-08-27T19:37",
-      "predicted_score": 50,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -105,9 +104,9 @@
       "uv": 8,
       "sunrise": "2026-08-28T06:25",
       "sunset": "2026-08-28T19:35",
-      "predicted_score": 60,
+      "predicted_score": 62,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-25T00:47:48.379962+00:00"
+  "updated_at": "2026-08-25T02:20:22.520079+00:00"
 }

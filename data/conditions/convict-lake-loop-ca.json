@@ -17,11 +17,9 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 74,
     "feels_like_f": 63,
@@ -29,85 +27,29 @@
     "gusts_mph": 24,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-24T06:19",
-  "sunset": "2026-08-24T19:35",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 134.4,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Globe",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-25T00:30:27.873000+00:00",
-      "distance_km": 51.8,
+      "updated": "2026-08-25T01:18:39.370000+00:00",
+      "distance_km": 48.6,
       "direction": "WSW"
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-24",
-      "high_f": 79,
-      "low_f": 56,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-08-24T06:19",
-      "sunset": "2026-08-24T19:35",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-25",
-      "high_f": 79,
-      "low_f": 56,
-      "rain_pct": 3,
-      "uv": 7,
-      "sunrise": "2026-08-25T06:20",
-      "sunset": "2026-08-25T19:34",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 81,
-      "low_f": 59,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-08-26T06:20",
-      "sunset": "2026-08-26T19:33",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 78,
-      "low_f": 55,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-08-27T06:21",
-      "sunset": "2026-08-27T19:31",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 67,
-      "low_f": 54,
-      "rain_pct": 23,
-      "uv": 5,
-      "sunrise": "2026-08-28T06:22",
-      "sunset": "2026-08-28T19:30",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-08-25T00:49:40.614590+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-25T02:23:52.817009+00:00"
 }

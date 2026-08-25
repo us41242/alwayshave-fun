@@ -22,10 +22,10 @@
   "gear_flags": [],
   "current": {
     "temp_f": 63,
-    "feels_like_f": 57,
+    "feels_like_f": 56,
     "wind_mph": 11,
     "gusts_mph": 14,
-    "rain_pct": 2
+    "rain_pct": 1
   },
   "sunrise": "2026-08-25T05:59",
   "sunset": "2026-08-25T19:18",
@@ -39,7 +39,16 @@
     "risk_level": "moderate",
     "nearest_fire_km": 94.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Ward",
+      "acres": 8683,
+      "containment_pct": 99,
+      "cause": "Natural",
+      "updated": "2026-08-24T22:47:09.080000+00:00",
+      "distance_km": 63.7,
+      "direction": "WSW",
+      "page": "/fires/ward-fire-nv-2026"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,7 +56,7 @@
       "date": "2026-08-25",
       "high_f": 64,
       "low_f": 46,
-      "rain_pct": 5,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-25T05:59",
       "sunset": "2026-08-25T19:18",
@@ -58,7 +67,7 @@
       "date": "2026-08-26",
       "high_f": 65,
       "low_f": 48,
-      "rain_pct": 17,
+      "rain_pct": 18,
       "uv": 7,
       "sunrise": "2026-08-26T06:00",
       "sunset": "2026-08-26T19:16",
@@ -80,7 +89,7 @@
       "date": "2026-08-28",
       "high_f": 67,
       "low_f": 54,
-      "rain_pct": 15,
+      "rain_pct": 14,
       "uv": 6,
       "sunrise": "2026-08-28T06:02",
       "sunset": "2026-08-28T19:13",
@@ -91,7 +100,7 @@
       "date": "2026-08-29",
       "high_f": 62,
       "low_f": 45,
-      "rain_pct": 44,
+      "rain_pct": 58,
       "uv": 6,
       "sunrise": "2026-08-29T06:02",
       "sunset": "2026-08-29T19:12",
@@ -99,5 +108,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-25T20:33:58.830383+00:00"
+  "updated_at": "2026-08-25T20:59:46.546572+00:00"
 }

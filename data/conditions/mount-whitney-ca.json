@@ -17,39 +17,29 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 48,
-    "feels_like_f": 37,
-    "wind_mph": 18,
-    "gusts_mph": 22,
+    "feels_like_f": 40,
+    "wind_mph": 13,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-08-25T06:19",
   "sunset": "2026-08-25T19:31",
   "aqi": {
-    "aqi": 6,
-    "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 115.1,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Arrow Creek",
-      "acres": 3.5,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-23T22:35:10.497000+00:00",
-      "distance_km": 37.8,
-      "direction": "NNW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -61,8 +51,8 @@
       "uv": 7,
       "sunrise": "2026-08-25T06:19",
       "sunset": "2026-08-25T19:31",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-26",
@@ -72,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-08-26T06:20",
       "sunset": "2026-08-26T19:29",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-27",
@@ -83,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-08-27T06:20",
       "sunset": "2026-08-27T19:28",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-28",
@@ -94,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-08-28T06:21",
       "sunset": "2026-08-28T19:26",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-29",
@@ -105,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-08-29T06:22",
       "sunset": "2026-08-29T19:25",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-25T21:02:57.079279+00:00"
+  "updated_at": "2026-08-25T21:32:37.197966+00:00"
 }

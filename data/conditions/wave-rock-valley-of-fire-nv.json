@@ -29,10 +29,10 @@
     "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-25T06:04",
-  "sunset": "2026-08-25T19:15",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 37,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,73 +41,9 @@
     "risk_level": "elevated",
     "nearest_fire_km": 32.6,
     "fire_count_50km": 7,
-    "nearest_incident": {
-      "name": "Lower Spring",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-25T20:33:13.377000+00:00",
-      "distance_km": 97.0,
-      "direction": "ESE"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-25",
-      "high_f": 107,
-      "low_f": 83,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-25T06:04",
-      "sunset": "2026-08-25T19:15",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 110,
-      "low_f": 85,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:05",
-      "sunset": "2026-08-26T19:14",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 110,
-      "low_f": 84,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-27T06:05",
-      "sunset": "2026-08-27T19:13",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 109,
-      "low_f": 87,
-      "rain_pct": 7,
-      "uv": 7,
-      "sunrise": "2026-08-28T06:06",
-      "sunset": "2026-08-28T19:11",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-29",
-      "high_f": 104,
-      "low_f": 80,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-08-29T06:07",
-      "sunset": "2026-08-29T19:10",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-08-25T20:53:20.074801+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-25T21:20:17.248076+00:00"
 }

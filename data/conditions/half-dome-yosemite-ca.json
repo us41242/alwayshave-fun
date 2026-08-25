@@ -32,22 +32,14 @@
   "aqi": {
     "aqi": 41,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 107.0,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Public Smoking Dumpster Goat Mdw Sno Play Area",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-23T00:00:16.657000+00:00",
-      "distance_km": 29.4,
-      "direction": "SSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
   "forecast": [
@@ -107,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-25T21:01:10.629344+00:00"
+  "updated_at": "2026-08-25T21:30:59.942178+00:00"
 }

@@ -17,8 +17,8 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 58,
@@ -27,10 +27,10 @@
     "gusts_mph": 12,
     "rain_pct": 22
   },
-  "sunrise": "2026-08-25T06:35",
-  "sunset": "2026-08-25T19:50",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 18,
+    "aqi": 19,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -39,74 +39,9 @@
     "risk_level": "low",
     "nearest_fire_km": 157.2,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Gold Mountain",
-      "acres": 39718,
-      "containment_pct": 87,
-      "cause": "Undetermined",
-      "updated": "2026-08-24T23:05:13.997000+00:00",
-      "distance_km": 32.6,
-      "direction": "NNE",
-      "page": "/fires/gold-mountain-fire-co-2026"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-25",
-      "high_f": 58,
-      "low_f": 42,
-      "rain_pct": 27,
-      "uv": 6,
-      "sunrise": "2026-08-25T06:35",
-      "sunset": "2026-08-25T19:50",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 61,
-      "low_f": 44,
-      "rain_pct": 13,
-      "uv": 7,
-      "sunrise": "2026-08-26T06:36",
-      "sunset": "2026-08-26T19:49",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 65,
-      "low_f": 45,
-      "rain_pct": 54,
-      "uv": 7,
-      "sunrise": "2026-08-27T06:37",
-      "sunset": "2026-08-27T19:47",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 63,
-      "low_f": 41,
-      "rain_pct": 26,
-      "uv": 6,
-      "sunrise": "2026-08-28T06:38",
-      "sunset": "2026-08-28T19:46",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-29",
-      "high_f": 60,
-      "low_f": 41,
-      "rain_pct": 51,
-      "uv": 5,
-      "sunrise": "2026-08-29T06:38",
-      "sunset": "2026-08-29T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-25T21:01:09.371026+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-25T21:30:51.738752+00:00"
 }

@@ -17,9 +17,12 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 68,
     "feels_like_f": 72,
@@ -27,18 +30,18 @@
     "gusts_mph": 3,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-25T06:20",
-  "sunset": "2026-08-25T19:25",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 65,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "high",
+    "nearest_fire_km": 5.3,
+    "fire_count_50km": 16,
     "nearest_incident": {
       "name": "Lac-298352",
       "acres": 0.01,
@@ -50,62 +53,6 @@
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-25",
-      "high_f": 82,
-      "low_f": 68,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-08-25T06:20",
-      "sunset": "2026-08-25T19:25",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 80,
-      "low_f": 67,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:21",
-      "sunset": "2026-08-26T19:24",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 90,
-      "low_f": 76,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-27T06:22",
-      "sunset": "2026-08-27T19:23",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 94,
-      "low_f": 78,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-28T06:22",
-      "sunset": "2026-08-28T19:22",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-08-29",
-      "high_f": 90,
-      "low_f": 76,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-29T06:23",
-      "sunset": "2026-08-29T19:20",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-08-25T12:07:02.719703+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-25T12:37:57.284700+00:00"
 }

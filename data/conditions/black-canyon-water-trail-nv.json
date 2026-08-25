@@ -17,31 +17,89 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 44,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 86,
+    "temp_f": 85,
     "feels_like_f": 85,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-25T06:05",
+  "sunset": "2026-08-25T19:16",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 45.6,
+    "fire_count_50km": 7,
     "nearest_incident": null
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-25T12:03:29.621603+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-25",
+      "high_f": 112,
+      "low_f": 83,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-25T06:05",
+      "sunset": "2026-08-25T19:16",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 116,
+      "low_f": 86,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:06",
+      "sunset": "2026-08-26T19:14",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 113,
+      "low_f": 96,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-08-27T06:07",
+      "sunset": "2026-08-27T19:13",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-08-28",
+      "high_f": 111,
+      "low_f": 92,
+      "rain_pct": 5,
+      "uv": 7,
+      "sunrise": "2026-08-28T06:07",
+      "sunset": "2026-08-28T19:12",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    },
+    {
+      "date": "2026-08-29",
+      "high_f": 107,
+      "low_f": 89,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-08-29T06:08",
+      "sunset": "2026-08-29T19:10",
+      "predicted_score": 16,
+      "score_label": "Stay home"
+    }
+  ],
+  "updated_at": "2026-08-25T12:31:25.802176+00:00"
 }

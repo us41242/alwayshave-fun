@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 167.9,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -50,7 +50,11 @@
       "page": "/fires/cottonwood-fire-ut-2026"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 30,
+    "stage": "low",
+    "gauge_id": "09405500"
+  },
   "forecast": [
     {
       "date": "2026-08-25",
@@ -108,5 +112,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-25T12:01:37.606996+00:00"
+  "updated_at": "2026-08-25T12:28:53.107529+00:00"
 }

@@ -17,18 +17,20 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 38,
-    "wind_mph": 4,
-    "gusts_mph": 8,
+    "temp_f": 43,
+    "feels_like_f": 35,
+    "wind_mph": 8,
+    "gusts_mph": 12,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-25T06:35",
+  "sunset": "2026-08-25T19:50",
   "aqi": {
     "aqi": 14,
     "category": "Good",
@@ -37,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 174.7,
+    "nearest_fire_km": 174.8,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Gold Mountain",
@@ -51,6 +53,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-25T09:18:22.890204+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-25",
+      "high_f": 58,
+      "low_f": 42,
+      "rain_pct": 27,
+      "uv": 7,
+      "sunrise": "2026-08-25T06:35",
+      "sunset": "2026-08-25T19:50",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 62,
+      "low_f": 43,
+      "rain_pct": 47,
+      "uv": 7,
+      "sunrise": "2026-08-26T06:36",
+      "sunset": "2026-08-26T19:49",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 64,
+      "low_f": 41,
+      "rain_pct": 66,
+      "uv": 7,
+      "sunrise": "2026-08-27T06:37",
+      "sunset": "2026-08-27T19:47",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-28",
+      "high_f": 63,
+      "low_f": 42,
+      "rain_pct": 25,
+      "uv": 6,
+      "sunrise": "2026-08-28T06:38",
+      "sunset": "2026-08-28T19:46",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-29",
+      "high_f": 58,
+      "low_f": 41,
+      "rain_pct": 54,
+      "uv": 4,
+      "sunrise": "2026-08-29T06:38",
+      "sunset": "2026-08-29T19:44",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-08-25T10:08:43.148254+00:00"
 }

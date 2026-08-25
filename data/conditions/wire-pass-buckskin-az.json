@@ -17,8 +17,8 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 89,
@@ -27,85 +27,21 @@
     "gusts_mph": 7,
     "rain_pct": 1
   },
-  "sunrise": "2026-08-25T06:53",
-  "sunset": "2026-08-25T20:06",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 43,
+    "aqi": 34,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 209.8,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Swamp Ridge",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-24T20:17:44.240000+00:00",
-      "distance_km": 83.7,
-      "direction": "SSW"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-25",
-      "high_f": 92,
-      "low_f": 62,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-08-25T06:53",
-      "sunset": "2026-08-25T20:06",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 95,
-      "low_f": 69,
-      "rain_pct": 8,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:54",
-      "sunset": "2026-08-26T20:05",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 94,
-      "low_f": 73,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-08-27T06:54",
-      "sunset": "2026-08-27T20:03",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 94,
-      "low_f": 72,
-      "rain_pct": 7,
-      "uv": 7,
-      "sunrise": "2026-08-28T06:55",
-      "sunset": "2026-08-28T20:02",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-29",
-      "high_f": 88,
-      "low_f": 64,
-      "rain_pct": 21,
-      "uv": 7,
-      "sunrise": "2026-08-29T06:56",
-      "sunset": "2026-08-29T20:00",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-25T19:59:50.600277+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-25T20:30:20.827693+00:00"
 }

@@ -21,23 +21,23 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 92,
-    "feels_like_f": 95,
+    "temp_f": 94,
+    "feels_like_f": 96,
     "wind_mph": 1,
-    "gusts_mph": 3,
+    "gusts_mph": 4,
     "rain_pct": 1
   },
   "sunrise": "2026-08-25T05:55",
   "sunset": "2026-08-25T19:08",
   "aqi": {
-    "aqi": 41,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 171.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Swamp Ridge",
@@ -49,7 +49,11 @@
       "direction": "SSE"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 3,
+    "stage": null,
+    "gauge_id": "09403850"
+  },
   "forecast": [
     {
       "date": "2026-08-25",
@@ -107,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-25T19:07:35.185815+00:00"
+  "updated_at": "2026-08-25T19:55:07.494619+00:00"
 }

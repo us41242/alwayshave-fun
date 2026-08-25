@@ -24,15 +24,15 @@
   ],
   "current": {
     "temp_f": 106,
-    "feels_like_f": 107,
-    "wind_mph": 2,
-    "gusts_mph": 3,
+    "feels_like_f": 106,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "sunrise": "2026-08-25T06:04",
   "sunset": "2026-08-25T19:15",
   "aqi": {
-    "aqi": 39,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,7 +41,15 @@
     "risk_level": "elevated",
     "nearest_fire_km": 32.6,
     "fire_count_50km": 7,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Lower Spring",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-25T20:33:13.377000+00:00",
+      "distance_km": 97.0,
+      "direction": "ESE"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +109,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-25T21:52:26.710758+00:00"
+  "updated_at": "2026-08-25T22:16:16.181298+00:00"
 }

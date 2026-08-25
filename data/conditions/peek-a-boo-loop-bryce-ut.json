@@ -17,8 +17,8 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 77,
@@ -27,8 +27,8 @@
     "gusts_mph": 17,
     "rain_pct": 11
   },
-  "sunrise": "2026-08-25T06:53",
-  "sunset": "2026-08-25T20:07",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 44,
     "category": "Good",
@@ -39,65 +39,18 @@
     "risk_level": "low",
     "nearest_fire_km": 123.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-24T23:27:14.520000+00:00",
+      "distance_km": 80.4,
+      "direction": "NNW",
+      "page": "/fires/cottonwood-fire-ut-2026"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-25",
-      "high_f": 78,
-      "low_f": 54,
-      "rain_pct": 12,
-      "uv": 8,
-      "sunrise": "2026-08-25T06:53",
-      "sunset": "2026-08-25T20:07",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-26",
-      "high_f": 81,
-      "low_f": 60,
-      "rain_pct": 8,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:54",
-      "sunset": "2026-08-26T20:06",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 81,
-      "low_f": 62,
-      "rain_pct": 13,
-      "uv": 6,
-      "sunrise": "2026-08-27T06:55",
-      "sunset": "2026-08-27T20:05",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 80,
-      "low_f": 58,
-      "rain_pct": 10,
-      "uv": 8,
-      "sunrise": "2026-08-28T06:55",
-      "sunset": "2026-08-28T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-29",
-      "high_f": 74,
-      "low_f": 52,
-      "rain_pct": 13,
-      "uv": 5,
-      "sunrise": "2026-08-29T06:56",
-      "sunset": "2026-08-29T20:02",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-08-25T21:54:58.884408+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-25T22:20:32.808322+00:00"
 }

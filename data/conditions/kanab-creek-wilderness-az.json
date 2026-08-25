@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 96,
-    "feels_like_f": 92,
-    "wind_mph": 8,
-    "gusts_mph": 9,
+    "feels_like_f": 93,
+    "wind_mph": 5,
+    "gusts_mph": 6,
     "rain_pct": 1
   },
   "sunrise": "2026-08-25T05:55",
@@ -39,7 +39,15 @@
     "risk_level": "low",
     "nearest_fire_km": 123.4,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Bolt",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-25T22:10:23.903000+00:00",
+      "distance_km": 43.7,
+      "direction": "E"
+    }
   },
   "river": {
     "cfs": 3,
@@ -103,5 +111,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-25T21:51:08.267034+00:00"
+  "updated_at": "2026-08-25T22:16:12.849093+00:00"
 }

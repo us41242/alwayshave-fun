@@ -17,33 +17,99 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [
+    "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 81,
-    "wind_mph": 3,
+    "temp_f": 80,
+    "feels_like_f": 78,
+    "wind_mph": 5,
     "gusts_mph": 8,
-    "rain_pct": 32
+    "rain_pct": 41
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-25T06:22",
+  "sunset": "2026-08-25T19:40",
   "aqi": {
     "aqi": 67,
     "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
     "nearest_fire_km": 86.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Aspen Acres",
+      "acres": 102004,
+      "containment_pct": 77,
+      "cause": "Human",
+      "updated": "2026-08-24T22:22:55.450000+00:00",
+      "distance_km": 96.6,
+      "direction": "S",
+      "page": "/fires/aspen-acres-fire-co-2026"
+    }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-25T22:00:14.717899+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-25",
+      "high_f": 82,
+      "low_f": 58,
+      "rain_pct": 40,
+      "uv": 7,
+      "sunrise": "2026-08-25T06:22",
+      "sunset": "2026-08-25T19:40",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 85,
+      "low_f": 56,
+      "rain_pct": 43,
+      "uv": 7,
+      "sunrise": "2026-08-26T06:23",
+      "sunset": "2026-08-26T19:38",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 85,
+      "low_f": 56,
+      "rain_pct": 46,
+      "uv": 8,
+      "sunrise": "2026-08-27T06:24",
+      "sunset": "2026-08-27T19:37",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-28",
+      "high_f": 89,
+      "low_f": 66,
+      "rain_pct": 34,
+      "uv": 8,
+      "sunrise": "2026-08-28T06:25",
+      "sunset": "2026-08-28T19:35",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-29",
+      "high_f": 91,
+      "low_f": 67,
+      "rain_pct": 26,
+      "uv": 8,
+      "sunrise": "2026-08-29T06:26",
+      "sunset": "2026-08-29T19:34",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-25T22:24:19.499074+00:00"
 }

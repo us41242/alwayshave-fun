@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 49,
-    "wind_mph": 7,
+    "temp_f": 57,
+    "feels_like_f": 51,
+    "wind_mph": 6,
     "gusts_mph": 7,
-    "rain_pct": 14
+    "rain_pct": 17
   },
   "sunrise": "2026-08-25T06:30",
   "sunset": "2026-08-25T19:48",
   "aqi": {
-    "aqi": 48,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,16 @@
     "risk_level": "low",
     "nearest_fire_km": 152.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Willow",
+      "acres": 7534,
+      "containment_pct": 80,
+      "cause": "Human",
+      "updated": "2026-08-24T22:19:51.350000+00:00",
+      "distance_km": 48.0,
+      "direction": "ENE",
+      "page": "/fires/willow-fire-co-2026"
+    }
   },
   "river": null,
   "forecast": [
@@ -99,5 +108,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-25T21:58:18.381001+00:00"
+  "updated_at": "2026-08-25T22:23:43.196768+00:00"
 }

@@ -23,11 +23,11 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 89,
-    "feels_like_f": 85,
-    "wind_mph": 9,
-    "gusts_mph": 9,
-    "rain_pct": 4
+    "temp_f": 88,
+    "feels_like_f": 84,
+    "wind_mph": 10,
+    "gusts_mph": 10,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-25T06:57",
   "sunset": "2026-08-25T20:11",
@@ -41,7 +41,16 @@
     "risk_level": "elevated",
     "nearest_fire_km": 39.0,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-24T23:27:14.520000+00:00",
+      "distance_km": 98.3,
+      "direction": "NNE",
+      "page": "/fires/cottonwood-fire-ut-2026"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +110,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-25T21:57:41.571343+00:00"
+  "updated_at": "2026-08-25T22:23:41.416989+00:00"
 }

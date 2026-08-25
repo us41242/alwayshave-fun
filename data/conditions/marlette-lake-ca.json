@@ -24,9 +24,9 @@
   ],
   "current": {
     "temp_f": 73,
-    "feels_like_f": 67,
+    "feels_like_f": 68,
     "wind_mph": 9,
-    "gusts_mph": 19,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-08-25T06:22",
@@ -41,7 +41,16 @@
     "risk_level": "elevated",
     "nearest_fire_km": 21.0,
     "fire_count_50km": 4,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Hawk",
+      "acres": 15051,
+      "containment_pct": 27,
+      "cause": "Human",
+      "updated": "2026-08-25T21:26:47.490000+00:00",
+      "distance_km": 44.0,
+      "direction": "N",
+      "page": "/fires/hawk-fire-nv-2026"
+    }
   },
   "river": null,
   "forecast": [
@@ -101,5 +110,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-25T22:01:28.981346+00:00"
+  "updated_at": "2026-08-25T22:26:31.685513+00:00"
 }

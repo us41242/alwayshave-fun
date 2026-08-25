@@ -17,27 +17,27 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 93,
-    "feels_like_f": 89,
-    "wind_mph": 17,
-    "gusts_mph": 20,
-    "rain_pct": 22
+    "temp_f": 84,
+    "feels_like_f": 84,
+    "wind_mph": 6,
+    "gusts_mph": 10,
+    "rain_pct": 19
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-24T05:56",
+  "sunset": "2026-08-24T19:09",
   "aqi": {
-    "aqi": 49,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 99.3,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Swamp Ridge",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-24T23:48:16.421594+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-24",
+      "high_f": 97,
+      "low_f": 71,
+      "rain_pct": 33,
+      "uv": 8,
+      "sunrise": "2026-08-24T05:56",
+      "sunset": "2026-08-24T19:09",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-25",
+      "high_f": 105,
+      "low_f": 75,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-08-25T05:57",
+      "sunset": "2026-08-25T19:08",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-26",
+      "high_f": 104,
+      "low_f": 82,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-08-26T05:58",
+      "sunset": "2026-08-26T19:07",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 104,
+      "low_f": 84,
+      "rain_pct": 2,
+      "uv": 7,
+      "sunrise": "2026-08-27T05:58",
+      "sunset": "2026-08-27T19:05",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-28",
+      "high_f": 102,
+      "low_f": 81,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-08-28T05:59",
+      "sunset": "2026-08-28T19:04",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-25T00:42:12.859526+00:00"
 }

@@ -17,15 +17,17 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 56,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 93,
-    "feels_like_f": 86,
-    "wind_mph": 12,
-    "gusts_mph": 12,
-    "rain_pct": 4
+    "temp_f": 92,
+    "feels_like_f": 88,
+    "wind_mph": 4,
+    "gusts_mph": 5,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-25T05:54",
   "sunset": "2026-08-25T19:03",
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 38.6,
+    "fire_count_50km": 2,
     "nearest_incident": {
       "name": "Hart",
       "acres": 13,
@@ -63,8 +65,8 @@
       "uv": 8,
       "sunrise": "2026-08-25T05:54",
       "sunset": "2026-08-25T19:03",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-26",
@@ -74,42 +76,42 @@
       "uv": 8,
       "sunrise": "2026-08-26T05:55",
       "sunset": "2026-08-26T19:01",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-27",
-      "high_f": 95,
-      "low_f": 69,
+      "high_f": 93,
+      "low_f": 70,
       "rain_pct": 3,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-08-27T05:56",
       "sunset": "2026-08-27T19:00",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-28",
       "high_f": 93,
-      "low_f": 69,
+      "low_f": 70,
       "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-08-28T05:57",
       "sunset": "2026-08-28T18:59",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-29",
-      "high_f": 87,
+      "high_f": 88,
       "low_f": 63,
       "rain_pct": 40,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-29T05:57",
       "sunset": "2026-08-29T18:57",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-25T23:21:12.033774+00:00"
+  "updated_at": "2026-08-25T23:48:55.693617+00:00"
 }

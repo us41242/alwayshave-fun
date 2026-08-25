@@ -24,19 +24,19 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 98,
-    "feels_like_f": 92,
-    "wind_mph": 21,
-    "gusts_mph": 29,
-    "rain_pct": 6
+    "temp_f": 100,
+    "feels_like_f": 95,
+    "wind_mph": 14,
+    "gusts_mph": 25,
+    "rain_pct": 12
   },
   "sunrise": "2026-08-24T06:04",
   "sunset": "2026-08-24T19:17",
   "aqi": {
-    "aqi": 45,
+    "aqi": 47,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -60,7 +60,7 @@
     {
       "date": "2026-08-25",
       "high_f": 112,
-      "low_f": 84,
+      "low_f": 85,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-25T06:05",
@@ -83,7 +83,7 @@
       "date": "2026-08-27",
       "high_f": 115,
       "low_f": 94,
-      "rain_pct": 2,
+      "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-08-27T06:07",
       "sunset": "2026-08-27T19:13",
@@ -94,7 +94,7 @@
       "date": "2026-08-28",
       "high_f": 113,
       "low_f": 91,
-      "rain_pct": 8,
+      "rain_pct": 10,
       "uv": 7,
       "sunrise": "2026-08-28T06:07",
       "sunset": "2026-08-28T19:12",
@@ -102,5 +102,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-25T02:17:05.833240+00:00"
+  "updated_at": "2026-08-25T03:40:39.884883+00:00"
 }

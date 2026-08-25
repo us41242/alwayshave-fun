@@ -17,36 +17,38 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 77,
-    "wind_mph": 3,
-    "gusts_mph": 5,
-    "rain_pct": 9
+    "temp_f": 75,
+    "feels_like_f": 71,
+    "wind_mph": 4,
+    "gusts_mph": 8,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-24T05:54",
   "sunset": "2026-08-24T19:09",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 52,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 172.0,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Snap",
-      "acres": 0.1,
+      "name": "Jump Up",
+      "acres": 5,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-24T18:04:59.793000+00:00",
-      "distance_km": 59.2,
-      "direction": "E"
+      "updated": "2026-08-25T02:14:44.607000+00:00",
+      "distance_km": 34.5,
+      "direction": "S"
     }
   },
   "river": {
@@ -63,8 +65,8 @@
       "uv": 8,
       "sunrise": "2026-08-24T05:54",
       "sunset": "2026-08-24T19:09",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-25",
@@ -74,7 +76,7 @@
       "uv": 8,
       "sunrise": "2026-08-25T05:55",
       "sunset": "2026-08-25T19:08",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -85,31 +87,31 @@
       "uv": 8,
       "sunrise": "2026-08-26T05:56",
       "sunset": "2026-08-26T19:07",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-27",
       "high_f": 98,
       "low_f": 77,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-08-27T05:57",
       "sunset": "2026-08-27T19:05",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-28",
       "high_f": 96,
       "low_f": 73,
-      "rain_pct": 7,
+      "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-08-28T05:58",
       "sunset": "2026-08-28T19:04",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-25T02:12:36.565406+00:00"
+  "updated_at": "2026-08-25T03:27:06.980643+00:00"
 }

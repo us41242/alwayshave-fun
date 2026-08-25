@@ -25,15 +25,15 @@
   ],
   "current": {
     "temp_f": 53,
-    "feels_like_f": 41,
+    "feels_like_f": 40,
     "wind_mph": 20,
-    "gusts_mph": 27,
+    "gusts_mph": 26,
     "rain_pct": 0
   },
   "sunrise": "2026-08-25T06:23",
   "sunset": "2026-08-25T19:45",
   "aqi": {
-    "aqi": 41,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,7 +41,7 @@
   "fire": {
     "risk_level": "elevated",
     "nearest_fire_km": 37.2,
-    "fire_count_50km": 2,
+    "fire_count_50km": 3,
     "nearest_incident": {
       "name": "Ironclad",
       "acres": 1,
@@ -56,20 +56,20 @@
   "forecast": [
     {
       "date": "2026-08-25",
-      "high_f": 65,
+      "high_f": 66,
       "low_f": 52,
-      "rain_pct": 23,
+      "rain_pct": 33,
       "uv": 6,
       "sunrise": "2026-08-25T06:23",
       "sunset": "2026-08-25T19:45",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-26",
       "high_f": 67,
       "low_f": 49,
-      "rain_pct": 71,
+      "rain_pct": 61,
       "uv": 7,
       "sunrise": "2026-08-26T06:24",
       "sunset": "2026-08-26T19:43",
@@ -80,7 +80,7 @@
       "date": "2026-08-27",
       "high_f": 72,
       "low_f": 47,
-      "rain_pct": 56,
+      "rain_pct": 54,
       "uv": 7,
       "sunrise": "2026-08-27T06:25",
       "sunset": "2026-08-27T19:42",
@@ -91,7 +91,7 @@
       "date": "2026-08-28",
       "high_f": 69,
       "low_f": 48,
-      "rain_pct": 28,
+      "rain_pct": 26,
       "uv": 6,
       "sunrise": "2026-08-28T06:26",
       "sunset": "2026-08-28T19:40",
@@ -102,7 +102,7 @@
       "date": "2026-08-29",
       "high_f": 70,
       "low_f": 46,
-      "rain_pct": 31,
+      "rain_pct": 35,
       "uv": 7,
       "sunrise": "2026-08-29T06:27",
       "sunset": "2026-08-29T19:39",
@@ -110,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-25T08:14:52.614167+00:00"
+  "updated_at": "2026-08-25T09:16:36.845066+00:00"
 }

@@ -4,6 +4,50 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-24 — Session 44 (nightly + WEEKLY #7) — SITEMAP DECISION POINT: SOUTH KAIBAB FLIPPED TO INDEXED, HOMEPAGE RECRAWLED AFTER 63 DAYS — PARTIAL MOVEMENT, KEEP
+
+### Oriented
+- `git pull --rebase` clean (only pipeline data commits: 185 files, fires/oxley + fires/sombrero pages new). Pipeline healthy: 6 most recent `fetch_conditions` runs all `schedule`, all success, one in flight at the time of check.
+- GSC Search Analytics: **0 clicks / 0 impressions** at 7d (08-17→08-21) and 28d (07-27→08-21) — unchanged. Sitemap still `pending`.
+- Reddit: 0 unread, no new mod action beyond Session 42's removal. `p4k262g` now +7 (new account high); `1vrergg` (r/datasets) steady +3 / 0.81 / 0 comments. No genuinely data-hungry thread tonight — the Hawk Fire has escalated into an active evacuee/victim-support situation in r/reno (GSR response threads, pet-help lists, scam warnings), which is exactly the register Session 43 established as not ours to answer with data; r/Utah/r/arizona had nothing fire/smoke-shaped. **Skipped participation, per rule.**
+- Monday — both the sitemap decision point (set 2026-08-03) and weekly report #7 (last filed 08-17) are due tonight.
+
+### Decided (the decision point itself)
+Ran URL Inspection on the same baseline URLs plus a wider sample (10 total): homepage, `/az/south-kaibab-gc-az`, `/ut/the-narrows-zion-ut`, `/fires`, `/data`, `/az/`, `/ut/`, `/nv/black-canyon-water-trail-nv`, `/articles/petroglyph-canyon-gold-butte-nv`, `/az/wire-pass-buckskin-az`, `/ut/snow-canyon-rim-ut`, `/dog-friendly`, `/articles`.
+
+**Real movement, not a flat baseline:**
+- **Homepage recrawled 2026-08-22** — first recrawl since 2026-06-20 (63 days stuck).
+- **`/az/south-kaibab-gc-az` flipped from "Crawled — currently not indexed" (stuck since 2026-05-01) to "Submitted and indexed"** (crawl 2026-08-17), now also carrying a Breadcrumbs rich-result PASS. This is the exact page that got rejected as thin content before the 2026-07-10 body-rendering fix — it took over a month, but Google came back, recrawled it, and indexed it this time.
+- `/nv/black-canyon-water-trail-nv` and `/articles/petroglyph-canyon-gold-butte-nv` remain indexed (unchanged, first seen 08-01).
+
+**Still stalled:** `/ut/the-narrows-zion-ut`, `/fires`, `/data`, `/az/`, `/ut/`, `/az/wire-pass-buckskin-az`, `/ut/snow-canyon-rim-ut`, `/dog-friendly`, `/articles` — all still "URL is unknown to Google," 8 of 10 non-baseline samples. Search Analytics is still 0/0.
+
+**Verdict: KEEP, authority stays the primary lever.** The on-site fixes are not dead — they produced a genuine not-indexed→indexed transition once Google actually recrawled — but propagation from one recrawled homepage to the other 150+ URLs hasn't happened in the 5 weeks since the sitemap unfreeze. This isn't a coin flip between "freshness signalling" and "authority" anymore; it's confirmation that both are true at once: the content is fine when crawled, and crawl frequency/depth is still the bottleneck. Logged the full reasoning in `docs/STRATEGY.md` (situation assessment + sitemap experiment row, both updated). No code changed tonight — this was a measurement + documentation session, plus the weekly report.
+
+### Did
+- Weekly report #7 → `~/Documents/daily-in-box/ahf-weekly-2026-08-24.md`.
+- `docs/STRATEGY.md`: resolved the 08-24 decision-point row with the URL Inspection evidence; added a decision paragraph to the situation-assessment section.
+
+### Verified
+- All 10 sampled URLs' Coverage/Last Crawl pulled live via `gsc_inspect.py` against `sc-domain:alwayshave.fun` tonight (not recalled from memory).
+- Live site health (real UA + cache-buster): `/`, `/data`, `/fires`, `/sitemap.xml`, `/az/south-kaibab-gc-az` all 200; sitemap valid XML, 161 URLs.
+- Reddit: confirmed via authed API — 0 unread, `1vrergg` not removed/locked, `p4re1fy` (Session 41's removed comment) still shows in the account's own comment listing (that field is known-unreliable per Session 42 — no new conclusion drawn from it).
+
+### Learned
+- The homepage's ~monthly crawl cadence isn't fixed — it went 63 days this time (06-20 → 08-22) vs. the earlier 05-01 → 06-20 gap (~50 days). Cadence is lengthening, not shortening, which argues against "just wait longer" as a strategy on its own.
+- A page that gets rejected as thin and then fixed doesn't index on the next crawl of *itself* — South Kaibab's fix shipped 2026-07-10 but it didn't flip to indexed until the 08-17 crawl, over five weeks later. Content fixes and their payoff are separated by whatever the next crawl cadence happens to be; don't expect fast confirmation on future body-content changes either.
+
+### Expect
+- No near-term GSC click/impression movement — 2 indexed URLs is still a rounding error. Watch for the *next* homepage recrawl (would be unusually fast if before ~late September at the lengthening cadence) and whether it discovers any of the 46 static grid links this time.
+
+### Upcoming
+- Next indexation check + `/data` Dataset Search / Bing crawl review: 2026-09-07.
+- Weekly #8 due Monday 2026-08-31.
+- Await Josh on the GitHub-identity question (STRATEGY #7) before any dataset-list PRs.
+- Resume Reddit participation whenever a genuine data-hungry thread appears (not the Hawk Fire evacuee threads).
+
+---
+
 ## 2026-08-22 — Session 43 (nightly) — HAWK FIRE (RENO) DAY 1: FIXED "0% CONTAINED" SHOWN FOR UNREPORTED CONTAINMENT; NO COMMENT (NO DATA-HUNGRY THREAD)
 
 ### Oriented

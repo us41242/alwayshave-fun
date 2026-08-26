@@ -4,6 +4,35 @@ Running record of every decision made, why it was made, what was learned, and wh
 
 ---
 
+## 2026-08-25 — Session 45 (nightly) — RENO CONTAINMENT MIX-UP ANSWERED WITH OUR OWN PIPELINE DATA; NO INDEXATION MOVEMENT SINCE SESSION 44
+
+### Oriented
+- `git pull --rebase` clean (pipeline data only — new NV/UT fire pages appeared: California Creek, Forleen, Juniper Ridge, McConnell, S-1, Tom Creek). 8 most recent `fetch_conditions` runs all `schedule`, all success (10–18 min each).
+- GSC: **0 clicks / 0 impressions** at 7d (08-18→08-22) — unchanged. Sitemap still `pending`.
+- URL Inspection re-check on the Session 44 sample: homepage still last-crawled 2026-08-22 (no new recrawl), `/az/south-kaibab-gc-az` still "Submitted and indexed" (08-17 crawl, Breadcrumbs PASS), `/ut/the-narrows-zion-ut`, `/fires`, `/data` all still "URL is unknown to Google." No change since Monday's decision point — expected; next check stays 2026-09-07 per Session 44.
+- Reddit: 0 unread, no new mod action, all prior comments (`p4re1fy`, `p4k262g`, etc.) still live.
+
+### Did — participation
+- Swept r/Utah, r/arizona, r/Nevada, r/reno, r/ColoradoHiking (API 500'd, skipped), r/CaliforniaHiking, r/hiking for fire/smoke/AQI/closure-shaped threads. Found one: **r/reno `1vyig0r`** ("85% Containment Let's GOOOOOO," celebratory Hawk Fire update thread) contained a genuine factual mix-up — commenter `doiwantacookie` asked whether 85% was wrong because a firefighter briefing earlier today quoted "20 something percent."
+- Our own `data/fires/archive.json` confirms the jump is real, not an error: Hawk Fire containment history reads 08-24 `0%` → 08-25 `85%` — exactly the kind of day-over-day snapshot NIFC doesn't publish itself but our 30-min archive keeps. Replied (`p5xzui9`, live, +1) with 3 plain sentences confirming NIFC's 85% is current and explaining the briefing was likely stale by a few hours — no bullet lists, no headers, no site mention, matching Session 42's register rule for a casual/celebratory thread (this was a single factual aside within it, not a data-hungry thread in its own right, so kept it short rather than doing full data-table treatment).
+
+### Verified
+- Comment live via authed API (`p5xzui9`, r/Reno, score 1, not removed) ~5s after posting.
+- Live site health (real UA + cache-buster): `/`, `/fires/hawk-fire-nv-2026`, `/sitemap.xml` all 200; Hawk Fire page still renders containment text correctly.
+
+### Learned
+- The day-by-day archive (`data/fires/archive.json`) isn't just for the `/fires/{incident}` pages — it's also useful ammunition for answering "is this number wrong?" questions in real time on other platforms, since NIFC only ever publishes the current snapshot.
+
+### Expect
+- No GSC movement before 2026-09-07 (unchanged from Session 44). Watch `p5xzui9` for replies/votes as a register-match sanity check post-removal.
+
+### Upcoming
+- Weekly #8 due Monday 2026-08-31.
+- Next indexation check + `/data` Dataset Search review: 2026-09-07 (unchanged).
+- Await Josh on the GitHub-identity question (STRATEGY #7) before any dataset-list PRs.
+
+---
+
 ## 2026-08-24 — Session 44 (nightly + WEEKLY #7) — SITEMAP DECISION POINT: SOUTH KAIBAB FLIPPED TO INDEXED, HOMEPAGE RECRAWLED AFTER 63 DAYS — PARTIAL MOVEMENT, KEEP
 
 ### Oriented

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T00:39:02.015600+00:00",
+  "updated_at": "2026-08-26T02:19:02.975835+00:00",
   "source": "NIFC/WFIGS Incident Locations (current)",
-  "count": 199,
+  "count": 193,
   "incidents": [
     {
       "name": "Widemouth 2",
@@ -130,10 +130,22 @@
       "cause": "Human",
       "lat": 40.93952307667495,
       "lng": -111.6421447094141,
-      "updated": "2026-08-24T22:33:05.713000+00:00",
+      "updated": "2026-08-26T02:02:53.600000+00:00",
       "state": "UT",
-      "personnel": 46,
+      "personnel": 16,
       "discovered": "2026-08-07T21:40:04+00:00"
+    },
+    {
+      "name": "Timber",
+      "acres": 16368,
+      "containment_pct": 27,
+      "cause": "Undetermined",
+      "lat": 36.215898858987735,
+      "lng": -121.71752094030687,
+      "updated": "2026-08-26T00:41:22.387000+00:00",
+      "state": "CA",
+      "personnel": 1788,
+      "discovered": "2026-08-09T03:35:00+00:00"
     },
     {
       "name": "Frijoles",
@@ -154,7 +166,7 @@
       "cause": "Human",
       "lat": 39.542505281163,
       "lng": -119.95234604853395,
-      "updated": "2026-08-25T23:45:49.020000+00:00",
+      "updated": "2026-08-26T01:37:28.277000+00:00",
       "state": "NV",
       "personnel": 586,
       "discovered": "2026-08-22T18:23:15+00:00"
@@ -184,27 +196,15 @@
       "discovered": "2026-07-25T15:22:00+00:00"
     },
     {
-      "name": "Timber",
-      "acres": 12915,
-      "containment_pct": 26,
-      "cause": "Undetermined",
-      "lat": 36.215898858987735,
-      "lng": -121.71752094030687,
-      "updated": "2026-08-25T01:12:53.617000+00:00",
-      "state": "CA",
-      "personnel": 1417,
-      "discovered": "2026-08-09T03:35:00+00:00"
-    },
-    {
       "name": "Sombrero",
       "acres": 11000,
-      "containment_pct": 0,
+      "containment_pct": 20,
       "cause": "Undetermined",
       "lat": 41.13595557581669,
       "lng": -118.0477799492635,
-      "updated": "2026-08-25T22:45:48.120000+00:00",
+      "updated": "2026-08-26T01:20:59.863000+00:00",
       "state": "NV",
-      "personnel": 14,
+      "personnel": 18,
       "discovered": "2026-08-24T23:03:00+00:00"
     },
     {
@@ -280,6 +280,18 @@
       "discovered": "2026-07-09T15:46:12+00:00"
     },
     {
+      "name": "S-1",
+      "acres": 5700,
+      "containment_pct": 0,
+      "cause": "Undetermined",
+      "lat": 41.63033845826474,
+      "lng": -119.91601334034966,
+      "updated": "2026-08-26T02:11:30.130000+00:00",
+      "state": "NV",
+      "personnel": 168,
+      "discovered": "2026-08-24T20:59:47+00:00"
+    },
+    {
       "name": "Post",
       "acres": 4343,
       "containment_pct": 90,
@@ -318,13 +330,13 @@
     {
       "name": "California  Creek",
       "acres": 3500,
-      "containment_pct": null,
+      "containment_pct": 10,
       "cause": "Undetermined",
       "lat": 41.82602581674543,
       "lng": -115.93762267340394,
-      "updated": "2026-08-25T15:18:58.983000+00:00",
+      "updated": "2026-08-26T00:48:19.370000+00:00",
       "state": "NV",
-      "personnel": null,
+      "personnel": 35,
       "discovered": "2026-08-25T01:37:02+00:00"
     },
     {
@@ -378,13 +390,13 @@
     {
       "name": "Juniper Ridge",
       "acres": 1200,
-      "containment_pct": null,
+      "containment_pct": 10,
       "cause": "Undetermined",
       "lat": 40.93842259533716,
       "lng": -117.60044584232226,
-      "updated": "2026-08-25T21:03:42.397000+00:00",
+      "updated": "2026-08-26T01:16:40.833000+00:00",
       "state": "NV",
-      "personnel": null,
+      "personnel": 31,
       "discovered": "2026-08-25T01:31:00+00:00"
     },
     {
@@ -400,16 +412,16 @@
       "discovered": "2026-08-07T21:43:06+00:00"
     },
     {
-      "name": "Rayado Mesa",
-      "acres": 934,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "lat": 36.325805934492514,
-      "lng": -104.85030972670462,
-      "updated": "2026-08-12T01:48:26.483000+00:00",
-      "state": "NM",
-      "personnel": 58,
-      "discovered": "2026-07-27T19:01:34+00:00"
+      "name": "McConnell",
+      "acres": 1100,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 41.517572635388056,
+      "lng": -117.74216295247405,
+      "updated": "2026-08-26T01:30:32.333000+00:00",
+      "state": "NV",
+      "personnel": null,
+      "discovered": "2026-08-25T22:29:12+00:00"
     },
     {
       "name": "Buzzard",
@@ -434,18 +446,6 @@
       "state": "NM",
       "personnel": 32,
       "discovered": "2026-08-23T20:22:00+00:00"
-    },
-    {
-      "name": "S-1",
-      "acres": 700,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 41.63033845826474,
-      "lng": -119.91601334034966,
-      "updated": "2026-08-25T11:13:45.070000+00:00",
-      "state": "NV",
-      "personnel": null,
-      "discovered": "2026-08-24T20:59:47+00:00"
     },
     {
       "name": "Loomis",
@@ -484,18 +484,6 @@
       "discovered": "2026-08-06T18:42:05+00:00"
     },
     {
-      "name": "Bull Run",
-      "acres": 600,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 41.65172277696042,
-      "lng": -116.2147956981821,
-      "updated": "2026-08-25T21:01:06.667000+00:00",
-      "state": "NV",
-      "personnel": null,
-      "discovered": "2026-08-25T08:56:20+00:00"
-    },
-    {
       "name": "Salt Wells",
       "acres": 585,
       "containment_pct": 100,
@@ -508,15 +496,27 @@
       "discovered": "2026-08-21T11:40:13+00:00"
     },
     {
+      "name": "Bull Run",
+      "acres": 455.5,
+      "containment_pct": 50,
+      "cause": "Natural",
+      "lat": 41.65172277696042,
+      "lng": -116.2147956981821,
+      "updated": "2026-08-26T01:59:24.557000+00:00",
+      "state": "NV",
+      "personnel": 11,
+      "discovered": "2026-08-25T08:56:20+00:00"
+    },
+    {
       "name": "Master",
       "acres": 446,
-      "containment_pct": 75,
+      "containment_pct": 95,
       "cause": "Undetermined",
       "lat": 41.10625580860672,
       "lng": -115.20261243040875,
-      "updated": "2026-08-25T12:21:45.100000+00:00",
+      "updated": "2026-08-26T00:59:52.803000+00:00",
       "state": "NV",
-      "personnel": 30,
+      "personnel": 6,
       "discovered": "2026-08-24T00:16:29+00:00"
     },
     {
@@ -556,13 +556,25 @@
       "discovered": "2026-08-19T00:07:38+00:00"
     },
     {
+      "name": "Paddy Creek",
+      "acres": 260,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 33.62070926750606,
+      "lng": -109.64949654504362,
+      "updated": "2026-08-26T02:07:58.627000+00:00",
+      "state": "AZ",
+      "personnel": null,
+      "discovered": "2026-08-17T19:51:49+00:00"
+    },
+    {
       "name": "4-1",
       "acres": 230,
       "containment_pct": 15,
       "cause": "Undetermined",
       "lat": 41.68917241509516,
       "lng": -120.46568043948146,
-      "updated": "2026-08-26T00:18:08.270000+00:00",
+      "updated": "2026-08-26T01:24:51.247000+00:00",
       "state": "CA",
       "personnel": 133,
       "discovered": "2026-08-24T22:22:29+00:00"
@@ -570,13 +582,13 @@
     {
       "name": "S-3",
       "acres": 219,
-      "containment_pct": null,
+      "containment_pct": 30,
       "cause": "Undetermined",
       "lat": 41.652005489739004,
       "lng": -119.57301328673988,
-      "updated": "2026-08-26T00:26:27.247000+00:00",
+      "updated": "2026-08-26T00:47:52.343000+00:00",
       "state": "NV",
-      "personnel": null,
+      "personnel": 50,
       "discovered": "2026-08-24T22:15:15+00:00"
     },
     {
@@ -638,18 +650,6 @@
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-24T02:30:00+00:00"
-    },
-    {
-      "name": "Paddy Creek",
-      "acres": 141,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 33.62070926750606,
-      "lng": -109.64949654504362,
-      "updated": "2026-08-25T19:32:27.540000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-17T19:51:49+00:00"
     },
     {
       "name": "Sunset",
@@ -814,10 +814,34 @@
       "cause": "Undetermined",
       "lat": 36.97017294262066,
       "lng": -106.30034311245221,
-      "updated": "2026-08-26T00:14:07.730000+00:00",
+      "updated": "2026-08-26T01:19:00.287000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-25T20:06:48+00:00"
+    },
+    {
+      "name": "Cedar",
+      "acres": 34.8,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 40.14010553129712,
+      "lng": -117.48044570974133,
+      "updated": "2026-08-26T01:40:19.303000+00:00",
+      "state": "NV",
+      "personnel": null,
+      "discovered": "2026-08-25T01:28:10+00:00"
+    },
+    {
+      "name": "Montosa",
+      "acres": 30,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 35.40814580063441,
+      "lng": -104.73186962078512,
+      "updated": "2026-08-26T01:09:29.853000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-24T18:00:00+00:00"
     },
     {
       "name": "Alper",
@@ -838,19 +862,19 @@
       "cause": "Natural",
       "lat": 34.67875459534039,
       "lng": -106.43189494148653,
-      "updated": "2026-08-25T21:30:02.670000+00:00",
+      "updated": "2026-08-26T00:58:05.903000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-21T19:50:02+00:00"
     },
     {
       "name": "Blanco",
-      "acres": 17,
+      "acres": 21.4,
       "containment_pct": null,
       "cause": "Undetermined",
       "lat": 34.787388614208425,
       "lng": -106.38867694062945,
-      "updated": "2026-08-25T17:25:37.177000+00:00",
+      "updated": "2026-08-26T00:43:33.903000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-24T21:40:29+00:00"
@@ -1000,25 +1024,13 @@
       "discovered": "2026-08-23T22:15:00+00:00"
     },
     {
-      "name": "Pinyon",
-      "acres": 3,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.36792814679624,
-      "lng": -108.1672727775975,
-      "updated": "2026-08-25T22:36:35.087000+00:00",
-      "state": "CO",
-      "personnel": null,
-      "discovered": "2026-08-25T20:36:16+00:00"
-    },
-    {
-      "name": "LOC Porcupine Canyon",
+      "name": "Porcupine",
       "acres": 3,
       "containment_pct": null,
       "cause": "Undetermined",
       "lat": 34.040288386832486,
       "lng": -108.54159334588327,
-      "updated": "2026-08-26T00:07:22.370000+00:00",
+      "updated": "2026-08-26T00:51:35.717000+00:00",
       "state": "NM",
       "personnel": null,
       "discovered": "2026-08-25T21:55:05+00:00"
@@ -1046,18 +1058,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-25T21:06:23+00:00"
-    },
-    {
-      "name": "Montecito",
-      "acres": 2.07,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 40.17538514140473,
-      "lng": -122.32042250708658,
-      "updated": "2026-08-26T00:25:04.467000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-25T23:16:23+00:00"
     },
     {
       "name": "Portales Springs",
@@ -1096,30 +1096,6 @@
       "discovered": "2026-08-24T01:25:21+00:00"
     },
     {
-      "name": "Beaver River",
-      "acres": 1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 38.21107867171668,
-      "lng": -112.88468861810235,
-      "updated": "2026-08-26T00:18:00.187000+00:00",
-      "state": "UT",
-      "personnel": null,
-      "discovered": "2026-08-25T22:23:26+00:00"
-    },
-    {
-      "name": "Cab",
-      "acres": 0.75,
-      "containment_pct": null,
-      "cause": "Human",
-      "lat": 34.28263827242815,
-      "lng": -111.299760930192,
-      "updated": "2026-08-25T23:35:01.657000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-25T21:37:44+00:00"
-    },
-    {
       "name": "Black Ridge 3",
       "acres": 0.5,
       "containment_pct": null,
@@ -1130,18 +1106,6 @@
       "state": "CO",
       "personnel": null,
       "discovered": "2026-08-24T23:52:58+00:00"
-    },
-    {
-      "name": "Macho 2",
-      "acres": 0.5,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 35.69717278857714,
-      "lng": -105.73167687034194,
-      "updated": "2026-08-25T23:18:23.523000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-25T21:50:21+00:00"
     },
     {
       "name": "Bonito",
@@ -1210,7 +1174,7 @@
       "cause": "Natural",
       "lat": 40.438339066274544,
       "lng": -111.04134451911436,
-      "updated": "2026-08-26T00:09:13.977000+00:00",
+      "updated": "2026-08-26T00:56:46.173000+00:00",
       "state": "UT",
       "personnel": null,
       "discovered": "2026-08-25T19:19:27+00:00"
@@ -1226,18 +1190,6 @@
       "state": "UT",
       "personnel": null,
       "discovered": "2026-08-23T03:00:00+00:00"
-    },
-    {
-      "name": "Dollar",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.414525166769664,
-      "lng": -111.02676080920557,
-      "updated": "2026-08-23T00:12:51.977000+00:00",
-      "state": "AZ",
-      "personnel": null,
-      "discovered": "2026-08-22T23:12:47+00:00"
     },
     {
       "name": "Lower Spring",
@@ -1262,18 +1214,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-24T22:44:56+00:00"
-    },
-    {
-      "name": "Vista",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 36.333372835649314,
-      "lng": -106.54187710649906,
-      "updated": "2026-08-23T01:48:29.467000+00:00",
-      "state": "NM",
-      "personnel": null,
-      "discovered": "2026-08-22T20:18:23+00:00"
     },
     {
       "name": "Needles",
@@ -1312,18 +1252,6 @@
       "discovered": "2026-08-23T13:35:35+00:00"
     },
     {
-      "name": "Porter 2",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 41.68133878517648,
-      "lng": -116.15031269078717,
-      "updated": "2026-08-25T22:36:22.683000+00:00",
-      "state": "NV",
-      "personnel": null,
-      "discovered": "2026-08-25T17:06:32+00:00"
-    },
-    {
       "name": "Penrod Mtn",
       "acres": 0.1,
       "containment_pct": null,
@@ -1334,6 +1262,18 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-20T16:00:43+00:00"
+    },
+    {
+      "name": "Navajo",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 38.266466189265024,
+      "lng": -105.33887002591317,
+      "updated": "2026-08-26T01:30:10.130000+00:00",
+      "state": "CO",
+      "personnel": null,
+      "discovered": "2026-08-25T22:57:24+00:00"
     },
     {
       "name": "Bitter",
@@ -1348,18 +1288,6 @@
       "discovered": "2026-08-23T22:05:14+00:00"
     },
     {
-      "name": "Ford Hollow",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "lat": 38.204965674606726,
-      "lng": -112.83315160734396,
-      "updated": "2026-08-26T00:17:21.173000+00:00",
-      "state": "UT",
-      "personnel": null,
-      "discovered": "2026-08-25T22:58:50+00:00"
-    },
-    {
       "name": "Rose",
       "acres": 0.1,
       "containment_pct": null,
@@ -1370,6 +1298,18 @@
       "state": "AZ",
       "personnel": null,
       "discovered": "2026-08-22T22:31:35+00:00"
+    },
+    {
+      "name": "Macho 2",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 35.696705788400244,
+      "lng": -105.73354287071874,
+      "updated": "2026-08-26T00:55:06.530000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-25T21:50:21+00:00"
     },
     {
       "name": "Stinking Spring",
@@ -1468,18 +1408,6 @@
       "discovered": "2026-08-18T21:58:14+00:00"
     },
     {
-      "name": "Cedar",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 40.14010553129712,
-      "lng": -117.48044570974133,
-      "updated": "2026-08-25T04:40:45.377000+00:00",
-      "state": "NV",
-      "personnel": null,
-      "discovered": "2026-08-25T01:28:10+00:00"
-    },
-    {
       "name": "Indian Creek",
       "acres": 0.1,
       "containment_pct": null,
@@ -1504,6 +1432,18 @@
       "discovered": "2026-07-29T17:46:55+00:00"
     },
     {
+      "name": "Encerrito",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.9369665535908,
+      "lng": -107.89482527959825,
+      "updated": "2026-08-25T00:13:09.310000+00:00",
+      "state": "NM",
+      "personnel": null,
+      "discovered": "2026-08-24T14:59:03+00:00"
+    },
+    {
       "name": "Archer",
       "acres": 0.1,
       "containment_pct": null,
@@ -1516,16 +1456,16 @@
       "discovered": "2026-08-23T00:59:33+00:00"
     },
     {
-      "name": "Encerrito",
+      "name": "Rapid Creek 2",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.9369665535908,
-      "lng": -107.89482527959825,
-      "updated": "2026-08-25T00:13:09.310000+00:00",
-      "state": "NM",
+      "cause": "Human",
+      "lat": 39.13428910567181,
+      "lng": -108.3223107840036,
+      "updated": "2026-08-26T00:37:57.203000+00:00",
+      "state": "CO",
       "personnel": null,
-      "discovered": "2026-08-24T14:59:03+00:00"
+      "discovered": "2026-08-11T14:20:59+00:00"
     },
     {
       "name": "Taylor Canyon",
@@ -1552,13 +1492,25 @@
       "discovered": "2026-08-24T05:10:00+00:00"
     },
     {
+      "name": "Big Park",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "lat": 39.75760611763117,
+      "lng": -109.26062805961931,
+      "updated": "2026-08-26T01:35:30.187000+00:00",
+      "state": "UT",
+      "personnel": null,
+      "discovered": "2026-08-25T22:37:48+00:00"
+    },
+    {
       "name": "Merritt Creek",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
+      "cause": "Natural",
       "lat": 41.90400583088486,
       "lng": -115.85734567038496,
-      "updated": "2026-08-25T20:36:05.473000+00:00",
+      "updated": "2026-08-26T01:51:19.280000+00:00",
       "state": "NV",
       "personnel": null,
       "discovered": "2026-08-24T23:26:52+00:00"
@@ -1708,16 +1660,16 @@
       "discovered": "2026-08-23T20:06:32+00:00"
     },
     {
-      "name": "Lac-299374",
+      "name": "Lac-302976",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.82458483162175,
-      "lng": -118.22846216625352,
-      "updated": "2026-08-23T02:51:15.937000+00:00",
+      "lat": 33.929584836806754,
+      "lng": -118.34391219402642,
+      "updated": "2026-08-25T18:15:30.597000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-23T02:50:47+00:00"
+      "discovered": "2026-08-25T18:15:01+00:00"
     },
     {
       "name": "Golden",
@@ -1732,16 +1684,16 @@
       "discovered": "2026-08-25T14:39:39+00:00"
     },
     {
-      "name": "Lac-302976",
+      "name": "Lac-299374",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.929584836806754,
-      "lng": -118.34391219402642,
-      "updated": "2026-08-25T18:15:30.597000+00:00",
+      "lat": 33.82458483162175,
+      "lng": -118.22846216625352,
+      "updated": "2026-08-23T02:51:15.937000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-25T18:15:01+00:00"
+      "discovered": "2026-08-23T02:50:47+00:00"
     },
     {
       "name": "Lac-301056",
@@ -1766,42 +1718,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-24T03:34:48+00:00"
-    },
-    {
-      "name": "Archer",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.43534489226851,
-      "lng": -118.34387223586143,
-      "updated": "2026-08-23T00:59:51.080000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-23T00:57:13+00:00"
-    },
-    {
-      "name": "Lac-300290",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 34.106324872187194,
-      "lng": -118.06374216135627,
-      "updated": "2026-08-23T20:35:12.973000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-23T20:34:51+00:00"
-    },
-    {
-      "name": "Lac-301909",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.88915484240877,
-      "lng": -118.16386216058044,
-      "updated": "2026-08-24T21:57:41.827000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-24T21:57:00+00:00"
     },
     {
       "name": "Lac-302415",
@@ -1850,6 +1766,30 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-24T03:46:27+00:00"
+    },
+    {
+      "name": "Lac-301909",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.88915484240877,
+      "lng": -118.16386216058044,
+      "updated": "2026-08-24T21:57:41.827000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-24T21:57:00+00:00"
+    },
+    {
+      "name": "Lac-300290",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 34.106324872187194,
+      "lng": -118.06374216135627,
+      "updated": "2026-08-23T20:35:12.973000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-23T20:34:51+00:00"
     },
     {
       "name": "Ava",
@@ -1912,13 +1852,13 @@
       "discovered": "2026-08-24T22:02:54+00:00"
     },
     {
-      "name": "Cronese",
+      "name": "Mtz/Bdc/86A",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 35.10026808922953,
-      "lng": -116.27209193626592,
-      "updated": "2026-08-26T00:31:18.460000+00:00",
+      "lat": 35.099905088874195,
+      "lng": -116.27731193715998,
+      "updated": "2026-08-26T01:52:01.183000+00:00",
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-26T00:05:39+00:00"
@@ -2092,6 +2032,18 @@
       "discovered": "2026-08-23T06:04:17+00:00"
     },
     {
+      "name": "Lac-303541",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.93084484621299,
+      "lng": -118.17871216643361,
+      "updated": "2026-08-26T01:42:58.510000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-26T01:42:42+00:00"
+    },
+    {
       "name": "Lac-299867",
       "acres": 0.01,
       "containment_pct": null,
@@ -2200,18 +2152,6 @@
       "discovered": "2026-08-23T14:02:00+00:00"
     },
     {
-      "name": "Lac-299236",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 33.931014837823845,
-      "lng": -118.32860219158067,
-      "updated": "2026-08-23T01:04:34.830000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-23T01:04:03+00:00"
-    },
-    {
       "name": "Lac-300511",
       "acres": 0.01,
       "containment_pct": null,
@@ -2224,28 +2164,16 @@
       "discovered": "2026-08-23T22:57:43+00:00"
     },
     {
-      "name": "Lac-302304",
+      "name": "Kuehner",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "lat": 33.96815485097435,
-      "lng": -118.16771216760112,
-      "updated": "2026-08-25T03:03:57.723000+00:00",
+      "lat": 34.28077585708409,
+      "lng": -118.66200527587941,
+      "updated": "2026-08-26T00:50:00.177000+00:00",
       "state": "CA",
       "personnel": null,
-      "discovered": "2026-08-25T03:03:44+00:00"
-    },
-    {
-      "name": "York",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Undetermined",
-      "lat": 39.51658817429741,
-      "lng": -121.27479525629214,
-      "updated": "2026-08-26T00:16:55.937000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-26T00:11:52+00:00"
+      "discovered": "2026-08-26T00:43:40+00:00"
     },
     {
       "name": "Jasper",
@@ -2258,6 +2186,18 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-23T21:27:26+00:00"
+    },
+    {
+      "name": "Lac-302304",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "lat": 33.96815485097435,
+      "lng": -118.16771216760112,
+      "updated": "2026-08-25T03:03:57.723000+00:00",
+      "state": "CA",
+      "personnel": null,
+      "discovered": "2026-08-25T03:03:44+00:00"
     },
     {
       "name": "Mtz/Rru/Wood",
@@ -2366,18 +2306,6 @@
       "state": "CA",
       "personnel": null,
       "discovered": "2026-08-25T16:15:00+00:00"
-    },
-    {
-      "name": "Junction",
-      "acres": null,
-      "containment_pct": null,
-      "cause": null,
-      "lat": 35.42833825926082,
-      "lng": -118.98001242982487,
-      "updated": "2026-08-23T00:38:30.490000+00:00",
-      "state": "CA",
-      "personnel": null,
-      "discovered": "2026-08-23T00:28:00+00:00"
     },
     {
       "name": "Sister",

@@ -21,16 +21,16 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 81,
+    "temp_f": 78,
+    "feels_like_f": 73,
     "wind_mph": 4,
-    "gusts_mph": 5,
-    "rain_pct": 1
+    "gusts_mph": 4,
+    "rain_pct": 2
   },
   "sunrise": "2026-08-25T06:56",
   "sunset": "2026-08-25T20:10",
   "aqi": {
-    "aqi": 50,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -40,17 +40,18 @@
     "nearest_fire_km": 64.6,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Ford Hollow",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-26T00:17:21.173000+00:00",
-      "distance_km": 86.7,
-      "direction": "N"
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-25T23:06:06.430000+00:00",
+      "distance_km": 98.8,
+      "direction": "NNE",
+      "page": "/fires/cottonwood-fire-ut-2026"
     }
   },
   "river": {
-    "cfs": 30,
+    "cfs": 31,
     "stage": "low",
     "gauge_id": "09405500"
   },
@@ -69,7 +70,7 @@
     {
       "date": "2026-08-26",
       "high_f": 90,
-      "low_f": 69,
+      "low_f": 68,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-26T06:57",
@@ -79,7 +80,7 @@
     },
     {
       "date": "2026-08-27",
-      "high_f": 87,
+      "high_f": 88,
       "low_f": 68,
       "rain_pct": 2,
       "uv": 7,
@@ -111,5 +112,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-26T00:43:36.630696+00:00"
+  "updated_at": "2026-08-26T02:21:20.828994+00:00"
 }

@@ -17,18 +17,18 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 22,
-  "score_label": "Stay home",
+  "score": 62,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 69,
+    "temp_f": 70,
     "feels_like_f": 64,
-    "wind_mph": 3,
+    "wind_mph": 2,
     "gusts_mph": 5,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-26T06:03",
+  "sunset": "2026-08-26T19:12",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -50,6 +50,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-26T07:40:26.533402+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-26",
+      "high_f": 84,
+      "low_f": 67,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-08-26T06:03",
+      "sunset": "2026-08-26T19:12",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-27",
+      "high_f": 83,
+      "low_f": 68,
+      "rain_pct": 2,
+      "uv": 7,
+      "sunrise": "2026-08-27T06:03",
+      "sunset": "2026-08-27T19:11",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-28",
+      "high_f": 84,
+      "low_f": 69,
+      "rain_pct": 15,
+      "uv": 7,
+      "sunrise": "2026-08-28T06:04",
+      "sunset": "2026-08-28T19:10",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-29",
+      "high_f": 81,
+      "low_f": 66,
+      "rain_pct": 16,
+      "uv": 8,
+      "sunrise": "2026-08-29T06:05",
+      "sunset": "2026-08-29T19:08",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-30",
+      "high_f": 79,
+      "low_f": 63,
+      "rain_pct": 14,
+      "uv": 8,
+      "sunrise": "2026-08-30T06:06",
+      "sunset": "2026-08-30T19:07",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-08-26T08:34:46.214776+00:00"
 }

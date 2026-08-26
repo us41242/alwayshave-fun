@@ -17,20 +17,20 @@
   "notes": "Chain section requires permit \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 92,
-  "score_label": "Great day to go",
+  "score": 80,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 66,
-    "wind_mph": 13,
-    "gusts_mph": 14,
+    "temp_f": 79,
+    "feels_like_f": 72,
+    "wind_mph": 12,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-08-26T06:57",
   "sunset": "2026-08-26T20:09",
   "aqi": {
-    "aqi": 32,
+    "aqi": 33,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,13 +39,21 @@
     "risk_level": "moderate",
     "nearest_fire_km": 71.0,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Marshall",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-26T13:48:52.997000+00:00",
+      "distance_km": 95.2,
+      "direction": "NE"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-26",
-      "high_f": 97,
+      "high_f": 96,
       "low_f": 73,
       "rain_pct": 4,
       "uv": 8,
@@ -57,7 +65,7 @@
     {
       "date": "2026-08-27",
       "high_f": 96,
-      "low_f": 72,
+      "low_f": 75,
       "rain_pct": 5,
       "uv": 7,
       "sunrise": "2026-08-27T06:58",
@@ -99,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-26T13:33:58.235744+00:00"
+  "updated_at": "2026-08-26T14:35:05.137728+00:00"
 }

@@ -17,28 +17,30 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 70,
-    "feels_like_f": 64,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "feels_like_f": 63,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-08-26T06:59",
   "sunset": "2026-08-26T20:11",
   "aqi": {
-    "aqi": 32,
+    "aqi": 35,
     "category": "Good",
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 32.6,
+    "fire_count_50km": 1,
     "nearest_incident": null
   },
   "river": null,
@@ -51,8 +53,8 @@
       "uv": 8,
       "sunrise": "2026-08-26T06:59",
       "sunset": "2026-08-26T20:11",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-27",
@@ -62,8 +64,8 @@
       "uv": 8,
       "sunrise": "2026-08-27T07:00",
       "sunset": "2026-08-27T20:10",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-28",
@@ -73,8 +75,8 @@
       "uv": 6,
       "sunrise": "2026-08-28T07:01",
       "sunset": "2026-08-28T20:08",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-29",
@@ -84,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-08-29T07:02",
       "sunset": "2026-08-29T20:07",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-30",
@@ -95,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-08-30T07:03",
       "sunset": "2026-08-30T20:05",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-26T06:46:17.162307+00:00"
+  "updated_at": "2026-08-26T07:46:39.126295+00:00"
 }

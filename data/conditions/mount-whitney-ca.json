@@ -24,22 +24,22 @@
   ],
   "current": {
     "temp_f": 34,
-    "feels_like_f": 27,
-    "wind_mph": 4,
-    "gusts_mph": 7,
+    "feels_like_f": 26,
+    "wind_mph": 5,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-25T06:19",
-  "sunset": "2026-08-25T19:31",
+  "sunrise": "2026-08-26T06:20",
+  "sunset": "2026-08-26T19:29",
   "aqi": {
-    "aqi": 19,
+    "aqi": 18,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 123.0,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Arrow Creek",
@@ -53,17 +53,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-08-25",
-      "high_f": 49,
-      "low_f": 31,
-      "rain_pct": 3,
-      "uv": 7,
-      "sunrise": "2026-08-25T06:19",
-      "sunset": "2026-08-25T19:31",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
     {
       "date": "2026-08-26",
       "high_f": 51,
@@ -107,7 +96,18 @@
       "sunset": "2026-08-29T19:25",
       "predicted_score": 88,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-30",
+      "high_f": 48,
+      "low_f": 28,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-08-30T06:23",
+      "sunset": "2026-08-30T19:24",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-26T06:46:22.929487+00:00"
+  "updated_at": "2026-08-26T07:48:00.716655+00:00"
 }

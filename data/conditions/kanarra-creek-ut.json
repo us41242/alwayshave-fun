@@ -17,23 +17,23 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 68,
-    "wind_mph": 1,
-    "gusts_mph": 3,
+    "temp_f": 82,
+    "feels_like_f": 76,
+    "wind_mph": 12,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-08-26T06:58",
   "sunset": "2026-08-26T20:10",
   "aqi": {
-    "aqi": 57,
+    "aqi": 55,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -43,13 +43,14 @@
     "nearest_fire_km": 39.0,
     "fire_count_50km": 1,
     "nearest_incident": {
-      "name": "Marshall",
-      "acres": 0.1,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-26T13:48:52.997000+00:00",
-      "distance_km": 88.4,
-      "direction": "NE"
+      "name": "Cottonwood",
+      "acres": 97464,
+      "containment_pct": 95,
+      "cause": "Undetermined",
+      "updated": "2026-08-25T23:06:06.430000+00:00",
+      "distance_km": 98.3,
+      "direction": "NNE",
+      "page": "/fires/cottonwood-fire-ut-2026"
     }
   },
   "river": null,
@@ -58,7 +59,7 @@
       "date": "2026-08-26",
       "high_f": 91,
       "low_f": 68,
-      "rain_pct": 3,
+      "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-26T06:58",
       "sunset": "2026-08-26T20:10",
@@ -68,7 +69,7 @@
     {
       "date": "2026-08-27",
       "high_f": 92,
-      "low_f": 69,
+      "low_f": 70,
       "rain_pct": 7,
       "uv": 7,
       "sunrise": "2026-08-27T06:59",
@@ -80,7 +81,7 @@
       "date": "2026-08-28",
       "high_f": 88,
       "low_f": 67,
-      "rain_pct": 6,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-08-28T06:59",
       "sunset": "2026-08-28T20:07",
@@ -91,7 +92,7 @@
       "date": "2026-08-29",
       "high_f": 85,
       "low_f": 63,
-      "rain_pct": 36,
+      "rain_pct": 34,
       "uv": 8,
       "sunrise": "2026-08-29T07:00",
       "sunset": "2026-08-29T20:06",
@@ -110,5 +111,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-26T14:43:08.053464+00:00"
+  "updated_at": "2026-08-26T16:19:21.192685+00:00"
 }

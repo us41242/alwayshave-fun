@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 92,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 69,
@@ -27,17 +27,17 @@
     "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-26T06:57",
-  "sunset": "2026-08-26T20:09",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 36,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 64.6,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Cottonwood",
@@ -51,66 +51,10 @@
     }
   },
   "river": {
-    "cfs": 32,
+    "cfs": 30,
     "stage": "low",
     "gauge_id": "09405500"
   },
-  "forecast": [
-    {
-      "date": "2026-08-26",
-      "high_f": 90,
-      "low_f": 68,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:57",
-      "sunset": "2026-08-26T20:09",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-27",
-      "high_f": 89,
-      "low_f": 68,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-08-27T06:58",
-      "sunset": "2026-08-27T20:07",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-28",
-      "high_f": 83,
-      "low_f": 66,
-      "rain_pct": 13,
-      "uv": 7,
-      "sunrise": "2026-08-28T06:59",
-      "sunset": "2026-08-28T20:06",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-29",
-      "high_f": 82,
-      "low_f": 63,
-      "rain_pct": 32,
-      "uv": 7,
-      "sunrise": "2026-08-29T07:00",
-      "sunset": "2026-08-29T20:05",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-30",
-      "high_f": 76,
-      "low_f": 58,
-      "rain_pct": 39,
-      "uv": 8,
-      "sunrise": "2026-08-30T07:00",
-      "sunset": "2026-08-30T20:03",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-08-26T08:35:28.013325+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-26T09:18:56.614043+00:00"
 }

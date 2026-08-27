@@ -23,55 +23,44 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 46,
-    "wind_mph": 4,
-    "gusts_mph": 4,
-    "rain_pct": 1
+    "temp_f": 66,
+    "feels_like_f": 61,
+    "wind_mph": 10,
+    "gusts_mph": 13,
+    "rain_pct": 0
   },
-  "sunrise": "2026-08-26T06:24",
-  "sunset": "2026-08-26T19:43",
+  "sunrise": "2026-08-27T06:25",
+  "sunset": "2026-08-27T19:42",
   "aqi": {
-    "aqi": 45,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
-    "nearest_fire_km": 37.3,
-    "fire_count_50km": 2,
+    "nearest_fire_km": 37.4,
+    "fire_count_50km": 1,
     "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-26",
-      "high_f": 67,
-      "low_f": 50,
-      "rain_pct": 20,
-      "uv": 8,
-      "sunrise": "2026-08-26T06:24",
-      "sunset": "2026-08-26T19:43",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
       "date": "2026-08-27",
-      "high_f": 68,
-      "low_f": 50,
-      "rain_pct": 11,
+      "high_f": 69,
+      "low_f": 51,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-08-27T06:25",
       "sunset": "2026-08-27T19:42",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 86,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-28",
-      "high_f": 69,
-      "low_f": 51,
-      "rain_pct": 24,
+      "high_f": 68,
+      "low_f": 54,
+      "rain_pct": 14,
       "uv": 7,
       "sunrise": "2026-08-28T06:26",
       "sunset": "2026-08-28T19:40",
@@ -81,8 +70,8 @@
     {
       "date": "2026-08-29",
       "high_f": 69,
-      "low_f": 48,
-      "rain_pct": 46,
+      "low_f": 49,
+      "rain_pct": 41,
       "uv": 6,
       "sunrise": "2026-08-29T06:27",
       "sunset": "2026-08-29T19:39",
@@ -91,15 +80,26 @@
     },
     {
       "date": "2026-08-30",
-      "high_f": 59,
-      "low_f": 47,
-      "rain_pct": 46,
-      "uv": 4,
+      "high_f": 60,
+      "low_f": 45,
+      "rain_pct": 49,
+      "uv": 6,
       "sunrise": "2026-08-30T06:28",
       "sunset": "2026-08-30T19:37",
       "predicted_score": 56,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-08-31",
+      "high_f": 62,
+      "low_f": 46,
+      "rain_pct": 55,
+      "uv": 5,
+      "sunrise": "2026-08-31T06:29",
+      "sunset": "2026-08-31T19:36",
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-27T05:50:56.504417+00:00"
+  "updated_at": "2026-08-27T17:15:32.193225+00:00"
 }

@@ -17,100 +17,99 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 62,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
     "temp_f": 88,
-    "feels_like_f": 88,
-    "wind_mph": 4,
-    "gusts_mph": 9,
+    "feels_like_f": 80,
+    "wind_mph": 10,
+    "gusts_mph": 11,
     "rain_pct": 2
   },
   "sunrise": "2026-08-26T06:57",
   "sunset": "2026-08-26T20:09",
   "aqi": {
-    "aqi": 44,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 64.6,
+    "risk_level": "low",
+    "nearest_fire_km": 167.8,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Cottonwood",
-      "acres": 97464,
-      "containment_pct": 95,
-      "cause": "Undetermined",
-      "updated": "2026-08-25T23:06:06.430000+00:00",
-      "distance_km": 98.8,
-      "direction": "NNE",
-      "page": "/fires/cottonwood-fire-ut-2026"
+      "name": "Stoddard",
+      "acres": 0.1,
+      "containment_pct": null,
+      "cause": "Natural",
+      "updated": "2026-08-26T23:00:05.730000+00:00",
+      "distance_km": 41.8,
+      "direction": "WNW"
     }
   },
   "river": {
-    "cfs": 30,
+    "cfs": 29,
     "stage": "low",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-26",
-      "high_f": 90,
+      "high_f": 89,
       "low_f": 66,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-26T06:57",
       "sunset": "2026-08-26T20:09",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-27",
       "high_f": 90,
-      "low_f": 67,
+      "low_f": 68,
       "rain_pct": 4,
       "uv": 7,
       "sunrise": "2026-08-27T06:58",
       "sunset": "2026-08-27T20:07",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-28",
       "high_f": 83,
-      "low_f": 61,
+      "low_f": 62,
       "rain_pct": 12,
       "uv": 7,
       "sunrise": "2026-08-28T06:59",
       "sunset": "2026-08-28T20:06",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-29",
-      "high_f": 80,
+      "high_f": 82,
       "low_f": 62,
-      "rain_pct": 43,
-      "uv": 7,
+      "rain_pct": 39,
+      "uv": 8,
       "sunrise": "2026-08-29T07:00",
       "sunset": "2026-08-29T20:05",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-30",
-      "high_f": 78,
-      "low_f": 59,
-      "rain_pct": 51,
+      "high_f": 80,
+      "low_f": 60,
+      "rain_pct": 47,
       "uv": 7,
       "sunrise": "2026-08-30T07:00",
       "sunset": "2026-08-30T20:03",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-26T20:24:13.451690+00:00"
+  "updated_at": "2026-08-26T23:55:59.201914+00:00"
 }

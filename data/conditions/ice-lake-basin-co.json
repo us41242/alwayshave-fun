@@ -21,18 +21,18 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 47,
-    "wind_mph": 2,
-    "gusts_mph": 9,
-    "rain_pct": 22
+    "temp_f": 56,
+    "feels_like_f": 48,
+    "wind_mph": 11,
+    "gusts_mph": 18,
+    "rain_pct": 10
   },
   "sunrise": "2026-08-26T06:36",
   "sunset": "2026-08-26T19:49",
   "aqi": {
-    "aqi": 18,
+    "aqi": 19,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
@@ -41,10 +41,10 @@
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Gold Mountain",
-      "acres": 39718,
+      "acres": 39721,
       "containment_pct": 87,
       "cause": "Undetermined",
-      "updated": "2026-08-25T22:29:28.987000+00:00",
+      "updated": "2026-08-26T23:21:08.913000+00:00",
       "distance_km": 32.6,
       "direction": "NNE",
       "page": "/fires/gold-mountain-fire-co-2026"
@@ -54,9 +54,9 @@
   "forecast": [
     {
       "date": "2026-08-26",
-      "high_f": 58,
+      "high_f": 57,
       "low_f": 42,
-      "rain_pct": 22,
+      "rain_pct": 26,
       "uv": 6,
       "sunrise": "2026-08-26T06:36",
       "sunset": "2026-08-26T19:49",
@@ -66,7 +66,7 @@
     {
       "date": "2026-08-27",
       "high_f": 59,
-      "low_f": 44,
+      "low_f": 43,
       "rain_pct": 15,
       "uv": 7,
       "sunrise": "2026-08-27T06:37",
@@ -78,18 +78,18 @@
       "date": "2026-08-28",
       "high_f": 65,
       "low_f": 44,
-      "rain_pct": 29,
+      "rain_pct": 35,
       "uv": 6,
       "sunrise": "2026-08-28T06:38",
       "sunset": "2026-08-28T19:46",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-29",
-      "high_f": 58,
-      "low_f": 39,
-      "rain_pct": 73,
+      "high_f": 56,
+      "low_f": 41,
+      "rain_pct": 68,
       "uv": 6,
       "sunrise": "2026-08-29T06:38",
       "sunset": "2026-08-29T19:44",
@@ -98,8 +98,8 @@
     },
     {
       "date": "2026-08-30",
-      "high_f": 49,
-      "low_f": 37,
+      "high_f": 48,
+      "low_f": 40,
       "rain_pct": 79,
       "uv": 4,
       "sunrise": "2026-08-30T06:39",
@@ -108,5 +108,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-26T20:29:35.869115+00:00"
+  "updated_at": "2026-08-27T00:01:38.151185+00:00"
 }

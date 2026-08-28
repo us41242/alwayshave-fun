@@ -17,95 +17,97 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 92,
+  "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 66,
-    "wind_mph": 9,
-    "gusts_mph": 11,
-    "rain_pct": 2
+    "temp_f": 81,
+    "feels_like_f": 75,
+    "wind_mph": 14,
+    "gusts_mph": 21,
+    "rain_pct": 8
   },
   "sunrise": "2026-08-28T06:59",
   "sunset": "2026-08-28T20:07",
   "aqi": {
-    "aqi": 42,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 77.5,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Teddy Valley",
-      "acres": 500,
-      "containment_pct": 0,
+      "name": "Chloride",
+      "acres": 1,
+      "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-28T02:24:25.697000+00:00",
-      "distance_km": 77.9,
-      "direction": "NNE"
+      "updated": "2026-08-28T17:19:15.010000+00:00",
+      "distance_km": 32.4,
+      "direction": "NW"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-28",
-      "high_f": 87,
-      "low_f": 71,
-      "rain_pct": 22,
-      "uv": 6,
+      "high_f": 86,
+      "low_f": 72,
+      "rain_pct": 30,
+      "uv": 5,
       "sunrise": "2026-08-28T06:59",
       "sunset": "2026-08-28T20:07",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-29",
-      "high_f": 85,
-      "low_f": 65,
-      "rain_pct": 18,
-      "uv": 8,
+      "high_f": 86,
+      "low_f": 66,
+      "rain_pct": 21,
+      "uv": 7,
       "sunrise": "2026-08-29T07:00",
       "sunset": "2026-08-29T20:06",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-08-30",
-      "high_f": 83,
-      "low_f": 62,
-      "rain_pct": 24,
+      "high_f": 81,
+      "low_f": 60,
+      "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-08-30T07:01",
       "sunset": "2026-08-30T20:04",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-31",
-      "high_f": 76,
+      "high_f": 80,
       "low_f": 57,
-      "rain_pct": 41,
+      "rain_pct": 34,
       "uv": 8,
       "sunrise": "2026-08-31T07:02",
       "sunset": "2026-08-31T20:03",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-01",
-      "high_f": 78,
-      "low_f": 56,
-      "rain_pct": 18,
+      "high_f": 80,
+      "low_f": 57,
+      "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-09-01T07:03",
       "sunset": "2026-09-01T20:01",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-28T13:40:42.426898+00:00"
+  "updated_at": "2026-08-28T23:26:52.205593+00:00"
 }

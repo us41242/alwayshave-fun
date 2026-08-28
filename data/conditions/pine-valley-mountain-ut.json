@@ -17,35 +17,37 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 62,
-    "wind_mph": 6,
-    "gusts_mph": 13,
-    "rain_pct": 2
+    "temp_f": 81,
+    "feels_like_f": 75,
+    "wind_mph": 14,
+    "gusts_mph": 23,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-28T07:01",
   "sunset": "2026-08-28T20:08",
   "aqi": {
-    "aqi": 30,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 106.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Miller Meadow",
-      "acres": 0.1,
+      "name": "Chloride",
+      "acres": 1,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-27T15:04:40.113000+00:00",
-      "distance_km": 92.2,
+      "updated": "2026-08-28T17:19:15.010000+00:00",
+      "distance_km": 38.5,
       "direction": "N"
     }
   },
@@ -53,9 +55,9 @@
   "forecast": [
     {
       "date": "2026-08-28",
-      "high_f": 84,
+      "high_f": 81,
       "low_f": 68,
-      "rain_pct": 17,
+      "rain_pct": 24,
       "uv": 6,
       "sunrise": "2026-08-28T07:01",
       "sunset": "2026-08-28T20:08",
@@ -64,20 +66,20 @@
     },
     {
       "date": "2026-08-29",
-      "high_f": 81,
-      "low_f": 59,
-      "rain_pct": 41,
+      "high_f": 82,
+      "low_f": 62,
+      "rain_pct": 21,
       "uv": 7,
       "sunrise": "2026-08-29T07:02",
       "sunset": "2026-08-29T20:07",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-30",
-      "high_f": 79,
-      "low_f": 62,
-      "rain_pct": 41,
+      "high_f": 77,
+      "low_f": 58,
+      "rain_pct": 34,
       "uv": 8,
       "sunrise": "2026-08-30T07:03",
       "sunset": "2026-08-30T20:05",
@@ -86,19 +88,19 @@
     },
     {
       "date": "2026-08-31",
-      "high_f": 74,
+      "high_f": 75,
       "low_f": 56,
-      "rain_pct": 38,
+      "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-08-31T07:04",
       "sunset": "2026-08-31T20:04",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-09-01",
       "high_f": 75,
-      "low_f": 54,
+      "low_f": 56,
       "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-09-01T07:04",
@@ -107,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-28T13:40:41.599476+00:00"
+  "updated_at": "2026-08-28T23:26:15.987539+00:00"
 }

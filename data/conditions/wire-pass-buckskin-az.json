@@ -19,43 +19,45 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 82,
-    "wind_mph": 4,
-    "gusts_mph": 7,
-    "rain_pct": 1
+    "temp_f": 83,
+    "feels_like_f": 76,
+    "wind_mph": 20,
+    "gusts_mph": 31,
+    "rain_pct": 6
   },
   "sunrise": "2026-08-27T06:54",
   "sunset": "2026-08-27T20:03",
   "aqi": {
-    "aqi": 37,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 140.0,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Thomson Ridge",
-      "acres": 0.25,
+      "name": "Willis Creek",
+      "acres": 0.5,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-27T14:45:07.107000+00:00",
-      "distance_km": 49.0,
-      "direction": "NW"
+      "updated": "2026-08-27T19:52:29.687000+00:00",
+      "distance_km": 51.3,
+      "direction": "NNW"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-27",
-      "high_f": 94,
+      "high_f": 95,
       "low_f": 67,
-      "rain_pct": 9,
+      "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-08-27T06:54",
       "sunset": "2026-08-27T20:03",
@@ -64,10 +66,10 @@
     },
     {
       "date": "2026-08-28",
-      "high_f": 91,
-      "low_f": 68,
-      "rain_pct": 21,
-      "uv": 7,
+      "high_f": 88,
+      "low_f": 69,
+      "rain_pct": 11,
+      "uv": 5,
       "sunrise": "2026-08-28T06:55",
       "sunset": "2026-08-28T20:02",
       "predicted_score": 70,
@@ -75,9 +77,9 @@
     },
     {
       "date": "2026-08-29",
-      "high_f": 91,
+      "high_f": 92,
       "low_f": 64,
-      "rain_pct": 52,
+      "rain_pct": 47,
       "uv": 6,
       "sunrise": "2026-08-29T06:56",
       "sunset": "2026-08-29T20:00",
@@ -87,9 +89,9 @@
     {
       "date": "2026-08-30",
       "high_f": 87,
-      "low_f": 60,
-      "rain_pct": 40,
-      "uv": 8,
+      "low_f": 62,
+      "rain_pct": 46,
+      "uv": 7,
       "sunrise": "2026-08-30T06:57",
       "sunset": "2026-08-30T19:59",
       "predicted_score": 70,
@@ -98,14 +100,14 @@
     {
       "date": "2026-08-31",
       "high_f": 81,
-      "low_f": 64,
-      "rain_pct": 56,
+      "low_f": 62,
+      "rain_pct": 66,
       "uv": 7,
       "sunrise": "2026-08-31T06:58",
       "sunset": "2026-08-31T19:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-27T17:09:10.151748+00:00"
+  "updated_at": "2026-08-28T01:38:17.059250+00:00"
 }

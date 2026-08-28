@@ -21,30 +21,30 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 108,
-    "feels_like_f": 106,
-    "wind_mph": 6,
-    "gusts_mph": 7,
-    "rain_pct": 0
+    "temp_f": 110,
+    "feels_like_f": 103,
+    "wind_mph": 9,
+    "gusts_mph": 16,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-27T06:07",
   "sunset": "2026-08-27T19:13",
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 209.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Salt",
       "acres": 102,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-27T16:08:29.973000+00:00",
+      "updated": "2026-08-27T22:35:45.517000+00:00",
       "distance_km": 93.8,
       "direction": "ENE"
     }
@@ -53,10 +53,10 @@
   "forecast": [
     {
       "date": "2026-08-27",
-      "high_f": 115,
+      "high_f": 114,
       "low_f": 92,
-      "rain_pct": 3,
-      "uv": 6,
+      "rain_pct": 1,
+      "uv": 7,
       "sunrise": "2026-08-27T06:07",
       "sunset": "2026-08-27T19:13",
       "predicted_score": 60,
@@ -64,10 +64,10 @@
     },
     {
       "date": "2026-08-28",
-      "high_f": 113,
-      "low_f": 90,
+      "high_f": 110,
+      "low_f": 89,
       "rain_pct": 8,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-28T06:07",
       "sunset": "2026-08-28T19:12",
       "predicted_score": 60,
@@ -75,9 +75,9 @@
     },
     {
       "date": "2026-08-29",
-      "high_f": 109,
-      "low_f": 89,
-      "rain_pct": 10,
+      "high_f": 108,
+      "low_f": 83,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-08-29T06:08",
       "sunset": "2026-08-29T19:10",
@@ -86,9 +86,9 @@
     },
     {
       "date": "2026-08-30",
-      "high_f": 106,
-      "low_f": 86,
-      "rain_pct": 2,
+      "high_f": 105,
+      "low_f": 85,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-30T06:09",
       "sunset": "2026-08-30T19:09",
@@ -98,8 +98,8 @@
     {
       "date": "2026-08-31",
       "high_f": 103,
-      "low_f": 82,
-      "rain_pct": 4,
+      "low_f": 83,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-08-31T06:10",
       "sunset": "2026-08-31T19:08",
@@ -107,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-27T17:12:17.403615+00:00"
+  "updated_at": "2026-08-28T01:40:41.617146+00:00"
 }

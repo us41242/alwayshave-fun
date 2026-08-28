@@ -17,95 +17,98 @@
   "notes": "Wilderness day permit required Jun 15\u2013Sep 30 (Recreation.gov); steep scramble on lower section; dogs allowed on leash",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 92,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 64,
-    "wind_mph": 12,
-    "gusts_mph": 19,
-    "rain_pct": 0
+    "temp_f": 62,
+    "feels_like_f": 54,
+    "wind_mph": 10,
+    "gusts_mph": 21,
+    "rain_pct": 2
   },
   "sunrise": "2026-08-27T06:25",
   "sunset": "2026-08-27T19:38",
   "aqi": {
-    "aqi": 12,
+    "aqi": 9,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 72.7,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Woods",
-      "acres": 65.2,
-      "containment_pct": 100,
-      "cause": "Natural",
-      "updated": "2026-08-20T00:37:36.230000+00:00",
-      "distance_km": 65.5,
-      "direction": "SSE"
+      "name": "Hawk",
+      "acres": 15085,
+      "containment_pct": 95,
+      "cause": "Human",
+      "updated": "2026-08-28T00:21:26.827000+00:00",
+      "distance_km": 66.6,
+      "direction": "NNE",
+      "page": "/fires/hawk-fire-nv-2026"
     }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-27",
-      "high_f": 72,
+      "high_f": 73,
       "low_f": 57,
-      "rain_pct": 6,
-      "uv": 6,
+      "rain_pct": 2,
+      "uv": 7,
       "sunrise": "2026-08-27T06:25",
       "sunset": "2026-08-27T19:38",
-      "predicted_score": 92,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-28",
-      "high_f": 65,
-      "low_f": 53,
-      "rain_pct": 48,
+      "high_f": 59,
+      "low_f": 52,
+      "rain_pct": 45,
       "uv": 1,
       "sunrise": "2026-08-28T06:26",
       "sunset": "2026-08-28T19:36",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-29",
       "high_f": 64,
       "low_f": 44,
-      "rain_pct": 6,
+      "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-08-29T06:27",
       "sunset": "2026-08-29T19:35",
-      "predicted_score": 92,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-30",
       "high_f": 65,
       "low_f": 44,
-      "rain_pct": 4,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-08-30T06:27",
       "sunset": "2026-08-30T19:34",
-      "predicted_score": 92,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-08-31",
-      "high_f": 65,
-      "low_f": 43,
-      "rain_pct": 0,
+      "high_f": 66,
+      "low_f": 44,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-31T06:28",
       "sunset": "2026-08-31T19:32",
-      "predicted_score": 92,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-27T17:18:37.077586+00:00"
+  "updated_at": "2026-08-28T01:45:20.620312+00:00"
 }

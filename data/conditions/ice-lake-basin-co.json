@@ -17,36 +17,34 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 86,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 53,
-    "wind_mph": 7,
-    "gusts_mph": 11,
-    "rain_pct": 1
+    "temp_f": 52,
+    "feels_like_f": 46,
+    "wind_mph": 4,
+    "gusts_mph": 12,
+    "rain_pct": 6
   },
   "sunrise": "2026-08-27T06:37",
   "sunset": "2026-08-27T19:47",
   "aqi": {
-    "aqi": 19,
+    "aqi": 18,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 47.7,
-    "fire_count_50km": 6,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Gold Mountain",
-      "acres": 39721,
+      "acres": 39734,
       "containment_pct": 87,
       "cause": "Undetermined",
-      "updated": "2026-08-26T23:21:08.913000+00:00",
+      "updated": "2026-08-27T22:54:24.643000+00:00",
       "distance_km": 32.6,
       "direction": "NNE",
       "page": "/fires/gold-mountain-fire-co-2026"
@@ -56,59 +54,59 @@
   "forecast": [
     {
       "date": "2026-08-27",
-      "high_f": 57,
+      "high_f": 58,
       "low_f": 42,
-      "rain_pct": 26,
+      "rain_pct": 32,
       "uv": 6,
       "sunrise": "2026-08-27T06:37",
       "sunset": "2026-08-27T19:47",
-      "predicted_score": 74,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
       "date": "2026-08-28",
-      "high_f": 60,
-      "low_f": 43,
-      "rain_pct": 14,
-      "uv": 6,
+      "high_f": 61,
+      "low_f": 44,
+      "rain_pct": 19,
+      "uv": 5,
       "sunrise": "2026-08-28T06:38",
       "sunset": "2026-08-28T19:46",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-29",
-      "high_f": 58,
+      "high_f": 56,
       "low_f": 40,
-      "rain_pct": 61,
-      "uv": 6,
+      "rain_pct": 56,
+      "uv": 5,
       "sunrise": "2026-08-29T06:38",
       "sunset": "2026-08-29T19:44",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-30",
-      "high_f": 49,
-      "low_f": 40,
-      "rain_pct": 62,
+      "high_f": 50,
+      "low_f": 38,
+      "rain_pct": 67,
       "uv": 6,
       "sunrise": "2026-08-30T06:39",
       "sunset": "2026-08-30T19:43",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-31",
-      "high_f": 49,
-      "low_f": 39,
-      "rain_pct": 64,
-      "uv": 5,
+      "high_f": 50,
+      "low_f": 36,
+      "rain_pct": 68,
+      "uv": 4,
       "sunrise": "2026-08-31T06:40",
       "sunset": "2026-08-31T19:41",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-27T17:15:33.264328+00:00"
+  "updated_at": "2026-08-28T01:43:21.470166+00:00"
 }

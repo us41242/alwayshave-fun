@@ -19,34 +19,32 @@
   "vehicle_req": "4WD",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 77,
-    "feels_like_f": 70,
-    "wind_mph": 14,
-    "gusts_mph": 21,
-    "rain_pct": 0
+    "feels_like_f": 68,
+    "wind_mph": 12,
+    "gusts_mph": 17,
+    "rain_pct": 1
   },
   "sunrise": "2026-08-27T06:03",
   "sunset": "2026-08-27T19:11",
   "aqi": {
-    "aqi": 26,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 207.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Salt",
       "acres": 102,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-27T16:08:29.973000+00:00",
+      "updated": "2026-08-27T22:35:45.517000+00:00",
       "distance_km": 61.7,
       "direction": "SSE"
     }
@@ -55,10 +53,10 @@
   "forecast": [
     {
       "date": "2026-08-27",
-      "high_f": 84,
+      "high_f": 85,
       "low_f": 66,
       "rain_pct": 4,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-08-27T06:03",
       "sunset": "2026-08-27T19:11",
       "predicted_score": 88,
@@ -67,8 +65,8 @@
     {
       "date": "2026-08-28",
       "high_f": 81,
-      "low_f": 65,
-      "rain_pct": 10,
+      "low_f": 62,
+      "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-08-28T06:04",
       "sunset": "2026-08-28T19:10",
@@ -78,8 +76,8 @@
     {
       "date": "2026-08-29",
       "high_f": 81,
-      "low_f": 64,
-      "rain_pct": 30,
+      "low_f": 59,
+      "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-08-29T06:05",
       "sunset": "2026-08-29T19:08",
@@ -90,7 +88,7 @@
       "date": "2026-08-30",
       "high_f": 78,
       "low_f": 63,
-      "rain_pct": 9,
+      "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-08-30T06:06",
       "sunset": "2026-08-30T19:07",
@@ -100,7 +98,7 @@
     {
       "date": "2026-08-31",
       "high_f": 77,
-      "low_f": 62,
+      "low_f": 63,
       "rain_pct": 19,
       "uv": 8,
       "sunrise": "2026-08-31T06:07",
@@ -109,5 +107,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-27T17:05:59.633615+00:00"
+  "updated_at": "2026-08-28T01:38:10.950811+00:00"
 }

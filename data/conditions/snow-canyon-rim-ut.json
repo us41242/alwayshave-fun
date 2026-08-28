@@ -17,27 +17,29 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 90,
-    "wind_mph": 11,
-    "gusts_mph": 15,
-    "rain_pct": 13
+    "temp_f": 93,
+    "feels_like_f": 86,
+    "wind_mph": 15,
+    "gusts_mph": 21,
+    "rain_pct": 3
   },
   "sunrise": "2026-08-27T07:01",
   "sunset": "2026-08-27T20:10",
   "aqi": {
-    "aqi": 35,
+    "aqi": 45,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 132.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
@@ -45,7 +47,7 @@
   "forecast": [
     {
       "date": "2026-08-27",
-      "high_f": 104,
+      "high_f": 103,
       "low_f": 81,
       "rain_pct": 18,
       "uv": 7,
@@ -56,9 +58,9 @@
     },
     {
       "date": "2026-08-28",
-      "high_f": 100,
-      "low_f": 80,
-      "rain_pct": 10,
+      "high_f": 101,
+      "low_f": 73,
+      "rain_pct": 11,
       "uv": 7,
       "sunrise": "2026-08-28T07:02",
       "sunset": "2026-08-28T20:09",
@@ -68,8 +70,8 @@
     {
       "date": "2026-08-29",
       "high_f": 97,
-      "low_f": 77,
-      "rain_pct": 24,
+      "low_f": 74,
+      "rain_pct": 22,
       "uv": 8,
       "sunrise": "2026-08-29T07:03",
       "sunset": "2026-08-29T20:07",
@@ -78,9 +80,9 @@
     },
     {
       "date": "2026-08-30",
-      "high_f": 94,
-      "low_f": 74,
-      "rain_pct": 24,
+      "high_f": 93,
+      "low_f": 75,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-08-30T07:03",
       "sunset": "2026-08-30T20:06",
@@ -89,9 +91,9 @@
     },
     {
       "date": "2026-08-31",
-      "high_f": 93,
-      "low_f": 75,
-      "rain_pct": 29,
+      "high_f": 94,
+      "low_f": 74,
+      "rain_pct": 27,
       "uv": 8,
       "sunrise": "2026-08-31T07:04",
       "sunset": "2026-08-31T20:04",
@@ -99,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-27T17:12:19.749416+00:00"
+  "updated_at": "2026-08-28T01:40:42.809535+00:00"
 }

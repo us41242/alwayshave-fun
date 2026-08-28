@@ -17,29 +17,27 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 104,
-    "feels_like_f": 98,
-    "wind_mph": 7,
-    "gusts_mph": 14,
-    "rain_pct": 1
+    "temp_f": 85,
+    "feels_like_f": 81,
+    "wind_mph": 5,
+    "gusts_mph": 5,
+    "rain_pct": 2
   },
-  "sunrise": "2026-08-27T06:05",
-  "sunset": "2026-08-27T19:13",
+  "sunrise": "2026-08-28T06:06",
+  "sunset": "2026-08-28T19:11",
   "aqi": {
-    "aqi": 53,
-    "category": "Moderate",
+    "aqi": 41,
+    "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 133.6,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Salt",
@@ -54,60 +52,60 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-27",
-      "high_f": 109,
-      "low_f": 84,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-27T06:05",
-      "sunset": "2026-08-27T19:13",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-08-28",
-      "high_f": 107,
-      "low_f": 84,
-      "rain_pct": 5,
-      "uv": 7,
+      "high_f": 106,
+      "low_f": 85,
+      "rain_pct": 14,
+      "uv": 6,
       "sunrise": "2026-08-28T06:06",
       "sunset": "2026-08-28T19:11",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-29",
       "high_f": 105,
-      "low_f": 79,
-      "rain_pct": 5,
-      "uv": 8,
+      "low_f": 81,
+      "rain_pct": 6,
+      "uv": 7,
       "sunrise": "2026-08-29T06:07",
       "sunset": "2026-08-29T19:10",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-30",
       "high_f": 101,
       "low_f": 84,
-      "rain_pct": 6,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-30T06:08",
       "sunset": "2026-08-30T19:09",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-31",
       "high_f": 99,
-      "low_f": 82,
+      "low_f": 76,
       "rain_pct": 4,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-31T06:09",
       "sunset": "2026-08-31T19:07",
-      "predicted_score": 50,
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-09-01",
+      "high_f": 99,
+      "low_f": 77,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-09-01T06:09",
+      "sunset": "2026-09-01T19:06",
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-28T01:36:01.529974+00:00"
+  "updated_at": "2026-08-28T13:33:24.551408+00:00"
 }

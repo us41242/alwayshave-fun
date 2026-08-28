@@ -23,45 +23,34 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 42,
-    "wind_mph": 29,
-    "gusts_mph": 42,
-    "rain_pct": 15
+    "temp_f": 61,
+    "feels_like_f": 46,
+    "wind_mph": 28,
+    "gusts_mph": 40,
+    "rain_pct": 2
   },
-  "sunrise": "2026-08-27T06:20",
-  "sunset": "2026-08-27T19:28",
+  "sunrise": "2026-08-28T06:21",
+  "sunset": "2026-08-28T19:26",
   "aqi": {
-    "aqi": 19,
+    "aqi": 7,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 128.5,
     "fire_count_50km": 0,
     "nearest_incident": null
   },
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-27",
-      "high_f": 68,
-      "low_f": 57,
-      "rain_pct": 28,
-      "uv": 6,
-      "sunrise": "2026-08-27T06:20",
-      "sunset": "2026-08-27T19:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
       "date": "2026-08-28",
       "high_f": 72,
       "low_f": 58,
-      "rain_pct": 16,
-      "uv": 8,
+      "rain_pct": 14,
+      "uv": 7,
       "sunrise": "2026-08-28T06:21",
       "sunset": "2026-08-28T19:26",
       "predicted_score": 88,
@@ -69,9 +58,9 @@
     },
     {
       "date": "2026-08-29",
-      "high_f": 72,
-      "low_f": 53,
-      "rain_pct": 5,
+      "high_f": 71,
+      "low_f": 55,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-29T06:22",
       "sunset": "2026-08-29T19:25",
@@ -80,8 +69,8 @@
     },
     {
       "date": "2026-08-30",
-      "high_f": 68,
-      "low_f": 50,
+      "high_f": 69,
+      "low_f": 52,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-30T06:22",
@@ -91,15 +80,26 @@
     },
     {
       "date": "2026-08-31",
-      "high_f": 70,
-      "low_f": 49,
+      "high_f": 68,
+      "low_f": 50,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-08-31T06:23",
       "sunset": "2026-08-31T19:22",
       "predicted_score": 100,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-01",
+      "high_f": 68,
+      "low_f": 48,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-09-01T06:24",
+      "sunset": "2026-09-01T19:21",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-28T01:45:19.798588+00:00"
+  "updated_at": "2026-08-28T13:43:06.776274+00:00"
 }

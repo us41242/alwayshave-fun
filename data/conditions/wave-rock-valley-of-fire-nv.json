@@ -20,19 +20,20 @@
   "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 95,
-    "feels_like_f": 94,
-    "wind_mph": 7,
-    "gusts_mph": 12,
+    "temp_f": 103,
+    "feels_like_f": 98,
+    "wind_mph": 19,
+    "gusts_mph": 26,
     "rain_pct": 1
   },
   "sunrise": "2026-08-29T06:07",
   "sunset": "2026-08-29T19:10",
   "aqi": {
-    "aqi": 38,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -42,13 +43,13 @@
     "nearest_fire_km": 32.4,
     "fire_count_50km": 5,
     "nearest_incident": {
-      "name": "Salt",
-      "acres": 102,
+      "name": "Last Chance",
+      "acres": 25,
       "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-27T22:35:45.517000+00:00",
-      "distance_km": 82.2,
-      "direction": "ESE"
+      "cause": "Undetermined",
+      "updated": "2026-08-29T19:01:05.093000+00:00",
+      "distance_km": 75.2,
+      "direction": "E"
     }
   },
   "river": null,
@@ -57,8 +58,8 @@
       "date": "2026-08-29",
       "high_f": 106,
       "low_f": 87,
-      "rain_pct": 2,
-      "uv": 7,
+      "rain_pct": 3,
+      "uv": 8,
       "sunrise": "2026-08-29T06:07",
       "sunset": "2026-08-29T19:10",
       "predicted_score": 46,
@@ -68,7 +69,7 @@
       "date": "2026-08-30",
       "high_f": 102,
       "low_f": 81,
-      "rain_pct": 5,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-08-30T06:08",
       "sunset": "2026-08-30T19:09",
@@ -88,8 +89,8 @@
     },
     {
       "date": "2026-09-01",
-      "high_f": 100,
-      "low_f": 78,
+      "high_f": 99,
+      "low_f": 77,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-09-01T06:09",
@@ -109,5 +110,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-08-29T15:46:01.557166+00:00"
+  "updated_at": "2026-08-29T19:24:44.415791+00:00"
 }

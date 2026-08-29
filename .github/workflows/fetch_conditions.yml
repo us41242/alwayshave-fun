@@ -6,8 +6,13 @@ on:
   # GH_DISPATCH_TOKEN expired 2026-08-13 ~22:30Z and silently 401'd, stopping the
   # pipeline for 6h. No token here — GitHub fires it directly. UTC, ±jitter at
   # busy times is acceptable.
+  #
+  # 2026-08-28: cadence collapsed to ~2-3 runs/day starting 08-27 with "*/30"
+  # (GitHub drops congested :00/:30 slots first). Moved to off-peak minutes
+  # 13/43 — the documented mitigation. If cadence doesn't recover, next step
+  # is an external dispatch backstop.
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "13,43 * * * *"
 
 permissions:
   contents: write

@@ -17,17 +17,18 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 62,
+  "score": 56,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 95,
-    "feels_like_f": 95,
-    "wind_mph": 12,
-    "gusts_mph": 23,
-    "rain_pct": 12
+    "feels_like_f": 88,
+    "wind_mph": 17,
+    "gusts_mph": 24,
+    "rain_pct": 25
   },
   "sunrise": "2026-08-29T06:00",
   "sunset": "2026-08-29T19:02",
@@ -38,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 95.5,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 43.5,
+    "fire_count_50km": 3,
     "nearest_incident": {
       "name": "Cliff Spring",
       "acres": 170,
@@ -55,59 +56,59 @@
   "forecast": [
     {
       "date": "2026-08-29",
-      "high_f": 94,
+      "high_f": 96,
       "low_f": 69,
-      "rain_pct": 26,
+      "rain_pct": 29,
       "uv": 7,
       "sunrise": "2026-08-29T06:00",
       "sunset": "2026-08-29T19:02",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-08-30",
-      "high_f": 94,
-      "low_f": 70,
-      "rain_pct": 15,
+      "high_f": 90,
+      "low_f": 68,
+      "rain_pct": 17,
       "uv": 7,
       "sunrise": "2026-08-30T06:01",
       "sunset": "2026-08-30T19:01",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     },
     {
       "date": "2026-08-31",
       "high_f": 90,
-      "low_f": 70,
-      "rain_pct": 69,
+      "low_f": 65,
+      "rain_pct": 75,
       "uv": 7,
       "sunrise": "2026-08-31T06:01",
       "sunset": "2026-08-31T19:00",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-09-01",
       "high_f": 90,
       "low_f": 70,
-      "rain_pct": 16,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-09-01T06:02",
       "sunset": "2026-09-01T18:58",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     },
     {
       "date": "2026-09-02",
       "high_f": 90,
       "low_f": 73,
-      "rain_pct": 15,
+      "rain_pct": 10,
       "uv": 7,
       "sunrise": "2026-09-02T06:03",
       "sunset": "2026-09-02T18:57",
-      "predicted_score": 62,
+      "predicted_score": 56,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-29T19:29:36.830082+00:00"
+  "updated_at": "2026-08-29T22:03:39.127245+00:00"
 }

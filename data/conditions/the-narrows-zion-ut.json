@@ -17,22 +17,22 @@
   "notes": "Check North Fork Virgin River flow (USGS 09405500) \u2014 NPS closes The Narrows at 150 cfs",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 88,
-    "feels_like_f": 86,
-    "wind_mph": 10,
-    "gusts_mph": 25,
-    "rain_pct": 8
+    "temp_f": 83,
+    "feels_like_f": 78,
+    "wind_mph": 24,
+    "gusts_mph": 45,
+    "rain_pct": 15
   },
   "sunrise": "2026-08-29T07:00",
   "sunset": "2026-08-29T20:04",
   "aqi": {
-    "aqi": 38,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,26 +42,26 @@
     "nearest_fire_km": 111.7,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Chloride",
-      "acres": 1,
+      "name": "Smith",
+      "acres": 0.1,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-28T17:19:15.010000+00:00",
-      "distance_km": 65.2,
-      "direction": "NW"
+      "updated": "2026-08-29T20:20:18.237000+00:00",
+      "distance_km": 15.0,
+      "direction": "W"
     }
   },
   "river": {
-    "cfs": 39,
+    "cfs": 38,
     "stage": "low",
     "gauge_id": "09405500"
   },
   "forecast": [
     {
       "date": "2026-08-29",
-      "high_f": 87,
+      "high_f": 89,
       "low_f": 66,
-      "rain_pct": 23,
+      "rain_pct": 29,
       "uv": 8,
       "sunrise": "2026-08-29T07:00",
       "sunset": "2026-08-29T20:04",
@@ -70,9 +70,9 @@
     },
     {
       "date": "2026-08-30",
-      "high_f": 87,
-      "low_f": 66,
-      "rain_pct": 10,
+      "high_f": 86,
+      "low_f": 65,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-08-30T07:01",
       "sunset": "2026-08-30T20:03",
@@ -82,8 +82,8 @@
     {
       "date": "2026-08-31",
       "high_f": 84,
-      "low_f": 65,
-      "rain_pct": 72,
+      "low_f": 64,
+      "rain_pct": 74,
       "uv": 6,
       "sunrise": "2026-08-31T07:01",
       "sunset": "2026-08-31T20:02",
@@ -94,18 +94,18 @@
       "date": "2026-09-01",
       "high_f": 85,
       "low_f": 64,
-      "rain_pct": 26,
+      "rain_pct": 39,
       "uv": 8,
       "sunrise": "2026-09-01T07:02",
       "sunset": "2026-09-01T20:00",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-02",
       "high_f": 84,
       "low_f": 66,
-      "rain_pct": 26,
+      "rain_pct": 12,
       "uv": 7,
       "sunrise": "2026-09-02T07:03",
       "sunset": "2026-09-02T19:59",
@@ -113,5 +113,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-29T19:24:38.302106+00:00"
+  "updated_at": "2026-08-29T21:57:02.878573+00:00"
 }

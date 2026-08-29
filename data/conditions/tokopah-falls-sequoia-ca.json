@@ -17,30 +17,31 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 60,
-    "wind_mph": 3,
-    "gusts_mph": 4,
+    "temp_f": 59,
+    "feels_like_f": 54,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 1
   },
-  "sunrise": "2026-08-28T06:23",
-  "sunset": "2026-08-28T19:28",
+  "sunrise": "2026-08-29T06:24",
+  "sunset": "2026-08-29T19:27",
   "aqi": {
-    "aqi": 61,
+    "aqi": 52,
     "category": "Moderate",
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 40.1,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Wildfire Training",
       "acres": 0.01,
@@ -54,37 +55,26 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-28",
-      "high_f": 73,
-      "low_f": 60,
-      "rain_pct": 15,
+      "date": "2026-08-29",
+      "high_f": 71,
+      "low_f": 57,
+      "rain_pct": 3,
       "uv": 7,
-      "sunrise": "2026-08-28T06:23",
-      "sunset": "2026-08-28T19:28",
-      "predicted_score": 78,
+      "sunrise": "2026-08-29T06:24",
+      "sunset": "2026-08-29T19:27",
+      "predicted_score": 76,
       "score_label": "Good conditions"
     },
     {
-      "date": "2026-08-29",
-      "high_f": 69,
-      "low_f": 57,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-08-29T06:24",
-      "sunset": "2026-08-29T19:27",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
       "date": "2026-08-30",
-      "high_f": 69,
+      "high_f": 68,
       "low_f": 53,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-30T06:24",
       "sunset": "2026-08-30T19:26",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-31",
@@ -94,20 +84,31 @@
       "uv": 8,
       "sunrise": "2026-08-31T06:25",
       "sunset": "2026-08-31T19:24",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-01",
       "high_f": 68,
-      "low_f": 49,
-      "rain_pct": 15,
+      "low_f": 48,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-09-01T06:26",
       "sunset": "2026-09-01T19:23",
-      "predicted_score": 78,
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-09-02",
+      "high_f": 68,
+      "low_f": 48,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-09-02T06:27",
+      "sunset": "2026-09-02T19:21",
+      "predicted_score": 76,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-29T04:33:12.245628+00:00"
+  "updated_at": "2026-08-29T11:33:59.141972+00:00"
 }

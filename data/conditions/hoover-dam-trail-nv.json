@@ -19,20 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 98,
-    "feels_like_f": 92,
-    "wind_mph": 20,
-    "gusts_mph": 20,
-    "rain_pct": 13
+    "temp_f": 99,
+    "feels_like_f": 98,
+    "wind_mph": 7,
+    "gusts_mph": 10,
+    "rain_pct": 14
   },
   "sunrise": "2026-08-28T06:07",
   "sunset": "2026-08-28T19:12",
   "aqi": {
-    "aqi": 47,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -55,9 +53,9 @@
   "forecast": [
     {
       "date": "2026-08-28",
-      "high_f": 113,
+      "high_f": 111,
       "low_f": 90,
-      "rain_pct": 15,
+      "rain_pct": 14,
       "uv": 7,
       "sunrise": "2026-08-28T06:07",
       "sunset": "2026-08-28T19:12",
@@ -66,10 +64,10 @@
     },
     {
       "date": "2026-08-29",
-      "high_f": 112,
-      "low_f": 88,
+      "high_f": 113,
+      "low_f": 89,
       "rain_pct": 4,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-08-29T06:08",
       "sunset": "2026-08-29T19:10",
       "predicted_score": 60,
@@ -77,9 +75,9 @@
     },
     {
       "date": "2026-08-30",
-      "high_f": 105,
-      "low_f": 84,
-      "rain_pct": 4,
+      "high_f": 104,
+      "low_f": 86,
+      "rain_pct": 5,
       "uv": 7,
       "sunrise": "2026-08-30T06:09",
       "sunset": "2026-08-30T19:09",
@@ -89,8 +87,8 @@
     {
       "date": "2026-08-31",
       "high_f": 103,
-      "low_f": 80,
-      "rain_pct": 3,
+      "low_f": 84,
+      "rain_pct": 4,
       "uv": 7,
       "sunrise": "2026-08-31T06:10",
       "sunset": "2026-08-31T19:08",
@@ -100,8 +98,8 @@
     {
       "date": "2026-09-01",
       "high_f": 104,
-      "low_f": 82,
-      "rain_pct": 3,
+      "low_f": 81,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-09-01T06:11",
       "sunset": "2026-09-01T19:06",
@@ -109,5 +107,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-28T23:23:47.300552+00:00"
+  "updated_at": "2026-08-29T04:22:45.637181+00:00"
 }

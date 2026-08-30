@@ -17,11 +17,9 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 73,
     "feels_like_f": 69,
@@ -29,10 +27,10 @@
     "gusts_mph": 23,
     "rain_pct": 2
   },
-  "sunrise": "2026-08-30T07:01",
-  "sunset": "2026-08-30T20:04",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,72 +40,16 @@
     "nearest_fire_km": 138.7,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Smith",
+      "name": "Race",
       "acres": 0.1,
       "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-29T20:20:18.237000+00:00",
-      "distance_km": 28.2,
-      "direction": "S"
+      "cause": "Undetermined",
+      "updated": "2026-08-30T22:36:45.143000+00:00",
+      "distance_km": 18.7,
+      "direction": "NW"
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-30",
-      "high_f": 82,
-      "low_f": 67,
-      "rain_pct": 11,
-      "uv": 8,
-      "sunrise": "2026-08-30T07:01",
-      "sunset": "2026-08-30T20:04",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-31",
-      "high_f": 72,
-      "low_f": 59,
-      "rain_pct": 28,
-      "uv": 7,
-      "sunrise": "2026-08-31T07:02",
-      "sunset": "2026-08-31T20:03",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-09-01",
-      "high_f": 79,
-      "low_f": 58,
-      "rain_pct": 18,
-      "uv": 8,
-      "sunrise": "2026-09-01T07:03",
-      "sunset": "2026-09-01T20:01",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-09-02",
-      "high_f": 78,
-      "low_f": 58,
-      "rain_pct": 7,
-      "uv": 8,
-      "sunrise": "2026-09-02T07:04",
-      "sunset": "2026-09-02T20:00",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-09-03",
-      "high_f": 80,
-      "low_f": 57,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-09-03T07:04",
-      "sunset": "2026-09-03T19:58",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-08-30T22:14:49.378122+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-30T23:09:53.472337+00:00"
 }

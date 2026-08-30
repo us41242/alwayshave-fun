@@ -17,36 +17,38 @@
   "notes": "Paved access road; lakeside loop with dramatic Sierra cirque views \u2014 one of the most scenic easy hikes in the Eastern Sierra",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 60,
-    "wind_mph": 12,
-    "gusts_mph": 17,
-    "rain_pct": 1
+    "temp_f": 58,
+    "feels_like_f": 45,
+    "wind_mph": 20,
+    "gusts_mph": 29,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-29T06:23",
   "sunset": "2026-08-29T19:28",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 46,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 126.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Wildfire Training",
       "acres": 0.01,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-29T23:18:42.537000+00:00",
-      "distance_km": 57.9,
-      "direction": "SSW"
+      "updated": "2026-08-30T01:02:34.337000+00:00",
+      "distance_km": 63.5,
+      "direction": "WSW"
     }
   },
   "river": null,
@@ -59,30 +61,30 @@
       "uv": 7,
       "sunrise": "2026-08-29T06:23",
       "sunset": "2026-08-29T19:28",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-30",
       "high_f": 74,
-      "low_f": 51,
+      "low_f": 50,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-30T06:24",
       "sunset": "2026-08-30T19:27",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-08-31",
-      "high_f": 74,
+      "high_f": 73,
       "low_f": 50,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-31T06:25",
       "sunset": "2026-08-31T19:26",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-09-01",
@@ -92,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-09-01T06:25",
       "sunset": "2026-09-01T19:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-09-02",
@@ -103,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-09-02T06:26",
       "sunset": "2026-09-02T19:23",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-30T00:27:33.087509+00:00"
+  "updated_at": "2026-08-30T04:34:10.966477+00:00"
 }

@@ -19,25 +19,27 @@
   "vehicle_req": "High-Clearance",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 45,
-    "wind_mph": 12,
-    "gusts_mph": 20,
-    "rain_pct": 14
+    "temp_f": 54,
+    "feels_like_f": 47,
+    "wind_mph": 13,
+    "gusts_mph": 21,
+    "rain_pct": 17
   },
   "sunrise": "2026-08-30T06:03",
   "sunset": "2026-08-30T19:10",
   "aqi": {
-    "aqi": 38,
+    "aqi": 40,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 109.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Ward",
@@ -65,7 +67,7 @@
     },
     {
       "date": "2026-08-31",
-      "high_f": 53,
+      "high_f": 56,
       "low_f": 39,
       "rain_pct": 27,
       "uv": 6,
@@ -77,7 +79,7 @@
     {
       "date": "2026-09-01",
       "high_f": 58,
-      "low_f": 38,
+      "low_f": 37,
       "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-09-01T06:05",
@@ -108,5 +110,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-30T19:45:02.967849+00:00"
+  "updated_at": "2026-08-30T20:26:13.129093+00:00"
 }

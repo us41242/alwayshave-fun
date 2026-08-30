@@ -17,16 +17,15 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
-    "N95 mask recommended for wildfire smoke"
+    "wind layer recommended"
   ],
   "current": {
     "temp_f": 97,
-    "feels_like_f": 94,
-    "wind_mph": 15,
+    "feels_like_f": 90,
+    "wind_mph": 18,
     "gusts_mph": 24,
     "rain_pct": 11
   },
@@ -39,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 40.8,
-    "fire_count_50km": 70,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Mount Emma",
       "acres": 0.25,
@@ -62,30 +61,30 @@
       "uv": 7,
       "sunrise": "2026-08-30T06:01",
       "sunset": "2026-08-30T19:01",
-      "predicted_score": 46,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-31",
-      "high_f": 92,
-      "low_f": 71,
+      "high_f": 84,
+      "low_f": 68,
       "rain_pct": 35,
       "uv": 7,
       "sunrise": "2026-08-31T06:01",
       "sunset": "2026-08-31T19:00",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-01",
       "high_f": 92,
-      "low_f": 70,
+      "low_f": 66,
       "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-09-01T06:02",
       "sunset": "2026-09-01T18:58",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-02",
@@ -95,8 +94,8 @@
       "uv": 8,
       "sunrise": "2026-09-02T06:03",
       "sunset": "2026-09-02T18:57",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-03",
@@ -106,9 +105,9 @@
       "uv": 8,
       "sunrise": "2026-09-03T06:04",
       "sunset": "2026-09-03T18:56",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-30T19:40:01.749605+00:00"
+  "updated_at": "2026-08-30T20:23:42.253316+00:00"
 }

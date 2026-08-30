@@ -17,10 +17,10 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 46,
+  "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended"
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 95,
@@ -29,8 +29,8 @@
     "gusts_mph": 24,
     "rain_pct": 3
   },
-  "sunrise": "2026-08-30T06:01",
-  "sunset": "2026-08-30T19:01",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 42,
     "category": "Good",
@@ -38,76 +38,20 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 40.8,
+    "fire_count_50km": 70,
     "nearest_incident": {
       "name": "Mount Emma",
       "acres": 0.25,
       "containment_pct": null,
       "cause": "Undetermined",
-      "updated": "2026-08-29T23:41:55.020000+00:00",
+      "updated": "2026-08-30T18:07:34.260000+00:00",
       "distance_km": 42.3,
       "direction": "W"
     }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-30",
-      "high_f": 100,
-      "low_f": 74,
-      "rain_pct": 13,
-      "uv": 7,
-      "sunrise": "2026-08-30T06:01",
-      "sunset": "2026-08-30T19:01",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-08-31",
-      "high_f": 92,
-      "low_f": 71,
-      "rain_pct": 54,
-      "uv": 7,
-      "sunrise": "2026-08-31T06:01",
-      "sunset": "2026-08-31T19:00",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-09-01",
-      "high_f": 92,
-      "low_f": 70,
-      "rain_pct": 23,
-      "uv": 8,
-      "sunrise": "2026-09-01T06:02",
-      "sunset": "2026-09-01T18:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-09-02",
-      "high_f": 93,
-      "low_f": 74,
-      "rain_pct": 13,
-      "uv": 8,
-      "sunrise": "2026-09-02T06:03",
-      "sunset": "2026-09-02T18:57",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-09-03",
-      "high_f": 94,
-      "low_f": 74,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-09-03T06:04",
-      "sunset": "2026-09-03T18:56",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-30T18:03:56.488096+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-30T18:44:27.070763+00:00"
 }

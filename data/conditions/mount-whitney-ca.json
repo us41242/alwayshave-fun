@@ -23,10 +23,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 30,
-    "feels_like_f": 20,
-    "wind_mph": 4,
-    "gusts_mph": 10,
+    "temp_f": 35,
+    "feels_like_f": 27,
+    "wind_mph": 2,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-08-30T06:23",
@@ -41,7 +41,15 @@
     "risk_level": "low",
     "nearest_fire_km": 200.1,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Sand",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-30T15:12:01.437000+00:00",
+      "distance_km": 82.1,
+      "direction": "W"
+    }
   },
   "river": null,
   "forecast": [
@@ -60,7 +68,7 @@
       "date": "2026-08-31",
       "high_f": 40,
       "low_f": 26,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-08-31T06:23",
       "sunset": "2026-08-31T19:22",
@@ -93,7 +101,7 @@
       "date": "2026-09-03",
       "high_f": 47,
       "low_f": 28,
-      "rain_pct": 2,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-09-03T06:26",
       "sunset": "2026-09-03T19:18",
@@ -101,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-30T14:50:25.761998+00:00"
+  "updated_at": "2026-08-30T15:33:23.827190+00:00"
 }

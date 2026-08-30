@@ -23,12 +23,12 @@
   "current": {
     "temp_f": 66,
     "feels_like_f": 65,
-    "wind_mph": 5,
-    "gusts_mph": 9,
-    "rain_pct": 5
+    "wind_mph": 6,
+    "gusts_mph": 11,
+    "rain_pct": 6
   },
-  "sunrise": "2026-08-29T07:00",
-  "sunset": "2026-08-29T20:05",
+  "sunrise": "2026-08-30T07:00",
+  "sunset": "2026-08-30T20:03",
   "aqi": {
     "aqi": 38,
     "category": "Good",
@@ -49,28 +49,13 @@
       "direction": "SW"
     }
   },
-  "river": {
-    "cfs": 36,
-    "stage": "low",
-    "gauge_id": "09405500"
-  },
+  "river": null,
   "forecast": [
-    {
-      "date": "2026-08-29",
-      "high_f": 84,
-      "low_f": 62,
-      "rain_pct": 28,
-      "uv": 8,
-      "sunrise": "2026-08-29T07:00",
-      "sunset": "2026-08-29T20:05",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
     {
       "date": "2026-08-30",
       "high_f": 81,
       "low_f": 60,
-      "rain_pct": 11,
+      "rain_pct": 15,
       "uv": 7,
       "sunrise": "2026-08-30T07:00",
       "sunset": "2026-08-30T20:03",
@@ -109,7 +94,18 @@
       "sunset": "2026-09-02T19:59",
       "predicted_score": 88,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-03",
+      "high_f": 77,
+      "low_f": 57,
+      "rain_pct": 15,
+      "uv": 7,
+      "sunrise": "2026-09-03T07:04",
+      "sunset": "2026-09-03T19:57",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-30T05:44:34.634763+00:00"
+  "updated_at": "2026-08-30T06:01:19.426833+00:00"
 }

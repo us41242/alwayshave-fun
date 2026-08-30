@@ -17,11 +17,9 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 52,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 74,
     "feels_like_f": 68,
@@ -29,10 +27,10 @@
     "gusts_mph": 28,
     "rain_pct": 7
   },
-  "sunrise": "2026-08-30T05:58",
-  "sunset": "2026-08-30T18:58",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 42,
+    "aqi": 40,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,73 +39,9 @@
     "risk_level": "moderate",
     "nearest_fire_km": 99.1,
     "fire_count_50km": 0,
-    "nearest_incident": {
-      "name": "Coconino Wash",
-      "acres": 0.01,
-      "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-30T17:25:32.860000+00:00",
-      "distance_km": 17.2,
-      "direction": "SE"
-    }
+    "nearest_incident": null
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-30",
-      "high_f": 77,
-      "low_f": 55,
-      "rain_pct": 16,
-      "uv": 8,
-      "sunrise": "2026-08-30T05:58",
-      "sunset": "2026-08-30T18:58",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-08-31",
-      "high_f": 71,
-      "low_f": 54,
-      "rain_pct": 54,
-      "uv": 7,
-      "sunrise": "2026-08-31T05:59",
-      "sunset": "2026-08-31T18:57",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-09-01",
-      "high_f": 77,
-      "low_f": 54,
-      "rain_pct": 20,
-      "uv": 8,
-      "sunrise": "2026-09-01T06:00",
-      "sunset": "2026-09-01T18:56",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-09-02",
-      "high_f": 78,
-      "low_f": 59,
-      "rain_pct": 14,
-      "uv": 8,
-      "sunrise": "2026-09-02T06:01",
-      "sunset": "2026-09-02T18:54",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-09-03",
-      "high_f": 79,
-      "low_f": 58,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-09-03T06:02",
-      "sunset": "2026-09-03T18:53",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-08-30T18:42:40.826402+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-30T19:23:45.781911+00:00"
 }

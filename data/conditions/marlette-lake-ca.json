@@ -17,9 +17,11 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 80,
+  "score": 74,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 48,
     "feels_like_f": 40,
@@ -30,15 +32,15 @@
   "sunrise": "2026-08-30T06:26",
   "sunset": "2026-08-30T19:33",
   "aqi": {
-    "aqi": 25,
+    "aqi": 20,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 77.0,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.4,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Hawk",
       "acres": 15085,
@@ -55,12 +57,12 @@
     {
       "date": "2026-08-30",
       "high_f": 69,
-      "low_f": 48,
+      "low_f": 47,
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-08-30T06:26",
       "sunset": "2026-08-30T19:33",
-      "predicted_score": 92,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -71,7 +73,7 @@
       "uv": 7,
       "sunrise": "2026-08-31T06:27",
       "sunset": "2026-08-31T19:31",
-      "predicted_score": 92,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -82,7 +84,7 @@
       "uv": 7,
       "sunrise": "2026-09-01T06:28",
       "sunset": "2026-09-01T19:30",
-      "predicted_score": 92,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -93,7 +95,7 @@
       "uv": 6,
       "sunrise": "2026-09-02T06:29",
       "sunset": "2026-09-02T19:28",
-      "predicted_score": 92,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -104,9 +106,9 @@
       "uv": 7,
       "sunrise": "2026-09-03T06:30",
       "sunset": "2026-09-03T19:27",
-      "predicted_score": 92,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-30T10:10:13.943598+00:00"
+  "updated_at": "2026-08-30T10:47:05.343199+00:00"
 }

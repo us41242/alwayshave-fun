@@ -17,16 +17,17 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 58,
-    "feels_like_f": 56,
+    "feels_like_f": 57,
     "wind_mph": 3,
-    "gusts_mph": 4,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "sunrise": "2026-08-29T06:24",
@@ -38,9 +39,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 40.1,
+    "fire_count_50km": 1,
     "nearest_incident": null
   },
   "river": null,
@@ -53,19 +54,19 @@
       "uv": 6,
       "sunrise": "2026-08-29T06:24",
       "sunset": "2026-08-29T19:27",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-30",
-      "high_f": 68,
+      "high_f": 69,
       "low_f": 54,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-30T06:24",
       "sunset": "2026-08-30T19:26",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-31",
@@ -75,8 +76,8 @@
       "uv": 8,
       "sunrise": "2026-08-31T06:25",
       "sunset": "2026-08-31T19:24",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-01",
@@ -86,8 +87,8 @@
       "uv": 8,
       "sunrise": "2026-09-01T06:26",
       "sunset": "2026-09-01T19:23",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-02",
@@ -97,9 +98,9 @@
       "uv": 8,
       "sunrise": "2026-09-02T06:27",
       "sunset": "2026-09-02T19:21",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-30T04:34:14.154918+00:00"
+  "updated_at": "2026-08-30T05:12:23.206967+00:00"
 }

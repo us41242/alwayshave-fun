@@ -17,27 +17,29 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 69,
-    "wind_mph": 19,
-    "gusts_mph": 25,
-    "rain_pct": 9
+    "temp_f": 62,
+    "feels_like_f": 52,
+    "wind_mph": 18,
+    "gusts_mph": 29,
+    "rain_pct": 14
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-30T06:57",
+  "sunset": "2026-08-30T20:00",
   "aqi": {
-    "aqi": 42,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 157.7,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Pardner",
@@ -50,6 +52,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-30T21:06:00.049342+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-30",
+      "high_f": 71,
+      "low_f": 52,
+      "rain_pct": 14,
+      "uv": 8,
+      "sunrise": "2026-08-30T06:57",
+      "sunset": "2026-08-30T20:00",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-31",
+      "high_f": 55,
+      "low_f": 49,
+      "rain_pct": 42,
+      "uv": 7,
+      "sunrise": "2026-08-31T06:58",
+      "sunset": "2026-08-31T19:59",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-09-01",
+      "high_f": 67,
+      "low_f": 48,
+      "rain_pct": 26,
+      "uv": 8,
+      "sunrise": "2026-09-01T06:59",
+      "sunset": "2026-09-01T19:57",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-02",
+      "high_f": 71,
+      "low_f": 51,
+      "rain_pct": 17,
+      "uv": 8,
+      "sunrise": "2026-09-02T07:00",
+      "sunset": "2026-09-02T19:56",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-03",
+      "high_f": 72,
+      "low_f": 50,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-09-03T07:00",
+      "sunset": "2026-09-03T19:55",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-08-30T21:44:34.070704+00:00"
 }

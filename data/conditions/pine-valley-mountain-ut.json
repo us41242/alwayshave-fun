@@ -17,18 +17,20 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 73,
-    "wind_mph": 17,
-    "gusts_mph": 27,
+    "temp_f": 78,
+    "feels_like_f": 70,
+    "wind_mph": 19,
+    "gusts_mph": 28,
     "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-30T07:03",
+  "sunset": "2026-08-30T20:05",
   "aqi": {
     "aqi": 41,
     "category": "Good",
@@ -37,19 +39,75 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 125.1,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Smith",
+      "name": "Bonnie Springs",
       "acres": 0.1,
       "containment_pct": null,
       "cause": "Natural",
-      "updated": "2026-08-29T20:20:18.237000+00:00",
-      "distance_km": 33.7,
-      "direction": "ESE"
+      "updated": "2026-08-30T21:09:55.267000+00:00",
+      "distance_km": 16.8,
+      "direction": "WSW"
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-30T21:08:27.601970+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-30",
+      "high_f": 79,
+      "low_f": 61,
+      "rain_pct": 13,
+      "uv": 8,
+      "sunrise": "2026-08-30T07:03",
+      "sunset": "2026-08-30T20:05",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-31",
+      "high_f": 72,
+      "low_f": 56,
+      "rain_pct": 27,
+      "uv": 7,
+      "sunrise": "2026-08-31T07:04",
+      "sunset": "2026-08-31T20:04",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-01",
+      "high_f": 75,
+      "low_f": 54,
+      "rain_pct": 26,
+      "uv": 8,
+      "sunrise": "2026-09-01T07:04",
+      "sunset": "2026-09-01T20:03",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-02",
+      "high_f": 74,
+      "low_f": 57,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-09-02T07:05",
+      "sunset": "2026-09-02T20:01",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-03",
+      "high_f": 76,
+      "low_f": 56,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-09-03T07:06",
+      "sunset": "2026-09-03T20:00",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-08-30T21:49:27.000580+00:00"
 }

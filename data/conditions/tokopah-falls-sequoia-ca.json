@@ -17,11 +17,9 @@
   "notes": "No dogs on trails (NPS); falls best May\u2013Jul during peak snowmelt; timed entry vehicle reservation may be required for Sequoia NP",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 65,
     "feels_like_f": 60,
@@ -29,77 +27,29 @@
     "gusts_mph": 5,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-30T06:24",
-  "sunset": "2026-08-30T19:26",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 68,
-    "category": "Moderate",
+    "aqi": 49,
+    "category": "Good",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
     "nearest_fire_km": 165.2,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Alpaugh",
+      "acres": null,
+      "containment_pct": null,
+      "cause": null,
+      "updated": "2026-08-30T16:39:08.970000+00:00",
+      "distance_km": 55.2,
+      "direction": "SW"
+    }
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-08-30",
-      "high_f": 69,
-      "low_f": 52,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-30T06:24",
-      "sunset": "2026-08-30T19:26",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-08-31",
-      "high_f": 67,
-      "low_f": 53,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-08-31T06:25",
-      "sunset": "2026-08-31T19:24",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-09-01",
-      "high_f": 67,
-      "low_f": 49,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-09-01T06:26",
-      "sunset": "2026-09-01T19:23",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-09-02",
-      "high_f": 65,
-      "low_f": 45,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-09-02T06:27",
-      "sunset": "2026-09-02T19:21",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-09-03",
-      "high_f": 69,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-09-03T06:28",
-      "sunset": "2026-09-03T19:20",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-08-30T16:51:49.751429+00:00"
+  "forecast": [],
+  "updated_at": "2026-08-30T17:33:31.437096+00:00"
 }

@@ -20,17 +20,18 @@
   "score": 46,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 96,
-    "feels_like_f": 90,
-    "wind_mph": 19,
-    "gusts_mph": 25,
-    "rain_pct": 1
+    "temp_f": 100,
+    "feels_like_f": 94,
+    "wind_mph": 18,
+    "gusts_mph": 22,
+    "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-30T06:09",
+  "sunset": "2026-08-30T19:09",
   "aqi": {
     "aqi": 38,
     "category": "Good",
@@ -52,6 +53,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-30T16:46:01.770194+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-30",
+      "high_f": 108,
+      "low_f": 88,
+      "rain_pct": 2,
+      "uv": 7,
+      "sunrise": "2026-08-30T06:09",
+      "sunset": "2026-08-30T19:09",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-08-31",
+      "high_f": 101,
+      "low_f": 84,
+      "rain_pct": 7,
+      "uv": 7,
+      "sunrise": "2026-08-31T06:10",
+      "sunset": "2026-08-31T19:08",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-09-01",
+      "high_f": 102,
+      "low_f": 82,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-09-01T06:11",
+      "sunset": "2026-09-01T19:06",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-09-02",
+      "high_f": 101,
+      "low_f": 82,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-09-02T06:11",
+      "sunset": "2026-09-02T19:05",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-09-03",
+      "high_f": 104,
+      "low_f": 79,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-09-03T06:12",
+      "sunset": "2026-09-03T19:03",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-08-30T17:24:35.539209+00:00"
 }

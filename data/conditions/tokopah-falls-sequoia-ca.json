@@ -24,16 +24,16 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 70,
+    "temp_f": 65,
+    "feels_like_f": 64,
     "wind_mph": 7,
     "gusts_mph": 8,
-    "rain_pct": 1
+    "rain_pct": 2
   },
   "sunrise": "2026-08-29T06:24",
   "sunset": "2026-08-29T19:27",
   "aqi": {
-    "aqi": 108,
+    "aqi": 129,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,15 +42,23 @@
     "risk_level": "elevated",
     "nearest_fire_km": 40.1,
     "fire_count_50km": 1,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wildfire Training",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-29T23:18:42.537000+00:00",
+      "distance_km": 59.8,
+      "direction": "NNW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-29",
       "high_f": 70,
-      "low_f": 57,
-      "rain_pct": 1,
+      "low_f": 56,
+      "rain_pct": 3,
       "uv": 6,
       "sunrise": "2026-08-29T06:24",
       "sunset": "2026-08-29T19:27",
@@ -61,7 +69,7 @@
       "date": "2026-08-30",
       "high_f": 68,
       "low_f": 54,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-08-30T06:24",
       "sunset": "2026-08-30T19:26",
@@ -92,7 +100,7 @@
     },
     {
       "date": "2026-09-02",
-      "high_f": 68,
+      "high_f": 67,
       "low_f": 47,
       "rain_pct": 1,
       "uv": 8,
@@ -102,5 +110,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-29T22:10:45.087327+00:00"
+  "updated_at": "2026-08-30T00:28:10.684672+00:00"
 }

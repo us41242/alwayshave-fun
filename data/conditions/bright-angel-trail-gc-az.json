@@ -20,14 +20,15 @@
   "score": 62,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "rain gear recommended"
   ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 72,
-    "wind_mph": 20,
-    "gusts_mph": 25,
-    "rain_pct": 36
+    "temp_f": 68,
+    "feels_like_f": 67,
+    "wind_mph": 10,
+    "gusts_mph": 22,
+    "rain_pct": 44
   },
   "sunrise": "2026-08-29T05:58",
   "sunset": "2026-08-29T19:00",
@@ -42,24 +43,24 @@
     "nearest_fire_km": 94.9,
     "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Cliff Spring",
-      "acres": 170,
+      "name": "Mount Emma",
+      "acres": 0.25,
       "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-15T23:12:32.263000+00:00",
-      "distance_km": 21.2,
-      "direction": "ENE"
+      "cause": "Undetermined",
+      "updated": "2026-08-29T23:41:55.020000+00:00",
+      "distance_km": 95.2,
+      "direction": "WNW"
     }
   },
   "river": {
-    "cfs": 7870,
+    "cfs": 33300,
     "stage": null,
     "gauge_id": "09402500"
   },
   "forecast": [
     {
       "date": "2026-08-29",
-      "high_f": 81,
+      "high_f": 79,
       "low_f": 60,
       "rain_pct": 49,
       "uv": 7,
@@ -71,7 +72,7 @@
     {
       "date": "2026-08-30",
       "high_f": 72,
-      "low_f": 60,
+      "low_f": 58,
       "rain_pct": 30,
       "uv": 8,
       "sunrise": "2026-08-30T05:59",
@@ -81,7 +82,7 @@
     },
     {
       "date": "2026-08-31",
-      "high_f": 75,
+      "high_f": 77,
       "low_f": 54,
       "rain_pct": 86,
       "uv": 7,
@@ -92,8 +93,8 @@
     },
     {
       "date": "2026-09-01",
-      "high_f": 80,
-      "low_f": 57,
+      "high_f": 79,
+      "low_f": 58,
       "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-09-01T06:00",
@@ -106,12 +107,12 @@
       "high_f": 79,
       "low_f": 60,
       "rain_pct": 16,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-09-02T06:01",
       "sunset": "2026-09-02T18:54",
       "predicted_score": 80,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-29T21:59:15.050016+00:00"
+  "updated_at": "2026-08-30T00:20:51.668736+00:00"
 }

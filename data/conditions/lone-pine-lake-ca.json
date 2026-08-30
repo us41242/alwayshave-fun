@@ -19,18 +19,20 @@
   "vehicle_req": "Any",
   "score": 92,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 68,
-    "wind_mph": 4,
-    "gusts_mph": 12,
-    "rain_pct": 2
+    "temp_f": 69,
+    "feels_like_f": 60,
+    "wind_mph": 12,
+    "gusts_mph": 26,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-29T06:22",
   "sunset": "2026-08-29T19:25",
   "aqi": {
-    "aqi": 6,
+    "aqi": 9,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -39,7 +41,15 @@
     "risk_level": "moderate",
     "nearest_fire_km": 82.3,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wildfire Training",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-29T23:18:42.537000+00:00",
+      "distance_km": 89.6,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
@@ -47,7 +57,7 @@
       "date": "2026-08-29",
       "high_f": 70,
       "low_f": 57,
-      "rain_pct": 2,
+      "rain_pct": 4,
       "uv": 7,
       "sunrise": "2026-08-29T06:22",
       "sunset": "2026-08-29T19:25",
@@ -57,8 +67,8 @@
     {
       "date": "2026-08-30",
       "high_f": 68,
-      "low_f": 54,
-      "rain_pct": 2,
+      "low_f": 51,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-30T06:22",
       "sunset": "2026-08-30T19:24",
@@ -78,7 +88,7 @@
     },
     {
       "date": "2026-09-01",
-      "high_f": 68,
+      "high_f": 67,
       "low_f": 47,
       "rain_pct": 1,
       "uv": 8,
@@ -99,5 +109,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-08-29T22:08:52.835407+00:00"
+  "updated_at": "2026-08-30T00:28:09.334352+00:00"
 }

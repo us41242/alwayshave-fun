@@ -24,16 +24,16 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 31,
-    "wind_mph": 22,
-    "gusts_mph": 29,
-    "rain_pct": 1
+    "temp_f": 40,
+    "feels_like_f": 25,
+    "wind_mph": 24,
+    "gusts_mph": 30,
+    "rain_pct": 0
   },
   "sunrise": "2026-08-29T06:22",
   "sunset": "2026-08-29T19:25",
   "aqi": {
-    "aqi": 6,
+    "aqi": 9,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -42,15 +42,23 @@
     "risk_level": "moderate",
     "nearest_fire_km": 77.5,
     "fire_count_50km": 0,
-    "nearest_incident": null
+    "nearest_incident": {
+      "name": "Wildfire Training",
+      "acres": 0.01,
+      "containment_pct": null,
+      "cause": "Undetermined",
+      "updated": "2026-08-29T23:18:42.537000+00:00",
+      "distance_km": 86.5,
+      "direction": "NW"
+    }
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-08-29",
-      "high_f": 44,
+      "high_f": 42,
       "low_f": 28,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-08-29T06:22",
       "sunset": "2026-08-29T19:25",
@@ -60,7 +68,7 @@
     {
       "date": "2026-08-30",
       "high_f": 44,
-      "low_f": 28,
+      "low_f": 29,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-08-30T06:23",
@@ -92,7 +100,7 @@
     },
     {
       "date": "2026-09-02",
-      "high_f": 43,
+      "high_f": 41,
       "low_f": 22,
       "rain_pct": 0,
       "uv": 8,
@@ -102,5 +110,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-29T22:06:08.027627+00:00"
+  "updated_at": "2026-08-30T00:26:34.267849+00:00"
 }

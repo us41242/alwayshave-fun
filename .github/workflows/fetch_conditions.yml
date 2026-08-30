@@ -9,8 +9,10 @@ on:
   #
   # 2026-08-28: cadence collapsed to ~2-3 runs/day starting 08-27 with "*/30"
   # (GitHub drops congested :00/:30 slots first). Moved to off-peak minutes
-  # 13/43 — the documented mitigation. If cadence doesn't recover, next step
-  # is an external dispatch backstop.
+  # 13/43 — the documented mitigation. It didn't recover (~6 runs/day on
+  # 08-29), so 2026-08-30 an external dispatch backstop was added: launchd job
+  # com.joshuaedrake.ahf-dispatch on Josh's Mac runs scripts/dispatch_watchdog.py
+  # every 20 min and fires workflow_dispatch if the latest run is >40 min old.
   schedule:
     - cron: "13,43 * * * *"
 

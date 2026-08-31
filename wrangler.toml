@@ -12,3 +12,6 @@ crons = []
 directory = "."
 binding = "ASSETS"
 not_found_handling = "404-page"
+# Takedown 2026-08-31: Worker intercepts every request (site retired ahead of
+# the vegas rebrand). Remove this line to serve static assets again.
+run_worker_first = true

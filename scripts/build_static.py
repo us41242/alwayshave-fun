@@ -21,6 +21,7 @@ from datetime import datetime, timezone
 
 BASE_URL  = "https://alwayshave.fun"
 DATA_DIR  = "data/conditions"
+ADVISORIES_PATH = "data/advisories.json"
 CLIMATE_DIR = "data/climate"
 TMPL_PATH = "trail.html"
 OUT_DIR   = "generated"
@@ -45,7 +46,34 @@ def aqi_category(aqi):
     return "Hazardous"
 
 
-def build_meta(d):
+def load_advisories(path=ADVISORIES_PATH, today=None):
+    """Hand-curated, source-cited trail advisories (closures, disasters).
+
+    Each entry MUST carry an `expires` date — an advisory that outlives its
+    event is worse than none (hard rule 4), so entries auto-hide after expiry
+    and a nightly session has to actively re-verify + extend them.
+    """
+    if not os.path.exists(path):
+        return {}
+    today = today or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    with open(path) as f:
+        raw = json.load(f)
+    return {slug: a for slug, a in raw.items()
+            if a.get("expires", "") >= today and a.get("body")}
+
+
+def advisory_card(a):
+    return (
+        f'<div class="card" id="advisory-card" style="border-left:4px solid #dc2626;background:#fef2f2">'
+        f'<div class="card-title" style="color:#7f1d1d">⚠️ {esc(a["headline"])}</div>'
+        f'<p style="font-size:0.92rem;line-height:1.65;color:#450a0a">{esc(a["body"])}</p>'
+        f'<p style="margin-top:0.5rem;font-size:0.8rem;color:#7f1d1d">Source: '
+        f'<a href="{esc(a["source_url"])}" rel="noopener" style="color:#7f1d1d;text-decoration:underline">{esc(a["source_name"])}</a>'
+        f' · {esc(a["date"])}</p></div>\n    '
+    )
+
+
+def build_meta(d, advisory=None):
     """Build all SEO strings for a trail."""
     cur       = d.get("current") or {}
     aqi_data  = d.get("aqi") or {}
@@ -86,6 +114,8 @@ def build_meta(d):
     if wind and wind > 25:
         alerts.append(f"winds {wind} mph")
     alert_str = f"⚠️ CAUTION: {', '.join(alerts)}. " if alerts else ""
+    if advisory:
+        alert_str = f"⚠️ {advisory['headline']}. " + alert_str
 
     # Meta description (dog-friendly flag for Weekend Warrior queries)
     parts = [f"{name} conditions: {label} ({score}/100)."]
@@ -291,7 +321,7 @@ def replace_once(html, old, new, slug, anchor):
     return html.replace(old, new, 1)
 
 
-def inject_body(html, d, m, siblings):
+def inject_body(html, d, m, siblings, advisory=None):
     """Render the trail's real content into the HTML body at build time.
 
     Google previously received this page as an empty JS shell ('Loading trail
@@ -528,8 +558,10 @@ def inject_body(html, d, m, siblings):
         '<div id="loading" class="loading-state hidden" role="status" aria-live="polite">', 'loading hide')
     rep('<div class="hero-image hidden" id="hero-image">',
         '<div class="hero-image" id="hero-image">', 'hero unhide')
+    # Advisory sits above everything else — render() never touches this node.
     rep('<main id="content" class="hidden">',
-        '<main id="content">', 'content unhide')
+        '<main id="content">' + (advisory_card(advisory) if advisory else ''),
+        'content unhide')
 
     return html
 
@@ -566,6 +598,7 @@ def main():
         template = f.read()
 
     conditions = load_all_conditions()
+    advisories = load_advisories()
     generated  = 0
     errors     = 0
 
@@ -574,9 +607,10 @@ def main():
         if not state or not slug:
             continue
         try:
-            m    = build_meta(d)
+            adv  = advisories.get(slug)
+            m    = build_meta(d, advisory=adv)
             html = inject_head(template, m)
-            html = inject_body(html, d, m, pick_siblings(d, conditions))
+            html = inject_body(html, d, m, pick_siblings(d, conditions), advisory=adv)
 
             out_dir  = os.path.join(OUT_DIR, state)
             os.makedirs(out_dir, exist_ok=True)

@@ -17,25 +17,26 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 79,
+    "temp_f": 70,
+    "feels_like_f": 75,
     "wind_mph": 3,
-    "gusts_mph": 4,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "2026-08-30T06:24",
-  "sunset": "2026-08-30T19:19",
+  "sunrise": "2026-08-31T06:24",
+  "sunset": "2026-08-31T19:18",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 81,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "high",
@@ -54,17 +55,6 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-08-30",
-      "high_f": 79,
-      "low_f": 70,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-08-30T06:24",
-      "sunset": "2026-08-30T19:19",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
-    },
-    {
       "date": "2026-08-31",
       "high_f": 76,
       "low_f": 66,
@@ -72,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-08-31T06:24",
       "sunset": "2026-08-31T19:18",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-09-01",
@@ -83,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-09-01T06:25",
       "sunset": "2026-09-01T19:16",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-09-02",
@@ -94,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-09-02T06:26",
       "sunset": "2026-09-02T19:15",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-09-03",
@@ -105,9 +95,20 @@
       "uv": 8,
       "sunrise": "2026-09-03T06:26",
       "sunset": "2026-09-03T19:14",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-09-04",
+      "high_f": 79,
+      "low_f": 70,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-09-04T06:27",
+      "sunset": "2026-09-04T19:12",
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-31T06:24:43.495616+00:00"
+  "updated_at": "2026-08-31T07:09:24.734091+00:00"
 }

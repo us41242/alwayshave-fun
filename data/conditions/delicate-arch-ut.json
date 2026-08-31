@@ -21,10 +21,10 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 69,
-    "feels_like_f": 68,
-    "wind_mph": 11,
-    "gusts_mph": 14,
+    "temp_f": 71,
+    "feels_like_f": 74,
+    "wind_mph": 6,
+    "gusts_mph": 8,
     "rain_pct": 36
   },
   "sunrise": "2026-08-30T06:45",
@@ -32,16 +32,16 @@
   "aqi": {
     "aqi": 41,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 164.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0,
     "nearest_incident": {
       "name": "Slough Canyon",
-      "acres": 4698,
+      "acres": 4774,
       "containment_pct": 34,
       "cause": "Natural",
       "updated": "2026-08-30T23:31:44.783000+00:00",
@@ -56,7 +56,7 @@
       "date": "2026-08-30",
       "high_f": 85,
       "low_f": 66,
-      "rain_pct": 46,
+      "rain_pct": 48,
       "uv": 8,
       "sunrise": "2026-08-30T06:45",
       "sunset": "2026-08-30T19:51",
@@ -108,5 +108,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-30T23:52:21.595874+00:00"
+  "updated_at": "2026-08-31T00:32:04.670693+00:00"
 }

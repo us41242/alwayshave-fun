@@ -17,41 +17,97 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
+    "wind layer recommended"
   ],
   "current": {
-    "temp_f": 93,
-    "feels_like_f": 87,
-    "wind_mph": 16,
-    "gusts_mph": 21,
-    "rain_pct": 4
+    "temp_f": 92,
+    "feels_like_f": 86,
+    "wind_mph": 15,
+    "gusts_mph": 20,
+    "rain_pct": 8
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-30T06:01",
+  "sunset": "2026-08-30T19:01",
   "aqi": {
-    "aqi": 42,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 42.3,
-    "fire_count_50km": 87,
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0,
     "nearest_incident": {
-      "name": "Mount Emma",
-      "acres": 0.25,
+      "name": "Rice Hollow",
+      "acres": 0.1,
       "containment_pct": null,
-      "cause": "Undetermined",
-      "updated": "2026-08-30T23:28:42.447000+00:00",
-      "distance_km": 52.3,
-      "direction": "ESE"
+      "cause": "Natural",
+      "updated": "2026-08-30T23:47:04.433000+00:00",
+      "distance_km": 37.1,
+      "direction": "NE"
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-30T23:47:33.935153+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-30",
+      "high_f": 94,
+      "low_f": 69,
+      "rain_pct": 10,
+      "uv": 8,
+      "sunrise": "2026-08-30T06:01",
+      "sunset": "2026-08-30T19:01",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-08-31",
+      "high_f": 76,
+      "low_f": 65,
+      "rain_pct": 38,
+      "uv": 8,
+      "sunrise": "2026-08-31T06:01",
+      "sunset": "2026-08-31T19:00",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-09-01",
+      "high_f": 88,
+      "low_f": 61,
+      "rain_pct": 30,
+      "uv": 8,
+      "sunrise": "2026-09-01T06:02",
+      "sunset": "2026-09-01T18:58",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-09-02",
+      "high_f": 88,
+      "low_f": 70,
+      "rain_pct": 10,
+      "uv": 8,
+      "sunrise": "2026-09-02T06:03",
+      "sunset": "2026-09-02T18:57",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-09-03",
+      "high_f": 89,
+      "low_f": 70,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-09-03T06:04",
+      "sunset": "2026-09-03T18:55",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-08-31T00:27:09.457013+00:00"
 }

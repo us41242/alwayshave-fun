@@ -17,17 +17,18 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 56,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 92,
-    "feels_like_f": 86,
-    "wind_mph": 15,
-    "gusts_mph": 20,
-    "rain_pct": 8
+    "temp_f": 89,
+    "feels_like_f": 80,
+    "wind_mph": 18,
+    "gusts_mph": 23,
+    "rain_pct": 7
   },
   "sunrise": "2026-08-30T06:01",
   "sunset": "2026-08-30T19:01",
@@ -38,17 +39,17 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 42.3,
+    "fire_count_50km": 87,
     "nearest_incident": {
-      "name": "Rice Hollow",
-      "acres": 0.1,
+      "name": "Mount Emma",
+      "acres": 0.25,
       "containment_pct": null,
-      "cause": "Natural",
-      "updated": "2026-08-30T23:47:04.433000+00:00",
-      "distance_km": 37.1,
-      "direction": "NE"
+      "cause": "Undetermined",
+      "updated": "2026-08-31T00:02:54.970000+00:00",
+      "distance_km": 52.3,
+      "direction": "ESE"
     }
   },
   "river": null,
@@ -61,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-08-30T06:01",
       "sunset": "2026-08-30T19:01",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-08-31",
@@ -72,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-08-31T06:01",
       "sunset": "2026-08-31T19:00",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-09-01",
@@ -83,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-09-01T06:02",
       "sunset": "2026-09-01T18:58",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-09-02",
@@ -94,8 +95,8 @@
       "uv": 8,
       "sunrise": "2026-09-02T06:03",
       "sunset": "2026-09-02T18:57",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-09-03",
@@ -105,9 +106,9 @@
       "uv": 8,
       "sunrise": "2026-09-03T06:04",
       "sunset": "2026-09-03T18:55",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-31T00:27:09.457013+00:00"
+  "updated_at": "2026-08-31T00:42:04.855160+00:00"
 }

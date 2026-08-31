@@ -17,28 +17,30 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
+  "score": 86,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 61,
-    "wind_mph": 8,
+    "temp_f": 66,
+    "feels_like_f": 59,
+    "wind_mph": 10,
     "gusts_mph": 11,
-    "rain_pct": 0
+    "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-08-30T06:26",
+  "sunset": "2026-08-30T19:33",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.4,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Hawk",
       "acres": 15085,
@@ -51,6 +53,62 @@
     }
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-08-31T00:32:03.445265+00:00"
+  "forecast": [
+    {
+      "date": "2026-08-30",
+      "high_f": 70,
+      "low_f": 46,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-08-30T06:26",
+      "sunset": "2026-08-30T19:33",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-08-31",
+      "high_f": 69,
+      "low_f": 51,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-08-31T06:27",
+      "sunset": "2026-08-31T19:31",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-01",
+      "high_f": 66,
+      "low_f": 42,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-09-01T06:28",
+      "sunset": "2026-09-01T19:30",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-02",
+      "high_f": 59,
+      "low_f": 40,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-09-02T06:29",
+      "sunset": "2026-09-02T19:28",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-09-03",
+      "high_f": 62,
+      "low_f": 39,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-09-03T06:30",
+      "sunset": "2026-09-03T19:27",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-08-31T00:47:13.822940+00:00"
 }

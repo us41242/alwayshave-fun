@@ -17,15 +17,17 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 81,
-    "wind_mph": 11,
-    "gusts_mph": 15,
-    "rain_pct": 23
+    "temp_f": 73,
+    "feels_like_f": 69,
+    "wind_mph": 15,
+    "gusts_mph": 12,
+    "rain_pct": 25
   },
   "sunrise": "2026-08-30T05:58",
   "sunset": "2026-08-30T18:56",
@@ -36,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0,
+    "risk_level": "elevated",
+    "nearest_fire_km": 38.7,
+    "fire_count_50km": 1,
     "nearest_incident": {
       "name": "Hart",
       "acres": 13,
@@ -57,25 +59,25 @@
   "forecast": [
     {
       "date": "2026-08-30",
-      "high_f": 82,
+      "high_f": 84,
       "low_f": 65,
       "rain_pct": 27,
       "uv": 8,
       "sunrise": "2026-08-30T05:58",
       "sunset": "2026-08-30T18:56",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-08-31",
-      "high_f": 68,
-      "low_f": 59,
+      "high_f": 70,
+      "low_f": 61,
       "rain_pct": 47,
       "uv": 8,
       "sunrise": "2026-08-31T05:59",
       "sunset": "2026-08-31T18:55",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-09-01",
@@ -85,8 +87,8 @@
       "uv": 8,
       "sunrise": "2026-09-01T06:00",
       "sunset": "2026-09-01T18:53",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-02",
@@ -96,8 +98,8 @@
       "uv": 8,
       "sunrise": "2026-09-02T06:00",
       "sunset": "2026-09-02T18:52",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-09-03",
@@ -107,9 +109,9 @@
       "uv": 8,
       "sunrise": "2026-09-03T06:01",
       "sunset": "2026-09-03T18:51",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-08-31T00:24:39.421263+00:00"
+  "updated_at": "2026-08-31T00:38:16.391264+00:00"
 }

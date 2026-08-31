@@ -49,7 +49,11 @@
       "direction": "NE"
     }
   },
-  "river": null,
+  "river": {
+    "cfs": 3,
+    "stage": null,
+    "gauge_id": "09403850"
+  },
   "forecast": [
     {
       "date": "2026-08-30",
@@ -66,7 +70,7 @@
       "date": "2026-08-31",
       "high_f": 79,
       "low_f": 60,
-      "rain_pct": 51,
+      "rain_pct": 52,
       "uv": 8,
       "sunrise": "2026-08-31T06:00",
       "sunset": "2026-08-31T19:00",
@@ -107,5 +111,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-08-31T06:01:34.531761+00:00"
+  "updated_at": "2026-08-31T06:14:59.255303+00:00"
 }

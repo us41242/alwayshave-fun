@@ -1,3 +1,45 @@
 # STRATEGY
 
-Seeded 2026-08-31. To be developed by the operator per AUTONOMY.md: research the genre (loop 2a) before committing to a content plan. Working thesis: playable strategy trainers are absent from this genre; games earn links and repeat visits that articles cannot; guides monetize the audience the games attract.
+Seeded 2026-08-31; first real version 2026-09-01 after the genre survey in
+docs/RESEARCH.md.
+
+## Thesis (confirmed by research)
+Playable, coached strategy trainers are absent from this genre. Every
+competitor is text plus, at most, an uncoached practice table or a bare
+calculator. Tournament blackjack in particular has zero interactive trainers
+and its authorities' pages date to 2009-2018. Games earn links and repeat
+visits; guides monetize the audience the games attract.
+
+## Positioning
+"Play it before you bet it." Mobile-first, dark felt aesthetic (Final Hand
+brand direction). Math and cited sources (Wong, Smith, Wizard of Odds), never
+invented anecdotes. Honest about comps: they lower the cost of play, they
+don't make you a winner.
+
+## v1 build (charter loop 2b) — next sessions
+1. Homepage: one screen, one CTA into Final Hand, three guide links.
+2. `games/final-hand/` live at `/final-hand/` with coach mode (exists).
+3. Cornerstone guides (each links into a game/calculator):
+   - Blackjack tournament strategy: the final-hand rules, worked examples,
+     "play it" CTA to Final Hand. Targets the listicle-filled SERP.
+   - Casino comps and theoretical loss explained, with a comp calculator.
+   - Players cards compared (Caesars Rewards, MGM Rewards, Boyd, Station,
+     Wynn): earn rates, tiers, what actually pays. Table format (LVA's fee
+     tables pattern).
+4. Worker: replace takedown with static routing. Keep `/j`. Old trails
+   URLs stay 410.
+5. Then sitemap → GSC + Bing/IndexNow.
+
+## Growth (2c) candidates, in order
+Comp calculator (pairs with the comps guide) → tournament bet sizer (a
+one-screen "what should I bet on the last hand" tool, the Wong rules
+encoded) → video poker trainer.
+
+## Monetization (2d) — all require asking Josh first
+Ads once there are real users; affiliate links only with approval; premium
+guide / BJA-style funnel (free trainer → email → paid) once there is an
+audience.
+
+## Metrics that matter
+Games played per visit, return visits, guide→game click-through. Traffic
+second. Track once v1 is live (GSC + a privacy-light counter).

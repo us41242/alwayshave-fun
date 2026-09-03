@@ -1,0 +1,50 @@
+/* alwayshave.fun — shared site styles (Final Hand felt brand) */
+:root{
+  --felt:#123527; --felt-deep:#0b241a; --line:#26543f;
+  --cream:#f0e8d6; --dim:#a8bfae; --brass:#c9a227; --chip-red:#c04a35;
+  --good:#7fc98a; --bad:#e08573;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--felt-deep);
+  background-image:radial-gradient(ellipse 120% 80% at 50% 0%, var(--felt) 0%, var(--felt-deep) 75%);
+  color:var(--cream);
+  font-family:"Libre Franklin", system-ui, sans-serif;
+  font-size:16px; line-height:1.55; min-height:100vh; padding:1rem;
+}
+.wrap{max-width:720px;margin:0 auto}
+nav{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:.6rem;margin-bottom:1.4rem;font-size:.9rem}
+nav a{color:var(--dim);text-decoration:none}
+nav a:hover{color:var(--cream)}
+nav .brand{font-family:"Big Shoulders Display", Impact, sans-serif;font-weight:900;font-size:1.4rem;letter-spacing:.03em;color:var(--cream)}
+nav .brand span{color:var(--brass)}
+h1,h2,h3{font-family:"Big Shoulders Display", Impact, sans-serif;letter-spacing:.03em;line-height:1.1;margin:0 0 .5rem}
+h1{font-weight:900;font-size:2.6rem}
+h1 span{color:var(--brass)}
+h2{font-weight:700;font-size:1.6rem;color:var(--brass);margin-top:2rem}
+h3{font-weight:700;font-size:1.15rem;margin-top:1.4rem}
+p{margin:.7rem 0}
+a{color:var(--brass)}
+.lede{font-size:1.15rem;color:var(--dim)}
+.cta{display:inline-block;background:var(--brass);color:#231b06;font-weight:700;text-decoration:none;border-radius:8px;padding:.75rem 1.4rem;font-size:1.05rem}
+.cta:hover{filter:brightness(1.1)}
+.cta.ghost{background:transparent;color:var(--cream);border:1px solid var(--line)}
+.ex{background:rgba(0,0,0,.28);border-left:3px solid var(--brass);border-radius:0 8px 8px 0;padding:.7rem .9rem;margin:.8rem 0;font-variant-numeric:tabular-nums}
+.ex b{color:var(--brass)}
+.why{color:var(--dim)}
+.card{background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.card h3{margin-top:0}
+.card a.t{color:var(--cream);text-decoration:none;font-weight:700}
+.card a.t:hover{color:var(--brass)}
+.soon{color:var(--dim);font-size:.85rem}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;margin:.8rem 0;font-size:.95rem}
+td,th{padding:.35rem .4rem;border-bottom:1px solid rgba(38,84,63,.6);text-align:left}
+th{color:var(--brass);font-weight:700}
+ol,ul{padding-left:1.3rem}
+li{margin:.3rem 0}
+.toc{font-size:.92rem;color:var(--dim)}
+.toc a{color:var(--dim)}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding-top:.8rem;font-size:.85rem;color:var(--dim)}
+footer a{color:var(--dim)}
+@media(max-width:600px){body{padding:.7rem;font-size:15px}h1{font-size:2.1rem}}

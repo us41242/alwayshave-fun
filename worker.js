@@ -1,36 +1,45 @@
-// Takedown 2026-08-31: alwayshave.fun retired ahead of the vegas rebrand.
-// run_worker_first in wrangler.toml routes EVERY request here — no static
-// assets are served. The only thing kept alive is /j, the short link into the
-// gate unlocker on gates.alwayshave.fun (do not remove; gates depend on it).
-// To restore the old site: git revert this commit.
+// alwayshave.fun Worker — v1 vegas site (2026-09-02).
+// run_worker_first in wrangler.toml routes EVERY request here. Only the paths
+// in ROUTES are served from static assets; everything else is 410 because
+// the old trails site was purged (SEO reset, see AUTONOMY.md).
+// /j is the short link into the gate unlocker on gates.alwayshave.fun.
+// NEVER remove or change it — gates depend on it.
 
-const PLACEHOLDER = `<!doctype html>
-<html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex">
-<title>alwayshave.fun</title>
-<style>body{font-family:system-ui;background:#0f172a;color:#e2e8f0;display:grid;place-items:center;min-height:100vh;margin:0}p{font-size:1.2rem}</style>
-</head>
-<body><p>Something new is coming.</p></body>
-</html>`;
+// ponytail: allowlist map instead of a router; grow it as pages ship.
+const ROUTES = {
+  '/': '/index.html',
+  '/final-hand/': '/games/final-hand/index.html',
+  '/blackjack-tournament-strategy/': '/guides/blackjack-tournament-strategy/index.html',
+  '/site.css': '/site.css',
+  '/robots.txt': '/robots.txt',
+  '/sitemap.xml': '/sitemap.xml',
+};
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const url = new URL(request.url);
+    const p = url.pathname;
 
     // /j → short link to the Jones gate unlocker (302, repointable). KEEP.
-    if (url.pathname === '/j') {
+    if (p === '/j') {
       return Response.redirect('https://gates.alwayshave.fun/j', 302);
     }
 
-    if (url.pathname === '/') {
-      return new Response(PLACEHOLDER, {
-        headers: { 'Content-Type': 'text/html; charset=utf-8' },
-      });
+    // Directory URLs are canonical with a trailing slash.
+    if ((p + '/') in ROUTES) {
+      url.pathname = p + '/';
+      return Response.redirect(url.toString(), 301);
     }
 
-    // Every old URL is intentionally gone — 410 tells crawlers to drop it.
-    return new Response(PLACEHOLDER, {
+    if (p in ROUTES) {
+      url.pathname = ROUTES[p];
+      return env.ASSETS.fetch(new Request(url.toString(), request));
+    }
+
+    // Every other URL is gone (old trails site) — 410 tells crawlers to drop it.
+    url.pathname = '/404.html';
+    const nf = await env.ASSETS.fetch(new Request(url.toString(), request));
+    return new Response(nf.body, {
       status: 410,
       headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });

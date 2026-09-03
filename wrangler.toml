@@ -11,7 +11,9 @@ crons = []
 [assets]
 directory = "."
 binding = "ASSETS"
-not_found_handling = "404-page"
+not_found_handling = "none"
+# worker.js rewrites pretty URLs to file paths; no asset-side redirects wanted.
+html_handling = "none"
 # Takedown 2026-08-31: Worker intercepts every request (site retired ahead of
 # the vegas rebrand). Remove this line to serve static assets again.
 run_worker_first = true

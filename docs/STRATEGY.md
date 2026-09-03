@@ -16,19 +16,17 @@ brand direction). Math and cited sources (Wong, Smith, Wizard of Odds), never
 invented anecdotes. Honest about comps: they lower the cost of play, they
 don't make you a winner.
 
-## v1 build (charter loop 2b) — next sessions
-1. Homepage: one screen, one CTA into Final Hand, three guide links.
-2. `games/final-hand/` live at `/final-hand/` with coach mode (exists).
+## v1 build (charter loop 2b) — shipped 2026-09-02 except the last two guides
+1. ✅ Homepage: one screen, one CTA into Final Hand, guide links.
+2. ✅ `games/final-hand/` live at `/final-hand/` with coach mode.
 3. Cornerstone guides (each links into a game/calculator):
-   - Blackjack tournament strategy: the final-hand rules, worked examples,
-     "play it" CTA to Final Hand. Targets the listicle-filled SERP.
+   - ✅ Blackjack tournament strategy: `/blackjack-tournament-strategy/`.
    - Casino comps and theoretical loss explained, with a comp calculator.
    - Players cards compared (Caesars Rewards, MGM Rewards, Boyd, Station,
      Wynn): earn rates, tiers, what actually pays. Table format (LVA's fee
      tables pattern).
-4. Worker: replace takedown with static routing. Keep `/j`. Old trails
-   URLs stay 410.
-5. Then sitemap → GSC + Bing/IndexNow.
+4. ✅ Worker: path allowlist → assets. `/j` kept. Everything else 410.
+5. Sitemap is live at /sitemap.xml; still to submit to GSC + Bing/IndexNow.
 
 ## Growth (2c) candidates, in order
 Comp calculator (pairs with the comps guide) → tournament bet sizer (a

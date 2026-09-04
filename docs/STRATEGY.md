@@ -21,15 +21,15 @@ don't make you a winner.
 2. ✅ `games/final-hand/` live at `/final-hand/` with coach mode.
 3. Cornerstone guides (each links into a game/calculator):
    - ✅ Blackjack tournament strategy: `/blackjack-tournament-strategy/`.
-   - Casino comps and theoretical loss explained, with a comp calculator.
+   - ✅ Casino comps and theoretical loss, with calculator: `/casino-comps/` (2026-09-03).
    - Players cards compared (Caesars Rewards, MGM Rewards, Boyd, Station,
      Wynn): earn rates, tiers, what actually pays. Table format (LVA's fee
      tables pattern).
 4. ✅ Worker: path allowlist → assets. `/j` kept. Everything else 410.
-5. Sitemap is live at /sitemap.xml; still to submit to GSC + Bing/IndexNow.
+5. ✅ Sitemap live at /sitemap.xml; submitted to GSC (API, 2026-09-03) and pinged via IndexNow.
 
 ## Growth (2c) candidates, in order
-Comp calculator (pairs with the comps guide) → tournament bet sizer (a
+Tournament bet sizer (a
 one-screen "what should I bet on the last hand" tool, the Wong rules
 encoded) → video poker trainer.
 

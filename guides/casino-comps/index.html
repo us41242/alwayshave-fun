@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casino Comps Explained: Theoretical Loss, ADT, and a Comp Calculator</title>
+<meta name="description" content="How casinos decide what you get for free: theoretical loss (theo), average daily theo, rated edge, and the 30 to 40 percent reinvestment rule. Work out what your play is worth with the calculator, and why comps never make gambling profitable.">
+<link rel="canonical" href="https://alwayshave.fun/casino-comps/">
+<meta property="og:title" content="Casino Comps Explained: Theo, ADT, and a Comp Calculator">
+<meta property="og:description" content="The math the host uses on you, with a calculator that runs it on your own play.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://alwayshave.fun/casino-comps/">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Libre+Franklin:wght@400;700&display=swap">
+<link rel="stylesheet" href="/site.css">
+<style>
+.calc{background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.calc label{display:block;font-size:.85rem;color:var(--dim);margin-top:.6rem}
+.calc input,.calc select{width:100%;margin-top:.2rem;padding:.55rem .6rem;border-radius:8px;border:1px solid var(--line);background:var(--felt-deep);color:var(--cream);font:inherit;font-size:1rem}
+.calc .row{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.out{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem}
+.out .big{font-family:"Big Shoulders Display",Impact,sans-serif;font-size:2.2rem;font-weight:900;color:var(--brass);line-height:1}
+.out small{color:var(--dim)}
+.out table{margin:.6rem 0 0}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Casino Comps Explained: Theoretical Loss, ADT, and a Comp Calculator","datePublished":"2026-09-03","dateModified":"2026-09-03","author":{"@type":"Organization","name":"alwayshave.fun"},"publisher":{"@type":"Organization","name":"alwayshave.fun"},"mainEntityOfPage":"https://alwayshave.fun/casino-comps/"}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="/">ALWAYS<span>HAVE</span>.FUN</a><a href="/final-hand/">Play Final Hand</a></nav>
+
+<h1>Casino comps explained: <span>what your play is worth</span></h1>
+<p class="lede">A comp is not a gift. It is a refund of a fixed slice of what the casino expects to win from you, computed from four numbers you control. Here is the formula the host runs on you, and a <a href="#calculator">calculator</a> that runs it on your own play.</p>
+
+<p class="toc">On this page: <a href="#theo">theoretical loss</a> · <a href="#rated">rated edge</a> · <a href="#reinvest">the reinvestment rate</a> · <a href="#calculator">calculator</a> · <a href="#adt">ADT and offers</a> · <a href="#levers">the levers</a> · <a href="#never">what comps never do</a> · <a href="#sources">sources</a></p>
+
+<h2 id="theo">Theoretical loss: the only number the casino cares about</h2>
+<p>When a pit boss "rates" your play, or a slot club card tracks your coin-in, the casino is building one figure: your <b>theoretical loss</b>, called <b>theo</b>. It is not what you actually won or lost. It is what the math says you should have lost:</p>
+<div class="ex"><b>Theo = average bet × decisions per hour × hours × house edge</b></div>
+<div class="ex">
+  $25 blackjack, 70 hands an hour, 4 hours, rated at a 2% edge:<br>
+  25 × 70 × 4 × 0.02 = <b>$140</b> of theo.<br>
+  Walk away $600 up or $600 down and the casino still values that session at $140.
+</div>
+<p>This is why a lucky winning weekend still earns you an offer, and a brutal losing one does not earn extra. Actual results are noise to the casino. Theo is the signal, and everything they give you is priced from it.</p>
+
+<h2 id="rated">Rated edge: the casino grades the game, not you</h2>
+<p>For table games the house edge in the formula is not your edge. It is a fixed number the property assigns to the game, based on how an average player plays it. Blackjack is commonly rated around 2%, even though a perfect basic-strategy player faces about 0.5% on a decent game. Craps pass line is rated near its true 1.4%. Double-zero roulette is 5.3%.</p>
+<p>That gap matters. A basic-strategy blackjack player is being comped as if losing four times faster than they really are. Per dollar of real expected loss, blackjack played well is the best comp deal in the pit. Play badly and the gap closes to nothing.</p>
+<p>Slots and video poker are the reverse: the machine reports exact coin-in, and the club pays points on it at a published rate. There is no rating floor to fight over, but there is also no way to be graded better than you play. A 9/6 Jacks or Better machine at 0.46% edge and a 10% penny slot earn the same points per dollar through the card. They cost you very different amounts to earn them.</p>
+
+<h2 id="reinvest">The reinvestment rate: 30 to 40 cents on the theo dollar</h2>
+<p>Casinos give back a share of theo in comps, offers, and free play. The share is called the reinvestment rate. The widely reported range for Strip and locals properties is <b>roughly 30 to 40 percent of theo</b>, higher for top-tier hosted players and lower on games the property considers already generous. It is not published. It is inferred from what players report getting, and it moves with the property's mood and the calendar.</p>
+<div class="ex">
+  $140 theo × 35% ≈ <b>$49</b> in comp value.<br>
+  That is the buffet, or a chunk of a room rate, for four hours at $25 a hand.
+</div>
+<p>Read that the other way round and you have the price list: <b>every $1 of comp costs you about $2.50 to $3.30 of expected loss.</b> A $300 "free" room is a $750 to $1,000 expected-loss purchase. That is the honest frame, and it is the one every credible comps writer uses.</p>
+
+<h2 id="calculator">Comp calculator</h2>
+<p>Pick a game, or set the edge and pace yourself. Numbers are per trip. The blackjack preset uses the rated edge, not the true edge, because that is what the host uses.</p>
+<div class="calc" id="calc">
+  <label>Game
+    <select id="game">
+      <option value="0.02,70">Blackjack (rated ~2%, 70 hands/hr)</option>
+      <option value="0.014,30">Craps pass line (1.4%, 30 decisions/hr)</option>
+      <option value="0.0106,70">Baccarat, banker (1.06%, 70 hands/hr)</option>
+      <option value="0.053,35">Roulette, double zero (5.3%, 35 spins/hr)</option>
+      <option value="0.0046,600">Video poker 9/6 JoB (0.46%, 600 hands/hr)</option>
+      <option value="0.08,600">Slots (8%, 600 spins/hr)</option>
+      <option value="custom">Custom</option>
+    </select>
+  </label>
+  <div class="row">
+    <label>House edge % <input id="edge" type="number" step="0.01" min="0" value="2"></label>
+    <label>Decisions per hour <input id="pace" type="number" step="1" min="1" value="70"></label>
+  </div>
+  <div class="row">
+    <label>Average bet $ <input id="bet" type="number" step="1" min="0" value="25"></label>
+    <label>Hours played this trip <input id="hours" type="number" step="0.5" min="0" value="4"></label>
+  </div>
+  <label>Reinvestment rate % <input id="rate" type="number" step="1" min="0" max="100" value="35"></label>
+  <div class="out">
+    <div class="big" id="theoOut">$140</div>
+    <small>theoretical loss the casino books for this play</small>
+    <table>
+      <tr><th>Expected comp value at your rate</th><td id="compOut">$49</td></tr>
+      <tr><th>Comp range at 30% to 40%</th><td id="rangeOut">$42 to $56</td></tr>
+      <tr><th>Your expected loss per $1 of comp</th><td id="costOut">$2.86</td></tr>
+      <tr><th>Total wagered (coin-in)</th><td id="handleOut">$7,000</td></tr>
+    </table>
+  </div>
+</div>
+<p class="why">Point-based clubs publish their own rate instead of a percentage. Caesars Rewards, for example, pays 1 Reward Credit per $5 of slot coin-in and a Reward Credit spends at one cent, so the published slot rebate is 0.2% of coin-in before tier multipliers and mailers. Check the current earn table at the club desk; these change.</p>
+
+<h2 id="adt">ADT: why the offers come in the mail</h2>
+<p>Comps at the table are the small half. The big half is the mail: free rooms, free play, resort credit. Those are driven by <b>average daily theo (ADT)</b>, your theo per gaming day averaged over recent trips, usually the last 12 months. A host or the marketing system sorts players into ADT bands and each band gets a tier of offers.</p>
+<ul>
+  <li><b>Fewer, bigger days beat many small ones.</b> $600 of theo in one day is a $600 ADT. The same $600 spread over three days is a $200 ADT. Same money, worse offers.</li>
+  <li><b>A day counts as a day.</b> Putting your card in for ten minutes on a day off from gambling drags the average down.</li>
+  <li><b>New cards get a look.</b> Properties often send a new player their most aggressive offers to discover their real ADT. Once the system has a history it stops guessing in your favour.</li>
+</ul>
+
+<h2 id="levers">The levers you actually control</h2>
+<ol>
+  <li><b>Play the low-edge version of whatever you play.</b> Rated edge is per game, so perfect blackjack or a 9/6 video poker pay table earns the same points as the sloppy version at a fraction of the real cost.</li>
+  <li><b>Slow down at the tables.</b> Theo is per decision. A full table at 50 hands an hour racks up the same rating as an empty one at 200, and the pit tracks time and average bet, not hands. Fewer hands at the same rating is a smaller real loss.</li>
+  <li><b>Get rated for every minute.</b> Card in before the first bet. Unrated play is a donation.</li>
+  <li><b>Ask, before you leave, not after.</b> Comps are discretionary. The pit or host can only give what the theo supports, but they will not offer what you do not request.</li>
+  <li><b>Concentrate play.</b> One property, fewer days, bigger ADT. Splitting $500 of theo across three clubs makes you nobody's customer.</li>
+  <li><b>Tournaments are theo you don't pay for.</b> An invitational blackjack tournament is usually a comp itself. Your bet size in it is irrelevant to your rating, and the prize money is real. <a href="/blackjack-tournament-strategy/">Learn the tournament math</a> and <a href="/final-hand/">practice it</a>.</li>
+</ol>
+
+<h2 id="never">What comps never do</h2>
+<p>Comps lower the price of a trip you were going to take anyway. They do not turn a negative-expectation game positive. The numbers above make that plain: the casino returns a third of what it expects to win, and it expects to win. Anyone selling you a comp "system" that beats the house is selling the other two thirds.</p>
+<p>The exceptions are narrow and well documented elsewhere: full-pay video poker with a strong enough cashback rate, and promotion stacking, where the total of points, mailers, and multipliers exceeds the edge. Both need a specific machine and a specific promotion and vanish the moment the casino notices. That is a separate subject and it is not the game most people are playing.</p>
+
+<h2 id="sources">Sources</h2>
+<ul>
+  <li>Jean Scott, <i>The Frugal Gambler</i> series (Huntington Press): the reinvestment-rate framing and the ADT lever list.</li>
+  <li>Michael Shackleford, wizardofodds.com: house edge by game and hands-per-hour tables used in the presets.</li>
+  <li>Las Vegas Advisor and its Question of the Day archive on comp rating practice and the 2% blackjack rating convention.</li>
+  <li>Caesars Rewards published earning rules for the Reward Credit figure above.</li>
+</ul>
+<p class="why">Everything on this page is arithmetic and cited practice. Rating conventions and reinvestment rates differ by property and change without notice. Nothing here makes a casino game profitable.</p>
+
+<footer>Strategy and education only. Gambling problem? Call 1-800-GAMBLER. <a href="/">alwayshave.fun</a></footer>
+</div>
+<script>
+// ponytail: theo math inline; the whole calculator is one multiply.
+const $ = id => document.getElementById(id);
+const theo = (bet, pace, hours, edge) => bet * pace * hours * edge;
+console.assert(theo(25, 70, 4, 0.02) === 140, 'theo formula');
+const money = n => '$' + Math.round(n).toLocaleString('en-US');
+function run(){
+  const bet = +$('bet').value, pace = +$('pace').value, hours = +$('hours').value;
+  const edge = +$('edge').value / 100, rate = +$('rate').value / 100;
+  const t = theo(bet, pace, hours, edge);
+  $('theoOut').textContent = money(t);
+  $('compOut').textContent = money(t * rate);
+  $('rangeOut').textContent = money(t * 0.3) + ' to ' + money(t * 0.4);
+  $('costOut').textContent = rate > 0 ? '$' + (1 / rate).toFixed(2) : '—';
+  $('handleOut').textContent = money(bet * pace * hours);
+}
+$('game').addEventListener('change', e => {
+  if (e.target.value !== 'custom') {
+    const [edge, pace] = e.target.value.split(',');
+    $('edge').value = +edge * 100; $('pace').value = pace;
+  }
+  run();
+});
+['edge','pace','bet','hours','rate'].forEach(id => $(id).addEventListener('input', run));
+run();
+</script>
+</body>
+</html>

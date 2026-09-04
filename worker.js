@@ -10,9 +10,11 @@ const ROUTES = {
   '/': '/index.html',
   '/final-hand/': '/games/final-hand/index.html',
   '/blackjack-tournament-strategy/': '/guides/blackjack-tournament-strategy/index.html',
+  '/casino-comps/': '/guides/casino-comps/index.html',
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',
+  '/3d00877f1b744d7898b2862b4c5e94fd.txt': '/3d00877f1b744d7898b2862b4c5e94fd.txt', // IndexNow key
 };
 
 export default {

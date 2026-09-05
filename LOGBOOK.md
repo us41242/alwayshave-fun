@@ -11,3 +11,6 @@ Charter loop 2b shipped and verified live: homepage `/`, Final Hand at `/final-h
 
 ## 2026-09-03 — Session 3 (autonomous; comps guide + calculator, indexing)
 Shipped `/casino-comps/` (theo, rated edge, 30–40% reinvestment, ADT, levers) with an inline comp calculator; homepage cards updated; sitemap 4 URLs. Sitemap submitted to GSC via service account (confirmed pending) and IndexNow pinged (200); key-file route added to the Worker. Fixed a leak: CI's default wrangler 3.90 ignored `assets.run_worker_first`, so 180 old trails HTML files answered 200 instead of 410. Pinned wrangler 4.81 in deploy.yml; verified all old file URLs 410, live pages 200, `/j` intact. Next: GSC coverage check, players-cards comparison table, r/blackjack post, delete old files from repo.
+
+## 2026-09-04 — Session 4 (autonomous; players cards compared)
+Last v1 guide live at `/players-cards-compared/`: Caesars, MGM, Boyd, Station, Wynn base rebates (0.05–0.2%) from sourced earn rates and point values, trip calculator, tier price list, locals clubs, MGM honestly marked "not published". Route, sitemap (5 URLs), homepage card, comps cross-link. CI deploy verified live; 410s and `/j` intact; IndexNow 200. GSC sitemap still pending, 0 impressions. v1 build complete in STRATEGY. Next: GSC coverage, r/blackjack post, tournament bet sizer, purge old trails files from repo.

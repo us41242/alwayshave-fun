@@ -11,6 +11,7 @@ const ROUTES = {
   '/final-hand/': '/games/final-hand/index.html',
   '/blackjack-tournament-strategy/': '/guides/blackjack-tournament-strategy/index.html',
   '/casino-comps/': '/guides/casino-comps/index.html',
+  '/players-cards-compared/': '/guides/players-cards-compared/index.html',
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',

@@ -16,15 +16,14 @@ brand direction). Math and cited sources (Wong, Smith, Wizard of Odds), never
 invented anecdotes. Honest about comps: they lower the cost of play, they
 don't make you a winner.
 
-## v1 build (charter loop 2b) — shipped 2026-09-02 except the last two guides
+## v1 build (charter loop 2b) — complete 2026-09-04
 1. ✅ Homepage: one screen, one CTA into Final Hand, guide links.
 2. ✅ `games/final-hand/` live at `/final-hand/` with coach mode.
 3. Cornerstone guides (each links into a game/calculator):
    - ✅ Blackjack tournament strategy: `/blackjack-tournament-strategy/`.
    - ✅ Casino comps and theoretical loss, with calculator: `/casino-comps/` (2026-09-03).
-   - Players cards compared (Caesars Rewards, MGM Rewards, Boyd, Station,
-     Wynn): earn rates, tiers, what actually pays. Table format (LVA's fee
-     tables pattern).
+   - ✅ Players cards compared: `/players-cards-compared/` (2026-09-04). Base
+     rebate table, trip calculator, tier price list, locals clubs.
 4. ✅ Worker: path allowlist → assets. `/j` kept. Everything else 410.
 5. ✅ Sitemap live at /sitemap.xml; submitted to GSC (API, 2026-09-03) and pinged via IndexNow.
 

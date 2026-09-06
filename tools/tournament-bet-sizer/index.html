@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blackjack Tournament Bet Sizer: What to Bet on the Last Hand</title>
+<meta name="description" content="Enter your stack, the leader's stack, and their bet. Get the final-hand bet that covers them, the double-cover number, whether betting to lose is on, and how to defend a lead. The Wong chase math, on one screen.">
+<link rel="canonical" href="https://alwayshave.fun/tournament-bet-sizer/">
+<meta property="og:title" content="Blackjack Tournament Bet Sizer">
+<meta property="og:description" content="Your stack, their stack, their bet. The last-hand bet that covers them, in one tap.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alwayshave.fun/tournament-bet-sizer/">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Libre+Franklin:wght@400;700&display=swap">
+<link rel="stylesheet" href="/site.css">
+<style>
+.calc{background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.calc label{display:block;font-size:.85rem;color:var(--dim);margin-top:.6rem}
+.calc input{width:100%;margin-top:.2rem;padding:.6rem .6rem;border-radius:8px;border:1px solid var(--line);background:var(--felt-deep);color:var(--cream);font:inherit;font-size:1.1rem;font-variant-numeric:tabular-nums}
+.calc .row{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.out{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem}
+.big{font-family:"Big Shoulders Display",Impact,sans-serif;font-weight:900;font-size:2.6rem;color:var(--brass);line-height:1}
+.out small{color:var(--dim)}
+.out p{margin:.5rem 0}
+.tag{display:inline-block;font-size:.75rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:6px;padding:.15rem .5rem;background:var(--brass);color:#231b06}
+.tag.lose{background:var(--chip-red);color:var(--cream)}
+.tag.lead{background:var(--good);color:#0b241a}
+.ok{color:var(--good)} .no{color:var(--bad)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="/">ALWAYS<span>HAVE</span>.FUN</a><a href="/final-hand/">Play Final Hand</a></nav>
+
+<h1>Tournament <span>bet sizer</span></h1>
+<p class="lede">Last hand of a blackjack tournament. You know your stack, their stack, and (if you bet after them) their bet. This gives you the bet, in the twenty seconds you have. The math is from <a href="/blackjack-tournament-strategy/">the tournament strategy guide</a>; the trainer that drills it is <a href="/final-hand/">Final Hand</a>.</p>
+
+<div class="calc" id="calc">
+  <div class="row">
+    <label>Your stack $ <input id="me" type="number" inputmode="numeric" min="0" step="1" value="1800"></label>
+    <label>Their stack $ <input id="them" type="number" inputmode="numeric" min="0" step="1" value="2600"></label>
+  </div>
+  <div class="row">
+    <label>Their bet $ (bet first? your best guess) <input id="tb" type="number" inputmode="numeric" min="0" step="1" value="500"></label>
+    <label>Table minimum / chip $ <input id="chip" type="number" inputmode="numeric" min="1" step="1" value="25"></label>
+  </div>
+  <label>Table maximum $ (blank = no max) <input id="max" type="number" inputmode="numeric" min="0" step="1" placeholder="none"></label>
+  <div class="out" id="out"></div>
+</div>
+
+<h2>How it decides</h2>
+<ol>
+  <li><b>Behind, and they bet small</b>: bet gap + their bet + one chip. That wins both "you win" outcomes. If their double would pass you and you can afford it, cover the double too.</li>
+  <li><b>Behind, and they bet big</b>: if a minimum bet leaves you ahead when the dealer beats you both, bet the minimum. The dealer beats a player on roughly 48% of hands, better odds than winning a big bet <i>and</i> needing them to lose. Then stand on your stiffs; you want the dealer to make a hand.</li>
+  <li><b>Behind, and a flat bet can't reach</b>: the sizer shows the bet that reaches with a double, or with a natural. If nothing reaches, bet everything except one chip: if the dealer wipes the table you hold the only chips.</li>
+  <li><b>Leading</b>: match the threat's bet. Only "they win, you lose" beats you. If their absolute maximum (a natural on their whole stack, 2.5×) can't pass you, bet the minimum and coast.</li>
+</ol>
+<p class="why">"Their bet" is the one player you are racing for the advancing spot, usually the stack nearest yours on the wrong side. Rounding is to your chip size, and every target is one chip more than the tie, because a tie usually goes to the player with the button or by another house rule, not to you. Nothing here changes the house edge; it changes which outcome you win the table in.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li>Stanford Wong, <i>Casino Tournament Strategy</i> (Pi Yee Press): the chase bet, betting to lose, the held-back chip.</li>
+  <li>Kenneth R. Smith, blackjackinfo.com tournament series: covering the double, defending a lead.</li>
+  <li>Michael Shackleford, wizardofodds.com: the dealer-wins and player-wins frequencies used above.</li>
+</ul>
+<p class="why">Strategy and education only. Nothing here guarantees a win.</p>
+
+<footer>Strategy and education only. Gambling problem? Call 1-800-GAMBLER. <a href="/">alwayshave.fun</a></footer>
+</div>
+<script>
+// ponytail: the whole sizer is a few comparisons; kept as one pure function so it can be asserted.
+const $ = id => document.getElementById(id);
+const money = n => '$' + Math.round(n).toLocaleString('en-US');
+// smallest multiple of chip strictly greater than x
+const over = (x, chip) => (Math.floor(x / chip) + 1) * chip;
+// largest multiple of chip strictly less than x (or 0)
+const under = (x, chip) => Math.max(0, Math.ceil(x / chip) - 1) * chip;
+
+function size({me, them, tb, chip, max}) {
+  const cap = b => (max ? b <= max : true) && b <= me;
+  if (me > them) { // leader
+    const lead = me - them, theirMax = them * 2.5;
+    if (me - chip > theirMax) return {mode: 'lead', bet: chip, coast: true, lead, theirMax};
+    const match = Math.min(Math.max(tb, chip), me);
+    const dblPasses = them + 2 * tb > me + match;
+    return {mode: 'lead', bet: match, coast: false, lead, theirMax, dblPasses};
+  }
+  const gap = them - me;
+  const flat = over(gap + tb, chip), dbl = over(gap + 2 * tb, chip);
+  const viaDouble = over((gap + tb) / 2, chip), viaBJ = over((gap + tb) / 1.5, chip);
+  const loseMax = under(tb - gap, chip); // largest bet that stays ahead if both lose
+  const canLose = loseMax >= chip;
+  const r = {mode: 'chase', gap, flat, dbl, viaDouble, viaBJ, canLose, loseMax,
+             flatOk: cap(flat), dblOk: cap(dbl), viaDoubleOk: cap(viaDouble) && viaDouble * 2 <= me, viaBJOk: cap(viaBJ)};
+  if (canLose) { r.mode = 'lose'; r.bet = chip; }
+  else if (r.flatOk) r.bet = r.dblOk ? dbl : flat;
+  else if (r.viaDoubleOk) r.bet = viaDouble;
+  else if (r.viaBJOk) r.bet = viaBJ;
+  else r.bet = Math.max(chip, me - chip);
+  return r;
+}
+// self-checks: the worked examples from the guide
+console.assert(size({me:1800,them:2600,tb:500,chip:25}).flat === 1325, 'chase flat');
+console.assert(size({me:1800,them:2600,tb:500,chip:25}).dbl === 1825, 'chase double cover');
+console.assert(size({me:1800,them:2600,tb:1000,chip:25}).mode === 'lose', 'bet to lose');
+console.assert(size({me:1800,them:2600,tb:1000,chip:25}).loseMax === 175, 'lose ceiling');
+console.assert(size({me:2600,them:1800,tb:800,chip:25}).bet === 800, 'leader match');
+console.assert(size({me:5000,them:1800,tb:800,chip:25}).coast === true, 'leader coast');
+
+function run() {
+  const v = {me: +$('me').value, them: +$('them').value, tb: +$('tb').value, chip: Math.max(1, +$('chip').value), max: +$('max').value || 0};
+  if (!v.me || !v.them) { $('out').innerHTML = '<p class="why">Enter both stacks.</p>'; return; }
+  const r = size(v), o = [];
+  if (r.mode === 'lead') {
+    o.push(`<span class="tag lead">You lead by ${money(r.lead)}</span>`);
+    o.push(`<div class="big">${money(r.bet)}</div>`);
+    if (r.coast) o.push(`<small>Bet the minimum and coast. Their best case is a natural on their whole stack, ${money(r.theirMax)}, and that still doesn't pass ${money(v.me - r.bet)}.</small>`);
+    else {
+      o.push(`<small>Match the threat's bet. Both win or both lose and your lead holds; only "they win, you lose" beats you.</small>`);
+      if (r.dblPasses) o.push(`<p class="no">If they double and you both win they finish at ${money(v.them + 2 * v.tb)} to your ${money(v.me + r.bet)}. Covering that means betting ${money(over(2 * v.tb - r.lead, v.chip))}, which loses more if the dealer beats the table. Most leaders take the match and accept the double risk.</p>`);
+      o.push(`<p class="why">Their absolute maximum is ${money(r.theirMax)} (a natural on everything). Betting before them? Assume they will bet to cover you.</p>`);
+    }
+  } else {
+    o.push(`<span class="tag${r.mode === 'lose' ? ' lose' : ''}">${r.mode === 'lose' ? 'Bet to lose' : 'Chase'} · ${money(r.gap)} behind</span>`);
+    o.push(`<div class="big">${money(r.bet)}</div>`);
+    if (r.mode === 'lose') {
+      o.push(`<small>Bet the minimum. If the dealer beats you both they drop to ${money(v.them - v.tb)} and you keep ${money(v.me - r.bet)}. Any bet up to ${money(r.loseMax)} stays ahead in that case. Now play for the dealer to make a hand: stand on your stiffs.</small>`);
+      o.push(`<p class="why">The chase alternative is ${money(r.flat)}${r.flatOk ? '' : ' (out of reach)'}, which needs you to win the hand. The dealer beating you both is the more likely single outcome.</p>`);
+    } else {
+      o.push(`<small>${r.bet === r.dbl ? 'Covers their flat bet <i>and</i> their double.' : r.bet === r.flat ? 'Covers their flat bet: a win clears them even if they also win.' : r.bet === r.viaDouble ? 'A flat bet can\'t reach. Bet this and <b>double</b> on the hand to pass them.' : r.bet === r.viaBJ ? 'Only a natural reaches from here. Bet this and hope for the blackjack.' : 'Nothing reaches. Bet everything except one chip: if the dealer wipes the table, you hold the only chips.'}</small>`);
+      o.push(`<table>
+        <tr><th>Cover their flat bet</th><td>${money(r.flat)}</td><td class="${r.flatOk ? 'ok' : 'no'}">${r.flatOk ? 'reachable' : 'out of reach'}</td></tr>
+        <tr><th>Cover their double</th><td>${money(r.dbl)}</td><td class="${r.dblOk ? 'ok' : 'no'}">${r.dblOk ? 'reachable' : 'out of reach'}</td></tr>
+        <tr><th>Reach with your double</th><td>${money(r.viaDouble)}</td><td class="${r.viaDoubleOk ? 'ok' : 'no'}">${r.viaDoubleOk ? 'reachable' : 'out of reach'}</td></tr>
+        <tr><th>Reach with a natural</th><td>${money(r.viaBJ)}</td><td class="${r.viaBJOk ? 'ok' : 'no'}">${r.viaBJOk ? 'reachable' : 'out of reach'}</td></tr>
+      </table>`);
+      o.push(`<p class="why">Betting to lose is off: their bet (${money(v.tb)}) doesn't exceed the gap by a full chip, so the dealer beating you both doesn't put you ahead.</p>`);
+    }
+  }
+  $('out').innerHTML = o.join('');
+}
+document.querySelectorAll('#calc input').forEach(i => i.addEventListener('input', run));
+run();
+</script>
+</body>
+</html>

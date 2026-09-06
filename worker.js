@@ -12,6 +12,7 @@ const ROUTES = {
   '/blackjack-tournament-strategy/': '/guides/blackjack-tournament-strategy/index.html',
   '/casino-comps/': '/guides/casino-comps/index.html',
   '/players-cards-compared/': '/guides/players-cards-compared/index.html',
+  '/tournament-bet-sizer/': '/tools/tournament-bet-sizer/index.html',
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',

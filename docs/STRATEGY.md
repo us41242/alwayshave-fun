@@ -28,9 +28,16 @@ don't make you a winner.
 5. ✅ Sitemap live at /sitemap.xml; submitted to GSC (API, 2026-09-03) and pinged via IndexNow.
 
 ## Growth (2c) candidates, in order
-Tournament bet sizer (a
-one-screen "what should I bet on the last hand" tool, the Wong rules
-encoded) → video poker trainer.
+1. ✅ Tournament bet sizer: `/tournament-bet-sizer/` (2026-09-05). One
+   screen, Wong's last-hand rules encoded, asserted against the guide.
+2. Video poker trainer (9/6 Jacks or Better hold/discard coach).
+
+## Distribution
+Reddit account u/StunningOpinion7483 (session cookie at
+~/.camoufox-mcp/sessions/reddit.pw.json, token via scripts/reddit_token.py,
+Mac only). Register: answer real questions, disclose, never announce the
+site as a post (r/blackjack "I built a site" posts sit at 0). First
+comment 2026-09-05 on r/blackjack "Blackjack Tournament Tomorrow".
 
 ## Monetization (2d) — all require asking Josh first
 Ads once there are real users; affiliate links only with approval; premium

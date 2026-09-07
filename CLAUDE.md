@@ -8,8 +8,8 @@ overrides anything below that conflicts with it.
 ## What this project is (since 2026-08-31)
 Vegas strategy site: playable trainers (start: `games/final-hand/`, a
 blackjack tournament trainer) + beat-vegas / players-card / comps guides.
-Goal: profitability. The old trails/air-quality site is retired — its files
-still litter this repo until the v1 build cleans them out; do not resurrect
+Goal: profitability. The old trails/air-quality site is retired and its files were purged from
+the repo 2026-09-06 (archives: docs/*-ahf-retired.md); do not resurrect
 any trails URL (all 410).
 
 ## Permissions

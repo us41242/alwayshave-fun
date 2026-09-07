@@ -32,6 +32,9 @@ don't make you a winner.
    screen, Wong's last-hand rules encoded, asserted against the guide.
 2. Video poker trainer (9/6 Jacks or Better hold/discard coach).
 
+Indexing: sitemap submitted 09-03, never downloaded by 09-06; Indexing API
+nudge sent for all 6 URLs 2026-09-06. Repo purged of trails files 09-06.
+
 ## Distribution
 Reddit account u/StunningOpinion7483 (session cookie at
 ~/.camoufox-mcp/sessions/reddit.pw.json, token via scripts/reddit_token.py,

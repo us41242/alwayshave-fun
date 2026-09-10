@@ -35,15 +35,31 @@ don't make you a winner.
 3. Candidates: Deuces Wild pay table in the same trainer; pay-table
    identifier; more only once something is indexed. Links are the bottleneck.
 
-Indexing: sitemap submitted 09-03, never downloaded by 09-06; Indexing API
-nudge sent for all 6 URLs 2026-09-06. Repo purged of trails files 09-06.
+Indexing: sitemap submitted 09-03, still never downloaded by 09-09. On
+09-09 found the sitemap had declared the wrong XML namespace since 09-02
+(`sitemaps.org/schema/`, singular — the protocol is `schemas/`); fixed and
+re-registered in GSC, Bing SubmitUrlBatch/SubmitFeed, IndexNow, Indexing API.
+Bing crawls the host 11-17 pages/day but has never fetched a non-homepage
+page; Bing reports **InLinks: 2** for the whole domain. Both engines take the
+homepage and decline its internal links. Diagnosis: host-level crawl demotion
+after the 2,900-URL 410 purge, plus no inbound links. Cloudflare and robots
+ruled out. Repo purged of trails files 09-06.
 
 ## Distribution
 Reddit account u/StunningOpinion7483 (session cookie at
 ~/.camoufox-mcp/sessions/reddit.pw.json, token via scripts/reddit_token.py,
-Mac only). Register: answer real questions, disclose, never announce the
-site as a post (r/blackjack "I built a site" posts sit at 0). First
-comment 2026-09-05 on r/blackjack "Blackjack Tournament Tomorrow".
+Mac only). Register: answer real questions, disclose. Whether a *post* is
+welcome is sub-specific, not a genre rule:
+- **r/blackjack — comments only.** Rule 3 bans sharing "any new apps/sim
+  sites/similar AI vibed garbage". Answer questions, do not link the site.
+  First comment 2026-09-05 on "Blackjack Tournament Tomorrow".
+- **r/VideoPoker — posts welcome.** A trainer launch (smartholdvp.com,
+  2026-08-04) scored 9 with 24 comments and became a feature-request
+  thread. Ours posted 2026-09-09: https://redd.it/1wc8lvp.
+- **r/gambling — self-promo allowed** at the stated 10:1 ratio.
+Competitor noted from that thread: smartholdvp has spaced repetition,
+custom/shareable pay tables, multi-play, leaderboards, Android + iOS. Our
+edge is exact enumeration instead of a chart, and nothing to install or buy.
 
 ## Monetization (2d) — all require asking Josh first
 Ads once there are real users; affiliate links only with approval; premium

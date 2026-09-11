@@ -32,8 +32,12 @@ don't make you a winner.
    screen, Wong's last-hand rules encoded, asserted against the guide.
 2. ✅ Video poker trainer: `/video-poker-trainer/` (2026-09-07). Exact EV of all
    32 holds by full enumeration; coach, hint, session stats.
-3. Candidates: Deuces Wild pay table in the same trainer; pay-table
-   identifier; more only once something is indexed. Links are the bottleneck.
+3. ✅ Bonus Poker (8/5) + Double Double Bonus (9/6) added to the VP trainer
+   (2026-09-10), a pay-table selector on the generic exact-EV engine. Built to
+   a direct r/VideoPoker request (priority bonus > ddb > deuces).
+4. Candidates: Deuces Wild (next request, but needs a new wild-card hand
+   evaluator — not a table swap); pay-table identifier; more only once
+   something is indexed. Links are the bottleneck.
 
 Indexing: sitemap submitted 09-03, still never downloaded by 09-09. On
 09-09 found the sitemap had declared the wrong XML namespace since 09-02

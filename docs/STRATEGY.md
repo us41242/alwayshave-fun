@@ -35,9 +35,14 @@ don't make you a winner.
 3. ✅ Bonus Poker (8/5) + Double Double Bonus (9/6) added to the VP trainer
    (2026-09-10), a pay-table selector on the generic exact-EV engine. Built to
    a direct r/VideoPoker request (priority bonus > ddb > deuces).
-4. Candidates: Deuces Wild (next request, but needs a new wild-card hand
-   evaluator — not a table swap); pay-table identifier; more only once
-   something is indexed. Links are the bottleneck.
+4. ✅ Full-Pay Deuces Wild (2026-09-11), the #3 request. Needed a real
+   wild-card evaluator (`dwRank`), not a table swap — wilds add four-deuces,
+   wild royal and five-of-a-kind categories. 25/15/9/5/3/2/2/1, 100.76%: the
+   one commonly available positive-expectation VP game. Requester's list
+   (bonus > ddb > deuces) is now complete.
+5. Candidates: pay-table identifier; the positive-expectation-game hook on the
+   homepage/guides; more trainers only once something is indexed. **Links /
+   indexing are the bottleneck** — product direction is not.
 
 Indexing: sitemap submitted 09-03, still never downloaded by 09-09. On
 09-09 found the sitemap had declared the wrong XML namespace since 09-02

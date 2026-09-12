@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Video Poker Trainer: Jacks or Better, Bonus Poker & Double Double Bonus, Exact-Math Coach</title>
-<meta name="description" content="Play 9/6 Jacks or Better, 8/5 Bonus Poker, or 9/6 Double Double Bonus and get coached on every hold. The trainer computes the exact expected value of all 32 ways to hold your hand for the pay table you pick, shows the best one, and tracks what your mistakes cost.">
+<title>Video Poker Trainer: Jacks or Better, Bonus Poker, Double Double Bonus & Deuces Wild, Exact-Math Coach</title>
+<meta name="description" content="Play 9/6 Jacks or Better, 8/5 Bonus Poker, 9/6 Double Double Bonus, or Full-Pay Deuces Wild (the 100.76% game) and get coached on every hold. The trainer computes the exact expected value of all 32 ways to hold your hand for the pay table you pick, shows the best one, and tracks what your mistakes cost. Free, no account, no install.">
 <link rel="canonical" href="https://alwayshave.fun/video-poker-trainer/">
-<meta property="og:title" content="Video Poker Trainer: Jacks or Better, Bonus Poker & Double Double Bonus, coached">
-<meta property="og:description" content="Pick a pay table and every hold is scored by exact expected value. See the best hold, what yours cost, and learn the strategy by playing.">
+<meta property="og:title" content="Video Poker Trainer: Jacks or Better, Bonus Poker, Double Double Bonus & Deuces Wild, coached">
+<meta property="og:description" content="Pick a pay table — including Full-Pay Deuces Wild — and every hold is scored by exact expected value. See the best hold, what yours cost, and learn the strategy by playing. Free, no account.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://alwayshave.fun/video-poker-trainer/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Libre+Franklin:wght@400;700&display=swap">
@@ -44,7 +44,7 @@
 <nav><a class="brand" href="/">ALWAYS<span>HAVE</span>.FUN</a><a href="/final-hand/">Play Final Hand</a></nav>
 
 <h1>Video poker <span>trainer</span></h1>
-<p class="lede">Jacks or Better, Bonus Poker, or Double Double Bonus, five coins. Pick a pay table, tap the cards you want to hold, and draw. The coach scores your hold against all 32 possible holds using the exact expected value of every draw from the remaining 47 cards <b>on the table you chose</b>, not a strategy chart, so it is right on every hand including the odd ones (Bonus and DDB change which quads and which holds are worth chasing).</p>
+<p class="lede">Jacks or Better, Bonus Poker, Double Double Bonus, or Full-Pay Deuces Wild — <b>the one common video poker game a perfect player beats (100.76%)</b> — five coins. Pick a pay table, tap the cards you want to hold, and draw. The coach scores your hold against all 32 possible holds using the exact expected value of every draw from the remaining 47 cards <b>on the table you chose</b>, so it is right on every hand including the odd ones (Bonus and DDB change which quads to chase; Deuces Wild rewrites the whole strategy around wild cards). Four pay tables in one page, free, no account, nothing to install.</p>
 
 <div class="game">
   <div class="gamepick"><label>Pay table: <select id="game"></select></label> <span id="rtp" class="why"></span></div>
@@ -114,13 +114,29 @@
 </table>
 <p class="why">Double Double Bonus is the high-variance favorite: four aces with a low kicker pays 400 (2,000 for five coins), but two pair pays only 1, which is where the return leaks. Optimal play returns 98.98%, and the strategy genuinely differs — the kicker matters, so with four cards to a quad you hold the paying kicker, and single high cards are worth more. The coach's exact math handles all of this because it re-scores every hold on the DDB payouts, kicker included.</p>
 
+<h2>Full-Pay Deuces Wild pay table (five coins)</h2>
+<table class="pay">
+  <tr><th>Hand</th><th>Pays (per coin)</th></tr>
+  <tr><td>Natural royal flush (no deuce)</td><td>800</td></tr>
+  <tr><td>Four deuces</td><td>200</td></tr>
+  <tr><td>Wild royal flush (with a deuce)</td><td>25</td></tr>
+  <tr><td>Five of a kind</td><td>15</td></tr>
+  <tr><td>Straight flush</td><td>9</td></tr>
+  <tr><td>Four of a kind</td><td>5</td></tr>
+  <tr><td>Full house</td><td>3</td></tr>
+  <tr><td>Flush</td><td>2</td></tr>
+  <tr><td>Straight</td><td>2</td></tr>
+  <tr><td>Three of a kind</td><td>1</td></tr>
+</table>
+<p class="why">All four 2s are wild, so a deuce becomes whatever card helps most. Nothing below three of a kind pays — pairs, two pair, and jacks are worthless here — which is why the whole strategy changes. This is the <b>full-pay</b> table, written "25/15/9/5/3/2/2/1" for the five-of-a-kind through straight lines; with perfect play it returns <b>100.76%</b>, the one commonly available video poker game where the math is on your side (Bob Dancer's careful players have lived on it). It is getting rare — cut tables like 20/12/10/4/4/3/2/1 ("not so ugly," 99.73%) are far more common, so read the five-of-a-kind and straight-flush lines before you sit. The coach assumes full pay. Core rule the exact math will teach you: <b>never break up wild cards</b> — the number of deuces you hold drives almost every decision (three deuces? hold just the three deuces unless you already have a wild royal).</p>
+
 <h2>Where this fits</h2>
 <p>Video poker at 99.54% is one of the cheapest games in the building, and it is rated play: the <a href="/casino-comps/">comps guide</a> shows what a session of it is worth in theo, and the <a href="/players-cards-compared/">players cards comparison</a> shows which clubs pay points on it (most do, at a lower rate than slots). Blackjack tournament player? <a href="/final-hand/">Final Hand</a> is the trainer for that.</p>
 
 <h2>Sources</h2>
 <ul>
-  <li>Michael Shackleford, wizardofodds.com, "Jacks or Better" pay-table returns and hold-EV analysis: 9/6 returns 99.5439% with optimal strategy.</li>
-  <li>Bob Dancer and Liam W. Daily, <i>Video Poker for the Intelligent Beginner</i> (Huntington Press): the strategy the exact math reproduces.</li>
+  <li>Michael Shackleford, wizardofodds.com, "Jacks or Better" pay-table returns and hold-EV analysis: 9/6 returns 99.5439% with optimal strategy; Full-Pay Deuces Wild (25/15/9/5/3/2/2/1) returns 100.7620%.</li>
+  <li>Bob Dancer and Liam W. Daily, <i>Video Poker for the Intelligent Beginner</i> and the <i>Winner's Guides</i> (Huntington Press): the strategies the exact math reproduces, including full-pay Deuces Wild.</li>
   <li>Expected values in the coach are computed on the spot, not looked up; the engine's self-checks reproduce published values (draw five 0.360, high pair 1.537).</li>
 </ul>
 <p class="why">Strategy and education only. Nothing here guarantees a win; the best play on this table still loses 0.46% of coin-in over time.</p>
@@ -130,7 +146,7 @@
 <script>
 // ---- engine (per-coin payouts at max coins) ----
 // card = 0..51; rank = c % 13 (0=2 … 8=T, 9=J, 10=Q, 11=K, 12=A); suit = c / 13 | 0
-const NAME = {RF: 'Royal flush', SF: 'Straight flush', FK: 'Four of a kind', FH: 'Full house', FL: 'Flush', ST: 'Straight', TK: 'Three of a kind', TP: 'Two pair', JB: 'Jacks or better', NO: 'Nothing'};
+const NAME = {NRF: 'Natural royal flush', WRF: 'Wild royal flush', DD: 'Four deuces', FIVE: 'Five of a kind', RF: 'Royal flush', SF: 'Straight flush', FK: 'Four of a kind', FH: 'Full house', FL: 'Flush', ST: 'Straight', TK: 'Three of a kind', TP: 'Two pair', JB: 'Jacks or better', NO: 'Nothing'};
 const cnt = new Uint8Array(13);
 function rankHand(h) { // h: array of 5 cards → hand-category key ('RF'..'JB') or 'NO'
   cnt.fill(0);
@@ -159,6 +175,34 @@ function quadInfo(h) {
   let q = -1, k = -1; for (let r = 0; r < 13; r++) { if (c[r] === 4) q = r; else if (c[r] === 1) k = r; }
   return {q, k};
 }
+// Deuces Wild evaluator: 2s (rank 0) are wild. Returns the highest-PAYING category
+// for the whole 5-card hand. Wilds take any rank/suit; the min paying hand is trips.
+function canStraight(ranks) { // ranks = natural (non-deuce) ranks; wilds fill the gaps
+  if (new Set(ranks).size !== ranks.length) return false; // a duplicate rank can't be in a straight
+  for (let start = 0; start <= 8; start++) if (ranks.every(r => r >= start && r <= start + 4)) return true;
+  return ranks.every(r => r === 12 || (r >= 1 && r <= 3)); // A-2-3-4-5 (the 2 is always a wild)
+}
+function dwRank(h) {
+  const wild = h.filter(c => c % 13 === 0).length;
+  const nat = h.filter(c => c % 13 !== 0);
+  const ranks = nat.map(c => c % 13), suits = nat.map(c => c / 13 | 0);
+  const suited = suits.every(s => s === suits[0]); // wilds are any suit; all naturals one suit ⇒ flush-able
+  const c = new Uint8Array(13); for (const r of ranks) c[r]++;
+  const maxSame = ranks.length ? Math.max(...c) : 0;
+  let pairsN = 0, tripsN = 0; for (let r = 0; r < 13; r++) { if (c[r] === 2) pairsN++; else if (c[r] === 3) tripsN++; }
+  const allRoyal = ranks.every(r => r >= 8); // T,J,Q,K,A
+  if (wild === 0 && suited && allRoyal && ranks.length === 5) return 'NRF';
+  if (wild === 4) return 'DD';
+  if (wild >= 1 && suited && allRoyal) return 'WRF';
+  if (maxSame + wild >= 5) return 'FIVE';
+  if (suited && canStraight(ranks)) return 'SF';
+  if (maxSame + wild >= 4) return 'FK';
+  if ((wild === 0 && tripsN === 1 && pairsN === 1) || (wild === 1 && pairsN === 2)) return 'FH'; // natural 3+2, or two natural pairs + a wild
+  if (suited) return 'FL';
+  if (canStraight(ranks)) return 'ST';
+  if (maxSame + wild >= 3) return 'TK';
+  return 'NO';
+}
 // pay tables. Each game's pay(h) returns coins per coin bet for a made 5-card hand.
 const GAMES = {
   job96: {name: '9/6 Jacks or Better', rtp: '99.54%',
@@ -177,7 +221,10 @@ const GAMES = {
     }
     return {RF: 800, SF: 50, FH: 9, FL: 6, ST: 4, TK: 3, TP: 1, JB: 1}[c] || 0; // two pair pays 1 in DDB
   }},
+  dw: {name: 'Full-Pay Deuces Wild', rtp: '100.76%', wild: true, rank: dwRank,
+    pay: h => ({NRF: 800, DD: 200, WRF: 25, FIVE: 15, SF: 9, FK: 5, FH: 3, FL: 2, ST: 2, TK: 1}[dwRank(h)] || 0)},
 };
+for (const g of Object.values(GAMES)) g.rank = g.rank || rankHand; // natural games score with rankHand; dw with dwRank
 let game = GAMES.job96;
 const pay = h => game.pay(h);
 
@@ -204,7 +251,9 @@ function analyze(dealt) {
 // human name for a hold, for the coach line
 function describe(held) {
   const k = held.length; if (!k) return 'nothing, draw five';
-  if (k === 5) { const r = rankHand(held); return r === 'NO' ? 'all five cards' : NAME[r].toLowerCase(); }
+  if (game.wild) { const d = held.filter(c => c % 13 === 0), o = held.filter(c => c % 13 !== 0);
+    if (d.length) return `${d.length} deuce${d.length > 1 ? 's' : ''}${o.length ? ' + ' + o.map(face).join(' ') : ''}`; }
+  if (k === 5) { const r = game.rank(held); return r === 'NO' ? 'all five cards' : NAME[r].toLowerCase(); }
   const ranks = held.map(c => c % 13), suits = new Set(held.map(c => c / 13 | 0));
   const suited = suits.size === 1, allHigh = ranks.every(r => r >= 8), hi = ranks.filter(r => r >= 9).length;
   const distinct = new Set(ranks).size;
@@ -234,6 +283,21 @@ console.assert(GAMES.bp85.pay(H('9h 9d 9s 4h 4c')) === 8 && GAMES.bp85.pay(H('Th
 console.assert(GAMES.ddb96.pay(H('Ah Ad As Ac 2h')) === 400 && GAMES.ddb96.pay(H('Ah Ad As Ac 5h')) === 160, 'ddb four aces kicker');
 console.assert(GAMES.ddb96.pay(H('2h 2d 2s 2c Ah')) === 160 && GAMES.ddb96.pay(H('2h 2d 2s 2c 9h')) === 80, 'ddb four 2-4 kicker');
 console.assert(GAMES.ddb96.pay(H('5h 5d 5s 5c 9h')) === 50 && GAMES.ddb96.pay(H('9h 9d 4h 4c Kd')) === 1, 'ddb four 5-K / two pair pays 1');
+// Deuces Wild evaluator: every category (2s are wild). rank string idx: 2=0 … A=12.
+console.assert(dwRank(H('Th Jh Qh Kh Ah')) === 'NRF', 'dw natural royal');
+console.assert(dwRank(H('2h 2d 2s 2c 5h')) === 'DD', 'dw four deuces');
+console.assert(dwRank(H('2h Jh Qh Kh Ah')) === 'WRF', 'dw wild royal');
+console.assert(dwRank(H('2h 2d 7s 7c 7h')) === 'FIVE', 'dw five of a kind');
+console.assert(dwRank(H('2h 5h 6h 7h 8h')) === 'SF' && dwRank(H('2h 4d 5s 6c 7h')) === 'ST', 'dw straight flush / straight');
+console.assert(dwRank(H('2h 9d 9s 9c 4h')) === 'FK', 'dw four of a kind (trips + wild)');
+console.assert(dwRank(H('Kh Kd Ks 7c 7h')) === 'FH' && dwRank(H('2h Kd Ks 7c 7h')) === 'FH', 'dw full house: natural 3+2 and two pair + wild');
+console.assert(dwRank(H('2h Kh 8h 5h 3h')) === 'FL', 'dw flush');
+console.assert(dwRank(H('2h 9d 9s 4c 7h')) === 'TK', 'dw trips (min paying hand)');
+console.assert(dwRank(H('Kh Qd 8s 5c 3h')) === 'NO', 'dw nothing (high cards do not pay)');
+console.assert(GAMES.dw.pay(H('2h 2d 2s 2c 5h')) === 200 && GAMES.dw.pay(H('Th Jh Qh Kh Ah')) === 800, 'dw payouts: four deuces 200, natural royal 800');
+// strategy sanity: dealt 3 deuces, hold exactly the 3 deuces (classic FPDW play)
+{ const save = game; game = GAMES.dw; const a = analyze(H('2h 2d 2s Kh 5c'));
+  console.assert(a[0].held.length === 3 && a[0].held.every(c => c % 13 === 0), 'dw: hold the 3 deuces, ev=' + a[0].ev.toFixed(2)); game = save; }
 console.assert(near(holdEV(H('2s 3d 5h 7c 9s'), []), 0.36, 0.01), 'draw five');
 { const a = analyze(H('Ah Kh Qh Jh 5h')); console.assert(a[0].held.length === 4 && near(a[0].ev, 18.43, 0.01), '4 royal over flush: ' + a[0].ev); }
 { const a = analyze(H('Jh Jd 3h 4h 5h')); console.assert(a[0].held.length === 2, 'high pair over 4 flush'); }
@@ -259,7 +323,7 @@ function deal() {
   const deck = Array.from({length: 52}, (_, i) => i);
   for (let i = 51; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [deck[i], deck[j]] = [deck[j], deck[i]]; }
   dealt = deck.slice(0, 5); held = 0; best = null; done = false; hinted = false;
-  const r = rankHand(dealt);
+  const r = game.rank(dealt);
   $('status').textContent = r === 'NO' ? ' ' : NAME[r];
   $('coach').innerHTML = '<p class="why">Choose your hold, then draw.</p>';
   $('deal').disabled = true; $('draw').disabled = true; $('hint').disabled = true;
@@ -271,7 +335,7 @@ function draw() {
   done = true; hinted = false;
   const mine = best.find(h => h.mask === held), top = best[0], cost = top.ev - mine.ev, perfect = cost < 1e-9;
   let k = 5; const final = dealt.map((c, i) => held & (1 << i) ? c : window._deck[k++]);
-  const r = rankHand(final), p = game.pay(final);
+  const r = game.rank(final), p = game.pay(final);
   S.hands++; S.perfect += perfect; S.cost += cost; S.bet += 1; S.won += p;
   localStorage.setItem('vp-stats', JSON.stringify(S));
   dealt = final; held = 0; $('status').textContent = r === 'NO' ? 'No pay' : NAME[r] + ' · pays ' + p * 5;

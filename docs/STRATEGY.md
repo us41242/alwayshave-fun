@@ -40,7 +40,13 @@ don't make you a winner.
    wild royal and five-of-a-kind categories. 25/15/9/5/3/2/2/1, 100.76%: the
    one commonly available positive-expectation VP game. Requester's list
    (bonus > ddb > deuces) is now complete.
-5. Candidates: pay-table identifier; the positive-expectation-game hook on the
+5. ✅ Play-money credit balance on the VP trainer (2026-09-13): 1,000 start,
+   5 a hand, persists, rebuy when broke. Built to a live r/VideoPoker request
+   ("ad-free, pretend money, bankroll he can build up, iPad"); derived from
+   the existing stats. Unsolicited from the earlier requester the same day:
+   "one of the best vp trainers; great design, gui, ease of use" (real,
+   attributed — the only kind rule 3 permits; not used on-site yet).
+6. Candidates: pay-table identifier; the positive-expectation-game hook on the
    homepage/guides; more trainers only once something is indexed. **Links /
    indexing are the bottleneck** — product direction is not.
 

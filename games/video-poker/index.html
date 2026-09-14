@@ -29,6 +29,8 @@
 .coach{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem;font-size:.95rem}
 .coach .ok{color:var(--good)} .coach .no{color:var(--bad)}
 .coach table{font-size:.9rem;margin:.5rem 0}
+.credits{text-align:center;margin:.4rem 0 0;font-family:"Big Shoulders Display",Impact,sans-serif;font-size:1.3rem;letter-spacing:.04em;color:var(--cream)}
+.credits small{font:inherit;font-size:.85rem;color:var(--dim)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:.4rem;text-align:center;margin-top:.8rem;font-size:.8rem;color:var(--dim)}
 .stats b{display:block;font-family:"Big Shoulders Display",Impact,sans-serif;font-size:1.4rem;color:var(--cream)}
 .pay{font-size:.85rem}
@@ -44,7 +46,7 @@
 <nav><a class="brand" href="/">ALWAYS<span>HAVE</span>.FUN</a><a href="/final-hand/">Play Final Hand</a></nav>
 
 <h1>Video poker <span>trainer</span></h1>
-<p class="lede">Jacks or Better, Bonus Poker, Double Double Bonus, or Full-Pay Deuces Wild — <b>the one common video poker game a perfect player beats (100.76%)</b> — five coins. Pick a pay table, tap the cards you want to hold, and draw. The coach scores your hold against all 32 possible holds using the exact expected value of every draw from the remaining 47 cards <b>on the table you chose</b>, so it is right on every hand including the odd ones (Bonus and DDB change which quads to chase; Deuces Wild rewrites the whole strategy around wild cards). Four pay tables in one page, free, no account, nothing to install.</p>
+<p class="lede">Jacks or Better, Bonus Poker, Double Double Bonus, or Full-Pay Deuces Wild — <b>the one common video poker game a perfect player beats (100.76%)</b> — five coins. Pick a pay table, tap the cards you want to hold, and draw. The coach scores your hold against all 32 possible holds using the exact expected value of every draw from the remaining 47 cards <b>on the table you chose</b>, so it is right on every hand including the odd ones (Bonus and DDB change which quads to chase; Deuces Wild rewrites the whole strategy around wild cards). Four pay tables in one page, free, no ads, no account, nothing to install, and a play-money credit balance that carries over between visits.</p>
 
 <div class="game">
   <div class="gamepick"><label>Pay table: <select id="game"></select></label> <span id="rtp" class="why"></span></div>
@@ -54,7 +56,9 @@
     <button class="btn" id="deal">Deal</button>
     <button class="btn" id="draw" disabled>Draw</button>
     <button class="btn ghost" id="hint" disabled>Show best hold</button>
+    <button class="btn ghost" id="rebuy" hidden>Rebuy 1,000</button>
   </div>
+  <div class="credits" id="credits"></div>
   <div class="coach" id="coach"><p class="why">Deal a hand. Hold cards by tapping them. Draw, and the coach tells you the best hold and what yours cost.</p></div>
   <div class="stats" id="stats"></div>
 </div>
@@ -311,12 +315,17 @@ const RANK = '23456789TJQKA', SUIT = ['♠', '♥', '♦', '♣'];
 const face = c => RANK[c % 13] + SUIT[c / 13 | 0];
 let dealt = [], held = 0, best = null, done = true, hinted = false;
 const S = JSON.parse(localStorage.getItem('vp-stats') || '{"hands":0,"perfect":0,"cost":0,"bet":0,"won":0}');
+// play-money credits: 1,000 per buy-in, 5 coins a hand, derived from the stats already kept. ponytail: no separate balance state.
+const credits = () => 1000 * (1 + (S.rebuys || 0)) + 5 * (S.won - S.bet);
 
 function render() {
   $('cards').innerHTML = dealt.map((c, i) => {
     const suit = c / 13 | 0, cls = ['card5', suit === 1 || suit === 2 ? 'red' : '', held & (1 << i) ? 'held' : '', hinted && best && best.mask & (1 << i) ? 'best' : ''].join(' ');
     return `<div class="${cls}" data-i="${i}"><span>${RANK[c % 13]}</span><span class="s">${SUIT[suit]}</span></div>`;
   }).join('');
+  const cr = credits(), broke = cr < 5;
+  $('credits').innerHTML = `Credits <b>${cr.toLocaleString()}</b> <small>· 5 a hand${S.rebuys ? ' · ' + S.rebuys + ' rebuy' + (S.rebuys > 1 ? 's' : '') : ''}</small>`;
+  $('rebuy').hidden = !broke; if (broke && done) $('deal').disabled = true;
   $('stats').innerHTML = `<div><b>${S.hands}</b>hands</div><div><b>${S.hands ? Math.round(100 * S.perfect / S.hands) : 0}%</b>best hold</div><div><b>${S.cost.toFixed(2)}</b>coins lost to errors</div><div><b>${S.bet ? (100 * S.won / S.bet).toFixed(1) : '0.0'}%</b>return</div>`;
 }
 function deal() {
@@ -346,6 +355,7 @@ function draw() {
 }
 $('cards').addEventListener('click', e => { const el = e.target.closest('.card5'); if (!el || done) return; held ^= 1 << +el.dataset.i; render(); });
 $('deal').onclick = deal; $('draw').onclick = draw;
+$('rebuy').onclick = () => { S.rebuys = (S.rebuys || 0) + 1; localStorage.setItem('vp-stats', JSON.stringify(S)); $('deal').disabled = false; render(); };
 $('hint').onclick = () => { if (!best) return; hinted = true; held = best[0].mask; render(); };
 
 // pay-table selector

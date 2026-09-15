@@ -61,6 +61,18 @@ after the 2,900-URL 410 purge, plus no inbound links. Cloudflare and robots
 ruled out. Repo purged of trails files 09-06.
 
 ## Distribution
+**Status 2026-09-14: Reddit is halted.** u/StunningOpinion7483 was suspended
+sitewide (permanent per the API) and r/VideoPoker was banned by Reddit for
+being unmoderated, both between the 09-13 and 09-14 sessions. The post, the
+feature-request thread and the praise are gone. Do not post, comment, or
+create a replacement account (ban evasion); appeal/abandon is Josh's call
+(`daily-in-box/vegas-question-2026-09-14.md`). Lesson for any future account:
+the spam classifier counts same-domain links per week, not disclosures —
+five in five days on a two-month-old account was too dense. Candidate
+communities that would need a new, disclosed identity (each is a question for
+Josh): Wizard of Vegas forum, vpFREE2 (groups.io), LVA forum, blackjackinfo,
+Hacker News "Show HN". The notes below are kept for the record.
+
 Reddit account u/StunningOpinion7483 (session cookie at
 ~/.camoufox-mcp/sessions/reddit.pw.json, token via scripts/reddit_token.py,
 Mac only). Register: answer real questions, disclose. Whether a *post* is

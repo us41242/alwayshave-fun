@@ -46,7 +46,10 @@ don't make you a winner.
    the existing stats. Unsolicited from the earlier requester the same day:
    "one of the best vp trainers; great design, gui, ease of use" (real,
    attributed — the only kind rule 3 permits; not used on-site yet).
-6. Candidates: pay-table identifier; the positive-expectation-game hook on the
+6. ✅ Pay-table lookup (2026-09-20) on the VP page, `#pay-table-check`: common
+   JoB/BP/DDB/Deuces variants with WoO returns, linked from the homepage.
+   Also fixed a wrong NSUD table live since 09-11.
+7. Candidates: the positive-expectation-game hook on the
    homepage/guides; more trainers only once something is indexed. **Links /
    indexing are the bottleneck** — product direction is not.
 

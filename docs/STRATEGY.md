@@ -49,9 +49,23 @@ don't make you a winner.
 6. ✅ Pay-table lookup (2026-09-20) on the VP page, `#pay-table-check`: common
    JoB/BP/DDB/Deuces variants with WoO returns, linked from the homepage.
    Also fixed a wrong NSUD table live since 09-11.
-7. Candidates: the positive-expectation-game hook on the
-   homepage/guides; more trainers only once something is indexed. **Links /
-   indexing are the bottleneck** — product direction is not.
+7. Number audit of the guides, 09-20 to 09-22. Nine real errors found and
+   fixed across three nights, all one bug class: **two quantities with the
+   same units and different meanings, and the copy using whichever was
+   nearer.** Rated vs true blackjack edge; slot hold vs blackjack rating;
+   Boyd/Wynn *points* rate vs *Tier Credit* rate; Reward Credits for food vs
+   for free play. Every one had correct arithmetic. Root cause: the 09-02 to
+   09-04 copy was written from a mental model of each program rather than from
+   each program's page. Rule going forward: for every number, name the
+   currency and the document. Audit is complete on the three guides.
+8. Candidates: the positive-expectation-game hook on the homepage/guides;
+   **pricing a tier both ways** (the Caesars daily Tier Credit bonus makes
+   Diamond cost $25,000 of coin-in in one day against $75,000 spread out —
+   nobody in this genre prices a tier both ways, and it is the comps guide's
+   own concentrate-your-play lever as a published rule); more trainers only
+   once something is indexed. **Links / indexing are the bottleneck** —
+   product direction is not. Build on the homepage, since that is the only
+   page Google reads.
 
 Indexing: sitemap submitted 09-03, still never downloaded by 09-09. On
 09-09 found the sitemap had declared the wrong XML namespace since 09-02

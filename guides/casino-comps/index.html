@@ -23,7 +23,7 @@
 .out table{margin:.6rem 0 0}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Casino Comps Explained: Theoretical Loss, ADT, and a Comp Calculator","datePublished":"2026-09-03","dateModified":"2026-09-17","author":{"@type":"Organization","name":"alwayshave.fun"},"publisher":{"@type":"Organization","name":"alwayshave.fun"},"mainEntityOfPage":"https://alwayshave.fun/casino-comps/"}
+{"@context":"https://schema.org","@type":"Article","headline":"Casino Comps Explained: Theoretical Loss, ADT, and a Comp Calculator","datePublished":"2026-09-03","dateModified":"2026-09-22","author":{"@type":"Organization","name":"alwayshave.fun"},"publisher":{"@type":"Organization","name":"alwayshave.fun"},"mainEntityOfPage":"https://alwayshave.fun/casino-comps/"}
 </script>
 </head>
 <body>
@@ -46,8 +46,9 @@
 <p>This is why a lucky winning weekend still earns you an offer, and a brutal losing one does not earn extra. Actual results are noise to the casino. Theo is the signal, and everything they give you is priced from it.</p>
 
 <h2 id="rated">Rated edge: the casino grades the game, not you</h2>
-<p>For table games the house edge in the formula is not your edge. It is a fixed number the property assigns to the game, based on how an average player plays it. Blackjack is commonly rated around 2%, even though a perfect basic-strategy player faces about 0.5% on a decent game. Craps pass line is rated near its true 1.4%. Double-zero roulette is 5.3%.</p>
-<p>That gap matters. A basic-strategy blackjack player is being comped as if losing four times faster than they really are. Per dollar of real expected loss, blackjack played well is the best comp deal in the pit. Play badly and the gap closes to nothing.</p>
+<p>For table games the house edge in the formula is not your edge. It is a fixed number the property assigns to the game, based on how an average player plays it. Wizard of Odds publishes the actual rating table &mdash; hands per hour and house edge "for comp purposes", given to him by an executive at a major Strip casino and used to rate players. It reads: blackjack <b>0.75%</b>, craps <b>1.58%</b>, baccarat <b>1.2%</b>, double-zero roulette <b>5.26%</b>.</p>
+<p>Two of those are <i>above</i> the best bet at the game, not below it. Craps pass line is 1.41% and banker baccarat is 1.06%; the rating assumes the average player's mix of bets, including the bad ones. Blackjack is the opposite, and it is the number worth asking about, because it varies by property more than any other: 0.75% on that table, but a 1.5% to 2% blackjack rating is widely reported elsewhere. Run both ends through the calculator and see how much your offer depends on it.</p>
+<p>That gap matters. A basic-strategy player facing about 0.5% on a decent game is comped as if losing 1.5 times faster at a 0.75% rating and four times faster at 2%. Per dollar of real expected loss, blackjack played well is the best comp deal in the pit either way. Play badly and the gap closes to nothing.</p>
 <p>Slots and video poker are the reverse: the machine reports exact coin-in, and the club pays points on it at a published rate. There is no rating floor to fight over, but there is also no way to be graded better than you play. A 9/6 Jacks or Better machine at 0.46% edge and a 10% penny slot earn the same points per dollar through the card. They cost you very different amounts to earn them. The 0.46% only holds if you play every hand correctly; the <a href="/video-poker-trainer/">video poker trainer</a> shows the best hold for each deal.</p>
 
 <h2 id="reinvest">The reinvestment rate: 30 to 40 cents on the theo dollar</h2>
@@ -59,16 +60,17 @@
 <p>Read that the other way round and you have the price list: <b>every $1 of comp costs you about $2.50 to $3.30 of expected loss.</b> A $300 "free" room is a $750 to $1,000 expected-loss purchase. That is the honest frame, and it is the one every credible comps writer uses.</p>
 
 <h2 id="calculator">Comp calculator</h2>
-<p>Pick a game, or set the edge and pace yourself. Numbers are per trip. The blackjack preset uses the rated edge, not the true edge, because that is what the host uses.</p>
+<p>Pick a game, or set the edge and pace yourself. Numbers are per trip. The presets use the rated edge and the pace off the Strip rating table above, not the true edge, because that is what the host uses. Two caveats. A full table runs slower than the rating table's pace &mdash; six-handed roulette is about 35 spins an hour against the 38 it books &mdash; and that difference is the "slow down" lever below. The 600-an-hour machine figures are a common estimate, not from that table; on a machine the pace is entirely yours, so time a hundred hands and use your own number.</p>
 <div class="calc" id="calc">
   <label>Game
     <select id="game">
-      <option value="0.02,70">Blackjack (rated ~2%, 70 hands/hr)</option>
-      <option value="0.014,30">Craps pass line (1.4%, 30 decisions/hr)</option>
-      <option value="0.0106,70">Baccarat, banker (1.06%, 70 hands/hr)</option>
-      <option value="0.053,35">Roulette, double zero (5.3%, 35 spins/hr)</option>
+      <option value="0.02,70">Blackjack, rated 2% (70 hands/hr)</option>
+      <option value="0.0075,70">Blackjack, Strip rating table 0.75% (70 hands/hr)</option>
+      <option value="0.0158,48">Craps, rated 1.58% (48 decisions/hr)</option>
+      <option value="0.012,72">Baccarat, rated 1.2% (72 hands/hr)</option>
+      <option value="0.0526,38">Roulette, double zero 5.26% (38 spins/hr)</option>
       <option value="0.0046,600">Video poker 9/6 JoB (0.46%, 600 hands/hr)</option>
-      <option value="0.08,600">Slots (8%, 600 spins/hr)</option>
+      <option value="0.08,600">Slots (8% hold, 600 spins/hr)</option>
       <option value="custom">Custom</option>
     </select>
   </label>
@@ -119,7 +121,7 @@
 <h2 id="sources">Sources</h2>
 <ul>
   <li>Jean Scott, <i>The Frugal Gambler</i> series (Huntington Press): the reinvestment-rate framing and the ADT lever list.</li>
-  <li>Michael Shackleford, wizardofodds.com: house edge by game and hands-per-hour tables used in the presets.</li>
+  <li>Michael Shackleford, wizardofodds.com/gambling/house-edge/, read 2026-09-22: the "Hands per Hour and Average House Edge" table used for rating players, and the standard house-edge figures. The paces and rated edges in the presets are that table's.</li>
   <li>Las Vegas Advisor and its Question of the Day archive on comp rating practice and the 2% blackjack rating convention.</li>
   <li>Caesars Rewards published earning rules for the Reward Credit figure above.</li>
 </ul>

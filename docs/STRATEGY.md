@@ -58,14 +58,33 @@ don't make you a winner.
    09-04 copy was written from a mental model of each program rather than from
    each program's page. Rule going forward: for every number, name the
    currency and the document. Audit is complete on the three guides.
-8. Candidates: the positive-expectation-game hook on the homepage/guides;
-   **pricing a tier both ways** (the Caesars daily Tier Credit bonus makes
-   Diamond cost $25,000 of coin-in in one day against $75,000 spread out —
-   nobody in this genre prices a tier both ways, and it is the comps guide's
-   own concentrate-your-play lever as a published rule); more trainers only
-   once something is indexed. **Links / indexing are the bottleneck** —
-   product direction is not. Build on the homepage, since that is the only
-   page Google reads.
+8. ✅ **Pricing a tier both ways** — shipped to the homepage 2026-09-23 at
+   `/#tier-price`. The frame: coin-in is what every program publishes and it
+   is a *throughput requirement*, not a price; the price is what the house
+   edge takes out on the way past, so the same status costs wildly different
+   money depending on the game you cycle it through. Caesars Diamond (15,000
+   Tier Credits, the only big Vegas program publishing a per-dollar Tier
+   Credit rate for machine play) priced four ways: reel slots spread
+   $75,000 coin-in / $6,000 expected loss; reel slots concentrated into one
+   promotional day via Caesars' own daily Tier Credit bonus $25,000 /
+   $2,000; 9/6 video poker played correctly $150,000 / $690; video poker
+   concentrated $50,000 / **$230**. A 26x spread on the same card. Video
+   poker earns Tier Credits half as fast (1 per $10 vs 1 per $5) so it needs
+   twice the coin-in, and still costs a ninth as much because the edge is 17x
+   smaller — that column is the part no competitor publishes. Guarded by
+   `scripts/check_tier_table.py`, which re-derives every cell and every prose
+   ratio from the four source rates and runs against the live HTML.
+9. Next: **the tier price calculator** — the same idea as a trainer rather
+   than a table (program, tier, game, bet size → coin-in, expected loss,
+   hours), on `/players-cards-compared/` where the tier data lives, with the
+   homepage table as the crawlable teaser. Blocker first: only Caesars can be
+   priced today, and a one-option dropdown is a worse table, so spend a
+   session reading sources on Station (reported 3-per-$1) and the locals
+   clubs to find out whether there are three priceable programs or one.
+   Other candidates: the positive-expectation-game hook on the
+   homepage/guides; more trainers only once something is indexed. **Links /
+   indexing are the bottleneck** — product direction is not. Build on the
+   homepage, since that is the only page Google reads.
 
 Indexing: sitemap submitted 09-03, still never downloaded by 09-09. On
 09-09 found the sitemap had declared the wrong XML namespace since 09-02

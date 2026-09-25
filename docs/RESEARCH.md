@@ -116,3 +116,11 @@ Cross-cutting lessons applied from the Reddit suspension:
   counted density; a human mod counts tone. Both punished the same behaviour.
 - Register, read, and answer a few threads before the first link, everywhere.
 - Disclosure is necessary but not sufficient.
+
+## 2026-09-24 — Which Vegas programs publish a priceable tier-credit rate
+Read from each program's own pages tonight.
+- Caesars: 1 TC/$5 reel slots, 1/$10 VP; daily TC bonus 500→+125, 1,000→+1,000, 2,500→+5,000, 5,000→+10,000, "every day", one level per promotional day (repeatable).
+- Station Boarding Pass (stationcasinos.com/my-rewards-boarding-pass + 2026 brochure PDF dated 2026-07-09): status credits 3/$1 slots, 1/$1 VP & multi-game; Gold 1,000 · Platinum 40,000 · President 100,000 · Chairman 300,000; periods Jan–Jun / Jul–Dec. Official rules page still defers to the Rewards Center. FAQ on the same page says "earned annually" (contradiction).
+- Venetian Rewards T&C: 1 Tier Point/$4 slots, 1/$10 VP, 2/$1 table theo, 2/$1 experiential spend; Jade 0 · Sapphire 3,000 · Ruby 20,000 · Diamond 50,000; tier year Mar 1–end Feb. Rewards points multiply by tier (1/1.25/1.5/2 per TP).
+- Resorts World Genting Rewards: tiers by "Genting Base Points, also known as Tier Credits"; slots 3 pts/$1, VP 3/$3.50; Royal 0 · Elite 3,000 · Prime 75,000 · Monarch 250,000 · Imperial 1,000,000; Prime+ slot point boost 10/25/40%; reset Jan 5.
+- Not priceable: MGM (gaming rate unpublished), Boyd, Wynn (TC by game/denom/time). South Point: 1 pt/$1 slots, 1/$2 VP, 1,000 = $3 — no tier ladder. Club One (Circa/D/Golden Gate): 100 pts = $1 free play, tiers by points. Rio: 1 tier point/$1.25 slots (URComped, not first-party).

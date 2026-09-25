@@ -74,7 +74,16 @@ don't make you a winner.
    smaller — that column is the part no competitor publishes. Guarded by
    `scripts/check_tier_table.py`, which re-derives every cell and every prose
    ratio from the four source rates and runs against the live HTML.
-9. Next: **the tier price calculator** — the same idea as a trainer rather
+9. ✅ **Tier price calculator** — shipped 2026-09-24 at
+   `/players-cards-compared/#tier-calc`. Four priceable programs, all from
+   their own pages: Caesars, Station (brochure 2026-07), Venetian (T&C),
+   Resorts World. Caesars mode runs a knapsack over the *repeatable* daily
+   Tier Credit bonus: Diamond Elite $30,000 spread → $10,000 bonus-timed →
+   $1,150 on 9/6 VP. Guarded by `scripts/check_tier_calc.js`.
+10. Next: surface the repeatable-bonus finding on the homepage (the only
+   crawled page); fix `/favicon.ico` 410. Distribution remains the
+   bottleneck and every new channel is Josh's call.
+   (Superseded plan, kept for the record:) **the tier price calculator** — the same idea as a trainer rather
    than a table (program, tier, game, bet size → coin-in, expected loss,
    hours), on `/players-cards-compared/` where the tier data lives, with the
    homepage table as the crawlable teaser. Blocker first: only Caesars can be

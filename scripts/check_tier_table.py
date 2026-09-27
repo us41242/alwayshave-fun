@@ -52,4 +52,16 @@ for s in ["about a ninth", "seventeen times smaller", "about 67 hours", "a bit o
           "1 Tier Credit per $5", "1 per $10", "15,000 Tier Credits", "adds 10,000"]:
     assert s in plain, f"prose claim missing/changed: {s}"
 print(f"ok  prose: 1/{1/ratio:.1f} cost, {edges:.1f}x edge, {hrs_low:.0f}h @ $1.25, {hrs_high:.1f}h @ $25")
+# Diamond Elite paragraph: the daily bonus repeats ("every day", one level per promotional day)
+ELITE_TC, DAYS = 75000, 5      # "Diamond Elite 75,000 - 149,999 Tier Credits"
+assert DAYS * (DAY_BONUS_EARN + DAY_BONUS_PAYS) == ELITE_TC, "five bonus days no longer land exactly on Diamond Elite"
+e_spread = coin_in(ELITE_TC, TC_PER_DOLLAR_SLOTS)
+e_slots  = coin_in(DAYS * DAY_BONUS_EARN, TC_PER_DOLLAR_SLOTS)
+e_vp     = coin_in(DAYS * DAY_BONUS_EARN, TC_PER_DOLLAR_VP)
+for s in [money(e_spread) + " of coin-in", money(e_spread * SLOT_HOLD), money(e_slots) + " of coin-in",
+          money(e_slots * SLOT_HOLD), money(e_vp) + " of coin-in", money(e_vp * VP_EDGE),
+          "25,000 earned plus 50,000", "Five separate promotional days", "one twenty-sixth"]:
+    assert s in plain, f"Diamond Elite claim missing/changed: {s}"
+assert round((e_spread * SLOT_HOLD) / (e_vp * VP_EDGE)) == 26, "'one twenty-sixth' ratio changed"
+print(f"ok  Diamond Elite: {money(e_spread*SLOT_HOLD)} spread -> {money(e_slots*SLOT_HOLD)} slots x5 days -> {money(e_vp*VP_EDGE)} VP x5 days")
 print("ALL CHECKS PASS")

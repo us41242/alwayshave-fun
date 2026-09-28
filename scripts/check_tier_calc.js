@@ -2,6 +2,7 @@
 // and checks its numbers against hand-derived ones from the programs' published rates.
 // usage: node scripts/check_tier_calc.js <file.html>
 const fs = require('fs'), assert = require('assert');
+if (!process.argv[2]) { console.error('usage: node check_tier_calc.js <players-cards-compared.html>'); process.exit(2); }
 const src = fs.readFileSync(process.argv[2], 'utf8');
 const js = src.split('<script>').map(x => x.split('</script>')[0]).find(x => x.includes('TIER_PROGRAMS'));
 assert(js, 'tier calculator script missing');

@@ -24,6 +24,7 @@ rows = [
     ("9/6 video poker played correctly, one promotional day",   coin_in(DAY_BONUS_EARN, TC_PER_DOLLAR_VP),    VP_EDGE),
 ]
 
+if len(sys.argv) < 2: sys.exit("usage: check_tier_table.py <index.html>")
 src = open(sys.argv[1], encoding='utf-8').read()
 sec = src.split('id="tier-price"', 1)[1].split('<h2>Guides', 1)[0]
 plain = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', sec)))

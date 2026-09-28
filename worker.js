@@ -17,6 +17,8 @@ const ROUTES = {
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',
+  '/favicon.ico': '/favicon.ico',
+  '/favicon.svg': '/favicon.svg',
   '/3d00877f1b744d7898b2862b4c5e94fd.txt': '/3d00877f1b744d7898b2862b4c5e94fd.txt', // IndexNow key
 };
 

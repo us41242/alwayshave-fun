@@ -354,7 +354,11 @@ function nextHand(){
   render();
 }
 
+// ponytail: anonymous play counter, no cookies or IDs. Each /e/ hit is just a request that
+// Cloudflare zone analytics counts; scripts/traffic.py reads it. Fires once per page load.
+const ping = e => ping[e] || (ping[e] = 1, navigator.sendBeacon && navigator.sendBeacon('/e/' + e));
 function commitBet(amt){
+  ping('fh-bet');
   const you=P[YOU];
   amt=Math.round(amt/25)*25;
   const cap=Math.min(you.stack,MAX);
@@ -473,6 +477,7 @@ function dealerPlay(){
 
 function finish(){
   phase='done';
+  ping('fh-done');
   render();
 }
 

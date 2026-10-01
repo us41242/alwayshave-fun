@@ -32,6 +32,9 @@ export default {
       return Response.redirect('https://gates.alwayshave.fun/j', 302);
     }
 
+    // /e/<event> — anonymous play counter beacon; the request itself is the count.
+    if (p.startsWith('/e/')) return new Response(null, { status: 204 });
+
     // Directory URLs are canonical with a trailing slash.
     if ((p + '/') in ROUTES) {
       url.pathname = p + '/';

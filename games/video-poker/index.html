@@ -371,7 +371,12 @@ function render() {
   $('rebuy').hidden = !broke; if (broke && done) $('deal').disabled = true;
   $('stats').innerHTML = `<div><b>${S.hands}</b>hands</div><div><b>${S.hands ? Math.round(100 * S.perfect / S.hands) : 0}%</b>best hold</div><div><b>${S.cost.toFixed(2)}</b>coins lost to errors</div><div><b>${S.bet ? (100 * S.won / S.bet).toFixed(1) : '0.0'}%</b>return</div>`;
 }
+// ponytail: anonymous play counter, no cookies or IDs. Each /e/ hit is just a request that
+// Cloudflare zone analytics counts; scripts/traffic.py reads it. Fires once per page load.
+const ping = e => ping[e] || (ping[e] = 1, navigator.sendBeacon && navigator.sendBeacon('/e/' + e));
+let drawn = 0;
 function deal() {
+  ping('vp-deal');
   const deck = Array.from({length: 52}, (_, i) => i);
   for (let i = 51; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [deck[i], deck[j]] = [deck[j], deck[i]]; }
   dealt = deck.slice(0, 5); held = 0; best = null; done = false; hinted = false;
@@ -385,6 +390,7 @@ function deal() {
 function draw() {
   if (done || !best) return;
   done = true; hinted = false;
+  if (++drawn === 25) ping('vp-25');
   const mine = best.find(h => h.mask === held), top = best[0], cost = top.ev - mine.ev, perfect = cost < 1e-9;
   let k = 5; const final = dealt.map((c, i) => held & (1 << i) ? c : window._deck[k++]);
   const r = game.rank(final), p = game.pay(final);

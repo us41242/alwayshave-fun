@@ -140,7 +140,10 @@ function run() {
   }
   $('out').innerHTML = o.join('');
 }
-document.querySelectorAll('#calc input').forEach(i => i.addEventListener('input', run));
+// ponytail: anonymous play counter, no cookies or IDs. Each /e/ hit is just a request that
+// Cloudflare zone analytics counts; scripts/traffic.py reads it. Fires once per page load.
+const ping = e => ping[e] || (ping[e] = 1, navigator.sendBeacon && navigator.sendBeacon('/e/' + e));
+document.querySelectorAll('#calc input').forEach(i => i.addEventListener('input', () => { ping('sizer'); run(); }));
 run();
 </script>
 </body>

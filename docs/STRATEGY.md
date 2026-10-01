@@ -140,4 +140,5 @@ audience.
 
 ## Metrics that matter
 Games played per visit, return visits, guide→game click-through. Traffic
-second. Track once v1 is live (GSC + a privacy-light counter).
+second. Tracked since 2026-09-30: anonymous `/e/<event>` play beacons (no
+cookies/IDs) counted by Cloudflare zone analytics — `scripts/traffic.py`.

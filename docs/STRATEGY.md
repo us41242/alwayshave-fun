@@ -80,7 +80,7 @@ don't make you a winner.
    Resorts World. Caesars mode runs a knapsack over the *repeatable* daily
    Tier Credit bonus: Diamond Elite $30,000 spread → $10,000 bonus-timed →
    $1,150 on 9/6 VP. Guarded by `scripts/check_tier_calc.js`.
-10. Next: surface the repeatable-bonus finding on the homepage (the only
+10. (2026-10-02: homepage last-hand quiz `#lh-quiz` shipped, beacon `home-lh`.) Next: surface the repeatable-bonus finding on the homepage (the only
    crawled page); fix `/favicon.ico` 410. Distribution remains the
    bottleneck and every new channel is Josh's call.
    (Superseded plan, kept for the record:) **the tier price calculator** — the same idea as a trainer rather

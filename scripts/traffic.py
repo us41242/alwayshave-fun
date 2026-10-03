@@ -2,7 +2,7 @@
 traffic.py — who actually uses alwayshave.fun, from Cloudflare zone analytics.
 
 Plays: the games send one anonymous beacon to /e/<event> per page load when
-someone really plays (fh-bet, fh-done, vp-deal, vp-25, sizer). Crawlers do not
+someone really plays (fh-bet, fh-done, vp-deal, vp-25, sizer, home-lh). Crawlers do not
 click Deal, so these are the human signal. Page views are raw 200 GETs split
 by Cloudflare's browser guess; scrapers posing as Chrome land in "browser".
 

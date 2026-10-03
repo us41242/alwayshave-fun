@@ -56,6 +56,13 @@
 </table>
 <p>The chase bet is <b>gap + leader&rsquo;s bet + one chip</b>: $800 + $500 + $25 = $1,325. It wins both results where you win the hand; the copy wins only one. The both-lose row is the one you give up, and the dealer decides the rest. Flip it around and the math flips: if the leader bets big and you cannot reach them, bet the minimum and let the dealer beat you both. A player loses about 49% of blackjack hands (wizardofodds.com), so &ldquo;lose with the leader&rdquo; is often your best line. And if you are the leader, match the biggest threat&rsquo;s bet, so only the split result can beat you.</p>
 <p>Knowing this at a desk is easy. Doing it with a dealer waiting and five stacks you had to count yourself is the whole tournament. <a href="/final-hand/">Final Hand</a> drills it with a coach; the <a href="/tournament-bet-sizer/">bet sizer</a> does the sum for any three numbers; the <a href="/blackjack-tournament-strategy/">strategy guide</a> covers doubles, betting to lose and the held-back chip, from Stanford Wong and Kenneth Smith.</p>
+<div class="card" id="lh-quiz" hidden>
+  <h3>Your turn: three seconds, last hand</h3>
+  <p id="lh-q"></p>
+  <p id="lh-opts"></p>
+  <div id="lh-a"></div>
+  <p class="soon" id="lh-score"></p>
+</div>
 
 <h2>Which video poker games are worth playing</h2>
 <p>Return with perfect strategy on the pay table the trainer uses for each game. The pay table is the whole game: the same machine with a cut table returns less, so read the full house and flush lines before you sit.</p>
@@ -99,5 +106,51 @@
 
 <footer>Strategy and education only. Nothing here guarantees a win. Gambling problem? Call 1-800-GAMBLER.</footer>
 </div>
+<script>
+// Last-hand quiz: you act after the leader; which bet wins the most of the four ways the hand can land?
+// ponytail: equal-weight rows, same model as the table above; Final Hand has the real dealer.
+const $ = n => '$' + n.toLocaleString('en-US');
+const OUT = ['You win, leader loses', 'Both win', 'Both lose', 'You lose, leader wins'];
+function rows(Y, L, B, b) {
+  return [[1, -1], [1, 1], [-1, -1], [-1, 1]].map(([y, l]) => [Y + y * b, L + l * B]);
+}
+const wins = (Y, L, B, b) => rows(Y, L, B, b).filter(([y, l]) => y > l).length;
+function deal() {
+  for (;;) {
+    const L = 1500 + 100 * Math.floor(Math.random() * 26), Y = 100 * Math.floor(L * (0.45 + 0.5 * Math.random()) / 100);
+    const B = 25 * (1 + Math.floor(Math.random() * L / 40)), chase = Math.min(L - Y + B + 25, Y);
+    const opts = [[chase === Y ? 'All in' : 'Chase', chase], ['Copy the leader', B], ['Minimum', 25]];
+    if (Y >= L || B > Y || new Set(opts.map(o => o[1])).size < 3) continue;
+    const w = opts.map(o => wins(Y, L, B, o[1])), best = Math.max(...w);
+    if (w.filter(x => x === best).length === 1) return { L, Y, B, opts, w, best };
+  }
+}
+if (typeof document !== 'undefined') {
+  const el = id => document.getElementById(id), sc = [0, 0];
+  let pinged = 0;
+  const show = () => {
+    const h = deal();
+    el('lh-q').innerHTML = `Leader has <b>${$(h.L)}</b> and bets <b>${$(h.B)}</b>. You have <b>${$(h.Y)}</b> and bet last. Minimum bet $25. Your bet?`;
+    el('lh-a').innerHTML = '';
+    el('lh-opts').innerHTML = h.opts.map((o, i) => `<button class="cta ghost" data-i="${i}">${o[0]}: ${$(o[1])}</button> `).join('');
+    el('lh-opts').querySelectorAll('button').forEach(btn => btn.onclick = () => {
+      if (!pinged++ && navigator.sendBeacon) navigator.sendBeacon('/e/home-lh');
+      const i = +btn.dataset.i, ok = h.w[i] === h.best, k = h.w.indexOf(h.best), pick = h.opts[i], top = h.opts[k];
+      sc[0] += ok; sc[1]++;
+      const cell = b => rows(h.Y, h.L, h.B, b).map(([y, l]) => `${$(Math.max(y, 0))} vs ${$(l)} &mdash; ${y > l ? '<b>win</b>' : 'lose'}`);
+      const a = cell(pick[1]), c = cell(top[1]);
+      el('lh-opts').innerHTML = '';
+      el('lh-a').innerHTML = `<p><b style="color:var(--${ok ? 'good' : 'bad'})">${ok ? 'Right.' : 'Not this one.'}</b> ${pick[0]} ${$(pick[1])} wins ${h.w[i]} of the 4 results${ok ? '.' : `; ${top[0].toLowerCase()} ${$(top[1])} wins ${h.best}.`}</p>
+<table><tr><th>Hand result</th><th>${pick[0]}: ${$(pick[1])}</th>${ok ? '' : `<th>${top[0]}: ${$(top[1])}</th>`}</tr>
+${OUT.map((r, j) => `<tr><td>${r}</td><td>${a[j]}</td>${ok ? '' : `<td>${c[j]}</td>`}</tr>`).join('')}</table>
+<p><button class="cta" id="lh-next">Next hand</button> &nbsp; <a href="/final-hand/">Play a full tournament &rarr;</a></p>`;
+      el('lh-score').textContent = `${sc[0]} of ${sc[1]} right this visit.`;
+      el('lh-next').onclick = show;
+    });
+  };
+  el('lh-quiz').hidden = false;
+  show();
+}
+</script>
 </body>
 </html>

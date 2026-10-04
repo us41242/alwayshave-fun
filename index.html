@@ -12,6 +12,16 @@
 <meta property="og:url" content="https://alwayshave.fun/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Libre+Franklin:wght@400;700&display=swap">
 <link rel="stylesheet" href="/site.css">
+<style>
+.calc{background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.calc label{display:block;font-size:.85rem;color:var(--dim);margin-top:.6rem}
+.calc input,.calc select{width:100%;margin-top:.2rem;padding:.55rem .6rem;border-radius:8px;border:1px solid var(--line);background:var(--felt-deep);color:var(--cream);font:inherit;font-size:1rem}
+.calc .row{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.out{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem}
+.out .big{font-family:"Big Shoulders Display",Impact,sans-serif;font-size:2.2rem;font-weight:900;color:var(--brass);line-height:1}
+.out small{color:var(--dim)}
+.out table{margin:.6rem 0 0}
+</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
@@ -63,6 +73,31 @@
   <div id="lh-a"></div>
   <p class="soon" id="lh-score"></p>
 </div>
+
+<h2 id="tournament-ev">Is a tournament worth the entry fee?</h2>
+<p>Before the last hand comes a simpler question: is the tournament worth entering at all? If the entrants play about equally well, each seat&rsquo;s expected share of the prize pool is the pool divided by the number of entrants, however the prizes are split. So the math is one division. A <b>$10,000 guaranteed pool with 40 entrants is worth $250 a seat</b>. At a $200 entry, an average player is $50 ahead before the first hand. At 60 entrants the seat is worth $167, and the same player is $33 behind. The break-even field is <b>pool &divide; entry fee</b>, which is 50 entrants here.</p>
+<p>That is why the word to look for on a tournament flyer is <i>guaranteed</i>. The casino owes that pool whether 30 people show up or 300, so a small field can make the entry a good bet for an average player. When the pool is only the entry fees paid back, the average seat is worth exactly the fee. Any cut the casino keeps is an edge you have to make up with skill. A room, meals or free play that come with the entry count on your side.</p>
+<div class="calc" id="tev">
+  <div class="row">
+    <label>Entry fee $ <input id="tev-e" type="number" min="0" step="1" value="200"></label>
+    <label>Total prize pool $ <input id="tev-p" type="number" min="0" step="1" value="10000"></label>
+  </div>
+  <div class="row">
+    <label>Entrants <input id="tev-n" type="number" min="1" step="1" value="40"></label>
+    <label>Extras with the entry (room, meals, free play) $ <input id="tev-x" type="number" min="0" step="1" value="0"></label>
+  </div>
+  <div class="out">
+    <div class="big" id="tev-ev">+$50</div>
+    <small>expected value of one entry for an average player</small>
+    <table>
+      <tr><th>Average seat&rsquo;s share of the pool</th><td id="tev-share">$250</td></tr>
+      <tr><th>Pool as a share of all entry fees</th><td id="tev-pct">125%</td></tr>
+      <tr><th>Break-even field size</th><td id="tev-be">up to 50 entrants</td></tr>
+      <tr><th>Skill you need to break even</th><td id="tev-need">none: an average player is ahead</td></tr>
+    </table>
+  </div>
+</div>
+<p class="why">&ldquo;Skill you need&rdquo; is how many times an average entrant&rsquo;s share you would have to win, on average, to get your fee back. The average share is exact for a field of equal players, wherever the prizes fall. Rebuys, add-ons and taxes on big prizes are left out. Skill is where <a href="/final-hand/">Final Hand</a> comes in: most tournament tables are decided by the bet on the last hand or two, and that bet is learnable.</p>
 
 <h2>Which video poker games are worth playing</h2>
 <p>Return with perfect strategy on the pay table the trainer uses for each game. The pay table is the whole game: the same machine with a cut table returns less, so read the full house and flush lines before you sit.</p>
@@ -150,6 +185,27 @@ ${OUT.map((r, j) => `<tr><td>${r}</td><td>${a[j]}</td>${ok ? '' : `<td>${c[j]}</
   };
   el('lh-quiz').hidden = false;
   show();
+}
+// Tournament EV: equal players -> each seat expects pool / entrants, whatever the payout split.
+function tev(E, P, N, X) {
+  const share = P / N, cost = E - X;
+  return { share, ev: share - cost, pct: E > 0 ? P / (N * E) : null,
+    be: cost > 0 ? Math.floor(P / cost) : Infinity, need: cost > 0 ? cost / share : 0 };
+}
+if (typeof document !== 'undefined') {
+  const el = id => document.getElementById(id), v = id => Math.max(+el(id).value || 0, 0);
+  const sgn = n => Math.round(n) === 0 ? '$0' : (n < 0 ? '−' : '+') + $(Math.round(Math.abs(n)));
+  let pinged = 0;
+  const calc = () => {
+    const r = tev(v('tev-e'), v('tev-p'), Math.max(Math.floor(v('tev-n')), 1), v('tev-x'));
+    el('tev-ev').textContent = sgn(r.ev);
+    el('tev-share').textContent = $(Math.round(r.share));
+    el('tev-pct').textContent = r.pct === null ? '—' : Math.round(r.pct * 100) + '%';
+    el('tev-be').textContent = r.be === Infinity ? 'any size' : r.be < 1 ? 'none: the pool is smaller than one fee' : `up to ${r.be.toLocaleString('en-US')} entrant${r.be === 1 ? '' : 's'}`;
+    el('tev-need').textContent = r.need < 1 ? 'none: an average player is ahead' : r.need === 1 ? 'none: an average player breaks even' : !isFinite(r.need) ? 'no amount: the pool is empty' : `win ${r.need.toFixed(2)}× an average entrant's share`;
+  };
+  el('tev').addEventListener('input', () => { if (!pinged++ && navigator.sendBeacon) navigator.sendBeacon('/e/home-ev'); calc(); });
+  calc();
 }
 </script>
 </body>

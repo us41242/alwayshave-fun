@@ -17,6 +17,7 @@ const ROUTES = {
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',
+  '/sitemap-pages.xml': '/sitemap.xml', // fresh path: GSC left /sitemap.xml pending since 09-09 (2026-10-05)
   '/favicon.ico': '/favicon.ico',
   '/favicon.svg': '/favicon.svg',
   '/3d00877f1b744d7898b2862b4c5e94fd.txt': '/3d00877f1b744d7898b2862b4c5e94fd.txt', // IndexNow key

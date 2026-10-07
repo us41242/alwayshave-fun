@@ -585,15 +585,25 @@ function renderControls(){
     const rows=[...P].sort((a,b)=>b.stack-a.stack);
     const won=rows[0].style==='you';
     c.innerHTML=`<div style="width:100%"><div class="banner ${won?'win':'lose'}">${won?'YOU WIN THE TABLE — YOU ADVANCE':'TABLE WON BY '+rows[0].name.toUpperCase()}</div>
-      <div style="text-align:center"><button onclick="newTournament()">Play another table</button></div></div>`;
+      <div style="text-align:center"><button onclick="newTournament()">Play another table</button> <button class="ghost" id="shareBtn" onclick="shareResult()">Share result</button></div></div>`;
   }else c.innerHTML='';
+}
+// Native share sheet on phones; clipboard elsewhere. One beacon per page load.
+function shareResult(){
+  const rows=[...P].sort((a,b)=>b.stack-a.stack), you=P[YOU], rank=rows.indexOf(you)+1;
+  const text=rank===1?`I won my table at Final Hand (${fmt(you.stack)}). Free blackjack tournament trainer with a coach. Can you beat the table?`
+    :`I finished #${rank} of ${rows.length} at Final Hand. Free blackjack tournament trainer with a coach. Can you win the table?`;
+  const url='https://alwayshave.fun/final-hand/';
+  ping('fh-share');
+  if(navigator.share) navigator.share({title:'Final Hand',text,url}).catch(()=>{});
+  else if(navigator.clipboard) navigator.clipboard.writeText(text+' '+url).then(()=>{$('shareBtn').textContent='Copied, paste it anywhere';});
 }
 function skipYouBet(){
   for(const p of order){ if(!p.bet) {p.bet=botBet(p); addLog(`${p.name} bets ${fmt(p.bet)}`);} }
   deal();
 }
 $('coachTog').addEventListener('change',render);
-window.commitBet=commitBet; window.act=act; window.skipYouBet=skipYouBet; window.nextHand=nextHand; window.newTournament=newTournament; window.$=$;
+window.commitBet=commitBet; window.act=act; window.skipYouBet=skipYouBet; window.nextHand=nextHand; window.newTournament=newTournament; window.shareResult=shareResult; window.$=$;
 newTournament();
 </script>
 

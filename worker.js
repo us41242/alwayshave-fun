@@ -14,6 +14,7 @@ const ROUTES = {
   '/players-cards-compared/': '/guides/players-cards-compared/index.html',
   '/tournament-bet-sizer/': '/tools/tournament-bet-sizer/index.html',
   '/video-poker-trainer/': '/games/video-poker/index.html',
+  '/tournament-ev-calculator/': '/tools/tournament-ev-calculator/index.html',
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blackjack Tournament EV Calculator: Is the Entry Fee Worth It?</title>
+<meta name="description" content="Entry fee, rebuys, entrants, guaranteed pool, payout places. Get the expected value of one entry, the overlay, the break-even field size, your chance to cash, and how much skill you need to break even.">
+<link rel="canonical" href="https://alwayshave.fun/tournament-ev-calculator/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Blackjack Tournament EV Calculator","url":"https://alwayshave.fun/tournament-ev-calculator/","description":"Entry fee, rebuys, entrants, guaranteed pool, payout places. Get the expected value of one entry, the overlay, the break-even field size, your chance to cash, and how much skill you need to break even.","applicationCategory":"UtilitiesApplication","operatingSystem":"Any (runs in the browser)","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"alwayshave.fun","url":"https://alwayshave.fun/"}}
+</script>
+<meta property="og:title" content="Blackjack Tournament EV Calculator">
+<meta property="og:description" content="Is the entry fee worth it? Pool, field, rebuys and payouts in, expected value out.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alwayshave.fun/tournament-ev-calculator/">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Libre+Franklin:wght@400;700&display=swap">
+<link rel="stylesheet" href="/site.css">
+<style>
+.calc{background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.calc label{display:block;font-size:.85rem;color:var(--dim);margin-top:.6rem}
+.calc input{width:100%;margin-top:.2rem;padding:.6rem .6rem;border-radius:8px;border:1px solid var(--line);background:var(--felt-deep);color:var(--cream);font:inherit;font-size:1.1rem;font-variant-numeric:tabular-nums}
+.calc .row{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.out{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem}
+.big{font-family:"Big Shoulders Display",Impact,sans-serif;font-weight:900;font-size:2.6rem;color:var(--brass);line-height:1}
+.out small{color:var(--dim)}
+.out table{margin:.6rem 0 0}
+</style>
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="/">ALWAYS<span>HAVE</span>.FUN</a><a href="/final-hand/">Play Final Hand</a></nav>
+
+<h1>Tournament <span>EV calculator</span></h1>
+<p class="lede">Is a blackjack tournament worth the entry fee? Type in what the flyer says and what the tournament desk tells you. You get the expected value of one entry, whether the casino is adding money (an overlay) or keeping some, and how good you have to be to come out ahead.</p>
+
+<div class="calc" id="tev">
+  <div class="row">
+    <label>Entry fee $ <input id="e" type="number" inputmode="numeric" min="0" step="1" value="200"></label>
+    <label>Entrants <input id="n" type="number" inputmode="numeric" min="1" step="1" value="40"></label>
+  </div>
+  <div class="row">
+    <label>Rebuy price $ (0 = no rebuys) <input id="rp" type="number" inputmode="numeric" min="0" step="1" value="0"></label>
+    <label>Rebuys per player, average <input id="rn" type="number" inputmode="decimal" min="0" step="0.1" value="0"></label>
+  </div>
+  <div class="row">
+    <label>Guaranteed prize pool $ (0 = none) <input id="g" type="number" inputmode="numeric" min="0" step="1" value="10000"></label>
+    <label>% of fees and rebuys paid back <input id="pct" type="number" inputmode="numeric" min="0" step="1" value="0"></label>
+  </div>
+  <div class="row">
+    <label>Places paid <input id="m" type="number" inputmode="numeric" min="1" step="1" value="5"></label>
+    <label>Extras with the entry (room, meals, free play) $ <input id="x" type="number" inputmode="numeric" min="0" step="1" value="0"></label>
+  </div>
+  <label>Your edge: your share vs an average entrant&rsquo;s (1 = average) <input id="s" type="number" inputmode="decimal" min="0" step="0.1" value="1"></label>
+  <div class="out">
+    <div class="big" id="o-ev">+$50</div>
+    <small id="o-sub">expected value of one entry for an average player</small>
+    <table>
+      <tr><th>Prize pool</th><td id="o-pool"></td></tr>
+      <tr><th>Your cost (fee + rebuys &minus; extras)</th><td id="o-cost"></td></tr>
+      <tr><th>Average seat&rsquo;s share of the pool</th><td id="o-share"></td></tr>
+      <tr><th>Pool as a share of all money paid in</th><td id="o-pct"></td></tr>
+      <tr><th>Break-even field size</th><td id="o-be"></td></tr>
+      <tr><th>Edge you need to break even</th><td id="o-need"></td></tr>
+      <tr><th>Average player&rsquo;s chance to cash</th><td id="o-cash"></td></tr>
+      <tr><th>Average prize when you cash</th><td id="o-prize"></td></tr>
+    </table>
+  </div>
+</div>
+
+<h2>How the math works</h2>
+<p>If the entrants play about equally well, every seat has the same chance at every prize, so each seat&rsquo;s expected share is <b>prize pool &divide; entrants</b>. That is true however the prizes are split: winner-take-all and a flat payout to the top ten have the same average. The split changes how often you cash and how big the cash is, which is the last two rows.</p>
+<p>The default numbers are a <b>$10,000 guaranteed pool, 40 entrants, $200 entry</b>. Each seat is worth $250, so an average player is $50 ahead before the first hand. The break-even field is pool &divide; cost, 50 entrants. At 60 entrants the seat is worth $167, the same player is $33 behind, and they need to win 1.2&times; an average share to get the fee back.</p>
+<h3>When the pool is a share of the fees</h3>
+<p>Many tournaments pay back a percentage of what comes in instead of a fixed guarantee. Then the pool grows with the field, and the average seat is worth exactly that percentage of what you paid. At 100% the average player breaks even at any field size. At 80% the casino keeps $20 of every $100, and you need a 1.25&times; edge just to get even. If a flyer has both, a guarantee and a percentage, the pool is whichever is bigger, and that is what the calculator uses.</p>
+<h3>Rebuys</h3>
+<p>A rebuy adds money to the pool and to your cost at the same time. The calculator assumes you rebuy as often as the average entrant. If rebuys are paid back 100%, they don&rsquo;t change the average player&rsquo;s EV. Where a guarantee is doing the work, they make it worse: a $10,000 guarantee with 40 entrants and one $100 rebuy each costs you $300 for the same $250 seat. A rebuy can only raise an average player&rsquo;s EV if more than 100% of it goes into the pool.</p>
+<h3>What &ldquo;your edge&rdquo; means</h3>
+<p>1 means you win the average share. 1.5 means you win half again as much, over many tournaments. Nobody knows their number exactly. The useful row is <i>edge you need to break even</i>: if it says 1.25, ask whether you really outplay three out of four people at the table. Skill in blackjack tournaments is concentrated in the last few hands, which is what <a href="/final-hand/">Final Hand</a> drills and the <a href="/tournament-bet-sizer/">bet sizer</a> calculates. The <a href="/blackjack-tournament-strategy/">strategy guide</a> explains why.</p>
+
+<h2>What to ask the tournament desk</h2>
+<ul>
+  <li><b>How many entrants are you expecting, or how many signed up last time?</b> The field size decides a guaranteed tournament.</li>
+  <li><b>Is the prize pool guaranteed, or a percentage of entries?</b> If it&rsquo;s a percentage, what percentage?</li>
+  <li><b>Do rebuys go into the prize pool in full?</b> Some casinos keep part of each rebuy.</li>
+  <li><b>How many places pay?</b></li>
+  <li><b>What comes with the entry?</b> Room nights, meals, free play and gifts are money you would otherwise spend, so they count on your side.</li>
+</ul>
+<p class="why">The average share is exact for a field of equal players. Taxes on large prizes, tipping the dealers, and travel are left out. Count anything else you get with the entry at what you would actually pay for it, not the posted room rate. Strategy and education only. Nothing here guarantees a win.</p>
+
+<footer>Strategy and education only. Gambling problem? Call 1-800-GAMBLER. <a href="/">alwayshave.fun</a></footer>
+</div>
+<script>
+// Tournament EV, equal field: each seat expects pool / entrants whatever the payout split.
+// ponytail: assumes you rebuy as often as the field; per-player rebuy strategy is a simulation, not a formula.
+function tevx({ E, N, R, r, G, pct, M, X, s }) {
+  const per = E + r * R, money = N * per, P = Math.max(G, pct / 100 * money);
+  const share = P / N, cost = per - X, paid = Math.min(M, N);
+  // pool/N = max(G/N, pct*per): the percentage part is flat, so only the guarantee shrinks with the field
+  const be = cost <= 0 || pct / 100 * per >= cost ? Infinity : Math.floor(G / cost);
+  return { P, cost, share, ev: share - cost, mine: s * share - cost, pct: money > 0 ? P / money : null,
+    be, need: cost <= 0 ? 0 : cost / share, cash: paid / N, prize: P / paid };
+}
+if (typeof document !== 'undefined') {
+  const el = id => document.getElementById(id), v = id => Math.max(+el(id).value || 0, 0);
+  const $ = n => '$' + Math.round(n).toLocaleString('en-US');
+  const sgn = n => Math.round(n) === 0 ? '$0' : (n < 0 ? '−' : '+') + $(Math.abs(n));
+  let pinged = 0;
+  const calc = () => {
+    const s = v('s') || 0, k = tevx({ E: v('e'), N: Math.max(Math.floor(v('n')), 1), R: v('rp'), r: v('rn'),
+      G: v('g'), pct: v('pct'), M: Math.max(Math.floor(v('m')), 1), X: v('x'), s });
+    const avg = s === 1;
+    el('o-ev').textContent = sgn(avg ? k.ev : k.mine);
+    el('o-sub').textContent = avg ? 'expected value of one entry for an average player'
+      : `expected value of one entry at ${s}× an average share (average player: ${sgn(k.ev)})`;
+    el('o-pool').textContent = $(k.P);
+    el('o-cost').textContent = $(k.cost);
+    el('o-share').textContent = $(k.share);
+    el('o-pct').textContent = k.pct === null ? '—' : Math.round(k.pct * 100) + '%' + (k.pct > 1.005 ? ' (overlay: the casino adds money)' : k.pct < 0.995 ? ' (the casino keeps the rest)' : '');
+    el('o-be').textContent = k.be === Infinity ? 'any size' : k.be < 1 ? 'none: the pool is smaller than one entry' : `up to ${k.be.toLocaleString('en-US')} entrant${k.be === 1 ? '' : 's'}`;
+    el('o-need').textContent = k.need < 1 ? 'none: an average player is ahead' : k.need === 1 ? 'none: an average player breaks even' : !isFinite(k.need) ? 'no amount: the pool is empty' : `${k.need.toFixed(2)}× an average entrant's share`;
+    el('o-cash').textContent = k.cash >= 1 ? 'everyone cashes' : `1 in ${(1 / k.cash).toFixed(1).replace(/\.0$/, '')} (${Math.round(k.cash * 100)}%)`;
+    el('o-prize').textContent = $(k.prize);
+  };
+  el('tev').addEventListener('input', () => { if (!pinged++ && navigator.sendBeacon) navigator.sendBeacon('/e/tev'); calc(); });
+  calc();
+}
+</script>
+</body>
+</html>

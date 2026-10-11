@@ -84,6 +84,7 @@ don't make you a winner.
    crawled page); fix `/favicon.ico` 410. Distribution remains the
    bottleneck and every new channel is Josh's call.
    (2026-10-07: `/tournament-ev-calculator/`. 2026-10-09: **`/caesars-olympus/`**, the first page aimed at current demand. Caesars' Olympus tier needs 300,000 Tier Credits by 2026-12-31, and the press priced it as "$1.5M" (coin-in). The page prices it at $120,000 down to $4,600 and has a calculator. Every program change produces a coin-in headline, so a correction can be published while the question is live, and Bing indexes new tool pages in ~1 day.)
+   (2026-10-10: **`/caesars-diamond/`**, an exact-match page for "how much does Caesars Diamond cost", the evergreen head query of the rewards lane, now in its Q4 chase season. Every Caesars tier priced four ways, plus a calculator. Bing picked up Olympus in 1 day, which confirms the exact-match-page-on-Bing bet.)
    (Superseded plan, kept for the record:) **the tier price calculator** — the same idea as a trainer rather
    than a table (program, tier, game, bet size → coin-in, expected loss,
    hours), on `/players-cards-compared/` where the tier data lives, with the

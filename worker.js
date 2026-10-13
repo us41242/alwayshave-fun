@@ -18,6 +18,7 @@ const ROUTES = {
   '/caesars-olympus/': '/guides/caesars-olympus/index.html',
   '/caesars-diamond/': '/guides/caesars-diamond/index.html',
   '/mgm-gold-platinum/': '/guides/mgm-gold-platinum/index.html',
+  '/station-boarding-pass-tiers/': '/guides/station-boarding-pass-tiers/index.html',
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',

@@ -108,6 +108,12 @@ after the 2,900-URL 410 purge, plus no inbound links. Cloudflare and robots
 ruled out. Repo purged of trails files 09-06.
 
 ## Distribution
+**2026-10-16:** build arc closed; distribution is the only lever and every
+channel needs an identity only Josh can create. Three posts written and
+fact-checked, ready to paste, in `daily-in-box/vegas-question-2026-10-16.md`
+(blackjacktheforum Software first, blackjackinfo a week later, Show HN in
+Josh's voice). Do not draft more until he answers; re-carry in each weekly.
+
 **Status 2026-09-14: Reddit is halted.** u/StunningOpinion7483 was suspended
 sitewide (permanent per the API) and r/VideoPoker was banned by Reddit for
 being unmoderated, both between the 09-13 and 09-14 sessions. The post, the

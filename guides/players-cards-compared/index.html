@@ -25,7 +25,7 @@
 .na{color:var(--dim)}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Las Vegas Players Cards Compared: Caesars, MGM, Boyd, Station, Wynn Earn Rates and Tiers","datePublished":"2026-09-04","dateModified":"2026-10-15","author":{"@type":"Organization","name":"alwayshave.fun"},"publisher":{"@type":"Organization","name":"alwayshave.fun"},"mainEntityOfPage":"https://alwayshave.fun/players-cards-compared/"}
+{"@context":"https://schema.org","@type":"Article","headline":"Las Vegas Players Cards Compared: Caesars, MGM, Boyd, Station, Wynn Earn Rates and Tiers","datePublished":"2026-09-04","dateModified":"2026-10-17","author":{"@type":"Organization","name":"alwayshave.fun"},"publisher":{"@type":"Organization","name":"alwayshave.fun"},"mainEntityOfPage":"https://alwayshave.fun/players-cards-compared/"}
 </script>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -37,7 +37,7 @@
 <h1>Players cards compared: <span>what each one really pays</span></h1>
 <p class="lede">Every Vegas casino wants you to carry its card. Only some of them tell you what it earns. Here are the five programs that cover most of the Strip and the locals market, with their published earn rates turned into the one number that matters: <b>cents back per $100 you put through the machine</b>.</p>
 
-<p class="toc">On this page: <a href="#table">the comparison table</a> · <a href="#math">how the rebate is computed</a> · <a href="#calculator">your trip, by card</a> · <a href="#tiers">tiers and what they cost</a> · <a href="#no-gambling">status without gambling</a> · <a href="#programs">program by program</a> · <a href="#locals">the smaller clubs that pay more</a> · <a href="#pick">which card to carry</a> · <a href="#sources">sources</a></p>
+<p class="toc">On this page: <a href="#table">the comparison table</a> · <a href="#math">how the rebate is computed</a> · <a href="#calculator">your trip, by card</a> · <a href="#tiers">tiers and what they cost</a> · <a href="#no-gambling">status without gambling</a> · <a href="#boyd-points">Boyd points worth</a> · <a href="#programs">program by program</a> · <a href="#locals">the smaller clubs that pay more</a> · <a href="#pick">which card to carry</a> · <a href="#sources">sources</a></p>
 
 <h2 id="table">The comparison table</h2>
 <p>Base rates, before tier multipliers, point-multiplier days, and mailers. Verified against each program's own pages on 2026-09-04 and re-checked 2026-09-22; footnotes mark anything the program does not publish itself.</p>
@@ -132,6 +132,15 @@
 <p>Bellagio, ARIA, MGM Grand, Mandalay Bay, Park MGM, New York-New York, Luxor, Excalibur, and the regional MGM properties. Points are worth one cent and Tier Credits are 4 per $1 on non-gaming spend, but MGM does not publish a gaming earn rate at all: "varies based on your wager, game type, and game denomination." That is a deliberate choice, and it means you cannot compare MGM on the base rate. Judge it on the mail after a trip, not the point balance. What MGM does publish is the Daily Tier Status Accelerator, running through 2026-12-31 at the Las Vegas properties: a bonus on Tier Credits earned in one promotional day, up to 40,000 earned paying a 60,000 bonus. Like the Caesars bonus, it rewards concentrating a trip rather than spreading it: <a href="/mgm-gold-platinum/">Gold and Platinum priced</a> at MGM's published 4 per $1, $10,000 and $20,000 instead of $18,750 and $50,000.</p>
 <h3>Boyd Rewards</h3>
 <p>Orleans, Gold Coast, Suncoast, Sam's Town, Fremont, California, Main Street Station, Aliante, Cannery, and Boyd's regional casinos. One point per $1 on slots, per $2 on video poker, 1,000 points to the dollar. The catch nobody puts on the sign-up flyer: the entry Ruby tier earns no points. You need 750 Tier Credits before the card pays anything spendable, and Boyd does not publish how fast play earns Tier Credits &mdash; it varies by game, denomination, and time played, so there is no way to price that from outside.</p>
+<h4 id="boyd-points">What are my Boyd points and Tier Credits worth?</h4>
+<p>Points and Tier Credits are two different balances. <b>Boyd Points are worth $1 per 1,000</b> as FastPlay or at retail, so 47,000 points is $47. At the base rate that balance took $47,000 through slots or $94,000 through video poker; multiplier days mean less, and Boyd notes that some properties earn differently. Points expire after six months with no activity. <b>Tier Credits have no cash value</b>: they only set your tier, reset every January 1, and the tier you reach lasts the rest of the year and all of the next. 41,000 Tier Credits is Emerald, 9,000 short of Onyx. At year end Boyd carries over whatever you are above your tier&rsquo;s floor, up to a cap (500 at Sapphire, 5,000 at Emerald, 10,000 at Onyx, 40,000 at Titanium), so a 41,000 balance starts next year at 5,000.</p>
+<div class="calc">
+  <div class="row">
+    <label>Boyd Points <input id="bpts" type="number" step="1000" min="0" value="47000"></label>
+    <label>Tier Credits this year <input id="btc" type="number" step="1000" min="0" value="41000"></label>
+  </div>
+  <p id="bout" class="why"></p>
+</div>
 <h3>Station Casinos Boarding Pass</h3>
 <p>Red Rock, Green Valley Ranch, Durango, Palace, Boulder, Sunset, Santa Fe, and the Wildfire locations. Same 1-per-$1 slots, 1-per-$2 video poker, 1,000-to-the-dollar structure as Boyd, with one difference that matters to locals: points can be taken as <b>cash back</b>, not only free play. Live table games have earned no points since April 2020. Tier status is judged every six months, so it is easier to hold than a calendar-year program if you play year-round and harder if you visit once. Status credits also come from hotel stays at 50 per $1, so <a href="/station-boarding-pass-tiers/">Station's tiers are priced here</a> in rooms and dining as well as play.</p>
 <h3>Wynn Rewards</h3>
@@ -153,7 +162,7 @@
 <ul>
   <li>Caesars Rewards, <i>Earn and Redeem</i> and program rules (caesars.com/myrewards/earn-and-redeem), read 2026-09-04 and 2026-09-22: Reward Credit and Tier Credit earn rates, the six tier bands, the daily Tier Credit bonus chart and its restrictions (re-read 2026-09-24: bonuses are earned &ldquo;every day&rdquo;, one level per promotional day), and the 200 RC = $1 free-play rate. Caesars Sportsbook Reward Credit exchange page for the 100 RC = $1 figure.</li>
   <li>MGM Rewards, <i>Earn</i>, <i>Tiers &amp; Benefits</i> and <i>Daily Tier Status Accelerator</i> pages (mgmresorts.com/en/mgm-rewards), read 2026-09-04 and 2026-09-22: 4 Tier Credits per folio dollar, tier thresholds, the 10/20/30/40% Slot Dollars bonus ladder, the "varies based on your wager, game type, and game denomination" statement on gaming earn, and the accelerator chart.</li>
-  <li>Boyd Rewards, <i>Boyd Points &amp; Tier Credits</i> and <i>Tier Benefits</i> (rewards.boydgaming.com), read 2026-09-04 and 2026-09-22: point earn rates, 1,000 = $1, Sapphire-and-above rule, tier bands, and the statement that Tier Credits are earned "based on game played, denomination, and time played".</li>
+  <li>Boyd Rewards, <i>Boyd Points &amp; Tier Credits</i> and <i>Tier Benefits</i> (rewards.boydgaming.com), read 2026-09-04 and 2026-09-22: point earn rates, 1,000 = $1, Sapphire-and-above rule, tier bands, and the statement that Tier Credits are earned "based on game played, denomination, and time played". Re-read 2026-10-17 with <i>Carryover Tier Credits</i> and the FAQ: year-end carryover caps, six-month point expiry, tier kept the rest of the year and the next.</li>
   <li>Station Casinos, <i>my|Rewards Boarding Pass Official Rules</i> (stationcasinos.com), read 2026-09-04 and 2026-09-24: earn schedule, 1,000 = $1, live-table exclusion, six-month status periods. Status-credit rates and tier thresholds from Station&rsquo;s Boarding Pass page and <i>my|Rewards Boarding Pass 2026 Brochure</i> (dated 2026-07-09), read 2026-09-24.</li>
   <li>Venetian Rewards, <i>Terms and Conditions</i> (venetianlasvegas.com/venetian-rewards), read 2026-09-24: Tier Point earn rates, tier thresholds, the March-to-February tier year.</li>
   <li>Resorts World Las Vegas, <i>Genting Rewards Earn and Redeem</i> and <i>Tier Benefits</i> (rwlasvegas.com/genting-rewards), read 2026-09-24 and re-read 2026-10-14 with the Genting Rewards Terms and Conditions: Genting Point earn rates, tier thresholds in Tier Credits (&ldquo;Genting Base Points&rdquo;), the January 5 reset, boosted points excluded from tier.</li>
@@ -259,6 +268,23 @@ $$('tp-prog').addEventListener('change', () => { fillTiers(); tierRun(); });
 ['tp-tier','tp-game','tp-when'].forEach(id => $$(id).addEventListener('change', tierRun));
 $$('tp-bet').addEventListener('input', tierRun);
 fillTiers(); tierRun();
+</script>
+<script>
+// ponytail: Boyd points/TC converter; rates and carryover caps from rewards.boydgaming.com, read 2026-10-17.
+const BOYD_TIERS = [['Ruby',0,0],['Sapphire',750,500],['Emerald',15000,5000],['Onyx',50000,10000],['Titanium',200000,40000]];
+function boyd(pts, tc){
+  let i = 0; while (i + 1 < BOYD_TIERS.length && tc >= BOYD_TIERS[i+1][1]) i++;
+  const [tier, floor, cap] = BOYD_TIERS[i], next = BOYD_TIERS[i+1];
+  return {dollars: pts/1000, slots: pts, vp: pts*2, tier, toNext: next ? next[1]-tc : 0, next: next && next[0], carry: Math.min(tc-floor, cap)};
+}
+console.assert(JSON.stringify(boyd(47000,41000)) === JSON.stringify({dollars:47,slots:47000,vp:94000,tier:'Emerald',toNext:9000,next:'Onyx',carry:5000}), 'boyd 47k/41k');
+console.assert(boyd(0,18000).carry === 3000 && boyd(0,280000).carry === 40000 && boyd(0,500).carry === 0, 'boyd carryover examples');
+function runBoyd(){
+  const m = n => n.toLocaleString('en-US'), r = boyd(Math.max(0, +$('bpts').value || 0), Math.max(0, +$('btc').value || 0));
+  $('bout').innerHTML = `<b>$${r.dollars.toFixed(2)}</b> of FastPlay or retail. At the base rate that is $${m(r.slots)} of slot play or $${m(r.vp)} of video poker. Tier: <b>${r.tier}</b>` +
+    (r.next ? `, ${m(r.toNext)} Tier Credits short of ${r.next}.` : ', the top tier.') + ` Carryover into next year if the year ended now: ${m(r.carry)}.`;
+}
+$('bpts').addEventListener('input', runBoyd); $('btc').addEventListener('input', runBoyd); runBoyd();
 </script>
 </body>
 </html>

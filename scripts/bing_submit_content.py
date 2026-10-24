@@ -9,22 +9,34 @@ K=open("/Users/joshuaedrake/Documents/breakingeven.online/.credentials/bing-api-
 API="https://ssl.bing.com/webmaster/api.svc/json/"; S="https://alwayshave.fun/"
 R="/Users/joshuaedrake/Documents/alwayshave-fun"
 
+CACHE=R+"/logs/bing-crawl-dates.json"  # {slug: {"crawled": date|"never", "checked": date}}; survives the GetUrlInfo throttle
 def stale():
     routes=re.findall(r"'/([^']*?)/?':\s*'/([^']+\.html)'",open(R+"/worker.js").read())
-    out=[]
+    try: cache=json.load(open(CACHE))
+    except FileNotFoundError: cache={}
+    today=datetime.now(timezone.utc).strftime("%Y-%m-%d"); out=[]; throttled=None
     for slug,f in routes:
-        time.sleep(2)
+        key=slug or "home"
         edited=subprocess.run(["git","-C",R,"log","-1","--format=%cs","--",f],capture_output=True,text=True).stdout.strip()
         u=S+(slug+"/" if slug else "")
-        try:
-            d=json.load(urllib.request.urlopen(API+"GetUrlInfo?"+urllib.parse.urlencode({"apikey":K,"siteUrl":S,"url":u})))["d"]
-            ms=int(d["LastCrawledDate"][6:-2])
-            crawled="never" if ms<0 else datetime.fromtimestamp(ms/1000,timezone.utc).strftime("%Y-%m-%d")
-        except urllib.error.HTTPError as e:  # ThrottleHost after ~25 GetUrlInfo calls in a few minutes (10-21): stop, don't guess
-            sys.exit(f"GetUrlInfo {e.code} {e.read()[:120]} — wait a few minutes and rerun")
+        if cache.get(key,{}).get("checked")==today: crawled=cache[key]["crawled"]
+        elif throttled: crawled=None
+        else:
+            time.sleep(2)
+            try:
+                d=json.load(urllib.request.urlopen(API+"GetUrlInfo?"+urllib.parse.urlencode({"apikey":K,"siteUrl":S,"url":u})))["d"]
+                ms=int(d["LastCrawledDate"][6:-2])
+                crawled="never" if ms<0 else datetime.fromtimestamp(ms/1000,timezone.utc).strftime("%Y-%m-%d")
+                cache[key]={"crawled":crawled,"checked":today}
+            except urllib.error.HTTPError as e:  # ThrottleHost after ~13-25 GetUrlInfo calls (10-21, 10-22): keep what we have, never guess
+                throttled=f"GetUrlInfo {e.code} {e.read()[:80]}"; crawled=None
+        if crawled is None: print(f"?     {key:40} edited {edited} crawled (throttled, rerun later)"); continue
         st=crawled=="never" or edited>crawled
-        print(f"{'STALE' if st else 'ok   '} {slug or 'home':40} edited {edited} crawled {crawled}")
-        if st: out.append(slug or "home")
+        print(f"{'STALE' if st else 'ok   '} {key:40} edited {edited} crawled {crawled}")
+        if st and cache.get(key,{}).get("submitted")==today: print(f"      {key:40} already submitted today"); continue
+        if st: out.append(key); cache.setdefault(key,{})["submitted"]=today
+    json.dump(cache,open(CACHE,"w"),indent=1,sort_keys=True)
+    if throttled: print(throttled,"— submitting the stale pages found so far; rerun in a few minutes for the rest")
     return out
 
 def submit(p):

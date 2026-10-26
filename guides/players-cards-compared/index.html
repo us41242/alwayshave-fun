@@ -289,6 +289,8 @@ function runBoyd(){
     (r.next ? `, ${m(r.toNext)} Tier Credits short of ${r.next}.` : ', the top tier.') + ` Carryover into next year if the year ended now: ${m(r.carry)}.`;
 }
 $('bpts').addEventListener('input', runBoyd); $('btc').addEventListener('input', runBoyd); runBoyd();
+let pinged = 0; // one anonymous beacon per load, first interaction with any of the three calculators
+['input','change'].forEach(t => addEventListener(t, () => { if (!pinged++ && navigator.sendBeacon) navigator.sendBeacon('/e/pcards'); }, {once:true, passive:true}));
 </script>
 </body>
 </html>

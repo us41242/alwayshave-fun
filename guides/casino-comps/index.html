@@ -156,6 +156,8 @@ $('game').addEventListener('change', e => {
 });
 ['edge','pace','bet','hours','rate'].forEach(id => $(id).addEventListener('input', run));
 run();
+let pinged = 0; // one anonymous beacon per load, first real calculator interaction only
+['input','change'].forEach(t => addEventListener(t, () => { if (!pinged++ && navigator.sendBeacon) navigator.sendBeacon('/e/comps'); }, {once:true, passive:true}));
 </script>
 </body>
 </html>

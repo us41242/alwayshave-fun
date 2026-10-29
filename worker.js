@@ -27,6 +27,13 @@ const ROUTES = {
   '/sitemap-pages.xml': '/sitemap.xml', // retired alias (2026-10-26): dropped from robots.txt + GSC, kept so the URL never 410s
   '/favicon.ico': '/favicon.ico',
   '/favicon.svg': '/favicon.svg',
+  // Root assets real clients ask for unprompted. iOS Safari fetches both
+  // apple-touch-icon paths for bookmarks and Add to Home Screen (it got 410
+  // for 12 requests in the 8 days to 2026-10-28, including our one confirmed
+  // human, twice); llms.txt is the AI-crawler index.
+  '/apple-touch-icon.png': '/apple-touch-icon.png',
+  '/apple-touch-icon-precomposed.png': '/apple-touch-icon.png',
+  '/llms.txt': '/llms.txt',
   '/3d00877f1b744d7898b2862b4c5e94fd.txt': '/3d00877f1b744d7898b2862b4c5e94fd.txt', // IndexNow key
 };
 

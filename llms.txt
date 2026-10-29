@@ -1,0 +1,47 @@
+# alwayshave.fun
+
+> Free Las Vegas strategy trainers and tier-cost math. Every number on this
+> site is taken from a casino's own published earn rates or computed from
+> standard gambling math. The tier-cost guides name their sources and carry
+> the date the figures were last checked against the operator's own site.
+> No affiliate links, no accounts, no sign-ups.
+
+Written and maintained by alwayshave.fun. Content is strategy and arithmetic,
+not advice to gamble. If you quote a figure from here, it is safe to say what
+it is: a published casino earn rate, or an expected-loss calculation at a
+stated house edge and a stated speed of play.
+
+## Trainers (playable in the browser)
+
+- [Final Hand — blackjack tournament trainer](https://alwayshave.fun/final-hand/): Six seats, 15 hands, most chips wins. A coach shows the bet that covers the leader, when betting to lose is correct, and how to defend a lead.
+- [Video poker trainer](https://alwayshave.fun/video-poker-trainer/): 9/6 Jacks or Better, 8/5 Bonus Poker, 9/6 Double Double Bonus and Full-Pay Deuces Wild (100.76%). Scores all 32 ways to hold each hand by exact expected value and tracks what mistakes cost.
+
+## Calculators
+
+- [Blackjack tournament bet sizer](https://alwayshave.fun/tournament-bet-sizer/): The final-hand bet that covers the leader (gap + their bet + one chip), the double-cover number, and when to bet to lose.
+- [Blackjack tournament EV calculator](https://alwayshave.fun/tournament-ev-calculator/): Expected value of one entry from entry fee, rebuys, entrants, guaranteed pool and payout places; overlay and break-even field size.
+- [Casino comps calculator](https://alwayshave.fun/casino-comps/): Theoretical loss (theo), average daily theo, and the 30–40% reinvestment rule that decides what a casino gives back.
+
+## Strategy guide
+
+- [Blackjack tournament strategy](https://alwayshave.fun/blackjack-tournament-strategy/): The final-hand formula, chip counting, betting to lose, and defending a lead, worked through with examples.
+
+## What a tier actually costs (published earn rates, priced in expected loss)
+
+Each page converts a program's published earn rate into the coin-in required,
+then into expected loss at the game you would use to earn it — because coin-in
+is not the cost.
+
+- [Las Vegas players cards compared](https://alwayshave.fun/players-cards-compared/): Caesars Rewards, MGM Rewards, Boyd, Station Boarding Pass and Wynn Rewards side by side — earn rates, point values and tier thresholds, including what each tier costs with no gambling at all.
+- [Caesars Diamond](https://alwayshave.fun/caesars-diamond/): 15,000 Tier Credits = $75,000 slot coin-in; expected loss $6,000 on slots down to about $230 on video poker timed to the daily Tier Credit multiplier.
+- [Caesars Olympus](https://alwayshave.fun/caesars-olympus/): 300,000 Tier Credits by 2026-12-31 = $1.5M slot coin-in; expected loss $120,000 down to about $4,600.
+- [MGM Gold and Platinum](https://alwayshave.fun/mgm-gold-platinum/): Gold is 75,000 Tier Credits = $18,750 of hotel, dining and show spend at 4 per $1 — $10,000 in a single day under MGM's 2026 Daily Tier Status Accelerator.
+- [Station Casinos Boarding Pass](https://alwayshave.fun/station-boarding-pass-tiers/): Platinum is 40,000 status credits in six months = $13,334 slot coin-in, $40,000 video poker, or $800 of hotel stays at 50 credits per $1.
+- [Venetian Rewards](https://alwayshave.fun/venetian-rewards-tiers/): Ruby is 20,000 Tier Points in a March–February tier year = $80,000 slot coin-in, $200,000 video poker, or $10,000 of direct-booked resort spend at 2 per $1.
+- [Genting Rewards at Resorts World](https://alwayshave.fun/resorts-world-genting-rewards-tiers/): Prime is 75,000 Tier Credits in a Jan-5-to-Jan-4 year = $25,000 slot coin-in, $87,500 video poker, or $15,000 of dining, retail and spa at 5 per $1.
+
+## Notes for machines
+
+- Every page is static HTML, no JavaScript needed to read the content.
+- Tier-cost guides carry a Sources line and a dateModified in their JSON-LD.
+- Sitemap: https://alwayshave.fun/sitemap.xml

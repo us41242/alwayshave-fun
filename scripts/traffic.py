@@ -12,7 +12,7 @@ Token needs Zone Analytics Read (the cfut_ token in boothsight/.dev.vars has
 it; the cfat_ deploy token does not). Read-only; free-plan data lasts ~8 days
 per query window.
 """
-import json, os, sys, urllib.request
+import ipaddress, json, os, sys, urllib.request
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 
@@ -49,3 +49,40 @@ for r in q(span + ',edgeResponseStatus:200,clientRequestHTTPMethodName:"GET",cli
 print("Page GETs (path, browser|bot/tool):")
 for (p, kind), n in sorted(views.items(), key=lambda x: -x[1]):
     print(f"  {n:5}  {kind:8}  {p}")
+
+# --- Verified AI crawlers -------------------------------------------------
+# Most "ClaudeBot"/"GPTBot"/"PerplexityBot" hits are credential scanners
+# spoofing the UA (they ask for /.env, never for a guide page), so the UA
+# alone means nothing. Each operator publishes its crawler IP ranges; only
+# requests from those ranges are counted as real. ponytail: published JSON
+# only — no reverse-DNS fallback, so an operator without a list shows 0.
+AI_RANGES = {
+    "GPTBot": "https://openai.com/gptbot.json",
+    "OAI-SearchBot": "https://openai.com/searchbot.json",
+    "ChatGPT-User": "https://openai.com/chatgpt-user.json",
+    "PerplexityBot": "https://www.perplexity.ai/perplexitybot.json",
+}
+
+
+def _nets(url):
+    d = json.load(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "curl/8"})))
+    return [ipaddress.ip_network(p.get("ipv4Prefix") or p["ipv6Prefix"]) for p in d["prefixes"]]
+
+
+print("Verified AI crawlers (UA matched AND IP in the operator's published range):")
+for bot, src in AI_RANGES.items():
+    try:
+        nets = _nets(src)
+    except Exception as e:
+        print(f"  {bot:16} range list unavailable ({e})")
+        continue
+    real, fake = Counter(), 0
+    for r in q(span + ',userAgent_like:"%%%s%%"' % bot, "clientIP clientRequestPath edgeResponseStatus"):
+        ip = ipaddress.ip_address(r["dimensions"]["clientIP"])
+        if any(ip in n for n in nets if ip.version == n.version):
+            real[(r["dimensions"]["clientRequestPath"], r["dimensions"]["edgeResponseStatus"])] += r["count"]
+        else:
+            fake += r["count"]
+    print(f"  {bot:16} {sum(real.values()):4} real, {fake:4} spoofed")
+    for (p, st), n in real.most_common(6):
+        print(f"      {n:4}  {st}  {p}")

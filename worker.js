@@ -27,12 +27,9 @@ const ROUTES = {
   '/sitemap-pages.xml': '/sitemap.xml', // retired alias (2026-10-26): dropped from robots.txt + GSC, kept so the URL never 410s
   '/favicon.ico': '/favicon.ico',
   '/favicon.svg': '/favicon.svg',
-  // Root assets real clients ask for unprompted. iOS Safari fetches both
-  // apple-touch-icon paths for bookmarks and Add to Home Screen (it got 410
-  // for 12 requests in the 8 days to 2026-10-28, including our one confirmed
-  // human, twice); llms.txt is the AI-crawler index.
-  '/apple-touch-icon.png': '/apple-touch-icon.png',
-  '/apple-touch-icon-precomposed.png': '/apple-touch-icon.png',
+  // Root assets real clients ask for unprompted. llms.txt is the AI-crawler
+  // index; the apple-touch-icon family is handled by a pattern below, because
+  // iOS asks for sizes, not just the two bare names.
   '/llms.txt': '/llms.txt',
   '/3d00877f1b744d7898b2862b4c5e94fd.txt': '/3d00877f1b744d7898b2862b4c5e94fd.txt', // IndexNow key
 };
@@ -49,6 +46,18 @@ export default {
 
     // /e/<event> — anonymous play counter beacon; the request itself is the count.
     if (p.startsWith('/e/')) return new Response(null, { status: 204 });
+
+    // iOS asks for the Add-to-Home-Screen icon by size and gives up quietly:
+    // apple-touch-icon-240x240[-precomposed].png, -180x180-, -152x152-, ...
+    // Our one confirmed human asked for 240x240 and 240x240-precomposed on
+    // 2026-10-29 and got 410 for both, two hours after the bare paths were
+    // fixed. One pattern serves the single 180x180 PNG for every variant,
+    // which is what the spec allows and what iOS downscales anyway.
+    // ponytail: a pattern, not 10 more ROUTES lines.
+    if (/^\/apple-touch-icon(-\d+x\d+)?(-precomposed)?\.png$/.test(p)) {
+      url.pathname = '/apple-touch-icon.png';
+      return env.ASSETS.fetch(new Request(url.toString(), request));
+    }
 
     // Directory URLs are canonical with a trailing slash.
     if ((p + '/') in ROUTES) {

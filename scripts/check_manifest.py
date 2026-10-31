@@ -16,7 +16,11 @@ MIN_INSTALLABLE = 144          # Chrome's floor for an installable icon
 def fetch(path):
     """path is a site path like '/manifest.webmanifest'; returns (bytes, content_type)."""
     if LIVE:
-        with urllib.request.urlopen("https://alwayshave.fun" + path) as r:
+        # A real UA: the zone 403s urllib's default one.
+        req = urllib.request.Request("https://alwayshave.fun" + path, headers={
+            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 "
+                          "(KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"})
+        with urllib.request.urlopen(req) as r:
             return r.read(), r.headers.get("Content-Type", "")
     return (ROOT / path.lstrip("/")).read_bytes(), ""
 

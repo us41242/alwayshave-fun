@@ -1,0 +1,21 @@
+{
+  "name": "alwayshave.fun — Vegas strategy trainers",
+  "short_name": "Always Have Fun",
+  "description": "Coached blackjack tournament and video poker trainers, plus the comp and players-card math, built for a phone on a casino floor.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b241a",
+  "theme_color": "#0b241a",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Final Hand — blackjack tournament trainer", "url": "/final-hand/" },
+    { "name": "Video poker trainer", "url": "/video-poker-trainer/" },
+    { "name": "Tournament bet sizer", "url": "/tournament-bet-sizer/" }
+  ]
+}

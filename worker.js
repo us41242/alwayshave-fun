@@ -31,6 +31,10 @@ const ROUTES = {
   // index; the apple-touch-icon family is handled by a pattern below, because
   // iOS asks for sizes, not just the two bare names.
   '/llms.txt': '/llms.txt',
+  // Installable web app: a site whose premise is a phone on a casino floor.
+  '/manifest.webmanifest': '/manifest.webmanifest',
+  '/icon-512.png': '/icon-512.png',
+  '/icon-maskable-512.png': '/icon-maskable-512.png',
   '/3d00877f1b744d7898b2862b4c5e94fd.txt': '/3d00877f1b744d7898b2862b4c5e94fd.txt', // IndexNow key
 };
 

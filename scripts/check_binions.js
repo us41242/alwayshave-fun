@@ -13,4 +13,10 @@ assert.equal(2 * month + BOTH, 200); assert.equal(pct(200 / 5000), 4);
 for (const t of ['0.5% cash plus 1% comps', '0.31% cash plus 0.63% comps', '$2,500 through slots or $4,000 through video poker',
   '$12.50 cash, $25 in comps and $50 of free play', '$87.50, or 3.5% of $2,500', '1.5% base rebate', '$200 on $5,000 (4%)', '$4,000 (2.2%)',
   'has no published tiers', '13 months', 'October 31, 2026']) assert(sec.includes(t), 'copy missing ' + t);
+// The Sep 1 - Oct 31 2026 run expired; the prose must read as past, not as a live offer.
+// Re-checked 2026-10-31: flyer unchanged since 2026-09-01, no replacement posted.
+assert(sec.includes('ended at 11:59 pm on October 31, 2026'), 'expired bonus must be marked ended');
+assert(sec.includes('no replacement has been posted'), 'must say whether a replacement exists');
+for (const t of ['pays $50 in free slot play', 'Table players qualify with'])
+  assert(!sec.includes(t), 'present-tense expired-offer copy: ' + t);
 console.log('ok');

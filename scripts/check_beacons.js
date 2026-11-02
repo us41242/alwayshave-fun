@@ -1,9 +1,11 @@
 // ponytail: loads a page in real headless Chrome over raw CDP, stubs navigator.sendBeacon,
-// fires two input events + one change, and asserts exactly ONE beacon to the expected /e/ path.
-// usage: node scripts/check_beacons.js <file-or-url> </e/event>
+// drives the page, and asserts exactly the expected /e/ beacons.
+// usage: node scripts/check_beacons.js <file-or-url> </e/event>   (fires 2 input + 1 change, expects one beacon)
+//        node scripts/check_beacons.js <file-or-url> vp           (plays the VP trainer: deal/draw 5 hands,
+//                                                                  jump to hand 25; expects vp-deal, vp-5, vp-25)
 const { execFile } = require('child_process'), assert = require('assert');
 const [,, target, event] = process.argv;
-if (!target || !event) { console.error('usage: node check_beacons.js <file.html|url> </e/event>'); process.exit(2); }
+if (!target || !event) { console.error('usage: node check_beacons.js <file.html|url> </e/event>|vp'); process.exit(2); }
 const url = /^https?:/.test(target) ? target : 'file://' + require('path').resolve(target);
 const port = 9333;
 const chrome = execFile('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
@@ -22,19 +24,33 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   await send('Page.enable');
   await send('Page.navigate', { url });
   await sleep(1500); // page scripts run at end of body; plenty
-  const { result } = await send('Runtime.evaluate', { awaitPromise: true, returnByValue: true, expression: `
-    (async () => {
-      const calls = [];
-      navigator.sendBeacon = u => { calls.push(u); return true; };
+  const vp = event === 'vp';
+  const scenario = vp ? `
+      const wait = async f => { for (let i = 0; i < 100 && !f(); i++) await new Promise(r => setTimeout(r, 100)); };
+      const hand = async () => {
+        document.getElementById('deal').click();
+        await wait(() => !document.getElementById('draw').disabled);
+        document.getElementById('draw').click();
+      };
+      for (let i = 0; i < 5; i++) await hand(); // fires vp-deal on hand 1, vp-5 on hand 5
+      drawn = 24; await hand();                 // jump to hand 25 instead of playing 19 more
+  ` : `
       const inp = document.querySelector('input'), sel = document.querySelector('select');
       inp.dispatchEvent(new Event('input', { bubbles: true }));
       inp.dispatchEvent(new Event('input', { bubbles: true }));
       if (sel) sel.dispatchEvent(new Event('change', { bubbles: true }));
+  `;
+  const { result } = await send('Runtime.evaluate', { awaitPromise: true, returnByValue: true, expression: `
+    (async () => {
+      const calls = [];
+      navigator.sendBeacon = u => { calls.push(u); return true; };
+      ${scenario}
       await new Promise(r => setTimeout(r, 100));
       return calls;
     })()` });
   chrome.kill();
-  assert.deepStrictEqual(result.value, [event], `expected one beacon [${event}], got ${JSON.stringify(result.value)}`);
-  console.log('ok: exactly one beacon', event);
+  const expected = vp ? ['/e/vp-deal', '/e/vp-5', '/e/vp-25'] : [event];
+  assert.deepStrictEqual(result.value, expected, `expected ${JSON.stringify(expected)}, got ${JSON.stringify(result.value)}`);
+  console.log('ok: beacons', expected.join(' '));
   process.exit(0);
 })().catch(e => { chrome.kill(); console.error(e); process.exit(1); });

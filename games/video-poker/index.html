@@ -399,7 +399,7 @@ function deal() {
 function draw() {
   if (done || !best) return;
   done = true; hinted = false;
-  if (++drawn === 25) ping('vp-25');
+  if (++drawn === 5) ping('vp-5'); else if (drawn === 25) ping('vp-25');
   const mine = best.find(h => h.mask === held), top = best[0], cost = top.ev - mine.ev, perfect = cost < 1e-9;
   let k = 5; const final = dealt.map((c, i) => held & (1 << i) ? c : window._deck[k++]);
   const r = game.rank(final), p = game.pay(final);

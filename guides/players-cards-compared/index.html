@@ -88,7 +88,7 @@
 <tr><td>Caesars</td><td>Gold 0 · Platinum 5,000 · Diamond 15,000 · Diamond Plus 25,000 · Diamond Elite 75,000 · Seven Stars 150,000 (invite) · <a href="/caesars-olympus/">Olympus</a> 300,000 by 2026-12-31 (invite)</td><td>1 per $5 (1 per $10)</td><td>Platinum: <b>$25,000</b>, or <b>$12,500 in one day</b><sup>5</sup> · Diamond: <b>$75,000</b>, or <b>$25,000 in one day</b><sup>5</sup></td></tr>
 <tr><td>MGM</td><td>Sapphire 0 · Pearl 20,000 · Gold 75,000 · Platinum 200,000 · NOIR (invite)</td><td>Gaming not published; 4 per $1 on eligible hotel, dining and resort spend</td><td>Pearl via non-gaming spend: <b>$5,000</b>; Gold in two days with the accelerator<sup>7</sup></td></tr>
 <tr><td>Boyd</td><td>Ruby 0 · Sapphire 750 · Emerald 15,000 · Onyx 50,000 · Titanium 200,000</td><td class="na">Not published<sup>6</sup></td><td class="na">Not derivable<sup>6</sup></td></tr>
-<tr><td>Station</td><td>Preferred 0 · Gold 1,000 · Platinum 40,000 · President 100,000 · Chairman 300,000, per 6 months<sup>4</sup></td><td>3 per $1 (1 per $1)<sup>4</sup></td><td>Gold: <b>$333</b> · Platinum: <b>$13,333</b></td></tr>
+<tr><td>Station</td><td>Preferred 0 · Gold 1,000 · Platinum 40,000 · President 100,000 · Chairman 300,000, per 6 months<sup>4</sup></td><td>3 per $1 (1 per $1)<sup>4</sup></td><td>Gold: <b>$334</b> · Platinum: <b>$13,334</b></td></tr>
 <tr><td>Venetian</td><td>Jade 0 · Sapphire 3,000 · Ruby 20,000 · Diamond 50,000 · invite-only above<sup>8</sup></td><td>1 per $4 (1 per $10)<sup>8</sup></td><td>Sapphire: <b>$12,000</b> · Ruby: <b>$80,000</b>, or <b>$10,000</b> of <a href="/venetian-rewards-tiers/">resort spend</a></td></tr>
 <tr><td>Resorts World</td><td>Royal 0 · Elite 3,000 · Prime 75,000 · Monarch 250,000 · Imperial 1,000,000 · Crockfords Club (invite)<sup>8</sup></td><td>3 per $1 (3 per $3.50)<sup>8</sup></td><td>Elite: <b>$1,000</b> · Prime: <b>$25,000</b>, or <b>$15,000</b> of <a href="/resorts-world-genting-rewards-tiers/">dining, retail and spa</a></td></tr>
 <tr><td>Wynn</td><td>Red 0&ndash;6,999 · Platinum 7,000&ndash;69,999 · Black 70,000+</td><td class="na">Not published<sup>6</sup></td><td class="na">Not derivable<sup>6</sup></td></tr>
@@ -242,7 +242,7 @@ console.assert(price(TIER_PROGRAMS[0],15000,'slots',false).loss === 6000, 'caesa
 console.assert(Math.round(price(TIER_PROGRAMS[0],15000,'vp',true).loss) === 230, 'caesars diamond vp one day $230');
 console.assert(price(TIER_PROGRAMS[0],75000,'slots',true).earn === 25000, 'diamond elite = five 5,000 days');
 const $$ = id => document.getElementById(id);
-const usd = x => '$' + Math.round(x).toLocaleString('en-US');
+const usd = x => '$' + Math.ceil(x).toLocaleString('en-US'); // a price rounds up: $333.33 of coin-in buys 999 credits, not 1,000
 TIER_PROGRAMS.forEach((p,i) => $$('tp-prog').add(new Option(p.name, i)));
 function fillTiers(){
   const p = TIER_PROGRAMS[+$$('tp-prog').value];

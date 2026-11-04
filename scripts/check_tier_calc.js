@@ -36,7 +36,7 @@ assert.equal(P(ven, 3000, 'slots').coinIn, 12000); assert.equal(P(ven, 20000, 's
 assert.equal(P(rw, 3000, 'slots').coinIn, 1000);   assert.equal(P(rw, 75000, 'slots').coinIn, 25000);
 assert.equal(Math.round(P(rw, 75000, 'vp').coinIn), 87500);
 // table cells in the HTML match
-for (const cell of ['Gold: <b>$333</b> · Platinum: <b>$13,333</b>', 'Sapphire: <b>$12,000</b> · Ruby: <b>$80,000</b>', 'Elite: <b>$1,000</b> · Prime: <b>$25,000</b>'])
+for (const cell of ['Gold: <b>$334</b> · Platinum: <b>$13,334</b>', 'Sapphire: <b>$12,000</b> · Ruby: <b>$80,000</b>', 'Elite: <b>$1,000</b> · Prime: <b>$25,000</b>'])
   assert(src.includes(cell), 'table cell missing: ' + cell);
 // UI renders without throwing, for every program/tier/game/mode
 for (let i = 0; i < 4; i++) { els['tp-prog'].value = String(i); api.fillTiers();

@@ -46,11 +46,16 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       navigator.sendBeacon = u => { calls.push(u); return true; };
       ${scenario}
       await new Promise(r => setTimeout(r, 100));
-      return calls;
+      const leak = document.getElementById('leak');
+      return { calls, leak: leak ? leak.textContent.trim() : null };
     })()` });
   chrome.kill();
   const expected = vp ? ['/e/vp-deal', '/e/vp-5', '/e/vp-25'] : [event];
-  assert.deepStrictEqual(result.value, expected, `expected ${JSON.stringify(expected)}, got ${JSON.stringify(result.value)}`);
-  console.log('ok: beacons', expected.join(' '));
+  assert.deepStrictEqual(result.value.calls, expected, `expected ${JSON.stringify(expected)}, got ${JSON.stringify(result.value.calls)}`);
+  // the leak report is a pure silent failure: if leakLine() throws or the node is missing,
+  // the trainer still plays and just never teaches. Six holds of nothing must log a leak.
+  if (vp) assert.match(result.value.leak || '', /Your biggest leak:.+coins\./,
+    'played 6 imperfect hands and no leak was reported: ' + JSON.stringify(result.value.leak));
+  console.log('ok: beacons', expected.join(' '), vp ? '| leak: ' + result.value.leak : '');
   process.exit(0);
 })().catch(e => { chrome.kill(); console.error(e); process.exit(1); });

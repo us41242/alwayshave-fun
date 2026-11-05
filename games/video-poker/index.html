@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Video Poker Trainer: Jacks or Better, Bonus Poker, Double Double Bonus & Deuces Wild, Exact-Math Coach</title>
-<meta name="description" content="Play 9/6 Jacks or Better, 8/5 Bonus Poker, 9/6 Double Double Bonus, or Full-Pay Deuces Wild (the 100.76% game) and get coached on every hold. The trainer computes the exact expected value of all 32 ways to hold your hand for the pay table you pick, shows the best one, and tracks what your mistakes cost. Free, no account, no install.">
+<meta name="description" content="Play 9/6 Jacks or Better, 8/5 Bonus Poker, 9/6 Double Double Bonus, or Full-Pay Deuces Wild (the 100.76% game) and get coached on every hold. The trainer computes the exact expected value of all 32 ways to hold your hand for the pay table you pick, shows the best one, and names the repeated habit that is costing you the most. Free, no account, no install.">
 <link rel="canonical" href="https://alwayshave.fun/video-poker-trainer/">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebApplication","name":"Video Poker Trainer","url":"https://alwayshave.fun/video-poker-trainer/","description":"Play 9/6 Jacks or Better, 8/5 Bonus Poker, 9/6 Double Double Bonus, or Full-Pay Deuces Wild (the 100.76% game) and get coached on every hold. The trainer computes the exact expected value of all 32 ways to hold your hand for the pay table you pick, shows the best one, and tracks what your mistakes cost. Free, no account, no install.","applicationCategory":"GameApplication","operatingSystem":"Any (runs in the browser)","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"alwayshave.fun","url":"https://alwayshave.fun/"}}
+{"@context":"https://schema.org","@type":"WebApplication","name":"Video Poker Trainer","url":"https://alwayshave.fun/video-poker-trainer/","description":"Play 9/6 Jacks or Better, 8/5 Bonus Poker, 9/6 Double Double Bonus, or Full-Pay Deuces Wild (the 100.76% game) and get coached on every hold. The trainer computes the exact expected value of all 32 ways to hold your hand for the pay table you pick, shows the best one, and names the repeated habit that is costing you the most. Free, no account, no install.","applicationCategory":"GameApplication","operatingSystem":"Any (runs in the browser)","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"alwayshave.fun","url":"https://alwayshave.fun/"}}
 </script>
 <meta property="og:title" content="Video Poker Trainer: Jacks or Better, Bonus Poker, Double Double Bonus & Deuces Wild, coached">
 <meta property="og:description" content="Pick a pay table — including Full-Pay Deuces Wild — and every hold is scored by exact expected value. See the best hold, what yours cost, and learn the strategy by playing. Free, no account.">
@@ -36,6 +36,8 @@
 .credits small{font:inherit;font-size:.85rem;color:var(--dim)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:.4rem;text-align:center;margin-top:.8rem;font-size:.8rem;color:var(--dim)}
 .stats b{display:block;font-family:"Big Shoulders Display",Impact,sans-serif;font-size:1.4rem;color:var(--cream)}
+.leakline{margin:.7rem 0 0;padding-top:.6rem;border-top:1px solid var(--line);font-size:.9rem}
+.leakline b{color:var(--brass)}
 .pay{font-size:.85rem}
 .pay td:last-child{text-align:right}
 .gamepick{text-align:center;margin:.2rem 0 .6rem;font-size:.9rem}
@@ -72,11 +74,16 @@
   <div class="credits" id="credits"></div>
   <div class="coach" id="coach"><p class="why">Deal a hand. Hold cards by tapping them. Draw, and the coach tells you the best hold and what yours cost.</p></div>
   <div class="stats" id="stats"></div>
+  <div id="leak"></div>
 </div>
 
 <h2>How the coach scores a hold</h2>
 <p>For each of the 32 ways to hold a dealt hand, the trainer deals every possible replacement from the 47 unseen cards, pays each result on <b>the pay table you picked</b>, and averages. That is the exact expected value (EV) of the hold, in coins won per coin bet. The best hold is the one with the highest EV. Your cost on a hand is the gap between the best hold and yours; over a session the total cost, divided by hands, is how far you sit below optimal for the game you are playing. Because the payouts differ, the best hold differs: on Double Double Bonus a single ace is worth holding over some draws that Jacks or Better would fold, because four aces with a low kicker pays 400.</p>
 <p>Two habits produce most of the cost. Holding a "kicker" with a pair (never right in Jacks or Better). And breaking a paying hand for a draw when the draw is worth less: a made flush is worth 6, four to a royal is worth about 18, so you break the flush; but a made straight against four to a straight flush stays, because the straight flush draw is worth about 3.</p>
+
+<h2>Your biggest leak</h2>
+<p>A per-hand verdict teaches the hand. It does not teach the player — and a player does not make 50 unrelated mistakes, they make two or three the same way over and over. So every error is filed under a named habit, the cost is added up, and the trainer shows you which one is actually taking your money: <b>the kicker with a pair</b>, <b>breaking a paying hand for a cheaper draw</b>, <b>keeping a small paying hand when the draw was worth more</b>, <b>passing up a royal draw</b>, <b>discarding a wild deuce</b> in Deuces Wild, or simply holding one card too many or too few. The tally lives in your browser and keeps counting across visits, so the number to watch is your top leak shrinking — not the credit balance, which is play money and tells you nothing in a few hundred hands.</p>
+<p class="why">Short-run results are noise: on 9/6 Jacks or Better the royal is 1 in about 40,000 hands and carries roughly 2% of the return, so a few hundred hands of credits say almost nothing about how well you played. The percentage of best holds and the coins lost to errors are measurable after a dozen hands, and they are the only two numbers here you control.</p>
 
 <h2>9/6 Jacks or Better pay table (five coins)</h2>
 <table class="pay">
@@ -324,6 +331,44 @@ function describe(held) {
   if (hi === k) return k === 1 ? 'one high card' : k + ' high cards';
   return k + ' cards';
 }
+// ---- leak classification ----
+// A per-hand verdict teaches the hand; it does not teach the player. Most of a real
+// player's cost comes from two or three repeated habits, so every error is binned into a
+// named leak and the running total is shown back. Ordered: first match wins.
+// [id, what you did, the fix]
+const LEAKS = [
+  ['kicker',    'Held a kicker with a pair',                     'Hold the pair alone. The fifth card wins nothing and costs you a replacement card.'],
+  ['deuce',     'Discarded a wild deuce',                        'Never throw a deuce. How many deuces you hold drives almost every Deuces Wild decision.'],
+  ['brokemade', 'Broke a paying hand for a draw worth less',     'Price the draw before you break: most four-card draws are worth less than a hand already in the pay table.'],
+  ['heldmade',  'Kept a paying hand when the draw was worth more','A made flush is worth 6; four to a royal is worth about 18. Break the small made hand for the big draw.'],
+  ['royal',     'Passed up a royal draw',                        'Three or more suited high cards is nearly always the hold, even over a made pair.'],
+  ['toomany',   'Held one card too many',                        'Every extra card you keep is one fewer card you can catch.'],
+  ['toofew',    'Held one card too few',                         'A card you threw belonged in the best hold.'],
+  ['other',     'Held the wrong cards',                          'Read the EV table: the top row is the best hold on this pay table, every hand.'],
+];
+function matchedRank(held) { // rank of a pair/trips/quads inside a hold, else -1
+  const c = new Uint8Array(13); for (const x of held) c[x % 13]++;
+  for (let r = 0; r < 13; r++) if (c[r] >= 2) return r;
+  return -1;
+}
+const isRoyalDraw = held => held.length >= 3 && held.length < 5 &&
+  new Set(held.map(c => c / 13 | 0)).size === 1 && held.every(c => c % 13 >= 8);
+// dealt = the five dealt cards, mine/top = card arrays of your hold and the best hold.
+function leak(dealt, mine, top) {
+  const mr = matchedRank(mine);
+  // best hold was exactly the pair/trips and you kept it plus junk
+  if (mr >= 0 && top.length < mine.length && top.length >= 2 &&
+      top.every(c => c % 13 === mr && mine.includes(c))) return 'kicker';
+  if (game.wild && dealt.filter(c => c % 13 === 0).length > mine.filter(c => c % 13 === 0).length) return 'deuce';
+  const made = game.pay(dealt) > 0; // the dealt five already pay something
+  if (made && top.length === 5 && mine.length < 5) return 'brokemade';
+  if (made && mine.length === 5 && top.length < 5) return 'heldmade';
+  if (isRoyalDraw(top) && !isRoyalDraw(mine)) return 'royal';
+  if (mine.length > top.length) return 'toomany';
+  if (mine.length < top.length) return 'toofew';
+  return 'other';
+}
+
 // ponytail: engine self-checks. Values from the 9/6 JoB literature (Wizard of Odds hold-EV tables).
 const C = s => { const r = '23456789TJQKA'.indexOf(s[0]), u = 'shdc'.indexOf(s[1]); return u * 13 + r; };
 const H = s => s.split(' ').map(C);
@@ -379,6 +424,18 @@ function render() {
   $('credits').innerHTML = `Credits <b>${cr.toLocaleString()}</b> <small>· 5 a hand${S.rebuys ? ' · ' + S.rebuys + ' rebuy' + (S.rebuys > 1 ? 's' : '') : ''}</small>`;
   $('rebuy').hidden = !broke; if (broke && done) $('deal').disabled = true;
   $('stats').innerHTML = `<div><b>${S.hands}</b>hands</div><div><b>${S.hands ? Math.round(100 * S.perfect / S.hands) : 0}%</b>best hold</div><div><b>${S.cost.toFixed(2)}</b>coins lost to errors</div><div><b>${S.bet ? (100 * S.won / S.bet).toFixed(1) : '0.0'}%</b>return</div>`;
+  $('leak').innerHTML = leakLine();
+}
+// the running leak report: your most expensive repeated habit, not this hand's verdict.
+// Needs a few hands before one error looks like a pattern.
+function leakLine() {
+  const L = S.leaks || {}, ids = Object.keys(L);
+  if (S.hands < 3 || !ids.length) return '';
+  const top = ids.sort((a, b) => L[b].cost - L[a].cost)[0], d = LEAKS.find(x => x[0] === top);
+  if (!d) return '';
+  const rest = ids.length - 1;
+  return `<p class="leakline"><b>Your biggest leak:</b> ${d[1]} — ${L[top].n} time${L[top].n > 1 ? 's' : ''}, ${L[top].cost.toFixed(2)} coins. ${d[2]}` +
+    (rest > 0 ? ` <span class="why">(${rest} other leak${rest > 1 ? 's' : ''} logged.)</span>` : '') + '</p>';
 }
 // ponytail: anonymous play counter, no cookies or IDs. Each /e/ hit is just a request that
 // Cloudflare zone analytics counts; scripts/traffic.py reads it. Fires once per page load.
@@ -401,6 +458,10 @@ function draw() {
   done = true; hinted = false;
   if (++drawn === 5) ping('vp-5'); else if (drawn === 25) ping('vp-25');
   const mine = best.find(h => h.mask === held), top = best[0], cost = top.ev - mine.ev, perfect = cost < 1e-9;
+  if (!perfect) { // classify before `dealt` is replaced by the drawn hand below
+    const id = leak(dealt, mine.held, top.held), L = (S.leaks ||= {});
+    (L[id] ||= {n: 0, cost: 0}).n++; L[id].cost += cost;
+  }
   let k = 5; const final = dealt.map((c, i) => held & (1 << i) ? c : window._deck[k++]);
   const r = game.rank(final), p = game.pay(final);
   S.hands++; S.perfect += perfect; S.cost += cost; S.bet += 1; S.won += p;

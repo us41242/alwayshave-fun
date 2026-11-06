@@ -2,7 +2,9 @@
 traffic.py — who actually uses alwayshave.fun, from Cloudflare zone analytics.
 
 Plays: the games send one anonymous beacon to /e/<event> per page load when
-someone really plays (fh-bet, fh-done, fh-share, vp-deal, vp-5, vp-25, sizer, home-lh, home-ev). Crawlers do not
+someone really plays (fh-bet, fh-done, vp-deal, vp-5, vp-25, ...), plus one /e/v-<page>
+arrival beacon per real page load since 2026-11-05 — that is the denominator the interaction
+beacons never had. Crawlers do not
 click Deal, so these are the human signal. Page views are raw 200 GETs split
 by Cloudflare's browser guess; scrapers posing as Chrome land in "browser".
 
@@ -36,10 +38,17 @@ end = datetime.now(timezone.utc).replace(microsecond=0)
 span = 'datetime_geq:"%s",datetime_lt:"%s",clientRequestHTTPHost:"alwayshave.fun"' % (
     (end - timedelta(days=days)).isoformat().replace("+00:00", "Z"), end.isoformat().replace("+00:00", "Z"))
 
-plays = Counter()
+plays, arrivals = Counter(), Counter()
 for r in q(span + ',clientRequestPath_like:"/e/%",edgeResponseStatus:204', "clientRequestPath date"):
-    plays[r["dimensions"]["clientRequestPath"][3:]] += r["count"]
-print(f"Plays, last {days} days:", dict(plays) or "none")
+    e = r["dimensions"]["clientRequestPath"][3:]
+    # /e/v-<page> is the arrival beacon (one per real page load, JS-executing client, non-automation
+    # UA): the denominator. Everything else is an interaction — someone actually used the thing.
+    (arrivals if e.startswith("v-") else plays)[e[2:] if e.startswith("v-") else e] += r["count"]
+print(f"Arrivals, last {days} days:", dict(arrivals.most_common()) or "none (no page loaded by a real browser)")
+print(f"Interactions, last {days} days:", dict(plays) or "none")
+if arrivals:
+    print("  funnel: %d arrivals -> %d interactions (%.0f%%)" % (
+        sum(arrivals.values()), sum(plays.values()), 100 * sum(plays.values()) / sum(arrivals.values())))
 
 views = Counter()
 for r in q(span + ',edgeResponseStatus:200,clientRequestHTTPMethodName:"GET",clientRequestPath_like:"%/"',

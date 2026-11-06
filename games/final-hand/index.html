@@ -128,6 +128,11 @@
   }
 </style>
 
+<script>/* ponytail: arrival beacon. One anonymous /e/v-<page> hit per real page load (no cookies, no IDs)
+   so the interaction beacons finally have a denominator: arrivals vs. plays. https only, which keeps
+   local file:// checks out of the data, and skips automation UAs (our own headless checks, naive
+   scrapers). Identical on every page; scripts/check_arrival_beacon.js asserts that. */
+if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriver && !/Headless|bot|crawl|spider/i.test(navigator.userAgent)) navigator.sendBeacon('/e/v-' + (location.pathname.replace(/\//g, '') || 'home'));</script>
 <div class="wrap">
 <header>
   <h1><a href="/" style="color:inherit;text-decoration:none" title="alwayshave.fun">FINAL <span>HAND</span></a></h1>

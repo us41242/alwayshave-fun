@@ -33,6 +33,11 @@
 <meta name="theme-color" content="#0b241a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<script>/* ponytail: arrival beacon. One anonymous /e/v-<page> hit per real page load (no cookies, no IDs)
+   so the interaction beacons finally have a denominator: arrivals vs. plays. https only, which keeps
+   local file:// checks out of the data, and skips automation UAs (our own headless checks, naive
+   scrapers). Identical on every page; scripts/check_arrival_beacon.js asserts that. */
+if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriver && !/Headless|bot|crawl|spider/i.test(navigator.userAgent)) navigator.sendBeacon('/e/v-' + (location.pathname.replace(/\//g, '') || 'home'));</script>
 </head>
 <body>
 <div class="wrap">

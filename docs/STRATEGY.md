@@ -147,6 +147,15 @@ guide / BJA-style funnel (free trainer → email → paid) once there is an
 audience.
 
 ## Metrics that matter
+**2026-11-05:** until tonight the site measured only *interactions* — there
+was no arrival signal on any page, so every "0 humans" in the logbook meant
+"0 interactions" and could not be distinguished from "everyone bounced." An
+`/e/v-<page>` arrival beacon now fires once per real page load on all 14
+pages (JS-executing client, non-automation UA), so `scripts/traffic.py` prints
+arrivals, interactions, and the rate between them. Read the rate before
+choosing between distribution work and conversion work — they were
+indistinguishable for nine weeks.
+
 Games played per visit, return visits, guide→game click-through. Traffic
 second. Tracked since 2026-09-30: anonymous `/e/<event>` play beacons (no
 cookies/IDs) counted by Cloudflare zone analytics — `scripts/traffic.py`.

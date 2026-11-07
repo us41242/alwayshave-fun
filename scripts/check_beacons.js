@@ -63,8 +63,9 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   chrome.kill();
   // the arrival beacon is https-only by design, so a file:// run must NOT produce one;
   // run this against the live URL to assert it end to end.
+  // headless navigates straight to the URL, so there is no referrer: the source bucket is 'direct'.
   const arrival = url.startsWith('https:')
-    ? ['/e/v-' + (new URL(url).pathname.replace(/\//g, '') || 'home')] : [];
+    ? ['/e/v-' + (new URL(url).pathname.replace(/\//g, '') || 'home') + '~direct'] : [];
   const expected = [...arrival, ...(vp ? ['/e/vp-deal', '/e/vp-5', '/e/vp-25'] : [event])];
   assert.deepStrictEqual(result.value.calls, expected, `expected ${JSON.stringify(expected)}, got ${JSON.stringify(result.value.calls)}`);
   // the leak report is a pure silent failure: if leakLine() throws or the node is missing,

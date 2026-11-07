@@ -33,11 +33,15 @@
 <meta name="apple-mobile-web-app-title" content="Always Have Fun">
 <link rel="manifest" href="/manifest.webmanifest">
 <meta name="theme-color" content="#0b241a">
-<script>/* ponytail: arrival beacon. One anonymous /e/v-<page> hit per real page load (no cookies, no IDs)
-   so the interaction beacons finally have a denominator: arrivals vs. plays. https only, which keeps
-   local file:// checks out of the data, and skips automation UAs (our own headless checks, naive
-   scrapers). Identical on every page; scripts/check_arrival_beacon.js asserts that. */
-if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriver && !/Headless|bot|crawl|spider/i.test(navigator.userAgent)) navigator.sendBeacon('/e/v-' + (location.pathname.replace(/\//g, '') || 'home'));</script>
+<script>/* ponytail: arrival beacon. One anonymous /e/v-<page>~<source> hit per real page load (no
+   cookies, no IDs) so the interaction beacons have a denominator AND a channel. <source> is the
+   referrer HOST only, never a path: 'direct' when there is none, 'internal' for our own pages.
+   Cloudflare's free plan refuses clientRefererHost (authz error, checked 11-06), so this beacon is
+   the only way to know which channel sent an arrival — the question "distribution or conversion?"
+   turns on it. https only, which keeps local file:// checks out of the data, and skips automation
+   UAs (our own headless checks, naive scrapers). Identical on every page;
+   scripts/check_arrival_beacon.js asserts that. */
+if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriver && !/Headless|bot|crawl|spider/i.test(navigator.userAgent)) { var r = (document.referrer || '').split('/')[2] || '', s = r === location.host ? 'internal' : r.toLowerCase().replace(/^www\./, '').replace(/[^a-z0-9.-]/g, ''); navigator.sendBeacon('/e/v-' + (location.pathname.replace(/\//g, '') || 'home') + '~' + (!r ? 'direct' : /[a-z0-9]/.test(s) ? s : 'other')); }</script>
 </head>
 <body>
 <div class="wrap">

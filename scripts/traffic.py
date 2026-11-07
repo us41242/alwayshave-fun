@@ -2,9 +2,10 @@
 traffic.py — who actually uses alwayshave.fun, from Cloudflare zone analytics.
 
 Plays: the games send one anonymous beacon to /e/<event> per page load when
-someone really plays (fh-bet, fh-done, vp-deal, vp-5, vp-25, ...), plus one /e/v-<page>
-arrival beacon per real page load since 2026-11-05 — that is the denominator the interaction
-beacons never had. Crawlers do not
+someone really plays (fh-bet, fh-done, vp-deal, vp-5, vp-25, ...), plus one
+/e/v-<page>~<source> arrival beacon per real page load since 2026-11-05 — that is the
+denominator the interaction beacons never had, and since 2026-11-06 the channel that sent
+it (referrer host only; Cloudflare's free plan refuses clientRefererHost outright). Crawlers do not
 click Deal, so these are the human signal. Page views are raw 200 GETs split
 by Cloudflare's browser guess; scrapers posing as Chrome land in "browser".
 
@@ -38,13 +39,21 @@ end = datetime.now(timezone.utc).replace(microsecond=0)
 span = 'datetime_geq:"%s",datetime_lt:"%s",clientRequestHTTPHost:"alwayshave.fun"' % (
     (end - timedelta(days=days)).isoformat().replace("+00:00", "Z"), end.isoformat().replace("+00:00", "Z"))
 
-plays, arrivals = Counter(), Counter()
+plays, arrivals, sources = Counter(), Counter(), Counter()
 for r in q(span + ',clientRequestPath_like:"/e/%",edgeResponseStatus:204', "clientRequestPath date"):
     e = r["dimensions"]["clientRequestPath"][3:]
-    # /e/v-<page> is the arrival beacon (one per real page load, JS-executing client, non-automation
-    # UA): the denominator. Everything else is an interaction — someone actually used the thing.
-    (arrivals if e.startswith("v-") else plays)[e[2:] if e.startswith("v-") else e] += r["count"]
+    # /e/v-<page>~<source> is the arrival beacon (one per real page load, JS-executing client,
+    # non-automation UA): the denominator, plus which channel sent it. Everything else is an
+    # interaction — someone actually used the thing.
+    if not e.startswith("v-"):
+        plays[e] += r["count"]
+        continue
+    page, _, source = e[2:].partition("~")
+    arrivals[page] += r["count"]
+    # pre-11-06 beacons carry no ~source at all; don't let them read as a channel called ''
+    sources[source or "(before source tracking)"] += r["count"]
 print(f"Arrivals, last {days} days:", dict(arrivals.most_common()) or "none (no page loaded by a real browser)")
+print("  by source:", dict(sources.most_common()) or "n/a")
 print(f"Interactions, last {days} days:", dict(plays) or "none")
 if arrivals:
     print("  funnel: %d arrivals -> %d interactions (%.0f%%)" % (

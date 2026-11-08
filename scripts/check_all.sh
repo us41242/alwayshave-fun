@@ -30,6 +30,7 @@ run olympus          node scripts/check_olympus_page.js $OLY
 run mgm              node scripts/check_mgm_page.js $MGM
 run rw               node scripts/check_rw_page.js $RW
 run station          node scripts/check_station_page.js $STN
+run station_food     node scripts/check_station_food_comps.js $STN
 run venetian         node scripts/check_venetian_page.js $VEN
 run tev              node scripts/check_tev_page.js $TEV
 run home_quiz        node scripts/check_home_quiz.js $HOME

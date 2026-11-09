@@ -11,7 +11,7 @@ if [ "$B" = live ]; then
   PC=$(P /players-cards-compared/ pc); HOME=$(P / home); DIA=$(P /caesars-diamond/ dia)
   OLY=$(P /caesars-olympus/ oly); MGM=$(P /mgm-gold-platinum/ mgm); RW=$(P /resorts-world-genting-rewards-tiers/ rw)
   STN=$(P /station-boarding-pass-tiers/ stn); VEN=$(P /venetian-rewards-tiers/ ven); TEV=$(P /tournament-ev-calculator/ tev)
-  VP=$(P /video-poker-trainer/ vp)
+  VP=$(P /video-poker-trainer/ vp); BOYD=$(P /boyd-rewards-tiers/ boyd)
 else
   PC=guides/players-cards-compared/index.html; HOME=index.html; DIA=guides/caesars-diamond/index.html
   OLY=guides/caesars-olympus/index.html; MGM=guides/mgm-gold-platinum/index.html

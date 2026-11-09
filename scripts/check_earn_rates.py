@@ -75,9 +75,14 @@ PROGRAMS = [
         (PC, "reel slots earn 3 Genting Points per $1 and video poker 3 per $3.50"),
         ("index.html", "$600 of dining, retail or spa (5 per $1)"),
      ]),
-    ("Boyd Rewards", "2026-10-17",
-     "rewards.boydgaming.com (points & tier credits, tier benefits, carryover FAQ)", [
-        (PC, "One point per $1 on slots, per $2 on video poker, 1,000 points to the dollar"),
+    ("Boyd Rewards", "2026-11-08",
+     "rewards.boydgaming.com (points & tier credits, tier benefits, carryover, FAQ, program rules PDF)", [
+        (PC, "One point per $1 of coin-in on reels, video reels and <b>keno</b>, per $2 on video poker"),
+        ("guides/boyd-rewards-tiers/index.html",
+         "const PT_VALUE = 1 / 1000, REEL_PER_PT = 1, VP_PER_PT = 2, TC_PRICE = 4.99;"),
+        ("guides/boyd-rewards-tiers/index.html",
+         "$4.99 of virtual coin purchases earns 1 Tier Credit</b> and <b>$0.99 earns 150 Boyd Points"),
+        ("llms.txt", "1 per $1 reel/keno coin-in, 1 per $2 video poker, 1,000 = $1"),
      ]),
     ("Wynn Rewards", "2026-09-22",
      "wynnlasvegas.com/wynn-rewards", [

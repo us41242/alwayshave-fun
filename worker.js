@@ -21,6 +21,7 @@ const ROUTES = {
   '/station-boarding-pass-tiers/': '/guides/station-boarding-pass-tiers/index.html',
   '/venetian-rewards-tiers/': '/guides/venetian-rewards-tiers/index.html',
   '/resorts-world-genting-rewards-tiers/': '/guides/resorts-world-genting-rewards-tiers/index.html',
+  '/boyd-rewards-tiers/': '/guides/boyd-rewards-tiers/index.html',
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',

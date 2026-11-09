@@ -15,6 +15,7 @@ if [ "$B" = live ]; then
 else
   PC=guides/players-cards-compared/index.html; HOME=index.html; DIA=guides/caesars-diamond/index.html
   OLY=guides/caesars-olympus/index.html; MGM=guides/mgm-gold-platinum/index.html
+  BOYD=guides/boyd-rewards-tiers/index.html
   RW=guides/resorts-world-genting-rewards-tiers/index.html; STN=guides/station-boarding-pass-tiers/index.html
   VEN=guides/venetian-rewards-tiers/index.html; TEV=tools/tournament-ev-calculator/index.html
   VP=games/video-poker/index.html
@@ -23,6 +24,7 @@ r=0
 run() { printf '%-28s ' "$1"; shift; if "$@" >/tmp/g.out 2>&1; then tail -1 /tmp/g.out; else echo "FAIL"; cat /tmp/g.out; r=1; fi; }
 run binions          node scripts/check_binions.js $PC
 run boyd_points      node scripts/check_boyd_points.js $PC
+run boyd_tiers       node scripts/check_boyd_tiers.js $BOYD
 run tier_calc        node scripts/check_tier_calc.js $PC
 run no_gambling      node scripts/check_no_gambling_table.js $PC
 run diamond          node scripts/check_diamond_page.js $DIA

@@ -25,7 +25,7 @@ const FILE = {
 const root = path.join(__dirname, '..');
 const urls = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8')
   .match(/<loc>([^<]*)<\/loc>/g).map(m => new URL(m.slice(5, -6)).pathname);
-assert.equal(urls.length, 14, 'sitemap page count changed: ' + urls.length);
+assert.equal(urls.length, 15, 'sitemap page count changed: ' + urls.length);
 
 // the beacon derives its slug the same way the page does, so run the page's own expression
 const slug = p => '/e/v-' + (p.replace(/\//g, '') || 'home');

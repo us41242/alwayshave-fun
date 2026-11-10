@@ -22,6 +22,7 @@ const ROUTES = {
   '/venetian-rewards-tiers/': '/guides/venetian-rewards-tiers/index.html',
   '/resorts-world-genting-rewards-tiers/': '/guides/resorts-world-genting-rewards-tiers/index.html',
   '/boyd-rewards-tiers/': '/guides/boyd-rewards-tiers/index.html',
+  '/tournament-card/': '/tools/tournament-card/index.html',
   '/site.css': '/site.css',
   '/robots.txt': '/robots.txt',
   '/sitemap.xml': '/sitemap.xml',

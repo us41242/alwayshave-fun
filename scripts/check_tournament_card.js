@@ -86,9 +86,27 @@ const pages = (html, label) => {
   // ponytail: its own --user-data-dir and a timeout. Without the profile dir this hung forever
   // contending with another Chrome on this machine (measured 11-09), and a hung guard in
   // check_all.sh looks exactly like a slow one.
-  execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--no-first-run', '--no-pdf-header-footer',
-    '--user-data-dir=' + fs.mkdtempSync(path.join(os.tmpdir(), 'card-chrome-')),
-    '--print-to-pdf=' + pdf, 'file://' + f], { stdio: 'ignore', timeout: 60000 });
+  // Chrome on this machine intermittently blocks on its own auto-updater at launch (ETIMEDOUT,
+  // measured 11-09: five straight failures inside check_all.sh, then five straight passes with
+  // nothing changed). One retry, then fail loudly — a flaky guard that cries wolf gets ignored,
+  // and a guard that silently skips the only real check here is worse.
+  for (let attempt = 1; ; attempt++) try {
+    // --disable-background-networking et al: without them Chrome spawns its auto-updater and the
+    // print-to-pdf call blocks on it forever (measured 11-09 — intermittent standalone, every time
+    // inside check_all.sh). The timeout turns a hang into a named failure either way.
+    execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--no-first-run', '--no-pdf-header-footer',
+      '--disable-background-networking', '--disable-component-update', '--no-default-browser-check',
+      '--disable-default-apps', '--disable-sync',
+      '--user-data-dir=' + fs.mkdtempSync(path.join(os.tmpdir(), 'card-chrome-')),
+      '--print-to-pdf=' + pdf, 'file://' + f], { stdio: 'pipe', timeout: 60000 });
+    break;
+  } catch (e) {
+    if (attempt === 1 && e.code === 'ETIMEDOUT') continue;
+    assert.fail('chrome could not print the card, ' + attempt + ' attempts ('
+      + [e.code, 'status ' + e.status, 'signal ' + e.signal].join(', ') + '): '
+      + String(e.stderr || '').trim().split('\n').slice(-3).join(' | '));
+  }
+  assert.ok(fs.existsSync(pdf), 'chrome exited cleanly but wrote no PDF for ' + label);
   const d = fs.readFileSync(pdf);
   return Math.max(...[...d.toString('latin1').matchAll(/\/Count (\d+)/g)].map(m => +m[1]), 0);
 };

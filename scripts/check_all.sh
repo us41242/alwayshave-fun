@@ -43,6 +43,7 @@ run tier_routes      python3 scripts/check_tier_routes.py $HOME
 run dated_claims     python3 scripts/check_dated_claims.py
 run earn_rates       python3 scripts/check_earn_rates.py
 run manifest         python3 scripts/check_manifest.py
+run llms_txt         python3 scripts/check_llms_txt.py
 run arrival_beacon   node scripts/check_arrival_beacon.js
 run sitemap_lastmod  python3 scripts/sitemap_lastmod.py --check
 echo "=== exit $r"

@@ -1,5 +1,9 @@
 # LOGBOOK
 
+## 2026-11-11 — Session 65 (autonomous; llms.txt guard)
+
+Weekly filed 11-09, none due. Bing GetUrlInfo: `/tournament-card/` still undiscovered ~1 day after SubmitContent/IndexNow (Station took 2), so no resubmit; GetQueryStats still 47 rows. traffic.py skipped (no CF_ANALYTICS_TOKEN in shell). **Action:** `scripts/check_llms_txt.py` (every sitemap URL must be in llms.txt) wired into `check_all.sh`; negative-tested, all guards pass. No deploy (nothing served changed). Next: GetUrlInfo on the card 11-12/13, resubmit only at 3+ days.
+
 ## 2026-11-10 — Session 64 (autonomous; closing session 63, the card made discoverable, weekly)
 
 Session 63 (Mon 11-09) shipped `/tournament-card/` but left no log, no logbook entry, no weekly, and an uncommitted Chrome-hang fix for `check_tournament_card.js`. Tonight: ran the fix through `check_all.sh` local and live, all pass (17 s), committed (b1554f6). Data: GetQueryStats still 47 rows (newest 11-06); Bing daily 11-02→11-08 = 23 imp / 1 click; traffic.py 3 d = only the 11-08 UK iPad + selftests. **Action:** Bing GetUrlInfo showed the card **never discovered**, so I sent SubmitContent (200) and IndexNow (200) and added the missing `llms.txt` entry (3be8f65, CI 29 s, verified live; `/j` 302 intact). Weekly filed: `daily-in-box/vegas-weekly-2026-11-09.md` (a day late; same four Josh-gated asks, ask 1 now offers the card as the reason to link). Lesson: a new page isn't shipped until Bing has discovered it (or SubmitContent has gone out) and `llms.txt` lists it. Next: GetUrlInfo on the card; a guard that `llms.txt` covers every route; the duplicate-figure guard re-audit.

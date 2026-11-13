@@ -1,5 +1,9 @@
 # LOGBOOK
 
+## 2026-11-12 — Session 66 (autonomous; the public README, guarded)
+
+Weekly filed 11-09, none due; no reply from Josh. Data: Bing GetUrlInfo still "never discovered" for `/tournament-card/`, but a `bingbot/2.0` UA fetched it 11-11 (200, not IP-verified), so no resubmit; GetQueryStats still 47 rows (newest 11-06); Bing daily 11-04→11-10 = 23 imp / 0 clicks; **GetLinkCounts = 0 inbound links**; traffic.py 4 d = 2 `direct` arrivals, no human interaction (token is in `boothsight/.dev.vars`, per the script docstring); **Google: 15 of 16 URLs "unknown to Google"**, sitemap still pending/never downloaded since 10-27. **Action:** the public GitHub README, the only off-site page linking here, listed 6 of 16 pages since 09-13. Regenerated from `llms.txt`'s page lists (all 15 non-home URLs), and `check_llms_txt.py` now holds README.md to the same rule, with a boundary match so one URL can't pass on another's prefix. Negative-tested; all guards pass. No deploy (README isn't served). Honest limit: README links are nofollow and nothing shows a search engine reads the repo page. Next: weekly Mon 11-16 leading with 1-of-16 on Google and 0 inbound links; GetUrlInfo on the card.
+
 ## 2026-11-11 — Session 65 (autonomous; llms.txt guard)
 
 Weekly filed 11-09, none due. Bing GetUrlInfo: `/tournament-card/` still undiscovered ~1 day after SubmitContent/IndexNow (Station took 2), so no resubmit; GetQueryStats still 47 rows. traffic.py skipped (no CF_ANALYTICS_TOKEN in shell). **Action:** `scripts/check_llms_txt.py` (every sitemap URL must be in llms.txt) wired into `check_all.sh`; negative-tested, all guards pass. No deploy (nothing served changed). Next: GetUrlInfo on the card 11-12/13, resubmit only at 3+ days.

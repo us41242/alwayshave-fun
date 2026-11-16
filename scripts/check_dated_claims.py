@@ -29,6 +29,12 @@ CLAIMS = [
      "homepage ranked tier table repeats the Olympus deadline"),
     ("guides/resorts-world-genting-rewards-tiers/index.html", "2027-01-04", "January 4, 2027",
      "Genting Rewards tier year rolls over 2027-01-05; thresholds may change"),
+    ("guides/players-cards-compared/index.html", "2026-12-31", "its offer ends <b>December 31, 2026</b>",
+     "Caesars Diamond Tier Match offer period (caesars.com/myrewards/promotions/diamond-tier-upgrade + T&C); also the pointers on caesars-diamond and station pages"),
+    ("guides/caesars-diamond/index.html", "2026-12-31", "new members only, through December 31, 2026",
+     "Caesars Diamond Tier Match pointer"),
+    ("guides/station-boarding-pass-tiers/index.html", "2026-12-31", "Through December 31, 2026, Caesars upgrades",
+     "Caesars Diamond Tier Match pointer"),
 ]
 
 def main(today):

@@ -26,4 +26,20 @@ k = r(75000, 'vp', true); assert.equal(k.earn, 25000); assert.deepEqual(k.days, 
 assert.equal(r(15000, 'vp', true, 15000).loss, 0); assert.equal(r(15000, 'vp', true, 20000).need, 0);
 assert.equal(r(15000, 'slots', true).sd, null); assert.equal(r(15000, 'vp', true, 0, 0).hours, 0);
 for (const s of ['$75,000', '$6,000', '$25,000', '$2,000', '$150,000', '$690', '$50,000', '$230', '$4,900', '2,000 hands', '$115', '$414', '$1,150', '$3,450', '$30,000', '$10,000', '$3,600', '9,000 earned']) assert(html.includes(s), 'copy missing ' + s);
+// forward Tier Credit calculator (#tc-calc): play -> credits, one bonus level per day on gaming only
+const tjs = html.split('<script>').slice(1).map(x => x.split('</script>')[0]).find(x => x.includes('function tcx'));
+assert(tjs, 'tier credit calculator script missing');
+const tcx = new Function(tjs + '; return tcx;')();
+let t = tcx({ slots: 5000 }); assert.deepEqual([t.base, t.bonus, t.total, t.tier, t.next.need, t.loss, t.freePlay], [1000, 1000, 2000, 'Gold', 3000, 400, 5]);
+assert(html.includes('id="t-total">2,000<'), 'default output must match tcx default');
+t = tcx({ slots: 25000 }); assert.equal(t.total, 15000); assert.equal(t.tier, 'Diamond');          // Diamond in a day, as the copy says
+t = tcx({ slots: 25000, oneDay: false }); assert.equal(t.total, 5000); assert.equal(t.tier, 'Platinum');
+t = tcx({ vp: 50000 }); assert.equal(t.total, 15000); assert.equal(Math.round(t.loss), 230);        // the $230 route
+t = tcx({ slots: 12500 }); assert.equal(t.total, 7500);                                              // 2,500 -> +5,000
+t = tcx({ slots: 2500 }); assert.equal(t.bonus, 125);
+t = tcx({ spend: 5000 }); assert.equal(t.bonus, 0); assert.equal(t.total, 5000);                    // spend never triggers the bonus
+t = tcx({ spend: 15000, oneDay: false }); assert.equal(t.tier, 'Diamond');                           // $15,000 no-gambling Diamond
+t = tcx({ have: 149999, slots: 5 }); assert.equal(t.tier, 'Seven Stars (invitation only)'); assert.equal(t.next, null);
+t = tcx({ have: 24999 }); assert.equal(t.tier, 'Diamond'); assert.equal(t.next.need, 1);
+for (const s of ['0&ndash;4,999', '5,000&ndash;14,999', '15,000&ndash;24,999', '25,000&ndash;74,999', '75,000&ndash;149,999', '150,000+', '$1 per 200 Reward Credits', '0.1%']) assert(html.includes(s), 'tier table missing ' + s);
 console.log('ok');

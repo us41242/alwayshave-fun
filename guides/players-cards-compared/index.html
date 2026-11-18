@@ -86,8 +86,8 @@ if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriv
       <select id="game"><option value="slots">Slots</option><option value="vp">Video poker</option></select>
     </label>
   </div>
-  <table id="out"></table>
-  <p class="why" id="note"></p>
+  <table id="out"><tbody><tr><th>Program</th><th>Base rebate</th><th>Back on this trip</th></tr><tr><td>Caesars Rewards</td><td>0.20%</td><td><b>$14.00</b> <small class="na">100 RC = $1</small></td></tr><tr><td>MGM Rewards</td><td class="na">not published</td><td class="na">—</td></tr><tr><td>Boyd Rewards</td><td>0.10%</td><td><b>$7.00</b> <small class="na">Sapphire+ only</small></td></tr><tr><td>Station Boarding Pass</td><td>0.10%</td><td><b>$7.00</b> <small class="na">cash back allowed</small></td></tr><tr><td>Wynn Rewards</td><td>0.20%</td><td><b>$14.00</b> <small class="na">some VP machines 1 per $20</small></td></tr></tbody></table>
+  <p class="why" id="note">For scale: the same $7,000 through a 0.46% video poker game costs about $32 in expected loss; through an 8% slot, about $560.</p>
 </div>
 
 <h2 id="tiers">Tiers: what they cost to reach</h2>
@@ -117,8 +117,8 @@ if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriv
     <label>Bet per spin or hand $ <input id="tp-bet" type="number" min="0.25" step="0.25" value="1.25"></label>
   </div>
   <label id="tp-when-wrap">How you play it <select id="tp-when"><option value="spread">Spread out over the year</option><option value="bonus">Timed to the daily Tier Credit bonus</option></select></label>
-  <table id="tp-out"></table>
-  <p class="why" id="tp-note"></p>
+  <table id="tp-out"><tbody><tr><th colspan="2">Caesars Rewards Diamond, within one calendar year</th></tr><tr><td>Tier Credits you earn</td><td>15,000</td></tr><tr><td>Coin-in (the published price)</td><td>$75,000</td></tr><tr><td>Expected loss (the real price)</td><td><b>$6,000</b></td></tr><tr><td>Time at $1.25 a spin</td><td>100 hours</td></tr></tbody></table>
+  <p class="why" id="tp-note">Same tier on 9/6 video poker played right: $150,000 of coin-in, $690 expected loss.</p>
 </div>
 <p class="why">Edges: 8% is the reel-slot hold the <a href="/casino-comps/#rated">comps guide</a> uses; 0.46% is 9/6 Jacks or Better with perfect strategy (Shackleford, wizardofodds.com), and only if you find that pay table and play it right &mdash; the <a href="/video-poker-trainer/">trainer</a> drills it. Time assumes 600 spins or hands an hour, a common estimate, not a published figure. Earn rates and thresholds are the programs&rsquo; own, cited in the footnotes above; machines marked with lower rates earn less.</p>
 
@@ -164,7 +164,7 @@ if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriv
     <label>Boyd Points <input id="bpts" type="number" step="1000" min="0" value="47000"></label>
     <label>Tier Credits this year <input id="btc" type="number" step="1000" min="0" value="41000"></label>
   </div>
-  <p id="bout" class="why"></p>
+  <p id="bout" class="why"><b>$47.00</b> of FastPlay or retail. At the base rate that is $47,000 of slot play or $94,000 of video poker. Tier: <b>Emerald</b>, 9,000 Tier Credits short of Onyx. Carryover into next year if the year ended now: 5,000.</p>
 </div>
 <h3>Station Casinos Boarding Pass</h3>
 <p>Red Rock, Green Valley Ranch, Durango, Palace, Boulder, Sunset, Santa Fe, and the Wildfire locations. Same 1-per-$1 slots, 1-per-$2 video poker, 1,000-to-the-dollar structure as Boyd, with one difference that matters to locals: points can be taken as <b>cash back</b>, not only free play. Live table games have earned no points since April 2020. Tier status is judged every six months, so it is easier to hold than a calendar-year program if you play year-round and harder if you visit once. Status credits also come from hotel stays at 50 per $1, so <a href="/station-boarding-pass-tiers/">Station's tiers are priced here</a> in rooms and dining as well as play.</p>

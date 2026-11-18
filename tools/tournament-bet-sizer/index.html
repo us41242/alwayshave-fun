@@ -64,7 +64,12 @@ if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriv
     <label>Table minimum / chip $ <input id="chip" type="number" inputmode="numeric" min="1" step="1" value="25"></label>
   </div>
   <label>Table maximum $ (blank = no max) <input id="max" type="number" inputmode="numeric" min="0" step="1" placeholder="none"></label>
-  <div class="out" id="out"></div>
+  <div class="out" id="out"><span class="tag">Chase · $800 behind</span><div class="big">$1,325</div><small>Covers their flat bet: a win clears them even if they also win.</small><table>
+        <tbody><tr><th>Cover their flat bet</th><td>$1,325</td><td class="ok">reachable</td></tr>
+        <tr><th>Cover their double</th><td>$1,825</td><td class="no">out of reach</td></tr>
+        <tr><th>Reach with your double</th><td>$675</td><td class="ok">reachable</td></tr>
+        <tr><th>Reach with a natural</th><td>$875</td><td class="ok">reachable</td></tr>
+      </tbody></table><p class="why">Betting to lose is off: their bet ($500) doesn't exceed the gap by a full chip, so the dealer beating you both doesn't put you ahead.</p></div>
 </div>
 
 <h2>How it decides</h2>

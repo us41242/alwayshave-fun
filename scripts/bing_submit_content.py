@@ -8,6 +8,7 @@ from datetime import datetime,timezone
 K=open("/Users/joshuaedrake/Documents/breakingeven.online/.credentials/bing-api-key.txt").read().strip()
 API="https://ssl.bing.com/webmaster/api.svc/json/"; S="https://alwayshave.fun/"
 R="/Users/joshuaedrake/Documents/alwayshave-fun"
+sys.path.insert(0,R+"/scripts"); from sitemap_lastmod import git_date
 
 CACHE=R+"/logs/bing-crawl-dates.json"  # {slug: {"crawled": date|"never", "checked": date}}; survives the GetUrlInfo throttle
 def stale():
@@ -17,7 +18,7 @@ def stale():
     today=datetime.now(timezone.utc).strftime("%Y-%m-%d"); out=[]; throttled=None
     for slug,f in routes:
         key=slug or "home"
-        edited=subprocess.run(["git","-C",R,"log","-1","--format=%cs","--",f],capture_output=True,text=True).stdout.strip()
+        edited=git_date(f.lstrip("/"))  # skips .lastmod-ignore-revs, same date the sitemap shows
         u=S+(slug+"/" if slug else "")
         if cache.get(key,{}).get("checked")==today: crawled=cache[key]["crawled"]
         elif throttled: crawled=None

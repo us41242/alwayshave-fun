@@ -17,9 +17,20 @@ R = "/Users/joshuaedrake/Documents/alwayshave-fun"
 SM = R + "/sitemap.xml"
 
 
+# Commits that touched a page without changing what a reader or crawler gets from it (e.g. the
+# 11-18 beacon tweak on all 16 pages). Listed there, they don't move lastmod, and
+# bing_submit_content --stale doesn't resubmit for them. Same idea as .git-blame-ignore-revs.
+IGNORE = R + "/.lastmod-ignore-revs"
+
+
 def git_date(f):
-    d = subprocess.run(["git", "-C", R, "log", "-1", "--format=%cs", "--", f],
-                       capture_output=True, text=True).stdout.strip()
+    try:
+        skip = {l.split()[0] for l in open(IGNORE) if l.strip() and not l.startswith("#")}
+    except FileNotFoundError:
+        skip = set()
+    log = subprocess.run(["git", "-C", R, "log", "--format=%H %cs", "--", f],
+                         capture_output=True, text=True).stdout.split("\n")
+    d = next((l.split()[1] for l in log if l and l.split()[0] not in skip), "")
     if not d:
         sys.exit("no git date for " + f)
     return d
@@ -53,4 +64,5 @@ def main(check):
         sys.exit("missing from sitemap: " + ", ".join(sorted(missing)))
 
 
-main("--check" in sys.argv)
+if __name__ == "__main__":
+    main("--check" in sys.argv)

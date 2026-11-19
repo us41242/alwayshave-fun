@@ -59,9 +59,11 @@
    Cloudflare's free plan refuses clientRefererHost (authz error, checked 11-06), so this beacon is
    the only way to know which channel sent an arrival — the question "distribution or conversion?"
    turns on it. https only, which keeps local file:// checks out of the data, and skips automation
-   UAs (our own headless checks, naive scrapers). Identical on every page;
+   UAs (our own headless checks, naive scrapers). Back/forward and reload re-run this with the
+   ORIGINAL referrer (11-13: one Bing reader counted twice), so only a fresh navigation counts.
+   Identical on every page;
    scripts/check_arrival_beacon.js asserts that. */
-if (location.protocol === 'https:' && navigator.sendBeacon && !navigator.webdriver && !/Headless|bot|crawl|spider/i.test(navigator.userAgent)) { var r = (document.referrer || '').split('/')[2] || '', s = r === location.host ? 'internal' : r.toLowerCase().replace(/^www\./, '').replace(/[^a-z0-9.-]/g, ''); navigator.sendBeacon('/e/v-' + (location.pathname.replace(/\//g, '') || 'home') + '~' + (!r ? 'direct' : /[a-z0-9]/.test(s) ? s : 'other')); }</script>
+if (location.protocol === 'https:' && navigator.sendBeacon && !/back_forward|reload/.test(((window.performance && performance.getEntriesByType && performance.getEntriesByType('navigation')[0]) || {}).type) && !navigator.webdriver && !/Headless|bot|crawl|spider/i.test(navigator.userAgent)) { var r = (document.referrer || '').split('/')[2] || '', s = r === location.host ? 'internal' : r.toLowerCase().replace(/^www\./, '').replace(/[^a-z0-9.-]/g, ''); navigator.sendBeacon('/e/v-' + (location.pathname.replace(/\//g, '') || 'home') + '~' + (!r ? 'direct' : /[a-z0-9]/.test(s) ? s : 'other')); }</script>
 </head>
 <body>
 <div class="wrap">

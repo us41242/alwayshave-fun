@@ -32,9 +32,12 @@ assert.equal(urls.length, 16, 'sitemap page count changed: ' + urls.length);
 const slug = p => '/e/v-' + (p.replace(/\//g, '') || 'home');
 
 let first = null;
-const run = (loc, nav, doc = { referrer: '' }) => new Function('location', 'navigator', 'document',
-  `let sent; navigator.sendBeacon = u => sent = u;
-  ${first.replace(/^<script>|<\/script>$/g, '')} return sent;`)(loc, nav, doc);
+const run = (loc, nav, doc = { referrer: '' }, navType = 'navigate') => {
+  const performance = { getEntriesByType: t => t === 'navigation' && navType ? [{ type: navType }] : [] };
+  return new Function('location', 'navigator', 'document', 'window', 'performance',
+    `let sent; navigator.sendBeacon = u => sent = u;
+    ${first.replace(/^<script>|<\/script>$/g, '')} return sent;`)(loc, nav, doc, { performance }, performance);
+};
 for (const u of urls) {
   const f = FILE[u] || 'guides' + u + 'index.html';
   const b = block(fs.readFileSync(path.join(root, f), 'utf8'));
@@ -69,5 +72,13 @@ assert.equal(src('https://例/'), 'other', 'a host with nothing left after sanit
 assert.equal(run({ protocol: 'file:', pathname: '/tmp/x/index.html' }, human), undefined, 'file:// must not beacon');
 assert.equal(run(https, { ...human, webdriver: true }), undefined, 'navigator.webdriver must not beacon');
 assert.equal(run(https, { ...human, userAgent: 'HeadlessChrome/157.0.0.0' }), undefined, 'HeadlessChrome must not beacon');
+// 11-13: a back-navigation re-fired the beacon with the original bing.com referrer, so one reader
+// showed as two search arrivals. Only a fresh navigation is an arrival; old browsers without
+// Navigation Timing (no entry) must still count.
+const bing = { referrer: 'https://www.bing.com/' };
+assert.equal(run(https, human, bing, 'back_forward'), undefined, 'back/forward is not a new arrival');
+assert.equal(run(https, human, bing, 'reload'), undefined, 'a reload is not a new arrival');
+assert.equal(run(https, human, bing, 'navigate'), '/e/v-casino-comps~bing.com', 'a fresh navigation counts');
+assert.equal(run(https, human, bing, null), '/e/v-casino-comps~bing.com', 'no Navigation Timing entry still counts');
 console.log('ok: arrival beacon identical on all ' + urls.length
   + ' pages, slugs match their URLs, source buckets host-only, filters hold');

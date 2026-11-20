@@ -35,6 +35,8 @@ CLAIMS = [
      "Caesars Diamond Tier Match pointer"),
     ("guides/station-boarding-pass-tiers/index.html", "2026-12-31", "Through December 31, 2026, Caesars upgrades",
      "Caesars Diamond Tier Match pointer"),
+    ("guides/wynn-rewards-tiers/index.html", "2026-12-31", "for new Caesars members through December 31, 2026",
+     "Caesars Diamond Tier Match pointer (Wynn Platinum/Black are eligible cards)"),
 ]
 
 def main(today):

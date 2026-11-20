@@ -9,7 +9,7 @@ R = "/Users/joshuaedrake/Documents/alwayshave-fun/guides/"
 PAGES = [("caesars-diamond", "Caesars Diamond"), ("caesars-olympus", "Caesars Olympus"),
          ("mgm-gold-platinum", "MGM Gold and Platinum"), ("resorts-world-genting-rewards-tiers", "Resorts World Genting Rewards"),
          ("station-boarding-pass-tiers", "Station Boarding Pass"), ("venetian-rewards-tiers", "Venetian Rewards"),
-         ("boyd-rewards-tiers", "Boyd Rewards")]
+         ("boyd-rewards-tiers", "Boyd Rewards"), ("wynn-rewards-tiers", "Wynn Rewards")]
 bad = 0
 for slug, _ in PAGES:
     f = R + slug + "/index.html"; t = open(f).read()

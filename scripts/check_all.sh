@@ -13,7 +13,7 @@ if [ "$B" = live ]; then
   OLY=$(P /caesars-olympus/ oly); MGM=$(P /mgm-gold-platinum/ mgm); RW=$(P /resorts-world-genting-rewards-tiers/ rw)
   STN=$(P /station-boarding-pass-tiers/ stn); VEN=$(P /venetian-rewards-tiers/ ven); TEV=$(P /tournament-ev-calculator/ tev)
   VP=$(P /video-poker-trainer/ vp); BOYD=$(P /boyd-rewards-tiers/ boyd); CARD=$(P /tournament-card/ card)
-  BS=$(P /tournament-bet-sizer/ bs)
+  BS=$(P /tournament-bet-sizer/ bs); WYNN=$(P /wynn-rewards-tiers/ wynn)
 else
   PC=guides/players-cards-compared/index.html; HM=index.html; DIA=guides/caesars-diamond/index.html
   OLY=guides/caesars-olympus/index.html; MGM=guides/mgm-gold-platinum/index.html
@@ -21,13 +21,14 @@ else
   RW=guides/resorts-world-genting-rewards-tiers/index.html; STN=guides/station-boarding-pass-tiers/index.html
   VEN=guides/venetian-rewards-tiers/index.html; TEV=tools/tournament-ev-calculator/index.html
   VP=games/video-poker/index.html; CARD=tools/tournament-card/index.html
-  BS=tools/tournament-bet-sizer/index.html
+  BS=tools/tournament-bet-sizer/index.html; WYNN=guides/wynn-rewards-tiers/index.html
 fi
 r=0
 run() { printf '%-28s ' "$1"; shift; if "$@" >/tmp/g.out 2>&1; then tail -1 /tmp/g.out; else echo "FAIL"; cat /tmp/g.out; r=1; fi; }
 run binions          node scripts/check_binions.js $PC
 run boyd_points      node scripts/check_boyd_points.js $PC
 run boyd_tiers       node scripts/check_boyd_tiers.js $BOYD
+run wynn             node scripts/check_wynn_page.js $WYNN
 run tier_calc        node scripts/check_tier_calc.js $PC
 run no_gambling      node scripts/check_no_gambling_table.js $PC
 run diamond          node scripts/check_diamond_page.js $DIA
@@ -49,7 +50,7 @@ run manifest         python3 scripts/check_manifest.py
 run llms_txt         python3 scripts/check_llms_txt.py
 run tier_links       python3 scripts/check_tier_links.py
 run arrival_beacon   node scripts/check_arrival_beacon.js
-run static_defaults  python3 scripts/check_static_defaults.py $BS $TEV $BOYD $DIA $OLY $MGM $PC $RW $STN $VEN
+run static_defaults  python3 scripts/check_static_defaults.py $BS $TEV $BOYD $DIA $OLY $MGM $PC $RW $STN $VEN $WYNN
 run sitemap_lastmod  python3 scripts/sitemap_lastmod.py --check
 echo "=== exit $r"
 exit $r

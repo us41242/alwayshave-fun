@@ -84,9 +84,12 @@ PROGRAMS = [
          "$4.99 of virtual coin purchases earns 1 Tier Credit</b> and <b>$0.99 earns 150 Boyd Points"),
         ("llms.txt", "1 per $1 reel/keno coin-in, 1 per $2 video poker, 1,000 = $1"),
      ]),
-    ("Wynn Rewards", "2026-09-22",
-     "wynnlasvegas.com/wynn-rewards", [
+    ("Wynn Rewards", "2026-11-19",
+     "wynnlasvegas.com/wynn-rewards + wynnlasvegas.com/terms/wynn-rewards", [
         (PC, "1 point per $5 on slots; video poker is 1 per $10 or 1 per $20"),
+        ("guides/wynn-rewards-tiers/index.html",
+         "const PER_PT = { slots: 5, vp10: 10, vp20: 20 }, BONUS = { Red: 1, Platinum: 1.2, Black: 1.3 };"),
+        ("llms.txt", "1 per $5 slots, 1 per $10 or $20 video poker, 500 = $5 FREE CREDIT (+20% Platinum, +30% Black)"),
      ]),
     ("Binion's / Four Queens All Access", "2026-10-31",
      "binions.com/gaming/all_access + fourqueens.com/gaming/all_access + promo flyer slot", [

@@ -24,5 +24,5 @@ assert.equal(20000 * 0.01 + 100 + 200 + 600, 1100);
 assert.equal(r(75000, true, 0, 1, 0.46).loss, 40000 * 0.0046);
 // edges
 assert.equal(r(75000, true, 80000).need, 0); assert.equal(r(75000, true, 75000).spend, 0); assert.equal(r(75000, true, 0, 0).spend, 0);
-for (const s of ['$18,750', '$10,000', '$50,000', '$20,000', '$5,000', '$3,750', '$1,100', '$100 Tier Celebration Credit', '<b>$200</b>', 'up to $600', '0.46%', 'December 31, 2026']) assert(html.includes(s), 'copy missing ' + s);
+for (const s of ['$18,750', '$10,000', '$50,000', '$20,000', '$5,000', '$3,750', '$1,100', '$100 Tier Celebration Credit', '<b>$200</b>', 'up to $600', '0.46%', 'December 31, 2026', 'id="questions"', 'not the nightly room rate', '<b>90 days</b>', 'href="#gaming"', 'id="gaming"']) assert(html.includes(s), 'copy missing ' + s);
 console.log('ok');

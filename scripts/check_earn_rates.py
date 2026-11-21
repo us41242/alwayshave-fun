@@ -45,7 +45,7 @@ PROGRAMS = [
         ("index.html",
          "Caesars pays 1 Tier Credit per $5 on reel slots and 1 per $10 on video poker"),
      ]),
-    ("MGM Rewards", "2026-10-11",
+    ("MGM Rewards", "2026-11-20",
      "mgmresorts.com/en/mgm-rewards (earn, tiers, daily-tier-status-accelerator)", [
         ("guides/mgm-gold-platinum/index.html",
          "4 Tier Credits per $1 on hotel stays, dining, shows and spa"),

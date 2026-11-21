@@ -37,6 +37,8 @@ CLAIMS = [
      "Caesars Diamond Tier Match pointer"),
     ("guides/wynn-rewards-tiers/index.html", "2026-12-31", "for new Caesars members through December 31, 2026",
      "Caesars Diamond Tier Match pointer (Wynn Platinum/Black are eligible cards)"),
+    ("guides/mgm-gold-platinum/index.html", "2026-12-31", "MGM hasn't said. Its Accelerator page, read 2026-11-20",
+     "MGM #questions 'Will the Accelerator run in 2027?': re-read the Accelerator page; answer with what MGM announced"),
 ]
 
 def main(today):

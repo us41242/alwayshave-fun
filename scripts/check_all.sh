@@ -25,6 +25,7 @@ else
 fi
 r=0
 run() { printf '%-28s ' "$1"; shift; if "$@" >/tmp/g.out 2>&1; then tail -1 /tmp/g.out; else echo "FAIL"; cat /tmp/g.out; r=1; fi; }
+run players_card_def node scripts/check_players_card_def.js $PC
 run binions          node scripts/check_binions.js $PC
 run boyd_points      node scripts/check_boyd_points.js $PC
 run boyd_tiers       node scripts/check_boyd_tiers.js $BOYD

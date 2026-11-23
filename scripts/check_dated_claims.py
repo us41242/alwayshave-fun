@@ -39,6 +39,10 @@ CLAIMS = [
      "Caesars Diamond Tier Match pointer (Wynn Platinum/Black are eligible cards)"),
     ("guides/mgm-gold-platinum/index.html", "2026-12-31", "MGM hasn't said. Its Accelerator page, read 2026-11-20",
      "MGM #questions 'Will the Accelerator run in 2027?': re-read the Accelerator page; answer with what MGM announced"),
+    ("guides/caesars-olympus/index.html", "2026-12-31", "Caesars hasn't announced one. Its Olympus page, read 2026-11-22",
+     "Olympus #questions events answer + 'hasn't said' 2027 threshold: re-read caesars.com/myrewards/olympus"),
+    ("guides/caesars-olympus/index.html", "2027-01-31", "redeemed by January 31, 2027",
+     "Seven Stars 2026 Signature Experiences redemption deadline; then re-read for the 2027 program"),
 ]
 
 def main(today):

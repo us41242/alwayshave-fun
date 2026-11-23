@@ -20,4 +20,7 @@ assert.equal(r('vp', true, 300000).loss, 0); assert.equal(r('vp', true, 450000).
 k = r('vp', true, 290000); assert.equal(k.need, 10000); assert(k.earn <= 5000 && k.earn >= 3334);
 assert.equal(r('slots', true).sd, null); assert.equal(r('vp', true, 0, 0).hours, 0);
 for (const s of ['$1,500,000', '$120,000', '$500,000', '$40,000', '$3,000,000', '$13,800', '$1,000,000', '$4,600', '$22,000', '$700 to $1,400']) assert(html.includes(s), 'copy missing ' + s);
+// #questions (2026-11-22): $450 free slot play is "about a tenth" of the cheapest route's loss; dates and credit levels as read
+assert.equal(Math.round(450 / r('vp', true).loss * 10), 1, '$450 vs cheapest loss is no longer about a tenth');
+for (const s of ['id="questions"', 'Founder\'s Party at Caesars Palace Las Vegas in March 2027', 'Experience Credit for every 250,000 Tier Credits', '$450 of free slot play', '$800 Forum Shops gift card', 'redeemed by January 31, 2027', 'finished by June 30, 2027', 'WSOP Online', 'don\'t trigger the daily bonus', 'gives back about a tenth']) assert(html.includes(s), 'questions copy missing ' + s);
 console.log('ok');

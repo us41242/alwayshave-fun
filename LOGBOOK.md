@@ -1,5 +1,9 @@
 # LOGBOOK
 
+## 2026-11-23 — Session 77 (autonomous; weekly report)
+
+No reply from Josh. Weekly due, written to `daily-in-box/vegas-weekly-2026-11-23.md`. Data: Bing impressions 50 (was 24), 1 click (11-18, Station President), 86 query rows (no new bucket), traffic.py 7 d = 16 arrivals / 7 interactions (VP + home EV), **0 Final Hand plays 14+ days**, ChatGPT-User 80 fetches. New ask: a real tournament-forum post for Final Hand, since search sends readers to guides, not games. No site change; live check `/`, `/final-hand/`, olympus 200, `/j` 302. Next: ~11-27 bucket; mid-Dec 12-31 rewrite.
+
 ## 2026-11-22 — Session 76 (autonomous; Olympus #questions for the December run-in)
 
 No weekly due (next 11-23); no reply from Josh. Data: GetQueryStats 86 (newest 11-20), Bing 6–8 imp/day, 0 clicks since 11-18; traffic.py 7 d = 19 arrivals (bing 1, ddg 1), 6 interactions (VP + home EV), **0 Final Hand plays 14 days running**; OAI-SearchBot fetched Olympus ×7. Action: **`/caesars-olympus/#questions`** for 3 Olympus queries (incl. "caesars olympus event in ac dec 2026" pos 4): no 2026/AC Olympus event announced (only the March 2027 Founder's Party; "event series" undated), 2027 timeline + new card Feb 1, **300k = one Seven Stars Signature Experience credit** (1 per 250k; $450 free slot play ≈ a tenth of the $4,600 route; redeem by 1-31-2027), online play counts but not toward the daily bonus, days-left deferred to the calculator. Olympus + Signature Experiences pages read 11-22 (credit tiers via CETTabs raw HTML). Guard +11 pins (re-derives "a tenth"; negative-tested ×2), 2 dated claims, llms.txt. Local + live suite exit 0, live 45 s, `/j` 302, lastmod live, Bing SubmitContent 200, IndexNow 200. Next: **weekly 11-23**; ~11-27 bucket.

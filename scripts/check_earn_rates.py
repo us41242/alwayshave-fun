@@ -52,7 +52,7 @@ PROGRAMS = [
         (PC, "Points are worth one cent and Tier Credits are 4 per $1 on non-gaming spend"),
         ("index.html", "$18,750 of spend at 4 per $1"),
      ]),
-    ("Station Boarding Pass", "2026-11-07",
+    ("Station Boarding Pass", "2026-11-24",
      "stationcasinos.com/my-rewards-boarding-pass/ + Official Rules + 2026 Brochure PDF", [
         ("guides/station-boarding-pass-tiers/index.html",
          "Slots earn 3 credits per $1 and video poker earns 1. Hotel stays earn <b>50</b>"),

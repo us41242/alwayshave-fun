@@ -31,4 +31,13 @@ assert.equal((6.5 / 3).toFixed(1), '2.2');
 assert.equal(stnx({ goal: 40000, have: 50000 }).need, 0); assert.equal(stnx({ goal: 40000, spend: { hotel: -5 } }).need, 40000);
 assert.equal(periodEnd(new Date(2026, 5, 30)), 'June 30, 2026'); assert.equal(periodEnd(new Date(2026, 6, 1)), 'December 31, 2026');
 for (const s of ['$13,334', '$40,000', '$800 of hotel stays', '395 days', '179 days', '6.50%', '0.46%', 'March 31, 2020', 'about $28', 'about $130']) assert(html.includes(s), 'copy missing ' + s);
+// questions section (2026-11-24): every price is the calculator's own arithmetic; benefits are Station's chart, re-read 2026-11-24
+for (const [g, h, s, sl, v, vl] of [[40000, 800, 13334, 867, 40000, 184], [100000, 2000, 33334, 2167, 100000, 460], [300000, 6000, 100000, 6500, 300000, 1380]]) {
+  assert.equal(stnx({ goal: g, spend: { hotel: h } }).need, 0);
+  const a = stnx({ goal: g, game: 'slots', edge: 6.5 }), b = stnx({ goal: g, game: 'vp', edge: 0.46 });
+  assert.equal(a.coin, s); assert.equal(Math.round(a.loss), sl); assert.equal(b.coin, v); assert.equal(Math.round(b.loss), vl);
+  assert(html.includes(`${$(h)} of hotel stays, ${$(s)} of slot coin-in (about ${$(sl)} expected loss) or ${$(v)} of video poker coin-in (about ${$(vl)})`), 'question price ' + g);
+}
+assert.equal(2 * 6000, 12000); assert.equal(2 * Math.round(stnx({ goal: 300000, game: 'vp', edge: 0.46 }).loss), 2760);
+for (const s of ['id="questions"', '20% instead of 15%', '$12,000 of hotel stays a year or about $2,760', 'keep it for the next six months', '5% off Kids Quest and Cyber Quest', 'taxes, fees and port expenses', 're-read 2026-11-07 and 2026-11-24']) assert(html.includes(s), 'copy missing ' + s);
 console.log('ok');

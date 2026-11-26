@@ -47,7 +47,14 @@
   .handmeter{font-family:"Big Shoulders Display", Impact, sans-serif;font-weight:700;font-size:1.5rem;letter-spacing:.05em;color:var(--brass)}
   .handmeter small{color:var(--dim);font-size:1rem;font-weight:500}
   .board{display:grid;grid-template-columns:1fr 300px;gap:1rem}
-  @media(max-width:820px){.board{grid-template-columns:1fr}}
+  @media(max-width:820px){.board{grid-template-columns:1fr}
+    /* ponytail: one column puts the coach under log + standings, off a phone's first screens.
+       Flatten the two column wrappers and order the coach straight after the table. */
+    .board>div{display:contents}
+    .board .panel{order:3;margin:0!important} /* grid gap spaces them; !important beats the log's inline margin */
+    .board .table{order:1}
+    .board #coachPanel{order:2}
+  }
   .table{background:rgba(0,0,0,.18);border:1px solid var(--line);border-radius:14px;padding:1rem}
   .dealer{border-bottom:1px dashed var(--line);padding-bottom:.8rem;margin-bottom:.8rem}
   .seats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.6rem}
@@ -511,11 +518,12 @@ function coachText(){
   const live=[...P].filter(p=>!p.out).sort((a,b)=>b.stack-a.stack);
   const leader=live[0], rank=live.indexOf(you)+1;
   const gap=leader.stack-you.stack;
+  const tied=gap===0&&live.length>1&&live[1].stack===leader.stack; // sort order isn't rank when stacks are equal (every hand 1)
   const myPos=order.findIndex(p=>p.style==='you')+1;
   const leadPos=order.findIndex(p=>p===leader)+1;
   let s='';
   if(phase==='bet'){
-    s+=`<p>You are <b>#${rank} of ${live.length}</b>, ${gap>0?`<b>${fmt(gap)}</b> behind ${leader.name}`:'the leader'}. You bet <b>${myPos}${['','st','nd','rd'][myPos]||'th'}</b> this hand${leader!==you?` — ${leader.name} bets ${leadPos<myPos?'<b>before</b> you (you can see their bet)':'<b>after</b> you'}`:''}.</p>`;
+    s+=`<p>You are ${tied?'<b>tied for the lead</b>':`<b>#${rank} of ${live.length}</b>, ${gap>0?`<b>${fmt(gap)}</b> behind ${leader.name}`:'the leader'}`}. You bet <b>${myPos}${['','st','nd','rd'][myPos]||'th'}</b> this hand${leader!==you&&!tied?` — ${leader.name} bets ${leadPos<myPos?'<b>before</b> you (you can see their bet)':'<b>after</b> you'}`:''}.</p>`;
     if(handNo<=10){
       s+=`<p class="why">Hands 1–10: bet the minimum, play perfect basic strategy, and track every stack. Cheap survival now buys you a clean shot at the endgame.</p>`;
     }else if(leader===you){
@@ -530,7 +538,7 @@ function coachText(){
   }else if(phase==='play'){
     s+=`<p class="why">Basic strategy unless the endgame says otherwise. On hands 14–15, ask: "which outcome wins me the table?" — then play toward that outcome, even if it means standing on 16 or doubling a bad total for more money.</p>`;
   }else if(phase==='settle'){
-    s+=`<p>You are <b>#${rank} of ${live.length}</b>${gap>0?`, ${fmt(gap)} behind ${leader.name}`:' — leading'}. ${HANDS-handNo} hand${HANDS-handNo===1?'':'s'} left.</p>`;
+    s+=`<p>You are ${tied?'<b>tied for the lead</b>':`<b>#${rank} of ${live.length}</b>${gap>0?`, ${fmt(gap)} behind ${leader.name}`:' — leading'}`}. ${HANDS-handNo} hand${HANDS-handNo===1?'':'s'} left.</p>`;
   }
   return s;
 }
@@ -581,6 +589,8 @@ function renderControls(){
   if(phase==='bet'){
     if(you.out){ c.innerHTML=`<button onclick="skipYouBet()">Deal (you're out)</button>`; return; }
     const cap=Math.min(you.stack,MAX);
+    // A cold visitor's first screen: say what the game is and what to do, right above the Bet button.
+    if(handNo===1) $('msg').textContent='Blackjack tournament: 6 players, 15 hands, most chips wins the table. Place your bet. The coach suggests the $25 minimum early.';
     c.innerHTML=`<span class="chips">
         ${[25,100,250,500].filter(v=>v<=cap).map(v=>`<button onclick="$('betAmt').value=${v}">${fmt(v)}</button>`).join('')}
         <button onclick="$('betAmt').value=${cap}">Max</button></span>

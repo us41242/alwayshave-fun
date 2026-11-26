@@ -13,7 +13,7 @@ if [ "$B" = live ]; then
   OLY=$(P /caesars-olympus/ oly); MGM=$(P /mgm-gold-platinum/ mgm); RW=$(P /resorts-world-genting-rewards-tiers/ rw)
   STN=$(P /station-boarding-pass-tiers/ stn); VEN=$(P /venetian-rewards-tiers/ ven); TEV=$(P /tournament-ev-calculator/ tev)
   VP=$(P /video-poker-trainer/ vp); BOYD=$(P /boyd-rewards-tiers/ boyd); CARD=$(P /tournament-card/ card)
-  BS=$(P /tournament-bet-sizer/ bs); WYNN=$(P /wynn-rewards-tiers/ wynn)
+  BS=$(P /tournament-bet-sizer/ bs); WYNN=$(P /wynn-rewards-tiers/ wynn); FH=$(P /final-hand/ fh)
 else
   PC=guides/players-cards-compared/index.html; HM=index.html; DIA=guides/caesars-diamond/index.html
   OLY=guides/caesars-olympus/index.html; MGM=guides/mgm-gold-platinum/index.html
@@ -21,7 +21,7 @@ else
   RW=guides/resorts-world-genting-rewards-tiers/index.html; STN=guides/station-boarding-pass-tiers/index.html
   VEN=guides/venetian-rewards-tiers/index.html; TEV=tools/tournament-ev-calculator/index.html
   VP=games/video-poker/index.html; CARD=tools/tournament-card/index.html
-  BS=tools/tournament-bet-sizer/index.html; WYNN=guides/wynn-rewards-tiers/index.html
+  BS=tools/tournament-bet-sizer/index.html; WYNN=guides/wynn-rewards-tiers/index.html; FH=games/final-hand/index.html
 fi
 r=0
 run() { printf '%-28s ' "$1"; shift; if "$@" >/tmp/g.out 2>&1; then tail -1 /tmp/g.out; else echo "FAIL"; cat /tmp/g.out; r=1; fi; }
@@ -41,6 +41,7 @@ run station_food     node scripts/check_station_food_comps.js $STN
 run venetian         node scripts/check_venetian_page.js $VEN
 run tev              node scripts/check_tev_page.js $TEV
 run tournament_card  node scripts/check_tournament_card.js $CARD
+run final_hand       node scripts/check_final_hand.js $FH
 run home_quiz        node scripts/check_home_quiz.js $HM
 run tier_table       python3 scripts/check_tier_table.py $HM
 run vp_leaks         node scripts/check_vp_leaks.js $VP

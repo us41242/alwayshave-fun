@@ -28,7 +28,7 @@ CLAIMS = [
     ("index.html", "2026-12-31", "300,000 Tier Credits by December 31, 2026",
      "homepage ranked tier table repeats the Olympus deadline"),
     ("guides/resorts-world-genting-rewards-tiers/index.html", "2027-01-04", "January 4, 2027",
-     "Genting Rewards tier year rolls over 2027-01-05; thresholds may change"),
+     "Genting Rewards tier year rolls over 2027-01-05; thresholds may change. Also rewrite #questions: the '2026 GR Tier F&B Credit' kiosk offer name, the 2028/2029 status dates"),
     ("guides/players-cards-compared/index.html", "2026-12-31", "its offer ends <b>December 31, 2026</b>",
      "Caesars Diamond Tier Match offer period (caesars.com/myrewards/promotions/diamond-tier-upgrade + T&C); also the pointers on caesars-diamond and station pages"),
     ("guides/caesars-diamond/index.html", "2026-12-31", "new members only, through December 31, 2026",

@@ -34,4 +34,17 @@ assert.equal(rwx({ goal: 3000, spend: 100, night: 50 }).fromSpend, 550);
 assert.equal(tierYearEnd(new Date(2026, 9, 14)), 'January 4, 2027'); assert.equal(tierYearEnd(new Date(2027, 0, 4)), 'January 4, 2027');
 assert.equal(tierYearEnd(new Date(2027, 0, 5)), 'January 4, 2028');
 for (const t of ['$600 of meals', '$15,000 of dining, retail and spa', '7.74%', '0.46%', 'about $322', 'about $1,548', '5 per $1', '3 per $3.50', '5,000 points are worth $5', 'January 4, 2028', 'up to $600']) assert(html.includes(t), 'copy missing ' + t);
+// #questions (2026-11-26): pins from RW's benefit terms + program terms, and prices re-derived from rwx()
+assert(html.includes('id="questions"'), 'questions section missing');
+assert(!/Tier Credits|which it also calls/.test(html.replace(/also known as Tier Credits/, '')), 'RW calls them Genting Tier Points (re-read 2026-11-26)');
+const q = html.split('id="questions"')[1].split('Rules that decide the plan')[0];
+const vl = g => '$' + Math.round(rwx({ goal: g, game: 'vp', edge: 0.46 }).loss).toLocaleString('en-US');
+assert(q.includes(`about ${vl(3000)} of expected loss for Elite, ${vl(75000)} for Prime, ${vl(250000)} for Monarch and ${vl(1000000)} for Imperial`), 'questions: tier prices drifted from rwx()');
+assert.equal(rwx({ goal: 3000, spend: 600 }).need, 0); assert(q.includes('$600 of restaurant, shop or spa bills'));
+assert.equal(tierYearEnd(new Date(2027, 0, 5)), 'January 4, 2028');   // tier year; status runs one year past it
+for (const t of ['holds through January 4, 2028', 'holds through January 4, 2029', 'within five business days', 'Promotional Kiosk', 'valid for up to 10 days', 'one-time-use credit', 'January 4 is the last day',
+  'Monarch (up to $200) and Imperial (up to $500)', 'twice per tier year, one per trip', 'stay at Resorts World Las Vegas', 'comes back as <b>free play</b>', '24 hours after you activate it',
+  'receive their Tier Level through a tier match program or have been gifted their Tier Level', 'your average bet and how long you play', '20,000,000 Genting Points per calendar year'])
+  assert(q.includes(t), 'questions copy missing: ' + t);
+for (const t of ['LuckLock for up to 20 minutes twice a day', 'LuckLock for up to 30 minutes twice a day', 're-read 2026-11-26']) assert(html.includes(t), 'copy missing ' + t);
 console.log('ok');

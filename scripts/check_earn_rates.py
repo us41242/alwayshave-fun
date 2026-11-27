@@ -68,7 +68,7 @@ PROGRAMS = [
         (PC, "1 Tier Point per $4 of slot coin-in, 1 per $10 on video poker, 2 per $1 of table theo"),
         ("index.html", "$1,500 of resort spend booked direct (2 per $1)"),
      ]),
-    ("Resorts World Genting Rewards", "2026-10-14",
+    ("Resorts World Genting Rewards", "2026-11-26",
      "rwlasvegas.com/genting-rewards (earn-redeem, tier-benefits, disclaimer/terms)", [
         ("guides/resorts-world-genting-rewards-tiers/index.html",
          "Reel slots earn 3 points per $1 of coin-in and video poker 3 per $3.50"),

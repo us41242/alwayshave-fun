@@ -109,6 +109,17 @@ for (const s of [
 ]) assert(all.includes(s), 'source-backed claim missing or reworded: ' + s);
 assert(/Sapphire is the only threshold on this chart that changes the economics/.test(all), 'the chart reading was dropped');
 
+// --- #questions (2026-11-27): numbers re-derived from boyd(), source facts pinned ---------------
+const q = text(sec('questions'));
+assert(q.includes(`${boyd(0, 328).toNext} short of Sapphire`) && boyd(0, 328).tier === 'Ruby', 'questions: 328-credit gap drifted from boyd()');
+const p15 = boyd(15000, 0);
+assert(q.includes(`15,000 Boyd Points are ${money(p15.dollars)}`) && q.includes(`${money(p15.reels)} of reel coin-in or ${money(p15.vp)} of video poker`), 'questions: 15,000 points drifted from boyd()');
+assert(q.includes(`carryover cap is ${BOYD_TIERS[4][2].toLocaleString('en-US')} credits`), 'questions: Titanium carryover cap');
+for (const s of ['two gifts from the Select Onyx Collection, or one from the Premium Onyx+ Collection', 'all 27 Boyd Rewards destinations', 'points accumulate in a single account',
+  '15th of the month after your upgrade', 'no cash value', 'upgraded as soon as you earn', 'events in April', 'location that sent them'])
+  assert(q.includes(s), 'questions copy missing: ' + s);
+assert(!all.includes('Everything else about Onyx+ is unpublished'), "Boyd's FAQ publishes the Onyx+ gift choice");
+
 assert((html.match(/^console\.assert\(/gm) || []).length >= 5, 'the page dropped or commented out its own self-checks');
 
 console.log(`ok  5 bands, 15 benefit rows, rebate ${rebate(REEL_PER_PT)}/${rebate(VP_PER_PT)}, ` +

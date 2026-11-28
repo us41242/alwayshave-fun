@@ -75,7 +75,7 @@ PROGRAMS = [
         (PC, "reel slots earn 3 Genting Points per $1 and video poker 3 per $3.50"),
         ("index.html", "$600 of dining, retail or spa (5 per $1)"),
      ]),
-    ("Boyd Rewards", "2026-11-08",
+    ("Boyd Rewards", "2026-11-27",
      "rewards.boydgaming.com (points & tier credits, tier benefits, carryover, FAQ, program rules PDF)", [
         (PC, "One point per $1 of coin-in on reels, video reels and <b>keno</b>, per $2 on video poker"),
         ("guides/boyd-rewards-tiers/index.html",
